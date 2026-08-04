@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xml:id="book.example">
+ <title>Example</title>
+ <titleabbrev>Example</titleabbrev>
+
+ <preface xml:id="intro.example">
+  &reftitle.intro;
+  <simpara>
+   Placeholder book serving as a template for third-party extension
+   documentation; it will be removed once real extensions are added.
+  </simpara>
+ </preface>
+</book>

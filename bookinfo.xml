@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <info xmlns="http://docbook.org/ns/docbook" xml:id="bookinfo">
+  <pubdate><?dbtimestamp format="Y-m-d"?></pubdate>
+
+  <abstract>
+   <simpara>
+    This manual documents third-party <acronym>PHP</acronym> extensions:
+    extensions that are maintained outside the
+    <literal>php-src</literal> repository, and are typically distributed
+    via <acronym>PECL</acronym> or <acronym>PIE</acronym>.
+   </simpara>
+   <simpara>
+    It complements the main PHP manual, which documents the language
+    itself and the extensions bundled with PHP, available at
+    <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.docs;">&url.php.docs;</link>.
+   </simpara>
+  </abstract>
+
+  <legalnotice xml:id="copyright" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <info><title>Copyright</title></info>
+   <simpara>
+    Copyright © 1997 - <?dbtimestamp format="Y"?> by the PHP Documentation Group.
+    This material may be distributed only subject to the terms and
+    conditions set forth in the Creative Commons Attribution 3.0
+    License or later. The latest version is presently available at
+    <link xlink:href="&url.cc.by;">&url.cc.by;</link>.
+   </simpara>
+  </legalnotice>
+
+ </info>

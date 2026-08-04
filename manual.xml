@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?do-not-translate?>
+<!DOCTYPE PHPDOC [
+
+<!ENTITY % configure SYSTEM "./temp/conf.dtd">
+%configure;
+
+%text-entities;
+
+%translation-defs;
+%translation-snippets;
+%translation-extensions;
+
+%language-defs;
+%language-snippets;
+%language-extensions;
+
+%base-entities;
+%file-entities;
+
+]>
+
+<set xmlns="http://docbook.org/ns/docbook" version="5.2" xml:id="index" xml:lang="&LANG;" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>&ThirdPartyManual;</title>
+ &bookinfo;
+
+ <!--
+  Each third-party extension lives in its own directory under reference/
+  and is included here as a book entity, one per extension.
+ -->
+ <set xml:id="extensions">
+  <title>&ThirdPartyExtensions;</title>
+  &reference.example.book;
+ </set>
+
+</set>
