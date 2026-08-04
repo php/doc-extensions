@@ -19,7 +19,7 @@ RUN echo 'memory_limit = 512M' >> /usr/local/etc/php/conf.d/local.ini
 ENV FORMAT=xhtml
 
 CMD ["sh", "-c", "\
-php doc-base/configure.php --with-lang=extensions --standalone && \
+php doc-base/configure.php --with-base-lang=extensions && \
 exec php phd/render.php \
   --docbook doc-base/.manual.xml \
   --output=/var/www/extensions/output \

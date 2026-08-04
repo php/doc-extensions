@@ -2,6 +2,12 @@
 <?do-not-translate?>
 <!DOCTYPE PHPDOC [
 
+<!--
+ This tree is not named after a language, so &LANG; from conf.dtd would
+ expand to "extensions". We manually override it here: the first declaration wins.
+-->
+<!ENTITY LANG "en">
+
 <!ENTITY % configure SYSTEM "./temp/conf.dtd">
 %configure;
 
@@ -20,7 +26,7 @@
 
 ]>
 
-<set xmlns="http://docbook.org/ns/docbook" version="5.2" xml:id="index" xml:lang="&LANG;" xmlns:xlink="http://www.w3.org/1999/xlink">
+<set xmlns="http://docbook.org/ns/docbook" version="5.2" xml:id="index" xml:lang="&LANG;">
  <title>&ThirdPartyManual;</title>
  &bookinfo;
 
