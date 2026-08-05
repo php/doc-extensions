@@ -21,6 +21,22 @@ were not carried over from the main manual.
 For general guidance on the documentation format, refer to the
 [contribution guidelines](https://doc.php.net/guide/contributing.md).
 
+## Creating this setup
+
+This manual builds on its own, independently of the main manual. The checkout has
+to be named `extensions`, as that is the directory `configure.php` is pointed at:
+
+```bash
+git clone https://github.com/php/doc-extensions extensions
+git clone https://github.com/php/doc-base
+php doc-base/configure.php --disable-libxml-check --with-base-lang=extensions
+```
+
+For general information related to creating this setup, see the
+[contribution guidelines](https://github.com/php/doc-base/blob/master/docs/contributing.md)
+or [this page](https://doc.php.net/tutorial/local-setup.php) on the documentation
+website.
+
 ## Building With make and Docker
 
 - Install Docker (https://docs.docker.com/get-docker/)
