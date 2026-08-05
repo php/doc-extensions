@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
- <info xml:id="bookinfo" xmlns="http://docbook.org/ns/docbook">
+<info xml:id="bookinfo" xmlns="http://docbook.org/ns/docbook">
   <pubdate><?dbtimestamp format="Y-m-d"?></pubdate>
 
   <abstract>

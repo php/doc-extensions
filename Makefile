@@ -31,4 +31,4 @@ temp/.dockerbuilt: .docker/Dockerfile
 	docker build \
 		--build-arg UID=${CURRENT_UID} --build-arg GID=${CURRENT_GID} \
 		.docker -t php/doc-extensions
-	touch temp/.dockerbuilt
+	mkdir -p temp && touch temp/.dockerbuilt
