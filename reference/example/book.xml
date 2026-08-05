@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<book xmlns="http://docbook.org/ns/docbook" xml:id="book.example">
+<book xml:id="book.example" xmlns="http://docbook.org/ns/docbook">
  <title>Example</title>
  <titleabbrev>Example</titleabbrev>
 

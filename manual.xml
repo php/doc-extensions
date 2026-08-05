@@ -26,7 +26,7 @@
 
 ]>
 
-<set xmlns="http://docbook.org/ns/docbook" version="5.2" xml:id="index" xml:lang="&LANG;">
+<set xml:id="index" xmlns="http://docbook.org/ns/docbook" version="5.2" xml:lang="&LANG;">
  <title>&ThirdPartyManual;</title>
  &bookinfo;
 
