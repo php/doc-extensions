@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Snippets used only by the radius documentation, as XML entities.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+<entities xmlns     = "http://docbook.org/ns/docbook"
+          translate = "yes">
+
+<entity name="radius.parameter.attribute-type"><varlistentry>
+ <term><parameter>type</parameter></term>
+ <listitem><simpara>The attribute type.</simpara></listitem>
+</varlistentry></entity>
+
+<entity name="radius.parameter.handle"><varlistentry>
+ <term><parameter>radius_handle</parameter></term>
+ <listitem><simpara>The RADIUS resource.</simpara></listitem>
+</varlistentry></entity>
+
+<entity name="radius.parameter.options"><varlistentry>
+ <term><parameter>options</parameter></term>
+ <listitem><simpara>A bitmask of the attribute options. The available options
+ include <link linkend="constant.radius-option-tagged"><constant>RADIUS_OPTION_TAGGED</constant></link>
+ and <link linkend="constant.radius-option-salt"><constant>RADIUS_OPTION_SALT</constant></link>.</simpara></listitem>
+</varlistentry></entity>
+
+<entity name="radius.parameter.tag"><varlistentry>
+ <term><parameter>tag</parameter></term>
+ <listitem><simpara>The attribute tag. This parameter is ignored unless the
+ <link linkend="constant.radius-option-tagged"><constant>RADIUS_OPTION_TAGGED</constant></link>
+ option is set.</simpara></listitem>
+</varlistentry></entity>
+
+<entity name="radius.parameter.vendor"><varlistentry>
+ <term><parameter>vendor</parameter></term>
+ <listitem><simpara>The vendor ID.</simpara></listitem>
+</varlistentry></entity>
+
+<entity name="radius.request.required"><note>
+ <simpara>A request must be created via <function>radius_create_request</function>
+ before this function can be called.</simpara>
+</note></entity>
+
+</entities>
