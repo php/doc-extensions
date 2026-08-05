@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?do-not-translate?>
+<!DOCTYPE PHPDOC [
+
+<!--
+ This tree is not named after a language, so &LANG; from conf.dtd would
+ expand to "extensions". We manually override it here: the first declaration wins.
+-->
+<!ENTITY LANG "en">
+
+<!ENTITY % configure SYSTEM "./temp/conf.dtd">
+%configure;
+
+%text-entities;
+
+%translation-defs;
+%translation-snippets;
+%translation-extensions;
+
+%language-defs;
+%language-snippets;
+%language-extensions;
+
+%base-entities;
+%file-entities;
+
+]>
+
+<set xml:id="index" xmlns="http://docbook.org/ns/docbook" version="5.2" xml:lang="&LANG;">
+ <title>&ThirdPartyManual;</title>
+ &bookinfo;
+
+ <!--
+  Each third-party extension lives in its own directory under reference/
+  and is included here as a book entity, one per extension.
+ -->
+ <set xml:id="extensions">
+  <title>&ThirdPartyExtensions;</title>
+  &reference.example.book;
+ </set>
+
+</set>
