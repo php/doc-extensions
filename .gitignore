@@ -1,4 +1,2 @@
-entities.*.xml
-output
-.docker/built
+output/
 temp/
