@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?do-not-translate?>
+<!--
+
+URLs, other addresses and external references.
+
+Cross-references whose target lives in the main manual go through the link
+entities below, as a linkend has no target in this manual.
+
+-->
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="url.php.manual.en">https://www.php.net/manual/en/</entity>
+
+<entity name="link.book.libxml"><link
+ xlink:href="&url.php.manual.en;book.libxml.php">libxml</link></entity>
+
+<entity name="link.install.pecl"><link
+ xlink:href="&url.php.manual.en;install.pecl.php">Installation of PECL
+ extensions</link></entity>
+
+<entity name="link.install.windows.building"><link
+ xlink:href="&url.php.manual.en;install.windows.building.php">building
+ on Windows</link></entity>
+
+<entity name="link.ref.mcrypt"><link
+ xlink:href="&url.php.manual.en;ref.mcrypt.php">mcrypt</link></entity>
+
+<entity name="link.ref.mhash"><link
+ xlink:href="&url.php.manual.en;ref.mhash.php">mhash</link></entity>
+
+</entities>
