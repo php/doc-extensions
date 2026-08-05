@@ -29,13 +29,6 @@ jobs:
           path: "${{ matrix.language }}"
           repository: "php/doc-${{ matrix.language }}"
 
-      - name: "Checkout php/doc-en as fallback"
-        if: "matrix.language != 'en'"
-        uses: "actions/checkout@v7"
-        with:
-          path: "${{ matrix.language }}"
-          repository: "php/doc-${{ matrix.language }}"
-
       - name: "Checkout php/doc-base"
         uses: "actions/checkout@v7"
         with:
