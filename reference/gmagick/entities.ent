@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Snippets used only by the gmagick documentation, as XML entities.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+<entities xmlns     = "http://docbook.org/ns/docbook"
+          translate = "yes">
+
+<entity name="gmagick.gmagickexception.throw">Throws an
+<exceptionname>GmagickException</exceptionname> on error.</entity>
+
+</entities>
