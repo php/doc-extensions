@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Snippets shared by the extension documentation, as XML entities.
+See doc-base/scripts/text-entities.php for details.
+
+Snippets used by a single extension live in that extension's own
+reference/<extension>/entities.ent instead.
+
+-->
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="example.outputs"><simpara>The above example will output:</simpara></entity>
+
+<entity name="example.outputs.similar"><simpara>The above example will output
+something similar to:</simpara></entity>
+
+<entity name="extension.constants"><simpara>
+The constants below are defined by this extension, and
+will only be available when the extension has either
+been compiled into PHP or dynamically loaded at runtime.
+</simpara></entity>
+
+<entity name="extension.runtime"><simpara>
+The behaviour of these functions is affected by settings in &php.ini;.
+</simpara></entity>
+
+<entity name="info.method.alias">This method is an alias of: </entity>
+
+<entity name="ini.descriptions.title"><simpara>Here's a short explanation of
+the configuration directives.</simpara></entity>
+
+<entity name="libxml.required"><simpara>
+ This extension requires the &link.book.libxml; PHP extension.
+ This means passing the <option role="configure">--with-libxml</option>,
+ or prior to PHP 7.4 the <option role="configure">--enable-libxml</option>,
+ configuration flag, although this is implicitly accomplished because libxml
+ is enabled by default.
+</simpara></entity>
+
+<entity name="no.config"><simpara>This extension has no configuration directives defined in &php.ini;.</simpara></entity>
+
+<entity name="no.function.parameters"><simpara>This function has no parameters.</simpara></entity>
+
+<entity name="pecl.info">Information for installing this PECL extension may be
+found in the manual chapter titled &link.install.pecl;. Additional information
+such as new releases, downloads, source files, maintainer information, and a
+CHANGELOG, can be located here: </entity>
+
+<entity name="pecl.info.dead">This extension is considered unmaintained and dead.
+However, the source code for this extension is still available within
+<acronym>PECL</acronym> <acronym>SVN</acronym> here: </entity>
+
+<entity name="pecl.moved">This &link.pecl; extension is not bundled with PHP.</entity>
+
+<entity name="pecl.windows.download">A <acronym>DLL</acronym> for this
+<acronym>PECL</acronym> extension is currently unavailable. See also the
+&link.install.windows.building; section.</entity>
+
+<entity name="pecl.windows.download.avail">Windows binaries (<acronym>DLL</acronym> files)
+for this <acronym>PECL</acronym> extension are available from the PECL website.</entity>
+
+<entity name="return.falseforfailure"> or &false; on failure</entity>
+
+<entity name="return.success">Returns &true; on success&return.falseforfailure;.</entity>
+
+<entity name="return.void">No value is returned.</entity>
+
+<entity name="warn.experimental"><warning><simpara>This extension is
+<emphasis>EXPERIMENTAL</emphasis>. The behaviour of this extension including
+the names of its functions and any other documentation surrounding this
+extension may change without notice in a future release of PHP.
+This extension should be used at your own risk.</simpara></warning></entity>
+
+<entity name="warn.experimental.func"><warning><simpara>This function is
+<emphasis>EXPERIMENTAL</emphasis>. The behaviour of this function, its name, and
+surrounding documentation may change without notice in a future release of PHP.
+This function should be used at your own risk.
+</simpara></warning></entity>
+
+<entity name="warn.undocumented.func"><warning><simpara>This function is
+currently not documented; only its argument list is available.
+</simpara></warning></entity>
+
+</entities>
