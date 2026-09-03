@@ -4,7 +4,7 @@
  &reftitle.examples;
 
  <simpara>
-  See also the examples under <link linkend="wrappers.rar"><literal>rar://</literal> wrapper</link>.
+  See also the examples under <link xlink:href="&url.php.manual.wrappers.rar;"><literal>rar://</literal> wrapper</link>.
  </simpara>
 
  <example>

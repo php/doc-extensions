@@ -39,12 +39,12 @@
       </simpara>
       <simpara>
        When serializing objects, igbinary will attempt to call the member functions
-       <link linkend="object.serialize">__serialize()</link> or
-       <link linkend="object.sleep">__sleep()</link> prior to serialization.
+       <link xlink:href="&url.php.manual.object.serialize;">__serialize()</link> or
+       <link xlink:href="&url.php.manual.object.sleep;">__sleep()</link> prior to serialization.
        This is to allow the object to do any last minute clean-up, etc. prior
        to being serialized. Likewise, when the object is restored using
-       <function>igbinary_unserialize</function> the <link linkend="object.unserialize">__unserialize()</link> or
-       <link linkend="object.wakeup">__wakeup()</link> member function is called.
+       <function>igbinary_unserialize</function> the <link xlink:href="&url.php.manual.object.unserialize;">__unserialize()</link> or
+       <link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link> member function is called.
       </simpara>
       <note>
        <simpara>
@@ -104,8 +104,8 @@ array (
    <simpara>
     Note that many built-in PHP objects cannot be serialized. However, those with
     this ability either implement the <interfacename>Serializable</interfacename> interface or the
-    magic <link linkend="object.serialize">__serialize()</link>/<link linkend="object.unserialize">__unserialize()</link>
-    or <link linkend="object.sleep">__sleep()</link>/<link linkend="object.wakeup">__wakeup()</link> methods. If an
+    magic <link xlink:href="&url.php.manual.object.serialize;">__serialize()</link>/<link xlink:href="&url.php.manual.object.unserialize;">__unserialize()</link>
+    or <link xlink:href="&url.php.manual.object.sleep;">__sleep()</link>/<link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link> methods. If an
     internal class does not fulfill any of those requirements, it cannot reliably be
     serialized with any serializer.
    </simpara>
@@ -123,11 +123,11 @@ array (
    <member><function>igbinary_unserialize</function></member>
    <member><function>var_export</function></member>
    <member><function>json_encode</function></member>
-   <member><link linkend="language.oop5.serialization">Serializing Objects</link></member>
-   <member><link linkend="object.sleep">__sleep()</link></member>
-   <member><link linkend="object.wakeup">__wakeup()</link></member>
-   <member><link linkend="object.serialize">__serialize()</link></member>
-   <member><link linkend="object.unserialize">__unserialize()</link></member>
+   <member><link xlink:href="&url.php.manual.language.oop5.serialization;">Serializing Objects</link></member>
+   <member><link xlink:href="&url.php.manual.object.sleep;">__sleep()</link></member>
+   <member><link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link></member>
+   <member><link xlink:href="&url.php.manual.object.serialize;">__serialize()</link></member>
+   <member><link xlink:href="&url.php.manual.object.unserialize;">__unserialize()</link></member>
   </simplelist>
  </refsect1>
 

@@ -53,7 +53,7 @@
   &reftitle.errors;
   <simpara>
    As of PHP 7.4.0, <function>uopz_implement</function> throws a <classname>RuntimeException</classname>,
-   if <link linkend="book.opcache">OPcache</link> is enabled,
+   if <link xlink:href="&url.php.manual.book.opcache;">OPcache</link> is enabled,
    and the class entry of <parameter>class</parameter> is immutable.
   </simpara>
  </refsect1>

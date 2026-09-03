@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<section xmlns="http://docbook.org/ns/docbook" xml:id="apcu.configuration">
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="apcu.configuration">
  &reftitle.runtime;
  &extension.runtime;
  <simpara>
@@ -182,7 +182,7 @@
    <listitem>
     <simpara>
      The size of each shared memory segment given by a shorthand notation as
-     described in <link linkend="faq.using.shorthandbytes">this FAQ</link>.
+     described in <link xlink:href="&url.php.manual.faq.using.shorthandbytes;">this FAQ</link>.
      By default, some systems (including most BSD
      variants) have very low limits on the size of a
      shared memory segment.

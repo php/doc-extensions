@@ -26,7 +26,7 @@
 
   <simpara>
    For more information on persistent
-   connections, refer to <xref linkend="features.persistent-connections"/>.
+   connections, refer to <link xlink:href="&url.php.manual.features.persistent-connections;">Persistent Database Connections</link>.
   </simpara>
 
   <simpara>

@@ -29,7 +29,7 @@
      <simpara>
       The desired request engine. Set to <constant>OAUTH_REQENGINE_STREAMS</constant>
       to use PHP Streams, or <constant>OAUTH_REQENGINE_CURL</constant> to use
-      <link linkend="book.curl">Curl</link>.
+      <link xlink:href="&url.php.manual.book.curl;">Curl</link>.
      </simpara>
     </listitem>
    </varlistentry>
@@ -70,8 +70,8 @@ $consumer->setRequestEngine(OAUTH_REQENGINE_STREAMS);
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><link linkend="book.curl">Curl</link></member>
-   <member><link linkend="book.stream">PHP streams</link></member>
+   <member><link xlink:href="&url.php.manual.book.curl;">Curl</link></member>
+   <member><link xlink:href="&url.php.manual.book.stream;">PHP streams</link></member>
    <member><classname>OAuthException</classname></member>
   </simplelist>
  </refsect1>

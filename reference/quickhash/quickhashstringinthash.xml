@@ -16,7 +16,7 @@
     implementation of the <interfacename>ArrayAccess</interfacename> interface.
    </simpara>
    <simpara>
-    Hashes can also be iterated over with <link linkend="control-structures.foreach"><literal>foreach</literal></link> as the <interfacename>Iterator</interfacename> interface is
+    Hashes can also be iterated over with <link xlink:href="&url.php.manual.control-structures.foreach;"><literal>foreach</literal></link> as the <interfacename>Iterator</interfacename> interface is
     implemented as well. The order of which elements are returned in is not
     guaranteed.
    </simpara>
@@ -77,7 +77,7 @@
      <listitem>
       <simpara>Disables the use of PHP's internal memory manager for internal
       set structures. With this option enabled, internal allocations will not
-      count towards the <link linkend="ini.memory-limit">memory_limit</link> settings.</simpara>
+      count towards the <link xlink:href="&url.php.manual.ini.memory-limit;">memory_limit</link> settings.</simpara>
      </listitem>
     </varlistentry>
 

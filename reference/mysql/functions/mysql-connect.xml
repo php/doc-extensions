@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-connect">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-connect">
  <refnamediv>
   <refname>mysql_connect</refname>
   <refpurpose>Open a connection to a MySQL Server</refpurpose>
@@ -203,7 +203,7 @@ mysql_close($link);
   </note>
   <note>
    <simpara>
-    Error "Can't create TCP/IP socket (10106)" usually means that the <link linkend="ini.variables-order">variables_order</link> configure directive
+    Error "Can't create TCP/IP socket (10106)" usually means that the <link xlink:href="&url.php.manual.ini.variables-order;">variables_order</link> configure directive
     doesn't contain character <literal>E</literal>. On Windows, if the
     environment is not copied the <literal>SYSTEMROOT</literal> environment
     variable won't be available and PHP will have problems loading Winsock.

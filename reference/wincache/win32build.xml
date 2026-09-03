@@ -24,7 +24,7 @@
    </para>
    <para>
     For getting the WinCache source code follow the instructions described in 
-    <link linkend="install.pecl.downloads">Downloading PECL extensions</link>.
+    <link xlink:href="&url.php.manual.install.pecl.downloads;">Downloading PECL extensions</link>.
    </para>
   </section>
   <section xml:id="wincache.win32build.building">

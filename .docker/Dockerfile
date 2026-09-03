@@ -25,4 +25,5 @@ exec php phd/render.php \
   --output=/var/www/extensions/output \
   --package PHP \
   --format ${FORMAT} \
+  --lang extensions \
 "]

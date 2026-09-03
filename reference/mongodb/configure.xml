@@ -41,7 +41,7 @@ $ sudo pecl install mongodb
   <simpara>
    On systems with multiple version of PHP installed (e.g. macOS default,
    Homebrew), each version of PHP
-   will have its own <link linkend="install.pecl">pecl</link>
+   will have its own <link xlink:href="&url.php.manual.install.pecl;">pecl</link>
    command and &php.ini; file(s). Additionally, each PHP environments (e.g.
    CLI, web) may use separate &php.ini; files.
   </simpara>
@@ -113,7 +113,7 @@ extension=mongodb.so
    <link xlink:href="&url.brew.php;">php</link> formula
    and follow the standard
    <link linkend="mongodb.installation.pecl">PECL installation instructions</link>
-   using the <link linkend="install.pecl">pecl</link> command provided by the
+   using the <link xlink:href="&url.php.manual.install.pecl;">pecl</link> command provided by the
    Homebrew PHP installation.
   </simpara>
   <para>
@@ -221,7 +221,7 @@ $ sudo make install
   <simpara>
    On systems with multiple version of PHP installed (e.g. macOS default,
    Homebrew), each version of PHP
-   will have its own <link linkend="install.pecl.phpize">phpize</link>
+   will have its own <link xlink:href="&url.php.manual.install.pecl.phpize;">phpize</link>
    command and &php.ini; file(s). Additionally, each PHP environments (e.g.
    CLI, web) may use separate &php.ini; files.
   </simpara>
@@ -278,7 +278,7 @@ Installing shared extensions:     /usr/lib/php/extensions/debug-non-zts-20220829
   </para>
 
   <para>
-   Ensure that the <link linkend="ini.extension-dir">extension_dir</link> option
+   Ensure that the <link xlink:href="&url.php.manual.ini.extension-dir;">extension_dir</link> option
    in &php.ini; points to the directory where <filename>mongodb.so</filename>
    was installed. The option may be queried by running:
    <programlisting role="shell">
@@ -292,7 +292,7 @@ $ php -i | grep extension_dir
 
   <simpara>
    If the directories differ, either change
-   <link linkend="ini.extension-dir">extension_dir</link> in &php.ini; or
+   <link xlink:href="&url.php.manual.ini.extension-dir;">extension_dir</link> in &php.ini; or
    manually move <filename>mongodb.so</filename> to the correct directory.
   </simpara>
 

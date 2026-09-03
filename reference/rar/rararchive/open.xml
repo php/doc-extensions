@@ -209,7 +209,7 @@ $entry->extract(null, dirname(__FILE__) . "/temp_file2.txt");
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><link linkend="wrappers.rar"><literal>rar://</literal> wrapper</link></member>
+   <member><link xlink:href="&url.php.manual.wrappers.rar;"><literal>rar://</literal> wrapper</link></member>
   </simplelist>
  </refsect1>
 

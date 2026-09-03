@@ -1152,9 +1152,9 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
         The PHP Streams API is no longer used for socket communication. The
         <literal>"connectTimeoutMS"</literal> URI option now defaults to 10
         seconds instead of
-        <link linkend="ini.default-socket-timeout">default_socket_timeout</link>
+        <link xlink:href="&url.php.manual.ini.default-socket-timeout;">default_socket_timeout</link>
         in previous versions. Additionally, the extension no longer supports
-        all <link linkend="context.ssl">SSL context options</link> via the
+        all <link xlink:href="&url.php.manual.context.ssl;">SSL context options</link> via the
         <literal>"context"</literal> driver option.
        </simpara>
       </entry>

@@ -24,8 +24,8 @@
   </para>
   <para>
    As of uopz 5.0.0 the extension must be loaded as
-   <link linkend="ini.extension">extension</link>. Before this version it must be
-   loaded as <link linkend="ini.zend-extension">zend_extension</link>.
+   <link xlink:href="&url.php.manual.ini.extension;">extension</link>. Before this version it must be
+   loaded as <link xlink:href="&url.php.manual.ini.zend-extension;">zend_extension</link>.
   </para>
  </section>
 
@@ -113,7 +113,7 @@
   <note>
    <simpara>
     When running with OPcache enabled, it may be necessary to disable all
-    <link linkend="ini.opcache.optimization-level">OPcache optimizations</link>
+    <link xlink:href="&url.php.manual.ini.opcache.optimization-level;">OPcache optimizations</link>
     (<code>opcache.optimization_level=0</code>).
    </simpara>
   </note>

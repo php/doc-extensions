@@ -7,7 +7,7 @@
   same system as PHP.
 
   PDO_CUBRID is a &link.pecl; extension, so follow the instructions in
-  <xref linkend="install.pecl"/>
+  <link xlink:href="&url.php.manual.install.pecl;">Installation of PECL extensions</link>
   to install the PDO_CUBRID extension.
   Issue the <command>configure</command> command to point to the location of the
   CUBRID base dir as follows:

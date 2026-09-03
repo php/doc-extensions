@@ -367,7 +367,7 @@ This function should be used at your own risk.
 </simpara></warning>'>
 
 <!ENTITY warn.imaprecodeyaz '<warning xmlns="http://docbook.org/ns/docbook"><simpara>The <link
-linkend="book.imap">IMAP</link>, <link linkend="book.recode">recode</link> and
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.book.imap;">IMAP</link>, <link linkend="book.recode">recode</link> and
 <link linkend="book.yaz">YAZ</link>
 extensions cannot be used in conjunction, because they
 share the same internal symbols. Note: Yaz 2.0 and above does not suffer from this problem.</simpara></warning>'>
@@ -616,7 +616,7 @@ deprecated alias may be used: '>
 <acronym xmlns="http://docbook.org/ns/docbook">DLL</acronym> files that must be available to the Windows
 system <envar xmlns="http://docbook.org/ns/docbook">PATH</envar>. For information on how to do this, see the
 <acronym xmlns="http://docbook.org/ns/docbook">FAQ</acronym> entitled "<link
- xmlns="http://docbook.org/ns/docbook" linkend="faq.installation.addtopath">How do I add my PHP directory to the PATH
+ xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.faq.installation.addtopath;">How do I add my PHP directory to the PATH
 on Windows</link>". Although copying DLL
 files from the PHP folder into the Windows system directory also works
 (because the system directory is by default in the system&apos;s
@@ -676,8 +676,8 @@ searched for within the <link xmlns="http://docbook.org/ns/docbook" linkend="ini
 <!ENTITY return.falseproblem '<warning xmlns="http://docbook.org/ns/docbook"><simpara>This function may
 return Boolean &false;, but may also return a non-Boolean value which
 evaluates to &false;. Please read the section on <link
-linkend="language.types.boolean">Booleans</link> for more
-information. Use <link linkend="language.operators.comparison">the ===
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.language.types.boolean;">Booleans</link> for more
+information. Use <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.language.operators.comparison;">the ===
 operator</link> for testing the return value of this
 function.</simpara></warning>'>
 
@@ -1454,7 +1454,7 @@ returned by <function>timezone_open</function></simpara></listitem></varlistentr
 <!ENTITY date.timezone.pacific 'Pacific'>
 <!ENTITY date.timezone.others 'Others'>
 
-<!ENTITY date.formats 'Valid formats are explained in <link xmlns="http://docbook.org/ns/docbook" linkend="datetime.formats">Date and Time Formats</link>.'>
+<!ENTITY date.formats 'Valid formats are explained in <link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.datetime.formats;">Date and Time Formats</link>.'>
 <!ENTITY date.formats.parameter 'A date/time string. &date.formats;'>
 
 <!-- Dom Notes -->
@@ -1555,8 +1555,8 @@ it is inserted with (e.g.) <function xmlns="http://docbook.org/ns/docbook">DOMNo
 
 <!-- Dom entities -->
 <!ENTITY dom.parameter.options '<simpara xmlns="http://docbook.org/ns/docbook">
-  <link linkend="language.operators.bitwise">Bitwise <literal>OR</literal></link>
-  of the <link linkend="libxml.constants">libxml option constants</link>.
+  <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.language.operators.bitwise;">Bitwise <literal>OR</literal></link>
+  of the <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.libxml.constants;">libxml option constants</link>.
 </simpara>'>
 
 <!ENTITY dom.parameter.compliant.options '&dom.parameter.options;
@@ -1921,7 +1921,7 @@ is printed or viewed but it will show up if the document is converted to
 pdf by either Acrobat Distiller™ or Ghostview.</simpara>'>
 
 <!ENTITY note.open-basedir.func '<note xmlns="http://docbook.org/ns/docbook"><simpara>This function is affected by <link
-linkend="ini.open-basedir">open_basedir</link>.</simpara></note>'>
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.ini.open-basedir;">open_basedir</link>.</simpara></note>'>
 
 <!ENTITY note.language-construct '<note xmlns="http://docbook.org/ns/docbook"><simpara>Because this is a
 language construct and not a function, it cannot be called using
@@ -1945,7 +1945,7 @@ The behaviour of these functions is affected by settings in &php.ini;.
 </simpara>'>
 
 <!ENTITY ini.php.constants 'For further details and definitions of the
-INI_* modes, see the <xref xmlns="http://docbook.org/ns/docbook" linkend="configuration.changes.modes"/>.'>
+INI_* modes, see the <link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.configuration.changes.modes;">Where a configuration setting may be set</link>.'>
 
 <!-- Used in reference/$extname/constants.xml -->
 <!ENTITY extension.constants '<simpara xmlns="http://docbook.org/ns/docbook">
@@ -1986,7 +1986,7 @@ is set to <constant>PDO::ERRMODE_EXCEPTION</constant>.
 <!ENTITY pecl.moved 'This &link.pecl; extension is not bundled with PHP.'>
 
 <!ENTITY pecl.info 'Information for installing this PECL extension may be
-found in the manual chapter titled <link xmlns="http://docbook.org/ns/docbook" linkend="install.pecl">Installation
+found in the manual chapter titled <link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.install.pecl;">Installation
 of PECL extensions</link>. Additional information such as new releases,
 downloads, source files, maintainer information, and a CHANGELOG, can be
 located here: '>
@@ -2001,7 +2001,7 @@ this extension is still available within <acronym xmlns="http://docbook.org/ns/d
 
 <!ENTITY pecl.windows.download 'A <acronym xmlns="http://docbook.org/ns/docbook">DLL</acronym> for this
 <acronym xmlns="http://docbook.org/ns/docbook">PECL</acronym> extension is currently unavailable. See also the
-<link xmlns="http://docbook.org/ns/docbook" linkend="install.windows.building">building on Windows</link>
+<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.install.windows.building;">building on Windows</link>
 section.'>
 
 <!ENTITY pecl.windows.download.avail 'Windows binaries (<acronym xmlns="http://docbook.org/ns/docbook">DLL</acronym> files)
@@ -2127,7 +2127,7 @@ extensions in order to use these functions.</simpara>'>
 
 <!-- These are here as helpers for manual consistency and brievety-->
 
-<!ENTITY sqlsafemode '<link xmlns="http://docbook.org/ns/docbook" linkend="ini.sql.safe-mode">SQL safe mode</link>'>
+<!ENTITY sqlsafemode '<link xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.ini.sql.safe-mode;">SQL safe mode</link>'>
 
 <!-- CTYPE Notes -->
 <!ENTITY note.ctype.parameter.integer '<note xmlns="http://docbook.org/ns/docbook"><simpara>
@@ -2254,26 +2254,26 @@ is being evaluated. This result comes from a call to
 <constant>E_WARNING</constant> is also issued.</simpara></listitem></varlistentry>'>
 
 <!ENTITY mysql.alternative.note '<simpara xmlns="http://docbook.org/ns/docbook">This extension was deprecated in PHP 5.5.0, and it was removed in PHP 7.0.0.
-Instead, the <link linkend="book.mysqli">MySQLi</link> or <link linkend="ref.pdo-mysql">PDO_MySQL</link> extension should be used.
-See also <link linkend="mysqlinfo.api.choosing">MySQL: choosing an API</link> guide.
+Instead, the <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extension should be used.
+See also <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
 Alternatives to this function include:</simpara>'>
 
 <!ENTITY mysql.alternative.note.4-3-0 '<simpara xmlns="http://docbook.org/ns/docbook">This function was deprecated in PHP 4.3.0, and it
 and the entire <link linkend="book.mysql">original MySQL extension</link> was removed in PHP 7.0.0.
-Instead, use either the actively developed <link linkend="book.mysqli">MySQLi</link> or <link linkend="ref.pdo-mysql">PDO_MySQL</link> extensions.
-See also the <link linkend="mysqlinfo.api.choosing">MySQL: choosing an API</link> guide.
+Instead, use either the actively developed <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extensions.
+See also the <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
 Alternatives to this function include:</simpara>'>
 
 <!ENTITY mysql.alternative.note.5-3-0 '<simpara xmlns="http://docbook.org/ns/docbook">This function was deprecated in PHP 5.3.0, and it
 and the entire <link linkend="book.mysql">original MySQL extension</link> was removed in PHP 7.0.0.
-Instead, use either the actively developed <link linkend="book.mysqli">MySQLi</link> or <link linkend="ref.pdo-mysql">PDO_MySQL</link> extensions.
-See also the <link linkend="mysqlinfo.api.choosing">MySQL: choosing an API</link> guide.
+Instead, use either the actively developed <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extensions.
+See also the <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
 Alternatives to this function include:</simpara>'>
 
 <!ENTITY mysql.alternative.note.5-4-0 '<simpara xmlns="http://docbook.org/ns/docbook">This function was deprecated in PHP 5.4.0, and it
 and the entire <link linkend="book.mysql">original MySQL extension</link> was removed in PHP 7.0.0.
-Instead, use either the actively developed <link linkend="book.mysqli">MySQLi</link> or <link linkend="ref.pdo-mysql">PDO_MySQL</link> extensions.
-See also the <link linkend="mysqlinfo.api.choosing">MySQL: choosing an API</link> guide.
+Instead, use either the actively developed <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extensions.
+See also the <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
 Alternatives to this function include:</simpara>'>
 
 <!ENTITY mysql.close.connections.result.sets '<simpara xmlns="http://docbook.org/ns/docbook">
@@ -2282,7 +2282,7 @@ PHP script finishes its execution. So, while explicitly closing open
 connections and freeing result sets is optional, doing so is recommended.
 This will immediately return resources to PHP and MySQL, which can
 improve performance. For related information, see
-<link linkend="language.types.resource.self-destruct">freeing resources</link></simpara>'>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.language.types.resource.self-destruct;">freeing resources</link></simpara>'>
 
 <!-- Xattr entities -->
 <!ENTITY xattr.namespace '<simpara xmlns="http://docbook.org/ns/docbook">Extended attributes have two different namespaces: user
@@ -2514,7 +2514,7 @@ objects.  Otherwise, a <classname>PharException</classname> will be thrown.</sim
 
 <!-- XML -->
 <!ENTITY libxml.required '<simpara xmlns="http://docbook.org/ns/docbook">
- This extension requires the <link linkend="book.libxml">libxml</link> PHP extension.
+ This extension requires the <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.book.libxml;">libxml</link> PHP extension.
  This means passing the <option role="configure">--with-libxml</option>,
  or prior to PHP 7.4 the <option role="configure">--enable-libxml</option>,
  configuration flag, although this is implicitly accomplished because libxml
@@ -3419,7 +3419,7 @@ local: {
      </simpara>
      <note>
       <simpara>
-       When evaluating query criteria, MongoDB compares types and values according to its own <link xlink:href="&url.mongodb.docs;reference/bson-type-comparison-order/" xmlns:xlink="http://www.w3.org/1999/xlink">comparison rules for BSON types</link>, which differs from PHP&apos;s <link linkend="types.comparisons">comparison</link> and <link linkend="language.types.type-juggling">type juggling</link> rules. When matching a special BSON type the query criteria should use the respective <link linkend="mongodb.bson">BSON class</link> (e.g. use <classname>MongoDB\BSON\ObjectId</classname> to match an <link xlink:href="&url.mongodb.docs.objectid;" xmlns:xlink="http://www.w3.org/1999/xlink">ObjectId</link>).
+       When evaluating query criteria, MongoDB compares types and values according to its own <link xlink:href="&url.mongodb.docs;reference/bson-type-comparison-order/" xmlns:xlink="http://www.w3.org/1999/xlink">comparison rules for BSON types</link>, which differs from PHP&apos;s <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.types.comparisons;">comparison</link> and <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.php.manual.language.types.type-juggling;">type juggling</link> rules. When matching a special BSON type the query criteria should use the respective <link linkend="mongodb.bson">BSON class</link> (e.g. use <classname>MongoDB\BSON\ObjectId</classname> to match an <link xlink:href="&url.mongodb.docs.objectid;" xmlns:xlink="http://www.w3.org/1999/xlink">ObjectId</link>).
       </simpara>
      </note>
     </listitem>

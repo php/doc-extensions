@@ -114,7 +114,7 @@ rar_close($rar_arch);
   &reftitle.seealso;
   <simplelist>
    <member><methodname>RarArchive::getEntries</methodname></member>
-   <member><link linkend="wrappers.rar"><literal>rar://</literal> wrapper</link></member>
+   <member><link xlink:href="&url.php.manual.wrappers.rar;"><literal>rar://</literal> wrapper</link></member>
   </simplelist>
  </refsect1>
 

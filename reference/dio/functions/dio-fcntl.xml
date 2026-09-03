@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.dio-fcntl" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.dio-fcntl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>dio_fcntl</refname>
   <refpurpose>Performs a c library fcntl on fd</refpurpose>
@@ -73,7 +73,7 @@
           the value specified by <parameter>args</parameter>, which can be
           <constant>O_APPEND</constant>, <constant>O_NONBLOCK</constant> or 
           <constant>O_ASYNC</constant>. To use <constant>O_ASYNC</constant> 
-          you will need to use the <link linkend="ref.pcntl">PCNTL</link> 
+          you will need to use the <link xlink:href="&url.php.manual.ref.pcntl;">PCNTL</link> 
           extension.
          </para>
         </listitem>

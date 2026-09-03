@@ -154,9 +154,9 @@
    <listitem>
     <simpara>
      Used by <methodname>OAuth::setRequestEngine</methodname> to set the engine to
-     <link linkend="book.stream">PHP streams</link>,
+     <link xlink:href="&url.php.manual.book.stream;">PHP streams</link>,
      as opposed to <constant>OAUTH_REQENGINE_CURL</constant> for
-     <link linkend="book.curl">Curl</link>.
+     <link xlink:href="&url.php.manual.book.curl;">Curl</link>.
     </simpara>
    </listitem>
   </varlistentry>
@@ -168,8 +168,8 @@
    <listitem>
     <simpara>
      Used by <methodname>OAuth::setRequestEngine</methodname> to set the engine to
-     <link linkend="book.curl">Curl</link>, as opposed to
-     <constant>OAUTH_REQENGINE_STREAMS</constant> for <link linkend="book.stream">PHP streams</link>.
+     <link xlink:href="&url.php.manual.book.curl;">Curl</link>, as opposed to
+     <constant>OAUTH_REQENGINE_STREAMS</constant> for <link xlink:href="&url.php.manual.book.stream;">PHP streams</link>.
     </simpara>
    </listitem>
   </varlistentry>

@@ -18,7 +18,7 @@
   &pecl.windows.download.avail;
  </simpara>
  <simpara>
-  It is necessary that the <link linkend="ref.mbstring">mbstring</link>
+  It is necessary that the <link xlink:href="&url.php.manual.ref.mbstring;">mbstring</link>
   extension is loaded before mailparse.
  </simpara>
 </section>

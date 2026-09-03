@@ -98,7 +98,7 @@
      Recycle the IIS Application Pools for PHP to pick up the configuration changes.
      To check that the extension has been enabled, create a file called
      <filename>phpinfo.php</filename> with a PHP code that calls
-     <link linkend="function.phpinfo">phpinfo</link> function.
+     <link xlink:href="&url.php.manual.function.phpinfo;">phpinfo</link> function.
     </simpara>
    </step>
    <step>
@@ -107,7 +107,7 @@
      IIS web site that uses PHP, then open a browser and make a request to
      http://localhost/phpinfo.php. Search within the returned web page
      for a section called <literal>wincache</literal>. If the extension
-     is enabled, then the <link linkend="function.phpinfo">phpinfo</link>
+     is enabled, then the <link xlink:href="&url.php.manual.function.phpinfo;">phpinfo</link>
      output will list the configuration settings provided by the WinCache.
     </simpara>
    </step>
@@ -198,10 +198,10 @@ $user_allowed = array('DOMAIN\user1', 'DOMAIN\user2', 'DOMAIN\user3');
   </para>
   <para>
    To configure PHP to use WinCache session handler set the <filename>php.ini</filename> setting
-   <link linkend="ini.session.save-handler">session.save_handler</link> to <emphasis>wincache</emphasis>.
+   <link xlink:href="&url.php.manual.ini.session.save-handler;">session.save_handler</link> to <emphasis>wincache</emphasis>.
    By default the Windows temporary file location is used for storing the
    session data. To change the location of the session file use
-   <link linkend="ini.session.save-path">session.save_path</link> directive.
+   <link xlink:href="&url.php.manual.ini.session.save-path;">session.save_path</link> directive.
    <example>
     <title>Enabling WinCache session handler</title>
     <programlisting role="php.ini">
@@ -229,42 +229,42 @@ session.save_path = C:\inetpub\temp\session\
   <itemizedlist spacing="compact">
    <listitem>
     <simpara>
-     <link linkend="function.file-exists">file_exists</link>
+     <link xlink:href="&url.php.manual.function.file-exists;">file_exists</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
-     <link linkend="function.file-get-contents">file_get_contents</link>
+     <link xlink:href="&url.php.manual.function.file-get-contents;">file_get_contents</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
-     <link linkend="function.readfile">readfile</link>
+     <link xlink:href="&url.php.manual.function.readfile;">readfile</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
-     <link linkend="function.is-readable">is_readable</link>
+     <link xlink:href="&url.php.manual.function.is-readable;">is_readable</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
-     <link linkend="function.is-writable">is_writable</link>
+     <link xlink:href="&url.php.manual.function.is-writable;">is_writable</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
-     <link linkend="function.is-dir">is_dir</link>
+     <link xlink:href="&url.php.manual.function.is-dir;">is_dir</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
-     <link linkend="function.realpath">realpath</link>
+     <link xlink:href="&url.php.manual.function.realpath;">realpath</link>
     </simpara>
    </listitem>
       <listitem>
     <simpara>
-     <link linkend="function.filesize">filesize</link>
+     <link xlink:href="&url.php.manual.function.filesize;">filesize</link>
     </simpara>
    </listitem>
   </itemizedlist>

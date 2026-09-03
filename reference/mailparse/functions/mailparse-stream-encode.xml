@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mailparse-stream-encode">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mailparse-stream-encode">
  <refnamediv>
   <refname>mailparse_stream_encode</refname>
   <refpurpose>
@@ -45,7 +45,7 @@
     <listitem>
      <simpara>
       One of the character encodings supported by the
-      <link linkend="ref.mbstring">mbstring</link> module.
+      <link xlink:href="&url.php.manual.ref.mbstring;">mbstring</link> module.
      </simpara>
     </listitem>
    </varlistentry>

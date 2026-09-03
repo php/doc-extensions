@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-pconnect">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-pconnect">
  <refnamediv>
   <refname>mysql_pconnect</refname>
   <refpurpose>Open a persistent connection to a MySQL server</refpurpose>
@@ -126,7 +126,7 @@
    <simpara>
     Note, that these kind of links only work if you are using
     a module version of PHP. See the
-    <link linkend="features.persistent-connections">Persistent
+    <link xlink:href="&url.php.manual.features.persistent-connections;">Persistent
     Database Connections</link> section for more information.
    </simpara>
   </note>
@@ -143,7 +143,7 @@
   &reftitle.seealso;
   <simplelist>
    <member><function>mysql_connect</function></member>
-   <member><link linkend="features.persistent-connections">Persistent
+   <member><link xlink:href="&url.php.manual.features.persistent-connections;">Persistent
    Database Connections</link></member>
   </simplelist>
  </refsect1>

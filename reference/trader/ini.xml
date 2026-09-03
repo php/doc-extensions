@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 
-<section xml:id="trader.configuration" xmlns="http://docbook.org/ns/docbook">
+<section xml:id="trader.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
  &extension.runtime;
  <para>
@@ -58,7 +58,7 @@
       <listitem>
        <para>
         Controls the trader real rounding policy. Valid values are <literal>HALF_UP</literal>,
-        <literal>HALF_DOWN</literal>, <literal>HALF_EVEN</literal> and <literal>HALF_ODD</literal>. The behaviour is identical to the <link linkend="function.round">round()</link> function used with the mode argument.
+        <literal>HALF_DOWN</literal>, <literal>HALF_EVEN</literal> and <literal>HALF_ODD</literal>. The behaviour is identical to the <link xlink:href="&url.php.manual.function.round;">round()</link> function used with the mode argument.
        </para>
       </listitem>
      </varlistentry>

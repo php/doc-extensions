@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-mkdir">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-sftp-mkdir">
  <refnamediv>
   <refname>ssh2_sftp_mkdir</refname>
   <refpurpose>Create a directory</refpurpose>
@@ -21,7 +21,7 @@
   </simpara>
   <simpara>
    This function is similar to using <function>mkdir</function> with the
-   <link linkend="wrappers.ssh2">ssh2.sftp://</link> wrapper.
+   <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> wrapper.
   </simpara>
  </refsect1>
 

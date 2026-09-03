@@ -101,7 +101,7 @@ string(5) "1-2-3"
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><link linkend="object.call">__call()</link></member>
+   <member><link xlink:href="&url.php.manual.object.call;">__call()</link></member>
   </simplelist>
  </refsect1>
 

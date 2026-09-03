@@ -94,7 +94,7 @@ echo $image;
     <mediaobject>
      <alt>Output of example : Using Imagick::adaptiveBlurImage()</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/adaptiveBlurImage.gif"/>
+      <imagedata fileref="extensions/reference/imagick/figures/adaptiveBlurImage.gif"/>
      </imageobject>
     </mediaobject>
    </example>

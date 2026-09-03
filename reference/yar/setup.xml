@@ -12,7 +12,7 @@
    library.
   </simpara>
   <simpara>
-   The <link linkend="book.json">JSON</link> extension is required,
+   The <link xlink:href="&url.php.manual.book.json;">JSON</link> extension is required,
    which is bundled with PHP and always available as of PHP 8.0.0.
   </simpara>
   <simpara>

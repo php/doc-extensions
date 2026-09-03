@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-insert-id">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-insert-id">
  <refnamediv>
   <refname>mysql_insert_id</refname>
   <refpurpose>Get the ID generated in the last query</refpurpose>
@@ -77,7 +77,7 @@ printf("Last inserted record has id %d\n", mysql_insert_id());
     conversion may result in an incorrect value. Instead, use the internal
     MySQL SQL function LAST_INSERT_ID() in an SQL query. For more information
     about PHP's maximum integer values, please see the
-    <link linkend="language.types.integer">integer</link> documentation.
+    <link xlink:href="&url.php.manual.language.types.integer;">integer</link> documentation.
    </simpara>
   </caution>
   <note>

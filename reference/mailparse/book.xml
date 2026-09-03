@@ -19,7 +19,7 @@
   </simpara>
   <note>
    <simpara>
-    Mailparse requires the <link linkend="book.mbstring">mbstring</link>
+    Mailparse requires the <link xlink:href="&url.php.manual.book.mbstring;">mbstring</link>
     extension, and mbstring must be loaded before mailparse.
    </simpara>
   </note>

@@ -42,7 +42,7 @@
         </para>
         <para>
             If a callback is not provided, only values which are &true;
-            (see <link linkend="language.types.boolean.casting">converting to boolean</link>)
+            (see <link xlink:href="&url.php.manual.language.types.boolean.casting;">converting to boolean</link>)
             will be included.
         </para>
     </listitem>

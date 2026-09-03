@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.wincache-ucache-set" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.wincache-ucache-set" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>wincache_ucache_set</refname>
   <refpurpose>
@@ -52,7 +52,7 @@
        This parameter is ignored if first argument is an array. A general guidance is to pass &null;
        as <parameter>value</parameter> while using array as <parameter>key</parameter>. If <parameter>value</parameter> is an
        object, or an array containing objects, then the objects will be serialized. See
-       <link linkend="object.sleep">__sleep()</link> for details on serializing objects.
+       <link xlink:href="&url.php.manual.object.sleep;">__sleep()</link> for details on serializing objects.
       </para>
      </listitem>
     </varlistentry>
@@ -168,7 +168,7 @@ string(1) "6"
     <member><function>wincache_ucache_exists</function></member>
     <member><function>wincache_ucache_meminfo</function></member>
     <member><function>wincache_ucache_info</function></member>
-    <member><link linkend="object.sleep">__sleep()</link></member>
+    <member><link xlink:href="&url.php.manual.object.sleep;">__sleep()</link></member>
    </simplelist>
   </para>
  </refsect1>

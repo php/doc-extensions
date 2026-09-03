@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<reference xmlns="http://docbook.org/ns/docbook" xml:id="ref.pdo-sqlsrv">
+<reference xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ref.pdo-sqlsrv">
  <?phpdoc extension-membership="pecl" ?>
   <title>Microsoft SQL Server PDO Driver (PDO_SQLSRV)</title>
   <titleabbrev>MS SQL Server PDO Driver</titleabbrev>
@@ -8,7 +8,7 @@
    <section xml:id="pdo-sqlsrv.intro">
    &reftitle.intro;
     <simpara>
-     PDO_SQLSRV is a driver that implements the <link linkend="intro.pdo">PHP
+     PDO_SQLSRV is a driver that implements the <link xlink:href="&url.php.manual.intro.pdo;">PHP
      Data Objects (PDO) interface</link>
      to enable access from PHP to MS SQL Server (starting with SQL Server 2005)
      and SQL Azure databases.

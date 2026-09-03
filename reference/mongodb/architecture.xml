@@ -24,7 +24,7 @@
      framework integrations and applications.
     </alt>
     <imageobject>
-     <imagedata fileref="en/reference/mongodb/images/driver_arch.svg" width="625" depth="450" format="SVG" />
+     <imagedata fileref="extensions/reference/mongodb/images/driver_arch.svg" width="625" depth="450" format="SVG" />
     </imageobject>
    </mediaobject>
   </para>
@@ -203,7 +203,7 @@ foreach ($managers as $manager) {
    <simpara>
     Despite its shortcomings with persisting SSL connections when and topology
     information, this version of the extension supports all
-    <link linkend="context.ssl">SSL context options</link> since it uses
+    <link xlink:href="&url.php.manual.context.ssl;">SSL context options</link> since it uses
     PHP&apos;s Streams API.
    </simpara>
   </section>

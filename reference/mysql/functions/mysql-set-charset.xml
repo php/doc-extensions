@@ -61,7 +61,7 @@
    <simpara>
     This is the preferred way to change the charset. Using
     <function>mysql_query</function> to set it (such as <literal>SET NAMES utf8</literal>)
-    is not recommended. See the <link linkend="mysqlinfo.concepts.charset">MySQL character set concepts</link>
+    is not recommended. See the <link xlink:href="&url.php.manual.mysqlinfo.concepts.charset;">MySQL character set concepts</link>
     section for more information.
    </simpara>
   </note>
@@ -70,7 +70,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><link linkend="mysqlinfo.concepts.charset">Setting character sets in MySQL</link></member>
+   <member><link xlink:href="&url.php.manual.mysqlinfo.concepts.charset;">Setting character sets in MySQL</link></member>
    <member><link xlink:href="&url.mysql.charsets;">List of character sets that MySQL supports</link></member>
    <member><function>mysql_client_encoding</function></member>
   </simplelist>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?do-not-translate?>
+<!--
+
+Cross-references into the core PHP manual (doc-en), one entity per linked
+page, composed from the url.php.manual base entity in entities.url.ent.
+
+These targets live outside this repository, so they are linked as external
+URLs rather than linkends. Any links to other manual books should live here.
+
+-->
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="url.php.manual.book.curl">&url.php.manual;book.curl.php</entity>
+<entity name="url.php.manual.book.filesystem">&url.php.manual;book.filesystem.php</entity>
+<entity name="url.php.manual.book.iconv">&url.php.manual;book.iconv.php</entity>
+<entity name="url.php.manual.book.imap">&url.php.manual;book.imap.php</entity>
+<entity name="url.php.manual.book.json">&url.php.manual;book.json.php</entity>
+<entity name="url.php.manual.book.libxml">&url.php.manual;book.libxml.php</entity>
+<entity name="url.php.manual.book.mbstring">&url.php.manual;book.mbstring.php</entity>
+<entity name="url.php.manual.book.mysqli">&url.php.manual;book.mysqli.php</entity>
+<entity name="url.php.manual.book.opcache">&url.php.manual;book.opcache.php</entity>
+<entity name="url.php.manual.book.openssl">&url.php.manual;book.openssl.php</entity>
+<entity name="url.php.manual.book.pcre">&url.php.manual;book.pcre.php</entity>
+<entity name="url.php.manual.book.sodium">&url.php.manual;book.sodium.php</entity>
+<entity name="url.php.manual.book.stream">&url.php.manual;book.stream.php</entity>
+<entity name="url.php.manual.configuration.changes.modes">&url.php.manual;configuration.changes.modes.php</entity>
+<entity name="url.php.manual.configuration.file">&url.php.manual;configuration.file.php</entity>
+<entity name="url.php.manual.context.ssl">&url.php.manual;context.ssl.php</entity>
+<entity name="url.php.manual.control-structures.foreach">&url.php.manual;control-structures.foreach.php</entity>
+<entity name="url.php.manual.datetime.formats">&url.php.manual;datetime.formats.php</entity>
+<entity name="url.php.manual.faq.installation.addtopath">&url.php.manual;faq.installation.addtopath.php</entity>
+<entity name="url.php.manual.faq.using.shorthandbytes">&url.php.manual;faq.using.shorthandbytes.php</entity>
+<entity name="url.php.manual.features.commandline">&url.php.manual;features.commandline.php</entity>
+<entity name="url.php.manual.features.persistent-connections">&url.php.manual;features.persistent-connections.php</entity>
+<entity name="url.php.manual.function.file-exists">&url.php.manual;function.file-exists.php</entity>
+<entity name="url.php.manual.function.file-get-contents">&url.php.manual;function.file-get-contents.php</entity>
+<entity name="url.php.manual.function.filesize">&url.php.manual;function.filesize.php</entity>
+<entity name="url.php.manual.function.is-dir">&url.php.manual;function.is-dir.php</entity>
+<entity name="url.php.manual.function.is-infinite">&url.php.manual;function.is-infinite.php</entity>
+<entity name="url.php.manual.function.is-readable">&url.php.manual;function.is-readable.php</entity>
+<entity name="url.php.manual.function.is-writable">&url.php.manual;function.is-writable.php</entity>
+<entity name="url.php.manual.function.phpinfo">&url.php.manual;function.phpinfo.php</entity>
+<entity name="url.php.manual.function.putenv">&url.php.manual;function.putenv.php</entity>
+<entity name="url.php.manual.function.readfile">&url.php.manual;function.readfile.php</entity>
+<entity name="url.php.manual.function.realpath">&url.php.manual;function.realpath.php</entity>
+<entity name="url.php.manual.function.round">&url.php.manual;function.round.php</entity>
+<entity name="url.php.manual.ini.default-socket-timeout">&url.php.manual;ini.default-socket-timeout.php</entity>
+<entity name="url.php.manual.ini.error-reporting">&url.php.manual;ini.error-reporting.php</entity>
+<entity name="url.php.manual.ini.extension">&url.php.manual;ini.extension.php</entity>
+<entity name="url.php.manual.ini.extension-dir">&url.php.manual;ini.extension-dir.php</entity>
+<entity name="url.php.manual.ini.memory-limit">&url.php.manual;ini.memory-limit.php</entity>
+<entity name="url.php.manual.ini.opcache.optimization-level">&url.php.manual;ini.opcache.optimization-level.php</entity>
+<entity name="url.php.manual.ini.open-basedir">&url.php.manual;ini.open-basedir.php</entity>
+<entity name="url.php.manual.ini.session.save-handler">&url.php.manual;ini.session.save-handler.php</entity>
+<entity name="url.php.manual.ini.session.save-path">&url.php.manual;ini.session.save-path.php</entity>
+<entity name="url.php.manual.ini.sql.safe-mode">&url.php.manual;ini.sql.safe-mode.php</entity>
+<entity name="url.php.manual.ini.unserialize-callback-func">&url.php.manual;ini.unserialize-callback-func.php</entity>
+<entity name="url.php.manual.ini.variables-order">&url.php.manual;ini.variables-order.php</entity>
+<entity name="url.php.manual.ini.zend-extension">&url.php.manual;ini.zend-extension.php</entity>
+<entity name="url.php.manual.install.pecl">&url.php.manual;install.pecl.php</entity>
+<entity name="url.php.manual.install.pecl.downloads">&url.php.manual;install.pecl.downloads.php</entity>
+<entity name="url.php.manual.install.pecl.phpize">&url.php.manual;install.pecl.phpize.php</entity>
+<entity name="url.php.manual.install.windows.building">&url.php.manual;install.windows.building.php</entity>
+<entity name="url.php.manual.install.windows.manual">&url.php.manual;install.windows.manual.php</entity>
+<entity name="url.php.manual.intro.pdo">&url.php.manual;intro.pdo.php</entity>
+<entity name="url.php.manual.language.exceptions">&url.php.manual;language.exceptions.php</entity>
+<entity name="url.php.manual.language.oop5.autoload">&url.php.manual;language.oop5.autoload.php</entity>
+<entity name="url.php.manual.language.oop5.cloning">&url.php.manual;language.oop5.cloning.php</entity>
+<entity name="url.php.manual.language.oop5.decon.constructor">&url.php.manual;language.oop5.decon.constructor.php</entity>
+<entity name="url.php.manual.language.oop5.serialization">&url.php.manual;language.oop5.serialization.php</entity>
+<entity name="url.php.manual.language.operators.arithmetic">&url.php.manual;language.operators.arithmetic.php</entity>
+<entity name="url.php.manual.language.operators.bitwise">&url.php.manual;language.operators.bitwise.php</entity>
+<entity name="url.php.manual.language.operators.comparison">&url.php.manual;language.operators.comparison.php</entity>
+<entity name="url.php.manual.language.references">&url.php.manual;language.references.php</entity>
+<entity name="url.php.manual.language.types.array">&url.php.manual;language.types.array.php</entity>
+<entity name="url.php.manual.language.types.boolean">&url.php.manual;language.types.boolean.php</entity>
+<entity name="url.php.manual.language.types.boolean.casting">&url.php.manual;language.types.boolean.casting.php</entity>
+<entity name="url.php.manual.language.types.float.nan">&url.php.manual;language.types.float.nan.php</entity>
+<entity name="url.php.manual.language.types.integer">&url.php.manual;language.types.integer.php</entity>
+<entity name="url.php.manual.language.types.resource.self-destruct">&url.php.manual;language.types.resource.self-destruct.php</entity>
+<entity name="url.php.manual.language.types.type-juggling">&url.php.manual;language.types.type-juggling.php</entity>
+<entity name="url.php.manual.language.variables.scope">&url.php.manual;language.variables.scope.php</entity>
+<entity name="url.php.manual.libxml.constants">&url.php.manual;libxml.constants.php</entity>
+<entity name="url.php.manual.mysqlinfo.api.choosing">&url.php.manual;mysqlinfo.api.choosing.php</entity>
+<entity name="url.php.manual.mysqlinfo.concepts.buffering">&url.php.manual;mysqlinfo.concepts.buffering.php</entity>
+<entity name="url.php.manual.mysqlinfo.concepts.charset">&url.php.manual;mysqlinfo.concepts.charset.php</entity>
+<entity name="url.php.manual.mysqlnd.overview">&url.php.manual;mysqlnd.overview.php</entity>
+<entity name="url.php.manual.object.call">&url.php.manual;object.call.php</entity>
+<entity name="url.php.manual.object.construct">&url.php.manual;object.construct.php</entity>
+<entity name="url.php.manual.object.serialize">&url.php.manual;object.serialize.php</entity>
+<entity name="url.php.manual.object.set-state">&url.php.manual;object.set-state.php</entity>
+<entity name="url.php.manual.object.sleep">&url.php.manual;object.sleep.php</entity>
+<entity name="url.php.manual.object.unserialize">&url.php.manual;object.unserialize.php</entity>
+<entity name="url.php.manual.object.wakeup">&url.php.manual;object.wakeup.php</entity>
+<entity name="url.php.manual.ref.filesystem">&url.php.manual;ref.filesystem.php</entity>
+<entity name="url.php.manual.ref.iconv">&url.php.manual;ref.iconv.php</entity>
+<entity name="url.php.manual.ref.imap">&url.php.manual;ref.imap.php</entity>
+<entity name="url.php.manual.ref.mbstring">&url.php.manual;ref.mbstring.php</entity>
+<entity name="url.php.manual.ref.mhash">&url.php.manual;ref.mhash.php</entity>
+<entity name="url.php.manual.ref.pcntl">&url.php.manual;ref.pcntl.php</entity>
+<entity name="url.php.manual.ref.pdo-mysql">&url.php.manual;ref.pdo-mysql.php</entity>
+<entity name="url.php.manual.ref.session">&url.php.manual;ref.session.php</entity>
+<entity name="url.php.manual.reserved.variables.cookies">&url.php.manual;reserved.variables.cookies.php</entity>
+<entity name="url.php.manual.reserved.variables.get">&url.php.manual;reserved.variables.get.php</entity>
+<entity name="url.php.manual.reserved.variables.post">&url.php.manual;reserved.variables.post.php</entity>
+<entity name="url.php.manual.security.database.sql-injection">&url.php.manual;security.database.sql-injection.php</entity>
+<entity name="url.php.manual.spl.exceptions">&url.php.manual;spl.exceptions.php</entity>
+<entity name="url.php.manual.types.comparisons">&url.php.manual;types.comparisons.php</entity>
+<entity name="url.php.manual.wrappers.expect">&url.php.manual;wrappers.expect.php</entity>
+<entity name="url.php.manual.wrappers.rar">&url.php.manual;wrappers.rar.php</entity>
+<entity name="url.php.manual.wrappers.ssh2">&url.php.manual;wrappers.ssh2.php</entity>
+
+</entities>

@@ -16,7 +16,7 @@
   </para>
   <para>
    This extension uses the libmemcached library to provide an API for communicating
-   with memcached servers. It also provides a <link linkend="ref.session">session</link> handler
+   with memcached servers. It also provides a <link xlink:href="&url.php.manual.ref.session;">session</link> handler
    (<literal>memcached</literal>).
   </para>
   <para>

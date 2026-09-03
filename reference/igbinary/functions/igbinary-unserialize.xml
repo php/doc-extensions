@@ -54,17 +54,17 @@
      <simpara>
       If the value being unserialized is an &object;, after successfully
       reconstructing the object igbinary will automatically attempt to call the
-      <link linkend="object.unserialize">__unserialize()</link> or
-      <link linkend="object.wakeup">__wakeup()</link> methods (if one exists).
+      <link xlink:href="&url.php.manual.object.unserialize;">__unserialize()</link> or
+      <link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link> methods (if one exists).
      </simpara>
      <note>
       <title>
-       <link linkend="ini.unserialize-callback-func">unserialize_callback_func</link>
+       <link xlink:href="&url.php.manual.ini.unserialize-callback-func;">unserialize_callback_func</link>
         directive
       </title>
       <simpara>
        The callback specified in the
-       <link linkend="ini.unserialize-callback-func">unserialize_callback_func</link>
+       <link xlink:href="&url.php.manual.ini.unserialize-callback-func;">unserialize_callback_func</link>
        directive is called when an undefined class is unserialized.
        If no callback is specified, the object will be instantiated as
        <classname>__PHP_Incomplete_Class</classname>.
@@ -116,11 +116,11 @@
    <member><function>json_decode</function></member>
    <member><function>hash_hmac</function></member>
    <member><function>igbinary_serialize</function></member>
-   <member><link linkend="language.oop5.autoload">Autoloading Classes</link></member>
-   <member><link linkend="ini.unserialize-callback-func">unserialize_callback_func</link></member>
-   <member><link linkend="object.wakeup">__wakeup()</link></member>
-   <member><link linkend="object.serialize">__serialize()</link></member>
-   <member><link linkend="object.unserialize">__unserialize()</link></member>
+   <member><link xlink:href="&url.php.manual.language.oop5.autoload;">Autoloading Classes</link></member>
+   <member><link xlink:href="&url.php.manual.ini.unserialize-callback-func;">unserialize_callback_func</link></member>
+   <member><link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link></member>
+   <member><link xlink:href="&url.php.manual.object.serialize;">__serialize()</link></member>
+   <member><link xlink:href="&url.php.manual.object.unserialize;">__unserialize()</link></member>
   </simplelist>
  </refsect1>
 </refentry>

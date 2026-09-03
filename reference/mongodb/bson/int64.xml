@@ -15,9 +15,9 @@
     BSON type for a 64-bit integer. When decoding BSON to PHP data, this class
     is used when a 64-bit integer cannot be represented as a PHP integer on
     32-bit platforms. These objects support overloaded
-    <link linkend="language.operators.arithmetic">arithmetic</link>,
-    <link linkend="language.operators.bitwise">bitwise</link>, and
-    <link linkend="language.operators.comparison">comparison</link> operators.
+    <link xlink:href="&url.php.manual.language.operators.arithmetic;">arithmetic</link>,
+    <link xlink:href="&url.php.manual.language.operators.bitwise;">bitwise</link>, and
+    <link xlink:href="&url.php.manual.language.operators.comparison;">comparison</link> operators.
    </simpara>
    <simpara>
     When working with raw BSON data through the

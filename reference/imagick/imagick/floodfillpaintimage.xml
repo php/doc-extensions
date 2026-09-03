@@ -142,10 +142,10 @@ $combined->writeImage("floodfillpaint_result.png");
     <mediaobject>
      <alt>Output of example : Imagick::floodfillPaintImage()</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/floodfillpaint_intermediate.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/floodfillpaint_intermediate.png"/>
      </imageobject>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/floodfillpaint_result.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/floodfillpaint_result.png"/>
      </imageobject>
     </mediaobject>
    </example>

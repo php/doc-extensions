@@ -13,7 +13,7 @@
    designed to decrease database load in dynamic web applications.
   </simpara>
   <simpara>
-   The Memcache module also provides a <link linkend="ref.session">session</link> handler (<literal>memcache</literal>).
+   The Memcache module also provides a <link xlink:href="&url.php.manual.ref.session;">session</link> handler (<literal>memcache</literal>).
   </simpara>
   <simpara>
    More information about memcached can be found at <link xlink:href="&url.memcache;">&url.memcache;</link>.
