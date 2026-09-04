@@ -87,7 +87,7 @@ $server->handle();
   <mediaobject>
    <alt>Yar Server Info</alt>
    <imageobject>
-    <imagedata fileref="en/reference/yar/image/yar.png" scalefit="1" width="700px" />
+    <imagedata fileref="extensions/reference/yar/image/yar.png" scalefit="1" width="700px" />
    </imageobject>
   </mediaobject>
  </example>

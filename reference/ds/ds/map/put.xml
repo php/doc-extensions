@@ -45,7 +45,7 @@
         correctly look up the string key.
     </para>
     <para>
-        See <link linkend="language.types.array">Arrays</link>.
+        See <link xlink:href="&url.php.manual.language.types.array;">Arrays</link>.
     </para>
   </caution>
 

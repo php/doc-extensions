@@ -114,7 +114,7 @@ echo $canvas;
     <mediaobject>
      <alt>Output of example : Creating a reflection of an image</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/hello_world_reflection.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/hello_world_reflection.png"/>
      </imageobject>
     </mediaobject>
    </example>
@@ -177,7 +177,7 @@ echo $canvas;
     <mediaobject>
      <alt>Output of example : Filling text with gradient</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/hello_world.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/hello_world.png"/>
      </imageobject>
     </mediaobject>
    </example>
@@ -262,7 +262,7 @@ echo $img;
     <mediaobject>
      <alt>Output of example : Creating PHP logo with Imagick</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/php_logo.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/php_logo.png"/>
      </imageobject>
     </mediaobject>
    </example>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-seterrormode">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.gnupg-seterrormode">
  <refnamediv>
   <refname>gnupg_seterrormode</refname>
   <refpurpose>Sets the mode for error_reporting</refpurpose>
@@ -14,7 +14,7 @@
    <methodparam><type>int</type><parameter>errormode</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   Sets the mode for <link linkend="ini.error-reporting">error_reporting</link>.
+   Sets the mode for <link xlink:href="&url.php.manual.ini.error-reporting;">error_reporting</link>.
   </simpara>
  </refsect1>
 

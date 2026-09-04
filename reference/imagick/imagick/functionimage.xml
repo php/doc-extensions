@@ -88,7 +88,7 @@ echo $imagick->getImageBlob();
     <mediaobject>
      <alt>Output of create a sinusoidal gradient</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/functionImage_sinusoidal.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/functionImage_sinusoidal.png"/>
      </imageobject>
     </mediaobject>
    </example>
@@ -113,7 +113,7 @@ echo $imagick->getImageBlob();
     <mediaobject>
      <alt>Output of create a polynomial gradient</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/functionImage_polynomial.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/functionImage_polynomial.png"/>
      </imageobject>
     </mediaobject>
    </example>
@@ -147,7 +147,7 @@ echo $imagick1->getImageBlob();
     <mediaobject>
      <alt>Output of create complex gradient</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/functionImage_multiplied.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/functionImage_multiplied.png"/>
      </imageobject>
     </mediaobject>
    </example>

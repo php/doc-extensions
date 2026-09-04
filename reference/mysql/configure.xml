@@ -16,7 +16,7 @@
  <simpara>
   Although this MySQL extension is compatible with MySQL 4.1.0 and greater,
   it doesn't support the extra functionality that these versions provide.
-  For that, use the <link linkend="book.mysqli">MySQLi</link> extension.
+  For that, use the <link xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> extension.
  </simpara>
  <simpara>
   If you would like to install the mysql extension along with the mysqli extension
@@ -37,7 +37,7 @@
      <row>
       <entry>PHP &Version;</entry>
       <entry>&Default;</entry>
-      <entry>&ConfigureOptions;: <link linkend="mysqlnd.overview">mysqlnd</link></entry>
+      <entry>&ConfigureOptions;: <link xlink:href="&url.php.manual.mysqlnd.overview;">mysqlnd</link></entry>
       <entry>&ConfigureOptions;: <literal>libmysqlclient</literal></entry>
       <entry>&Changelog;</entry>
      </row>
@@ -90,7 +90,7 @@
     named <filename>libmysql.dll</filename> is included in the Windows PHP
     distribution and in order for PHP to talk to MySQL this file needs to be
     available to the Windows systems <envar>PATH</envar>. See the FAQ
-    titled "<link linkend="faq.installation.addtopath">How do I add my PHP
+    titled "<link xlink:href="&url.php.manual.faq.installation.addtopath;">How do I add my PHP
     directory to the <envar>PATH</envar> on Windows</link>" for information on how to do
     this. Although copying <filename>libmysql.dll</filename> to the Windows
     system directory also works (because the system directory is by default in
@@ -99,9 +99,9 @@
    <simpara>
     As with enabling any PHP extension (such as
     <filename>php_mysql.dll</filename>), the PHP directive
-    <link linkend="ini.extension-dir">extension_dir</link> should be set to
+    <link xlink:href="&url.php.manual.ini.extension-dir;">extension_dir</link> should be set to
     the directory where the PHP extensions are located. See also the
-    <link linkend="install.windows.manual">Manual Windows Installation
+    <link xlink:href="&url.php.manual.install.windows.manual;">Manual Windows Installation
     Instructions</link>. An example extension_dir value for PHP 5 is
     <literal>c:\php\ext</literal>
    </simpara>
@@ -117,7 +117,7 @@
   <section xml:id="mysql.installation.windows.php53">
    <title>PHP 5.3.0+</title>
    <simpara>
-    The <link linkend="mysqlnd.overview">MySQL Native Driver</link> is enabled by
+    The <link xlink:href="&url.php.manual.mysqlnd.overview;">MySQL Native Driver</link> is enabled by
     default. Include <filename>php_mysql.dll</filename>, but <filename>libmysql.dll</filename>
     is no longer required or used.
    </simpara>

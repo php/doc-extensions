@@ -11,11 +11,11 @@
    &warn.deprecated.feature.7-1-0.removed.7-2-0.alternatives;
    <simplelist role="alternatives">
     <member>
-     <link linkend="book.sodium">Sodium</link>
+     <link xlink:href="&url.php.manual.book.sodium;">Sodium</link>
      (available as of PHP 7.2.0)
     </member>
     <member>
-     <link linkend="book.openssl">OpenSSL</link>
+     <link xlink:href="&url.php.manual.book.openssl;">OpenSSL</link>
     </member>
    </simplelist>
   </warning>

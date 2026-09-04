@@ -9,8 +9,8 @@
   &reftitle.intro;
   <simpara>
    This extension allows to interact with processes through PTY. You may
-   consider using the <link linkend="wrappers.expect"><literal>expect://</literal>
-   wrapper</link> with the <link linkend="ref.filesystem">filesystem
+   consider using the <link xlink:href="&url.php.manual.wrappers.expect;"><literal>expect://</literal>
+   wrapper</link> with the <link xlink:href="&url.php.manual.ref.filesystem;">filesystem
    functions</link> which provide a simpler and more intuitive interface.
   </simpara>
  </preface>

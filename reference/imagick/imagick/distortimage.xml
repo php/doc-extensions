@@ -130,7 +130,7 @@ echo $im;
     <mediaobject>
      <alt>Output of example : Using Imagick::distortImage()</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/distortImage.png"/>
+      <imagedata fileref="extensions/reference/imagick/figures/distortImage.png"/>
      </imageobject>
     </mediaobject>
    </example>

@@ -15,8 +15,8 @@
     The Recode library version 3.6 adds weird characters behind converted
     strings under certain circumstances. Thus it's safer to use Recode v3.5
     or one of the available alternatives like the
-    <link linkend="ref.iconv">iconv</link> or
-    <link linkend="ref.mbstring">mbstring</link> extension.
+    <link xlink:href="&url.php.manual.ref.iconv;">iconv</link> or
+    <link xlink:href="&url.php.manual.ref.mbstring;">mbstring</link> extension.
    </simpara>
   </warning>
  </section>

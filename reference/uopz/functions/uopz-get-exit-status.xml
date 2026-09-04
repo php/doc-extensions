@@ -56,7 +56,7 @@ echo uopz_get_exit_status();?>
   &reftitle.notes;
   <caution>
    <para>
-    <link linkend="book.opcache">OPcache</link> optimizes away dead code after unconditional exit.
+    <link xlink:href="&url.php.manual.book.opcache;">OPcache</link> optimizes away dead code after unconditional exit.
    </para>
   </caution>
  </refsect1><!-- }}} -->

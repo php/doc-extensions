@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<section xmlns="http://docbook.org/ns/docbook" xml:id="mysql.configuration">
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="mysql.configuration">
  &reftitle.runtime;
  &extension.runtime;
  <para>
@@ -113,7 +113,7 @@
   <listitem>
    <simpara>
     Whether to allow
-    <link linkend="features.persistent-connections">persistent connections</link>
+    <link xlink:href="&url.php.manual.features.persistent-connections;">persistent connections</link>
     to MySQL.
    </simpara>
   </listitem>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<section xmlns="http://docbook.org/ns/docbook" xml:id="expect.configuration">
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="expect.configuration">
  &reftitle.runtime;
  &extension.runtime;
  <para>
   In order to configure expect extension, there are configuration options
-  in the <link linkend="configuration.file">configuration file</link> &php.ini;.
+  in the <link xlink:href="&url.php.manual.configuration.file;">configuration file</link> &php.ini;.
   <table>
    <title>Expect &ConfigureOptions;</title>
    <tgroup cols="4">

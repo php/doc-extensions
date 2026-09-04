@@ -30,7 +30,7 @@
       <entry>
        <simpara>
         This extension was removed from PHP. For details, see
-        <xref linkend="mysqlinfo.api.choosing"/>.
+        <link xlink:href="&url.php.manual.mysqlinfo.api.choosing;">Choosing an API</link>.
        </simpara>
       </entry>
      </row>

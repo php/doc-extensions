@@ -28,7 +28,7 @@
 
    <simpara>
     The class hierarchy for MongoDB exceptions is modeled after that of the
-    <link linkend="spl.exceptions">SPL Exceptions</link>. Base classes extend
+    <link xlink:href="&url.php.manual.spl.exceptions;">SPL Exceptions</link>. Base classes extend
     their SPL counterpart and all exception classes in the extension implement
     the <classname>MongoDB\Driver\Exception\Exception</classname> interface.
    </simpara>

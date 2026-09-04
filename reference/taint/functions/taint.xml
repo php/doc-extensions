@@ -22,9 +22,9 @@
   </simpara>
   <simpara>
    This is mainly useful for testing, and for simulating user input in
-   CLI scripts where the <link linkend="reserved.variables.get">$_GET</link>,
-   <link linkend="reserved.variables.post">$_POST</link> and
-   <link linkend="reserved.variables.cookies">$_COOKIE</link>
+   CLI scripts where the <link xlink:href="&url.php.manual.reserved.variables.get;">$_GET</link>,
+   <link xlink:href="&url.php.manual.reserved.variables.post;">$_POST</link> and
+   <link xlink:href="&url.php.manual.reserved.variables.cookies;">$_COOKIE</link>
    superglobals are not populated.
   </simpara>
  </refsect1>

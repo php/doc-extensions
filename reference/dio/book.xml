@@ -15,7 +15,7 @@
    (<function>fopen</function>, <function>fread</function>,..).  The use
    of the DIO functions should be considered only when direct 
    control of a device is needed.  In all other cases, the standard
-   <link linkend="book.filesystem">filesystem</link> functions are more
+   <link xlink:href="&url.php.manual.book.filesystem;">filesystem</link> functions are more
    than adequate. 
   </para>
  </preface>

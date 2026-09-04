@@ -8,7 +8,7 @@
    <section xml:id="pdo-informix.intro">
     &reftitle.intro;
     <para>
-     PDO_INFORMIX is a driver that implements the <link linkend="intro.pdo">PHP Data
+     PDO_INFORMIX is a driver that implements the <link xlink:href="&url.php.manual.intro.pdo;">PHP Data
      Objects (PDO)</link> interface to enable access from PHP to Informix databases.
     </para>
    </section>

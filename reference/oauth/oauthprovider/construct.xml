@@ -28,7 +28,7 @@
     <listitem>
      <simpara>
       Setting these optional parameters is limited to the
-      <link linkend="features.commandline">CLI SAPI</link>.
+      <link xlink:href="&url.php.manual.features.commandline;">CLI SAPI</link>.
      </simpara>
     </listitem>
    </varlistentry>

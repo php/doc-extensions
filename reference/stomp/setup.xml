@@ -5,7 +5,7 @@
 
  <section xml:id="stomp.requirements">
   &reftitle.required;
-  <simpara>The <link xlink:href="&url.openssl;">OpenSSL</link> package &gt;= 0.9.6 and the <link linkend="book.openssl">openssl</link> extension may also be required to use stomp over SSL.</simpara>
+  <simpara>The <link xlink:href="&url.openssl;">OpenSSL</link> package &gt;= 0.9.6 and the <link xlink:href="&url.php.manual.book.openssl;">openssl</link> extension may also be required to use stomp over SSL.</simpara>
  </section>
 
  <section xml:id="stomp.installation">

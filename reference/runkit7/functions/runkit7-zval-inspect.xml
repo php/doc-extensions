@@ -85,7 +85,7 @@ array(2) {
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><link linkend="language.references">References Explained</link></member>
+   <member><link xlink:href="&url.php.manual.language.references;">References Explained</link></member>
    <member><link xlink:href="&url.derick.references;">References Explained (by Derick Rethans)</link></member>
   </simplelist>
  </refsect1>

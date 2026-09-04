@@ -24,8 +24,8 @@
   <note>
    <simpara>
     This method acts as the
-    <link linkend="language.oop5.decon.constructor">constructor</link> of the
-    object. The <link linkend="object.construct">__construct()</link> method
+    <link xlink:href="&url.php.manual.language.oop5.decon.constructor;">constructor</link> of the
+    object. The <link xlink:href="&url.php.manual.object.construct;">__construct()</link> method
     will <emphasis>not</emphasis> be called after this method.
    </simpara>
   </note>

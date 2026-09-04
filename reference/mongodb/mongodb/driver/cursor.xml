@@ -92,7 +92,7 @@
      Because <classname>MongoDB\Driver\Cursor</classname> implements the
      <interfacename>Traversable</interfacename> interface, you can simply
      iterate over the result set with
-     <link linkend="control-structures.foreach"><literal>foreach</literal></link>.
+     <link xlink:href="&url.php.manual.control-structures.foreach;"><literal>foreach</literal></link>.
     </simpara>
    <programlisting role="php">
 <![CDATA[

@@ -152,7 +152,7 @@ echo $im;
     <mediaobject>
      <alt>Output of example : Imagick::importImagePixels()</alt>
      <imageobject>
-      <imagedata fileref="en/reference/imagick/figures/importimagepixels.jpg"/>
+      <imagedata fileref="extensions/reference/imagick/figures/importimagepixels.jpg"/>
      </imageobject>
     </mediaobject>
    </example>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.ssh2-sftp-stat" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.ssh2-sftp-stat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ssh2_sftp_stat</refname>
   <refpurpose>Stat a file on a remote filesystem</refpurpose>
@@ -18,7 +18,7 @@
   </simpara>
   <simpara>
    This function is similar to using the <function>stat</function> function
-   with the <link linkend="wrappers.ssh2">ssh2.sftp://</link> wrapper
+   with the <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> wrapper
    and returns the same values.
   </simpara>
  </refsect1>

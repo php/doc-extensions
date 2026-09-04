@@ -28,7 +28,7 @@
     entries with the same name, this method, together with <type>RarArchive</type>
     <literal>foreach</literal> iteration and array-like access with numeric indexes,
     are the only ones to access all the entries (i.e.,
-    <methodname>RarArchive::getEntry</methodname> and the <link linkend="wrappers.rar">
+    <methodname>RarArchive::getEntry</methodname> and the <link xlink:href="&url.php.manual.wrappers.rar;">
     <literal>rar://</literal> wrapper</link> are insufficient).
    </simpara>
   </note>
@@ -142,7 +142,7 @@ rar_close($rar_arch);
   &reftitle.seealso;
   <simplelist>
    <member><methodname>RarArchive::getEntry</methodname></member>
-   <member><link linkend="wrappers.rar"><literal>rar://</literal> wrapper</link></member>
+   <member><link xlink:href="&url.php.manual.wrappers.rar;"><literal>rar://</literal> wrapper</link></member>
   </simplelist>
  </refsect1>
 

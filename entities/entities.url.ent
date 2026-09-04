@@ -439,6 +439,8 @@ URLs, other addresses and external references.
 <entity name="url.php.gtk">http://gtk.php.net/</entity>
 <entity name="url.php.license">https://www.php.net/license/</entity>
 <entity name="url.php.mailing-lists">https://www.php.net/mailing-lists.php</entity>
+<!-- linking to other manual pages is done like so: &url.php.manual;book.example.php -->
+<entity name="url.php.manual">https://www.php.net/manual/en/</entity>
 <entity name="url.php.museum">https://museum.php.net/</entity>
 <entity name="url.php.news">news://news.php.net/</entity>
 <entity name="url.php.newsweb">http://news.php.net/</entity>

@@ -11,19 +11,6 @@
 <!ENTITY % configure SYSTEM "./temp/conf.dtd">
 %configure;
 
-%text-entities;
-
-%translation-defs;
-%translation-snippets;
-%translation-extensions;
-
-%language-defs;
-%language-snippets;
-%language-extensions;
-
-%base-entities;
-%file-entities;
-
 ]>
 
 <set xml:id="index" xmlns="http://docbook.org/ns/docbook" version="5.2" xml:lang="&LANG;">

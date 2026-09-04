@@ -45,8 +45,8 @@
   <warning>
    <simpara>
     <link xlink:href="&url.json;">JSON</link> does not support
-    <link linkend="language.types.float.nan"><constant>NAN</constant></link> and
-    <link linkend="function.is-infinite"><constant>INF</constant></link> and
+    <link xlink:href="&url.php.manual.language.types.float.nan;"><constant>NAN</constant></link> and
+    <link xlink:href="&url.php.manual.function.is-infinite;"><constant>INF</constant></link> and
     MongoDB&apos;s Legacy Extended JSON format does not define an alternative
     representation for these values
     (<link xlink:href="&url.mongodb.libbson;">libbson</link> will output

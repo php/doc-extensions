@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mailparse-determine-best-xfer-encoding">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mailparse-determine-best-xfer-encoding">
  <refnamediv>
   <refname>mailparse_determine_best_xfer_encoding</refname>
   <refpurpose>Gets the best way of encoding</refpurpose>
@@ -35,7 +35,7 @@
   &reftitle.returnvalues;
   <simpara>
    Returns one of the character encodings supported by the
-   <link linkend="ref.mbstring">mbstring</link> module.
+   <link xlink:href="&url.php.manual.ref.mbstring;">mbstring</link> module.
   </simpara>
  </refsect1>
 

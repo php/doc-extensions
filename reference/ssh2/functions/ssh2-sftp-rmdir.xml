@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-rmdir">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-sftp-rmdir">
  <refnamediv>
   <refname>ssh2_sftp_rmdir</refname>
   <refpurpose>Remove a directory</refpurpose>
@@ -18,7 +18,7 @@
   </simpara>
   <simpara>
    This function is similar to using <function>rmdir</function> with the
-   <link linkend="wrappers.ssh2">ssh2.sftp://</link> wrapper.
+   <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> wrapper.
   </simpara>
  </refsect1>
 

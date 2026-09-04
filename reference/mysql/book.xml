@@ -11,9 +11,9 @@
   <simpara>
    This extension is deprecated as of PHP 5.5.0, and
    has been removed as of PHP 7.0.0. Instead, either the
-   <link linkend="book.mysqli">mysqli</link> or
-   <link linkend="ref.pdo-mysql">PDO_MySQL</link> extension should be
-   used. See also the <link linkend="mysqlinfo.api.choosing">MySQL API
+   <link xlink:href="&url.php.manual.book.mysqli;">mysqli</link> or
+   <link xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extension should be
+   used. See also the <link xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL API
    Overview</link> for further help while choosing a MySQL API.
   </simpara>
   <simpara>

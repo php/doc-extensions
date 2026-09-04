@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-sftp">
  <refnamediv>
   <refname>ssh2_sftp</refname>
   <refpurpose>Initialize SFTP subsystem</refpurpose>
@@ -37,7 +37,7 @@
   <simpara>
    This method returns an <literal>SSH2 SFTP</literal> resource for use with
    all other ssh2_sftp_*() methods and the
-   <link linkend="wrappers.ssh2">ssh2.sftp://</link> fopen wrapper,
+   <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> fopen wrapper,
    &return.falseforfailure;.
   </simpara>
  </refsect1>

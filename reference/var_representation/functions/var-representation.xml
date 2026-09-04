@@ -146,7 +146,7 @@ echo var_representation($a);
   </para>
   <para>
    <example>
-    <title>Using <link linkend="object.set-state">__set_state()</link></title>
+    <title>Using <link xlink:href="&url.php.manual.object.set-state;">__set_state()</link></title>
     <programlisting role="php">
 <![CDATA[
 <?php
