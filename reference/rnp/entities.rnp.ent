@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the rnp extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="rnp.parameter.ffi-description">The FFI object returned by <function>rnp_ffi_create</function>.</entity>
+
+<entity name="rnp.parameter.key-format">The key format of the data (GPG, KBX, G10).</entity>
+
+<entity name="rnp.parameter.loadsave-flags">See <constant>RNP_LOAD_SAVE_<replaceable>*</replaceable></constant> flags description.</entity>
+
+</entities>

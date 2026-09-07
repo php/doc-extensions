@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Notes and warnings shared by several extensions: platform
+availability, experimental or deprecated status, undocumented
+functions, and similar admonitions.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<!-- Notes -->
+
+<entity name="note.no-windows"><note><simpara>This function is not
+implemented on Windows platforms.</simpara></note></entity>
+
+<entity name="note.no-windows.extension"><note><simpara>This extension is not
+available on Windows platforms.</simpara></note></entity>
+
+<!-- Warnings -->
+
+<entity name="warn.experimental"><warning><simpara>This extension is
+<emphasis>EXPERIMENTAL</emphasis>. The behaviour of this extension including
+the names of its functions and any other documentation surrounding this
+extension may change without notice in a future release of PHP.
+This extension should be used at your own risk.</simpara></warning></entity>
+
+<entity name="warn.deprecated.function-7-1-0.removed-7-2-0"><warning><simpara>This function has been
+<emphasis>DEPRECATED</emphasis> as of PHP 7.1.0 and
+<emphasis>REMOVED</emphasis> as of PHP 7.2.0. Relying on this function
+is highly discouraged.</simpara></warning></entity>
+
+<entity name="warn.removed.function-7-0-0"><warning><simpara>This function was
+<emphasis>REMOVED</emphasis> in PHP 7.0.0.</simpara></warning></entity>
+
+<entity name="warn.removed.function-7-4-0"><warning><simpara>This function was
+<emphasis>REMOVED</emphasis> in PHP 7.4.0.</simpara></warning></entity>
+
+<entity name="warn.experimental.func"><warning><simpara>This function is
+<emphasis>EXPERIMENTAL</emphasis>. The behaviour of this function, its name, and
+surrounding documentation may change without notice in a future release of PHP.
+This function should be used at your own risk.
+</simpara></warning></entity>
+
+<entity name="warn.imaprecodeyaz"><warning><simpara>The <link xlink:href="&url.php.manual.book.imap;">IMAP</link>, <link linkend="book.recode">recode</link> and
+<link linkend="book.yaz">YAZ</link>
+extensions cannot be used in conjunction, because they
+share the same internal symbols. Note: Yaz 2.0 and above does not suffer from this problem.</simpara></warning></entity>
+
+<entity name="warn.undocumented.func"><warning><simpara>This function is
+currently not documented; only its argument list is available.
+</simpara></warning></entity>
+
+<!-- Deprecation and removal warnings designed for use with a list of
+     alternatives. See en/reference/regex/functions/ereg.xml and
+     en/reference/regex/reference.xml for examples of these in action. -->
+
+<entity name="warn.deprecated.feature.7-1-0.removed.7-2-0.alternatives">
+<simpara>
+ This feature was <emphasis>DEPRECATED</emphasis> in PHP 7.1.0, and
+ <emphasis>REMOVED</emphasis> in PHP 7.2.0.
+</simpara>
+<simpara>
+ Alternatives to this feature include:
+</simpara>
+</entity>
+
+<entity name="warn.deprecated.function.7-1-0.removed.7-2-0.alternatives">
+<simpara>
+ This function was <emphasis>DEPRECATED</emphasis> in PHP 7.1.0, and
+ <emphasis>REMOVED</emphasis> in PHP 7.2.0.
+</simpara>
+<simpara>
+ Alternatives to this function include:
+</simpara>
+</entity>
+
+<!-- PS Notes -->
+
+<entity name="note.open-basedir.func"><note><simpara>This function is affected by <link xlink:href="&url.php.manual.ini.open-basedir;">open_basedir</link>.</simpara></note></entity>
+
+<!-- PECL entities -->
+
+<entity name="warn.pecl.unmaintained"><warning>
+ <simpara>This extension is <emphasis>unmaintained</emphasis>.</simpara>
+</warning></entity>
+
+<!-- Database Notes -->
+
+<entity name="database.field-case"><note><simpara>Field names returned by this function
+are <emphasis>case-sensitive</emphasis>.</simpara></note></entity>
+
+<entity name="database.fetch-null"><note><simpara>This function sets NULL fields to
+the PHP &null; value.</simpara></note></entity>
+
+</entities>

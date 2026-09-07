@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the ps extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="ps.note.visible"><simpara>The note will not be visible if the document
+is printed or viewed but it will show up if the document is converted to
+pdf by either Acrobat Distiller™ or Ghostview.</simpara></entity>
+
+</entities>

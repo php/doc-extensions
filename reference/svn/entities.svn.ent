@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the svn extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="svn.relativepath"><note><simpara>Relative paths will be resolved as if the current working directory was the one that contains the PHP binary. To use the calling script&apos;s working directory, use <function>realpath</function> or dirname(__FILE__).</simpara></note></entity>
+
+<entity name="svn.referto.status">Refer to <link linkend="svn.constants.status">status constants</link> for possible values.</entity>
+
+<entity name="svn.referto.type">Refer to <link linkend="svn.constants.type">type constants</link> for possible values.</entity>
+
+</entities>

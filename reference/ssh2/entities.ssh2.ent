@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the ssh2 extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="note.ssh2.subsystem.publickey"><note><simpara>The public key subsystem
+is used for managing public keys on a server to which the client is
+<emphasis>already</emphasis> authenticated.  To authenticate to a remote system
+using public key authentication, use the
+<function>ssh2_auth_pubkey_file</function> function instead.</simpara></note></entity>
+
+</entities>

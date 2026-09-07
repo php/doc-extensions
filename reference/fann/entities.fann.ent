@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the fann extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="fann.ann.description"><simpara>Neural network <type>resource</type>.</simpara></entity>
+
+<entity name="fann.train.description"><simpara>Neural network training data <type>resource</type>.</simpara></entity>
+
+<entity name="fann.errdat.description"><simpara>Either neural network <type>resource</type> or neural network trainining data <type>resource</type>.</simpara></entity>
+
+<entity name="fann.return.void"><simpara>No value is returned.</simpara></entity>
+
+<entity name="fann.return.bool"><simpara>Returns &true; on success, or &false; otherwise.</simpara></entity>
+
+<entity name="fann.return.ann"><simpara> Returns a neural network <type>resource</type> on success, or &false; on error.</simpara></entity>
+
+<entity name="fann.return.train"><simpara> Returns a train data <type>resource</type> on success, or &false; on error.</simpara></entity>
+
+<entity name="fann.note.function.fann-2.2"><note><simpara>This function is only available if the fann extension has been build against libfann &gt;= 2.2.</simpara></note></entity>
+
+</entities>

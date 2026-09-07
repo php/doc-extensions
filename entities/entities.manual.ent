@@ -30,7 +30,6 @@ URLs rather than linkends. Any links to other manual books should live here.
 <entity name="url.php.manual.configuration.file">&url.php.manual;configuration.file.php</entity>
 <entity name="url.php.manual.context.ssl">&url.php.manual;context.ssl.php</entity>
 <entity name="url.php.manual.control-structures.foreach">&url.php.manual;control-structures.foreach.php</entity>
-<entity name="url.php.manual.datetime.formats">&url.php.manual;datetime.formats.php</entity>
 <entity name="url.php.manual.faq.installation.addtopath">&url.php.manual;faq.installation.php#faq.installation.addtopath</entity>
 <entity name="url.php.manual.faq.using.shorthandbytes">&url.php.manual;faq.using.php#faq.using.shorthandbytes</entity>
 <entity name="url.php.manual.features.commandline">&url.php.manual;features.commandline.php</entity>
@@ -83,7 +82,6 @@ URLs rather than linkends. Any links to other manual books should live here.
 <entity name="url.php.manual.language.types.resource.self-destruct">&url.php.manual;language.types.resource.php#language.types.resource.self-destruct</entity>
 <entity name="url.php.manual.language.types.type-juggling">&url.php.manual;language.types.type-juggling.php</entity>
 <entity name="url.php.manual.language.variables.scope">&url.php.manual;language.variables.scope.php</entity>
-<entity name="url.php.manual.libxml.constants">&url.php.manual;libxml.constants.php</entity>
 <entity name="url.php.manual.mysqlinfo.api.choosing">&url.php.manual;mysqlinfo.api.choosing.php</entity>
 <entity name="url.php.manual.mysqlinfo.concepts.buffering">&url.php.manual;mysqlinfo.concepts.buffering.php</entity>
 <entity name="url.php.manual.mysqlinfo.concepts.charset">&url.php.manual;mysqlinfo.concepts.charset.php</entity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the dbase extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="dbase.type-conversion"><para>
+   Each field is converted to the appropriate PHP type, except:
+   <itemizedlist>
+    <listitem>
+     <simpara>
+      Dates are left as strings.
+     </simpara>
+    </listitem>
+    <listitem>
+     <simpara>
+      DateTime values are converted to strings.
+     </simpara>
+    </listitem>
+    <listitem>
+     <simpara>
+      Integers outside the range
+      <constant>PHP_INT_MIN</constant>..<constant>PHP_INT_MAX</constant> are
+      returned as strings.
+     </simpara>
+    </listitem>
+    <listitem>
+     <simpara>
+      Before dbase 7.0.0, booleans (<literal>L</literal>) were converted to <literal>1</literal> or
+      <literal>0</literal>.
+     </simpara>
+    </listitem>
+   </itemizedlist>
+  </para></entity>
+
+</entities>

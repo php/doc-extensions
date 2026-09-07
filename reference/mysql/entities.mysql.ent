@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the mysql extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="mysql.linkid.description"><varlistentry><term>
+<parameter>link_identifier</parameter></term><listitem><simpara>The MySQL connection. If the
+link identifier is not specified, the last link opened by
+<function>mysql_connect</function> is assumed. If no such link is found, it
+will try to create one as if <function>mysql_connect</function> had been called
+with no arguments. If no connection is found or established, an
+<constant>E_WARNING</constant> level error is generated.</simpara></listitem>
+</varlistentry></entity>
+
+<entity name="mysql.linkid-noreopen.description"><varlistentry><term>
+<parameter>link_identifier</parameter></term><listitem><simpara>The MySQL connection. If the
+link identifier is not specified, the last link opened by
+<function>mysql_connect</function> is assumed. If no connection is found or
+established, an <constant>E_WARNING</constant> level error is
+generated.</simpara></listitem></varlistentry></entity>
+
+<entity name="mysql.result.description"><varlistentry><term>
+<parameter>result</parameter></term><listitem><simpara>The result <type>resource</type> that
+is being evaluated. This result comes from a call to
+<function>mysql_query</function>.</simpara></listitem></varlistentry></entity>
+
+<entity name="mysql.field-offset.req.description"><varlistentry><term>
+<parameter>field_offset</parameter></term><listitem><simpara>The numerical field offset. The
+<parameter>field_offset</parameter> starts at <literal>0</literal>. If
+<parameter>field_offset</parameter> does not exist, an error of level
+<constant>E_WARNING</constant> is also issued.</simpara></listitem></varlistentry></entity>
+
+<entity name="mysql.alternative.note"><simpara>This extension was deprecated in PHP 5.5.0, and it was removed in PHP 7.0.0.
+Instead, the <link xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extension should be used.
+See also <link xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
+Alternatives to this function include:</simpara></entity>
+
+<entity name="mysql.alternative.note.4-3-0"><simpara>This function was deprecated in PHP 4.3.0, and it
+and the entire <link linkend="book.mysql">original MySQL extension</link> was removed in PHP 7.0.0.
+Instead, use either the actively developed <link xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extensions.
+See also the <link xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
+Alternatives to this function include:</simpara></entity>
+
+<entity name="mysql.alternative.note.5-3-0"><simpara>This function was deprecated in PHP 5.3.0, and it
+and the entire <link linkend="book.mysql">original MySQL extension</link> was removed in PHP 7.0.0.
+Instead, use either the actively developed <link xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extensions.
+See also the <link xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
+Alternatives to this function include:</simpara></entity>
+
+<entity name="mysql.alternative.note.5-4-0"><simpara>This function was deprecated in PHP 5.4.0, and it
+and the entire <link linkend="book.mysql">original MySQL extension</link> was removed in PHP 7.0.0.
+Instead, use either the actively developed <link xlink:href="&url.php.manual.book.mysqli;">MySQLi</link> or <link xlink:href="&url.php.manual.ref.pdo-mysql;">PDO_MySQL</link> extensions.
+See also the <link xlink:href="&url.php.manual.mysqlinfo.api.choosing;">MySQL: choosing an API</link> guide.
+Alternatives to this function include:</simpara></entity>
+
+<entity name="mysql.close.connections.result.sets"><simpara>
+Open non-persistent MySQL connections and result sets are automatically destroyed when a
+PHP script finishes its execution. So, while explicitly closing open
+connections and freeing result sets is optional, doing so is recommended.
+This will immediately return resources to PHP and MySQL, which can
+improve performance. For related information, see
+<link xlink:href="&url.php.manual.language.types.resource.self-destruct;">freeing resources</link></simpara></entity>
+
+</entities>

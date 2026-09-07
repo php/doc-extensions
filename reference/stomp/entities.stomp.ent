@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the stomp extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="stomp.param.link"><varlistentry><term><parameter>link</parameter></term><listitem><simpara>Procedural style only: The stomp link identifier returned by <function>stomp_connect</function>.</simpara></listitem></varlistentry></entity>
+
+<entity name="stomp.param.headers"><varlistentry><term><parameter>headers</parameter></term><listitem><simpara>Associative array containing the additional headers (example: receipt).</simpara></listitem></varlistentry></entity>
+
+<entity name="stomp.note.transaction"><note><simpara>A transaction header may be specified, indicating that the message acknowledgment should be part of the named transaction.</simpara></note></entity>
+
+<entity name="stomp.note.sync"><tip><simpara>Stomp is inherently asynchronous. Synchronous communication can be implemented adding a receipt header. This will cause methods to not return anything until the server has acknowledged receipt of the message or until read timeout was reached.</simpara></tip></entity>
+
+</entities>

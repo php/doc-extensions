@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the gnupg extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="gnupg.identifier"><simpara>The gnupg identifier, from a call to
+<function>gnupg_init</function> or <classname>gnupg</classname>.</simpara></entity>
+
+<entity name="gnupg.fingerprint"><simpara>The fingerprint key.</simpara></entity>
+
+</entities>

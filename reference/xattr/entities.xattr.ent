@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the xattr extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="xattr.namespace"><simpara>Extended attributes have two different namespaces: user
+and root. The user namespace is available to all users, while the root namespace
+is available only to users with root privileges. xattr operates on the user
+namespace  by default, but this can be changed with the
+<parameter>flags</parameter> parameter.</simpara></entity>
+
+</entities>

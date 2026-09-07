@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the win32service extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="win32service.false.error">, &false; if there is a problem with the parameters or a <link linkend="win32service.constants.errors">Win32 Error Code</link> on failure.</entity>
+
+<entity name="win32service.noerror.false.error">returned <constant>WIN32_NO_ERROR</constant> on success&win32service.false.error;</entity>
+
+</entities>

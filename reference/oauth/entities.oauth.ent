@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the oauth extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="oauth.callback.error">Emits an <constant>E_ERROR</constant> level
+error if the callback function cannot be called, or was not specified.</entity>
+
+<entity name="oauth.changelog.error.null">Previously returned &null; on failure, instead of &false;.</entity>
+
+</entities>

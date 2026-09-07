@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the runkit7 extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="note.runkit.selfmanipulation"><note><simpara>This function cannot
+be used to manipulate the currently running (or chained) method.</simpara>
+</note></entity>
+
+<entity name="note.runkit.internal-override"><note><simpara>By default, only
+userspace functions may be removed, renamed, or modified.  In order to
+override internal functions, you must enable the
+<literal>runkit.internal_override</literal> setting in &php.ini;.</simpara>
+</note></entity>
+
+</entities>

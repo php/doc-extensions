@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the eio extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="eio.callback.proto"><para>
+<parameter>callback</parameter> function is called when the request is done.
+It should match the following prototype: <programlisting role="php"><![CDATA[
+void callback(mixed $data, int $result[, resource $req]);
+]]></programlisting>
+<variablelist>
+<varlistentry>
+<term><parameter>data</parameter></term>
+<listitem><simpara>is custom data passed to the request.</simpara></listitem>
+</varlistentry>
+<varlistentry>
+<term><parameter>result</parameter></term>
+<listitem><simpara>request-specific result value; basically, the value returned by corresponding
+system call.</simpara></listitem>
+</varlistentry>
+<varlistentry>
+<term><parameter>req</parameter></term>
+<listitem><simpara>is optional request resource which can be used with functions like <function>eio_get_last_error</function>.</simpara></listitem>
+</varlistentry>
+</variablelist>
+</para>
+</entity>
+
+<entity name="eio.request.pri.values"><simpara>The request priority: <constant>EIO_PRI_DEFAULT</constant>, <constant>EIO_PRI_MIN</constant>, <constant>EIO_PRI_MAX</constant>, or &null;.
+If &null; passed, <parameter>pri</parameter> internally is set to
+<constant>EIO_PRI_DEFAULT</constant>.
+</simpara>
+</entity>
+
+<entity name="eio.warn.relpath"><warning><simpara>Avoid relative
+paths</simpara></warning>
+</entity>
+
+</entities>

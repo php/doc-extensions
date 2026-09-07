@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the gearman extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="gearman.parameter.host">The job server host name.</entity>
+
+<entity name="gearman.parameter.port">The job server port.</entity>
+
+<entity name="gearman.parameter.functionname">A registered function the worker is to execute</entity>
+
+<entity name="gearman.parameter.workload">Serialized data to be processed</entity>
+
+<entity name="gearman.parameter.context">Application context to associate with a task</entity>
+
+<entity name="gearman.parameter.unique">A unique ID used to identify a particular task</entity>
+
+<entity name="gearman.parameter.jobhandle">The job handle assigned by the Gearman server</entity>
+
+<entity name="gearman.parameter.callback"><varlistentry>
+ <term><parameter>callback</parameter></term>
+ <listitem>
+  <simpara>
+   A function or method to call.
+   It should return a valid <link linkend="gearman.constants">Gearman return value</link>.
+  </simpara>
+  <simpara>
+   If no return statement is present, it defaults to <constant>GEARMAN_SUCCESS</constant>.
+  </simpara>
+  <methodsynopsis>
+   <type>int</type><methodname><replaceable>callback</replaceable></methodname>
+   <methodparam><type>GearmanTask</type><parameter>task</parameter></methodparam>
+   <methodparam><type>mixed</type><parameter>context</parameter></methodparam>
+  </methodsynopsis>
+  <variablelist>
+   <varlistentry>
+    <term><parameter>task</parameter></term>
+    <listitem>
+     <simpara>
+      The task this callback is called for.
+     </simpara>
+    </listitem>
+   </varlistentry>
+   <varlistentry>
+    <term><parameter>context</parameter></term>
+    <listitem>
+     <simpara>
+      Whatever has been passed to <methodname>GearmanClient::addTask</methodname> (or equivalent method) as <parameter>context</parameter>.
+     </simpara>
+    </listitem>
+   </varlistentry>
+  </variablelist>
+ </listitem>
+</varlistentry></entity>
+
+<entity name="gearman.note.callback"><note>
+ <simpara>
+  The callback will only be triggered for tasks that are added (e.g. by calling <methodname>GearmanClient::addTask</methodname>)
+  after calling this method.
+ </simpara>
+</note></entity>
+
+</entities>

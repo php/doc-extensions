@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Snippets used only by the mongodb extension.
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<entity name="mongodb.changelog.class-removed">
+       <row>
+        <entry>PECL mongodb 2.0.0</entry>
+        <entry>
+         This class was removed.
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.changelog.function-removed">
+       <row>
+        <entry>PECL mongodb 2.0.0</entry>
+        <entry>
+         This function was removed.
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.changelog.method-removed">
+       <row>
+        <entry>PECL mongodb 2.0.0</entry>
+        <entry>
+         This method was removed.
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.changelog.serializable-interface-removed">
+       <row>
+        <entry>PECL mongodb 2.0.0</entry>
+        <entry>
+         <simpara>
+          This class no longer implements the
+          <interfacename>Serializable</interfacename> interface.
+         </simpara>
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.changelog.tentative-return-types">
+       <row>
+        <entry>PECL mongodb 1.15.0</entry>
+        <entry>
+         Return types for methods are declared as tentative on PHP 8.0 and newer,
+         triggering deprecation notices in code that implements this interface
+         without declaring the appropriate return types. The <code>#[ReturnTypeWillChange]</code>
+         attribute can be added to silence the deprecation notice.
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.changelog.tentative-return-types-enforced">
+       <row>
+        <entry>PECL mongodb 2.0.0</entry>
+        <entry>
+         Return types previously declared as tentative are now enforced.
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.changelog.throw-unacknowledged-write">
+       <row>
+        <entry>PECL mongodb 2.0.0</entry>
+        <entry>
+         <simpara>
+          This method now throws an exception when called for an unacknowledged write instead of returning &null;.
+         </simpara>
+        </entry>
+       </row>
+</entity>
+
+<entity name="mongodb.option.collation">
+         <row>
+          <entry>collation</entry>
+          <entry><type class="union"><type>array</type><type>object</type></type></entry>
+          <entry>
+           <simpara>
+            <link xlink:href="&url.mongodb.docs.collation;">Collation</link> allows users to specify language-specific rules for string comparison, such as rules for lettercase and accent marks. When specifying collation, the <literal>"locale"</literal> field is mandatory; all other collation fields are optional. For descriptions of the fields, see <link xlink:href="&url.mongodb.docs.collation;#collation-document">Collation Document</link>.
+           </simpara>
+           <simpara>
+            If the collation is unspecified but the collection has a default collation, the operation uses the collation specified for the collection. If no collation is specified for the collection or for the operation, MongoDB uses the simple binary comparison used in prior versions for string comparisons.
+           </simpara>
+           <simpara>
+            This option is available in MongoDB 3.4+ and will result in an exception at execution time if specified for an older server version.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.let">
+         <row>
+          <entry>let</entry>
+          <entry><type class="union"><type>array</type><type>object</type></type></entry>
+          <entry>
+           <simpara>
+            Map of parameter names and values. Values must be constant or closed expressions that do not reference document fields. Parameters can then be accessed as variables in an aggregate expression context (e.g. <literal>$$var</literal>).
+           </simpara>
+           <simpara>
+            This option is available in MongoDB 5.0+ and will result in an exception at execution time if specified for an older server version.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.encryption.keyVaultClient">
+         <row>
+          <entry>keyVaultClient</entry>
+          <entry><classname>MongoDB\Driver\Manager</classname></entry>
+          <entry>The Manager used to route data key queries to a separate MongoDB cluster. By default, the current Manager and cluster is used.</entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.encryption.keyVaultNamespace">
+         <row>
+          <entry>keyVaultNamespace</entry>
+          <entry><type>string</type></entry>
+          <entry>A fully qualified namespace (e.g. <literal>"databaseName.collectionName"</literal>) denoting the collection that contains all data keys used for encryption and decryption. This option is required.</entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.encryption.kmsProviders">
+         <row>
+          <entry>kmsProviders</entry>
+          <entry><type>array</type></entry>
+          <entry>
+           <simpara>
+            A document containing the configuration for one or more KMS providers, which are used to encrypt data keys. Supported providers include <literal>"aws"</literal>, <literal>"azure"</literal>, <literal>"gcp"</literal>, <literal>"kmip"</literal>, and <literal>"local"</literal> and at least one must be specified.
+           </simpara>
+           <simpara>
+            If an empty document is specified for <literal>"aws"</literal>,
+            <literal>"azure"</literal>, or <literal>"gcp"</literal>, the driver
+            will attempt to configure the provider using
+            <link xlink:href="&url.mongodb.specs;/blob/master/source/client-side-encryption/client-side-encryption.rst#automatic-credentials">Automatic Credentials</link>.
+           </simpara>
+           <simpara>
+            The format for <literal>"aws"</literal> is as follows:
+           </simpara>
+           <programlisting role="javascript">
+<![CDATA[
+aws: {
+    accessKeyId: <string>,
+    secretAccessKey: <string>,
+    sessionToken: <optional string>
+}
+]]>
+           </programlisting>
+           <simpara>
+            The format for <literal>"azure"</literal> is as follows:
+           </simpara>
+           <programlisting role="javascript">
+<![CDATA[
+azure: {
+    tenantId: <string>,
+    clientId: <string>,
+    clientSecret: <string>,
+    identityPlatformEndpoint: <optional string> // Defaults to "login.microsoftonline.com"
+}
+]]>
+           </programlisting>
+           <simpara>
+            The format for <literal>"gcp"</literal> is as follows:
+           </simpara>
+           <programlisting role="javascript">
+<![CDATA[
+gcp: {
+    email: <string>,
+    privateKey: <base64 string>|<MongoDB\BSON\Binary>,
+    endpoint: <optional string> // Defaults to "oauth2.googleapis.com"
+}
+]]>
+           </programlisting>
+           <simpara>
+            The format for <literal>"kmip"</literal> is as follows:
+           </simpara>
+           <programlisting role="javascript">
+<![CDATA[
+kmip: {
+    endpoint: <string>
+}
+]]>
+           </programlisting>
+           <simpara>
+            The format for <literal>"local"</literal> is as follows:
+           </simpara>
+           <programlisting role="javascript">
+<![CDATA[
+local: {
+    // 96-byte master key used to encrypt/decrypt data keys
+    key: <base64 string>|<MongoDB\BSON\Binary>
+}
+]]>
+           </programlisting>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.encryption.masterKey-options-by-provider">
+  <para>
+   <table>
+    <title><literal>"aws"</literal> provider options</title>
+    <tgroup cols="3">
+     <thead>
+      <row>
+       <entry>Option</entry>
+       <entry>Type</entry>
+       <entry>Description</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>region</entry>
+       <entry>string</entry>
+       <entry>Required.</entry>
+      </row>
+      <row>
+       <entry>key</entry>
+       <entry>string</entry>
+       <entry>Required. The Amazon Resource Name (ARN) to the AWS customer master key (CMK).</entry>
+      </row>
+      <row>
+       <entry>endpoint</entry>
+       <entry>string</entry>
+       <entry>Optional. An alternate host identifier to send KMS requests to. May include port number.</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </para>
+  <para>
+   <table>
+    <title><literal>"azure"</literal> provider options</title>
+    <tgroup cols="3">
+     <thead>
+      <row>
+       <entry>Option</entry>
+       <entry>Type</entry>
+       <entry>Description</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>keyVaultEndpoint</entry>
+       <entry>string</entry>
+       <entry>Required. Host with optional port (e.g. "example.vault.azure.net").</entry>
+      </row>
+      <row>
+       <entry>keyName</entry>
+       <entry>string</entry>
+       <entry>Required.</entry>
+      </row>
+      <row>
+       <entry>keyVersion</entry>
+       <entry>string</entry>
+       <entry>Optional. A specific version of the named key. Defaults to using the key&apos;s primary version.</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </para>
+  <para>
+   <table>
+    <title><literal>"gcp"</literal> provider options</title>
+    <tgroup cols="3">
+     <thead>
+      <row>
+       <entry>Option</entry>
+       <entry>Type</entry>
+       <entry>Description</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>projectId</entry>
+       <entry>string</entry>
+       <entry>Required.</entry>
+      </row>
+      <row>
+       <entry>location</entry>
+       <entry>string</entry>
+       <entry>Required.</entry>
+      </row>
+      <row>
+       <entry>keyRing</entry>
+       <entry>string</entry>
+       <entry>Required.</entry>
+      </row>
+      <row>
+       <entry>keyName</entry>
+       <entry>string</entry>
+       <entry>Required.</entry>
+      </row>
+      <row>
+       <entry>keyVersion</entry>
+       <entry>string</entry>
+       <entry>Optional. A specific version of the named key. Defaults to using the key&apos;s primary version.</entry>
+      </row>
+      <row>
+       <entry>endpoint</entry>
+       <entry>string</entry>
+       <entry>Optional. Host with optional port. Defaults to "cloudkms.googleapis.com".</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </para>
+  <para>
+   <table>
+    <title><literal>"kmip"</literal> provider options</title>
+    <tgroup cols="3">
+     <thead>
+      <row>
+       <entry>Option</entry>
+       <entry>Type</entry>
+       <entry>Description</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>keyId</entry>
+       <entry>string</entry>
+       <entry>Optional. Unique identifier to a 96-byte KMIP secret data managed object. If unspecified, the driver creates a random 96-byte KMIP secret data managed object.</entry>
+      </row>
+      <row>
+       <entry>endpoint</entry>
+       <entry>string</entry>
+       <entry>Optional. Host with optional port.</entry>
+      </row>
+      <row>
+       <entry>delegated</entry>
+       <entry>bool</entry>
+       <entry>Optional. If true, this key should be decrypted by the KMIP server.</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </para>
+</entity>
+
+<entity name="mongodb.option.encryption.tlsOptions">
+         <row>
+          <entry>tlsOptions</entry>
+          <entry><type>array</type></entry>
+          <entry>
+           <simpara>
+            A document containing the TLS configuration for one or more KMS providers. Supported providers include <literal>"aws"</literal>, <literal>"azure"</literal>, <literal>"gcp"</literal>, and <literal>"kmip"</literal>. All providers support the following options:
+           </simpara>
+           <programlisting role="javascript">
+<![CDATA[
+<provider>: {
+    tlsCaFile: <optional string>,
+    tlsCertificateKeyFile: <optional string>,
+    tlsCertificateKeyFilePassword: <optional string>,
+    tlsDisableOCSPEndpointCheck: <optional bool>
+}
+]]>
+           </programlisting>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.maxCommitTimeMS">
+         <row>
+          <entry>maxCommitTimeMS</entry>
+          <entry>integer</entry>
+          <entry>
+           <simpara>
+            The maximum amount of time in milliseconds to allow a single
+            <literal>commitTransaction</literal> command to run.
+           </simpara>
+           <simpara>
+            If specified, <literal>maxCommitTimeMS</literal> must be a signed
+            32-bit integer greater than or equal to zero.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.readConcern">
+         <row>
+          <entry>readConcern</entry>
+          <entry><classname>MongoDB\Driver\ReadConcern</classname></entry>
+          <entry>
+           <simpara>
+            A read concern to apply to the operation.
+           </simpara>
+           <simpara>
+            This option is available in MongoDB 3.2+ and will result in an
+            exception at execution time if specified for an older server
+            version.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.readPreference">
+         <row>
+          <entry>readPreference</entry>
+          <entry><classname>MongoDB\Driver\ReadPreference</classname></entry>
+          <entry>
+           <simpara>
+            A read preference to use for selecting a server for the operation.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.session">
+         <row>
+          <entry>session</entry>
+          <entry><classname>MongoDB\Driver\Session</classname></entry>
+          <entry>
+           <simpara>
+            A session to associate with the operation.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.option.transactionReadWriteConcern">
+     <warning>
+      <simpara>
+       If you are using a <literal>"session"</literal> which has a transaction
+       in progress, you cannot specify a <literal>"readConcern"</literal> or
+       <literal>"writeConcern"</literal> option. This will result in an
+       <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname>
+       being thrown. Instead, you should set these two options when you create
+       the transaction with
+       <methodname>MongoDB\Driver\Session::startTransaction</methodname>.
+      </simpara>
+     </warning>
+</entity>
+
+<entity name="mongodb.option.writeConcern">
+         <row>
+          <entry>writeConcern</entry>
+          <entry><classname>MongoDB\Driver\WriteConcern</classname></entry>
+          <entry>
+           <simpara>
+            A write concern to apply to the operation.
+           </simpara>
+          </entry>
+         </row>
+</entity>
+
+<entity name="mongodb.parameter.namespace">
+   <varlistentry>
+    <term><parameter>namespace</parameter> (<type>string</type>)</term>
+    <listitem>
+     <simpara>
+      A fully qualified namespace (e.g. <literal>"databaseName.collectionName"</literal>).
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.db">
+   <varlistentry>
+    <term><parameter>db</parameter> (<type>string</type>)</term>
+    <listitem>
+     <simpara>
+      The name of the database on which to execute the command.
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.bulkwrite">
+   <varlistentry>
+    <term><parameter>bulk</parameter> (<classname>MongoDB\Driver\BulkWrite</classname>)</term>
+    <listitem>
+     <simpara>
+      The write(s) to execute.
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.bulkwritecommand">
+   <varlistentry>
+    <term><parameter>bulk</parameter> (<classname>MongoDB\Driver\BulkWriteCommand</classname>)</term>
+    <listitem>
+     <simpara>
+      The write(s) to execute.
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.command">
+   <varlistentry>
+    <term><parameter>command</parameter> (<classname>MongoDB\Driver\Command</classname>)</term>
+    <listitem>
+     <simpara>
+      The command to execute.
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.encryptOpts">
+   <varlistentry>
+    <term><parameter>options</parameter></term>
+    <listitem>
+     <para>
+      <table>
+       <title>Encryption options</title>
+       <tgroup cols="3">
+        <thead>
+         <row>
+          <entry>Option</entry>
+          <entry>Type</entry>
+          <entry>Description</entry>
+         </row>
+        </thead>
+        <tbody>
+         <row>
+          <entry>algorithm</entry>
+          <entry><type>string</type></entry>
+          <entry>
+           <simpara>
+            The encryption algorithm to be used. This option is required.
+            Specify one of the following
+            <link linkend="mongodb-driver-clientencryption.constants">ClientEncryption constants</link>:
+           </simpara>
+           <simplelist>
+            <member><constant>MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant></member>
+           </simplelist>
+          </entry>
+         </row>
+         <row>
+          <entry>contentionFactor</entry>
+          <entry><type>int</type></entry>
+          <entry>
+           <simpara>
+            The contention factor for evaluating queries with indexed, encrypted
+            payloads.
+           </simpara>
+           <simpara>
+            This option only applies and may only be specified when
+            <literal>algorithm</literal> is
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant>
+            or
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant>.
+           </simpara>
+          </entry>
+         </row>
+         <row>
+          <entry>keyAltName</entry>
+          <entry><type>string</type></entry>
+          <entry>
+           <simpara>
+            Identifies a key vault collection document by
+            <literal>keyAltName</literal>. This option is mutually exclusive
+            with <literal>keyId</literal> and exactly one is required.
+           </simpara>
+          </entry>
+         </row>
+         <row>
+          <entry>keyId</entry>
+          <entry><classname>MongoDB\BSON\Binary</classname></entry>
+          <entry>
+           <simpara>
+            Identifies a data key by <literal>_id</literal>. The value is a UUID
+            (binary subtype 4). This option is mutually exclusive with
+            <literal>keyAltName</literal> and exactly one is required.
+           </simpara>
+          </entry>
+         </row>
+         <row>
+          <entry>queryType</entry>
+          <entry><type>string</type></entry>
+          <entry>
+           <simpara>
+            The query type for evaluating queries with indexed, encrypted
+            payloads. Specify one of the following
+            <link linkend="mongodb-driver-clientencryption.constants">ClientEncryption constants</link>:
+           </simpara>
+           <simplelist>
+            <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE</constant></member>
+           </simplelist>
+           <simpara>
+            This option only applies and may only be specified when
+            <literal>algorithm</literal> is
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant>
+            or <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant>.
+           </simpara>
+          </entry>
+         </row>
+         <row>
+          <entry>rangeOpts</entry>
+          <entry><type>array</type></entry>
+          <entry>
+           <simpara>
+            Index options for a queryable encryption field supporting "range"
+            queries. The options below must match the values set in the
+            <literal>encryptedFields</literal> of the target collection. For
+            double and decimal128 BSON field types, <literal>min</literal>,
+            <literal>max</literal>, and <literal>precision</literal> must all be
+            set, or all be unset.
+           </simpara>
+           <para>
+            <table>
+             <title>Range index options</title>
+             <tgroup cols="3">
+              <thead>
+               <row>
+                <entry>Option</entry>
+                <entry>Type</entry>
+                <entry>Description</entry>
+               </row>
+              </thead>
+              <tbody>
+               <row>
+                <entry>min</entry>
+                <entry><type>mixed</type></entry>
+                <entry>
+                 Required if <literal>precision</literal> is set. The minimum
+                 BSON value of the range.
+                </entry>
+               </row>
+               <row>
+                <entry>max</entry>
+                <entry><type>mixed</type></entry>
+                <entry>
+                 Required if <literal>precision</literal> is set. The maximum
+                 BSON value of the range.
+                </entry>
+               </row>
+               <row>
+                <entry>sparsity</entry>
+                <entry><type>int</type></entry>
+                <entry>Optional. Positive 64-bit integer.</entry>
+               </row>
+               <row>
+                <entry>precision</entry>
+                <entry><type>int</type></entry>
+                <entry>
+                 Optional. Positive 32-bit integer specifying precision to use
+                 for explicit encryption. May only be set for double or
+                 decimal128 BSON field types.
+                </entry>
+               </row>
+               <row>
+                <entry>trimFactor</entry>
+                <entry><type>int</type></entry>
+                <entry>Optional. Positive 32-bit integer.</entry>
+               </row>
+              </tbody>
+             </tgroup>
+            </table>
+           </para>
+          </entry>
+         </row>
+        </tbody>
+       </tgroup>
+      </table>
+     </para>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.query">
+   <varlistentry>
+    <term><parameter>query</parameter> (<classname>MongoDB\Driver\Query</classname>)</term>
+    <listitem>
+     <simpara>
+      The query to execute.
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.typeMap">
+   <varlistentry>
+    <term><parameter>typeMap</parameter> (<type>array</type>)</term>
+    <listitem>
+     <simpara>
+      <link linkend="mongodb.persistence.typemaps">Type map configuration</link>.
+     </simpara>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.parameter.filter">
+   <varlistentry>
+    <term><parameter>filter</parameter> (<type class="union"><type>array</type><type>object</type></type>)</term>
+    <listitem>
+     <simpara>
+      The <link xlink:href="&url.mongodb.docs;tutorial/query-documents/">query predicate</link>.
+      An empty predicate will match all documents in the collection.
+     </simpara>
+     <note>
+      <simpara>
+       When evaluating query criteria, MongoDB compares types and values according to its own <link xlink:href="&url.mongodb.docs;reference/bson-type-comparison-order/">comparison rules for BSON types</link>, which differs from PHP&apos;s <link xlink:href="&url.php.manual.types.comparisons;">comparison</link> and <link xlink:href="&url.php.manual.language.types.type-juggling;">type juggling</link> rules. When matching a special BSON type the query criteria should use the respective <link linkend="mongodb.bson">BSON class</link> (e.g. use <classname>MongoDB\BSON\ObjectId</classname> to match an <link xlink:href="&url.mongodb.docs.objectid;">ObjectId</link>).
+      </simpara>
+     </note>
+    </listitem>
+   </varlistentry>
+</entity>
+
+<entity name="mongodb.returns.cursor"><simpara>Returns <classname>MongoDB\Driver\Cursor</classname> on success.</simpara></entity>
+
+<entity name="mongodb.returns.writeresult"><simpara>Returns <classname>MongoDB\Driver\WriteResult</classname> on success.</simpara></entity>
+
+<entity name="mongodb.returns.bulkwritecommandresult"><simpara>Returns <classname>MongoDB\Driver\BulkWriteCommandResult</classname> on success.</simpara></entity>
+
+<entity name="mongodb.throws.std">&mongodb.throws.argumentparsing;&mongodb.throws.connection;&mongodb.throws.authentication;</entity>
+
+<entity name="mongodb.throws.session-readwriteconcern"><member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if the <literal>"session"</literal> option is used with an associated transaction in combination with a <literal>"readConcern"</literal> or <literal>"writeConcern"</literal> option.</member></entity>
+
+<entity name="mongodb.throws.session-unacknowledged"><member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if the <literal>"session"</literal> option is used in combination with an unacknowledged write concern.</member></entity>
+
+<entity name="mongodb.throws.bulkwritecommandexception"><member>Throws <classname>MongoDB\Driver\Exception\BulkWriteCommandException</classname> on any write failure (e.g. command failure, write or write concern error)</member></entity>
+
+<entity name="mongodb.throws.bulkwriteexception"><member>Throws <classname>MongoDB\Driver\Exception\BulkWriteException</classname> on any write failure (e.g. write error, failure to apply a write concern)</member></entity>
+
+<entity name="mongodb.throws.argumentparsing"><member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> on argument parsing errors.</member></entity>
+
+<entity name="mongodb.throws.authentication"><member>Throws <classname>MongoDB\Driver\Exception\AuthenticationException</classname> if authentication is needed and fails.</member></entity>
+
+<entity name="mongodb.throws.connection"><member>Throws <classname>MongoDB\Driver\Exception\ConnectionException</classname> if connection to the server fails (for reasons other than authentication).</member></entity>
+
+<entity name="mongodb.throws.bson.unexpected"><member>Throws <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname> if the input did not contain exactly one BSON document. Possible reasons include, but are not limited to, invalid BSON, extra data (after reading one BSON document), or an unexpected <link xlink:href="&url.mongodb.libbson;">libbson</link> error.</member></entity>
+
+<entity name="mongodb.throws.unacknowledged"><member>Throws <classname>MongoDB\Driver\Exception\LogicException</classname> if the write was not acknowledged.</member></entity>
+
+<entity name="mongodb.note.decimal128">
+   <note>
+    <simpara>
+     <classname>MongoDB\BSON\Decimal128</classname> is only compatible with
+     MongoDB 3.4+. Attempting to use the BSON type with an earlier version of
+     MongoDB will result in an error.
+    </simpara>
+   </note>
+</entity>
+
+<entity name="mongodb.note.extended-json">
+  <note>
+   <simpara>
+    The output is consistent with the <function>MongoDB\BSON\toJSON</function>
+    function, which uses the driver-specific legacy extended JSON format. This
+    does not necessarily match the
+    <link xlink:href="&url.mongodb.specs.extendedjson;#relaxed-extended-json-example">relaxed</link>
+    or <link xlink:href="&url.mongodb.specs.extendedjson;#canonical-extended-json-example">canonical</link>
+    extended JSON representations used by
+    <function>MongoDB\BSON\toRelaxedExtendedJSON</function> and
+    <function>MongoDB\BSON\toCanonicalExtendedJSON</function>, respectively.
+   </simpara>
+  </note>
+</entity>
+
+<entity name="mongodb.note.forking">
+   <note>
+    <simpara>
+     On Unix platforms, the extension is sensitive to scripts that use the
+     fork() system call without also calling exec(). Users are advised not to
+     re-use <classname>MongoDB\Driver\Manager</classname> instances in a forked
+     child process.
+    </simpara>
+   </note>
+</entity>
+
+<entity name="mongodb.note.uint32">
+  <note>
+   <simpara>
+    Because PHP&apos;s integer type is signed, some values returned by this
+    method may appear as negative integers on 32-bit platforms. The
+    <literal>"&#37;u"</literal> formatter of <function>sprintf</function> may be
+    used to obtain a string representation of the unsigned decimal value.
+   </simpara>
+  </note>
+</entity>
+
+<entity name="mongodb.note.server.readpreference">
+  <note>
+   <simpara>
+    The <literal>"readPreference"</literal> option does not control the server
+    to which the driver issues the operation; it will always be executed on
+    this server object. Instead, it may be used when issuing the operation to a
+    secondary (from a replica set connection, not standalone) or mongos node to
+    ensure that the driver sets the wire protocol accordingly or adds the read
+    preference to the operation, respectively.
+   </simpara>
+  </note>
+</entity>
+
+<entity name="mongodb.note.server.write">
+  <note>
+   <simpara>
+    It is the caller&apos;s responsibility to ensure that the server is capable
+    of executing the write operation. For example, executing a write operation
+    on a secondary (excluding its "local" database) will fail.
+   </simpara>
+  </note>
+</entity>
+
+<entity name="mongodb.warning.duplicate-keys">
+   <warning>
+    <simpara>
+     BSON documents can technically contain duplicate keys because documents are
+     stored as a list of key-value pairs; however, applications should refrain
+     from generating documents with duplicate keys as server and driver behavior
+     may be undefined. Since PHP objects and arrays cannot have duplicate keys,
+     data could also be lost when decoding a BSON document with duplicate keys.
+    </simpara>
+   </warning>
+</entity>
+
+</entities>

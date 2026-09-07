@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Reusable snippets shared by several extensions: return value
+descriptions, PECL installation boilerplate, section titles, and so on.
+See doc-base/scripts/text-entities.php for details.
+
+Shared notes and warnings live in entities.notes.ent. Snippets that
+belong to a single extension live next to that extension instead,
+in reference/<ext>/entities.<ext>.ent.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<!-- Misc -->
+
+<entity name="no.function.parameters"><simpara>This function has no parameters.</simpara></entity>
+
+<entity name="example.outputs"><simpara>The above example will output:</simpara></entity>
+
+<entity name="example.outputs.similar"><simpara>The above example will output
+something similar to:</simpara></entity>
+
+<entity name="sort.callback.description"><simpara>
+ &return.callbacksort;
+</simpara>
+&callback.cmp;
+<caution>
+ <simpara>
+  Returning <emphasis>non-integer</emphasis> values from the comparison
+  function, such as <type>float</type>, will result in an internal cast to
+  <type>int</type> of the callback&apos;s return value. So values such as
+  <literal>0.99</literal> and <literal>0.1</literal> will both be cast to an
+  integer value of <literal>0</literal>, which will compare such values as equal.
+ </simpara>
+</caution></entity>
+
+<entity name="info.deprecated.alias">For backward compatibility, the following
+deprecated alias may be used: </entity>
+
+<entity name="info.function.alias">This function is an alias of: </entity>
+
+<entity name="info.method.alias">This method is an alias of: </entity>
+
+<entity name="ext.windows.path.dll">In order for this extension to work, there are
+<acronym>DLL</acronym> files that must be available to the Windows
+system <envar>PATH</envar>. For information on how to do this, see the
+<acronym>FAQ</acronym> entitled "<link xlink:href="&url.php.manual.faq.installation.addtopath;">How do I add my PHP directory to the PATH
+on Windows</link>". Although copying DLL
+files from the PHP folder into the Windows system directory also works
+(because the system directory is by default in the system&apos;s
+<envar>PATH</envar>), this is not recommended.
+<emphasis>This extension requires the following files to be in the
+<envar>PATH</envar>:</emphasis> </entity>
+
+<entity name="style.oop">Object-oriented style</entity>
+
+<entity name="style.procedural">Procedural style</entity>
+
+<!-- Returns -->
+
+<entity name="return.type.true"><row>
+ <entry>8.2.0</entry>
+ <entry>
+  The return type is &true; now; previously, it was <type>bool</type>.
+ </entry>
+</row></entity>
+
+<entity name="return.falseforfailure"> or &false; on failure</entity>
+
+<entity name="return.success">Returns &true; on success&return.falseforfailure;.</entity>
+
+<entity name="return.void">No value is returned.</entity>
+
+<entity name="return.true.always">Always returns &true;.</entity>
+
+<entity name="return.callbacksort">The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second.</entity>
+
+<entity name="return.falseproblem"><warning><simpara>This function may
+return Boolean &false;, but may also return a non-Boolean value which
+evaluates to &false;. Please read the section on <link xlink:href="&url.php.manual.language.types.boolean;">Booleans</link> for more
+information. Use <link xlink:href="&url.php.manual.language.operators.comparison;">the ===
+operator</link> for testing the return value of this
+function.</simpara></warning></entity>
+
+<!-- Common pieces in partintro-sections -->
+
+<entity name="no.config"><simpara>This extension has no configuration directives defined in &php.ini;.</simpara></entity>
+
+<!-- Used in every chapter that has directive descriptions -->
+
+<entity name="ini.descriptions.title"><simpara>Here&apos;s a short explanation of
+the configuration directives.</simpara></entity>
+
+<!-- Used in reference/$extname/ini.xml -->
+
+<entity name="extension.runtime"><simpara>
+The behaviour of these functions is affected by settings in &php.ini;.
+</simpara></entity>
+
+<entity name="ini.php.constants">For further details and definitions of the
+INI_* modes, see the <link xlink:href="&url.php.manual.configuration.changes.modes;">Where a configuration setting may be set</link>.</entity>
+
+<!-- Used in reference/$extname/constants.xml -->
+
+<entity name="extension.constants"><simpara>
+The constants below are defined by this extension, and
+will only be available when the extension has either
+been compiled into PHP or dynamically loaded at runtime.
+</simpara></entity>
+
+<!-- PDO entities -->
+
+<entity name="pdo.driver-constants"><simpara>The constants below are defined by
+this driver, and will only be available when the extension has been either
+compiled into PHP or dynamically loaded at runtime. In addition, these
+driver-specific constants should only be used if you are using this driver.
+Using driver-specific attributes with another driver may result in
+unexpected behaviour. <function>PDO::getAttribute</function> may be used to
+obtain the <constant>PDO::ATTR_DRIVER_NAME</constant> attribute to check the
+driver, if your code can run against multiple drivers.</simpara></entity>
+
+<!-- PECL entities -->
+
+<entity name="pecl.moved">This &link.pecl; extension is not bundled with PHP.</entity>
+
+<entity name="pecl.info">Information for installing this PECL extension may be
+found in the manual chapter titled <link xlink:href="&url.php.manual.install.pecl;">Installation
+of PECL extensions</link>. Additional information such as new releases,
+downloads, source files, maintainer information, and a CHANGELOG, can be
+located here: </entity>
+
+<entity name="pecl.info.dead">This extension is considered unmaintained and dead. However, the source code for
+this extension is still available within <acronym>PECL</acronym>
+<acronym>SVN</acronym> here: </entity>
+
+<entity name="pecl.info.dead.git">This extension is considered unmaintained and dead. However, the source code for
+this extension is still available within <acronym>PECL</acronym>
+<acronym>GIT</acronym> here: </entity>
+
+<entity name="pecl.windows.download">A <acronym>DLL</acronym> for this
+<acronym>PECL</acronym> extension is currently unavailable. See also the
+<link xlink:href="&url.php.manual.install.windows.building;">building on Windows</link>
+section.</entity>
+
+<entity name="pecl.windows.download.avail">Windows binaries (<acronym>DLL</acronym> files)
+for this <acronym>PECL</acronym> extension are available from the PECL website.</entity>
+
+<entity name="pecl.moved-ver">This extension has been moved to the &link.pecl;
+repository and is no longer bundled with PHP as of PHP </entity>
+
+<entity name="pecl.moving.to.pie"><warning>
+ <simpara>
+  PECL is deprecated.
+  PHP Installer for Extensions (<acronym>PIE</acronym>) replaces PECL and is recommended to install extensions.
+  Find out more at <link xlink:href="https://github.com/php/pie">https://github.com/php/pie</link>
+ </simpara>
+</warning></entity>
+
+<!-- Common pieces for reference part END -->
+
+<entity name="windows.builtin"><simpara>The Windows version of PHP has built-in
+support for this extension. You do not need to load any additional
+extensions in order to use these functions.</simpara></entity>
+
+<!-- These are here as helpers for manual consistency and brievety-->
+
+<entity name="sqlsafemode"><link xlink:href="&url.php.manual.ini.sql.safe-mode;">SQL safe mode</link></entity>
+
+<!-- Snippets and titles for the contributors section -->
+
+<entity name="Credit.Authors.and.Contributors">Authors and Contributors</entity>
+
+<entity name="Credit.Introduction"><simpara> There is a large number of contributors who
+currently help in our work or have provided a great amount of help to the project
+in the past. There are also a lot of unnamed people who help out with user
+notes on manual pages, which continually get included in the references, the
+work of whom we are also very thankful for. All of the lists provided below are in
+alphabetical order.
+</simpara></entity>
+
+<entity name="Credit.Authors.and.Editors">Authors and Editors</entity>
+
+<entity name="Credit.Past.Authors.Text">The following contributors should be
+recognized for the impact they have made and/or continue to make by adding
+content to the manual:</entity>
+
+<entity name="Credit.Past.Editors.Text">The following contributors have done
+significant work editing the manual:</entity>
+
+<entity name="Credit.Note.Editors.Title">User Note Maintainers</entity>
+
+<entity name="Credit.Note.Editors.Active">The currently most active maintainers are:</entity>
+
+<entity name="Credit.Note.Editors.Inactive">These people have also put a lot of effort
+into managing user notes:</entity>
+
+<entity name="listendand"> and</entity>
+
+<!-- XML -->
+
+<entity name="libxml.required"><simpara>
+ This extension requires the <link xlink:href="&url.php.manual.book.libxml;">libxml</link> PHP extension.
+ This means passing the <option role="configure">--with-libxml</option>,
+ or prior to PHP 7.4 the <option role="configure">--enable-libxml</option>,
+ configuration flag, although this is implicitly accomplished because libxml
+ is enabled by default.
+</simpara></entity>
+
+</entities>
