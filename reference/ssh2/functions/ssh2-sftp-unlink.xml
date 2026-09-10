@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-unlink">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-sftp-unlink">
  <refnamediv>
   <refname>ssh2_sftp_unlink</refname>
   <refpurpose>Delete a file</refpurpose>
@@ -67,7 +67,7 @@ ssh2_sftp_unlink($sftp, '/home/username/stale_file');
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>unlink</function></member>
+   <member><function xlink:href="&url.php.manual.function.unlink;">unlink</function></member>
   </simplelist>
  </refsect1>
 

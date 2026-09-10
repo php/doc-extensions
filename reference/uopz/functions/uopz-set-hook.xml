@@ -12,13 +12,13 @@
   <methodsynopsis role="procedural">
    <type>bool</type><methodname>uopz_set_hook</methodname>
    <methodparam><type>string</type><parameter>function</parameter></methodparam>
-   <methodparam><type>Closure</type><parameter>hook</parameter></methodparam>
+   <methodparam><type xlink:href="&url.php.manual.class.closure;">Closure</type><parameter>hook</parameter></methodparam>
   </methodsynopsis>
   <methodsynopsis role="procedural">
    <type>bool</type><methodname>uopz_set_hook</methodname>
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
    <methodparam><type>string</type><parameter>function</parameter></methodparam>
-   <methodparam><type>Closure</type><parameter>hook</parameter></methodparam>
+   <methodparam><type xlink:href="&url.php.manual.class.closure;">Closure</type><parameter>hook</parameter></methodparam>
   </methodsynopsis>
   <para>
    Sets a hook to execute when entering a function or method.

@@ -102,7 +102,7 @@ array(
    <member><function>inotify_rm_watch</function></member>
    <member><function>inotify_queue_len</function></member>
    <member><function>inotify_read</function></member>
-   <member><function>fclose</function></member>
+   <member><function xlink:href="&url.php.manual.function.fclose;">fclose</function></member>
   </simplelist>
  </refsect1><!-- }}} -->
 

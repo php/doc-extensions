@@ -10,12 +10,12 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <type class="union"><type>array</type><type>stdClass</type><type>MongoDB\BSON\Document</type><type>MongoDB\BSON\PackedArray</type></type><methodname>MongoDB\BSON\Serializable::bsonSerialize</methodname>
+   <modifier>abstract</modifier> <modifier>public</modifier> <type class="union"><type>array</type><type xlink:href="&url.php.manual.class.stdclass;">stdClass</type><type>MongoDB\BSON\Document</type><type>MongoDB\BSON\PackedArray</type></type><methodname>MongoDB\BSON\Serializable::bsonSerialize</methodname>
    <void />
   </methodsynopsis>
   <simpara>
    Called during serialization of the object to BSON. The method must return an
-   <type>array</type>, <classname>stdClass</classname>, <classname>MongoDB\BSON\Document</classname>,
+   <type>array</type>, <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>, <classname>MongoDB\BSON\Document</classname>,
    or <classname>MongoDB\BSON\PackedArray</classname>.
   </simpara>
   <simpara>
@@ -23,7 +23,7 @@
    <interfacename>MongoDB\BSON\Serializable</interfacename> passed to
    <methodname>MongoDB\BSON\Document::fromPHP</methodname>) will always be
    serialized as a BSON document. For field values, associative arrays and
-   <classname>stdClass</classname> instances will be serialized as a BSON
+   <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> instances will be serialized as a BSON
    document and sequential arrays (i.e. sequential, numeric indexes starting at
    <literal>0</literal>) will be serialized as a BSON array.
   </simpara>
@@ -45,7 +45,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   An <type>array</type>, <classname>stdClass</classname>, <classname>MongoDB\BSON\Document</classname>,
+   An <type>array</type>, <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>, <classname>MongoDB\BSON\Document</classname>,
    or <classname>MongoDB\BSON\PackedArray</classname> to be serialized as a BSON
    array or document.
   </simpara>
@@ -68,7 +68,7 @@
       <entry>
        <simpara>
         The return type was changed from <type class="union"><type>array</type><type>object</type></type>.
-        Instead of <type>object</type>, the return type now specifies <classname>stdClass</classname>.
+        Instead of <type>object</type>, the return type now specifies <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>.
         Classes that implement this interface must be changed to no longer
         declare an <type>object</type> return type. As the return type is
         tentative, a deprecation warning is emitted on PHP 8.1 and newer.

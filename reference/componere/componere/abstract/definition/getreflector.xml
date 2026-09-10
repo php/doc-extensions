@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ReflectionClass</type><methodname>Componere\Abstract\Definition::getReflector</methodname>
+   <modifier>public</modifier> <type xlink:href="&url.php.manual.class.reflectionclass;">ReflectionClass</type><methodname>Componere\Abstract\Definition::getReflector</methodname>
    <void/>
   </methodsynopsis>
   <simpara>

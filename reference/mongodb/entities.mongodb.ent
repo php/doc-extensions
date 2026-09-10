@@ -44,7 +44,7 @@ See doc-base/scripts/text-entities.php for details.
         <entry>
          <simpara>
           This class no longer implements the
-          <interfacename>Serializable</interfacename> interface.
+          <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename> interface.
          </simpara>
         </entry>
        </row>
@@ -783,7 +783,7 @@ local: {
    <simpara>
     Because PHP&apos;s integer type is signed, some values returned by this
     method may appear as negative integers on 32-bit platforms. The
-    <literal>"&#37;u"</literal> formatter of <function>sprintf</function> may be
+    <literal>"&#37;u"</literal> formatter of <function xlink:href="&url.php.manual.function.sprintf;">sprintf</function> may be
     used to obtain a string representation of the unsigned decimal value.
    </simpara>
   </note>

@@ -12,7 +12,7 @@
    PHP supports the direct io functions as described in the Posix
    Standard (Section 6) for performing I/O functions at a lower
    level than the C-Language stream I/O functions
-   (<function>fopen</function>, <function>fread</function>,..).  The use
+   (<function xlink:href="&url.php.manual.function.fopen;">fopen</function>, <function xlink:href="&url.php.manual.function.fread;">fread</function>,..).  The use
    of the DIO functions should be considered only when direct 
    control of a device is needed.  In all other cases, the standard
    <link xlink:href="&url.php.manual.book.filesystem;">filesystem</link> functions are more

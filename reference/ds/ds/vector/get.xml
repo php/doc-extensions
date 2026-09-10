@@ -43,7 +43,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   <classname>OutOfRangeException</classname> if the index is not valid.
+   <classname xlink:href="&url.php.manual.class.outofrangeexception;">OutOfRangeException</classname> if the index is not valid.
   </para>
  </refsect1>
 

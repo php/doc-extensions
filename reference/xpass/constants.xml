@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<appendix xml:id="xpass.constants" xmlns="http://docbook.org/ns/docbook">
+<appendix xml:id="xpass.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
  &extension.constants;
 
@@ -11,7 +11,7 @@
   Error codes (<constant>CRYPT_SALT_<replaceable>*</replaceable></constant>) returned by
   <function>crypt_checksalt</function>.
   Password algorithms (<constant>PASSWORD_<replaceable>*</replaceable></constant>) for
-  <function>password_hash</function> algo parameter.
+  <function xlink:href="&url.php.manual.function.password-hash;">password_hash</function> algo parameter.
  </simpara>
 
  <variablelist xml:id="xpass.constants.algo">

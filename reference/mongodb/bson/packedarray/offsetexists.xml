@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="mongodb-bson-packedarray.offsetexists" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="mongodb-bson-packedarray.offsetexists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB\BSON\PackedArray::offsetExists</refname>
   <refpurpose>Returns whether a index is present in the array</refpurpose>
@@ -40,7 +40,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>ArrayAccess::offsetExists</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.arrayaccess.offsetexists;">ArrayAccess::offsetExists</methodname></member>
     <member><methodname>MongoDB\BSON\PackedArray::has</methodname></member>
    </simplelist>
   </para>

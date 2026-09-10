@@ -50,7 +50,7 @@
    Triggers a <constant>YAF_ERR_TYPE_ERROR</constant> error if the found
    class is not a subclass of
    <classname>Yaf_Bootstrap_Abstract</classname>, or an
-   <constant>E_WARNING</constant> if the bootstrap file or the
+   <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> if the bootstrap file or the
    <literal>Bootstrap</literal> class cannot be found.
   </simpara>
  </refsect1>

@@ -31,7 +31,7 @@
     <listitem>
      <simpara>
       The interval in milliseconds. Must be greater than or equal to
-      <literal>1</literal>; a lower value emits an <constant>E_WARNING</constant>
+      <literal>1</literal>; a lower value emits an <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant>
       and the call fails.
      </simpara>
     </listitem>

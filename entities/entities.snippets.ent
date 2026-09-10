@@ -121,7 +121,7 @@ compiled into PHP or dynamically loaded at runtime. In addition, these
 driver-specific constants should only be used if you are using this driver.
 Using driver-specific attributes with another driver may result in
 unexpected behaviour. <function>PDO::getAttribute</function> may be used to
-obtain the <constant>PDO::ATTR_DRIVER_NAME</constant> attribute to check the
+obtain the <constant xlink:href="&url.php.manual.pdo.constants.attr-driver-name;">PDO::ATTR_DRIVER_NAME</constant> attribute to check the
 driver, if your code can run against multiple drivers.</simpara></entity>
 
 <!-- PECL entities -->

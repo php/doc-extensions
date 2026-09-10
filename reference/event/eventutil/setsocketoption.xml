@@ -63,7 +63,7 @@
       would be used. Other levels, such as TCP, can be used by specifying the
       protocol number of that level. Protocol numbers can be found by using
       the
-      <function>getprotobyname</function>
+      <function xlink:href="&url.php.manual.function.getprotobyname;">getprotobyname</function>
       function. See
       <link linkend="eventutil.constants">EventUtil constants</link>.
      </para>
@@ -76,7 +76,7 @@
     <listitem>
      <para>
       Option name(type). Has the same meaning as corresponding parameter of
-      <function>socket_get_option</function>
+      <function xlink:href="&url.php.manual.function.socket-get-option;">socket_get_option</function>
       function. See
       <link linkend="eventutil.constants">EventUtil constants</link>.
      </para>
@@ -91,7 +91,7 @@
       Accepts the same values as
       <parameter>optval</parameter>
       parameter of the
-      <function>socket_get_option</function>
+      <function xlink:href="&url.php.manual.function.socket-get-option;">socket_get_option</function>
       function.
      </para>
     </listitem>
@@ -108,10 +108,10 @@
   &reftitle.seealso;
   <simplelist>
    <member>
-    <function>socket_get_option</function>
+    <function xlink:href="&url.php.manual.function.socket-get-option;">socket_get_option</function>
    </member>
    <member>
-    <function>socket_set_option</function>
+    <function xlink:href="&url.php.manual.function.socket-set-option;">socket_set_option</function>
    </member>
   </simplelist>
  </refsect1>

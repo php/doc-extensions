@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.stats-standard-deviation" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.stats-standard-deviation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>stats_standard_deviation</refname>
   <refpurpose>Returns the standard deviation</refpurpose>
@@ -52,7 +52,7 @@
  <refsect1 role="errors"><!-- {{{ -->
   &reftitle.errors;
   <simpara>
-   Raises an <constant>E_WARNING</constant> when there are fewer than 2
+   Raises an <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> when there are fewer than 2
    values in <parameter>a</parameter>.
   </simpara>
  </refsect1><!-- }}} -->

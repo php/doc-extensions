@@ -14,8 +14,8 @@
   <simpara>
    As the C <function>inotify_init</function> function returns a file descriptor, PHP's
    <function>inotify_init</function> returns a stream resource, usable with standard
-   stream functions, like <function>stream_select</function>, <function>stream_set_blocking</function>
-   and <function>fclose</function>. <function>inotify_read</function> replaces the C way of reading inotify
+   stream functions, like <function xlink:href="&url.php.manual.function.stream-select;">stream_select</function>, <function xlink:href="&url.php.manual.function.stream-set-blocking;">stream_set_blocking</function>
+   and <function xlink:href="&url.php.manual.function.fclose;">fclose</function>. <function>inotify_read</function> replaces the C way of reading inotify
    events.
   </simpara>
  </preface>

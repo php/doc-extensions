@@ -37,15 +37,15 @@
      </oointerface>
 
      <oointerface>
-      <interfacename>Traversable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.traversable;">Traversable</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>Countable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.countable;">Countable</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>ArrayAccess</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

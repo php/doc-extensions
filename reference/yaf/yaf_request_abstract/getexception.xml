@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type class="union"><type>Exception</type><type>null</type></type><methodname>Yaf_Request_Abstract::getException</methodname>
+   <modifier>public</modifier> <type class="union"><type xlink:href="&url.php.manual.class.exception;">Exception</type><type>null</type></type><methodname>Yaf_Request_Abstract::getException</methodname>
    <void />
   </methodsynopsis>
   <simpara>Retrieve the exception caught during dispatching.</simpara>
@@ -22,7 +22,7 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <simpara>The <exceptionname>Exception</exceptionname> caught during dispatching, or &null; if none.</simpara>
+  <simpara>The <exceptionname xlink:href="&url.php.manual.class.exception;">Exception</exceptionname> caught during dispatching, or &null; if none.</simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-chmod">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-sftp-chmod">
  <refnamediv>
   <refname>ssh2_sftp_chmod</refname>
   <refpurpose>Changes file mode</refpurpose>
@@ -43,7 +43,7 @@
     <term><parameter>mode</parameter></term>
     <listitem>
      <simpara>
-      Permissions on the file. See the <function>chmod</function> for more details on this parameter.
+      Permissions on the file. See the <function xlink:href="&url.php.manual.function.chmod;">chmod</function> for more details on this parameter.
      </simpara>
     </listitem>
    </varlistentry>
@@ -78,7 +78,7 @@ ssh2_sftp_chmod($sftp, '/somedir/somefile', 0755);
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>chmod</function></member>
+   <member><function xlink:href="&url.php.manual.function.chmod;">chmod</function></member>
    <member><function>ssh2_sftp</function></member>
    <member><function>ssh2_connect</function></member>
   </simplelist>

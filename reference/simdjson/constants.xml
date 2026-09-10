@@ -327,7 +327,7 @@
     (&integer;)
    </term>
    <listitem>
-    <simpara>Invalid property name for an <classname>stdClass</classname> when decoding a value
+    <simpara>Invalid property name for an <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> when decoding a value
     with <function>simdjson_decode</function> or <function>simdjson_key_value</function>
     </simpara>
    </listitem>

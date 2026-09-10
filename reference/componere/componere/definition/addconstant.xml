@@ -51,22 +51,22 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <type>Definition</type> was registered
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <type>Definition</type> was registered
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <parameter>name</parameter> is already declared as a constant
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <parameter>name</parameter> is already declared as a constant
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <parameter>value</parameter> is static
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <parameter>value</parameter> is static
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <parameter>value</parameter> is undefined
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <parameter>value</parameter> is undefined
    </simpara>
   </warning>
  </refsect1>

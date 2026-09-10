@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.xmlrpc-encode-request" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.xmlrpc-encode-request" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>xmlrpc_encode_request</refname>
   <refpurpose>Generates XML for a method request</refpurpose>
@@ -98,8 +98,8 @@ if ($response && xmlrpc_is_fault($response)) {
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>stream_context_create</function></member>
-    <member><function>file_get_contents</function></member>
+    <member><function xlink:href="&url.php.manual.function.stream-context-create;">stream_context_create</function></member>
+    <member><function xlink:href="&url.php.manual.function.file-get-contents;">file_get_contents</function></member>
     <member><function>xmlrpc_decode</function></member>
    </simplelist>
   </para>

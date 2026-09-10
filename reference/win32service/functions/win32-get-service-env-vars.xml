@@ -45,7 +45,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   A <classname>ValueError</classname> is thrown if the
+   A <classname xlink:href="&url.php.manual.class.valueerror;">ValueError</classname> is thrown if the
    value of <parameter>service</parameter> parameter is empty.
   </para>
   <para>

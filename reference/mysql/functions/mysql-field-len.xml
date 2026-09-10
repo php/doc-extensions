@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-field-len">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-field-len">
  <refnamediv>
   <refname>mysql_field_len</refname>
   <refpurpose>Returns the length of the specified field</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_fetch_field_direct</function> [length]</member>
-    <member><methodname>PDOStatement::getColumnMeta</methodname> [len]</member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.getcolumnmeta;">PDOStatement::getColumnMeta</methodname> [len]</member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -81,7 +81,7 @@ echo $length;
   &reftitle.seealso;
   <simplelist>
    <member><function>mysql_fetch_lengths</function></member>
-   <member><function>strlen</function></member>
+   <member><function xlink:href="&url.php.manual.function.strlen;">strlen</function></member>
   </simplelist>
  </refsect1>
 </refentry>

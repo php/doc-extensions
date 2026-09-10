@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.db2-client-info" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.db2-client-info" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>db2_client_info</refname>
   <refpurpose>Returns an object with properties that describe the DB2 database client</refpurpose>
@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type class="union"><type>stdClass</type><type>false</type></type><methodname>db2_client_info</methodname>
+   <type class="union"><type xlink:href="&url.php.manual.class.stdclass;">stdClass</type><type>false</type></type><methodname>db2_client_info</methodname>
    <methodparam><type>resource</type><parameter>connection</parameter></methodparam>
   </methodsynopsis>
 

@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>DateTime</type><methodname>MongoDB\BSON\UTCDateTime::toDateTime</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type xlink:href="&url.php.manual.class.datetime;">DateTime</type><methodname>MongoDB\BSON\UTCDateTime::toDateTime</methodname>
    <void />
   </methodsynopsis>
  </refsect1>
@@ -23,8 +23,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns the <classname>DateTime</classname> representation of this
-   UTCDateTime. The returned <classname>DateTime</classname> will use the UTC
+   Returns the <classname xlink:href="&url.php.manual.class.datetime;">DateTime</classname> representation of this
+   UTCDateTime. The returned <classname xlink:href="&url.php.manual.class.datetime;">DateTime</classname> will use the UTC
    time zone.
   </simpara>
  </refsect1>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-data-seek">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-data-seek">
  <refnamediv>
   <refname>mysql_data_seek</refname>
   <refpurpose>Move internal result pointer</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_data_seek</function></member>
-    <member><constant>PDO::FETCH_ORI_ABS</constant></member>
+    <member><constant xlink:href="&url.php.manual.pdo.constants.fetch-ori-abs;">PDO::FETCH_ORI_ABS</constant></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -35,7 +35,7 @@
    <parameter>row_number</parameter> should be a value in the range from 0 to
    <function>mysql_num_rows</function> - 1. However if the result set
    is empty (<function>mysql_num_rows</function> == 0), a seek to 0 will
-   fail with an <constant>E_WARNING</constant> and
+   fail with an <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> and
    <function>mysql_data_seek</function> will return &false;.
   </simpara>
  </refsect1>

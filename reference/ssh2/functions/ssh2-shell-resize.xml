@@ -94,7 +94,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   An <constant>E_WARNING</constant> is emitted when
+   An <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> is emitted when
    <parameter>channel</parameter> is not an SSH channel stream.
   </simpara>
  </refsect1>

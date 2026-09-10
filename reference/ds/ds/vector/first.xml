@@ -33,7 +33,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   <classname>UnderflowException</classname> if empty.
+   <classname xlink:href="&url.php.manual.class.underflowexception;">UnderflowException</classname> if empty.
   </para>
  </refsect1>
 

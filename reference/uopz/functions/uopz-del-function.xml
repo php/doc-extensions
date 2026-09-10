@@ -65,7 +65,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   <function>uopz_del_function</function> throws a <classname>RuntimeException</classname>
+   <function>uopz_del_function</function> throws a <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>
    if the function or method to delete has not been added by <function>uopz_add_function</function>.
   </para>
  </refsect1>

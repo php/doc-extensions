@@ -88,7 +88,7 @@ array(1) {
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>ReflectionFunctionAbstract::getStaticVariables</methodname></member>
+   <member><methodname xlink:href="&url.php.manual.reflectionfunctionabstract.getstaticvariables;">ReflectionFunctionAbstract::getStaticVariables</methodname></member>
    <member><function>uopz_set_static</function></member>
   </simplelist>
  </refsect1>

@@ -22,7 +22,7 @@
     <methodname>EventBase::free</methodname>
     method doesn't destruct the object itself. To destruct the
     object completely call
-    <function>unset</function>,
+    <function xlink:href="&url.php.manual.function.unset;">unset</function>,
     or assign &null;.
    </para>
    <para>

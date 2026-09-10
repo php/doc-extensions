@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.expect-popen">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.expect-popen">
  <refnamediv>
   <refname>expect_popen</refname>
   <refpurpose>Execute command via Bourne shell, and open the PTY stream to
@@ -59,7 +59,7 @@ fclose ($stream);
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>popen</function></member>
+   <member><function xlink:href="&url.php.manual.function.popen;">popen</function></member>
   </simplelist>
  </refsect1>
 </refentry>

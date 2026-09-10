@@ -18,7 +18,7 @@
    the client itself (transport failures, protocol errors and so on), so
    the type is always the fixed string
    <literal>"Yar_Exception_Client"</literal>. Use
-   <methodname>Exception::getCode</methodname> to tell the individual
+   <methodname xlink:href="&url.php.manual.exception.getcode;">Exception::getCode</methodname> to tell the individual
    failure apart; the code is one of the <literal>YAR_ERR_*</literal>
    constants.
   </simpara>

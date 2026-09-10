@@ -34,7 +34,7 @@
      <listitem>
       <simpara>
        The name of the class to instantiate. If not specified, a
-       <classname>stdClass</classname> (stdClass is PHP's generic empty class
+       <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> (stdClass is PHP's generic empty class
        that's used when casting other types to objects) object is returned.
       </simpara>
     </listitem>

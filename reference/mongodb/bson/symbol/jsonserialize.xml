@@ -23,7 +23,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns data which can be serialized by <function>json_encode</function> to
+   Returns data which can be serialized by <function xlink:href="&url.php.manual.function.json-encode;">json_encode</function> to
    produce an extended JSON representation of the
    <classname>MongoDB\BSON\Symbol</classname>.
   </simpara>
@@ -40,8 +40,8 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>JsonSerializable::jsonSerialize</methodname></member>
-   <member><function>json_encode</function></member>
+   <member><methodname xlink:href="&url.php.manual.jsonserializable.jsonserialize;">JsonSerializable::jsonSerialize</methodname></member>
+   <member><function xlink:href="&url.php.manual.function.json-encode;">json_encode</function></member>
    <member><function>MongoDB\BSON\toCanonicalExtendedJSON</function></member>
    <member><function>MongoDB\BSON\toRelaxedExtendedJSON</function></member>
    <member><link xlink:href="&url.mongodb.docs.extendedjson;">MongoDB Extended JSON</link></member>

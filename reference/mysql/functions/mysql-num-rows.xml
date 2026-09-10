@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-num-rows">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-num-rows">
  <refnamediv>
   <refname>mysql_num_rows</refname>
   <refpurpose>Get number of rows in result</refpurpose>
@@ -12,7 +12,7 @@
    <simplelist role="alternatives">
     <member><function>mysqli_num_rows</function></member>
     <member><function>mysqli_stmt_num_rows</function></member>
-    <member><methodname>PDOStatement::rowCount</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.rowcount;">PDOStatement::rowCount</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

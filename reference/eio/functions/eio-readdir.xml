@@ -119,7 +119,7 @@
      <simpara>
      When this flag is specified, then the names will be returned in an order
      suitable for <literal>stat</literal>'ing each one. When planning to
-     <function>stat</function> all files in the given directory, the
+     <function xlink:href="&url.php.manual.function.stat;">stat</function> all files in the given directory, the
      returned order will likely be
      fastest.
      </simpara>
@@ -149,7 +149,7 @@
      </term>
      <listitem>
       <simpara>
-      Unknown node type(very common). Further <function>stat</function> needed.
+      Unknown node type(very common). Further <function xlink:href="&url.php.manual.function.stat;">stat</function> needed.
       </simpara>
      </listitem>
     </varlistentry>

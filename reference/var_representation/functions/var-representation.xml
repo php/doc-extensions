@@ -14,7 +14,7 @@
   </methodsynopsis>
   <simpara>
    <function>var_representation</function> (from the var_representation PECL) returns a string with structured information about the 
-   given variable. It is similar to <function>var_export</function> with differences in indentation, string escaping, and array representations.
+   given variable. It is similar to <function xlink:href="&url.php.manual.function.var-export;">var_export</function> with differences in indentation, string escaping, and array representations.
   </simpara>
  </refsect1>
 
@@ -99,7 +99,7 @@ echo var_representation("Content-Length: 123\r\n");
   </para>
   <para>
    <example>
-    <title>Exporting <classname>stdClass</classname></title>
+    <title>Exporting <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname></title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -195,7 +195,7 @@ object(A)#2 (2) {
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>var_export</function></member>
+    <member><function xlink:href="&url.php.manual.function.var-export;">var_export</function></member>
    </simplelist>
   </para>
  </refsect1>

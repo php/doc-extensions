@@ -24,8 +24,8 @@
         <simplelist>
             <member>Wherever you would use an array as a list (not concerned with keys).</member>
             <member>A more efficient alternative to
-                <classname>SplDoublyLinkedList</classname> and
-                <classname>SplFixedArray</classname>.
+                <classname xlink:href="&url.php.manual.class.spldoublylinkedlist;">SplDoublyLinkedList</classname> and
+                <classname xlink:href="&url.php.manual.class.splfixedarray;">SplFixedArray</classname>.
             </member>
         </simplelist>
    </para>
@@ -42,7 +42,7 @@
      <interfacename>Ds\Collection</interfacename>
     </oointerface>
     <oointerface>
-     <interfacename>ArrayAccess</interfacename>
+     <interfacename xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</interfacename>
     </oointerface>
 
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
@@ -50,10 +50,10 @@
 
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ds-collection')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])"/>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.countable')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural') and not(modifier='private')])"/>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.iteratoraggregate')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural') and not(modifier='private')])"/>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.jsonserializable')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural') and not(modifier='private')])"/>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.arrayaccess')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural') and not(modifier='private')])"/>
+    &class.countable.methods;
+    &class.iteratoraggregate.methods;
+    &class.jsonserializable.methods;
+    &class.arrayaccess.methods;
 
    </classsynopsis>
 
@@ -74,7 +74,7 @@
        <row>
         <entry>PECL ds 1.3.0</entry>
         <entry>
-         The interface now extends <classname>ArrayAccess</classname>.
+         The interface now extends <classname xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</classname>.
         </entry>
        </row>
       </tbody>

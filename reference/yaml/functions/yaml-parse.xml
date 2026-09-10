@@ -208,7 +208,7 @@ array(8) {
   <warning>
    <para>
     Processing untrusted user input with <function>yaml_parse</function>
-    is dangerous if the use of <function>unserialize</function> is enabled for
+    is dangerous if the use of <function xlink:href="&url.php.manual.function.unserialize;">unserialize</function> is enabled for
     nodes using the <literal>!php/object</literal> tag. This behavior can be
     disabled by using the <literal>yaml.decode_php</literal> ini setting.
    </para>

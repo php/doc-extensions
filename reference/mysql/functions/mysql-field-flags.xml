@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-field-flags">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-field-flags">
  <refnamediv>
   <refname>mysql_field_flags</refname>
   <refpurpose>Get the flags associated with the specified field in a result</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_fetch_field_direct</function> [flags]</member>
-    <member><methodname>PDOStatement::getColumnMeta</methodname> [flags]</member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.getcolumnmeta;">PDOStatement::getColumnMeta</methodname> [flags]</member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -27,7 +27,7 @@
    <function>mysql_field_flags</function> returns the field flags of
    the specified field. The flags are reported as a single word
    per flag separated by a single space, so that you can split the
-   returned value using <function>explode</function>.
+   returned value using <function xlink:href="&url.php.manual.function.explode;">explode</function>.
   </simpara>
  </refsect1>
 

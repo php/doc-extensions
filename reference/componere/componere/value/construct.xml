@@ -36,7 +36,7 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if <parameter>default</parameter> does not have a suitable value
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if <parameter>default</parameter> does not have a suitable value
    </simpara>
   </warning>
  </refsect1>

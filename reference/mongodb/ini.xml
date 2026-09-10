@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 
-<section xml:id="mongodb.configuration" xmlns="http://docbook.org/ns/docbook">
+<section xml:id="mongodb.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
  &extension.runtime;
  <para>
@@ -20,7 +20,7 @@
      <row>
       <entry><link linkend="ini.mongodb.debug">mongodb.debug</link></entry>
       <entry>""</entry>
-      <entry><constant>INI_ALL</constant></entry>
+      <entry><constant xlink:href="&url.php.manual.constant.ini-all;">INI_ALL</constant></entry>
       <entry></entry>
      </row>
     </tbody>
@@ -55,7 +55,7 @@
        Specify <literal>"1"</literal>, <literal>"on"</literal>,
        <literal>"yes"</literal>, or <literal>"true"</literal> to log to a new
        temporary file within the default system temp directory (i.e.
-       <function>sys_get_temp_dir</function>).
+       <function xlink:href="&url.php.manual.function.sys-get-temp-dir;">sys_get_temp_dir</function>).
       </simpara>
       <simpara>
        Specify any other string to log to a new temporary file within that

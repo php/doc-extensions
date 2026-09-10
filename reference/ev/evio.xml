@@ -42,7 +42,7 @@
     <parameter>fd</parameter>
     in non-blocking mode, then separately re-test whether a file descriptor is
     really ready. Some people additionally use
-    <constant>SIGALRM</constant>
+    <constant xlink:href="&url.php.manual.constant.sigalrm;">SIGALRM</constant>
     and an interval timer, just to be sure they won't block infinitely.
    </simpara>
    <simpara>

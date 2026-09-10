@@ -35,7 +35,7 @@
      </ooclass>
 
      <oointerface>
-      <interfacename>Iterator</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>
      </oointerface>
 
     </classsynopsisinfo>

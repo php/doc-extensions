@@ -25,7 +25,7 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if access level was previously set
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if access level was previously set
    </simpara>
   </warning>
  </refsect1>

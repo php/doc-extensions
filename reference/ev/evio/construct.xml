@@ -45,7 +45,7 @@
     <listitem>
      <simpara>
       Can be a stream opened with
-      <function>fopen</function>
+      <function xlink:href="&url.php.manual.function.fopen;">fopen</function>
       or similar functions, numeric file descriptor, or socket.
      </simpara>
     </listitem>

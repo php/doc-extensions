@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_errno</function></member>
-    <member><methodname>PDO::errorCode</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdo.errorcode;">PDO::errorCode</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

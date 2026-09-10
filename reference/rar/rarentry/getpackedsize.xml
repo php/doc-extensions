@@ -18,7 +18,7 @@
   <note>
     <simpara>Note that on platforms with 32-bit longs (that includes Windows
     x64), the maximum size returned is capped at 2 GiB. Check the constant
-    <constant>PHP_INT_MAX</constant>.</simpara>
+    <constant xlink:href="&url.php.manual.constant.php-int-max;">PHP_INT_MAX</constant>.</simpara>
   </note>
  </refsect1>
 

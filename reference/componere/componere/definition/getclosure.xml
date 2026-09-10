@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>Closure</type><methodname>Componere\Definition::getClosure</methodname>
+   <modifier>public</modifier> <type xlink:href="&url.php.manual.class.closure;">Closure</type><methodname>Componere\Definition::getClosure</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <simpara>
@@ -43,12 +43,12 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <type>Definition</type> was registered
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <type>Definition</type> was registered
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <parameter>name</parameter> could not be found
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <parameter>name</parameter> could not be found
    </simpara>
   </warning>
  </refsect1>

@@ -15,13 +15,13 @@
    <methodparam><type>object</type><parameter>obj</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   This function is equivalent to <function>spl_object_id</function>.
+   This function is equivalent to <function xlink:href="&url.php.manual.function.spl-object-id;">spl_object_id</function>.
   </simpara>
   <simpara>
    This function returns a unique identifier for the object. The object id is
    unique for the lifetime of the object. Once the object is destroyed, its id
    may be reused for other objects. This behavior is similar to
-   <function>spl_object_hash</function>.
+   <function xlink:href="&url.php.manual.function.spl-object-hash;">spl_object_hash</function>.
   </simpara>
  </refsect1>
 
@@ -58,7 +58,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>spl_object_id</function></member>
+   <member><function xlink:href="&url.php.manual.function.spl-object-id;">spl_object_id</function></member>
   </simplelist>
  </refsect1>
 </refentry>

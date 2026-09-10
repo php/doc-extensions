@@ -44,8 +44,8 @@
   &reftitle.seealso;
   <simplelist>
    <member><function>inotify_init</function></member>
-   <member><function>stream_select</function></member>
-   <member><function>stream_set_blocking</function></member>
+   <member><function xlink:href="&url.php.manual.function.stream-select;">stream_select</function></member>
+   <member><function xlink:href="&url.php.manual.function.stream-set-blocking;">stream_set_blocking</function></member>
   </simplelist>
  </refsect1><!-- }}} -->
 

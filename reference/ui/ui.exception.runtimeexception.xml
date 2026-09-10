@@ -32,19 +32,19 @@
      
      <ooclass>
       <modifier>extends</modifier>
-      <classname>RuntimeException</classname>
+      <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>
      </ooclass>
      
      <oointerface>
-      <interfacename>Throwable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.throwable;">Throwable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('exception.synopsis')/descendant::db:fieldsynopsis)" />
+    &class.exception.properties;
     
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.exception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
+    &class.exception.methods;
 
    </classsynopsis>
 <!-- }}} -->

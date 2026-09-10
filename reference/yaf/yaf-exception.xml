@@ -16,8 +16,8 @@
     thrown by Yaf. Every other Yaf exception class extends it.
    </simpara>
    <simpara>
-    It extends <exceptionname>RuntimeException</exceptionname> when the SPL extension is
-    loaded, and the built-in <exceptionname>Exception</exceptionname> otherwise.
+    It extends <exceptionname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</exceptionname> when the SPL extension is
+    loaded, and the built-in <exceptionname xlink:href="&url.php.manual.class.exception;">Exception</exceptionname> otherwise.
     Exceptions raised by Yaf carry an error code that identifies the type of
     failure.
    </simpara>
@@ -39,19 +39,19 @@
      
      <ooclass>
       <modifier>extends</modifier>
-      <classname>RuntimeException</classname>
+      <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('exception.synopsis')/descendant::db:fieldsynopsis)" />
+    &class.exception.properties;
     
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-exception')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-exception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
     
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.exception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
+    &class.exception.methods;
 
    </classsynopsis>
 <!-- }}} -->

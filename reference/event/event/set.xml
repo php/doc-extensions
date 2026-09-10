@@ -60,7 +60,7 @@
       events pass
       <constant>-1</constant>.
       For signal events pass the signal number, e.g.
-      <constant>SIGHUP</constant>.
+      <constant xlink:href="&url.php.manual.constant.sighup;">SIGHUP</constant>.
      </para>
     </listitem>
    </varlistentry>

@@ -22,7 +22,7 @@
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   Similar to <function>include</function>. However, any code residing outside
+   Similar to <function xlink:href="&url.php.manual.function.include;">include</function>. However, any code residing outside
    of a function or class is simply ignored.
    Additionally, depending on the value of <parameter>flags</parameter>,
    any functions or classes which already exist in the currently running environment

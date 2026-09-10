@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_insert_id</function></member>
-    <member><methodname>PDO::lastInsertId</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdo.lastinsertid;">PDO::lastInsertId</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

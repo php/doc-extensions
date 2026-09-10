@@ -24,7 +24,7 @@
   &reftitle.returnvalues;
   <simpara>
    Returns a <classname>Swoole\Timer\Iterator</classname> object, which
-   extends <classname>ArrayIterator</classname> and yields the timer IDs as
+   extends <classname xlink:href="&url.php.manual.class.arrayiterator;">ArrayIterator</classname> and yields the timer IDs as
    <type>int</type> values. The iterator is a snapshot taken when the method is
    called; it is empty when no timer exists.
   </simpara>

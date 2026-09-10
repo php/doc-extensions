@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-fetch-lengths">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-fetch-lengths">
  <refnamediv>
   <refname>mysql_fetch_lengths</refname>
   <refpurpose>Get the length of each output in a result</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_fetch_lengths</function></member>
-    <member><methodname>PDOStatement::getColumnMeta</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.getcolumnmeta;">PDOStatement::getColumnMeta</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -94,7 +94,7 @@ Array
   <simplelist>
    <member><function>mysql_field_len</function></member>
    <member><function>mysql_fetch_row</function></member>
-   <member><function>strlen</function></member>
+   <member><function xlink:href="&url.php.manual.function.strlen;">strlen</function></member>
   </simplelist>
  </refsect1>
 </refentry>

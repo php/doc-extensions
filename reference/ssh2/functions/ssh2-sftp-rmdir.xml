@@ -17,7 +17,7 @@
    Removes a directory from the remote file server.
   </simpara>
   <simpara>
-   This function is similar to using <function>rmdir</function> with the
+   This function is similar to using <function xlink:href="&url.php.manual.function.rmdir;">rmdir</function> with the
    <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> wrapper.
   </simpara>
  </refsect1>
@@ -72,7 +72,7 @@ ssh2_sftp_rmdir($sftp, '/home/username/deltodel');
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>rmdir</function></member>
+   <member><function xlink:href="&url.php.manual.function.rmdir;">rmdir</function></member>
    <member><function>ssh2_sftp_mkdir</function></member>
   </simplelist>
  </refsect1>

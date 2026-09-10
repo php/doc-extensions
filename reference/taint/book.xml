@@ -15,8 +15,8 @@
   </simpara>
   <simpara>
    When taint is enabled, strings received from user input —
-   <varname>$_GET</varname>, <varname>$_POST</varname> and
-   <varname>$_COOKIE</varname> — are marked as tainted at request startup,
+   <varname xlink:href="&url.php.manual.reserved.variables.get;">$_GET</varname>, <varname xlink:href="&url.php.manual.reserved.variables.post;">$_POST</varname> and
+   <varname xlink:href="&url.php.manual.reserved.variables.cookies;">$_COOKIE</varname> — are marked as tainted at request startup,
    and the mark is tracked through string operations. When a tainted
    string reaches a dangerous sink (output, SQL query, shell command,
    file path, ...), taint raises a warning pointing at that spot. See

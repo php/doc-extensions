@@ -34,11 +34,11 @@
    </simpara>
 
    <itemizedlist>
-    <listitem><simpara><classname>MongoDB\Driver\Exception\LogicException</classname> (extends <classname>LogicException</classname>)</simpara></listitem>
-    <listitem><simpara><classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> (extends <classname>InvalidArgumentException</classname>)</simpara></listitem>
-    <listitem><simpara><classname>MongoDB\Driver\Exception\UnexpectedValueException</classname> (extends <classname>UnexpectedValueException</classname>)</simpara></listitem>
+    <listitem><simpara><classname>MongoDB\Driver\Exception\LogicException</classname> (extends <classname xlink:href="&url.php.manual.class.logicexception;">LogicException</classname>)</simpara></listitem>
+    <listitem><simpara><classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> (extends <classname xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</classname>)</simpara></listitem>
+    <listitem><simpara><classname>MongoDB\Driver\Exception\UnexpectedValueException</classname> (extends <classname xlink:href="&url.php.manual.class.unexpectedvalueexception;">UnexpectedValueException</classname>)</simpara></listitem>
     <listitem>
-     <simpara><classname>MongoDB\Driver\Exception\RuntimeException</classname> (extends <classname>RuntimeException</classname>)</simpara>
+     <simpara><classname>MongoDB\Driver\Exception\RuntimeException</classname> (extends <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>)</simpara>
      <itemizedlist>
       <listitem>
        <simpara><classname>MongoDB\Driver\Exception\ConnectionException</classname></simpara>

@@ -36,7 +36,7 @@
   <simplesect>
    <title>Task</title>
    <para>
-    A task is simply a <classname>Closure</classname> intended for parallel execution. The <classname>Closure</classname> may contain almost any instruction, including nested closures.
+    A task is simply a <classname xlink:href="&url.php.manual.class.closure;">Closure</classname> intended for parallel execution. The <classname xlink:href="&url.php.manual.class.closure;">Closure</classname> may contain almost any instruction, including nested closures.
     However, there are some instructions that are prohibited in tasks:
     <itemizedlist>
      <listitem>
@@ -81,7 +81,7 @@
   <simplesect>
    <title>Events</title>
    <simpara>
-    The <classname>parallel\Events</classname> API implements a native feel (<classname>Traversable</classname>) event loop, and <methodname>parallel\Events::poll</methodname> method.
+    The <classname>parallel\Events</classname> API implements a native feel (<classname xlink:href="&url.php.manual.class.traversable;">Traversable</classname>) event loop, and <methodname>parallel\Events::poll</methodname> method.
     It allows the programmer to work with sets of channels and or futures.
     The programmer simply adds channels and futures to the event loop, optionally setting the input for writes with <methodname>parallel\Events::setInput</methodname>,
     and enters into a foreach: parallel will read from and write to objects as they become available yielding <classname>parallel\Events\Event</classname> objects

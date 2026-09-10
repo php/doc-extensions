@@ -54,7 +54,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Emits an <constant>E_ERROR</constant> level error if
+   Emits an <constant xlink:href="&url.php.manual.constant.e-error;">E_ERROR</constant> level error if
    the HTTP method cannot be detected.
   </simpara>
  </refsect1>

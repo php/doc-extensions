@@ -5,7 +5,7 @@
  <para>
   A watcher is an object that gets created to record interest in some event.
   For instance, the following code waits for
-  <constant>STDIN</constant>
+  <constant xlink:href="&url.php.manual.constant.stdin;">STDIN</constant>
   to become readable:
   <programlisting role="php">
 <![CDATA[

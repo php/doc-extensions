@@ -23,12 +23,12 @@
     Unserialization can result in code being loaded and executed due to object
     instantiation and autoloading, and a malicious user may be able to exploit
     this. Instead a safe, standard data interchange format such as JSON (via
-    <function>json_decode</function> and <function>json_encode</function>) should be used,
+    <function xlink:href="&url.php.manual.function.json-decode;">json_decode</function> and <function xlink:href="&url.php.manual.function.json-encode;">json_encode</function>) should be used,
     if serialized data needs to be passed to a client.
    </simpara>
    <simpara>
     If there is the need to unserialize externally-stored serialized data,
-    <function>hash_hmac</function> can be used for data validation.
+    <function xlink:href="&url.php.manual.function.hash-hmac;">hash_hmac</function> can be used for data validation.
     It is important to ensure that nobody has tampered with the data.
    </simpara>
   </warning>
@@ -84,14 +84,14 @@
   </simpara>
   <simpara>
    In case the passed string is not unserializeable, &false; is returned and
-   <constant>E_NOTICE</constant> or <constant>E_WARNING</constant> is issued.
+   <constant xlink:href="&url.php.manual.constant.e-notice;">E_NOTICE</constant> or <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> is issued.
   </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Objects may throw <classname>Throwable</classname>s in their unserialization handlers.
+   Objects may throw <classname xlink:href="&url.php.manual.class.throwable;">Throwable</classname>s in their unserialization handlers.
   </simpara>
  </refsect1>
 
@@ -103,7 +103,7 @@
     the serialized &null; or &false; value. It is possible to catch this special case by
     comparing <parameter>str</parameter> with
     <code>igbinary_serialize(null)</code> or <code>igbinary_serialize(false)</code>
-    or by catching the issued <constant>E_NOTICE</constant>.
+    or by catching the issued <constant xlink:href="&url.php.manual.constant.e-notice;">E_NOTICE</constant>.
    </simpara>
   </warning>
  </refsect1>
@@ -111,10 +111,10 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>unserialize</function></member>
-   <member><function>json_encode</function></member>
-   <member><function>json_decode</function></member>
-   <member><function>hash_hmac</function></member>
+   <member><function xlink:href="&url.php.manual.function.unserialize;">unserialize</function></member>
+   <member><function xlink:href="&url.php.manual.function.json-encode;">json_encode</function></member>
+   <member><function xlink:href="&url.php.manual.function.json-decode;">json_decode</function></member>
+   <member><function xlink:href="&url.php.manual.function.hash-hmac;">hash_hmac</function></member>
    <member><function>igbinary_serialize</function></member>
    <member><link xlink:href="&url.php.manual.language.oop5.autoload;">Autoloading Classes</link></member>
    <member><link xlink:href="&url.php.manual.ini.unserialize-callback-func;">unserialize_callback_func</link></member>

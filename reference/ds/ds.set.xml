@@ -68,7 +68,7 @@
       <interfacename>Ds\Collection</interfacename>
      </oointerface>
      <oointerface>
-      <interfacename>ArrayAccess</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</interfacename>
      </oointerface>
     </classsynopsisinfo>
 
@@ -115,7 +115,7 @@
        <row>
         <entry>PECL ds 1.3.0</entry>
         <entry>
-         The class now implements <classname>ArrayAccess</classname>.
+         The class now implements <classname xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</classname>.
         </entry>
        </row>
        <row>

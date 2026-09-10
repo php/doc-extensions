@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_real_escape_string</function></member>
-    <member><methodname>PDO::quote</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdo.quote;">PDO::quote</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -79,7 +79,7 @@
   &reftitle.errors;
   <simpara>
    Executing this function without a MySQL connection present will
-   also emit <constant>E_WARNING</constant> level PHP errors. Only
+   also emit <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> level PHP errors. Only
    execute this function with a valid MySQL connection present.
   </simpara>
  </refsect1>
@@ -173,7 +173,7 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
    <simpara>
     A MySQL connection is required before using
     <function>mysql_real_escape_string</function> otherwise an error of
-    level <constant>E_WARNING</constant> is generated, and &false; is
+    level <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> is generated, and &false; is
     returned. If <parameter>link_identifier</parameter> isn't defined, the
     last MySQL connection is used.
    </simpara>

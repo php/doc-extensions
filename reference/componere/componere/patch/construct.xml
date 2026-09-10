@@ -46,12 +46,12 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if a class in <parameter>interfaces</parameter> cannot be found
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if a class in <parameter>interfaces</parameter> cannot be found
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if a class in <parameter>interfaces</parameter> is not an interface
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if a class in <parameter>interfaces</parameter> is not an interface
    </simpara>
   </warning>
  </refsect1>

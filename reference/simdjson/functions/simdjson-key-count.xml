@@ -48,7 +48,7 @@
 
       Callers should use reasonably small values,
       because larger depths require more buffer space and will
-      increase the recursion depth, unlike the current <function>json_decode</function> implementation.
+      increase the recursion depth, unlike the current <function xlink:href="&url.php.manual.function.json-decode;">json_decode</function> implementation.
      </simpara>
     </listitem>
    </varlistentry>

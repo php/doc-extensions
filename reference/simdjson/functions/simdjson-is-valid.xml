@@ -31,7 +31,7 @@
       </simpara>
       <simpara>
        This function validates inputs which
-       <function>json_decode</function> can decode,
+       <function xlink:href="&url.php.manual.function.json-decode;">json_decode</function> can decode,
        provided that they are less than 4 GiB long.
       </simpara>
     </listitem>
@@ -46,7 +46,7 @@
 
       Callers should use reasonably small values,
       because larger depths require more buffer space and will
-      increase the recursion depth, unlike the current <function>json_decode</function> implementation.
+      increase the recursion depth, unlike the current <function xlink:href="&url.php.manual.function.json-decode;">json_decode</function> implementation.
      </simpara>
     </listitem>
    </varlistentry>
@@ -65,12 +65,12 @@
   &reftitle.errors;
   <simpara>
    If <parameter>json</parameter> is longer than 4 GiB, a <classname>SimdJsonException</classname> is thrown as of PECL simdjson 2.1.0,
-   while previously, a <classname>RuntimeException</classname> was thrown.
+   while previously, a <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname> was thrown.
   </simpara>
   <simpara>
    If <parameter>depth</parameter> is outside the allowed range,
    a <classname>SimdJsonValueError</classname> is thrown as of PECL simdjson 3.0.0,
-   while previously, an error of level <constant>E_WARNING</constant> was raised.
+   while previously, an error of level <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> was raised.
   </simpara>
  </refsect1>
 
@@ -159,8 +159,8 @@ bool(false)
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>json_encode</function></member>
-   <member><function>json_decode</function></member>
+   <member><function xlink:href="&url.php.manual.function.json-encode;">json_encode</function></member>
+   <member><function xlink:href="&url.php.manual.function.json-decode;">json_decode</function></member>
   </simplelist>
  </refsect1>
 </refentry>

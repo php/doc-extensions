@@ -26,7 +26,7 @@
     <term><parameter>values</parameter></term>
     <listitem>
      <para>
-        A <classname>traversable</classname> object or an &array;.
+        A <classname xlink:href="&url.php.manual.class.traversable;">traversable</classname> object or an &array;.
      </para>
     </listitem>
    </varlistentry>

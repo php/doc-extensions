@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-field-name">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-field-name">
  <refnamediv>
   <refname>mysql_field_name</refname>
   <refpurpose>Get the name of the specified field in a result</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_fetch_field_direct</function> [name] or [orgname]</member>
-    <member><methodname>PDOStatement::getColumnMeta</methodname> [name]</member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.getcolumnmeta;">PDOStatement::getColumnMeta</methodname> [name]</member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-escape-string">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-escape-string">
  <refnamediv>
   <refname>mysql_escape_string</refname>
   <refpurpose>Escapes a string for use in a mysql_query</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note.4-3-0;
    <simplelist role="alternatives">
     <member><function>mysqli_escape_string</function></member>
-    <member><methodname>PDO::quote</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdo.quote;">PDO::quote</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

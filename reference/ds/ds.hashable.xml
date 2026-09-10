@@ -12,13 +12,13 @@
    &reftitle.intro;
    <simpara>
         Hashable is an interface which allows objects to be used as keys.
-        It’s an alternative to <function>spl_object_hash</function>,
+        It’s an alternative to <function xlink:href="&url.php.manual.function.spl-object-hash;">spl_object_hash</function>,
         which determines an object’s hash based on its handle:
         this means that two objects that are considered equal by an implicit
         definition would not be treated as equal because they are not the same instance.
    </simpara>
    <simpara>
-        <function>hash</function> is used to return a scalar value to be used as
+        <function xlink:href="&url.php.manual.function.hash;">hash</function> is used to return a scalar value to be used as
         the object's hash value, which determines where it goes in the hash table.
         While this value does not have to be unique, objects which are equal must
         have the same hash value.

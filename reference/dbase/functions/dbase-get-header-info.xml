@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.dbase-get-header-info" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.dbase-get-header-info" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>dbase_get_header_info</refname>
   <refpurpose>Gets the header info of a database</refpurpose>
@@ -80,7 +80,7 @@
      <term>format</term>
      <listitem>
       <simpara>
-       A suggested <function>printf</function> format specifier for the column
+       A suggested <function xlink:href="&url.php.manual.function.printf;">printf</function> format specifier for the column
       </simpara>
      </listitem>
     </varlistentry>

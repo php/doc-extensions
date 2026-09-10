@@ -10,12 +10,12 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <type class="union"><type>array</type><type>stdClass</type><type>MongoDB\BSON\Document</type></type><methodname>MongoDB\BSON\Persistable::bsonSerialize</methodname>
+   <modifier>abstract</modifier> <modifier>public</modifier> <type class="union"><type>array</type><type xlink:href="&url.php.manual.class.stdclass;">stdClass</type><type>MongoDB\BSON\Document</type></type><methodname>MongoDB\BSON\Persistable::bsonSerialize</methodname>
    <void />
   </methodsynopsis>
   <simpara>
    Called during serialization of the object to BSON. The method must return an
-   <type>array</type>, <classname>stdClass</classname>, or
+   <type>array</type>, <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>, or
    <classname>MongoDB\BSON\Document</classname>.
   </simpara>
   <simpara>
@@ -42,7 +42,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   An <type>array</type>, <classname>stdClass</classname>, or <classname>MongoDB\BSON\Document</classname>
+   An <type>array</type>, <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>, or <classname>MongoDB\BSON\Document</classname>
    to be serialized as a BSON document.
   </simpara>
  </refsect1>
@@ -64,7 +64,7 @@
       <entry>
        <simpara>
         This method may now also return <classname>MongoDB\BSON\Document</classname>
-        instances in addition to <type>array</type> and <classname>stdClass</classname>.
+        instances in addition to <type>array</type> and <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>.
        </simpara>
       </entry>
      </row>

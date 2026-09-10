@@ -10,10 +10,10 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>Throwable</type><methodname>Yaf_Exception::getPrevious</methodname>
+   <modifier>public</modifier> <type xlink:href="&url.php.manual.class.throwable;">Throwable</type><methodname>Yaf_Exception::getPrevious</methodname>
    <void />
   </methodsynopsis>
-  <simpara>This method is inherited from the base <exceptionname>Throwable</exceptionname> hierarchy and returns the exception that was chained as the previous one, if any.</simpara>
+  <simpara>This method is inherited from the base <exceptionname xlink:href="&url.php.manual.class.throwable;">Throwable</exceptionname> hierarchy and returns the exception that was chained as the previous one, if any.</simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -23,7 +23,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <simpara>Returns the previous <exceptionname>Throwable</exceptionname> if available, &null; otherwise.</simpara>
+  <simpara>Returns the previous <exceptionname xlink:href="&url.php.manual.class.throwable;">Throwable</exceptionname> if available, &null; otherwise.</simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

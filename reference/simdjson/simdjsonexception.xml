@@ -34,13 +34,13 @@
 
      <ooclass>
       <modifier>extends</modifier>
-      <classname>RuntimeException</classname>
+      <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>
      </ooclass>
 
     </classsynopsisinfo>
 <!-- }}} -->
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('exception.synopsis')/descendant::db:fieldsynopsis)"/>
+    &class.exception.properties;
 
    </classsynopsis>
 <!-- }}} -->

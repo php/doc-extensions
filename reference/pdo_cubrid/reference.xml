@@ -26,7 +26,7 @@
     <simpara>
      PDO_CUBRID supports scrollable cursors. The default cursor type is
      forward only, and you can use parameter driver_options in
-     <methodname>PDO::prepare</methodname> to change cursor type.
+     <methodname xlink:href="&url.php.manual.pdo.prepare;">PDO::prepare</methodname> to change cursor type.
     </simpara>
    </section>
 
@@ -34,7 +34,7 @@
     <title>Timeout</title>
     <simpara>
      PDO_CUBRID supports sql statement execution timeout setting;
-     You can use <methodname>PDO::setAttribute</methodname> to set timeout value.
+     You can use <methodname xlink:href="&url.php.manual.pdo.setattribute;">PDO::setAttribute</methodname> to set timeout value.
     </simpara>
    </section>
 
@@ -44,14 +44,14 @@
     <simpara>
      PDO_CUBRID supports both autocommit_mode and transaction, and
      autocommit_mode is enabled by default. You can use
-     <methodname>PDO::setAttribute</methodname> to change its state.
+     <methodname xlink:href="&url.php.manual.pdo.setattribute;">PDO::setAttribute</methodname> to change its state.
     </simpara>
 
     <simpara>
-     If you use <methodname>PDO::beginTransaction</methodname> to begin a
+     If you use <methodname xlink:href="&url.php.manual.pdo.begintransaction;">PDO::beginTransaction</methodname> to begin a
      transaction, it will disable autocommit_mode automatically and
-     restore it after <methodname>PDO::commit</methodname> or
-     <methodname>PDO::rollBack</methodname>.
+     restore it after <methodname xlink:href="&url.php.manual.pdo.commit;">PDO::commit</methodname> or
+     <methodname xlink:href="&url.php.manual.pdo.rollback;">PDO::rollBack</methodname>.
     </simpara>
 
     <note>
@@ -75,7 +75,7 @@
     <title>Schema Information</title>
 
     <simpara>
-     PDO_CUBRID implements <methodname>PDO::cubrid_schema</methodname>
+     PDO_CUBRID implements <methodname xlink:href="&url.php.manual.pdo.cubrid-schema;">PDO::cubrid_schema</methodname>
      to get schema information.
     </simpara>
    </section>
@@ -130,7 +130,7 @@ fpassthru($result[0]);
     <title>Column meta</title>
 
     <para>
-     The <methodname>PDOStatement::getColumnMeta</methodname> in CUBRID PDO
+     The <methodname xlink:href="&url.php.manual.pdostatement.getcolumnmeta;">PDOStatement::getColumnMeta</methodname> in CUBRID PDO
      will return an associative array containing the following values:
      <simplelist>
       <member>type</member>
@@ -206,7 +206,7 @@ var_Dump($ret);
 
     <para>
      CUBRID Bind Data Types for the fifth parameter of
-     <methodname>PDOStatement::bindParam</methodname>:
+     <methodname xlink:href="&url.php.manual.pdostatement.bindparam;">PDOStatement::bindParam</methodname>:
      <simplelist>
       <member>CHAR</member>
       <member>STRING</member>

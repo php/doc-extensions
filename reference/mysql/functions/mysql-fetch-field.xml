@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-fetch-field">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-fetch-field">
  <refnamediv>
   <refname>mysql_fetch_field</refname>
   <refpurpose>Get column information from a result and return as an object</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_fetch_field</function></member>
-    <member><methodname>PDOStatement::getColumnMeta</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.getcolumnmeta;">PDOStatement::getColumnMeta</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -170,7 +170,7 @@ mysql_free_result($result);
    <simpara>
     If field or tablenames are aliased in the SQL query the aliased name will
     be returned. The original name can be retrieved for instance by using
-    <methodname>mysqli_result::fetch_field</methodname>.
+    <methodname xlink:href="&url.php.manual.mysqli-result.fetch-field;">mysqli_result::fetch_field</methodname>.
    </simpara>
   </note>
  </refsect1>

@@ -175,16 +175,16 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mongodb'
    Ensure that the downloaded DLL corresponds to the following PHP runtime
    properties:
    <simplelist>
-    <member>PHP version (<constant>PHP_VERSION</constant>)</member>
-    <member>Thread safety (<constant>PHP_ZTS</constant>)</member>
-    <member>Architecture (<constant>PHP_INT_SIZE</constant>)</member>
+    <member>PHP version (<constant xlink:href="&url.php.manual.constant.php-version;">PHP_VERSION</constant>)</member>
+    <member>Thread safety (<constant xlink:href="&url.php.manual.constant.php-zts;">PHP_ZTS</constant>)</member>
+    <member>Architecture (<constant xlink:href="&url.php.manual.constant.php-int-size;">PHP_INT_SIZE</constant>)</member>
    </simplelist>
   </para>
 
   <simpara>
    In addition to the aforementioned constants, these properties can also be
-   inferred from <function>phpinfo</function>. If a system has multiple PHP
-   runtimes installed, double-check that the <function>phpinfo</function> output
+   inferred from <function xlink:href="&url.php.manual.function.phpinfo;">phpinfo</function>. If a system has multiple PHP
+   runtimes installed, double-check that the <function xlink:href="&url.php.manual.function.phpinfo;">phpinfo</function> output
    is for the correct environment.
   </simpara>
 

@@ -31,13 +31,13 @@ Represents an error raised by the stomp extension. See <link xlink:href="&url.ph
 
      <ooclass>
       <modifier>extends</modifier>
-      <classname>Exception</classname>
+      <classname xlink:href="&url.php.manual.class.exception;">Exception</classname>
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
 
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.exception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])"/>
+    &class.exception.methods;
 
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.stompexception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])"/>

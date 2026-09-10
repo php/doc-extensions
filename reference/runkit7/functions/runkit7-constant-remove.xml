@@ -41,7 +41,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>define</function></member>
+   <member><function xlink:href="&url.php.manual.function.define;">define</function></member>
    <member><function>runkit7_constant_add</function></member>
    <member><function>runkit7_constant_redefine</function></member>
   </simplelist>

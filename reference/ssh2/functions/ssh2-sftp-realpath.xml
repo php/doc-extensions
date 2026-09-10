@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.ssh2-sftp-realpath" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.ssh2-sftp-realpath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ssh2_sftp_realpath</refname>
   <refpurpose>Resolve the realpath of a provided path string</refpurpose>
@@ -69,7 +69,7 @@ $realpath = ssh2_sftp_realpath($sftp, '/home/username/../../../..//./usr/../etc/
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>realpath</function></member>
+   <member><function xlink:href="&url.php.manual.function.realpath;">realpath</function></member>
    <member><function>ssh2_sftp_symlink</function></member>
    <member><function>ssh2_sftp_readlink</function></member>
   </simplelist>

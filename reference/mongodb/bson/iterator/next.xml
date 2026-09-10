@@ -23,7 +23,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>Iterator::next</methodname></member>
+   <member><methodname xlink:href="&url.php.manual.iterator.next;">Iterator::next</methodname></member>
   </simplelist>
  </refsect1>
 </refentry>

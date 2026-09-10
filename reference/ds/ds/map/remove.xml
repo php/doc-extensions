@@ -84,7 +84,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   <classname>OutOfBoundsException</classname> if the key could not be found
+   <classname xlink:href="&url.php.manual.class.outofboundsexception;">OutOfBoundsException</classname> if the key could not be found
    and a default value was not provided.
   </para>
  </refsect1>

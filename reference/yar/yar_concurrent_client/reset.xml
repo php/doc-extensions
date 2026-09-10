@@ -37,7 +37,7 @@
   <simpara>
    Returns &true;, or &false; when the concurrent client is currently inside
    <methodname>Yar_Concurrent_Client::loop</methodname>, in which case an
-   <constant>E_WARNING</constant>-level error is raised.
+   <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant>-level error is raised.
   </simpara>
  </refsect1>
 

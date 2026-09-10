@@ -38,7 +38,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Throws an <exceptionname>Exception</exceptionname> if the cache is disabled
+   Throws an <exceptionname xlink:href="&url.php.manual.class.exception;">Exception</exceptionname> if the cache is disabled
    (<literal>yac.enable=0</literal>), or if <parameter>prefix</parameter> is
    longer than 48 bytes.
   </simpara>

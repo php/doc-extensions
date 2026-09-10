@@ -11,7 +11,7 @@
     <classsynopsisinfo>
      <ooclass><classname>Imagick</classname></ooclass>
      <oointerface>
-      <interfacename>Iterator</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>
      </oointerface>
     </classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.imagick')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])"/>

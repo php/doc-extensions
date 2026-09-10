@@ -50,11 +50,11 @@
      </oointerface>
 
      <oointerface>
-      <interfacename>JsonSerializable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.jsonserializable;">JsonSerializable</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>Stringable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.stringable;">Stringable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
@@ -81,7 +81,7 @@
       <row>
        <entry>PECL mongodb 1.12.0</entry>
        <entry>
-        Implements <interfacename>Stringable</interfacename> for PHP 8.0+.
+        Implements <interfacename xlink:href="&url.php.manual.class.stringable;">Stringable</interfacename> for PHP 8.0+.
        </entry>
       </row>
       <row>
@@ -93,8 +93,8 @@
       <row>
        <entry>PECL mongodb 1.2.0</entry>
        <entry>
-        Implements <interfacename>Serializable</interfacename> and
-        <interfacename>JsonSerializable</interfacename>.
+        Implements <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename> and
+        <interfacename xlink:href="&url.php.manual.class.jsonserializable;">JsonSerializable</interfacename>.
        </entry>
       </row>
      </tbody>

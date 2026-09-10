@@ -33,7 +33,7 @@
   &reftitle.seealso;
   <simplelist>
    <member><methodname>APCUIterator::current</methodname></member>
-   <member><methodname>Iterator::key</methodname></member>
+   <member><methodname xlink:href="&url.php.manual.iterator.key;">Iterator::key</methodname></member>
   </simplelist>
  </refsect1>
 

@@ -17,7 +17,7 @@
   </methodsynopsis>
   <simpara>
    Creates a one-shot timer, which is destroyed once its callback has run.
-   Unlike <function>sleep</function>, it does not block the current process.
+   Unlike <function xlink:href="&url.php.manual.function.sleep;">sleep</function>, it does not block the current process.
   </simpara>
  </refsect1>
 
@@ -29,7 +29,7 @@
     <listitem>
      <simpara>
       The delay in milliseconds. Must be greater than or equal to
-      <literal>1</literal>; a lower value emits an <constant>E_WARNING</constant>
+      <literal>1</literal>; a lower value emits an <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant>
       and the call fails.
      </simpara>
     </listitem>

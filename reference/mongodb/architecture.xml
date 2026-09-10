@@ -280,7 +280,7 @@ foreach ($managers as $manager) {
     <title>Objects</title>
 
      <simpara>
-      If an object is of the <classname>stdClass</classname> class, serialize
+      If an object is of the <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> class, serialize
       as a <emphasis>BSON document</emphasis>.
      </simpara>
 
@@ -313,7 +313,7 @@ foreach ($managers as $manager) {
       If an object is of a class that implements the
       <interfacename>MongoDB\BSON\Serializable</interfacename> interface, call
       <methodname>MongoDB\BSON\Serializable::bsonSerialize</methodname> and use
-      the returned array or <classname>stdClass</classname> to serialize as a
+      the returned array or <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> to serialize as a
       BSON document or array. The BSON type will be determined by the following:
      </simpara>
 
@@ -339,14 +339,14 @@ foreach ($managers as $manager) {
        <listitem>
         <simpara>
          If <methodname>MongoDB\BSON\Serializable::bsonSerialize</methodname>
-         returns a non-packed array or <classname>stdClass</classname>,
+         returns a non-packed array or <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>,
          serialize as a BSON document.
         </simpara>
        </listitem>
        <listitem>
         <simpara>
          If <methodname>MongoDB\BSON\Serializable::bsonSerialize</methodname>
-         did not return an array or <classname>stdClass</classname>, throw an
+         did not return an array or <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>, throw an
          <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname>
          exception.
         </simpara>
@@ -637,8 +637,8 @@ class UpperClass implements MongoDB\BSON\Persistable
              should be treated as any other normal property.
             </simpara>
            </footnote>
-           becomes a PHP <classname>stdClass</classname> object, with each
-           BSON document key set as a public <classname>stdClass</classname>
+           becomes a PHP <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> object, with each
+           BSON document key set as a public <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>
            property.
           </simpara>
          </listitem>
@@ -661,9 +661,9 @@ class UpperClass implements MongoDB\BSON\Persistable
           <simpara>
            If the named class does not exist or does not implement the
            <interfacename>MongoDB\BSON\Persistable</interfacename> interface,
-           <classname>stdClass</classname> will be used and each BSON document
+           <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> will be used and each BSON document
            key (including <property>__pclass</property>) will be set as a
-           public <classname>stdClass</classname> property.
+           public <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> property.
           </simpara>
           <simpara>
            The <property>__pclass</property> functionality relies on the
@@ -696,7 +696,7 @@ class UpperClass implements MongoDB\BSON\Persistable
       <listitem>
        <simpara>
         Turns a BSON array or BSON document into a
-        <classname>stdClass</classname> object. There will be no special
+        <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname> object. There will be no special
         treatment of a <property>__pclass</property> property <footnoteref linkend="mongodb.pclass"/>, but it may
         be set as a public property in the returned object if it was present
         in the BSON document.

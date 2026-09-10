@@ -31,11 +31,11 @@
      </ooclass>
 
      <oointerface>
-      <interfacename>Iterator</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>Countable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.countable;">Countable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

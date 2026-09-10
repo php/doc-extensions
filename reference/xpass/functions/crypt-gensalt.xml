@@ -14,7 +14,7 @@
    <methodparam choice="opt"><type>int</type><parameter>count</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <simpara>
-   Compile a string for use as the salt argument to <function>crypt</function>.
+   Compile a string for use as the salt argument to <function xlink:href="&url.php.manual.function.crypt;">crypt</function>.
   </simpara>
  </refsect1>
 
@@ -85,8 +85,8 @@ bool(true)
   &reftitle.seealso;
   <simplelist>
    <member><function>crypt_preferred_method</function></member>
-   <member><function>crypt</function></member>
-   <member><function>hash_equals</function></member>
+   <member><function xlink:href="&url.php.manual.function.crypt;">crypt</function></member>
+   <member><function xlink:href="&url.php.manual.function.hash-equals;">hash_equals</function></member>
   </simplelist>
  </refsect1>
 

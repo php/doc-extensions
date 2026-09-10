@@ -25,15 +25,14 @@
 
     <ooclass>
      <modifier>extends</modifier>
-     <classname>RuntimeException</classname>
+     <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>
     </ooclass>
 
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.error')/db:partintro/db:section/db:classsynopsis/db:fieldsynopsis[preceding-sibling::db:classsynopsisinfo[1][@role='comment' and text()='&Properties;']]))"/>
+    &class.error.properties;
 
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.error')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[@role='Error'])"/>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.error')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[@role='Error'])"/>
+    &class.error.methods;
    </classsynopsis>
 <!-- }}} -->
   </section>

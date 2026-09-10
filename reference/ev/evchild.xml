@@ -10,7 +10,7 @@
    <simpara>
     <classname>EvChild</classname>
     watchers trigger when the process receives a
-    <constant>SIGCHLD</constant>
+    <constant xlink:href="&url.php.manual.constant.sigchld;">SIGCHLD</constant>
     in response to some child status changes (most typically when a child dies
     or exits). It is permissible to install an
     <constant>EvChild</constant>

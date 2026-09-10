@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<section xmlns="http://docbook.org/ns/docbook" xml:id="mcrypt.configuration">
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="mcrypt.configuration">
  &reftitle.runtime;
  &extension.runtime;
  <para>
@@ -19,13 +19,13 @@
     <row>
      <entry><link linkend="ini.mcrypt.algorithms-dir">mcrypt.algorithms_dir</link></entry>
      <entry>&null;</entry>
-     <entry><constant>INI_ALL</constant></entry>
+     <entry><constant xlink:href="&url.php.manual.constant.ini-all;">INI_ALL</constant></entry>
      <entry/>
     </row>
     <row>
      <entry><link linkend="ini.mcrypt.modes-dir">mcrypt.modes_dir</link></entry>
      <entry>&null;</entry>
-     <entry><constant>INI_ALL</constant></entry>
+     <entry><constant xlink:href="&url.php.manual.constant.ini-all;">INI_ALL</constant></entry>
      <entry/>
     </row>
    </tbody>

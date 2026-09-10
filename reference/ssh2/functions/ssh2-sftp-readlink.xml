@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="function.ssh2-sftp-readlink" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="function.ssh2-sftp-readlink" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ssh2_sftp_readlink</refname>
   <refpurpose>Return the target of a symbolic link</refpurpose>
@@ -69,7 +69,7 @@ $target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>readlink</function></member>
+   <member><function xlink:href="&url.php.manual.function.readlink;">readlink</function></member>
    <member><function>ssh2_sftp_symlink</function></member>
   </simplelist>
  </refsect1>

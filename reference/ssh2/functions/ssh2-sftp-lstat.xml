@@ -18,7 +18,7 @@
    following the link.
   </simpara>
   <simpara>
-   This function is similar to using the <function>lstat</function> function
+   This function is similar to using the <function xlink:href="&url.php.manual.function.lstat;">lstat</function> function
    with the <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> wrapper
    and returns the same values.
   </simpara>
@@ -50,7 +50,7 @@
   &reftitle.returnvalues;
   <simpara>
    Returns an array of statistics for the given symbolic link on success&return.falseforfailure;.
-   See the documentation for <function>stat</function> for details on the
+   See the documentation for <function xlink:href="&url.php.manual.function.stat;">stat</function> for details on the
    values which may be returned.
   </simpara>
  </refsect1>
@@ -84,8 +84,8 @@ $mode = $statinfo['mode'];
   &reftitle.seealso;
   <simplelist>
    <member><function>ssh2_sftp_stat</function></member>
-   <member><function>lstat</function></member>
-   <member><function>stat</function></member>
+   <member><function xlink:href="&url.php.manual.function.lstat;">lstat</function></member>
+   <member><function xlink:href="&url.php.manual.function.stat;">stat</function></member>
   </simplelist>
  </refsect1>
 

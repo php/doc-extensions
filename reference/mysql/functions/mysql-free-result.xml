@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-free-result">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-free-result">
  <refnamediv>
   <refname>mysql_free_result</refname>
   <refpurpose>Free result memory</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_free_result</function></member>
-    <member>Assign the value of &null; to the PDO object, or <methodname>PDOStatement::closeCursor</methodname></member>
+    <member>Assign the value of &null; to the PDO object, or <methodname xlink:href="&url.php.manual.pdostatement.closecursor;">PDOStatement::closeCursor</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -94,7 +94,7 @@ echo $row['email'];
   &reftitle.seealso;
   <simplelist>
    <member><function>mysql_query</function></member>
-   <member><function>is_resource</function></member>
+   <member><function xlink:href="&url.php.manual.function.is-resource;">is_resource</function></member>
   </simplelist>
  </refsect1>
 </refentry>

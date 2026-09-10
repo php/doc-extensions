@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-tunnel">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-tunnel">
  <refnamediv>
   <refname>ssh2_tunnel</refname>
   <refpurpose>Open a tunnel through a remote server</refpurpose>
@@ -77,7 +77,7 @@ $tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
   &reftitle.seealso;
   <simplelist>
    <member><function>ssh2_connect</function></member>
-   <member><function>fsockopen</function></member>
+   <member><function xlink:href="&url.php.manual.function.fsockopen;">fsockopen</function></member>
   </simplelist>
  </refsect1>
 

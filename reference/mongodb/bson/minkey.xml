@@ -46,7 +46,7 @@
      </oointerface>
 
      <oointerface>
-      <interfacename>JsonSerializable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.jsonserializable;">JsonSerializable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
@@ -79,8 +79,8 @@
       <row>
        <entry>PECL mongodb 1.2.0</entry>
        <entry>
-        Implements <interfacename>Serializable</interfacename> and
-        <interfacename>JsonSerializable</interfacename>.
+        Implements <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename> and
+        <interfacename xlink:href="&url.php.manual.class.jsonserializable;">JsonSerializable</interfacename>.
        </entry>
       </row>
      </tbody>

@@ -32,15 +32,15 @@
      </ooclass>
      
      <oointerface>
-      <interfacename>ArrayAccess</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>Iterator</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>Serializable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

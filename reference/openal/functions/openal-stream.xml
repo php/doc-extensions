@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openal-stream">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.openal-stream">
  <refnamediv>
   <refname>openal_stream</refname>
   <refpurpose>
@@ -60,7 +60,7 @@
   &reftitle.seealso;
   <simplelist>
    <member><function>openal_source_create</function></member>
-   <member><function>fwrite</function></member>
+   <member><function xlink:href="&url.php.manual.function.fwrite;">fwrite</function></member>
   </simplelist>
  </refsect1>
 </refentry>

@@ -121,7 +121,7 @@
    <listitem>
     <para>
      The number of the triggered signal(e.g.
-     <constant>SIGTERM</constant>
+     <constant xlink:href="&url.php.manual.constant.sigterm;">SIGTERM</constant>
      ).
     </para>
    </listitem>

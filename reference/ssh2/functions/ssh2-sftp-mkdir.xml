@@ -20,7 +20,7 @@
    <parameter>mode</parameter>.
   </simpara>
   <simpara>
-   This function is similar to using <function>mkdir</function> with the
+   This function is similar to using <function xlink:href="&url.php.manual.function.mkdir;">mkdir</function> with the
    <link xlink:href="&url.php.manual.wrappers.ssh2;">ssh2.sftp://</link> wrapper.
   </simpara>
  </refsect1>
@@ -94,7 +94,7 @@ ssh2_sftp_mkdir($sftp, '/home/username/newdir');
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>mkdir</function></member>
+   <member><function xlink:href="&url.php.manual.function.mkdir;">mkdir</function></member>
    <member><function>ssh2_sftp_rmdir</function></member>
   </simplelist>
  </refsect1>

@@ -44,7 +44,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Using <methodname>Gender\Gender::country</methodname></title>
+   <title>Using <methodname xlink:href="&url.php.manual.gender-gender.country;">Gender\Gender::country</methodname></title>
    <programlisting role="php">
 <![CDATA[
 $gender = new Gender\Gender;

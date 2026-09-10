@@ -27,7 +27,7 @@
     <term><parameter>format</parameter></term>
     <listitem>
      <simpara>
-      String. Such as `Y-m-d H:i:s` or `Ymd His`. See also first param `format` at <function>date</function>.
+      String. Such as `Y-m-d H:i:s` or `Ymd His`. See also first param `format` at <function xlink:href="&url.php.manual.function.date;">date</function>.
      </simpara>
     </listitem>
    </varlistentry>

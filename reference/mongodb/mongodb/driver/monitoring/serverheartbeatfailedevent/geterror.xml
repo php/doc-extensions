@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>Exception</type><methodname>MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type xlink:href="&url.php.manual.class.exception;">Exception</type><methodname>MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError</methodname>
    <void />
   </methodsynopsis>
  </refsect1>
@@ -23,7 +23,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns the <classname>Exception</classname> associated with the failed
+   Returns the <classname xlink:href="&url.php.manual.class.exception;">Exception</classname> associated with the failed
    heartbeat.
   </simpara>
  </refsect1>

@@ -33,7 +33,7 @@
    <listitem><simpara>
     The numerical field offset. The <parameter>field_offset</parameter>
     starts at 0. If <parameter>field_offset</parameter> does not exist, an
-    error of level <constant>E_WARNING</constant> is also issued.
+    error of level <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> is also issued.
    </simpara></listitem>
   </varlistentry>
  </variablelist>

@@ -31,7 +31,7 @@
   <caution>
    <para>
     As of dbase 7.0.0 the databases are automatically locked via
-    <function>flock</function>. There has been no support for locking earlier,
+    <function xlink:href="&url.php.manual.function.flock;">flock</function>. There has been no support for locking earlier,
     so two concurrent web server processes modifying the same dBase file would
     have very likely ruined your database. This can happen even with dbase
     7.0.0+ on systems which implement the locks at the process level with

@@ -82,7 +82,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   An <constant>E_WARNING</constant> is emitted when
+   An <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> is emitted when
    <parameter>interval</parameter> is outside the accepted range, in which
    case the keepalive configuration is left unchanged.
   </simpara>

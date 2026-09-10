@@ -296,7 +296,7 @@ wincache.rerouteini = C:\PHP\reroute.ini
    <literal>&lt;PHP function name&gt;:[&lt;number of function parameters&gt;]=&lt;wincache function name&gt;</literal>
   </simpara>
   <para>
-   The example of the file is shown below. In this example the calls to PHP function <function>file_get_contents</function>
+   The example of the file is shown below. In this example the calls to PHP function <function xlink:href="&url.php.manual.function.file-get-contents;">file_get_contents</function>
    will be replaced with calls to <function>wincache_file_get_contents</function> only if the number of parameters passed to
    the function is less than or equals to 2. Specifying the number of parameters is useful when replacement function
    does not handle all the function's parameters.

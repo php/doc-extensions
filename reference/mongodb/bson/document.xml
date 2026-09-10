@@ -37,11 +37,11 @@
      </oointerface>
 
      <oointerface>
-      <interfacename>ArrayAccess</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</interfacename>
      </oointerface>
 
      <oointerface>
-      <interfacename>IteratorAggregate</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.iteratoraggregate;">IteratorAggregate</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

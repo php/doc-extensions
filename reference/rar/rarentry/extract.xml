@@ -75,7 +75,7 @@
   </variablelist>
   <warning>
       <simpara>Prior to version 2.0.0, this function would not handle relative
-      paths correctly. Use <function>realpath</function> as a workaround.</simpara>
+      paths correctly. Use <function xlink:href="&url.php.manual.function.realpath;">realpath</function> as a workaround.</simpara>
   </warning>
  </refsect1>
 

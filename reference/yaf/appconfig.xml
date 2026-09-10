@@ -399,7 +399,7 @@ $app = new Yaf_Application(Yaconf::get("application"));
        <link linkend="ini.yaf.lowcase-path">application.system.lowcase_path</link>
        <note>
         <simpara>
-        only those <constant>INI_ALL</constant> configures can be set in this way
+        only those <constant xlink:href="&url.php.manual.constant.ini-all;">INI_ALL</constant> configures can be set in this way
        </simpara>
        </note>
       </para>

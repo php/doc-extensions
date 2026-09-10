@@ -45,28 +45,28 @@
     <tgroup cols="1">
      <tbody>
       <row>
-       <entry><function>trim</function>, <function>rtrim</function>, <function>ltrim</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.trim;">trim</function>, <function xlink:href="&url.php.manual.function.rtrim;">rtrim</function>, <function xlink:href="&url.php.manual.function.ltrim;">ltrim</function></entry>
       </row>
       <row>
-       <entry><function>substr</function>, <function>strstr</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.substr;">substr</function>, <function xlink:href="&url.php.manual.function.strstr;">strstr</function></entry>
       </row>
       <row>
-       <entry><function>str_replace</function>, <function>str_ireplace</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.str-replace;">str_replace</function>, <function xlink:href="&url.php.manual.function.str-ireplace;">str_ireplace</function></entry>
       </row>
       <row>
-       <entry><function>str_pad</function>, <function>strtolower</function>, <function>strtoupper</function>, <function>strval</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.str-pad;">str_pad</function>, <function xlink:href="&url.php.manual.function.strtolower;">strtolower</function>, <function xlink:href="&url.php.manual.function.strtoupper;">strtoupper</function>, <function xlink:href="&url.php.manual.function.strval;">strval</function></entry>
       </row>
       <row>
-       <entry><function>explode</function> (every element of the resulting array)</entry>
+       <entry><function xlink:href="&url.php.manual.function.explode;">explode</function> (every element of the resulting array)</entry>
       </row>
       <row>
-       <entry><function>implode</function>/<function>join</function> (a tainted separator taints the result as well)</entry>
+       <entry><function xlink:href="&url.php.manual.function.implode;">implode</function>/<function xlink:href="&url.php.manual.function.join;">join</function> (a tainted separator taints the result as well)</entry>
       </row>
       <row>
-       <entry><function>sprintf</function>, <function>vsprintf</function> (only the <literal>%s</literal> specifier carries the mark; <literal>sprintf("%d", $t)</literal> returns a clean string)</entry>
+       <entry><function xlink:href="&url.php.manual.function.sprintf;">sprintf</function>, <function xlink:href="&url.php.manual.function.vsprintf;">vsprintf</function> (only the <literal>%s</literal> specifier carries the mark; <literal>sprintf("%d", $t)</literal> returns a clean string)</entry>
       </row>
       <row>
-       <entry><function>dirname</function>, <function>basename</function>, <function>pathinfo</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.dirname;">dirname</function>, <function xlink:href="&url.php.manual.function.basename;">basename</function>, <function xlink:href="&url.php.manual.function.pathinfo;">pathinfo</function></entry>
       </row>
      </tbody>
     </tgroup>
@@ -75,7 +75,7 @@
   <simpara>
    Any function taint does not explicitly understand returns a fresh,
    unmarked string — including escaping helpers such as
-   <function>htmlspecialchars</function>, <function>htmlentities</function> or
+   <function xlink:href="&url.php.manual.function.htmlspecialchars;">htmlspecialchars</function>, <function xlink:href="&url.php.manual.function.htmlentities;">htmlentities</function> or
    <function>mysqli_real_escape_string</function>. This is deliberate: taint
    over-reports rather than trying to decide whether a value is
    <quote>safe</quote> for a particular output context. Use
@@ -88,7 +88,7 @@
   <title>Where taint raises warnings</title>
   <simpara>
    When a tainted string reaches one of the sinks below, taint raises a
-   warning (by default an <constant>E_USER_WARNING</constant>; the level is
+   warning (by default an <constant xlink:href="&url.php.manual.constant.e-user-warning;">E_USER_WARNING</constant>; the level is
    configurable via <link linkend="ini.taint.error-level">taint.error_level</link>).
    Only top-level string arguments are inspected; dumping an array that
    merely contains tainted values does not warn.
@@ -106,11 +106,11 @@
        <entry>the echoed/printed expression</entry>
       </row>
       <row>
-       <entry><function>printf</function>, <function>vprintf</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.printf;">printf</function>, <function xlink:href="&url.php.manual.function.vprintf;">vprintf</function></entry>
        <entry>the format string and the substituted values</entry>
       </row>
       <row>
-       <entry><function>print_r</function>, <function>var_dump</function>, <function>var_export</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.print-r;">print_r</function>, <function xlink:href="&url.php.manual.function.var-dump;">var_dump</function>, <function xlink:href="&url.php.manual.function.var-export;">var_export</function></entry>
        <entry>the value being dumped, when it is a string</entry>
       </row>
       <row>
@@ -118,7 +118,7 @@
        <entry>the message</entry>
       </row>
       <row>
-       <entry><function>file_put_contents</function>, <function>fwrite</function>, <function>fputs</function> to <literal>php://output</literal></entry>
+       <entry><function xlink:href="&url.php.manual.function.file-put-contents;">file_put_contents</function>, <function xlink:href="&url.php.manual.function.fwrite;">fwrite</function>, <function xlink:href="&url.php.manual.function.fputs;">fputs</function> to <literal>php://output</literal></entry>
        <entry>the data being written</entry>
       </row>
      </tbody>
@@ -134,19 +134,19 @@
      </thead>
      <tbody>
       <row>
-       <entry><function>fopen</function>, <function>opendir</function>, <function>unlink</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.fopen;">fopen</function>, <function xlink:href="&url.php.manual.function.opendir;">opendir</function>, <function xlink:href="&url.php.manual.function.unlink;">unlink</function></entry>
        <entry>the path</entry>
       </row>
       <row>
-       <entry><function>file</function>, <function>readfile</function>, <function>file_get_contents</function>, <function>highlight_file</function>/<function>show_source</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.file;">file</function>, <function xlink:href="&url.php.manual.function.readfile;">readfile</function>, <function xlink:href="&url.php.manual.function.file-get-contents;">file_get_contents</function>, <function xlink:href="&url.php.manual.function.highlight-file;">highlight_file</function>/<function xlink:href="&url.php.manual.function.show-source;">show_source</function></entry>
        <entry>the path</entry>
       </row>
       <row>
-       <entry><function>copy</function>, <function>rename</function>, <function>move_uploaded_file</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.copy;">copy</function>, <function xlink:href="&url.php.manual.function.rename;">rename</function>, <function xlink:href="&url.php.manual.function.move-uploaded-file;">move_uploaded_file</function></entry>
        <entry>both the source and destination paths</entry>
       </row>
       <row>
-       <entry><function>mkdir</function>, <function>rmdir</function>, <function>touch</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.mkdir;">mkdir</function>, <function xlink:href="&url.php.manual.function.rmdir;">rmdir</function>, <function xlink:href="&url.php.manual.function.touch;">touch</function></entry>
        <entry>the path</entry>
       </row>
       <row>
@@ -170,19 +170,19 @@
        <entry>the query string</entry>
       </row>
       <row>
-       <entry><function>mysql_query</function>, <function>sqlite_query</function>, <function>sqlite_single_query</function>, <function>oci_parse</function>, <function>pg_query</function>, <function>pg_send_query</function></entry>
+       <entry><function>mysql_query</function>, <function>sqlite_query</function>, <function>sqlite_single_query</function>, <function xlink:href="&url.php.manual.function.oci-parse;">oci_parse</function>, <function xlink:href="&url.php.manual.function.pg-query;">pg_query</function>, <function xlink:href="&url.php.manual.function.pg-send-query;">pg_send_query</function></entry>
        <entry>the query string</entry>
       </row>
       <row>
-       <entry><methodname>mysqli::query</methodname>, <methodname>mysqli::prepare</methodname>, <methodname>mysqli::real_query</methodname>, <methodname>mysqli::multi_query</methodname></entry>
+       <entry><methodname xlink:href="&url.php.manual.mysqli.query;">mysqli::query</methodname>, <methodname xlink:href="&url.php.manual.mysqli.prepare;">mysqli::prepare</methodname>, <methodname xlink:href="&url.php.manual.mysqli.real-query;">mysqli::real_query</methodname>, <methodname xlink:href="&url.php.manual.mysqli.multi-query;">mysqli::multi_query</methodname></entry>
        <entry>the query string</entry>
       </row>
       <row>
-       <entry><methodname>PDO::query</methodname>, <methodname>PDO::prepare</methodname>, <methodname>PDO::exec</methodname></entry>
+       <entry><methodname xlink:href="&url.php.manual.pdo.query;">PDO::query</methodname>, <methodname xlink:href="&url.php.manual.pdo.prepare;">PDO::prepare</methodname>, <methodname xlink:href="&url.php.manual.pdo.exec;">PDO::exec</methodname></entry>
        <entry>the query string</entry>
       </row>
       <row>
-       <entry><methodname>SQLite3::query</methodname>, <methodname>SQLite3::prepare</methodname>, <methodname>SQLite3::exec</methodname>, <methodname>SQLiteDatabase::query</methodname>, <methodname>SQLiteDatabase::singleQuery</methodname></entry>
+       <entry><methodname xlink:href="&url.php.manual.sqlite3.query;">SQLite3::query</methodname>, <methodname xlink:href="&url.php.manual.sqlite3.prepare;">SQLite3::prepare</methodname>, <methodname xlink:href="&url.php.manual.sqlite3.exec;">SQLite3::exec</methodname>, <methodname>SQLiteDatabase::query</methodname>, <methodname>SQLiteDatabase::singleQuery</methodname></entry>
        <entry>the query string</entry>
       </row>
      </tbody>
@@ -198,11 +198,11 @@
      </thead>
      <tbody>
       <row>
-       <entry><function>exec</function>, <function>system</function>, <function>passthru</function>, <function>shell_exec</function> (including the backtick operator)</entry>
+       <entry><function xlink:href="&url.php.manual.function.exec;">exec</function>, <function xlink:href="&url.php.manual.function.system;">system</function>, <function xlink:href="&url.php.manual.function.passthru;">passthru</function>, <function xlink:href="&url.php.manual.function.shell-exec;">shell_exec</function> (including the backtick operator)</entry>
        <entry>the command string</entry>
       </row>
       <row>
-       <entry><function>proc_open</function>, <function>popen</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.proc-open;">proc_open</function>, <function xlink:href="&url.php.manual.function.popen;">popen</function></entry>
        <entry>the command string</entry>
       </row>
       <row>
@@ -210,12 +210,12 @@
        <entry>the evaluated code</entry>
       </row>
       <row>
-       <entry>dynamic calls such as <literal>$func()</literal>, <literal>$obj-&gt;$method()</literal>, <function>call_user_func</function>, array callables</entry>
+       <entry>dynamic calls such as <literal>$func()</literal>, <literal>$obj-&gt;$method()</literal>, <function xlink:href="&url.php.manual.function.call-user-func;">call_user_func</function>, array callables</entry>
        <entry>the function/method/class name being resolved</entry>
       </row>
       <row>
-       <entry><function>preg_match</function>, <function>preg_match_all</function>, <function>preg_replace</function>, <function>preg_split</function>, <function>preg_grep</function>, <function>preg_replace_callback</function></entry>
-       <entry>the pattern (and the callback name for <function>preg_replace_callback</function>)</entry>
+       <entry><function xlink:href="&url.php.manual.function.preg-match;">preg_match</function>, <function xlink:href="&url.php.manual.function.preg-match-all;">preg_match_all</function>, <function xlink:href="&url.php.manual.function.preg-replace;">preg_replace</function>, <function xlink:href="&url.php.manual.function.preg-split;">preg_split</function>, <function xlink:href="&url.php.manual.function.preg-grep;">preg_grep</function>, <function xlink:href="&url.php.manual.function.preg-replace-callback;">preg_replace_callback</function></entry>
+       <entry>the pattern (and the callback name for <function xlink:href="&url.php.manual.function.preg-replace-callback;">preg_replace_callback</function>)</entry>
       </row>
      </tbody>
     </tgroup>
@@ -230,11 +230,11 @@
      </thead>
      <tbody>
       <row>
-       <entry><function>header</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.header;">header</function></entry>
        <entry>the header string</entry>
       </row>
       <row>
-       <entry><function>setcookie</function>, <function>setrawcookie</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.setcookie;">setcookie</function>, <function xlink:href="&url.php.manual.function.setrawcookie;">setrawcookie</function></entry>
        <entry>the cookie name and value</entry>
       </row>
      </tbody>
@@ -250,11 +250,11 @@
      </thead>
      <tbody>
       <row>
-       <entry><function>unserialize</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.unserialize;">unserialize</function></entry>
        <entry>the serialized string</entry>
       </row>
       <row>
-       <entry><function>mail</function></entry>
+       <entry><function xlink:href="&url.php.manual.function.mail;">mail</function></entry>
        <entry>to, subject, additional parameters and additional headers (the message body is content and is not checked)</entry>
       </row>
      </tbody>

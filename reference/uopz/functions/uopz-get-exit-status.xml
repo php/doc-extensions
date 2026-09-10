@@ -15,7 +15,7 @@
   </methodsynopsis>
   <para>
    Retrieves the last set exit status, i.e. the value passed to
-   <function>exit</function>.
+   <function xlink:href="&url.php.manual.function.exit;">exit</function>.
   </para>
  </refsect1><!-- }}} -->
 
@@ -27,7 +27,7 @@
  <refsect1 role="returnvalues"><!-- {{{ -->
   &reftitle.returnvalues;
   <para>
-   This function returns the last exit status, or &null; if <function>exit</function>
+   This function returns the last exit status, or &null; if <function xlink:href="&url.php.manual.function.exit;">exit</function>
    has not been called.
   </para>
  </refsect1><!-- }}} -->

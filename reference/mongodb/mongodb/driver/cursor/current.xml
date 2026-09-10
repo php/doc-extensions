@@ -32,7 +32,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>Iterator::current</methodname></member>
+   <member><methodname xlink:href="&url.php.manual.iterator.current;">Iterator::current</methodname></member>
   </simplelist>
  </refsect1>
 </refentry>

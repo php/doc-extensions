@@ -14,7 +14,7 @@ a custom stopwatch using low level ticks delivered by the underlying APIs.
   </simpara>
   <note>
    <simpara>
-    As of PHP 7.3.0 the related function <function>hrtime</function> is part of
+    As of PHP 7.3.0 the related function <function xlink:href="&url.php.manual.function.hrtime;">hrtime</function> is part of
     the core.
    </simpara>
   </note>

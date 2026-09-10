@@ -52,7 +52,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   As of PHP 7.4.0, <function>uopz_implement</function> throws a <classname>RuntimeException</classname>,
+   As of PHP 7.4.0, <function>uopz_implement</function> throws a <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>,
    if <link xlink:href="&url.php.manual.book.opcache;">OPcache</link> is enabled,
    and the class entry of <parameter>class</parameter> is immutable.
   </simpara>

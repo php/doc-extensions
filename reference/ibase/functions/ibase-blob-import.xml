@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-blob-import">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ibase-blob-import">
  <refnamediv>
   <refname>ibase_blob_import</refname>
   <refpurpose>Create blob, copy file in it, and close it</refpurpose>
@@ -39,7 +39,7 @@
     <term><parameter>file_handle</parameter></term>
     <listitem>
      <simpara>
-      The file handle is a handle returned by <function>fopen</function>.
+      The file handle is a handle returned by <function xlink:href="&url.php.manual.function.fopen;">fopen</function>.
      </simpara>
     </listitem>
    </varlistentry>

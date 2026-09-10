@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="mongodb-bson-document.offsetexists" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="mongodb-bson-document.offsetexists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB\BSON\Document::offsetExists</refname>
   <refpurpose>Returns whether a key is present in the document</refpurpose>
@@ -40,7 +40,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>ArrayAccess::offsetExists</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.arrayaccess.offsetexists;">ArrayAccess::offsetExists</methodname></member>
     <member><methodname>MongoDB\BSON\Document::has</methodname></member>
    </simplelist>
   </para>

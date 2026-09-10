@@ -33,7 +33,7 @@
      </ooclass>
 
      <oointerface>
-      <interfacename>Iterator</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
@@ -60,7 +60,7 @@
        <entry>PECL mongodb 2.0.0</entry>
        <entry>
         <simpara>
-         This interface now extends <interfacename>Iterator</interfacename>.
+         This interface now extends <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>.
         </simpara>
         <simpara>
          Return types previously declared as tentative are now enforced.

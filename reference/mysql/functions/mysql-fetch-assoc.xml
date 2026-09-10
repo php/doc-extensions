@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-fetch-assoc">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-fetch-assoc">
  <refnamediv>
   <refname>mysql_fetch_assoc</refname>
   <refpurpose>Fetch a result row as an associative array</refpurpose>
@@ -12,8 +12,8 @@
    <simplelist role="alternatives">
     <member><function>mysqli_fetch_assoc</function></member>
     <member>
-     <methodname>PDOStatement::fetch</methodname>
-     with <parameter>mode</parameter> as <constant>PDO::FETCH_ASSOC</constant>
+     <methodname xlink:href="&url.php.manual.pdostatement.fetch;">PDOStatement::fetch</methodname>
+     with <parameter>mode</parameter> as <constant xlink:href="&url.php.manual.pdo.constants.fetch-assoc;">PDO::FETCH_ASSOC</constant>
     </member>
    </simplelist>
   </warning>

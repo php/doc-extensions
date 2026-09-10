@@ -14,7 +14,7 @@
    <methodparam choice="opt"><type>string</type><parameter>message</parameter><initializer>""</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>code</parameter><initializer>0</initializer></methodparam>
   </constructorsynopsis>
-  <simpara>Constructs a new <exceptionname>Yaf_Exception</exceptionname>. The <parameter>code</parameter> carries the Yaf error code that identifies the type of failure, and is exposed via <methodname>Exception::getCode</methodname>.</simpara>
+  <simpara>Constructs a new <exceptionname>Yaf_Exception</exceptionname>. The <parameter>code</parameter> carries the Yaf error code that identifies the type of failure, and is exposed via <methodname xlink:href="&url.php.manual.exception.getcode;">Exception::getCode</methodname>.</simpara>
  </refsect1>
 
  <refsect1 role="parameters">

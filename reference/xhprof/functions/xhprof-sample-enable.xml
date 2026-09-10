@@ -40,8 +40,8 @@
   <simplelist>
    <member><function>xhprof_sample_disable</function></member>
    <member><function>xhprof_enable</function></member>
-   <member><function>memory_get_usage</function></member>
-   <member><function>getrusage</function></member>
+   <member><function xlink:href="&url.php.manual.function.memory-get-usage;">memory_get_usage</function></member>
+   <member><function xlink:href="&url.php.manual.function.getrusage;">getrusage</function></member>
   </simplelist>
  </refsect1>
 </refentry>

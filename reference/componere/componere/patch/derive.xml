@@ -43,7 +43,7 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if <parameter>instance</parameter> is not compatible
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if <parameter>instance</parameter> is not compatible
    </simpara>
   </warning>
  </refsect1>

@@ -14,7 +14,7 @@
    <methodparam><type>mixed</type><parameter>pairs</parameter></methodparam>
   </methodsynopsis>
   <para>
-    Associates all key-value <parameter>pairs</parameter> of a <classname>traversable</classname> object or &array;.
+    Associates all key-value <parameter>pairs</parameter> of a <classname xlink:href="&url.php.manual.class.traversable;">traversable</classname> object or &array;.
   </para>
 
   <note>
@@ -38,7 +38,7 @@
     <term><parameter>pairs</parameter></term>
     <listitem>
      <para>
-        <classname>traversable</classname> object or &array;.
+        <classname xlink:href="&url.php.manual.class.traversable;">traversable</classname> object or &array;.
      </para>
     </listitem>
    </varlistentry>

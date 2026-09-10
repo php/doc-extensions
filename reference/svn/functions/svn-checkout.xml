@@ -87,7 +87,7 @@ svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) . '/
    <simpara>
     The <literal>dirname(__FILE__)</literal> call is necessary in order
     to convert the calc relative path into an absolute one. If calc
-    exists, you can also use <function>realpath</function> to retrieve
+    exists, you can also use <function xlink:href="&url.php.manual.function.realpath;">realpath</function> to retrieve
     an absolute path.
    </simpara>
   </example>

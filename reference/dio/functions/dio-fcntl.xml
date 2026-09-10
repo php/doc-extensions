@@ -103,8 +103,8 @@
         <listitem>
          <para>
           <literal>whence</literal> - Where l_start is relative to: can be 
-          <constant>SEEK_SET</constant>,
-          <constant>SEEK_END</constant> and <constant>SEEK_CUR</constant>
+          <constant xlink:href="&url.php.manual.constant.seek-set;">SEEK_SET</constant>,
+          <constant xlink:href="&url.php.manual.constant.seek-end;">SEEK_END</constant> and <constant xlink:href="&url.php.manual.constant.seek-cur;">SEEK_CUR</constant>
          </para>
         </listitem>
         <listitem>

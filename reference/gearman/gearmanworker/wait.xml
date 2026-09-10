@@ -14,7 +14,7 @@
   </methodsynopsis>
   <simpara>
    Causes the worker to wait for activity from one of the Gearman job servers when operating
-   in non-blocking I/O mode.  On failure, issues a <constant>E_WARNING</constant> with the last Gearman error
+   in non-blocking I/O mode.  On failure, issues a <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> with the last Gearman error
    encountered.
   </simpara>
  </refsect1>

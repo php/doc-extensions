@@ -144,7 +144,7 @@
     <listitem><simpara>
      Whether the value is stored directly inside the slot instead of in a
      separate value block (as of yac 2.4.0). Small values —
-     <constant>NULL</constant>, booleans, small integers, strings of up to
+     <constant xlink:href="&url.php.manual.constant.null;">NULL</constant>, booleans, small integers, strings of up to
      7 bytes and empty arrays — are embedded this way and allocate no value
      memory at all; for them <literal>crc</literal> and
      <literal>size</literal> are reported as <literal>0</literal>.

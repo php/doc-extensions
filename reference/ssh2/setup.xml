@@ -23,7 +23,7 @@
    with libssh2 &gt;= 1.2.3.
   </simpara>
   <simpara>
-   support for <function>stream_set_timeout</function> to channel streams
+   support for <function xlink:href="&url.php.manual.function.stream-set-timeout;">stream_set_timeout</function> to channel streams
    will only be available with libssh2 &gt;= 1.2.9.
   </simpara>
   <simpara>

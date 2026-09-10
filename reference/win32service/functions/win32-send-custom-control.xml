@@ -66,14 +66,14 @@
   &reftitle.errors;
   <para>
    Prior to version 1.0.0, if the control value is not between 128 and 255, this function emits an
-   <constant>E_ERROR</constant> level error.
+   <constant xlink:href="&url.php.manual.constant.e-error;">E_ERROR</constant> level error.
   </para>
   <para>
-    A <classname>ValueError</classname> is thrown if the
+    A <classname xlink:href="&url.php.manual.class.valueerror;">ValueError</classname> is thrown if the
     value of <parameter>servicename</parameter> parameter is empty.
   </para>
   <para>
-    A <classname>ValueError</classname> is thrown if the
+    A <classname xlink:href="&url.php.manual.class.valueerror;">ValueError</classname> is thrown if the
     value of <parameter>control</parameter> parameter is not between 128 and 255.
   </para>
    <para>
@@ -96,7 +96,7 @@
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>ValueError</classname> on invalid data in parameters,
+        Throws a <classname xlink:href="&url.php.manual.class.valueerror;">ValueError</classname> on invalid data in parameters,
         previously &false; was returned.
        </entry>
       </row>

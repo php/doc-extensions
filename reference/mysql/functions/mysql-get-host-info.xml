@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-get-host-info">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-get-host-info">
  <refnamediv>
   <refname>mysql_get_host_info</refname>
   <refpurpose>Get MySQL host info</refpurpose>
@@ -12,8 +12,8 @@
    <simplelist role="alternatives">
     <member><function>mysqli_get_host_info</function></member>
     <member>
-     <methodname>PDO::getAttribute</methodname>
-     with <parameter>attribute</parameter> as <constant>PDO::ATTR_CONNECTION_STATUS</constant>
+     <methodname xlink:href="&url.php.manual.pdo.getattribute;">PDO::getAttribute</methodname>
+     with <parameter>attribute</parameter> as <constant xlink:href="&url.php.manual.pdo.constants.attr-connection-status;">PDO::ATTR_CONNECTION_STATUS</constant>
     </member>
    </simplelist>
   </warning>

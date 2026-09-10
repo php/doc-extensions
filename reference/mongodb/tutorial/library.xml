@@ -145,7 +145,7 @@ foreach ($result as $entry) {
    <simpara>
     While it may not be apparent in the examples, BSON documents and arrays are
     unserialized as special classes in the library by default. These classes
-    extend <classname>ArrayObject</classname> for usability and implement the
+    extend <classname xlink:href="&url.php.manual.class.arrayobject;">ArrayObject</classname> for usability and implement the
     extension's <interfacename>MongoDB\BSON\Serializable</interfacename> and
     <interfacename>MongoDB\BSON\Unserializable</interfacename> interfaces to
     ensure that values preserve their type when serialized back into BSON. This

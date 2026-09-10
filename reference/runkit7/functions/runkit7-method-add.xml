@@ -23,7 +23,7 @@
    <type>bool</type><methodname>runkit7_method_add</methodname>
    <methodparam><type>string</type><parameter>class_name</parameter></methodparam>
    <methodparam><type>string</type><parameter>method_name</parameter></methodparam>
-   <methodparam><type>Closure</type><parameter>closure</parameter></methodparam>
+   <methodparam><type xlink:href="&url.php.manual.class.closure;">Closure</type><parameter>closure</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>RUNKIT7_ACC_PUBLIC</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>doc_comment</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>return_type</parameter></methodparam>
@@ -70,7 +70,7 @@
      <term><parameter>closure</parameter></term>
      <listitem>
       <simpara>
-       A <classname>closure</classname> that defines the method.
+       A <classname xlink:href="&url.php.manual.class.closure;">closure</classname> that defines the method.
       </simpara>
      </listitem>
     </varlistentry>

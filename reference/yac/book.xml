@@ -37,7 +37,7 @@
   </simpara>
   <simpara>
    As of yac 2.4.0, small scalar values —
-   <constant>NULL</constant>, booleans, most integers (those that fit in
+   <constant xlink:href="&url.php.manual.constant.null;">NULL</constant>, booleans, most integers (those that fit in
    60 signed bits on 64-bit builds), strings of up to 7 bytes and empty
    arrays — are stored directly inside the hash slot
    instead of in a separate value block ("embedded values"), which

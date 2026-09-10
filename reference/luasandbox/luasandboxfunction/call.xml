@@ -17,7 +17,7 @@
   </simpara>
   <simpara>
    Errors considered to be the fault of the PHP code will result in the
-   function returning &false; and <constant>E_WARNING</constant>
+   function returning &false; and <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant>
    being raised, for example, a <type>resource</type> type being used as an
    argument. Lua errors will result in a <classname>LuaSandboxRuntimeError</classname>
    exception being thrown.
@@ -32,7 +32,7 @@
    <listitem>
     <simpara>
      PHP <type>int</type>s and <type>float</type>s are converted to Lua
-     numbers. Infinity and <constant>NAN</constant> are supported.
+     numbers. Infinity and <constant xlink:href="&url.php.manual.constant.nan;">NAN</constant> are supported.
     </simpara>
    </listitem>
    <listitem>

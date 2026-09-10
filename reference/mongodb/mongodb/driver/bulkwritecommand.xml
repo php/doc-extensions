@@ -51,7 +51,7 @@
      </ooclass>
 
      <oointerface>
-      <interfacename>Countable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.countable;">Countable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="imagick.trimimage" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="imagick.trimimage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Imagick::trimImage</refname>
   <refpurpose>Remove edges from the image</refpurpose>
@@ -86,7 +86,7 @@ echo $im;
    <simplelist>
     <member><function>Imagick::getQuantumDepth</function></member>
     <member><function>Imagick::getQuantumRange</function></member>
-    <member><function>imagecropauto</function></member>
+    <member><function xlink:href="&url.php.manual.function.imagecropauto;">imagecropauto</function></member>
    </simplelist>
   </para>
  </refsect1>

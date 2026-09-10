@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-symlink">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-sftp-symlink">
  <refnamediv>
   <refname>ssh2_sftp_symlink</refname>
   <refpurpose>Create a symlink</refpurpose>
@@ -78,7 +78,7 @@ ssh2_sftp_symlink($sftp, '/var/run/mysql.sock', '/tmp/mysql.sock');
   &reftitle.seealso;
   <simplelist>
    <member><function>ssh2_sftp_readlink</function></member>
-   <member><function>symlink</function></member>
+   <member><function xlink:href="&url.php.manual.function.symlink;">symlink</function></member>
   </simplelist>
  </refsect1>
 

@@ -53,8 +53,8 @@
   &reftitle.errors;
   <simpara>
    If the <parameter>strong</parameter> parameter is &true;, then an
-   <constant>E_WARNING</constant> level error will be emitted when the
-   fallback <function>rand</function> implementation is used to fill
+   <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> level error will be emitted when the
+   fallback <function xlink:href="&url.php.manual.function.rand;">rand</function> implementation is used to fill
    the remaining random bytes (e.g., when not enough random data was found,
    initially).
   </simpara>
@@ -92,7 +92,7 @@ b6a82c27
   <note>
    <simpara>
     When not enough random data is available to the system, this function will
-    fill the remaining random bytes using the internal PHP <function>rand</function>
+    fill the remaining random bytes using the internal PHP <function xlink:href="&url.php.manual.function.rand;">rand</function>
     implementation.
    </simpara>
   </note>
@@ -101,7 +101,7 @@ b6a82c27
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>openssl_random_pseudo_bytes</function></member>
+   <member><function xlink:href="&url.php.manual.function.openssl-random-pseudo-bytes;">openssl_random_pseudo_bytes</function></member>
    <member><function>mcrypt_create_iv</function></member>
   </simplelist>
  </refsect1>

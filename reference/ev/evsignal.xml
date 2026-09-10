@@ -18,13 +18,13 @@
    <simpara>
     There is no limit for the number of watchers for the same signal, but only
     within the same loop, i.e. one can watch for
-    <constant>SIGINT</constant>
+    <constant xlink:href="&url.php.manual.constant.sigint;">SIGINT</constant>
     in the default loop and for
-    <constant>SIGIO</constant>
+    <constant xlink:href="&url.php.manual.constant.sigio;">SIGIO</constant>
     in another loop, but it is not allowed to watch for
-    <constant>SIGINT</constant>
+    <constant xlink:href="&url.php.manual.constant.sigint;">SIGINT</constant>
     in both the default loop and another loop at the same time. At the moment,
-    <constant>SIGCHLD</constant>
+    <constant xlink:href="&url.php.manual.constant.sigchld;">SIGCHLD</constant>
     is permanently tied to the default loop.
    </simpara>
    <simpara>

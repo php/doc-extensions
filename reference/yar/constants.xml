@@ -148,7 +148,7 @@
      Client option to override hostname resolution for HTTP calls. The
      value must be an array of strings in the format
      <literal>HOST:PORT:ADDRESS</literal>, following the curl
-     <constant>CURLOPT_RESOLVE</constant> syntax. Requires libcurl
+     <constant xlink:href="&url.php.manual.constant.curlopt-resolve;">CURLOPT_RESOLVE</constant> syntax. Requires libcurl
      &gt;= 7.21.3. Available as of Yar 2.1.0.
     </simpara>
    </listitem>

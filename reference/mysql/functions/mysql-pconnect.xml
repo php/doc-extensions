@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_connect</function> with <literal>p:</literal> host prefix</member>
-    <member><methodname>PDO::__construct</methodname> with <constant>PDO::ATTR_PERSISTENT</constant> as a driver option</member>
+    <member><methodname xlink:href="&url.php.manual.pdo.construct;">PDO::__construct</methodname> with <constant xlink:href="&url.php.manual.pdo.constants.attr-persistent;">PDO::ATTR_PERSISTENT</constant> as a driver option</member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

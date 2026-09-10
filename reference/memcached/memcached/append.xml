@@ -64,7 +64,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Returns &null; and raises an <constant>E_WARNING</constant> when
+   Returns &null; and raises an <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> when
    compression is enabled.
   </para>
  </refsect1>

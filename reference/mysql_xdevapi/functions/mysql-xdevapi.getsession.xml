@@ -157,7 +157,7 @@ mysqlx://foo:bar@localhost:33160/?connect-timeout=10&amp;compression=required&am
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   A connection failure throws an <classname>Exception</classname>.
+   A connection failure throws an <classname xlink:href="&url.php.manual.class.exception;">Exception</classname>.
   </para>
  </refsect1>
 

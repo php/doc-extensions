@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.recode-string">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.recode-string">
  <refnamediv>
   <refname>recode_string</refname>
   <refpurpose>Recode a string according to a recode request</refpurpose>
@@ -78,9 +78,9 @@ echo recode_string("us..flat", "The following character has a diacritical mark: 
     The GNU Recode documentation of your installation for detailed
     instructions about recode requests.
    </member>
-   <member><function>mb_convert_encoding</function></member>
-   <member><methodname>UConverter::transcode</methodname></member>
-   <member><function>iconv</function></member>
+   <member><function xlink:href="&url.php.manual.function.mb-convert-encoding;">mb_convert_encoding</function></member>
+   <member><methodname xlink:href="&url.php.manual.uconverter.transcode;">UConverter::transcode</methodname></member>
+   <member><function xlink:href="&url.php.manual.function.iconv;">iconv</function></member>
   </simplelist>
  </refsect1>
 

@@ -27,7 +27,7 @@
       <row>
        <entry><link linkend="ini.mailparse.def_charset">mailparse.def_charset</link></entry>
        <entry>"us-ascii"</entry>
-       <entry><constant>INI_SYSTEM</constant></entry>
+       <entry><constant xlink:href="&url.php.manual.constant.ini-system;">INI_SYSTEM</constant></entry>
        <entry/>
       </row>
      </tbody>

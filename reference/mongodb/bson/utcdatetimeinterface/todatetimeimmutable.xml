@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <type>DateTimeImmutable</type><methodname>MongoDB\BSON\UTCDateTimeInterface::toDateTimeImmutable</methodname>
+   <modifier>abstract</modifier> <modifier>public</modifier> <type xlink:href="&url.php.manual.class.datetimeimmutable;">DateTimeImmutable</type><methodname>MongoDB\BSON\UTCDateTimeInterface::toDateTimeImmutable</methodname>
    <void />
   </methodsynopsis>
  </refsect1>
@@ -23,8 +23,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns the <classname>DateTimeImmutable</classname> representation of this
-   UTCDateTimeInterface. The returned <classname>DateTimeImmutable</classname> will use the UTC
+   Returns the <classname xlink:href="&url.php.manual.class.datetimeimmutable;">DateTimeImmutable</classname> representation of this
+   UTCDateTimeInterface. The returned <classname xlink:href="&url.php.manual.class.datetimeimmutable;">DateTimeImmutable</classname> will use the UTC
    time zone.
   </simpara>
  </refsect1>

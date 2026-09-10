@@ -27,7 +27,7 @@ See doc-base/scripts/text-entities.php for details.
     <listitem>
      <simpara>
       Integers outside the range
-      <constant>PHP_INT_MIN</constant>..<constant>PHP_INT_MAX</constant> are
+      <constant xlink:href="&url.php.manual.constant.php-int-min;">PHP_INT_MIN</constant>..<constant xlink:href="&url.php.manual.constant.php-int-max;">PHP_INT_MAX</constant> are
       returned as strings.
      </simpara>
     </listitem>

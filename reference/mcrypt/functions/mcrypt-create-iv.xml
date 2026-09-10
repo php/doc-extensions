@@ -10,7 +10,7 @@
   <warning>
    &warn.deprecated.function.7-1-0.removed.7-2-0.alternatives;
    <simplelist role="alternatives">
-    <member><function>random_bytes</function></member>
+    <member><function xlink:href="&url.php.manual.function.random-bytes;">random_bytes</function></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>
@@ -99,7 +99,7 @@
    <member><link xlink:href="&url.mcrypt.iv;">&url.mcrypt.iv;</link></member>
    <member><link xlink:href="&url.mcrypt.bcm;">&url.mcrypt.bcm;</link></member>
    <member>Chapter 9.3 of &book.applied.cryptography;</member>
-   <member><function>random_bytes</function></member>
+   <member><function xlink:href="&url.php.manual.function.random-bytes;">random_bytes</function></member>
   </simplelist>
  </refsect1>
 </refentry>

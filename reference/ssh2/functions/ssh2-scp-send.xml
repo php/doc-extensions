@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-scp-send">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssh2-scp-send">
  <refnamediv>
   <refname>ssh2_scp_send</refname>
   <refpurpose>Send a file via SCP</refpurpose>
@@ -88,7 +88,7 @@ ssh2_scp_send($connection, '/local/filename', '/remote/filename', 0644);
   &reftitle.seealso;
   <simplelist>
    <member><function>ssh2_scp_recv</function></member>
-   <member><function>copy</function></member>
+   <member><function xlink:href="&url.php.manual.function.copy;">copy</function></member>
   </simplelist>
  </refsect1>
 

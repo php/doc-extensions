@@ -10,7 +10,7 @@
   &reftitle.description;
   <constructorsynopsis>
    <modifier>public</modifier> <methodname>Componere\Method::__construct</methodname>
-   <methodparam><type>Closure</type><parameter>closure</parameter></methodparam>
+   <methodparam><type xlink:href="&url.php.manual.class.closure;">Closure</type><parameter>closure</parameter></methodparam>
   </constructorsynopsis>
 
  </refsect1>

@@ -20,7 +20,7 @@
    is off, Yaf triggers catchable errors when unexpected errors occur.
   </simpara>
   <simpara>
-   This method is a wrapper of <function>set_error_handler</function>;
+   This method is a wrapper of <function xlink:href="&url.php.manual.function.set-error-handler;">set_error_handler</function>;
    the handler is called whenever such an error is raised.
   </simpara>
  </refsect1>
@@ -33,7 +33,7 @@
     <listitem>
      <simpara>
       A callable callback, with the same semantics as the callback passed
-      to <function>set_error_handler</function>.     </simpara>
+      to <function xlink:href="&url.php.manual.function.set-error-handler;">set_error_handler</function>.     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -42,7 +42,7 @@
      <simpara>
       The error types to handle, same as the
       <parameter>error_levels</parameter> parameter of
-      <function>set_error_handler</function>. Defaults to handling all error types.
+      <function xlink:href="&url.php.manual.function.set-error-handler;">set_error_handler</function>. Defaults to handling all error types.
      </simpara>
     </listitem>
    </varlistentry>
@@ -53,7 +53,7 @@
   &reftitle.returnvalues;
   <simpara>
    Returns the <classname>Yaf_Dispatcher</classname> object itself on
-   success, &false; if calling <function>set_error_handler</function> failed,
+   success, &false; if calling <function xlink:href="&url.php.manual.function.set-error-handler;">set_error_handler</function> failed,
    or &null; if the application is not initialized.
   </simpara>
  </refsect1>

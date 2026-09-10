@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<section xml:id="wkhtmltox.configuration" xmlns="http://docbook.org/ns/docbook">
+<section xml:id="wkhtmltox.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
  &extension.runtime;
  <para>
@@ -19,7 +19,7 @@
    <row>
     <entry><link linkend="ini.wkhtmltox.graphics">wkhtmltox.graphics</link></entry>
     <entry>Off</entry>
-    <entry><constant>INI_SYSTEM</constant>|<constant>INI_PERDIR</constant></entry>
+    <entry><constant xlink:href="&url.php.manual.constant.ini-system;">INI_SYSTEM</constant>|<constant xlink:href="&url.php.manual.constant.ini-perdir;">INI_PERDIR</constant></entry>
     <entry>&gt;= 0.3.2</entry>
    </row>
   </tbody>

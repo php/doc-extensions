@@ -32,11 +32,11 @@
      
      <ooclass>
       <modifier>extends</modifier>
-      <classname>RuntimeException</classname>
+      <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname>
      </ooclass>
      
      <oointerface>
-      <interfacename>Throwable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.throwable;">Throwable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

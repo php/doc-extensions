@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-result">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-result">
  <refnamediv>
   <refname>mysql_result</refname>
   <refpurpose>Get result data</refpurpose>
@@ -15,7 +15,7 @@
      <function>mysqli_field_seek</function> and
      <function>mysqli_fetch_field</function>
     </member>
-    <member><methodname>PDOStatement::fetchColumn</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.pdostatement.fetchcolumn;">PDOStatement::fetchColumn</methodname></member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

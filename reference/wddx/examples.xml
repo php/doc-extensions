@@ -67,8 +67,8 @@ echo $packet;
   <note>
    <para>
     Strings should be encoded in UTF-8; to handle other encodings, convert
-    the string first using <function>mb_convert_encoding</function>,
-    <methodname>UConverter::transcode</methodname>, or <function>iconv</function>.
+    the string first using <function xlink:href="&url.php.manual.function.mb-convert-encoding;">mb_convert_encoding</function>,
+    <methodname xlink:href="&url.php.manual.uconverter.transcode;">UConverter::transcode</methodname>, or <function xlink:href="&url.php.manual.function.iconv;">iconv</function>.
    </para>
   </note>
  </section>

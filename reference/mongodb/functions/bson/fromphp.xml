@@ -61,7 +61,7 @@
     not limited to, encountering an unexpected
     <interfacename>MongoDB\BSON\Type</interfacename> instance or
     <function>MongoDB\BSON\Serializable::bsonSerialize</function> failing to
-    return an <type>array</type> or <classname>stdClass</classname>.
+    return an <type>array</type> or <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>.
    </member>
   </simplelist>
  </refsect1>

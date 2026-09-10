@@ -16,7 +16,7 @@
   <simpara>
    The reply document will be converted from BSON to PHP using the default
    <link linkend="mongodb.persistence.deserialization">deserialization</link>
-   rules (e.g. BSON documents will be converted to <type>stdClass</type>).
+   rules (e.g. BSON documents will be converted to <type xlink:href="&url.php.manual.class.stdclass;">stdClass</type>).
   </simpara>
  </refsect1>
 
@@ -28,7 +28,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns the command reply document as a <classname>stdClass</classname>
+   Returns the command reply document as a <classname xlink:href="&url.php.manual.class.stdclass;">stdClass</classname>
    object.
   </simpara>
  </refsect1>

@@ -32,15 +32,15 @@
 
      <ooclass>
       <modifier>extends</modifier>
-      <classname>ValueError</classname>
+      <classname xlink:href="&url.php.manual.class.valueerror;">ValueError</classname>
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('error.synopsis')/descendant::db:fieldsynopsis)"/>
+    &class.error.properties;
 
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.error')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])"/>
+    &class.error.methods;
 
    </classsynopsis>
 <!-- }}} -->
@@ -61,8 +61,8 @@
       <row>
        <entry>PHP 8.0.0</entry>
        <entry>
-        <classname>SimdJsonValueError</classname> extends <classname>ValueError</classname>
-        now instead of <classname>Error</classname>.
+        <classname>SimdJsonValueError</classname> extends <classname xlink:href="&url.php.manual.class.valueerror;">ValueError</classname>
+        now instead of <classname xlink:href="&url.php.manual.class.error;">Error</classname>.
        </entry>
       </row>
      </tbody>

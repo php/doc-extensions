@@ -39,7 +39,7 @@
    or can't be dropped. 
   </para>
   <para>
-   An <constant>E_WARNING</constant> level error is generated if the 
+   An <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> level error is generated if the 
    schema does not exist.
   </para>
  </refsect1>

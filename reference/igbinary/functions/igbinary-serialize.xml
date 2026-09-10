@@ -103,7 +103,7 @@ array (
   <note>
    <simpara>
     Note that many built-in PHP objects cannot be serialized. However, those with
-    this ability either implement the <interfacename>Serializable</interfacename> interface or the
+    this ability either implement the <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename> interface or the
     magic <link xlink:href="&url.php.manual.object.serialize;">__serialize()</link>/<link xlink:href="&url.php.manual.object.unserialize;">__unserialize()</link>
     or <link xlink:href="&url.php.manual.object.sleep;">__sleep()</link>/<link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link> methods. If an
     internal class does not fulfill any of those requirements, it cannot reliably be
@@ -119,10 +119,10 @@ array (
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>serialize</function></member>
+   <member><function xlink:href="&url.php.manual.function.serialize;">serialize</function></member>
    <member><function>igbinary_unserialize</function></member>
-   <member><function>var_export</function></member>
-   <member><function>json_encode</function></member>
+   <member><function xlink:href="&url.php.manual.function.var-export;">var_export</function></member>
+   <member><function xlink:href="&url.php.manual.function.json-encode;">json_encode</function></member>
    <member><link xlink:href="&url.php.manual.language.oop5.serialization;">Serializing Objects</link></member>
    <member><link xlink:href="&url.php.manual.object.sleep;">__sleep()</link></member>
    <member><link xlink:href="&url.php.manual.object.wakeup;">__wakeup()</link></member>

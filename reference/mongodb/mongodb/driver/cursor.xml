@@ -61,14 +61,14 @@
       <row>
        <entry>PECL mongodb 1.9.0</entry>
        <entry>
-        Implements <interfacename>Iterator</interfacename>.
+        Implements <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename>.
        </entry>
       </row>
       <row>
        <entry>PECL mongodb 1.6.0</entry>
        <entry>
         Implements <interfacename>MongoDB\Driver\CursorInterface</interfacename>,
-        which extends <interfacename>Traversable</interfacename>.
+        which extends <interfacename xlink:href="&url.php.manual.class.traversable;">Traversable</interfacename>.
        </entry>
       </row>
      </tbody>
@@ -90,7 +90,7 @@
     </simpara>
     <simpara>
      Because <classname>MongoDB\Driver\Cursor</classname> implements the
-     <interfacename>Traversable</interfacename> interface, you can simply
+     <interfacename xlink:href="&url.php.manual.class.traversable;">Traversable</interfacename> interface, you can simply
      iterate over the result set with
      <link xlink:href="&url.php.manual.control-structures.foreach;"><literal>foreach</literal></link>.
     </simpara>
@@ -173,7 +173,7 @@ stdClass Object
     </simpara>
     <simpara>
      In order to continuously read from a tailable cursor, the Cursor object
-     must be wrapped with an <classname>IteratorIterator</classname>. This
+     must be wrapped with an <classname xlink:href="&url.php.manual.class.iteratoriterator;">IteratorIterator</classname>. This
      allows the application to directly control the cursor's iteration, avoid
      inadvertently rewinding the cursor, and decide when to wait for new results
      or stop iteration entirely.

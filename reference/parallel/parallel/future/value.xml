@@ -41,7 +41,7 @@
   </warning>
   <warning>
    <simpara>
-    Shall rethrow <type>Throwable</type> uncaught in task
+    Shall rethrow <type xlink:href="&url.php.manual.class.throwable;">Throwable</type> uncaught in task
    </simpara>
   </warning>
  </refsect1>

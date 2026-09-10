@@ -11,7 +11,7 @@ See doc-base/scripts/text-entities.php for details.
           xmlns:xlink = "http://www.w3.org/1999/xlink"
           translate   = "yes">
 
-<entity name="oauth.callback.error">Emits an <constant>E_ERROR</constant> level
+<entity name="oauth.callback.error">Emits an <constant xlink:href="&url.php.manual.constant.e-error;">E_ERROR</constant> level
 error if the callback function cannot be called, or was not specified.</entity>
 
 <entity name="oauth.changelog.error.null">Previously returned &null; on failure, instead of &false;.</entity>

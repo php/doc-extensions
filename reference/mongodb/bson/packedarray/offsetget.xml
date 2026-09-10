@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xml:id="mongodb-bson-packedarray.offsetget" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="mongodb-bson-packedarray.offsetget" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB\BSON\PackedArray::offsetGet</refname>
   <refpurpose>Returns the value of an index in the array</refpurpose>
@@ -56,7 +56,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>ArrayAccess::offsetGet</methodname></member>
+    <member><methodname xlink:href="&url.php.manual.arrayaccess.offsetget;">ArrayAccess::offsetGet</methodname></member>
     <member><methodname>MongoDB\BSON\PackedArray::get</methodname></member>
    </simplelist>
   </para>

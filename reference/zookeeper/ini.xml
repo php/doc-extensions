@@ -21,19 +21,19 @@
      <row>
       <entry><link linkend="ini.zookeeper.recv_timeout">zookeeper.recv_timeout</link></entry>
       <entry>10000</entry>
-      <entry><constant>INI_ALL</constant></entry>
+      <entry><constant xlink:href="&url.php.manual.constant.ini-all;">INI_ALL</constant></entry>
       <entry></entry>
      </row>
      <row>
       <entry><link linkend="ini.zookeeper.session_lock">zookeeper.session_lock</link></entry>
       <entry>1</entry>
-      <entry><constant>INI_SYSTEM</constant></entry>
+      <entry><constant xlink:href="&url.php.manual.constant.ini-system;">INI_SYSTEM</constant></entry>
       <entry></entry>
      </row>
      <row>
       <entry><link linkend="ini.zookeeper.sess_lock_wait">zookeeper.sess_lock_wait</link></entry>
       <entry>150000</entry>
-      <entry><constant>INI_ALL</constant></entry>
+      <entry><constant xlink:href="&url.php.manual.constant.ini-all;">INI_ALL</constant></entry>
       <entry></entry>
      </row>
     </tbody>

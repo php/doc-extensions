@@ -42,7 +42,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   A <classname>RuntimeException</classname> is thrown, if no mock was previously
+   A <classname xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</classname> is thrown, if no mock was previously
    set for <parameter>class</parameter>.
   </para>
  </refsect1>

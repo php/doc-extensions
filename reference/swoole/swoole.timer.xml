@@ -26,7 +26,7 @@
    <para>
     The underlying system does not support timers with a delay of <literal>0</literal>;
     values below <literal>1</literal> millisecond emit an
-    <constant>E_WARNING</constant> and the call fails. This differs from
+    <constant xlink:href="&url.php.manual.constant.e-warning;">E_WARNING</constant> and the call fails. This differs from
     languages such as Node.js.
     <methodname linkend="swoole-event.defer">Swoole\Event::defer</methodname>
     may be used to achieve similar functionality.

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Members inherited from core classes and interfaces.
+
+Extension classes that extend Exception or Error, or implement core
+interfaces, used to pull the inherited synopses into their class
+synopsis with xi:include xpointers targeting ids such as
+class.exception. Those ids live in doc-en, not in this repository,
+so the includes cannot resolve here.
+
+Each entity below replaces one such include group with a copy of the
+synopses it used to pull in. Sources (doc-en):
+
+  language/predefined/exception.xml, exception/*.xml
+  language/predefined/error.xml, error/*.xml
+  language/predefined/arrayaccess/*.xml
+  language/predefined/countable/count.xml
+  language/predefined/iteratoraggregate/getiterator.xml
+  reference/json/jsonserializable/jsonserialize.xml
+
+Two things differ from the originals, because the copies are expanded
+into many pages of a manual that does not contain the core classes:
+
+  - linkend attributes on varname (and any xml:id on a synopsis) are
+    dropped: their targets do not exist here, and ids would be
+    duplicated on every page using the entity.
+  - methodname and varname carry an xlink:href to the corresponding
+    page of the core manual instead, using the url.php.manual.*
+    entities from entities.manual.ent.
+
+If cross-manual inclusion ever becomes available, only the bodies in
+this file need to change; the referencing files stay as they are.
+
+See doc-base/scripts/text-entities.php for details.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          xmlns:xlink = "http://www.w3.org/1999/xlink"
+          translate   = "yes">
+
+<!-- Exception -->
+
+<entity name="class.exception.properties">
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>string</type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.message">message</varname>
+     <initializer>""</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>private</modifier>
+     <type>string</type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.string">string</varname>
+     <initializer>""</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>int</type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.code">code</varname>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>string</type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.file">file</varname>
+     <initializer>""</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>int</type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.line">line</varname>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>private</modifier>
+     <type>array</type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.trace">trace</varname>
+     <initializer>[]</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>private</modifier>
+     <type class="union"><type xlink:href="&url.php.manual.class.throwable;">Throwable</type><type>null</type></type>
+     <varname xlink:href="&url.php.manual.class.exception;#exception.props.previous">previous</varname>
+     <initializer>null</initializer>
+    </fieldsynopsis>
+</entity>
+
+<entity name="class.exception.methods">
+    <constructorsynopsis role="Exception">
+     <modifier>public</modifier> <methodname xlink:href="&url.php.manual.exception.construct;">Exception::__construct</methodname>
+     <methodparam choice="opt"><type>string</type><parameter>message</parameter><initializer>""</initializer></methodparam>
+     <methodparam choice="opt"><type>int</type><parameter>code</parameter><initializer>0</initializer></methodparam>
+     <methodparam choice="opt"><type class="union"><type xlink:href="&url.php.manual.class.throwable;">Throwable</type><type>null</type></type><parameter>previous</parameter><initializer>&null;</initializer></methodparam>
+    </constructorsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.exception.getmessage;">Exception::getMessage</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type class="union"><type xlink:href="&url.php.manual.class.throwable;">Throwable</type><type>null</type></type><methodname xlink:href="&url.php.manual.exception.getprevious;">Exception::getPrevious</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type>int</type><methodname xlink:href="&url.php.manual.exception.getcode;">Exception::getCode</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.exception.getfile;">Exception::getFile</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type>int</type><methodname xlink:href="&url.php.manual.exception.getline;">Exception::getLine</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type>array</type><methodname xlink:href="&url.php.manual.exception.gettrace;">Exception::getTrace</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.exception.gettraceasstring;">Exception::getTraceAsString</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.exception.tostring;">Exception::__toString</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Exception">
+     <modifier>private</modifier> <type>void</type><methodname xlink:href="&url.php.manual.exception.clone;">Exception::__clone</methodname>
+     <void/>
+    </methodsynopsis>
+</entity>
+
+<!-- Error -->
+
+<entity name="class.error.properties">
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>string</type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.message">message</varname>
+     <initializer>""</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>private</modifier>
+     <type>string</type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.string">string</varname>
+     <initializer>""</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>int</type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.code">code</varname>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>string</type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.file">file</varname>
+     <initializer>""</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>protected</modifier>
+     <type>int</type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.line">line</varname>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>private</modifier>
+     <type>array</type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.trace">trace</varname>
+     <initializer>[]</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>private</modifier>
+     <type class="union"><type xlink:href="&url.php.manual.class.throwable;">Throwable</type><type>null</type></type>
+     <varname xlink:href="&url.php.manual.class.error;#error.props.previous">previous</varname>
+     <initializer>null</initializer>
+    </fieldsynopsis>
+</entity>
+
+<entity name="class.error.methods">
+    <constructorsynopsis role="Error">
+     <modifier>public</modifier> <methodname xlink:href="&url.php.manual.error.construct;">Error::__construct</methodname>
+     <methodparam choice="opt"><type>string</type><parameter>message</parameter><initializer>""</initializer></methodparam>
+     <methodparam choice="opt"><type>int</type><parameter>code</parameter><initializer>0</initializer></methodparam>
+     <methodparam choice="opt"><type class="union"><type xlink:href="&url.php.manual.class.throwable;">Throwable</type><type>null</type></type><parameter>previous</parameter><initializer>&null;</initializer></methodparam>
+    </constructorsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.error.getmessage;">Error::getMessage</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type class="union"><type xlink:href="&url.php.manual.class.throwable;">Throwable</type><type>null</type></type><methodname xlink:href="&url.php.manual.error.getprevious;">Error::getPrevious</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type>int</type><methodname xlink:href="&url.php.manual.error.getcode;">Error::getCode</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.error.getfile;">Error::getFile</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type>int</type><methodname xlink:href="&url.php.manual.error.getline;">Error::getLine</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type>array</type><methodname xlink:href="&url.php.manual.error.gettrace;">Error::getTrace</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.error.gettraceasstring;">Error::getTraceAsString</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>public</modifier> <type>string</type><methodname xlink:href="&url.php.manual.error.tostring;">Error::__toString</methodname>
+     <void/>
+    </methodsynopsis>
+    <methodsynopsis role="Error">
+     <modifier>private</modifier> <type>void</type><methodname xlink:href="&url.php.manual.error.clone;">Error::__clone</methodname>
+     <void/>
+    </methodsynopsis>
+</entity>
+
+<!-- Interfaces -->
+
+<entity name="class.arrayaccess.methods">
+    <methodsynopsis role="ArrayAccess">
+     <modifier>public</modifier> <type>bool</type><methodname xlink:href="&url.php.manual.arrayaccess.offsetexists;">ArrayAccess::offsetExists</methodname>
+     <methodparam><type>mixed</type><parameter>offset</parameter></methodparam>
+    </methodsynopsis>
+    <methodsynopsis role="ArrayAccess">
+     <modifier>public</modifier> <type>mixed</type><methodname xlink:href="&url.php.manual.arrayaccess.offsetget;">ArrayAccess::offsetGet</methodname>
+     <methodparam><type>mixed</type><parameter>offset</parameter></methodparam>
+    </methodsynopsis>
+    <methodsynopsis role="ArrayAccess">
+     <modifier>public</modifier> <type>void</type><methodname xlink:href="&url.php.manual.arrayaccess.offsetset;">ArrayAccess::offsetSet</methodname>
+     <methodparam><type>mixed</type><parameter>offset</parameter></methodparam>
+     <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
+    </methodsynopsis>
+    <methodsynopsis role="ArrayAccess">
+     <modifier>public</modifier> <type>void</type><methodname xlink:href="&url.php.manual.arrayaccess.offsetunset;">ArrayAccess::offsetUnset</methodname>
+     <methodparam><type>mixed</type><parameter>offset</parameter></methodparam>
+    </methodsynopsis>
+</entity>
+
+<entity name="class.countable.methods">
+    <methodsynopsis role="Countable">
+     <modifier>public</modifier> <type>int</type><methodname xlink:href="&url.php.manual.countable.count;">Countable::count</methodname>
+     <void/>
+    </methodsynopsis>
+</entity>
+
+<entity name="class.iteratoraggregate.methods">
+    <methodsynopsis role="IteratorAggregate">
+     <modifier>public</modifier> <type xlink:href="&url.php.manual.class.traversable;">Traversable</type><methodname xlink:href="&url.php.manual.iteratoraggregate.getiterator;">IteratorAggregate::getIterator</methodname>
+     <void/>
+    </methodsynopsis>
+</entity>
+
+<entity name="class.jsonserializable.methods">
+    <methodsynopsis role="JsonSerializable">
+     <modifier>public</modifier> <type>mixed</type><methodname xlink:href="&url.php.manual.jsonserializable.jsonserialize;">JsonSerializable::jsonSerialize</methodname>
+     <void/>
+    </methodsynopsis>
+</entity>
+
+</entities>

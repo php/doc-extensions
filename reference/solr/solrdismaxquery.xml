@@ -36,7 +36,7 @@
      </ooclass>
      
      <oointerface>
-      <interfacename>Serializable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

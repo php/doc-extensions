@@ -48,27 +48,27 @@
   &reftitle.errors;
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if the type of <parameter>object</parameter> is or is derived from an internal class
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if the type of <parameter>object</parameter> is or is derived from an internal class
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is an interface
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is an interface
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is a trait
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is a trait
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is an abstract
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is an abstract
    </simpara>
   </warning>
   <warning>
    <simpara>
-    Shall throw <type>InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is not compatible with the type of <parameter>object</parameter>
+    Shall throw <type xlink:href="&url.php.manual.class.invalidargumentexception;">InvalidArgumentException</type> if <exceptionname>Type</exceptionname> is not compatible with the type of <parameter>object</parameter>
    </simpara>
   </warning>
  </refsect1>

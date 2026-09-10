@@ -40,7 +40,7 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><methodname>Iterator::key</methodname></member>
+   <member><methodname xlink:href="&url.php.manual.iterator.key;">Iterator::key</methodname></member>
   </simplelist>
  </refsect1>
 </refentry>

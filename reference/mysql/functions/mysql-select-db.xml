@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-select-db">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-select-db">
  <refnamediv>
   <refname>mysql_select_db</refname>
   <refpurpose>Select a MySQL database</refpurpose>
@@ -11,7 +11,7 @@
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_select_db</function></member>
-    <member><methodname>PDO::__construct</methodname> (part of dsn)</member>
+    <member><methodname xlink:href="&url.php.manual.pdo.construct;">PDO::__construct</methodname> (part of dsn)</member>
    </simplelist>
   </warning>
  </refsynopsisdiv>

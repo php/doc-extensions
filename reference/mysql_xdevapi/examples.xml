@@ -41,7 +41,7 @@ $collection = $schema->createCollection("example");
   </programlisting>
  </example>
  <para>
-  When storing data, typically <function>json_encode</function> is used to encode
+  When storing data, typically <function xlink:href="&url.php.manual.function.json-encode;">json_encode</function> is used to encode
   the data into JSON, which can then be stored inside a collection.
  </para>
  <para>

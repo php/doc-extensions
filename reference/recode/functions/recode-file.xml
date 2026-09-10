@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.recode-file">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.recode-file">
  <refnamediv>
   <refname>recode_file</refname>
   <refpurpose>Recode from file to file according to recode request</refpurpose>
@@ -88,7 +88,7 @@ recode_file("us..flat", $input, $output);
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><function>fopen</function></member>
+   <member><function xlink:href="&url.php.manual.function.fopen;">fopen</function></member>
   </simplelist>
  </refsect1>
 

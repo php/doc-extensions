@@ -10,9 +10,9 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>DOMDocument</type><methodname>XMLDiff\DOM::merge</methodname>
-   <methodparam><type>DOMDocument</type><parameter>src</parameter></methodparam>
-   <methodparam><type>DOMDocument</type><parameter>diff</parameter></methodparam>
+   <modifier>public</modifier> <type xlink:href="&url.php.manual.class.domdocument;">DOMDocument</type><methodname>XMLDiff\DOM::merge</methodname>
+   <methodparam><type xlink:href="&url.php.manual.class.domdocument;">DOMDocument</type><parameter>src</parameter></methodparam>
+   <methodparam><type xlink:href="&url.php.manual.class.domdocument;">DOMDocument</type><parameter>diff</parameter></methodparam>
   </methodsynopsis>
   <para>
    Create new DOMDocument based on the diff.

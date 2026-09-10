@@ -34,7 +34,7 @@
   <simplelist>
    <member><methodname>APCUIterator::current</methodname></member>
    <member><methodname>APCUIterator::rewind</methodname></member>
-   <member><methodname>Iterator::next</methodname></member>
+   <member><methodname xlink:href="&url.php.manual.iterator.next;">Iterator::next</methodname></member>
   </simplelist>
  </refsect1>
 

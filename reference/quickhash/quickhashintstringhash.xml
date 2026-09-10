@@ -13,10 +13,10 @@
    <simpara>
     This class wraps around a hash containing integer numbers, where the
     values are strings. Hashes are also available as implementation of the
-    <interfacename>ArrayAccess</interfacename> interface.
+    <interfacename xlink:href="&url.php.manual.class.arrayaccess;">ArrayAccess</interfacename> interface.
    </simpara>
    <simpara>
-    Hashes can also be iterated over with <link xlink:href="&url.php.manual.control-structures.foreach;"><literal>foreach</literal></link> as the <interfacename>Iterator</interfacename> interface is
+    Hashes can also be iterated over with <link xlink:href="&url.php.manual.control-structures.foreach;"><literal>foreach</literal></link> as the <interfacename xlink:href="&url.php.manual.class.iterator;">Iterator</interfacename> interface is
     implemented as well. The order of which elements are returned in is not
     guaranteed.
    </simpara>

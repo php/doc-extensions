@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.setserverparams">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="memcache.setserverparams">
  <refnamediv>
   <refname>Memcache::setServerParams</refname>
   <refname>memcache_set_server_params</refname>
@@ -77,7 +77,7 @@
       Controls how often a failed server will be retried, the default value
       is 15 seconds. Setting this parameter to -1 disables automatic retry.
       Neither this nor the <parameter>persistent</parameter> parameter has any
-      effect when the extension is loaded dynamically via <function>dl</function>.
+      effect when the extension is loaded dynamically via <function xlink:href="&url.php.manual.function.dl;">dl</function>.
      </simpara>
     </listitem>
    </varlistentry>

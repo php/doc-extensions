@@ -14,7 +14,7 @@
    <methodparam><type>bool</type><parameter>allow</parameter></methodparam>
   </methodsynopsis>
   <para>
-   By default uopz disables the exit opcode, so <function>exit</function> calls
+   By default uopz disables the exit opcode, so <function xlink:href="&url.php.manual.function.exit;">exit</function> calls
    are practically ignored. <function>uopz_allow_exit</function>
    allows to control this behavior.
   </para>

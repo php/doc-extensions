@@ -7,7 +7,7 @@
  <preface xml:id="intro.var_representation">
   &reftitle.intro;
   <simpara>
-   The var_representation extension provides a compact alternative to <function>var_export</function> that properly escapes control characters.
+   The var_representation extension provides a compact alternative to <function xlink:href="&url.php.manual.function.var-export;">var_export</function> that properly escapes control characters.
   </simpara>
  </preface>
 

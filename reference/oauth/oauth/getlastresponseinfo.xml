@@ -26,7 +26,7 @@
   &reftitle.returnvalues;
   <simpara>
    Returns an array containing the response information for the last
-   request. Constants from <function>curl_getinfo</function> may be
+   request. Constants from <function xlink:href="&url.php.manual.function.curl-getinfo;">curl_getinfo</function> may be
    used.
   </simpara>
  </refsect1>

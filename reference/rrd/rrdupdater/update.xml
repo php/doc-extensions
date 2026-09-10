@@ -54,7 +54,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Throws a <classname>Exception</classname> on error.
+   Throws a <classname xlink:href="&url.php.manual.class.exception;">Exception</classname> on error.
   </simpara>
  </refsect1>
 

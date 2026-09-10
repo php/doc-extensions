@@ -36,7 +36,7 @@
      </oointerface>
 
      <oointerface>
-      <interfacename>Serializable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
@@ -310,7 +310,7 @@
          constants.
         </simpara>
         <simpara>
-         Implements <interfacename>Serializable</interfacename>.
+         Implements <interfacename xlink:href="&url.php.manual.class.serializable;">Serializable</interfacename>.
         </simpara>
        </entry>
       </row>

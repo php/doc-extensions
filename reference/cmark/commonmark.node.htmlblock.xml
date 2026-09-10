@@ -32,7 +32,7 @@
      </oointerface>
      
      <oointerface>
-      <interfacename>Traversable</interfacename>
+      <interfacename xlink:href="&url.php.manual.class.traversable;">Traversable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

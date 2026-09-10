@@ -57,7 +57,7 @@ svn_cleanup(realpath('help-me'));
 ]]>
    </programlisting>
    <simpara>
-    The <function>realpath</function> call is necessary due to
+    The <function xlink:href="&url.php.manual.function.realpath;">realpath</function> call is necessary due to
     SVN's quirky handling of relative paths.
    </simpara>
   </example>

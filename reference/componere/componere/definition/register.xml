@@ -22,7 +22,7 @@
   <title>Exceptions</title>
   <warning>
    <simpara>
-    Shall throw <type>RuntimeException</type> if <type>Definition</type> was registered
+    Shall throw <type xlink:href="&url.php.manual.class.runtimeexception;">RuntimeException</type> if <type>Definition</type> was registered
    </simpara>
   </warning>
  </refsect1>

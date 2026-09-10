@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-field-seek">
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mysql-field-seek">
  <refnamediv>
   <refname>mysql_field_seek</refname>
   <refpurpose>Set result pointer to a specified field offset</refpurpose>
@@ -12,7 +12,7 @@
    <simplelist role="alternatives">
     <member><function>mysqli_field_seek</function></member>
     <member>
-     <methodname>PDOStatement::fetch</methodname> using the
+     <methodname xlink:href="&url.php.manual.pdostatement.fetch;">PDOStatement::fetch</methodname> using the
      <parameter>cursor_orientation</parameter> and
      <parameter>offset</parameter> parameters
     </member>
