@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\Coroutine\Client intro -->
   <section xml:id="swoole-coroutine-client.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -82,13 +82,13 @@
     <varlistentry xml:id="swoole-coroutine-client.props.errcode">
      <term><varname>errCode</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="swoole-coroutine-client.props.sock">
      <term><varname>sock</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -104,28 +104,28 @@
     <varlistentry xml:id="swoole-coroutine-client.constants.msg-oob">
      <term><constant>Swoole\Coroutine\Client::MSG_OOB</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-coroutine-client.constants.msg-peek">
      <term><constant>Swoole\Coroutine\Client::MSG_PEEK</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-coroutine-client.constants.msg-dontwait">
      <term><constant>Swoole\Coroutine\Client::MSG_DONTWAIT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-coroutine-client.constants.msg-waitall">
      <term><constant>Swoole\Coroutine\Client::MSG_WAITALL</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

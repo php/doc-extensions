@@ -14,9 +14,9 @@
    <methodparam><type>array</type><parameter>info</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Assemble a url.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>info</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>query</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,17 +43,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a &string;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>Yaf_Exception_TypeError</classname> if <parameter>info</parameter> 
+  <simpara>
+   Throws <exceptionname>Yaf_Exception_TypeError</exceptionname> if <parameter>info</parameter>
    keys <literal>':c'</literal> or <literal>':a'</literal> are not set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

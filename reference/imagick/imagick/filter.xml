@@ -18,11 +18,11 @@
    <methodparam><type>ImagickKernel</type><parameter>ImagickKernel</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_UNDEFINED</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Applies a custom convolution kernel to the image.
-  </para>
+  </simpara>
 
- 
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,17 +31,17 @@
    <varlistentry>
     <term><parameter>ImagickKernel</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An instance of ImagickKernel that represents either a single kernel or a linked series of kernels.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>channel</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &imagick.parameter.channel;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -49,9 +49,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -72,10 +72,10 @@ function filter($imagePath) {
         [0,  5,  0],
         [-1, 0, -1],
     ];
-    
+
     $kernel = \ImagickKernel::fromMatrix($matrix);
-    $strength = 0.5;    
-    $kernel->scale($strength, \Imagick::NORMALIZE_KERNEL_VALUE);    
+    $strength = 0.5;
+    $kernel->scale($strength, \Imagick::NORMALIZE_KERNEL_VALUE);
     $kernel->addUnityKernel(1 - $strength);
 
     $imagick->filter($kernel);

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>wkhtmltox\PDF\Converter::add</methodname>
    <methodparam><type>wkhtmltox\PDF\Object</type><parameter>object</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
   Adds the given object to conversion
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>object</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The object to add
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,7 +36,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

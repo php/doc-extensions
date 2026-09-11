@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setExpandQuery</methodname>
    <methodparam><type>string</type><parameter>q</parameter></methodparam>
   </methodsynopsis>
-  <para>
-    Sets the expand.q parameter. 
-  </para>
-  <para>
-    Overrides the main q parameter, 
+  <simpara>
+    Sets the expand.q parameter.
+  </simpara>
+  <simpara>
+    Overrides the main q parameter,
     determines which documents to include in the main group.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>q</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrQuery</type>
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>void</type><methodname>Ds\Deque::rotate</methodname>
    <methodparam><type>int</type><parameter>rotations</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Rotates the deque by a given number of rotations, which is equivalent
     to successively calling <code>$deque-&gt;push($deque-&gt;shift())</code> if the number
     of rotations is positive, or <code>$deque-&gt;unshift($deque-&gt;pop())</code> if negative.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>rotations</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The number of times the deque should be rotated.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;. The deque of the current instance will be rotated.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

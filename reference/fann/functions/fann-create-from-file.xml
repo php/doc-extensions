@@ -13,9 +13,9 @@
    <type>resource</type><methodname>fann_create_from_file</methodname>
    <methodparam><type>string</type><parameter>configuration_file</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Constructs a backpropagation neural network from a configuration file, which have been saved by <function>fann_save</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>configuration_file</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The configuration file path.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

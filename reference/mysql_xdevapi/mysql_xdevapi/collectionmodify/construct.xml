@@ -13,10 +13,10 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\CollectionModify::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Modifies (updates) a collection and is instantiated by the
    <methodname>mysql_xdevapi\Collection::modify</methodname> method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -41,7 +41,7 @@ $collection = $schema->createCollection("people");
 $result = $collection
   ->add(
   '{"name":   "Bernie",
-    "traits": ["Friend", "Brother", "Human"]}') 
+    "traits": ["Friend", "Brother", "Human"]}')
   ->execute();
 
 $collection

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getoption">
+<refentry xml:id="imagick.getoption" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getOption</refname>
   <refpurpose>Returns a value associated with the specified key</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>string</type><methodname>Imagick::getOption</methodname>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a value associated within the object for the specified key.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The name of the option
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,16 +35,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a value associated with a wand and the specified key.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

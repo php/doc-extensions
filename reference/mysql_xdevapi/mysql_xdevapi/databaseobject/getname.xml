@@ -13,9 +13,9 @@
    <modifier>abstract</modifier> <modifier>public</modifier> <type>string</type><methodname>mysql_xdevapi\DatabaseObject::getName</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Fetch name of this database object.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The name of this database object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

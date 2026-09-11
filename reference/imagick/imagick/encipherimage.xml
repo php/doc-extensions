@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.encipherimage">
+<refentry xml:id="imagick.encipherimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::encipherImage</refname>
   <refpurpose>Enciphers an image</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>string</type><parameter>passphrase</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Converts plain pixels to enciphered pixels. The image is not readable
    until it has been deciphered using <function>Imagick::decipherImage</function>
    &imagick.method.available.0x639;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>passphrase</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The passphrase
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

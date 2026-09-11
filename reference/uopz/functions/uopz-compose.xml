@@ -21,9 +21,9 @@
    <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a new class of the given name that implements, extends, or uses all of the provided classes
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,41 +32,41 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       A legal class name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>classes</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An array of class, interface and trait names
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>methods</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An associative array of methods, values are either closures or [modifiers => closure]
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>properties</parameter></term>
     <listitem>
-     <para>
+     <simpara>
      An associative array of properties, keys are names, values are modifiers
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Entry type, by default ZEND_ACC_CLASS
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -74,9 +74,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

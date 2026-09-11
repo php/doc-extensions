@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setfont">
+<refentry xml:id="imagickdraw.setfont" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setFont</refname>
   <refpurpose>Sets the fully-specified font to use when annotating with text</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>string</type><parameter>font_name</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the fully-specified font to use when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,8 +25,8 @@
     <varlistentry>
      <term><parameter>font_name</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

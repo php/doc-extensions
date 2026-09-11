@@ -4,12 +4,12 @@
 <section xml:id="trader.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
- <para>
+ <simpara>
   &pecl.info;
   <link xlink:href="&url.pecl.package;trader">&url.pecl.package;trader</link>
- </para>
+ </simpara>
 
- 
+
 </section>
 
 

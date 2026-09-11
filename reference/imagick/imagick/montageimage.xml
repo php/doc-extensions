@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.montageimage">
+<refentry xml:id="imagick.montageimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::montageImage</refname>
   <refpurpose>Creates a composite image</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -16,13 +16,13 @@
    <methodparam><type>int</type><parameter>mode</parameter></methodparam>
    <methodparam><type>string</type><parameter>frame</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a composite image by combining several separate images.
    The images are tiled on the composite image with the name of the
    image optionally appearing just below the individual tile.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
@@ -30,57 +30,57 @@
     <varlistentry>
      <term><parameter>draw</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The font name, size, and color are obtained from this object.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>tile_geometry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The number of tiles per row and page (e.g. 6x4+0+0).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>thumbnail_geometry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Preferred image size and border size of each thumbnail
        (e.g. 120x120+4+3).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       Thumbnail framing mode, see <link 
+      <simpara>
+       Thumbnail framing mode, see <link
        linkend="imagick.constants.montagemode">Montage Mode constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>frame</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Surround the image with an ornamental border (e.g. 15x15+3+3). The
        frame color is that of the thumbnail's matte color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
   </para>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Creates a composite image and returns it as a new <classname>Imagick</classname> object.
-  </para>
+  </simpara>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

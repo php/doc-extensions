@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setMltMinDocFrequency</methodname>
    <methodparam><type>int</type><parameter>minDocFrequency</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The frequency at which words will be ignored which do not occur in at least this many docs.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>minDocFrequency</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Sets the frequency at which words will be ignored which do not occur in at least this many docs.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

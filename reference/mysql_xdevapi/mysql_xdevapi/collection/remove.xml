@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionRemove</type><methodname>mysql_xdevapi\Collection::remove</methodname>
    <methodparam><type>string</type><parameter>search_condition</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Removes documents of a collection that meet specific search conditions.
    Multiple operations are allowed, and parameter binding is supported.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,14 +24,14 @@
    <varlistentry>
     <term><parameter>search_condition</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Must be a valid SQL expression used to match the documents to remove.
-      This expression might be as simple as &true;, which matches all 
-      documents, or it might use functions and operators such as 
-      <code>'CAST(_id AS SIGNED) >= 10'</code>, 
+      This expression might be as simple as &true;, which matches all
+      documents, or it might use functions and operators such as
+      <code>'CAST(_id AS SIGNED) >= 10'</code>,
       <code>'age MOD 2 = 0 OR age MOD 3 = 0'</code>, or
       <code>'_id IN ["2","5","7","10"]'</code>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -39,15 +39,15 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   If the operation is not executed, then the function will return 
+  <simpara>
+   If the operation is not executed, then the function will return
    a Remove object that can be used to add additional
    remove operations.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    If the remove operation is executed, then the returned object will contain
    the result of the operation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

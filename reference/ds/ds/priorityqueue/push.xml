@@ -14,9 +14,9 @@
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
    <methodparam><type>int</type><parameter>priority</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Pushes a <parameter>value</parameter> with a given <parameter>priority</parameter> into the queue.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The value to push into the queue.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>priority</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The priority associated with the value.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

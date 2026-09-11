@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagedelay">
+<refentry xml:id="imagick.setimagedelay" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageDelay</refname>
   <refpurpose>Sets the image delay</refpurpose>
@@ -12,14 +12,14 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageDelay</methodname>
    <methodparam><type>int</type><parameter>delay</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image delay. For an animated image this is the amount of time that
    this frame of the image should be displayed for, before displaying the next
    frame.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The delay can be set individually for each frame in an image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,11 +29,11 @@
     <varlistentry>
      <term><parameter>delay</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The amount of time expressed in 'ticks' that the image should be
        displayed for. For animated GIFs there are 100 ticks per second, so a
        value of 20 would be 20/100 of a second aka 1/5th of a second.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -42,16 +42,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

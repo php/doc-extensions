@@ -7,14 +7,14 @@
  <!-- {{{ Requirements -->
  <section xml:id="xdiff.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    To use xdiff, you will need libxdiff installed, available
    on the libxdiff homepage <link xlink:href="&url.xdiff;">&url.xdiff;</link>.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     You'll need at least libxdiff 0.7 for these functions to be aware of memory_limit.
-   </para>
+   </simpara>
   </note>
  </section>
  <!-- }}} -->

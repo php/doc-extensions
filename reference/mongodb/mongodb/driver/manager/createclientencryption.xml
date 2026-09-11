@@ -60,7 +60,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> if the extension was compiled without libmongocrypt support</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if the extension was compiled without libmongocrypt support</member>
   </simplelist>
  </refsect1>
 

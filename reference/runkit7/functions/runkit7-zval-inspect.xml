@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.runkit7-zval-inspect">
+<refentry xml:id="function.runkit7-zval-inspect" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>runkit7_zval_inspect</refname>
   <refpurpose>Returns information about the passed in value with data types, reference counts, etc</refpurpose>

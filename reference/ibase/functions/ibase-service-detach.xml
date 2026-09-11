@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-service-detach">
+<refentry xml:id="function.ibase-service-detach" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_service_detach</refname>
   <refpurpose>Disconnect from the service manager</refpurpose>

@@ -6,7 +6,7 @@
   <refname>xdiff_file_diff</refname>
   <refpurpose>Make unified diff of two files</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -17,14 +17,14 @@
    <methodparam choice="opt"><type>int</type><parameter>context</parameter><initializer>3</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>minimal</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes an unified diff containing differences between <parameter>old_file</parameter> and
    <parameter>new_file</parameter> and stores it in <parameter>dest</parameter> file. The
    resulting file is human-readable. An optional <parameter>context</parameter> parameter
    specifies how many lines of context should be added around each change.
    Setting <parameter>minimal</parameter> parameter to true will result in outputting the shortest
-   patch file possible (can take a long time). 
-  </para>
+   patch file possible (can take a long time).
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,43 +34,43 @@
     <varlistentry>
      <term><parameter>old_file</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the first file. This file acts as "old" file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_file</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the second file. This file acts as "new" file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>dest</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path of the resulting patch file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>context</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Indicates how many lines of context you want to include in diff
        result.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>minimal</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Set this parameter to &true; if you want to minimalize size of the result
-       (can take a long time). 
-      </para>
+       (can take a long time).
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -79,9 +79,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -89,9 +89,9 @@
   <para>
    <example>
     <title><function>xdiff_file_diff</function> example</title>
-    <para>
+    <simpara>
      The following code makes unified diff of two php files with context length of 2.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -109,10 +109,10 @@ xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     This function doesn't work well with binary files. To make diff of binary
     files use <function>xdiff_file_bdiff</function>/<function>xdiff_file_rabdiff</function> function.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

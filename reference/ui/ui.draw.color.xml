@@ -11,9 +11,9 @@
 <!-- {{{ UI\Draw\Color intro -->
   <section xml:id="ui-draw-color.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents RGBA colours, individual channels are accessible via public properties.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -89,25 +89,25 @@
     <varlistentry xml:id="ui-draw-color.props.r">
      <term><varname>r</varname></term>
      <listitem>
-      <para>Provides access to the red channel</para>
+      <simpara>Provides access to the red channel</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ui-draw-color.props.g">
      <term><varname>g</varname></term>
      <listitem>
-      <para>Provides access to the green channel</para>
+      <simpara>Provides access to the green channel</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ui-draw-color.props.b">
      <term><varname>b</varname></term>
      <listitem>
-      <para>Provides access to the blue channel</para>
+      <simpara>Provides access to the blue channel</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ui-draw-color.props.a">
      <term><varname>a</varname></term>
      <listitem>
-      <para>Provides access to the alpha channel</para>
+      <simpara>Provides access to the alpha channel</simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -123,28 +123,28 @@
     <varlistentry xml:id="ui-draw-color.constants.red">
      <term><constant>UI\Draw\Color::Red</constant></term>
      <listitem>
-      <para>Identifies the red channel</para>
+      <simpara>Identifies the red channel</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-draw-color.constants.green">
      <term><constant>UI\Draw\Color::Green</constant></term>
      <listitem>
-      <para>Identifies the green channel</para>
+      <simpara>Identifies the green channel</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-draw-color.constants.blue">
      <term><constant>UI\Draw\Color::Blue</constant></term>
      <listitem>
-      <para>Identifies the blue channel</para>
+      <simpara>Identifies the blue channel</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-draw-color.constants.alpha">
      <term><constant>UI\Draw\Color::Alpha</constant></term>
      <listitem>
-      <para>Identifies the alpha channel</para>
+      <simpara>Identifies the alpha channel</simpara>
      </listitem>
     </varlistentry>
 

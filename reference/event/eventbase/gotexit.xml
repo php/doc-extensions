@@ -13,10 +13,10 @@
    <methodname>EventBase::gotExit</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Checks if the event loop was told to exit by
    <methodname>EventBase::exit</methodname>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,11 +24,11 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true;, event loop was told to exit by
    <methodname>EventBase::exit</methodname>.
    Otherwise &false;.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

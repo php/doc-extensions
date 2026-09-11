@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.vignetteimage">
+<refentry xml:id="imagick.vignetteimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::vignetteImage</refname>
   <refpurpose>Adds vignette filter to the image</refpurpose>
@@ -16,10 +16,10 @@
    <methodparam><type>int</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
-   Softens the edges of the image in vignette style. 
+  <simpara>
+   Softens the edges of the image in vignette style.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,33 +29,33 @@
     <varlistentry>
      <term><parameter>blackPoint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The black point.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>whitePoint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The white point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        X offset of the ellipse
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Y offset of the ellipse
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -64,9 +64,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -100,7 +100,7 @@ function vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {
    </simplelist>
   </para>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

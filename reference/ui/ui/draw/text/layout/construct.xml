@@ -15,9 +15,9 @@
    <methodparam><type>UI\Draw\Text\Font</type><parameter>font</parameter></methodparam>
    <methodparam><type>float</type><parameter>width</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Text Layout
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,25 +27,25 @@
    <varlistentry>
     <term><parameter>text</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The text for the layout
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>font</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The font to use for writing
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>width</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The width of the layout
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

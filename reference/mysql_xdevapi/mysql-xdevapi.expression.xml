@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\Expression intro -->
   <section xml:id="mysql-xdevapi-expression.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -37,7 +37,7 @@
      <varname linkend="mysql-xdevapi-expression.props.name">name</varname>
     </fieldsynopsis>
 
-    
+
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.mysql-xdevapi-expression')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
    </classsynopsis>
@@ -45,7 +45,7 @@
 
   </section>
 
-  
+
 <!-- {{{ mysql_xdevapi\Expression properties -->
   <section xml:id="mysql-xdevapi-expression.props">
    &reftitle.properties;
@@ -53,7 +53,7 @@
     <varlistentry xml:id="mysql-xdevapi-expression.props.name">
      <term><varname>name</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

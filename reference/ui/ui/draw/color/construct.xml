@@ -17,9 +17,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Color::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>color</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new color
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -29,9 +29,9 @@
    <varlistentry>
     <term><parameter>color</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       May be UI\Draw\Color or RRGGBBAA
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,7 +43,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

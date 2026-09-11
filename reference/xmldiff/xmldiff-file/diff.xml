@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>from</parameter></methodparam>
    <methodparam><type>string</type><parameter>to</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Diff two local XML files and produce string with the diff information.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>from</parameter></term>
     <listitem>
-     <para>
-      Path to the source document. 
-     </para>
+     <simpara>
+      Path to the source document.
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>to</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Path to the target document.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   String with the XML document containing the diff information or NULL. 
-  </para>
+  <simpara>
+   String with the XML document containing the diff information or NULL.
+  </simpara>
  </refsect1>
 
 

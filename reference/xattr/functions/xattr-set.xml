@@ -17,9 +17,9 @@
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function sets the value of an extended attribute of a file.
-  </para>
+  </simpara>
   &xattr.namespace;
  </refsect1>
  <refsect1 role="parameters">
@@ -29,27 +29,27 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The file in which we set the attribute.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
-       The name of the extended attribute. This attribute will be created if 
-       it doesn't exist or replaced otherwise. You can change this behaviour 
+      <simpara>
+       The name of the extended attribute. This attribute will be created if
+       it doesn't exist or replaced otherwise. You can change this behaviour
        by using the <parameter>flags</parameter> parameter.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value of the attribute.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -87,9 +87,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
@@ -106,7 +106,7 @@ xattr_set($file, 'Listen count', '34');
 
 /* ... other code ... */
 
-printf("You've played this song %d times", xattr_get($file, 'Listen count')); 
+printf("You've played this song %d times", xattr_get($file, 'Listen count'));
 ?>
 ]]>
     </programlisting>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Swoole\Client::close</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>force</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>force</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Whether force to close the connection.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Whether the connection is closed.
-  </para>
+  </simpara>
  </refsect1>
 
 

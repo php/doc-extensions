@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="evembed.sweep">
+<refentry xml:id="evembed.sweep" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EvEmbed::sweep</refname>
   <refpurpose>Make a single, non-blocking sweep over the embedded loop</refpurpose>

@@ -32,9 +32,9 @@
      <parameter>key</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The header name.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -42,20 +42,20 @@
      <parameter>type</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       One of
       <link linkend="eventhttprequest.constants">
        <literal>EventHttpRequest::*_HEADER</literal> constants</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &null; if header not found.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

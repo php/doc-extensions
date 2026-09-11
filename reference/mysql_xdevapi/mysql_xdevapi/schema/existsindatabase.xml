@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>mysql_xdevapi\Schema::existsInDatabase</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Checks if the current object (schema, table, collection, or view) exists
    in the schema object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &true; if the schema, table, collection, or view still exists in the schema, else &false;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

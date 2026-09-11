@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagetickspersecond">
+<refentry xml:id="imagick.setimagetickspersecond" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageTicksPerSecond</refname>
   <refpurpose>Sets the image ticks-per-second</refpurpose>
@@ -12,23 +12,23 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageTicksPerSecond</methodname>
    <methodparam><type>int</type><parameter>ticks_per_second</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adjust the amount of time that a frame of an animated image is displayed for.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     For animated GIFs, this function does not change the number of 'image ticks'
     per second, which is always defined as 100. Instead it adjusts the amount of
     time that the frame is displayed for to simulate the change in 'ticks per
     second'.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     For example, for an animated GIF where each frame is displayed for 20 ticks
     (1/5 of a second) when this method is called on each frame of that image
     with an argument of <literal>50</literal> the frames are adjusted to be
     displayed for 40 ticks (2/5 of a second) and the animation will play at half
     the original speed.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 
@@ -39,10 +39,10 @@
     <varlistentry>
      <term><parameter>ticks_per_second</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The duration for which an image should be displayed expressed in ticks
        per second.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -51,9 +51,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -78,7 +78,7 @@ $frameCount = 0;
 
 foreach ($imagick as $frame) {
     $imagick->setImageTicksPerSecond(50);
-    
+
     if ($frameCount < ($totalFrames / 2)) {
         // Modify the frame to be displayed for twice as long as it currently is
         $imagick->setImageTicksPerSecond(50);

@@ -3,9 +3,9 @@
 
 <chapter xml:id="v8js.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
- <para>
+ <simpara>
   Basic usage
- </para>
+ </simpara>
  <example>
   <title>Basic Javascript execution</title>
   <programlisting role="php">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.getcolorvalue">
+<refentry xml:id="imagickpixel.getcolorvalue" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::getColorValue</refname>
   <refpurpose>Gets the normalized value of the provided color channel</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>float</type><methodname>ImagickPixel::getColorValue</methodname>
    <methodparam><type>int</type><parameter>color</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves the value of the color channel specified, as a floating-point
    number between 0 and 1.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,11 +25,11 @@
     <varlistentry>
      <term><parameter>color</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The color to get the value of, specified as one of the Imagick color
        constants. This can be one of the RGB colors, CMYK colors, alpha and
        opacity e.g (Imagick::COLOR_BLUE, Imagick::COLOR_MAGENTA).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,10 +38,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The value of the channel, as a normalized floating-point number, throwing
    ImagickPixelException on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -52,7 +52,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-    
+
 $color = new ImagickPixel('rgba(90%, 20%, 20%, 0.75)');
 
 echo "Alpha value is ".$color->getColorValue(Imagick::COLOR_ALPHA).PHP_EOL;

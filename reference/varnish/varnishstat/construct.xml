@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>VarnishStat::__construct</methodname>
    <methodparam choice="opt"><type>array</type><parameter>args</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,12 +24,12 @@
    <varlistentry>
     <term><parameter>args</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        Configuration arguments. The possible keys are:
 <![CDATA[
 VARNISH_CONFIG_IDENT - local varnish instance ident path
 ]]>
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@ VARNISH_CONFIG_IDENT - local varnish instance ident path
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -7,44 +7,44 @@
  <section xml:id="solr.requirements">
   &reftitle.required;
   <!-- Use &no.requirement; if there no requirement -->
-  <para>
+  <simpara>
    The libxml and curl extensions must also be enabled for
    the Apache Solr extension to be available.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    libxml2 2.6.31 or later is required.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    libcurl 7.18.0 or later is also required.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The above library versions are required and attempting to
    hack the code to make it compile is strongly discouraged.
    It will fail, possibly with errors that could be hard to debug.
-  </para>
+  </simpara>
  </section>
 
  <!-- {{{ Installation -->
  <section xml:id="solr.installation">
   &reftitle.install;
-  <para>
+  <simpara>
    &pecl.info;
    <link xlink:href="&url.pecl.package;solr">&url.pecl.package;solr</link>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    For help and support, please visit the extension Google group
    <link xlink:href="&url.solr.support;">Apache Solr PHP Extension</link>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    &pecl.windows.download.avail;
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     The solr module can be compiled in debug mode by passing the <option>--enable-solr-debug</option> flag to configure.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     When building manually, be sure to include curl and libxml support within the build.
-   </para>
+   </simpara>
   </note>
  </section>
  <!-- }}} -->

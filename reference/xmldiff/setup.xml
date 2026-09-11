@@ -6,20 +6,20 @@
 
  <section xml:id="xmldiff.requirements">
   &reftitle.required;
-  <para>libdiffmark - version 0.10 is bundled with the extension. If diffmark is available from your system packages, its usage is strongly encouraged.</para>
-  <para>libxml extension</para>
-  <para>DOM extension</para>
+  <simpara>libdiffmark - version 0.10 is bundled with the extension. If diffmark is available from your system packages, its usage is strongly encouraged.</simpara>
+  <simpara>libxml extension</simpara>
+  <simpara>DOM extension</simpara>
  </section>
 
  <section xml:id="xmldiff.installation">
   &reftitle.install;
-  <para>
+  <simpara>
        &pecl.moved;
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     &pecl.info;
   <link xlink:href="&url.pecl.package;xmldiff">&url.pecl.package;xmldiff</link>.
-  </para>
+  </simpara>
  </section>
 
  <!--

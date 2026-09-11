@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Ds\Map::allocate</methodname>
    <methodparam><type>int</type><parameter>capacity</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Allocates enough memory for a required capacity.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,19 +25,19 @@
    <varlistentry>
     <term><parameter>capacity</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The number of values for which capacity should be allocated.
-     </para>
+     </simpara>
      <note>
-        <para>
+        <simpara>
             Capacity will stay the same if this value is less than or equal to the
             current capacity.
-        </para>
+        </simpara>
      </note>
      <note>
-        <para>
+        <simpara>
             Capacity will always be rounded up to the nearest power of 2.
-        </para>
+        </simpara>
      </note>
     </listitem>
    </varlistentry>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

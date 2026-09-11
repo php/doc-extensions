@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Pen::save</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall save the Pen
-  </para>
+  </simpara>
 
  </refsect1>
 

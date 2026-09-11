@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>ReturnType</type><methodname>Swoole\Http\Response::initHeader</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Init the HTTP response header.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

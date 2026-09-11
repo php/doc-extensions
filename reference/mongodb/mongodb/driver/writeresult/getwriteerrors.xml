@@ -27,7 +27,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns an array of <classname>MongoDB\Driver\WriteError</classname> objects
+   Returns an array of <exceptionname>MongoDB\Driver\WriteError</exceptionname> objects
    for any write errors encountered during the write operation. The array will
    be empty if no write errors occurred.
   </simpara>
@@ -154,7 +154,7 @@ array(2) {
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
-   <member><classname>MongoDB\Driver\WriteError</classname></member>
+   <member><exceptionname>MongoDB\Driver\WriteError</exceptionname></member>
   </simplelist>
  </refsect1>
 

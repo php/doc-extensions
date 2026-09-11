@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::isPersistent</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::isPersistent</function> checks if the connections to
    the memcache servers are persistent connections.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if Memcache instance uses a persistent connection, &false; otherwise.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

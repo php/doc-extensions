@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::forwardFourierTransformimage</methodname>
    <methodparam><type>bool</type><parameter>magnitude</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Implements the discrete Fourier transform (DFT) of the image either as a magnitude / phase or real / imaginary image pair.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>magnitude</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If true, return as magnitude / phase pair otherwise a real / imaginary image pair.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

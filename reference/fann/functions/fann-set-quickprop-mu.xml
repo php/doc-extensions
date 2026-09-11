@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>quickprop_mu</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the quickprop mu factor.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>quickprop_mu</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The mu factor.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

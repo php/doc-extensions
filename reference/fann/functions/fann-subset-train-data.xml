@@ -15,14 +15,14 @@
    <methodparam><type>int</type><parameter>pos</parameter></methodparam>
    <methodparam><type>int</type><parameter>length</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns an copy of a subset of the train data <type>resource</type>, starting at position
    <literal>pos</literal> and <literal>length</literal> elements forward.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The <literal>fann_subset_train_data(train_data, 0, fann_length_train_data(train_data))</literal> do the same as
    <function>fann_duplicate_train_data</function>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -37,17 +37,17 @@
    <varlistentry>
     <term><parameter>pos</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Starting position.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>length</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The number of copied elements.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

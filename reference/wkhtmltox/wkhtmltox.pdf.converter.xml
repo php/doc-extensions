@@ -11,9 +11,9 @@
 <!-- {{{ wkhtmltox\PDF\Converter intro -->
   <section xml:id="wkhtmltox-pdf-converter.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Converts an HTML input, or set of HTML inputs, into PDF output
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 

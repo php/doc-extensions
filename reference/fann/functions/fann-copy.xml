@@ -13,9 +13,9 @@
    <type>resource</type><methodname>fann_copy</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a copy of a fann structure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,9 +32,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a copy of neural network resource on success, or &false; on error
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="notes">

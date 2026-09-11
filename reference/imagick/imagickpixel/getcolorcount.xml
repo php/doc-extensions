@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.getcolorcount">
+<refentry xml:id="imagickpixel.getcolorcount" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::getColorCount</refname>
   <refpurpose>Returns the color count associated with this color</refpurpose>
@@ -12,14 +12,14 @@
    <modifier>public</modifier> <type>int</type><methodname>ImagickPixel::getColorCount</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the color count associated with this color.
-  </para>
-  <para>The color count is the number of pixels in the image that have the same color as this ImagickPixel.
-  </para>
-  <para>
+  </simpara>
+  <simpara>The color count is the number of pixels in the image that have the same color as this ImagickPixel.
+  </simpara>
+  <simpara>
    ImagickPixel::getColorCount appears to only work for ImagickPixel objects created through Imagick::getImageHistogram()
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,10 +29,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the color count as an integer on success, throws
   ImagickPixelException on failure.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
@@ -50,9 +50,9 @@
 ?>
 ]]>
       </programlisting>
-        <para>
+        <simpara>
 The output for this will be similar to:
-    </para>
+    </simpara>
     <screen role="php">
 <![CDATA[
 Last pixel color count is: 256244

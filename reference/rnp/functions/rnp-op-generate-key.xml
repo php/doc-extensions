@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.rnp-op-generate-key">
+<refentry xml:id="function.rnp-op-generate-key" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rnp_op_generate_key</refname>
   <refpurpose>Generate key</refpurpose>
@@ -101,7 +101,7 @@
          <entry>boolean</entry>
          <entry>Enable requesting password via password provider. This password
           will be used for key encryption. Password provider callback function should be set in
-	  advance by calling <function>rnp_ffi_set_pass_provider</function>.
+   advance by calling <function>rnp_ffi_set_pass_provider</function>.
           Note: this setting will be ignored if password was set via<literal>"password"</literal></entry>
         </row>
         <row>

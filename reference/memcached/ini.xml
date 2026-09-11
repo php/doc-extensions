@@ -210,9 +210,9 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Use session locking. Valid values: <literal>On</literal>, <literal>Off</literal>, the default is <literal>On</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-consistent-hash">
@@ -221,12 +221,12 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        If set to <literal>On</literal>, consistent hashing (libketama) is used for session handling.
        When consistent hashing is used,
        one can add or remove cache node(s) without messing up too much with existing keys.
        Default is <literal>On</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-binary">
@@ -235,10 +235,10 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Use memcached session binary mode. Libmemcached replicas only work if
        binary mode is enabled. The default is <literal>Off</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-lock-wait">
@@ -247,12 +247,12 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Session spin lock retry wait time in microseconds. Be careful when
        setting this value. Valid values are integers, where <literal>0</literal> is interpreted
        as the default value. Negative values result in a reduces locking to a
        try lock. The default is <literal>150000</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-prefix">
@@ -261,10 +261,10 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Memcached session key prefix. Valid values are strings less than 219
        bytes long. The default value is <literal>memc.sess.key</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-number-of-replicas">
@@ -273,14 +273,14 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Write data to a number of additional memcached servers. This is "poor man's HA" as libmemcached calls it.
        If this value is positive and <literal>sess_remove_failed_servers</literal> is enabled
        when a memcached server fails the session will continue to be available from a replica.
        However, if the failed memcache server becomes available again it will read the session
        from there which could have old data or no data at all.
        Default is <literal>0</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-randomize-replica-read">
@@ -289,9 +289,9 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Memcached session replica read randomize.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-remove-failed">
@@ -300,9 +300,9 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Allow failed memcached server to automatically be removed.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.compression-type">
@@ -311,10 +311,10 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Set the compression type, valid values are: <literal>fastlz</literal>, <literal>zlib</literal>.
        The default is <literal>fastlz</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.compression-factor">
@@ -323,12 +323,12 @@
       <type>float</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Compression factor. Store compressed value only if the compression
        factor (saving) exceeds the set limit. Store compressed if:
        <literal>plain_len &gt; comp_len * factor</literal>. The default value
        is <literal>1.3</literal> (23% space saving).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.compression-threshold">
@@ -337,10 +337,10 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The compression threshold. Do not compress serialized values below this
        threshold. The default is <literal>2000</literal> bytes.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.serializer">
@@ -349,59 +349,59 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Set the default serializer for new memcached objects. Valid values
        are: <literal>php</literal>, <literal>igbinary</literal>, <literal>json</literal>,
        <literal>json_array</literal>, <literal>msgpack</literal>.
-      </para>
+      </simpara>
       <variablelist>
        <varlistentry>
         <term>json</term>
         <listitem>
-         <para>
+         <simpara>
           Standard PHP JSON encoding. This serializer is fast and compact but
           only works on UTF-8 encoded data and does not fully implement
           serializing. See the JSON extension. Available as of memcached 0.2.0.
-         </para>
+         </simpara>
         </listitem>
        </varlistentry>
        <varlistentry>
         <term>json_array</term>
         <listitem>
-         <para>
+         <simpara>
           As <literal>json</literal>, but decodes into arrays. Available as of memcached 2.0.0.
-         </para>
+         </simpara>
         </listitem>
        </varlistentry>
        <varlistentry>
         <term>php</term>
         <listitem>
-         <para>
+         <simpara>
           The standard PHP serializer.
-         </para>
+         </simpara>
         </listitem>
        </varlistentry>
        <varlistentry>
         <term>igbinary</term>
         <listitem>
-         <para>
+         <simpara>
           A binary serializer. Available as of memcached 0.1.4.
-         </para>
+         </simpara>
         </listitem>
        </varlistentry>
        <varlistentry>
         <term>msgpack</term>
         <listitem>
-         <para>
+         <simpara>
           A cross-language binary serializer. Available as of memcached 2.2.0.
-         </para>
+         </simpara>
         </listitem>
        </varlistentry>
       </variablelist>
-      <para>
+      <simpara>
        The default is <literal>igbinary</literal> if available, then <literal>msgpack</literal> if
        available, then <literal>php</literal> otherwise.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.use-sasl">
@@ -410,10 +410,10 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Use SASL authentication for connections. Valid values: <literal>On</literal>, <literal>Off</literal>. The
        default is <literal>Off</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.default-binary-protocol">
@@ -422,14 +422,14 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Sets the default memcached protocol for new connections. (To configure the memcached protocol for
        connections used by sessions, use <literal>memcached.sess_binary_protocol</literal> instead.)
 
        If set to <literal>On</literal>, the memcached binary protocol is used by default.
        If set to <literal>Off</literal>, the memcached text protocol is used.
        Default is <literal>Off</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.default-connect-timeout">
@@ -438,7 +438,7 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Sets the default memcached connection timeout for new connections.
        (To configure the memcached connection timeout for sessions, use <literal>memcached.sess_connect_timeout</literal> instead.)
 
@@ -447,7 +447,7 @@
        Specifying <literal>-1</literal> means an infinite timeout.
        Specifying <literal>0</literal> means using the memcached library's default connection timeout.
        Default is <literal>0</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.default-consistent-hash">
@@ -456,7 +456,7 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Sets the default for consistent hashing for new connections.
        (To configure consistent hashing for session connections,
        use <literal>memcached.sess_consistent_hash</literal> instead.)
@@ -464,7 +464,7 @@
        If set to <literal>On</literal>, consistent hashing (libketama) is used for
        session handling. When consistent hashing is used, one can add or remove cache node(s)
        without messing up too much with existing keys default is <literal>Off</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-binary-protocol">
@@ -473,13 +473,13 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Use the memcached binary protocol for memcached sessions instead of the text protocol.
        libmemcached replicas only work if the binary mode is enabled.
        However, certain proxies (such as twemproxy) will only work if the binary protocol is disabled.
        Default is <literal>On</literal> as of libmemcached 1.0.18.
        Prior to libmemcached 1.0.18, the default was <literal>Off</literal>.
-      </para>
+      </simpara>
       <note>
        <simpara>
         In previous versions of php-memcached, this setting was called
@@ -494,12 +494,12 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        memcached connect timeout value
        In non-blocking mode this changes the value of the timeout
        during socket connection in milliseconds.
        Specifying <literal>-1</literal> means an infinite timeout.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-consistent-hash-type">
@@ -508,7 +508,7 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Memcached session consistent hash type.
        If set to <literal>ketama</literal>, consistent hashing (libketama)
        is used for session handling.
@@ -516,7 +516,7 @@
        is used for session handling.
        Default is <literal>ketama</literal>.
        Prior to php-memcached 3.0, the default was <literal>ketama_weighted</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-lock-expire">
@@ -525,12 +525,12 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The time, in seconds, before a lock should release itself.
        Setting to <literal>0</literal> results in the default behaviour,
        which is to use PHP's <literal>max_execution_time</literal>.
        Default is <literal>0</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-lock-retries">
@@ -539,10 +539,10 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The number of times to retry locking the session lock, not including the first attempt.
        Default is <literal>5</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-lock-wait-max">
@@ -551,10 +551,10 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The maximum time, in milliseconds, to wait between session lock attempts.
        The default is <literal>150</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-lock-wait-min">
@@ -563,13 +563,13 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The minimum time, in milliseconds, to wait between session lock attempts.
        This value is double on each lock retry until <literal>memcached.sess_lock_wait_max</literal> is
        reached, after which any further retries will take
        <literal>memcached.sess_lock_wait_max</literal> seconds.
        The default is <literal>150</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-persistent">
@@ -578,12 +578,12 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Whether or not to re-use the memcached connections corresponding to the value(s) of
        <literal>session.save_path</literal> after the execution of the script ends. Don't use this if
        certain settings (e.g. SASL settings, sess_binary_protocol) would be overridden between requests.
        Default is <literal>Off</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-remove-failed-servers">
@@ -592,10 +592,10 @@
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Allow failed memcached server to automatically be removed.
        Default is <literal>Off</literal>.
-      </para>
+      </simpara>
       <note>
        <simpara>
         In previous versions of php-memcached, this setting was called
@@ -610,11 +610,11 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Set this value to enable the server be removed after
        configured number of continuous times connection failure.
        Default is <literal>0</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-sasl-password">
@@ -623,10 +623,10 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Session SASL password.
        Both username and password need to be set for SASL to be enabled.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.sess-sasl-username">
@@ -635,10 +635,10 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Session SASL username.
        Both username and password need to be set for SASL to be enabled.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.memcached.store-retry-count">
@@ -647,13 +647,13 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The amount of retries for failed store commands.
        This mechanism allows transparent fail-over to secondary servers when
        set/increment/decrement/setMulti operations fail on
        the desired server in a multi-server environment.
        The default is <literal>2</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
   </variablelist>

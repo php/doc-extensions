@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>ZMQSocket::getPersistentId</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the persistent id of the socket.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the persistent id string assigned of the object and &null; if socket is not persistent.
-  </para>
+  </simpara>
  </refsect1>
 
 

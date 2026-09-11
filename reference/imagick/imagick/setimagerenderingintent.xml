@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagerenderingintent">
+<refentry xml:id="imagick.setimagerenderingintent" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageRenderingIntent</refname>
   <refpurpose>Sets the image rendering intent</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageRenderingIntent</methodname>
    <methodparam><type>int</type><parameter>rendering_intent</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image rendering intent.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>rendering_intent</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,16 +34,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

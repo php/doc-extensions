@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.addnoiseimage">
+<refentry xml:id="imagick.addnoiseimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::addNoiseImage</refname>
   <refpurpose>Adds random noise to the image</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>int</type><parameter>noise_type</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds random noise to the image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,18 +25,18 @@
     <varlistentry>
      <term><parameter>noise_type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The type of the noise. Refer to this list of
        <link linkend="imagick.constants.noise">noise constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,9 +45,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -15,18 +15,18 @@
    <modifier>public</modifier> <type>array</type><methodname>Ds\Queue::toArray</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Converts the queue to an &array;.
-  </para>
+  </simpara>
   <note>
-    <para>
+    <simpara>
         Casting to an &array; is not supported yet.
-    </para>
+    </simpara>
   </note>
   <note>
-    <para>
+    <simpara>
         This method is not destructive.
-    </para>
+    </simpara>
   </note>
 
  </refsect1>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     An &array; containing all the values in the same order as the queue.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

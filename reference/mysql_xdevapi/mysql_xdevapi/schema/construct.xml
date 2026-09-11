@@ -12,9 +12,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\Schema::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    The Schema object provides full access to the schema (database).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

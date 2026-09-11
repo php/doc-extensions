@@ -8,32 +8,32 @@
  <!-- {{{ preface -->
  <preface xml:id="intro.yaz">
   &reftitle.intro;
-  <para>
+  <simpara>
    This extension offers a PHP interface to the
    <productname>YAZ</productname> toolkit that implements the
    <link xlink:href="&url.yaz-loc;">Z39.50
    Protocol for Information Retrieval</link>.
    With this extension you can easily implement a Z39.50 origin (client)
    that searches or scans Z39.50 targets (servers) in parallel.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The module hides most of the complexity of Z39.50 so it should be
    fairly easy to use. It supports persistent stateless connections very
    similar to those offered by the various RDB APIs that are available
    for PHP. This means that sessions are stateless but shared among
    users, thus saving the connect and initialize phase steps in most
    cases.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    <productname>YAZ</productname> is available at <link
    xlink:href="&url.yaz;">&url.yaz;</link>. You can find news information,
    example scripts, etc. for this extension at <link
    xlink:href="&url.yaz-phpyaz;">&url.yaz-phpyaz;</link>.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     &pecl.moved-ver;5.0.0.
-   </para>
+   </simpara>
   </note>
  </preface>
  <!-- }}} -->

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableDelete</type><methodname>mysql_xdevapi\TableDelete::limit</methodname>
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the maximum number of records or documents to delete.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>rows</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The maximum number of records or documents to delete.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    TableDelete object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

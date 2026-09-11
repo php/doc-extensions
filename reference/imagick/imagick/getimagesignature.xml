@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagesignature">
+<refentry xml:id="imagick.getimagesignature" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageSignature</refname>
   <refpurpose>Generates an SHA-256 message digest</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>string</type><methodname>Imagick::getImageSignature</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Generates an SHA-256 message digest for the image pixel stream.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a string containing the SHA-256 hash of the file.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

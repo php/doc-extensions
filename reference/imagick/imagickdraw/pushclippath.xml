@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pushclippath">
+<refentry xml:id="imagickdraw.pushclippath" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pushClipPath</refname>
   <refpurpose>Starts a clip path definition</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>string</type><parameter>clip_mask_id</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Starts a clip path definition which is comprised of any number of drawing
    commands and terminated by a <methodname>ImagickDraw::popClipPath</methodname> command.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>clip_mask_id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Clip mask Id
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

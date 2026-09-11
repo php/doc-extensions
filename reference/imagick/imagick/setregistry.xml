@@ -14,11 +14,11 @@
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the ImageMagick registry entry named key to value. This is most
    useful for setting "temporary-path" which controls where ImageMagick
    creates temporary images e.g. while processing PDFs.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,17 +28,17 @@
    <varlistentry>
     <term><parameter>key</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

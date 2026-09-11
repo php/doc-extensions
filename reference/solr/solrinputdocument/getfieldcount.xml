@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type class="union"><type>int</type><type>false</type></type><methodname>SolrInputDocument::getFieldCount</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the number of fields in the document.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   Returns an integer on success&return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

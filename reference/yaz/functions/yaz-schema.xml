@@ -14,13 +14,13 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam><type>string</type><parameter>schema</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>yaz_schema</function> specifies the schema for retrieval.
-  </para>
-  <para>
-   This function should be called before 
+  </simpara>
+  <simpara>
+   This function should be called before
    <function>yaz_search</function> or <function>yaz_present</function>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -29,20 +29,20 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>schema</parameter></term>
      <listitem>
-      <para>
-       Must be specified as an OID (Object Identifier) in a raw dot-notation 
-       (like <literal>1.2.840.10003.13.4</literal>) or as one of the known 
-       registered schemas: <literal>GILS-schema</literal>, 
+      <simpara>
+       Must be specified as an OID (Object Identifier) in a raw dot-notation
+       (like <literal>1.2.840.10003.13.4</literal>) or as one of the known
+       registered schemas: <literal>GILS-schema</literal>,
        <literal>Holdings</literal>, <literal>Zthes</literal>, ...
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -50,9 +50,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

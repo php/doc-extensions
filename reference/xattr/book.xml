@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
- 
+
 <book xml:id="book.xattr" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="pecl" ?>
  <title>xattr</title>
- 
+
  <!-- {{{ preface -->
  <preface xml:id="intro.xattr">
   &reftitle.intro;
-  <para>
+  <simpara>
    The xattr extension allows for the manipulation of extended attributes on a filesystem.
-  </para>
+  </simpara>
  </preface>
  <!-- }}} -->
- 
+
  &reference.xattr.setup;
  &reference.xattr.constants;
  &reference.xattr.reference;

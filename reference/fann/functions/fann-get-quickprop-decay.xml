@@ -13,13 +13,13 @@
    <type>float</type><methodname>fann_get_quickprop_decay</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The decay is a small negative valued number which is a factor that the weights should decrease in each iteration
    during quickprop training. This is used to make sure that the weights do not become too high during training.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default decay is -0.0001.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The decay, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

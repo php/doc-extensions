@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableUpdate</type><methodname>mysql_xdevapi\TableUpdate::where</methodname>
    <methodparam><type>string</type><parameter>where_expr</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set the search condition to filter.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>where_expr</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The search condition to filter documents or records.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A TableUpdate object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

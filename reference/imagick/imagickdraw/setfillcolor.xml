@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setfillcolor">
+<refentry xml:id="imagickdraw.setfillcolor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setFillColor</refname>
   <refpurpose>Sets the fill color to be used for drawing filled objects</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type class="union"><type>ImagickPixel</type><type>string</type></type><parameter>fill_color</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the fill color to be used for drawing filled objects.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>fill_color</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel to use to set the color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 

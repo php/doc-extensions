@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.simdjson-key-exists">
+<refentry xml:id="function.simdjson-key-exists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>simdjson_key_exists</refname>
   <refpurpose>Check if the JSON contains the value referred to by a JSON pointer.</refpurpose>
@@ -55,7 +55,7 @@
     <term><parameter>throw_if_uncountable</parameter></term>
     <listitem>
      <simpara>
-      When true, a <classname>SimdJsonException</classname> will be thrown
+      When true, a <exceptionname>SimdJsonException</exceptionname> will be thrown
       instead of returning 0 when the value the JSON pointer points to
       is neither an object nor an array.
      </simpara>

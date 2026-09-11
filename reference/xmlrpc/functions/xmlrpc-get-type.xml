@@ -12,9 +12,9 @@
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
-  <para>
+  <simpara>
    This function is especially useful for base64 and datetime strings.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,20 +24,20 @@
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        PHP value
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
   </para>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the XML-RPC type.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

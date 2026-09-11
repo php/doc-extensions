@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>mysql_xdevapi\Schema::getCollections</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Fetch a list of collections for this schema.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array of all collections in this schema, where each array element
    value is a Collection object with the collection name as the key.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

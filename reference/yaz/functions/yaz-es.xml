@@ -27,18 +27,18 @@
    as Record Update, Item Order, Database administration etc.
   </simpara>
   <note>
-   <para>
+   <simpara>
     Many Z39.50 Servers do not support Extended Services.
-   </para>
+   </simpara>
   </note>
-  <para>
+  <simpara>
    The <function>yaz_es</function> creates an Extended Service Request
    packages and puts it into a queue of operations.
    Use <function>yaz_wait</function> to send the request(s) to the server.
    After completion of <function>yaz_wait</function> the result of
    the Extended Service operation should be expected with
    a call to <function>yaz_es_result</function>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -47,16 +47,16 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
-       A string which represents the type of the Extended Service: 
+      <simpara>
+       A string which represents the type of the Extended Service:
        <literal>itemorder</literal> (Item Order),
        <literal>create</literal> (Create Database),
        <literal>drop</literal> (Drop Database),
@@ -64,19 +64,19 @@
        <literal>update</literal> (Update Record),
        <literal>xmlupdate</literal> (XML Update).
        Each type is specified in the following section.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry>
      <term><parameter>args</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An array with extended service options plus
        package specific options. The options are identical to
        those offered in the C API of ZOOM C. Refer to
        the ZOOM <link xlink:href="&url.yaz.zoom.ext;">Extended Services</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -86,9 +86,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

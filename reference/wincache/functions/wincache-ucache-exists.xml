@@ -13,9 +13,9 @@
    <type>bool</type><methodname>wincache_ucache_exists</methodname>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Checks if a variable with the <parameter>key</parameter> exists in the user cache or not.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,10 +24,10 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
-       The <parameter>key</parameter> that was used to store the variable in the cache. 
+      <simpara>
+       The <parameter>key</parameter> that was used to store the variable in the cache.
        <parameter>key</parameter> is case sensitive.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,10 +35,10 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns &true; if variable with the <parameter>key</parameter> exitsts, 
+  <simpara>
+   Returns &true; if variable with the <parameter>key</parameter> exitsts,
    otherwise returns &false;.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
@@ -59,7 +59,7 @@ var_dump(wincache_ucache_exists('green'));
 <![CDATA[
 bool(true)
 ]]>
-    </screen>    
+    </screen>
    </example>
   </para>
  </refsect1>

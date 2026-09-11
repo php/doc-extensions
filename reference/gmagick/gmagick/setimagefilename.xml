@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagick.setimagefilename">
+<refentry xml:id="gmagick.setimagefilename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Gmagick::setimagefilename</refname>
   <refpurpose>Sets the filename of a particular image in a sequence</refpurpose>

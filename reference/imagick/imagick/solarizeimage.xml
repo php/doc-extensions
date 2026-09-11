@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.solarizeimage">
+<refentry xml:id="imagick.solarizeimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::solarizeImage</refname>
   <refpurpose>Applies a solarizing effect to the image</refpurpose>
@@ -12,12 +12,12 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::solarizeImage</methodname>
    <methodparam><type>int</type><parameter>threshold</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Applies a special effect to the image, similar to the effect achieved in
    a photo darkroom by selectively exposing areas of photo sensitive paper
    to light. Threshold ranges from 0 to QuantumRange and is a measure of the
    extent of the solarization.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,8 +27,8 @@
     <varlistentry>
      <term><parameter>threshold</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

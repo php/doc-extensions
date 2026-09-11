@@ -3,17 +3,17 @@
 
 <chapter xml:id="yaz.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
- <para>
+ <simpara>
   PHP/YAZ keeps track of connections with targets
   (Z-Associations). A resource represents a connection to a
   target.
- </para>
- <para>
+ </simpara>
+ <simpara>
   The script below demonstrates the parallel searching feature of
   the API. When invoked with no arguments it prints a query form; else
   (arguments are supplied) it searches the targets as given in array
   <literal>host</literal>.
- </para>
+ </simpara>
  <para>
   <example>
    <title>Parallel searching using Yaz</title>
@@ -39,7 +39,7 @@ if (empty($query) || count($host) == 0) {
     <input type="text" size="30" name="query" />
     <input type="submit" name="action" value="Search" />
     </form>
-    ';        
+    ';
 } else {
     echo 'You searched for ' . htmlspecialchars($query) . '<br />';
     for ($i = 0; $i < $num_hosts; $i++) {

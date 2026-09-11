@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\TableInsert::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Initiated by using the insert() method.
-  </para>
+  </simpara>
 
  </refsect1>
 

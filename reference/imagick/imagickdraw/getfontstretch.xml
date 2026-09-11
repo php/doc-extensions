@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>ImagickDraw::getFontStretch</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the font stretch to use when annotating with text. Returns a StretchType.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

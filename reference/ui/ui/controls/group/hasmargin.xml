@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\Controls\Group::hasMargin</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall detect if this Group has a margin
-  </para>
+  </simpara>
 
  </refsect1>
 

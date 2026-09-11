@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.appendimages">
+<refentry xml:id="imagick.appendimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::appendImages</refname>
   <refpurpose>Append a set of images</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::appendImages</methodname>
    <methodparam><type>bool</type><parameter>stack</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Append a set of images into one larger image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,11 +24,11 @@
     <varlistentry>
      <term><parameter>stack</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Whether to stack the images vertically.
        By default (or if &false; is specified) images are stacked left-to-right.
        If <parameter>stack</parameter> is &true;, images are stacked top-to-bottom.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,16 +37,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns Imagick instance on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

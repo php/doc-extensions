@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagesize">
+<refentry xml:id="imagick.getimagesize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageSize</refname>
   <refpurpose>Returns the image length in bytes</refpurpose>
@@ -16,10 +16,10 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageSize</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the image length in bytes.
    Deprecated in favour of <link linkend="imagick.getimagelength">Imagick::getImageLength()</link>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,9 +29,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an int containing the current image size.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

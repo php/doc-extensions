@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\Session</type><methodname>mysql_xdevapi\Schema::getSession</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Get a new Session object from the Schema object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A Session object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

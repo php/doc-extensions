@@ -12,11 +12,11 @@
    <methodparam><type>resource</type><parameter>fd</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>len</parameter><initializer>1024</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The function <function>dio_read</function> reads and returns
    <parameter>len</parameter> bytes from file with descriptor
-   <parameter>fd</parameter>. 
-  </para>
+   <parameter>fd</parameter>.
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -25,18 +25,18 @@
     <varlistentry>
      <term><parameter>fd</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The file descriptor returned by <function>dio_open</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>len</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The number of bytes to read. If not specified,
        <function>dio_read</function> reads 1K sized block.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,9 +44,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The bytes read from <parameter>fd</parameter>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

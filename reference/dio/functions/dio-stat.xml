@@ -13,10 +13,10 @@
    <type>array</type><methodname>dio_stat</methodname>
    <methodparam><type>resource</type><parameter>fd</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>dio_stat</function> returns information about the given file
    descriptor.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>fd</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The file descriptor returned by <function>dio_open</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -39,69 +39,69 @@
    Returns an associative array with the following keys:
    <itemizedlist>
     <listitem>
-     <para>
+     <simpara>
       "device" - device
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "inode" - inode
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "mode" - mode
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "nlink" - number of hard links
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "uid" - user id
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "gid" - group id
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "device_type" - device type (if inode device)
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "size" - total size in bytes
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "blocksize" - blocksize
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "blocks" - number of blocks allocated
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "atime" - time of last access
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "mtime" - time of last modification
-     </para>
+     </simpara>
     </listitem>
     <listitem>
-     <para>
+     <simpara>
       "ctime" - time of last change
-     </para>
+     </simpara>
     </listitem>
    </itemizedlist>
    On error <function>dio_stat</function> returns &null;.

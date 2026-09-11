@@ -13,9 +13,9 @@
    <type class="union"><type>array</type><type>false</type></type><methodname>wincache_rplist_meminfo</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves information about memory usage by resolve file path cache.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array of meta data that describes memory usage by resolve file path cache. &return.falseforfailure;
-  </para>
+  </simpara>
   <para>
    The array returned by this function contains the following elements:
    <itemizedlist spacing="compact">

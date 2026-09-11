@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>array</type><methodname>Memcached::getServerList</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getServerList</function> returns the list of all
    servers that are in its server pool.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The list of all servers in the server pool.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>xmlresponse</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>parse_mode</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method parses an response XML string from the Apache Solr server into a SolrObject. It throws a SolrException if there was an error.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>xmlresponse</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The XML response string from the Solr server.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>parse_mode</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Use SolrResponse::PARSE_SOLR_OBJ or SolrResponse::PARSE_SOLR_DOC
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,14 +46,14 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the SolrObject representing the XML response.
-  </para>
-  
-  <para>If the parse_mode parameter is set to SolrResponse::PARSE_SOLR_OBJ Solr documents will be parses as SolrObject instances.</para>
- 
-  <para>If it is set to SolrResponse::PARSE_SOLR_DOC, they will be parsed as SolrDocument instances.</para>
-  
+  </simpara>
+
+  <simpara>If the parse_mode parameter is set to SolrResponse::PARSE_SOLR_OBJ Solr documents will be parses as SolrObject instances.</simpara>
+
+  <simpara>If it is set to SolrResponse::PARSE_SOLR_DOC, they will be parsed as SolrDocument instances.</simpara>
+
  </refsect1>
 
 </refentry>

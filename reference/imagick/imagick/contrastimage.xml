@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.contrastimage">
+<refentry xml:id="imagick.contrastimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::contrastImage</refname>
   <refpurpose>Change the contrast of the image</refpurpose>
@@ -12,12 +12,12 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::contrastImage</methodname>
    <methodparam><type>bool</type><parameter>sharpen</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Enhances the intensity differences between the lighter and
    darker elements of the image.  Set sharpen to a value other
    than 0 to increase the image contrast otherwise the contrast
    is reduced.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>sharpen</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The sharpen value
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,16 +38,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

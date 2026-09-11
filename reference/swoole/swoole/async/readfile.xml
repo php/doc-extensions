@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>filename</parameter></term>
     <listitem>
-     <para>
-      The filename of the file being read.      
-     </para>
+     <simpara>
+      The filename of the file being read.
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -43,9 +43,9 @@
        <varlistentry>
         <term><parameter>filename</parameter></term>
         <listitem>
-         <para>
+         <simpara>
           The name of the file.
-         </para>
+         </simpara>
         </listitem>
        </varlistentry>
        <varlistentry>

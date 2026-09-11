@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>UI\Controls\EditableCombo::getText</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Get the value of the currently selected option in this Editable Combo
-  </para>
+  </simpara>
 
  </refsect1>
 

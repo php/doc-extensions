@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="syncsharedmemory.construct">
+<refentry xml:id="syncsharedmemory.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SyncSharedMemory::__construct</refname>
   <refpurpose>Constructs a new SyncSharedMemory object</refpurpose>

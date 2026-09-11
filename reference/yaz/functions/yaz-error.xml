@@ -11,11 +11,11 @@
    <type>string</type><methodname>yaz_error</methodname>
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>yaz_error</function> returns an English text message
    corresponding to the last error number as returned by
    <function>yaz_errno</function>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,11 +34,11 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an error text message for server (last request), identified by
    parameter <parameter>id</parameter>. An empty string is returned if the
    last operation was successful.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

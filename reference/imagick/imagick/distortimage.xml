@@ -14,21 +14,21 @@
    <methodparam><type>array</type><parameter>arguments</parameter></methodparam>
    <methodparam><type>bool</type><parameter>bestfit</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Distorts an image using various distortion methods, by mapping color
    lookups of the source image to a new destination image usually of the same
    size as the source image, unless 'bestfit' is set to &true;.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    If 'bestfit' is enabled, and distortion allows it, the destination image
    is adjusted to ensure the whole source 'image' will just fit within the
    final destination image, which will be sized and offset accordingly. Also
    in many cases the virtual offset of the source image will be taken into
    account in the mapping.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    &imagick.method.available.0x636;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -38,26 +38,26 @@
     <varlistentry>
      <term><parameter>method</parameter></term>
      <listitem>
-      <para>
-       The method of image distortion. See <link 
+      <simpara>
+       The method of image distortion. See <link
        linkend="imagick.constants.distortion">distortion constants</link>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>arguments</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The arguments for this distortion method
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bestfit</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Attempt to resize destination to fit distorted source
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -66,16 +66,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -83,9 +83,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::distortImage</function>:</title>
-    <para>
+    <simpara>
      Distort an image and display to the browser.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -105,7 +105,7 @@ $im->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
 $im->setImageMatte(true);
 
 /* Control points for the distortion */
-$controlPoints = array( 10, 10, 
+$controlPoints = array( 10, 10,
                         10, 5,
 
                         10, $im->getImageHeight() - 20,
@@ -117,7 +117,7 @@ $controlPoints = array( 10, 10,
                         $im->getImageWidth() - 10, $im->getImageHeight() - 10,
                         $im->getImageWidth() - 10, $im->getImageHeight() - 30);
 
-/* Perform the distortion */                       
+/* Perform the distortion */
 $im->distortImage(Imagick::DISTORTION_PERSPECTIVE, $controlPoints, true);
 
 /* Output the image */

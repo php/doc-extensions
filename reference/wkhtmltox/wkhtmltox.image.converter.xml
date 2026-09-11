@@ -11,9 +11,9 @@
 <!-- {{{ wkhtmltox\Image\Converter intro -->
   <section xml:id="wkhtmltox-image-converter.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Converts an HTML input into various image formats
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -34,7 +34,7 @@
 
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.wkhtmltox-image-converter')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.wkhtmltox-image-converter')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
    </classsynopsis>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id='function.fbird-blob-info'>
+<refentry xml:id='function.fbird-blob-info' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_blob_info</refname>
   <refpurpose>&Alias; <function>ibase_blob_info</function></refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <simpara>

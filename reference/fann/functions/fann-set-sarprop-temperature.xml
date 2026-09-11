@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>sarprop_temperature</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the sarprop temperature.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>sarprop_temperature</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The sarprop temperature.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

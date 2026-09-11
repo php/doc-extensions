@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setsizeoffset">
+<refentry xml:id="imagick.setsizeoffset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setSizeOffset</refname>
   <refpurpose>Sets the size and offset of the Imagick object</refpurpose>
@@ -14,11 +14,11 @@
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
    <methodparam><type>int</type><parameter>offset</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the size and offset of the Imagick object. Set it before you read a
    raw image format such as RGB, GRAY, or CMYK.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,25 +28,25 @@
     <varlistentry>
      <term><parameter>columns</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The width in pixels.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>rows</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The height in pixels.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>offset</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The image offset.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -55,9 +55,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

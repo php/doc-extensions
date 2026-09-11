@@ -16,13 +16,13 @@
    <methodparam><type>int</type><parameter>num_neurons2</parameter></methodparam>
    <methodparam rep="repeat"><type>int</type><parameter>num_neuronsN</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a standard backpropagation neural network, which is not fully connected and which also has shortcut connections.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Shortcut connections are connections that skip layers. A fully connected network with shortcut connections, is a network
    where all neurons are connected to all neurons in later layers. Including direct connections from the input layer to the output layer.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,33 +31,33 @@
    <varlistentry>
     <term><parameter>num_layers</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The total number of layers including the input and the output layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neurons1</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in the first layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neurons2</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in the second layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neuronsN</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in other layers.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -65,9 +65,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a neural network resource on success, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

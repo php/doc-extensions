@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagickpixel.setcolorvalue">
+<refentry xml:id="gmagickpixel.setcolorvalue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>GmagickPixel::setcolorvalue</refname>
   <refpurpose>Sets the normalized value of one of the channels</refpurpose>

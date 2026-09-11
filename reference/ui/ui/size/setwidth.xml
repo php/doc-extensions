@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Size::setWidth</methodname>
    <methodparam><type>float</type><parameter>size</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set new Width
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new Width
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

@@ -13,7 +13,7 @@
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <simpara>
-   <function>var_representation</function> (from the var_representation PECL) returns a string with structured information about the 
+   <function>var_representation</function> (from the var_representation PECL) returns a string with structured information about the
    given variable. It is similar to <function>var_export</function> with differences in indentation, string escaping, and array representations.
   </simpara>
  </refsect1>
@@ -24,21 +24,21 @@
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        The variable to generate a representation of.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        Bitmask consisting of
-       <constant>VAR_REPRESENTATION_SINGLE_LINE</constant>, 
+       <constant>VAR_REPRESENTATION_SINGLE_LINE</constant>,
        <constant>VAR_REPRESENTATION_UNESCAPED</constant>.
        The behaviour of these constants is described on the
        <link linkend="var-representation.constants">var_representation constants</link> page.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the variable representation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

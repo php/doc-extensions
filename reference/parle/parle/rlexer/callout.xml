@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>id</parameter></methodparam>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Define a callback to be invoked once lexer encounters a particular token.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>id</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Token id.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>callback</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Callable to be invoked. The callable doesn't receive any arguments and its return value is ignored.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

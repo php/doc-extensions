@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>ImagickDraw::resetVectorGraphics</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Resets the vector graphics.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

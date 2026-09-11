@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>offset</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>connection</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Assign a Connection to the specified offset.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>offset</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The offset to assign the Connection to.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>connection</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The connection to set.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

@@ -13,24 +13,24 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>int</type><methodname>Swoole\Runtime::getHookFlags</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the current hook flags.
    Note that the returned flags might differ from what was set if some hooks failed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;
-  <para>
+  <simpara>
    This function has no parameters.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current hook flags as a bitmask.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

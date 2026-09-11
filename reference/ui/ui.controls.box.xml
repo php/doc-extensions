@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Box intro -->
   <section xml:id="ui-controls-box.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Box allows the arrangement of other controls
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -76,9 +76,9 @@
     <varlistentry xml:id="ui-controls-box.props.controls">
      <term><varname>controls</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Contains controls, should not be manipulated directly
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -93,14 +93,14 @@
     <varlistentry xml:id="ui-controls-box.constants.vertical">
      <term><constant>UI\Controls\Box::Vertical</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-box.constants.horizontal">
      <term><constant>UI\Controls\Box::Horizontal</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

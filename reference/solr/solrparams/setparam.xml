@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the query parameter to the specified value. This is used for parameters that can only be specified once. Subsequent calls with the same parameter name will override the existing value
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Name of the parameter
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Value of the parameter
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a SolrParam object on success and &false; on value.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

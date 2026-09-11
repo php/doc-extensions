@@ -14,9 +14,9 @@
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>options</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Start xhprof profiling.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,22 +26,22 @@
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Optional flags to add additional information to the profiling. See the
        <link linkend="xhprof.constants">XHprof constants</link> for further
        information about these flags, e.g., <constant>XHPROF_FLAGS_MEMORY</constant>
        to enable memory profiling.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>options</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An <type>array</type> of optional options, namely, the
        'ignored_functions' option to pass in functions to be ignored
        during profiling.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -50,9 +50,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &null;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog"><!-- {{{ -->
@@ -93,7 +93,7 @@ xhprof_enable(
     0,
     array('ignored_functions' =>  array('call_user_func',
                                         'call_user_func_array')));
-                                       
+
 // 3. elapsed time + memory profiling; ignore call_user_func* during profiling
 xhprof_enable(
     XHPROF_FLAGS_MEMORY,

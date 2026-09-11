@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>sarprop_weight_decay_shift</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the sarprop weight decay shift.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>sarprop_weight_decay_shift</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The sarprop weight decay shift.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

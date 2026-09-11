@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::addExpandFilterQuery</methodname>
    <methodparam><type>string</type><parameter>fq</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Overrides main filter query, determines which documents to include in the main group.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>fq</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrQuery</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">
@@ -51,7 +51,7 @@
    <member><methodname>SolrQuery::removeExpandFilterQuery</methodname></member>
   </simplelist>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

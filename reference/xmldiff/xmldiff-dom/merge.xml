@@ -14,9 +14,9 @@
    <methodparam><type>DOMDocument</type><parameter>src</parameter></methodparam>
    <methodparam><type>DOMDocument</type><parameter>diff</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Create new DOMDocument based on the diff.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>src</parameter></term>
     <listitem>
-     <para>
-      Source DOMDocument object.      
-     </para>
+     <simpara>
+      Source DOMDocument object.
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>diff</parameter></term>
     <listitem>
-     <para>
-      DOMDocument object containing the diff information.      
-     </para>
+     <simpara>
+      DOMDocument object containing the diff information.
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Merged DOMDocument or NULL. 
-  </para>
+  <simpara>
+   Merged DOMDocument or NULL.
+  </simpara>
  </refsect1>
 
 

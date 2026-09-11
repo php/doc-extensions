@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.adaptiveblurimage">
+<refentry xml:id="imagick.adaptiveblurimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::adaptiveBlurImage</refname>
   <refpurpose>Adds adaptive blur filter to image</refpurpose>
@@ -14,11 +14,11 @@
    <methodparam><type>float</type><parameter>sigma</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds an adaptive blur filter to image. The intensity of an adaptive blur
    depends is dramatically decreased at edge of the image, whereas a standard
    blur is uniform across the image. &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,26 +28,26 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The radius of the Gaussian, in pixels, not counting the center pixel.
        Provide a value of 0 and the radius will be chosen automagically.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sigma</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The standard deviation of the Gaussian, in pixels.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,16 +56,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -73,9 +73,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::adaptiveBlurImage</function>:</title>
-    <para>
+    <simpara>
      Adaptively blur an image, then display to the browser.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

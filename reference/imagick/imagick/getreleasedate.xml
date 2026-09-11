@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getreleasedate">
+<refentry xml:id="imagick.getreleasedate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getReleaseDate</refname>
   <refpurpose>Returns the ImageMagick release date</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Imagick::getReleaseDate</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the ImageMagick release date as a string.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the ImageMagick release date as a string.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

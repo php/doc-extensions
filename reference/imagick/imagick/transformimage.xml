@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.transformimage">
+<refentry xml:id="imagick.transformimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::transformImage</refname>
   <refpurpose>Convenience method for setting crop size and the image geometry</refpurpose>
@@ -18,10 +18,10 @@
    <methodparam><type>string</type><parameter>geometry</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    A convenience method for setting crop size and the image geometry from strings.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,17 +31,17 @@
     <varlistentry>
      <term><parameter>crop</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        A crop geometry string. This geometry defines a subregion of the image to crop.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>geometry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An image geometry string. This geometry defines the final size of the image.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -50,9 +50,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an Imagick object containing the transformed image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -60,9 +60,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::transformImage</function>:</title>
-    <para>
+    <simpara>
      The example creates a 100x100 black image.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

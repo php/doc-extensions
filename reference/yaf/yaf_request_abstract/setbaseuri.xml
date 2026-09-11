@@ -35,9 +35,9 @@
    <varlistentry>
     <term><parameter>uir</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        base URI
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

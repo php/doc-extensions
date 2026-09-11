@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam><type>array</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>key</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Key of the data.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Value of the data.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

@@ -12,17 +12,17 @@
    <modifier>public</modifier> <type class="union"><type>array</type><type>false</type></type><methodname>Memcached::getAllKeys</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getAllKeys</function> queries each memcache server
    and retrieves an array of all keys stored on them at that point in time.
    This is not an atomic operation, so it isn't a truly consistent snapshot of
    the keys at point in time. As memcache doesn't guarantee to return all keys
    you also cannot assume that all keys have been returned.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     This method is intended for debugging purposes and should not be used at scale!
-   </para>
+   </simpara>
   </note>
  </refsect1>
 
@@ -33,9 +33,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the keys stored on all the servers on success&return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

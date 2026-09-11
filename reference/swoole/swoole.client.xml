@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\Client intro -->
   <section xml:id="swoole-client.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -91,25 +91,25 @@
     <varlistentry xml:id="swoole-client.props.errcode">
      <term><varname>errCode</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="swoole-client.props.sock">
      <term><varname>sock</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="swoole-client.props.reuse">
      <term><varname>reuse</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="swoole-client.props.reusecount">
      <term><varname>reuseCount</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -125,28 +125,28 @@
     <varlistentry xml:id="swoole-client.constants.msg-oob">
      <term><constant>Swoole\Client::MSG_OOB</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-client.constants.msg-peek">
      <term><constant>Swoole\Client::MSG_PEEK</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-client.constants.msg-dontwait">
      <term><constant>Swoole\Client::MSG_DONTWAIT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-client.constants.msg-waitall">
      <term><constant>Swoole\Client::MSG_WAITALL</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

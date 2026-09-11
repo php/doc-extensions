@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getstrokedasharray">
+<refentry xml:id="imagickdraw.getstrokedasharray" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getStrokeDashArray</refname>
   <refpurpose>Returns an array representing the pattern of dashes and gaps used to stroke paths</refpurpose>
@@ -13,17 +13,17 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns an array representing the pattern of dashes and gaps used to
    stroke paths.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array on success and empty array if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

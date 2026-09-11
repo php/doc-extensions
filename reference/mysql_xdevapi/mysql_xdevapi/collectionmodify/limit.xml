@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionModify</type><methodname>mysql_xdevapi\CollectionModify::limit</methodname>
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Limit the number of documents modified by this operation.
    Optionally combine with skip() to define an offset value.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>rows</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The maximum number of documents to modify.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionModify object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

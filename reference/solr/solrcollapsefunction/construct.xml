@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>SolrCollapseFunction::__construct</methodname>
    <methodparam choice="opt"><type>string</type><parameter>field</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
     Collapse Function constructor
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,12 +25,12 @@
    <varlistentry>
     <term><parameter>field</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The field name to collapse on.
-     </para>
-     <para>
+     </simpara>
+     <simpara>
         In order to collapse a result. The field type must be a single valued String, Int or Float.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

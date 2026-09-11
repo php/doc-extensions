@@ -67,7 +67,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.std;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> on other errors (e.g. invalid query operators).</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> on other errors (e.g. invalid query operators).</member>
   </simplelist>
  </refsect1>
 
@@ -190,7 +190,7 @@ foreach ($cursor as $document) {
    <simpara>
     If the query fails to complete after one second of execution time on the
     server, a
-    <classname>MongoDB\Driver\Exception\ExecutionTimeoutException</classname>
+    <exceptionname>MongoDB\Driver\Exception\ExecutionTimeoutException</exceptionname>
     will be thrown.
    </simpara>
   </example>

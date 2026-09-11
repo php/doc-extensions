@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
    <methodparam><type>string</type><parameter>interface</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes <parameter>class</parameter> implement <parameter>interface</parameter>
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
 
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>interface</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,15 +44,15 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   As of PHP 7.4.0, <function>uopz_implement</function> throws a <classname>RuntimeException</classname>,
+   As of PHP 7.4.0, <function>uopz_implement</function> throws a <exceptionname>RuntimeException</exceptionname>,
    if <link xlink:href="&url.php.manual.book.opcache;">OPcache</link> is enabled,
    and the class entry of <parameter>class</parameter> is immutable.
   </simpara>

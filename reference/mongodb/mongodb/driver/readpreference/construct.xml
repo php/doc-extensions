@@ -183,9 +183,9 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if <parameter>mode</parameter> is invalid.</member>
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if <parameter>tagSets</parameter> is provided for a primary read preference or is malformed (i.e. not an array of zero or more documents).</member>
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if the <literal>"maxStalenessSeconds"</literal> option is provided for a primary read preference or is out of range.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if <parameter>mode</parameter> is invalid.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if <parameter>tagSets</parameter> is provided for a primary read preference or is malformed (i.e. not an array of zero or more documents).</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if the <literal>"maxStalenessSeconds"</literal> option is provided for a primary read preference or is out of range.</member>
   </simplelist>
  </refsect1>
 

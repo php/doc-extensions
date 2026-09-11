@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\WebSocket\Frame intro -->
   <section xml:id="swoole-websocket-frame.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -31,9 +31,9 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
-    
+
    </classsynopsis>
 <!-- }}} -->
 

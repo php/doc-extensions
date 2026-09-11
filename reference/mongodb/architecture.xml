@@ -292,13 +292,13 @@ foreach ($managers as $manager) {
       <interfacename>MongoDB\BSON\Serializable</interfacename> may only be
       serialized as a document field value. Attempting to serialize such an
       object as a root document will throw a
-      <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname>
+      <exceptionname>MongoDB\Driver\Exception\UnexpectedValueException</exceptionname>
      </simpara>
 
      <simpara>
       If an object is of an unknown class implementing the
       <interfacename>MongoDB\BSON\Type</interfacename> interface, then throw a
-      <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname>
+      <exceptionname>MongoDB\Driver\Exception\UnexpectedValueException</exceptionname>
      </simpara>
 
      <simpara>
@@ -347,7 +347,7 @@ foreach ($managers as $manager) {
         <simpara>
          If <methodname>MongoDB\BSON\Serializable::bsonSerialize</methodname>
          did not return an array or <classname>stdClass</classname>, throw an
-         <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname>
+         <exceptionname>MongoDB\Driver\Exception\UnexpectedValueException</exceptionname>
          exception.
         </simpara>
        </listitem>
@@ -736,7 +736,7 @@ class UpperClass implements MongoDB\BSON\Persistable
         If the named class does not exist, is not concrete (i.e. it is
         abstract or an interface), or does not implement
         <interfacename>MongoDB\BSON\Unserializable</interfacename> then an
-        <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname>
+        <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname>
         exception is thrown.
        </simpara>
 

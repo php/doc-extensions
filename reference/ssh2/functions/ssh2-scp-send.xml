@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-scp-send">
+<refentry xml:id="function.ssh2-scp-send" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ssh2_scp_send</refname>
   <refpurpose>Send a file via SCP</refpurpose>

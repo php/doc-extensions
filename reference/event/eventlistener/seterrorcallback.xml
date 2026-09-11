@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="eventlistener.seterrorcallback">
+<refentry xml:id="eventlistener.seterrorcallback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EventListener::setErrorCallback</refname>
   <refpurpose>Set event listener's error callback</refpurpose>
@@ -16,9 +16,9 @@
     <parameter>cb</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set event listener's error callback
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -28,9 +28,9 @@
      <parameter>cb</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The error callback. Should match the following prototype:
-     </para>
+     </simpara>
      <methodsynopsis>
       <type>void</type>
       <methodname>callback</methodname>
@@ -51,11 +51,11 @@
         <parameter>listener</parameter>
        </term>
        <listitem>
-        <para>
+        <simpara>
          The
          <classname>EventListener</classname>
          object.
-        </para>
+        </simpara>
        </listitem>
       </varlistentry>
       <varlistentry>
@@ -63,9 +63,9 @@
         <parameter>data</parameter>
        </term>
        <listitem>
-        <para>
+        <simpara>
          User custom data attached to the callback.
-        </para>
+        </simpara>
        </listitem>
       </varlistentry>
      </variablelist>

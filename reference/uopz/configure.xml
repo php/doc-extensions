@@ -4,13 +4,13 @@
 <section xml:id="uopz.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
- <para>
+ <simpara>
   Use <option role="configure">--enable-uopz[=DIR]</option> when compiling PHP.
- </para>
+ </simpara>
 
- <para>
+ <simpara>
   Windows users should include <filename>php_uopz.dll</filename> into &php.ini;
- </para>
+ </simpara>
 
 </section>
 

@@ -13,9 +13,9 @@
       <modifier>public</modifier> <type>Parle\Token</type><methodname>Parle\Lexer::getToken</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve the current token.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns an instance of <classname>Parle\Token</classname>. 
-  </para>
+  <simpara>
+   Returns an instance of <classname>Parle\Token</classname>.
+  </simpara>
  </refsect1>
 
 

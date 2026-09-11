@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>data</parameter></methodparam>
    <methodparam><type>string</type><parameter>file_name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Save the training data to a file, with the format as specified in <function>fann_read_train_from_file</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>file_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The file name of the file where training data is saved to.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

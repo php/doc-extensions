@@ -12,9 +12,9 @@
    <methodparam><type>resource</type><parameter>database</parameter></methodparam>
    <methodparam><type>array</type><parameter>data</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Adds the given data to the database. 
-  </para>
+  <simpara>
+   Adds the given data to the database.
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,25 +23,25 @@
     <varlistentry>
      <term><parameter>database</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The database resource, returned by <function>dbase_open</function>
        or <function>dbase_create</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>data</parameter></term>
      <listitem>
-      <para>
-       An indexed array of data. The number of items must be equal to the number of 
+      <simpara>
+       An indexed array of data. The number of items must be equal to the number of
        fields in the database, otherwise <function>dbase_add_record</function>
        will fail.
-      </para>
+      </simpara>
       <note>
-       <para>
+       <simpara>
         If you're using <function>dbase_get_record</function> return value for this
         parameter, remember to reset the key named <literal>deleted</literal>.
-       </para>
+       </simpara>
       </note>
      </listitem>
     </varlistentry>
@@ -50,9 +50,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -92,11 +92,11 @@ $db = dbase_open('/tmp/test.dbf', 2);
 
 if ($db) {
   dbase_add_record($db, array(
-      date('Ymd'), 
-      'Maxim Topolov', 
-      '23', 
+      date('Ymd'),
+      'Maxim Topolov',
+      '23',
       'max@example.com',
-      'T'));   
+      'T'));
   dbase_close($db);
 }
 

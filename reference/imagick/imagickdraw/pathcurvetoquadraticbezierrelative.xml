@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathcurvetoquadraticbezierrelative">
+<refentry xml:id="imagickdraw.pathcurvetoquadraticbezierrelative" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathCurveToQuadraticBezierRelative</refname>
   <refpurpose>Draws a quadratic Bezier curve</refpurpose>
@@ -16,12 +16,12 @@
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a quadratic Bezier curve from the current point to (x,y) using
    (x1,y1) as the control point using relative coordinates. At the end of the
    command, the new current point becomes the final (x,y) coordinate pair
    used in the polybezier.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,33 +31,33 @@
     <varlistentry>
      <term><parameter>x1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x_end</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -66,9 +66,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

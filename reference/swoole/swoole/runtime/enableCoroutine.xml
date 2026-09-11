@@ -13,10 +13,10 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>void</type><methodname>Swoole\Runtime::enableCoroutine</methodname>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>SWOOLE_HOOK_ALL</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method enables coroutine support for specified PHP functions based on the given flags.
    It should be called once at the beginning of the application.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,7 +25,7 @@
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Bitmask of flags specifying which functions to hook. Can be combined using | operator.
       Available flags:
       <constant>SWOOLE_HOOK_TCP</constant>,
@@ -48,7 +48,7 @@
       <constant>SWOOLE_HOOK_PDO_ORACLE</constant>,
       <constant>SWOOLE_HOOK_PDO_SQLITE</constant>,
       or <constant>SWOOLE_HOOK_ALL</constant> for all flags.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -56,9 +56,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

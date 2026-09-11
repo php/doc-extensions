@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathellipticarcrelative">
+<refentry xml:id="imagickdraw.pathellipticarcrelative" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathEllipticArcRelative</refname>
   <refpurpose>Draws an elliptical arc</refpurpose>
@@ -19,7 +19,7 @@
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws an elliptical arc from the current point to (x, y) using relative
    coordinates. The size and orientation of the ellipse are defined by two
    radii (rx, ry) and an xAxisRotation, which indicates how the ellipse as
@@ -30,7 +30,7 @@
    is drawn. If <parameter>large_arc</parameter> is &true; then draw the larger of the available
    arcs. If <parameter>sweep</parameter> is true, then draw the arc matching a clock-wise
    rotation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -40,57 +40,57 @@
     <varlistentry>
      <term><parameter>rx</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x radius
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>ry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y radius
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x_axis_rotation</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x axis rotation
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>large_arc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        large arc flag
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sweep</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        sweep flag
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -99,9 +99,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

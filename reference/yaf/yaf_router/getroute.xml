@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>Yaf_Route_Interface</type><methodname>Yaf_Router::getRoute</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve a route by name, see also
    <methodname>Yaf_Router::getCurrentRoute</methodname>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -78,8 +78,8 @@ NULL
    <member><classname>Yaf_Plugin_Abstract</classname></member>
    <member><methodname>Yaf_Router::addRoute</methodname></member>
    <member><methodname>Yaf_Router::getCurrentRoute</methodname></member>
-  </simplelist>                       
- </refsect1>  
+  </simplelist>
+ </refsect1>
 
 </refentry>
 

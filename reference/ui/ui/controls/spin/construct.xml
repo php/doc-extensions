@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>min</parameter></methodparam>
    <methodparam><type>int</type><parameter>max</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Constructs a new Spin with the given range
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>min</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The minimum value allowed
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>max</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The maximum value allowed
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

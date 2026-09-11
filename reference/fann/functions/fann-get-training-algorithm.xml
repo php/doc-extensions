@@ -13,13 +13,13 @@
    <type>int</type><methodname>fann_get_training_algorithm</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the training algorithm. This training algorithm is used by <function>fann_train_on_data</function> and associated functions.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Note that this algorithm is also used during <function>fann_cascadetrain_on_data</function>, although only
    <constant>FANN_TRAIN_RPROP</constant> and <constant>FANN_TRAIN_QUICKPROP</constant> is allowed during cascade training.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <link linkend="constants.fann-train">Training algorithm</link> constant, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

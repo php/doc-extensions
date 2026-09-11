@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableDelete</type><methodname>mysql_xdevapi\TableDelete::where</methodname>
    <methodparam><type>string</type><parameter>where_expr</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the search condition to filter.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>where_expr</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Define the search condition to filter documents or records.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    TableDelete object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

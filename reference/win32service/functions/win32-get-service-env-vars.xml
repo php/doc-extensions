@@ -13,10 +13,10 @@
    <type>array</type><methodname>win32_get_service_env_vars</methodname>
    <methodparam><type>string</type><parameter>servicename</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Read all custom environment variables on <parameter>servicename</parameter>
    service. This function work only for the local computer. Administrative privileges are required for this to succeed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>servicename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The service name to read environment variables.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,20 +37,20 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return an &array; with variable name in key and variable value in value.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>service</parameter> parameter is empty.
-  </para>
-  <para>
-   A <classname>Win32ServiceException</classname> is thrown on error.
-  </para>
+  </simpara>
+  <simpara>
+   A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

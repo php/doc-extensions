@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>VarnishStat::getSnapshot</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array with the varnish statistic snapshot. The array keys are identical to
    that in the varnishstat tool.
-  </para>
+  </simpara>
  </refsect1>
 
 

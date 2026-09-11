@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.equalizeimage">
+<refentry xml:id="imagick.equalizeimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::equalizeImage</refname>
   <refpurpose>Equalizes the image histogram</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::equalizeImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Equalizes the image histogram.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

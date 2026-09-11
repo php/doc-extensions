@@ -15,9 +15,9 @@
    <methodparam choice="opt"><type>int</type><parameter>reactor_id</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>ignore_error</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,26 +27,26 @@
    <varlistentry>
     <term><parameter>fd</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       File descriptors.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>reactor_id</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The Reactor thread ID where the connection is made.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>ignore_error</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Whether to ignore errors, if set to true,
       connection information will be returned even if the connection is closed.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -54,9 +54,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns information about the client connection.
-  </para>
+  </simpara>
  </refsect1>
 
 

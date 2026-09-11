@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.haspreviousimage">
+<refentry xml:id="imagick.haspreviousimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::hasPreviousImage</refname>
   <refpurpose>Checks if the object has a previous image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::hasPreviousImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns &true; if the object has more images when traversing the list in the reverse direction
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,10 +24,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if the object has more images when traversing the list in the
    reverse direction, returns &false; if there are none.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

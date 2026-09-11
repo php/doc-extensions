@@ -13,9 +13,9 @@
    <type>mixed</type><methodname>uopz_get_mock</methodname>
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the current mock for <parameter>class</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,19 +24,19 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the mocked class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Either a string containing the name of the mock, or an object,
    or &null; if no mock has been set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

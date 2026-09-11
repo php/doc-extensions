@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getfont">
+<refentry xml:id="imagick.getfont" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getFont</refname>
   <refpurpose>Gets font</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>string</type><methodname>Imagick::getFont</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the objects font property.
    &imagick.method.available.0x637;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the string containing the font name or &false; if not font is set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

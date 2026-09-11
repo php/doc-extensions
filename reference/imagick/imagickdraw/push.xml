@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.push">
+<refentry xml:id="imagickdraw.push" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::push</refname>
   <refpurpose>Clones the current ImagickDraw and pushes it to the stack</refpurpose>
@@ -13,20 +13,20 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Clones the current ImagickDraw to create a new ImagickDraw, which is then
    added to the ImagickDraw stack. The original drawing ImagickDraw(s) may be
    returned to by invoking <methodname>ImagickDraw::pop</methodname>. The ImagickDraws are stored on a
    ImagickDraw stack. For every Pop there must have already been an equivalent
    Push.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

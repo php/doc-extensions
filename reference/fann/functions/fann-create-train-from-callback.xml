@@ -16,10 +16,10 @@
    <methodparam><type>int</type><parameter>num_output</parameter></methodparam>
    <methodparam><type>callable</type><parameter>user_function</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates the training data struct from a user supplied function. As the training data are numerable (data 1, data 2...),
    the user must write a function that receives the number of the training data set (input, output) and returns the set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,25 +28,25 @@
    <varlistentry>
     <term><parameter>num_data</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The number of training data
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_input</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The number of inputs per training data
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_output</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The number of outputs per training data
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -60,10 +60,10 @@
        <member><literal>num_output</literal> - The number of outputs per training data</member>
       </simplelist>
      </para>
-     <para>
+     <simpara>
       The function should return an associative array with keys <literal>input</literal> and <literal>output</literal> and
       two array values of input and output.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

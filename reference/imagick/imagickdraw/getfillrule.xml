@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getfillrule">
+<refentry xml:id="imagickdraw.getfillrule" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getFillRule</refname>
   <refpurpose>Returns the fill rule</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -13,19 +13,19 @@
    <void />
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the fill rule used while drawing polygons.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <link linkend="imagick.constants.fillrule">FILLRULE</link> constant
    (<literal>imagick::FILLRULE_*</literal>).
-  </para>
+  </simpara>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setsamplingfactors">
+<refentry xml:id="imagick.setsamplingfactors" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setSamplingFactors</refname>
   <refpurpose>Sets the image sampling factors</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setSamplingFactors</methodname>
    <methodparam><type>array</type><parameter>factors</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image sampling factors.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>factors</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -58,7 +58,7 @@ function setSamplingFactors($imagePath) {
 
     $compressed = $imagick->getImageBlob();
 
-    
+
     $reopen = new \Imagick();
     $reopen->readImageBlob($compressed);
 
@@ -68,7 +68,7 @@ function setSamplingFactors($imagePath) {
         \Imagick::FILTER_POINT,
         1
     );
-    
+
     header("Content-Type: image/jpg");
     echo $reopen->getImageBlob();
 }

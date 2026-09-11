@@ -16,9 +16,9 @@
    <methodparam><type>float</type><parameter>smooth_threshold</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>verbose</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Analyses the image and identifies units that are similar. &imagick.method.available.0x645;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,34 +28,34 @@
     <varlistentry>
      <term><parameter>COLORSPACE</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.colorspace">COLORSPACE constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>cluster_threshold</parameter></term>
      <listitem>
-      <para>
-       A percentage describing minimum number of pixels 
+      <simpara>
+       A percentage describing minimum number of pixels
        contained in hexedra before it is considered valid.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>smooth_threshold</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Eliminates noise from the histogram.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>verbose</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Whether to output detailed information about recognised classes.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -64,9 +64,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 

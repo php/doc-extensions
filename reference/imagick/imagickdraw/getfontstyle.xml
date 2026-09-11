@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getfontstyle">
+<refentry xml:id="imagickdraw.getfontstyle" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getFontStyle</refname>
   <refpurpose>Returns the font style</refpurpose>
@@ -13,18 +13,18 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the font style used when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <link linkend="imagick.constants.styles">STYLE</link> constant
-   (<literal>imagick::STYLE_*</literal>) associated with the <classname>ImagickDraw</classname> object 
+   (<literal>imagick::STYLE_*</literal>) associated with the <classname>ImagickDraw</classname> object
    or 0 if no style is set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

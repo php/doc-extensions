@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>Ds\Set</type><methodname>Ds\Set::union</methodname>
    <methodparam><type>Ds\Set</type><parameter>set</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new set that contains the values of the current instance as well as the
     values of another <parameter>set</parameter>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A ∪ B = {x: x ∈ A ∨ x ∈ B}</code>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>set</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The other set, to combine with the current instance.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-    <para>
+    <simpara>
     A new set containing all the values of the current instance as well as another <parameter>set</parameter>.
-    </para>
+    </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

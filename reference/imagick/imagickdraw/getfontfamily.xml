@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getfontfamily">
+<refentry xml:id="imagickdraw.getfontfamily" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getFontFamily</refname>
   <refpurpose>Returns the font family</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the font family to use when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the font family currently selected or false if font family is not set. 
-  </para>
+  <simpara>
+   Returns the font family currently selected or false if font family is not set.
+  </simpara>
  </refsect1>
 
 </refentry>

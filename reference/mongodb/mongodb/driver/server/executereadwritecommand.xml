@@ -72,7 +72,7 @@
    &mongodb.throws.session-readwriteconcern;
    &mongodb.throws.session-unacknowledged;
    &mongodb.throws.std;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> on other errors (e.g. invalid command).</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> on other errors (e.g. invalid command).</member>
   </simplelist>
  </refsect1>
 
@@ -90,7 +90,7 @@
      <row>
       <entry>PECL mongodb 1.4.4</entry>
       <entry>
-       <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname>
+       <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname>
        will be thrown if the <literal>"session"</literal> option is used in
        combination with an unacknowledged write concern.
       </entry>

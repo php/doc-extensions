@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>int</type><parameter>stop_function</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the stop function used during training.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The stop functions are described further in <link linkend="constants.fann-stopfunc">stop functions</link> constants.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,9 +34,9 @@
    <varlistentry>
     <term><parameter>stop_function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The <link linkend="constants.fann-stopfunc">stop function</link> constant.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

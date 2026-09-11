@@ -11,9 +11,9 @@
 <!-- {{{ SolrException intro -->
   <section xml:id="solrexception.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     This is the base class for all exception thrown by the Solr extension classes.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,7 +29,7 @@
      <ooclass>
       <classname>SolrException</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>Exception</classname>
@@ -55,10 +55,10 @@
 
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('exception.synopsis')/descendant::db:fieldsynopsis)" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrexception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.exception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
 
@@ -67,7 +67,7 @@
 
   </section>
 
-  
+
 <!-- {{{ SolrException properties -->
   <section xml:id="solrexception.props">
    &reftitle.properties;
@@ -75,19 +75,19 @@
     <varlistentry xml:id="solrexception.props.sourceline">
      <term><varname>sourceline</varname></term>
      <listitem>
-      <para>The line in c-space source file where exception was generated</para>
+      <simpara>The line in c-space source file where exception was generated</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrexception.props.sourcefile">
      <term><varname>sourcefile</varname></term>
      <listitem>
-      <para>The c-space source file where exception was generated</para>
+      <simpara>The c-space source file where exception was generated</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrexception.props.zif-name">
      <term><varname>zif_name</varname></term>
      <listitem>
-      <para>The c-space function where exception was generated</para>
+      <simpara>The c-space function where exception was generated</simpara>
      </listitem>
     </varlistentry>
    </variablelist>

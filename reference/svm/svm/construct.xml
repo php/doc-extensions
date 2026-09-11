@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="svm.construct">
+<refentry xml:id="svm.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SVM::__construct</refname>
   <refpurpose>Construct a new SVM object</refpurpose>
@@ -26,7 +26,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Throws a <classname>SVMException</classname> if the libsvm
+   Throws a <exceptionname>SVMException</exceptionname> if the libsvm
    library could not be loaded.
   </simpara>
  </refsect1>

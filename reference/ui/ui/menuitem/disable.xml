@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\MenuItem::disable</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall disable this Menu Item
-  </para>
+  </simpara>
 
  </refsect1>
 

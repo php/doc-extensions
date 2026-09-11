@@ -13,9 +13,9 @@
    <modifier>final</modifier> <modifier>public</modifier> <type class="union"><type>string</type><type>null</type></type> <methodname>Win32Service\RightInfo::getUsername</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Return the username.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues"><!-- {{{ -->
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return the username name or GUID if resolve fail.
-  </para>
+  </simpara>
  </refsect1><!-- }}} -->
 
  <refsect1 role="seealso">

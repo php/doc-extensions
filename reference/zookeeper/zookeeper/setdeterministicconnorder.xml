@@ -15,10 +15,10 @@
    <type>bool</type><methodname>Zookeeper::setDeterministicConnOrder</methodname>
    <methodparam><type>bool</type><parameter>yesOrNo</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    If passed a true value, will make the client connect to quorum peers in the order as specified in the zookeeper_init() call. A false value causes zookeeper_init() to permute the peer endpoints which is good for more even client connection distribution among the quorum peers.
    ZooKeeper C Client uses false by default.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>yesOrNo</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Disable/enable quorum endpoint order randomization.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,19 +37,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or operation fails.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -59,7 +59,7 @@
   <simplelist>
    <member><methodname>Zookeeper::__construct</methodname></member>
    <member><methodname>Zookeeper::connect</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

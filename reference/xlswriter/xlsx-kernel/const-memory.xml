@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>fileName</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>sheetName</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Write a large file with constant memory usage.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>fileName</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       XLSX file name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>sheetName</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Worksheet name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <classname>Vtiful\Kernel\Excel</classname> instance
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

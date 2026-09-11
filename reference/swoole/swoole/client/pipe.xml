@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Swoole\Client::pipe</methodname>
    <methodparam><type>string</type><parameter>socket</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>socket</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

@@ -5,7 +5,7 @@
   <refname>wddx_serialize_vars</refname>
   <refpurpose>Serialize variables into a WDDX packet</refpurpose>
  </refnamediv>
- 
+
  <refsynopsisdiv>
   &warn.removed.function-7-4-0;
  </refsynopsisdiv>
@@ -17,10 +17,10 @@
    <methodparam><type>mixed</type><parameter>var_name</parameter></methodparam>
    <methodparam rep="repeat"><type>mixed</type><parameter>var_names</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a WDDX packet with a structure that contains the serialized
    representation of the passed variables.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,17 +31,17 @@
     <varlistentry>
      <term><parameter>var_name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Can be either a string naming a variable or an array containing
        strings naming the variables or another array, etc.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>var_names</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -50,9 +50,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the WDDX packet, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

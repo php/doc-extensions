@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\CollectionFind::limit</methodname>
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set the maximum number of documents to return.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>rows</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Maximum number of documents.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,10 +34,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionFind object that can be used for additional processing;
    chain with the execute() method to return a DocResult object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

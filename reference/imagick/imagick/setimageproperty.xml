@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimageproperty">
+<refentry xml:id="imagick.setimageproperty" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageProperty</refname>
   <refpurpose>Sets an image property</refpurpose>
@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Sets a named property to the image. &imagick.method.available.0x632;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,15 +26,15 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -53,9 +53,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::setImageProperty</function>:</title>
-    <para>
+    <simpara>
      Setting and getting image properties
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

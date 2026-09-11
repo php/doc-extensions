@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="cubrid.setup">
+<chapter xml:id="cubrid.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
 
- <section xmlns="http://docbook.org/ns/docbook" xml:id="cubrid.requirements">
+ <section xml:id="cubrid.requirements" xmlns="http://docbook.org/ns/docbook">
  &reftitle.required;
   <simpara>
     In order to have these functions available, you must install CUBRID, and compile CUBRID PHP Library with CUBRID support.

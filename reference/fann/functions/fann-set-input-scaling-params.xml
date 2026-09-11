@@ -16,9 +16,9 @@
    <methodparam><type>float</type><parameter>new_input_min</parameter></methodparam>
    <methodparam><type>float</type><parameter>new_input_max</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Calculate input scaling parameters for future use based on training data.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -39,17 +39,17 @@
    <varlistentry>
     <term><parameter>new_input_min</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The desired lower bound in input data after scaling (not strictly followed)
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>new_input_max</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The desired upper bound in input data after scaling (not strictly followed)
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

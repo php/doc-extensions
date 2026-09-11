@@ -11,9 +11,9 @@
 <!-- {{{ SolrCollapseFunction intro -->
   <section xml:id="solrcollapsefunction.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -67,21 +67,21 @@
     <varlistentry xml:id="solrcollapsefunction.constants.nullpolicy-ignore">
      <term><constant>SolrCollapseFunction::NULLPOLICY_IGNORE</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrcollapsefunction.constants.nullpolicy-expand">
      <term><constant>SolrCollapseFunction::NULLPOLICY_EXPAND</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrcollapsefunction.constants.nullpolicy-collapse">
      <term><constant>SolrCollapseFunction::NULLPOLICY_COLLAPSE</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

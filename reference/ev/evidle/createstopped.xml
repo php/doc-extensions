@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="evidle.createstopped">
+<refentry xml:id="evidle.createstopped" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EvIdle::createStopped</refname>
   <refpurpose>Creates instance of a stopped EvIdle watcher object</refpurpose>

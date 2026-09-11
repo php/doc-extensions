@@ -9,12 +9,12 @@
  <!-- {{{ preface -->
  <preface xml:id="intro.yaml">
   &reftitle.intro;
-  <para>
+  <simpara>
    This extension implements the <link xlink:href="&url.yaml;">YAML Ain't
    Markup Language (YAML)</link> data serialization standard. Parsing and
    emiting are handled by the <link xlink:href="&url.yaml.libyaml;">LibYAML
    library</link>.
-  </para>
+  </simpara>
  </preface>
  <!-- }}} -->
 

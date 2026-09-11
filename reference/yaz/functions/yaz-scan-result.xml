@@ -12,11 +12,11 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter role="reference">result</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>yaz_scan_result</function> returns terms and associated
    information as received from the server in the last performed
    <function>yaz_scan</function>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -25,38 +25,38 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>result</parameter></term>
      <listitem>
       <para>
-       If given, this array will be modified to hold additional information 
+       If given, this array will be modified to hold additional information
        taken from the Scan Response:
        <itemizedlist>
         <listitem>
-         <para>
+         <simpara>
           <literal>number</literal> - Number of entries returned
-         </para>
-        </listitem> 
+         </simpara>
+        </listitem>
         <listitem>
-         <para>
+         <simpara>
           <literal>stepsize</literal> - Step size
-         </para>
-        </listitem> 
+         </simpara>
+        </listitem>
         <listitem>
-         <para>
+         <simpara>
           <literal>position</literal> - Position of term
-         </para>
-        </listitem> 
+         </simpara>
+        </listitem>
         <listitem>
-         <para>
+         <simpara>
           <literal>status</literal> - Scan status
-         </para>
-        </listitem> 
+         </simpara>
+        </listitem>
        </itemizedlist>
       </para>
      </listitem>
@@ -66,11 +66,11 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns an array (0..n-1) where n is the number of terms returned. Each 
-   value is a pair where the first item is the term, and the second item is 
+  <simpara>
+   Returns an array (0..n-1) where n is the number of terms returned. Each
+   value is a pair where the first item is the term, and the second item is
    the result-count.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

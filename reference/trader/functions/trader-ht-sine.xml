@@ -13,9 +13,9 @@
    <type>array</type><methodname>trader_ht_sine</methodname>
    <methodparam><type>array</type><parameter>real</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>real</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,7 +34,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns an array with calculated data or false on failure.</para>
+  <simpara>Returns an array with calculated data or false on failure.</simpara>
  </refsect1>
 
 

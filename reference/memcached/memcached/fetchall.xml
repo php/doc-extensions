@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type class="union"><type>array</type><type>false</type></type><methodname>Memcached::fetchAll</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::fetchAll</function> retrieves all the remaining
    results from the last request.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the results&return.falseforfailure;.
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

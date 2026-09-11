@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.animateimages">
+<refentry xml:id="imagick.animateimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::animateImages</refname>
   <refpurpose>Animates an image or images</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>string</type><parameter>x_server</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    This method animates the image onto a local or remote X server. This method
    is not available on Windows.
    &imagick.method.available.0x636;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>x_server</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        X server address
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

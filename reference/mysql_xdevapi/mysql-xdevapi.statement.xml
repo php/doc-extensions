@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\Statement intro -->
   <section xml:id="mysql-xdevapi-statement.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -60,14 +60,14 @@
     <varlistentry xml:id="mysql-xdevapi-statement.constants.execute-async">
      <term><constant>mysql_xdevapi\Statement::EXECUTE_ASYNC</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="mysql-xdevapi-statement.constants.buffered">
      <term><constant>mysql_xdevapi\Statement::BUFFERED</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

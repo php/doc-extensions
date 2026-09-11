@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-fetch-row">
+<refentry xml:id="function.ibase-fetch-row" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_fetch_row</refname>
   <refpurpose>Fetch a row from an InterBase database</refpurpose>

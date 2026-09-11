@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="cubrid.examples">
+<chapter xml:id="cubrid.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
  <simpara>The following is a simple example that establishes a connection between PHP and CUBRID. This section will cover the most basic and notable features. The following code required to connect to CUBRID database, which means CUBRID Server and CUBRID Broker have to be running.</simpara>
  <simpara>The example below uses the demodb database as an examples. By default it is created during the installation. Make sure it has been created.</simpara>

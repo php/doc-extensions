@@ -10,14 +10,14 @@
 <!-- {{{ V8Js intro -->
   <section xml:id="v8js.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     This is the core class for V8Js extension. Each instance created from
     this class has own context in which all JavaScript is compiled and
     executed.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     See <function>V8Js::__construct</function> for more information.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -70,21 +70,21 @@
     <varlistentry xml:id="v8js.constants.v8-version">
      <term><constant>V8Js::V8_VERSION</constant></term>
      <listitem>
-      <para>The V8 Javascript Engine version.</para>
+      <simpara>The V8 Javascript Engine version.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="v8js.constants.flag-none">
      <term><constant>V8Js::FLAG_NONE</constant></term>
      <listitem>
-      <para>No flags.</para>
+      <simpara>No flags.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="v8js.constants.flag-force-array">
      <term><constant>V8Js::FLAG_FORCE_ARRAY</constant></term>
      <listitem>
-      <para>Forces all JS objects to be associative arrays in PHP.</para>
+      <simpara>Forces all JS objects to be associative arrays in PHP.</simpara>
      </listitem>
     </varlistentry>
 

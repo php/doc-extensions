@@ -6,13 +6,13 @@
 
  <section xml:id="memcached.callbacks.result">
   <title>Result callbacks</title>
-  <para>
+  <simpara>
    Result <type>callable</type>s are invoked by
    <methodname>Memcached::getDelayed</methodname> or
    <methodname>Memcached::getDelayedBykey</methodname> methods for each item in
    the result set. The callback is passed the Memcached object and the array
    with the item information. The callback does not have to return anything.
-  </para>
+  </simpara>
   <example>
    <title>Result callback example</title>
    <programlisting role="php">
@@ -61,7 +61,7 @@ array(3) {
 
  <section xml:id="memcached.callbacks.read-through">
   <title>Read-through cache callbacks</title>
-  <para>
+  <simpara>
    Read-through cache callbacks are invoked when an item cannot be retrieved
    from the server. The callback is passed the Memcached object, the requested
    key, and the by-reference value variable. The callback is responsible for
@@ -71,7 +71,7 @@ array(3) {
    <methodname>Memcached::getByKey</methodname> support these callbacks,
    because the memcache protocol does not provide information on which keys
    were not found in the multi-key request.
-  </para>
+  </simpara>
   <example>
    <title>Read-through callback example</title>
    <programlisting role="php">

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrDocument::fieldExists</methodname>
    <methodparam><type>string</type><parameter>fieldName</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Checks if the requested field as a valid fieldname in the document.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>fieldName</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if the field is present and &false; if it does not.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

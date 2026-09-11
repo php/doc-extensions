@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.steganoimage">
+<refentry xml:id="imagick.steganoimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::steganoImage</refname>
   <refpurpose>Hides a digital watermark within the image</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>Imagick</type><parameter>watermark_wand</parameter></methodparam>
    <methodparam><type>int</type><parameter>offset</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Hides a digital watermark within the image. Recover the hidden watermark
    later to prove that the authenticity of an image. Offset defines the start
    position within the image to hide the watermark.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,15 +27,15 @@
     <varlistentry>
      <term><parameter>watermark_wand</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>offset</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

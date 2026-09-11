@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\MenuItem::enable</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall enable this Menu Item
-  </para>
+  </simpara>
 
  </refsect1>
 

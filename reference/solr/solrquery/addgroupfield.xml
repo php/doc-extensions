@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::addGroupField</methodname>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     The name of the field by which to group results. The field must be single-valued, and either be indexed
     or a field type that has a value source and works in a function query,
     such as ExternalFileField. It must also be a string-based field, such as StrField or TextField
     Uses group.field parameter
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the field.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,11 +38,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an instance of <classname>SolrQuery</classname>.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>

@@ -7,25 +7,25 @@
  <!-- {{{ Requirements -->
  <section xml:id="stats.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    No external libraries are needed. The extension comes bundled with the libraries used.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 
  <!-- {{{ Installation -->
  <section xml:id="stats.installation">
   &reftitle.install;
-   <para>
+   <simpara>
     &pecl.moved;
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     &pecl.info.dead;
     <link xlink:href="&url.pecl.package;stats">&url.pecl.package;stats</link>.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     &pecl.windows.download.avail;
-   </para>
+   </simpara>
  </section>
  <!-- }}} -->
 

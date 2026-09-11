@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimageextrema">
+<refentry xml:id="imagick.getimageextrema" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageExtrema</refname>
   <refpurpose>Gets the extrema for the image</refpurpose>
@@ -16,9 +16,9 @@
    <modifier>public</modifier> <type>array</type><methodname>Imagick::getImageExtrema</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the extrema for the image.  Returns an associative array with the keys "min" and "max".
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,16 +28,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an associative array with the keys "min" and "max".
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

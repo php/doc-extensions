@@ -13,23 +13,23 @@
    <modifier>public</modifier> <type>string</type><methodname>VarnishAdmin::getPanic</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;
   &no.function.parameters;
-  <para>
-  </para>
+  <simpara>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the last panic message on the current varnish instance.
-  </para>
+  </simpara>
  </refsect1>
 
 

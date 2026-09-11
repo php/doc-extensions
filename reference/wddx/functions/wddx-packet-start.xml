@@ -5,7 +5,7 @@
   <refname>wddx_packet_start</refname>
   <refpurpose>Starts a new WDDX packet with structure inside it</refpurpose>
  </refnamediv>
- 
+
  <refsynopsisdiv>
   &warn.removed.function-7-4-0;
  </refsynopsisdiv>
@@ -16,11 +16,11 @@
    <type>resource</type><methodname>wddx_packet_start</methodname>
    <methodparam choice="opt"><type>string</type><parameter>comment</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Start a new WDDX packet for incremental addition of variables.
    It automatically creates a structure definition inside the packet to
    contain the variables.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,9 +30,9 @@
     <varlistentry>
      <term><parameter>comment</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An optional comment string.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -41,9 +41,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a packet ID for use in later functions, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

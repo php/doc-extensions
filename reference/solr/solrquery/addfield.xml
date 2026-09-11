@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::addField</methodname>
    <methodparam><type>string</type><parameter>field</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method is used to used to specify a set of fields to return, thereby restricting the amount of data returned in the response.
-  </para>
-  <para>It should be called multiple time, once for each field name.</para>
+  </simpara>
+  <simpara>It should be called multiple time, once for each field name.</simpara>
 
  </refsect1>
 
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>field</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

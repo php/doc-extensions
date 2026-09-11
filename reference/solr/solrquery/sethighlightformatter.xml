@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>formatter</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>field_override</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Specify a formatter for the highlight output.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
     <varlistentry>
      <term><parameter>formatter</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Currently the only legal value is "simple"
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>field_override</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an instance of <classname>SolrQuery</classname>.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

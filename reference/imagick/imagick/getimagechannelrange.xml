@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagechannelrange">
+<refentry xml:id="imagick.getimagechannelrange" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageChannelRange</refname>
   <refpurpose>Gets channel range</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>int</type><parameter>channel</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Gets the range for one or more image channels.
    &imagick.method.available.0x640;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,16 +37,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing minima and maxima values of the channel(s).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

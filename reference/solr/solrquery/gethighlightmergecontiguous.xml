@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrQuery::getHighlightMergeContiguous</methodname>
    <methodparam choice="opt"><type>string</type><parameter>field_override</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns whether or not the collapse contiguous fragments into a single fragment. Accepts an optional field override.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>field_override</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns a boolean on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

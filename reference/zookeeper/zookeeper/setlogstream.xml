@@ -14,9 +14,9 @@
    <type>bool</type><methodname>Zookeeper::setLogStream</methodname>
    <methodparam><type>resource</type><parameter>stream</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The zookeeper library uses stderr as its default log stream. Application must make sure the stream is writable. Passing in NULL resets the stream to its default value (stderr).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>stream</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The stream to be used by the library for logging.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,19 +35,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or operation fails.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -56,7 +56,7 @@
   &reftitle.seealso;
   <simplelist>
    <member><methodname>Zookeeper::setDebugLevel</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

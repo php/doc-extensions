@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.sepiatoneimage">
+<refentry xml:id="imagick.sepiatoneimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::sepiaToneImage</refname>
   <refpurpose>Sepia tones an image</refpurpose>
@@ -12,12 +12,12 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::sepiaToneImage</methodname>
    <methodparam><type>float</type><parameter>threshold</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Applies a special effect to the image, similar to the effect achieved
    in a photo darkroom by sepia toning.  Threshold ranges from 0 to
    QuantumRange and is a measure of the extent of the sepia toning. A
    threshold of 80 is a good starting point for a reasonable tone.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,8 +27,8 @@
     <varlistentry>
      <term><parameter>threshold</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,16 +37,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

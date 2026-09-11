@@ -167,10 +167,10 @@ Inserted 2 document(s)
    <simplelist>
     <member><methodname>MongoDB\Driver\Manager::executeBulkWriteCommand</methodname></member>
     <member><classname>MongoDB\Driver\BulkWriteCommandResult</classname></member>
-    <member><classname>MongoDB\Driver\Exception\BulkWriteCommandException</classname></member>
+    <member><exceptionname>MongoDB\Driver\Exception\BulkWriteCommandException</exceptionname></member>
     <member><classname>MongoDB\Driver\WriteConcern</classname></member>
-    <member><classname>MongoDB\Driver\WriteConcernError</classname></member>
-    <member><classname>MongoDB\Driver\WriteError</classname></member>
+    <member><exceptionname>MongoDB\Driver\WriteConcernError</exceptionname></member>
+    <member><exceptionname>MongoDB\Driver\WriteError</exceptionname></member>
    </simplelist>
   </section>
 

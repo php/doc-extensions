@@ -53,14 +53,14 @@
       UTF-8 sequences), but may be needed if truncated data is returned.
       <itemizedlist>
        <listitem>
-        <para>
+        <simpara>
          0 - Minimum size buffers are allocated.
-        </para>
+        </simpara>
        </listitem>
        <listitem>
-        <para>
+        <simpara>
          1 - Larger size buffers are allocated.
-        </para>
+        </simpara>
        </listitem>
       </itemizedlist>
      </para>
@@ -72,15 +72,15 @@
      <type>int</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The ASCII CCSID to use for conversion from EBCDIC on IBM i. Setting this
       to 1208 will use UTF-8. By default, this is 0, which will select the
       default ASCII job CCSID.
-     </para>
-     <para>
+     </simpara>
+     <simpara>
       To learn more about CCSIDs on IBM i, consult the
       <link xlink:href="&url.ibm.ccsid;">IBM documentation</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

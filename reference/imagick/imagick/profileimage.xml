@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.profileimage">
+<refentry xml:id="imagick.profileimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::profileImage</refname>
   <refpurpose>Adds or removes a profile from an image</refpurpose>
@@ -53,16 +53,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

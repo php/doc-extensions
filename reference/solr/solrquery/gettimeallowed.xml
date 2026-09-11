@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getTimeAllowed</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 Returns the time in milliseconds allowed for the query to finish.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@ Returns the time in milliseconds allowed for the query to finish.
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns and integer on success and &null; if it is not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

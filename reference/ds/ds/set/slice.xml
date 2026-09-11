@@ -16,9 +16,9 @@
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>length</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a sub-set of a given range.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,19 +28,19 @@
    <varlistentry>
     <term><parameter>index</parameter></term>
     <listitem>
-        <para>
+        <simpara>
             The index at which the sub-set starts.
-        </para>
-        <para>
+        </simpara>
+        <simpara>
             If positive, the set will start at that index in the set.
             If negative, the set will start that far from the end.
-        </para>
+        </simpara>
     </listitem>
     </varlistentry>
     <varlistentry>
     <term><parameter>length</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         If a length is given and is positive, the resulting
         set will have up to that many values in it.
 
@@ -53,7 +53,7 @@
         If a length is not provided, the resulting set
         will contain all values between the index and the
         end of the set.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -61,9 +61,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     A sub-set of the given range.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

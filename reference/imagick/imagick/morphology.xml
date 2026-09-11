@@ -16,12 +16,12 @@
    <methodparam><type>ImagickKernel</type><parameter>ImagickKernel</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Applies a user supplied kernel to the image according to the given morphology method.
 
-  </para>
+  </simpara>
 
- 
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,33 +30,33 @@
    <varlistentry>
     <term><parameter>morphologyMethod</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Which morphology method to use one of the \Imagick::MORPHOLOGY_* constants.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>iterations</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The number of iteration to apply the morphology function. A value of -1 means loop until no change found. How this is applied may depend on the morphology method. Typically this is a value of 1.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>ImagickKernel</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>channel</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -64,9 +64,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -100,7 +100,7 @@
         // Top-left pixel must be black
         // Bottom right pixel must be white
         // We don't care about the rest.
-        
+
 
         $imagick = $this->getCharacterOutline();
         $kernel = \ImagickKernel::fromMatrix(self::$correlateMatrix, [2, 2]);
@@ -441,7 +441,7 @@
         $leftEdgeKernel = \ImagickKernel::fromMatrix([[0, 1]], [1, 0]);
         $rightEdgeKernel = \ImagickKernel::fromMatrix([[1, 0]], [0, 0]);
         $leftEdgeKernel->addKernel($rightEdgeKernel);
-        
+
         $canvas->morphology(\Imagick::MORPHOLOGY_THINNING, 3, $leftEdgeKernel);
         header("Content-Type: image/png");
         echo $canvas->getImageBlob();
@@ -499,7 +499,7 @@
       <![CDATA[
 <?php
         $canvas = $this->getCharacterOutline();
-        $kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "2");        
+        $kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "2");
         $canvas->morphology(\Imagick::MORPHOLOGY_ITERATIVE, 3, $kernel);
         $canvas->autoLevelImage();
         header("Content-Type: image/png");

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagedepth">
+<refentry xml:id="imagick.setimagedepth" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageDepth</refname>
   <refpurpose>Sets the image depth</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageDepth</methodname>
    <methodparam><type>int</type><parameter>depth</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image depth.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>depth</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,16 +34,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

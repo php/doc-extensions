@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.writeimage">
+<refentry xml:id="imagick.writeimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::writeImage</refname>
   <refpurpose>Writes an image to the specified filename</refpurpose>
@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::writeImage</methodname>
    <methodparam choice="opt"><type>string</type><parameter>filename</parameter><initializer>NULL</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Writes an image to the specified filename. If the filename parameter is NULL,
    the image is written to the filename set by Imagick::readImage() or
    Imagick::setImageFilename().
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,12 +26,12 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Filename where to write the image. The extension of the filename
-       defines the type of the file. 
+       defines the type of the file.
        Format can be forced regardless of file extension using format: prefix,
        for example "jpg:test.png".
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -40,9 +40,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

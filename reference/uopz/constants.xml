@@ -4,9 +4,9 @@
 <appendix xml:id="uopz.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
  &extension.constants;
- <para>
+ <simpara>
  The following opcodes are defined as constants by uopz before 5.0.0:
- </para>
+ </simpara>
  <para>
   <variablelist>
    <varlistentry xml:id="constant.zend-exit">
@@ -98,11 +98,11 @@
    </varlistentry>
   </variablelist>
  </para>
- <para>
+ <simpara>
   The following constants control the VM's behaviour after a user handler is invoked,
   be extremely careful!
   These constants are removed as of uopz 5.0.0.
- </para>
+ </simpara>
  <para>
   <variablelist>
    <varlistentry xml:id="constant.zend-user-opcode-continue">
@@ -173,9 +173,9 @@
    </varlistentry>
   </variablelist>
  </para>
- <para>
+ <simpara>
   The following modifiers are registered as constants by uopz
- </para>
+ </simpara>
  <para>
   <variablelist>
    <varlistentry xml:id="constant.zend-acc-public">

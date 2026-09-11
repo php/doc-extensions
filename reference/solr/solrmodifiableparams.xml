@@ -11,9 +11,9 @@
 <!-- {{{ SolrModifiableParams intro -->
   <section xml:id="solrmodifiableparams.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents a collection of name-value pairs sent to the Solr server during a request.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,22 +29,22 @@
      <ooclass>
       <classname>SolrModifiableParams</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>SolrParams</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>Serializable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrmodifiableparams')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])"/>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrmodifiableparams')/db:refentry/db:refsect1[@role='description']/descendant::db:destructorsynopsis[not(@role='procedural')])"/>
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrparams')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
 

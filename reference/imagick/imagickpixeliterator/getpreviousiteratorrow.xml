@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.getpreviousiteratorrow">
+<refentry xml:id="imagickpixeliterator.getpreviousiteratorrow" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixelIterator::getPreviousIteratorRow</refname>
   <refpurpose>Returns the previous row</refpurpose>
@@ -13,17 +13,17 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the previous row as an array of pixel wands from the pixel iterator.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the previous row as an array of ImagickPixelWand objects from the
    ImagickPixelIterator, throwing ImagickPixelIteratorException on error.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

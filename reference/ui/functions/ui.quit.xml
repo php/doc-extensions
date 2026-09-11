@@ -13,9 +13,9 @@
    <type>void</type><methodname>UI\quit</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall cause the main loop to be exited
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

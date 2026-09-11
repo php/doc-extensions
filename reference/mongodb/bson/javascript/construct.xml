@@ -42,7 +42,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if <parameter>code</parameter> contains null bytes.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if <parameter>code</parameter> contains null bytes.</member>
   </simplelist>
  </refsect1>
 
@@ -61,7 +61,7 @@
       <entry>PECL mongodb 1.2.0</entry>
       <entry>
        <simpara>
-        <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname>
+        <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname>
         is thrown if <parameter>code</parameter> contains null bytes.
         Previously, values would be truncated at the first null byte.
        </simpara>

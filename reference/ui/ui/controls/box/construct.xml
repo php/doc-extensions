@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Box::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>orientation</parameter><initializer>UI\Controls\Box::Horizontal</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new box
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>orientation</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Box::Horizontal or Box::Vertical
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

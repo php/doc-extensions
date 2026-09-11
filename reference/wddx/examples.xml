@@ -5,14 +5,14 @@
  &reftitle.examples;
  <section xml:id="wddx.examples-serialize">
   <title>wddx examples</title>
-  <para>
+  <simpara>
    All the functions that serialize variables use the first
    element of an array to determine whether the array is to be
    serialized into an array or structure. If the first element has
    string key, then it is serialized into a structure, otherwise,
    into an array.
-  </para>
-  
+  </simpara>
+
   <example>
    <title>Serializing a single value with WDDX</title>
    <programlisting role="php">
@@ -22,9 +22,9 @@ echo wddx_serialize_value("PHP to WDDX packet example", "PHP packet");
 ?>
 ]]>
    </programlisting>
-   <para>
+   <simpara>
     This example will produce:
-   </para>
+   </simpara>
    <screen>
 <![CDATA[
 <wddxPacket version='1.0'><header comment='PHP packet'/><data>
@@ -51,9 +51,9 @@ echo $packet;
 ?>
 ]]>
    </programlisting>
-   <para>
+   <simpara>
     This example will produce:
-   </para>
+   </simpara>
    <screen>
 <![CDATA[
 <wddxPacket version='1.0'><header comment='PHP'/><data><struct>
@@ -65,11 +65,11 @@ echo $packet;
   </example>
 
   <note>
-   <para>
+   <simpara>
     Strings should be encoded in UTF-8; to handle other encodings, convert
     the string first using <function>mb_convert_encoding</function>,
     <methodname>UConverter::transcode</methodname>, or <function>iconv</function>.
-   </para>
+   </simpara>
   </note>
  </section>
 </chapter>

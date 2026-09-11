@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Check::setChecked</methodname>
    <methodparam><type>bool</type><parameter>checked</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall change the status of this Check
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>checked</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new status
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

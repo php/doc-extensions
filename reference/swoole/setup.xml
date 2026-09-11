@@ -6,37 +6,37 @@
 
  <section xml:id="swoole.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    Swoole requires the libbrotli library.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling --enable-swoole-curl option requires the libcurl library, and both PHP and Swoole must link to the
    same libcurl shared library and headers to avoid undefined behavior.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling --enable-iouring option requires liburing library (version >= 2.0) and Linux kernel (version >= 5.12).
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling --enable-swoole-thread option requires PHP to be in ZTS (Zend Thread Safety) mode.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling the --enable-cares option requires the libc-ares library.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling the --enable-zstd option requires the libzstd library (version >= 1.4.0).
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling the --enable-swoole-sqlite option requires the libsqlite library.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling the --enable-swoole-pgsql option requires the libpq library.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling the --with-swoole-odbc option requires the unixodbc-dev library.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Enabling the --with-swoole-oracle option requires the Oracle Instant Client libraries.
-  </para>
+  </simpara>
  </section>
 
  <!-- {{{ Installation -->

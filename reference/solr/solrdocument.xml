@@ -11,9 +11,9 @@
 <!-- {{{ SolrDocument intro -->
   <section xml:id="solrdocument.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents a Solr document retrieved from a query response.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -30,7 +30,7 @@
       <modifier>final</modifier>
       <classname>SolrDocument</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>ArrayAccess</interfacename>
      </oointerface>
@@ -81,7 +81,7 @@
      <varname linkend="solrdocument.constants.sort-field-boost-value">SolrDocument::SORT_FIELD_BOOST_VALUE</varname>
      <initializer>4</initializer>
     </fieldsynopsis>
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrdocument')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])"/>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrdocument')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
@@ -91,7 +91,7 @@
 
   </section>
 
-  
+
 <!-- {{{ SolrDocument constants -->
   <section xml:id="solrdocument.constants">
    &reftitle.constants;
@@ -100,42 +100,42 @@
     <varlistentry xml:id="solrdocument.constants.sort-default">
      <term><constant>SolrDocument::SORT_DEFAULT</constant></term>
      <listitem>
-      <para>Default mode for sorting fields within the document.</para>
+      <simpara>Default mode for sorting fields within the document.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrdocument.constants.sort-asc">
      <term><constant>SolrDocument::SORT_ASC</constant></term>
      <listitem>
-      <para>Sorts the fields in ascending order</para>
+      <simpara>Sorts the fields in ascending order</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrdocument.constants.sort-desc">
      <term><constant>SolrDocument::SORT_DESC</constant></term>
      <listitem>
-      <para>Sorts the fields in descending order</para>
+      <simpara>Sorts the fields in descending order</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrdocument.constants.sort-field-name">
      <term><constant>SolrDocument::SORT_FIELD_NAME</constant></term>
      <listitem>
-      <para>Sorts the fields by field name.</para>
+      <simpara>Sorts the fields by field name.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrdocument.constants.sort-field-value-count">
      <term><constant>SolrDocument::SORT_FIELD_VALUE_COUNT</constant></term>
      <listitem>
-      <para>Sorts the fields by number of values in each field.</para>
+      <simpara>Sorts the fields by number of values in each field.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrdocument.constants.sort-field-boost-value">
      <term><constant>SolrDocument::SORT_FIELD_BOOST_VALUE</constant></term>
      <listitem>
-      <para>Sorts the fields by their boost values.</para>
+      <simpara>Sorts the fields by their boost values.</simpara>
      </listitem>
     </varlistentry>
 

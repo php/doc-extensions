@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimageformat">
+<refentry xml:id="imagick.setimageformat" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageFormat</refname>
   <refpurpose>Sets the format of a particular image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageFormat</methodname>
    <methodparam><type>string</type><parameter>format</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the format of a particular image in a sequence.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,10 +24,10 @@
     <varlistentry>
      <term><parameter>format</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        String presentation of the image format. Format support
        depends on the ImageMagick installation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

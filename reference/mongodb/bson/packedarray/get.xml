@@ -48,7 +48,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> if the index is not present in the array.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if the index is not present in the array.</member>
   </simplelist>
  </refsect1>
 

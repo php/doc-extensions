@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-restore">
+<refentry xml:id="function.ibase-restore" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_restore</refname>
   <refpurpose>Initiates a restore task in the service manager and returns immediately</refpurpose>
@@ -53,7 +53,7 @@
    <varlistentry>
     <term><parameter>options</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Additional options to pass to the database server for restore.
       The <parameter>options</parameter> parameter can be a combination
       of the following constants:
@@ -68,7 +68,7 @@
       <constant>IBASE_PRP_SWEEP_INTERVAL</constant>,
       <constant>IBASE_RES_CREATE</constant>.
       Read the section about <xref linkend="ibase.constants"/> for further information.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>

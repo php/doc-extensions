@@ -13,9 +13,9 @@
    <type>void</type><methodname>uopz_unset_mock</methodname>
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Unsets the previously set mock for <parameter>class</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the mocked class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,17 +34,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   A <classname>RuntimeException</classname> is thrown, if no mock was previously
+  <simpara>
+   A <exceptionname>RuntimeException</exceptionname> is thrown, if no mock was previously
    set for <parameter>class</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

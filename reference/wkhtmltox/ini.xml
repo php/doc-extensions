@@ -27,9 +27,9 @@
   </table>
   &ini.php.constants;
  </para>
- 
+
  &ini.descriptions.title;
- 
+
  <para>
   <variablelist>
    <varlistentry xml:id="ini.wkhtmltox.graphics">
@@ -38,9 +38,9 @@
      <type>bool</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Allow libwkhtmltox to use graphics.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
 

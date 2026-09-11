@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    This function inspects the last returned Extended Service
    result from a server. An Extended Service is  initiated
    by either <function>yaz_item_order</function> or
    <function>yaz_es</function>.
-  </para>
+  </simpara>
 
  </refsect1>
  <refsect1 role="parameters">
@@ -29,9 +29,9 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -40,11 +40,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns array with element <literal>targetReference</literal>
    for the reference for the extended service operation (generated
    and returned from the server).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

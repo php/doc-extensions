@@ -15,10 +15,10 @@
    <methodparam choice="opt"><type>int</type><parameter>dec_by</parameter><initializer>1</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter role="reference">success</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Decrements the value associated with the <parameter>key</parameter> by 1 or as specified 
+  <simpara>
+   Decrements the value associated with the <parameter>key</parameter> by 1 or as specified
    by <parameter>dec_by</parameter>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -27,29 +27,29 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
-       The <parameter>key</parameter> that was used to store the variable in the cache. 
+      <simpara>
+       The <parameter>key</parameter> that was used to store the variable in the cache.
        <parameter>key</parameter> is case sensitive.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>dec_by</parameter></term>
      <listitem>
-      <para>
-       The value by which the variable associated with the <parameter>key</parameter> will get decremented. 
-       If the argument is a floating point number it will be truncated to nearest integer. The variable 
-       associated with the <parameter>key</parameter> should be of type <literal>long</literal>, otherwise 
+      <simpara>
+       The value by which the variable associated with the <parameter>key</parameter> will get decremented.
+       If the argument is a floating point number it will be truncated to nearest integer. The variable
+       associated with the <parameter>key</parameter> should be of type <literal>long</literal>, otherwise
        the function fails and returns &false;.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>success</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Will be set to &true; on success and &false; on failure.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -78,10 +78,10 @@ var_dump($success);
     &example.outputs;
     <screen>
 <![CDATA[
-int(2922) 
+int(2922)
 bool(true)
 ]]>
-    </screen>    
+    </screen>
    </example>
   </para>
  </refsect1>

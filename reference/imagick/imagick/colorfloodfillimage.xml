@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.colorfloodfillimage">
+<refentry xml:id="imagick.colorfloodfillimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::colorFloodfillImage</refname>
   <refpurpose>Changes the color value of any pixel that matches target</refpurpose>
@@ -20,10 +20,10 @@
    <methodparam><type>int</type><parameter>x</parameter></methodparam>
    <methodparam><type>int</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Changes the color value of any pixel that matches target and is an
    immediate neighbor.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,43 +33,43 @@
     <varlistentry>
      <term><parameter>fill</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel object containing the fill color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The amount of fuzz. For example, set fuzz to 10 and the color red at
        intensities of 100 and 102 respectively are now interpreted as the
        same color for the purposes of the floodfill.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bordercolor</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel object containing the border color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        X start position of the floodfill
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Y start position of the floodfill
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -78,16 +78,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.skewx">
+<refentry xml:id="imagickdraw.skewx" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::skewX</refname>
   <refpurpose>Skews the current coordinate system in the horizontal direction</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>float</type><parameter>degrees</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Skews the current coordinate system in the horizontal direction.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>degrees</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        degrees to skew
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -49,7 +49,7 @@
       <programlisting role="php">
       <![CDATA[
 <?php
-function skewX($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor, 
+function skewX($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,
                $startX, $startY, $endX, $endY, $skew) {
 
     $draw = new \ImagickDraw();

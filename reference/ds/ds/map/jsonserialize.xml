@@ -9,13 +9,13 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>
+  <simpara>
    See <function>JsonSerializable::jsonSerialize</function>
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     You should never need to call this directly.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

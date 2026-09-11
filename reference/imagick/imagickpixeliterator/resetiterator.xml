@@ -13,18 +13,18 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Resets the pixel iterator.  Use it in conjunction with
    ImagickPixelIterator::getNextIteratorRow() to iterate over all the pixels
    in a pixel container.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -51,7 +51,7 @@ function resetIterator($imagePath) {
             if ($column % 2) {
 
                 /* Make every second pixel 25% red*/
-                $pixel->setColorValue(\Imagick::COLOR_RED, 64); 
+                $pixel->setColorValue(\Imagick::COLOR_RED, 64);
             }
         }
         /* Sync the iterator, this is important to do on each iteration */

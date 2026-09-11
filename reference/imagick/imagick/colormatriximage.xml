@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::colorMatrixImage</methodname>
    <methodparam><type>array</type><parameter>color_matrix</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Apply color transformation to an image. The method permits saturation changes, hue rotation, luminance to alpha, and various other effects. Although variable-sized transformation matrices can be used, typically one uses a 5x5 matrix for an RGBA image and a 6x6 for CMYKA (or RGBA with offsets). The matrix is similar to those used by Adobe Flash except offsets are in column 6 rather than 5 (in support of CMYKA images) and offsets are normalized (divide Flash offset by 255)
-  </para>
+  </simpara>
 
 
  </refsect1>
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>color_matrix</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -73,7 +73,7 @@ function colorMatrixImage($imagePath, $colorMatrix) {
 
     $imagick->setImageFormat('png');
     $imagick->colorMatrixImage($colorMatrix);
-    
+
     $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0);
 
     header("Content-Type: image/png");

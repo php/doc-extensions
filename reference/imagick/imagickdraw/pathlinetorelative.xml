@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathlinetorelative">
+<refentry xml:id="imagickdraw.pathlinetorelative" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathLineToRelative</refname>
   <refpurpose>Draws a line path</refpurpose>
@@ -14,10 +14,10 @@
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a line path from the current point to the given coordinate using
    relative coordinates. The coordinate then becomes the new current point.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

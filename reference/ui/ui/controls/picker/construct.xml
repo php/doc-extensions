@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Picker::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>type</parameter><initializer>UI\Controls\Picker::Date</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Construct a new Picker of the given type
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>type</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Picker::Date, Picker::Time, or Picker::DateTime
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

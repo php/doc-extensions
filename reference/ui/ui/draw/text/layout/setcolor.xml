@@ -21,9 +21,9 @@
    <methodparam choice="opt"><type>int</type><parameter>start</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>end</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the Color for all of, or a range of the text in the Layout
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -33,25 +33,25 @@
    <varlistentry>
     <term><parameter>color</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The color to use
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>start</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The starting character
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>end</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The ending character, by default the end of the string
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

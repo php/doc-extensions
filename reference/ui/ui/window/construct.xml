@@ -15,9 +15,9 @@
    <methodparam><type>Size</type><parameter>size</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>menu</parameter><initializer>&false;</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Window
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,25 +27,25 @@
    <varlistentry>
     <term><parameter>title</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The title of the Window
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The size of the Window
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>menu</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Menu switch
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -57,7 +57,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

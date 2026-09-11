@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-blob-open">
+<refentry xml:id="function.fbird-blob-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_blob_open</refname>
   <refpurpose>&Alias; <function>ibase_blob_open</function></refpurpose>

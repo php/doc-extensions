@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Label::__construct</methodname>
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Label
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>text</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The text for this label
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Entry intro -->
   <section xml:id="ui-controls-entry.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     An Entry is a text entry control, suitable for entering plain text, passwords, or search terms.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -75,21 +75,21 @@
     <varlistentry xml:id="ui-controls-entry.constants.normal">
      <term><constant>UI\Controls\Entry::Normal</constant></term>
      <listitem>
-      <para>A normal single line entry</para>
+      <simpara>A normal single line entry</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-entry.constants.password">
      <term><constant>UI\Controls\Entry::Password</constant></term>
      <listitem>
-      <para>A password entry</para>
+      <simpara>A password entry</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-entry.constants.search">
      <term><constant>UI\Controls\Entry::Search</constant></term>
      <listitem>
-      <para>A search entry</para>
+      <simpara>A search entry</simpara>
      </listitem>
     </varlistentry>
 

@@ -8,25 +8,25 @@
  xmlns="http://docbook.org/ns/docbook">
  <title>The ZookeeperNoNodeException class</title>
  <titleabbrev>ZookeeperNoNodeException</titleabbrev>
- 
+
  <partintro>
- 
+
 <!-- {{{ Zookeeper intro -->
   <section xml:id="zookeepernonodeexception.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     The ZooKeeper exception (when node does not exist) handling class.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
- 
+
   <section xml:id="zookeepernonodeexception.synopsis">
    &reftitle.classsynopsis;
- 
+
 <!-- {{{ Synopsis -->
    <classsynopsis>
     <ooclass><classname>ZookeeperNoNodeException</classname></ooclass>
- 
+
 <!-- {{{ Class synopsis -->
     <classsynopsisinfo>
      <ooclass>
@@ -48,9 +48,9 @@
   </section>
 
  </partintro>
- 
+
 </reference>
- 
+
 <!-- Keep this comment at the end of the file
 Local variables:
 mode: sgml

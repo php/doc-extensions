@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.annotateimage">
+<refentry xml:id="imagick.annotateimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::annotateImage</refname>
   <refpurpose>Annotates an image with text</refpurpose>
@@ -16,9 +16,9 @@
    <methodparam><type>float</type><parameter>angle</parameter></methodparam>
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Annotates an image with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,41 +28,41 @@
     <varlistentry>
      <term><parameter>draw_settings</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The ImagickDraw object that contains settings for drawing the text
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Horizontal offset in pixels to the left of text
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Vertical offset in pixels to the baseline of text
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>angle</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The angle at which to write the text
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>text</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The string to draw
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -71,9 +71,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -81,9 +81,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::annotateImage</function>:</title>
-    <para>
+    <simpara>
      Annotate text on an empty image
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

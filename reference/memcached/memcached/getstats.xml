@@ -12,12 +12,12 @@
    <modifier>public</modifier> <type class="union"><type>array</type><type>false</type></type><methodname>Memcached::getStats</methodname>
    <methodparam choice="opt"><type class="union"><type>string</type><type>null</type></type><parameter>type</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getStats</function> returns an array containing the
    state of all available memcache servers. See
    <link xlink:href="&url.memcache.protocol;">memcache protocol</link>
    specification for details on these statistics.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The type of statistics to fetch.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array of server statistics, one entry per server, &return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

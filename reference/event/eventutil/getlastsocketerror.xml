@@ -17,9 +17,9 @@
     <parameter>socket</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the most recent socket error.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -29,18 +29,18 @@
      <parameter>socket</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Socket resource, stream or a file descriptor of a socket.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the most recent socket error.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

@@ -37,7 +37,7 @@
   <simplelist>
    &mongodb.throws.argumentparsing;
    <member>Throws
-   <classname>MongoDB\Driver\Exception\CommandException</classname> if the
+   <exceptionname>MongoDB\Driver\Exception\CommandException</exceptionname> if the
    server could not commit the transaction (e.g. due to conflicts, network
    issues). In case the exception's
    <methodname>MongoDB\Driver\Exception\CommandException::getResultDocument</methodname>
@@ -49,7 +49,7 @@
    <methodname>MongoDB\Driver\Exception\RuntimeException::hasErrorLabel</methodname>
    should be used to test for this situation instead.</member>
    <member>Throws
-   <classname>MongoDB\Driver\Exception\RuntimeException</classname> if the
+   <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if the
    transaction could not be committed (e.g. a transaction was not
    started).</member>
   </simplelist>

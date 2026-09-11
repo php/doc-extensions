@@ -32,7 +32,7 @@
      <ooclass>
       <classname>Yaf_Response_Cli</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>Yaf_Response_Abstract</classname>
@@ -41,7 +41,7 @@
 <!-- }}} -->
     <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
 
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-response-abstract')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
 
@@ -50,7 +50,7 @@
 
   </section>
 
-  
+
 <!-- {{{ Yaf_Response_Cli properties -->
   <section xml:id="yaf-response-cli.props">
    &reftitle.properties;
@@ -58,19 +58,19 @@
     <varlistentry xml:id="yaf-response-cli.props.header">
      <term><varname>_header</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-response-cli.props.body">
      <term><varname>_body</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-response-cli.props.sendheader">
      <term><varname>_sendheader</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagevirtualpixelmethod">
+<refentry xml:id="imagick.getimagevirtualpixelmethod" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageVirtualPixelMethod</refname>
   <refpurpose>Returns the virtual pixel method</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageVirtualPixelMethod</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the virtual pixel method for the specified image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the virtual pixel method on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

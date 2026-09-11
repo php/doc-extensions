@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Combo::getSelected</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall retrieve the index of the option selected in this Combo
-  </para>
+  </simpara>
 
  </refsect1>
 

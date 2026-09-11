@@ -17,9 +17,9 @@
    <methodparam><type>int</type><parameter>num_neurons2</parameter></methodparam>
    <methodparam rep="repeat"><type>int</type><parameter>num_neuronsN</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a standard backpropagation neural network, which is not fully connected.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,43 +28,43 @@
    <varlistentry>
     <term><parameter>connection_rate</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The connection rate controls how many connections there will be in the network. If the connection rate
       is set to 1, the network will be fully connected, but if it is set to 0.5 only half of the connections
       will be set. A connection rate of 1 will yield the same result as <function>fann_create_standard</function>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_layers</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The total number of layers including the input and the output layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neurons1</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in the first layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neurons2</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in the second layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neuronsN</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in other layers.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -72,9 +72,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a neural network resource on success, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
 

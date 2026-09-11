@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Menu::__construct</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Menu
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name (text) for the menu
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

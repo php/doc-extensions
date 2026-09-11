@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>SolrException::getInternalInfo</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns internal information where the Exception was thrown.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing internal information where the error was thrown. Used only for debugging by extension developers.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

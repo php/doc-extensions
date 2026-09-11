@@ -16,10 +16,10 @@
     <parameter>flags</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
-   Sets one or more flags to configure what parts of 
+  <simpara>
+   Sets one or more flags to configure what parts of
    the eventual EventBase will be initialized, and how they'll work.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -29,19 +29,19 @@
      <parameter>flags</parameter>
     </term>
     <listitem>
-     <para>
-      One of <literal>EventBase::LOOP_*</literal> constants. 
+     <simpara>
+      One of <literal>EventBase::LOOP_*</literal> constants.
       See <link linkend="eventbase.constants">EventBase constants</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
 <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

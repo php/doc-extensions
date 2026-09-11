@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-getprotocol">
+<refentry xml:id="function.gnupg-getprotocol" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_getprotocol</refname>
   <refpurpose>Returns the currently active protocol for all operations</refpurpose>

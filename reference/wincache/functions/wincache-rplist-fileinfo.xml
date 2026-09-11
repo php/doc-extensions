@@ -13,10 +13,10 @@
    <type class="union"><type>array</type><type>false</type></type><methodname>wincache_rplist_fileinfo</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   Retrieves information about cached mappings between relative file paths 
+  <simpara>
+   Retrieves information about cached mappings between relative file paths
    and corresponding absolute file paths.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>summaryonly</parameter></term>
      <listitem>
-      <para>
+      <simpara>
 
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,21 +37,21 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array of meta data about the resolve file path cache &return.falseforfailure;
-  </para>
+  </simpara>
   <para>
    The array returned by this function contains the following elements:
    <itemizedlist spacing="compact">
     <listitem>
      <simpara>
-      <literal>total_file_count</literal> - total number of file path 
+      <literal>total_file_count</literal> - total number of file path
        mappings stored in the cache
      </simpara>
     </listitem>
     <listitem>
      <para>
-      <literal>rplist_entries</literal> - an array that contains the information about all 
+      <literal>rplist_entries</literal> - an array that contains the information about all
        the cached file paths:
       <itemizedlist spacing="compact">
        <listitem>

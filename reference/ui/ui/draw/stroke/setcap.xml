@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Stroke::setCap</methodname>
    <methodparam><type>int</type><parameter>cap</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the line cap setting for this Stroke
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>cap</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       UI\Draw\Line\Cap::Flat, UI\Draw\Line\Cap::Round, or UI\Draw\Line\Cap::Square
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

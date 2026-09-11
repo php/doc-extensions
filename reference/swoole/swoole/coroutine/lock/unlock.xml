@@ -19,15 +19,15 @@
   <title>Unlock Behavior</title>
   <orderedlist>
    <listitem>
-    <para>
+    <simpara>
      <emphasis>With io_uring futex:</emphasis> the system will precisely wake up one coroutine in the waiting queue.
-    </para>
+    </simpara>
    </listitem>
    <listitem>
-    <para>
+    <simpara>
      <emphasis>Without io_uring futex:</emphasis> waiting coroutines need to wait for their backoff time to end
      and compete to reacquire the lock.
-    </para>
+    </simpara>
    </listitem>
   </orderedlist>
  </refsect1>

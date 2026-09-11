@@ -18,9 +18,9 @@
    <methodparam><type>int</type><parameter>seconds</parameter></methodparam>
    <methodparam><type>int</type><parameter>microseconds</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the new interval. An interval of 0 will pause the executor until a new interval has been set
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -30,17 +30,17 @@
    <varlistentry>
     <term><parameter>seconds</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>microseconds</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -48,9 +48,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Indication of success
-  </para>
+  </simpara>
  </refsect1>
 
 

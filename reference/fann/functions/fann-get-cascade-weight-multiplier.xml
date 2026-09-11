@@ -13,13 +13,13 @@
    <type>float</type><methodname>fann_get_cascade_weight_multiplier</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The weight multiplier is a parameter which is used to multiply the weights from the candidate neuron before adding
    the neuron to the neural network. This parameter is usually between 0 and 1, and is used to make the training a bit less aggressive.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default weight multiplier is 0.4.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The weight multiplier, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

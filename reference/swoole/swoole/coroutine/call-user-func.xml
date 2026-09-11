@@ -14,9 +14,9 @@
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
    <methodparam rep="repeat"><type>mixed</type><parameter>args</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Calls the <parameter>callback</parameter> given by the first parameter and passes the remaining parameters as arguments.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
       <varlistentry>
         <term><parameter>callback</parameter></term>
         <listitem>
-        <para>
+        <simpara>
           The <type>callable</type> to be called.
-        </para>
+        </simpara>
         </listitem>
       </varlistentry>
       <varlistentry>
      <term><parameter>args</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Zero or more parameters to be passed to the callback.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 </refentry>

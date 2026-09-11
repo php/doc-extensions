@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\TableDelete::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Initiated by using the delete() method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

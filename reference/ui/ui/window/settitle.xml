@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Window::setTitle</methodname>
    <methodparam><type>string</type><parameter>title</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the title for this Window
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>title</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new title
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

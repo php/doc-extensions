@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.addimage">
+<refentry xml:id="imagick.addimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::addImage</refname>
   <refpurpose>Adds new image to Imagick object image list</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::addImage</methodname>
    <methodparam><type>Imagick</type><parameter>source</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds new image to Imagick object from the current position of the source object.
    After the operation iterator position is moved at the end of the list.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>source</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The source Imagick object
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,16 +36,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

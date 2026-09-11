@@ -6,27 +6,27 @@
 
  <section xml:id="mysql-xdevapi.requirements">
   &reftitle.required;
-  <para>
-   This extension requires a MySQL 8+ server with the X plugin 
+  <simpara>
+   This extension requires a MySQL 8+ server with the X plugin
    enabled (default).
-  </para>
-  <para>
-   Prerequisite libraries for compiling this extension are: 
+  </simpara>
+  <simpara>
+   Prerequisite libraries for compiling this extension are:
    Boost (1.53.0 or higher), OpenSSL, and Protobuf.
-  </para>
+  </simpara>
 
  </section>
 
  <section xml:id="mysql-xdevapi.installation">
   &reftitle.install;
 
-  <para>
+  <simpara>
    &pecl.moved;
-  </para>
+  </simpara>
 
-  <para>
+  <simpara>
    An example installation procedure on Ubuntu 18.04 with PHP 7.2:
-  </para>
+  </simpara>
 <programlisting>
 <![CDATA[
 // Dependencies
@@ -40,11 +40,11 @@ $ pecl install mysql_xdevapi
 ]]>
 </programlisting>
 
-  <para>
+  <simpara>
     The <literal>pecl install</literal> command does not enable PHP extensions (by default)
-    and enabling PHP extensions can be done in several ways. 
+    and enabling PHP extensions can be done in several ways.
     Another PHP 7.2 on Ubuntu 18.04 example:
-  </para>
+  </simpara>
 
 <programlisting>
 <![CDATA[
@@ -67,10 +67,10 @@ pdo_mysql
 ]]>
 </programlisting>
 
-  <para>
+  <simpara>
    &pecl.info;
    <link xlink:href="&url.pecl.package;mysql_xdevapi">&url.pecl.package;mysql_xdevapi</link>.
-  </para>
+  </simpara>
  </section>
 
  <!-- {{{ Configuration -->
@@ -79,67 +79,67 @@ pdo_mysql
 
   <section xml:id="mysql-xdevapi.build">
    <title>Building / Compiling From Source</title>
-   <para>
+   <simpara>
      Considerations for compiling this extension from source.
-   </para>
+   </simpara>
 
     <itemizedlist>
       <listitem>
-        <para>
+        <simpara>
           The extension name is 'mysql_xdevapi', so use <literal>--enable-mysql-xdevapi</literal>.
-        </para>
+        </simpara>
       </listitem>
       <listitem>
-        <para>
+        <simpara>
           Boost: required,  optionally use the --with-boost=DIR configure option
           or set the MYSQL_XDEVAPI_BOOST_ROOT environment variable. Only the
           boost header files are required; not the binaries.
-        </para>
+        </simpara>
       </listitem>
       <listitem>
-        <para>
+        <simpara>
           Google Protocol Buffers (protobuf): required,  optionally use the --with-protobuf=DIR
           configure option or set the MYSQL_XDEVAPI_PROTOBUF_ROOT environment variable.
-        </para>
-        <para>
+        </simpara>
+        <simpara>
           Optionally use <literal>make protobufs</literal> to generate protobuf files (*.pb.cc/.h),
           and <literal>make clean-protobufs</literal> to delete generate protobuf files.
-        </para>
-        <para>
+        </simpara>
+        <simpara>
           Windows specific protobuf note: depending on your environment,
           the static library with a multi-threaded DLL runtime may be needed.
           To prepare, use the following options:
           <emphasis>-Dprotobuf_MSVC_STATIC_RUNTIME=OFF -Dprotobuf_BUILD_SHARED_LIBS=OFF</emphasis>
-        </para>
+        </simpara>
       </listitem>
       <listitem>
-        <para>
+        <simpara>
           Google Protocol Buffers / protocol compiler (protoc): required, ensure that proper
           'protoc' is available in the PATH while building. It is especially
           important as Windows PHP SDK batch scripts may overwrite the environment.
-        </para>
+        </simpara>
       </listitem>
         <listitem>
-          <para>
+          <simpara>
             Bison: required, and available from the PATH.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
             Windows specific bison note: we strongly recommended that bison delivered with the
             chosen PHP SDKis used else an error similar to "zend_globals_macros.h(39):
             error C2375: 'zendparse': redefinition; different linkage
             Zend/zend_language_parser.h(214): note: see declaration of 'zendparse'" may
             be the result. Also, Windows PHP SDK batch scripts may overwrite the environment.
-          </para>
+          </simpara>
         </listitem>
       <listitem>
-        <para>
+        <simpara>
           Windows Specific Notes: To prepare the environment, see the official
-          Windows build documentation for 
+          Windows build documentation for
           <link xlink:href="&url.php.win.build2;">the current SDK</link>.
-        </para>
-        <para>
+        </simpara>
+        <simpara>
           We recommend using the backslash '\\' instead of a slash '/' for all paths.
-        </para>
+        </simpara>
       </listitem>
     </itemizedlist>
   </section>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrPingResponse</type><methodname>SolrClient::ping</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Checks if the Solr server is still alive. Sends a HEAD request to the Apache Solr server.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,21 +26,21 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrPingResponse</type> object on success and throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-    Throws <classname>SolrServerException</classname> if the Solr Server had failed to satisfy the request.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+    Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to satisfy the request.
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>

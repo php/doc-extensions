@@ -23,9 +23,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns instance of <classname>ZookeeperConfig</classname>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

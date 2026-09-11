@@ -6,28 +6,28 @@
 
  <section xml:id="ui.requirements">
   &reftitle.required;
-  <para>
-   Installation requires the libui library, and PHP 7 or newer. 
-  </para>
-  <para>
-   This extension requires the <link xlink:href="&url.ui.libui;">libui library</link> 
-   version 0.1.0 or higher to be installed. See the libui documentation 
+  <simpara>
+   Installation requires the libui library, and PHP 7 or newer.
+  </simpara>
+  <simpara>
+   This extension requires the <link xlink:href="&url.ui.libui;">libui library</link>
+   version 0.1.0 or higher to be installed. See the libui documentation
    for a list of prerequisites.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="ui.installation">
   &reftitle.install;
-  <para>
+  <simpara>
    &pecl.moved;
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    &pecl.info;
-   <link xlink:href="&url.pecl.package;ui">&url.pecl.package;ui</link>. 
-  </para>
-  <para>
+   <link xlink:href="&url.pecl.package;ui">&url.pecl.package;ui</link>.
+  </simpara>
+  <simpara>
    &pecl.windows.download.avail;
-  </para>
+  </simpara>
  </section>
 
 </chapter>

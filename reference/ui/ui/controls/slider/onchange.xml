@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Slider::onChange</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the value of this Slider changes
-  </para>
+  </simpara>
 
  </refsect1>
 

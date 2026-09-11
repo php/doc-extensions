@@ -11,24 +11,24 @@
 <!-- {{{ Yaf_Loader intro -->
   <section xml:id="yaf-loader.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     <classname>Yaf_Loader</classname> introduces a comprehensive autoloading
     solution for Yaf.
-   </para>
-   <para>
-    The first time an instance of <classname>Yaf_Application</classname> is retrieved, 
+   </simpara>
+   <simpara>
+    The first time an instance of <classname>Yaf_Application</classname> is retrieved,
     <classname>Yaf_Loader</classname> will instance a singleton, and registers itself with
     spl_autoload.  You retrieve an instance using the <methodname>Yaf_Loader::getInstance</methodname>
-   </para>
+   </simpara>
    <para>
     <classname>Yaf_Loader</classname> attempt to load a class only one shot, if
     failed, depend on <link
      linkend="ini.yaf.use-spl-autoload">yaf.use_spl_autoload</link>, if this
-    config is On <methodname>Yaf_Loader::autoload</methodname> will return 
-    &false;, thus give the chance to other autoload function. if it is Off 
-    (by default), <methodname>Yaf_Loader::autoload</methodname> will return 
-    &true;, and more important is that a very useful warning will be triggered 
-    (very useful to find out why a class could not be loaded). 
+    config is On <methodname>Yaf_Loader::autoload</methodname> will return
+    &false;, thus give the chance to other autoload function. if it is Off
+    (by default), <methodname>Yaf_Loader::autoload</methodname> will return
+    &true;, and more important is that a very useful warning will be triggered
+    (very useful to find out why a class could not be loaded).
     <note>
      <simpara>
       Please keep yaf.use_spl_autoload Off unless there is some library have
@@ -36,21 +36,21 @@
      </simpara>
     </note>
    </para>
-   <para>
+   <simpara>
     By default, <classname>Yaf_Loader</classname> assume all library (class
-    defined script) store in the <link linkend="ini.yaf.library">global library 
+    defined script) store in the <link linkend="ini.yaf.library">global library
      directory</link>, which is defined in the php.ini(yaf.library).
-   </para>
+   </simpara>
 
-   <para>
+   <simpara>
     If you want <classname>Yaf_Loader</classname> search some
     classes(libraries) in the <link linkend="yaf-loader.props.library">local class
      directory</link>(which is defined in application.ini, and by default,
     it is <link
-     linkend="configuration.yaf.directory">application.directory</link> . "/library"), 
+     linkend="configuration.yaf.directory">application.directory</link> . "/library"),
     you should register the class prefix using the
     <methodname>Yaf_Loader::registerLocalNameSpace</methodname>
-   </para>
+   </simpara>
 
    <para>
     Let's see some examples(assuming APPLICATION_PATH is <link
@@ -91,10 +91,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 <![CDATA[
 class Foo_Bar_Test =>
   // APPLICATION_PATH/library/Foo/Bar/Test.php
-  
+
 class GLO_Name  =>
   // /global_dir/Glo/Name.php
- 
+
 class BarNon_Test
   // /global_dir/Barnon/Test.php
 ]]>
@@ -111,14 +111,14 @@ class \Foo\Bar\Dummy =>
 class \FooBar\Bar\Dummy =>
    // /global_dir/FooBar/Bar/Dummy.php
 ]]>
-    </programlisting> 
+    </programlisting>
    </example>
   </para>
 
-  <para>
+  <simpara>
     You may noticed that all the folder with the first letter capitalized, you can make them
     lowercase by set <link linkend="ini.yaf.lowcase-path">yaf.lowcase_path</link> = On in php.ini
-  </para>
+  </simpara>
 
   <para>
    <classname>Yaf_Loader</classname> is also designed to load the MVC classes,
@@ -225,7 +225,7 @@ class A_B_TestModel =>
      <varname linkend="yaf-loader.props.instance">_instance</varname>
     </fieldsynopsis>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-loader')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-loader')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
@@ -234,7 +234,7 @@ class A_B_TestModel =>
 
   </section>
 
-  
+
 <!-- {{{ Yaf_Loader properties -->
   <section xml:id="yaf-loader.props">
    &reftitle.properties;
@@ -242,30 +242,30 @@ class A_B_TestModel =>
     <varlistentry xml:id="yaf-loader.props.local-ns">
      <term><varname>_local_ns</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-loader.props.library">
      <term><varname>_library</varname></term>
      <listitem>
-      <para>
+      <simpara>
        By default, this value is <link
-        linkend="configuration.yaf.directory">application.directory</link> . "/library", 
+        linkend="configuration.yaf.directory">application.directory</link> . "/library",
        you can change this either in the application.ini(application.library) or call to
       <methodname>Yaf_Loader::setLibraryPath</methodname>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-loader.props.global-library">
      <term><varname>_global_library</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-loader.props.instance">
      <term><varname>_instance</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -274,7 +274,7 @@ class A_B_TestModel =>
 
 
  </partintro>
- 
+
 
  &reference.yaf.entities.yaf-loader;
 

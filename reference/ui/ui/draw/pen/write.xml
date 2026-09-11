@@ -14,9 +14,9 @@
    <methodparam><type>UI\Point</type><parameter>point</parameter></methodparam>
    <methodparam><type>UI\Draw\Text\Layout</type><parameter>layout</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall draw the given text layout at the given point
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The point to perform the drawing
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>layout</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The layout of the text to draw
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

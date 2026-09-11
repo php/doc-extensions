@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Parle\Lexer::reset</methodname>
    <methodparam><type>int</type><parameter>pos</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Reset lexing optionally supplying the desired offset.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>pos</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Reset position.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

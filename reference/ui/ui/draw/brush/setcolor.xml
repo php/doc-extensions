@@ -17,9 +17,9 @@
    <modifier>public</modifier> <type>void</type><methodname>UI\Draw\Brush::setColor</methodname>
    <methodparam><type>int</type><parameter>color</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the color of this brush to the color provided
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -29,9 +29,9 @@
    <varlistentry>
     <term><parameter>color</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Can be a UI\Draw\Color or RRGGBBAA
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

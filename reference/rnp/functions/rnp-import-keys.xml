@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.rnp-import-keys">
+<refentry xml:id="function.rnp-import-keys" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rnp_import_keys</refname>
   <refpurpose>Import keys from PHP string to the keyring and receive JSON describing new/updated keys</refpurpose>

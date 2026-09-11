@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getstrokewidth">
+<refentry xml:id="imagickdraw.getstrokewidth" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getStrokeWidth</refname>
   <refpurpose>Returns the width of the stroke used to draw object outlines</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the width of the stroke used to draw object outlines.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>float</type> describing the stroke width.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

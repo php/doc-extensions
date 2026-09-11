@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setGroupTruncate</methodname>
    <methodparam><type>bool</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     If true, facet counts are based on the most relevant document of each group matching the query.
     The server default value is false.
     group.truncate parameter
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

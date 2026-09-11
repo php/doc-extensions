@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>mysql_xdevapi\ColumnResult::getTableName</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Name of the table for the column.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

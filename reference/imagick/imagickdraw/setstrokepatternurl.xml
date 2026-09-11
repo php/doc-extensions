@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokepatternurl">
+<refentry xml:id="imagickdraw.setstrokepatternurl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setStrokePatternURL</refname>
   <refpurpose>Sets the pattern used for stroking object outlines</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>string</type><parameter>stroke_url</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the pattern used for stroking object outlines.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>stroke_url</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        stroke URL
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

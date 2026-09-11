@@ -16,25 +16,25 @@
    <methodparam><type>int</type><parameter>layer</parameter></methodparam>
    <methodparam><type>int</type><parameter>neuron</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set the activation function for neuron number <literal>neuron</literal> in layer number
    <literal>layer</literal>, counting the input layer as layer 0.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    It is not possible to set activation functions for the neurons in the input layer.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    When choosing an activation function it is important to note that the activation functions have different range.
    <constant>FANN_SIGMOID</constant> is e.g. in the 0 - 1 range while <constant>FANN_SIGMOID_SYMMETRIC</constant> is
    in the -1 - 1 range and <constant>FANN_LINEAR</constant> is unbound.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The supplied activation_function value must be
    one of the <link linkend="constants.fann-activation-funcs">activation functions</link> constants.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The return value is one of the <link linkend="constants.fann-train">activation functions</link> constants.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -49,25 +49,25 @@
    <varlistentry>
     <term><parameter>activation_function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The <link linkend="constants.fann-activation-funcs">activation functions</link> constant.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>layer</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Layer number.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>neuron</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Neuron number.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

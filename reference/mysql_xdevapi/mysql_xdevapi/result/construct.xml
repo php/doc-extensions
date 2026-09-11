@@ -13,10 +13,10 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\Result::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    An object that retrieves generated IDs, AUTO_INCREMENT values, and warnings,
    for a Result set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

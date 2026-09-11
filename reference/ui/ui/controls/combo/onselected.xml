@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Combo::onSelected</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when an option is selected in this Combo
-  </para>
+  </simpara>
 
  </refsect1>
 

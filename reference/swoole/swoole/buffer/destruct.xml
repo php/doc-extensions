@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Swoole\Buffer::__destruct</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 

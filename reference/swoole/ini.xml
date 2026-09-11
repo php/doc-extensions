@@ -68,9 +68,9 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Enable/disable the extension's built-in library.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry xml:id="ini.swoole.enable-fiber-mock">
@@ -79,9 +79,9 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Enable/disable use the xdebug extension to debug Swoole programs.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry xml:id="ini.swoole.enable-preemptive-scheduler">
@@ -90,9 +90,9 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Prevent some coroutines from consuming CPU time for too long in a tight loop (10ms of CPU time), preventing other coroutines from getting scheduled.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry xml:id="ini.swoole.display-errors">
@@ -101,9 +101,9 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Enable/disable displaying Swoole error messages.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry xml:id="ini.swoole.use-shortname">
@@ -112,9 +112,9 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Enable/disable short aliases.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry xml:id="ini.swoole.unixsock-buffer-size">
@@ -123,9 +123,9 @@
      <type>int</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Set the size of the Socket buffer for inter-process communication.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

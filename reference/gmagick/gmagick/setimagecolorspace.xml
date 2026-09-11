@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagick.setimagecolorspace">
+<refentry xml:id="gmagick.setimagecolorspace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Gmagick::setimagecolorspace</refname>
   <refpurpose>Sets the image colorspace</refpurpose>

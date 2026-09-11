@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.liquidrescaleimage">
+<refentry xml:id="imagick.liquidrescaleimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::liquidRescaleImage</refname>
   <refpurpose>Animates an image or images</refpurpose>
@@ -16,12 +16,12 @@
    <methodparam><type>float</type><parameter>rigidity</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    This method scales the images using liquid rescaling method. This method
    is an implementation of a technique called seam carving. In order for this
    method to work as expected ImageMagick must be compiled with liblqr support.
    &imagick.method.available.0x639;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,35 +31,35 @@
     <varlistentry>
      <term><parameter>width</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The width of the target size
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>height</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The height of the target size
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>delta_x</parameter></term>
      <listitem>
-      <para>
-       How much the seam can traverse on x-axis. 
+      <simpara>
+       How much the seam can traverse on x-axis.
        Passing 0 causes the seams to be straight.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>rigidity</parameter></term>
      <listitem>
-      <para>
-       Introduces a bias for non-straight seams. This parameter is 
+      <simpara>
+       Introduces a bias for non-straight seams. This parameter is
        typically 0.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -68,9 +68,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

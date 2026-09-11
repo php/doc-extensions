@@ -6,17 +6,17 @@
   <refname>xdiff_file_bdiff_size</refname>
   <refpurpose>Read a size of file created by applying a binary diff</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>xdiff_file_bdiff_size</methodname>
    <methodparam><type>string</type><parameter>file</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a size of a result file that would be created after applying binary patch from file
    <parameter>file</parameter> to the original file.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,10 +26,10 @@
     <varlistentry>
      <term><parameter>file</parameter></term>
      <listitem>
-      <para>
-       The path to the binary patch created by <function>xdiff_string_bdiff</function> or 
+      <simpara>
+       The path to the binary patch created by <function>xdiff_string_bdiff</function> or
        <function>xdiff_string_rabdiff</function> function.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the size of file that would be created.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -48,10 +48,10 @@
   <para>
    <example>
     <title><function>xdiff_file_bdiff_size</function> example</title>
-    <para>
+    <simpara>
      The following code applies reads a size of file that would be created
      after applying a binary diff.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

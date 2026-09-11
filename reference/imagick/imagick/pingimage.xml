@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.pingimage">
+<refentry xml:id="imagick.pingimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::pingImage</refname>
   <refpurpose>Fetch basic attributes about the image</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::pingImage</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method can be used to query image width, height, size, and
    format without reading the whole image in to memory.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The filename to read the information from.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

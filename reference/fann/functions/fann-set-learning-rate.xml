@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>learning_rate</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the learning rate.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    More info available in <function>fann_get_learning_rate</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,9 +34,9 @@
    <varlistentry>
     <term><parameter>learning_rate</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The learning rate.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-free-result">
+<refentry xml:id="function.ibase-free-result" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_free_result</refname>
   <refpurpose>Free a result set</refpurpose>

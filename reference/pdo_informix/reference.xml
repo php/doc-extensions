@@ -7,10 +7,10 @@
 
    <section xml:id="pdo-informix.intro">
     &reftitle.intro;
-    <para>
+    <simpara>
      PDO_INFORMIX is a driver that implements the <link xlink:href="&url.php.manual.intro.pdo;">PHP Data
      Objects (PDO)</link> interface to enable access from PHP to Informix databases.
-    </para>
+    </simpara>
    </section>
 
    <!-- Information found in configure.xml -->
@@ -18,14 +18,14 @@
 
    <section xml:id="ref.pdo-informix.features.cursors">
     <title>Scrollable cursors</title>
-    <para>
+    <simpara>
      PDO_INFORMIX supports scrollable cursors; however, they are not enabled
      by default. To enable scrollable cursor support, you must either set
      <userinput>ENABLESCROLLABLECURSORS=1</userinput> in the corresponding ODBC
      connection settings in <filename>odbc.ini</filename> or pass
      the <userinput>EnableScrollableCursors=1</userinput> clause in the DSN
      connection string.
-    </para>
+    </simpara>
    </section>
 
   </partintro>
@@ -47,19 +47,19 @@
       <varlistentry>
        <term>DSN prefix</term>
        <listitem>
-        <para>
+        <simpara>
         The DSN prefix is <userinput>informix:</userinput>.
-        </para>
+        </simpara>
        </listitem>
       </varlistentry>
       <varlistentry>
        <term>DSN</term>
        <listitem>
-        <para>
+        <simpara>
          The DSN can be either a data source setup using
          <filename>odbc.ini</filename> or a complete <link
           xlink:href="&url.informix.connectionstring;">connection string</link>.
-        </para>
+        </simpara>
        </listitem>
       </varlistentry>
      </variablelist>

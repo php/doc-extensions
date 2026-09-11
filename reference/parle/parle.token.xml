@@ -11,9 +11,9 @@
 <!-- {{{ Parle\Token intro -->
   <section xml:id="parle-token.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     This class represents a token. Lexer returns instances of this class.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -80,13 +80,13 @@
     <varlistentry xml:id="parle-token.props.id">
      <term><varname>id</varname></term>
      <listitem>
-      <para>Token id.</para>
+      <simpara>Token id.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="parle-token.props.value">
      <term><varname>value</varname></term>
      <listitem>
-      <para>Token value.</para>
+      <simpara>Token value.</simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -102,21 +102,21 @@
     <varlistentry xml:id="parle-token.constants.eoi">
      <term><constant>Parle\Token::EOI</constant></term>
      <listitem>
-      <para>End of input token id.</para>
+      <simpara>End of input token id.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-token.constants.unknown">
      <term><constant>Parle\Token::UNKNOWN</constant></term>
      <listitem>
-      <para>Unknown token id.</para>
+      <simpara>Unknown token id.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-token.constants.skip">
      <term><constant>Parle\Token::SKIP</constant></term>
      <listitem>
-      <para>Skip token id.</para>
+      <simpara>Skip token id.</simpara>
      </listitem>
     </varlistentry>
 

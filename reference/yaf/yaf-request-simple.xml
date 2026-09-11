@@ -11,10 +11,10 @@
 <!-- {{{ Yaf_Request_Simple intro -->
   <section xml:id="yaf-request-simple.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     <classname>Yaf_Request_Simple</classname> is particularlly used for test
     puporse. ie. simulate some espacial request under CLI mode.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -73,67 +73,67 @@
     <varlistentry xml:id="yaf-request-simple.props.module">
      <term><varname>module</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.controller">
      <term><varname>controller</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.action">
      <term><varname>action</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.method">
      <term><varname>method</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.params">
      <term><varname>params</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.language">
      <term><varname>language</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.exception">
      <term><varname>_exception</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.base-uri">
      <term><varname>_base_uri</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.uri">
      <term><varname>uri</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.dispatched">
      <term><varname>dispatched</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-simple.props.routed">
      <term><varname>routed</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -149,14 +149,14 @@
     <varlistentry xml:id="yaf-request-simple.constants.scheme-http">
      <term><constant>Yaf_Request_Simple::SCHEME_HTTP</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="yaf-request-simple.constants.scheme-https">
      <term><constant>Yaf_Request_Simple::SCHEME_HTTPS</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

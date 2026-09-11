@@ -13,19 +13,19 @@
    <void/>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    The <function>zookeeper_dispatch</function> function calls the callbacks passed by operations like <methodname>Zookeeper::get</methodname> or <methodname>Zookeeper::exists</methodname>.
-  </para>
+  </simpara>
 
   <caution>
-   <para>
+   <simpara>
     Since version 0.4.0, this function must be called manually to achieve asynchronous operations. If you want that to be done automatically, you also can declare ticks at the beginning of your program.
-   </para>
+   </simpara>
   </caution>
 
-  <para>
+  <simpara>
    After PHP 7.1, you can ignore this function. This extension uses EG(vm_interrupt) to implement async dispatch.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -36,25 +36,25 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP warning when callback could not be invoked.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
   &reftitle.examples;
   <example xml:id="function.zookeeper-dispatch.example.1">
    <title><methodname>zookeeper_dispatch</methodname> example #1</title>
-   <para>
+   <simpara>
      Dispatch callbacks manually.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -74,9 +74,9 @@ while(true) {
 
   <example xml:id="function.zookeeper-dispatch.example.2">
    <title><methodname>zookeeper_dispatch</methodname> example #2</title>
-   <para>
+   <simpara>
      Declare ticks.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php

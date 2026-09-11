@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.color">
+<refentry xml:id="imagickdraw.color" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::color</refname>
   <refpurpose>Draws color on image</refpurpose>
@@ -15,10 +15,10 @@
    <methodparam><type>int</type><parameter>paint</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws color on image using the current fill color, starting at specified
    position, and using specified paint method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,26 +28,26 @@
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the paint
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the paint
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>paint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.paint">PAINT</link> constant
        (<literal>imagick::PAINT_*</literal>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,9 +56,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -13,10 +13,10 @@
    <modifier>final</modifier> <modifier>private</modifier> <methodname>Win32Service\RightInfo::__construct</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    <classname>Win32Service\RightInfo</classname> objects are returned as the
    result of <function>win32_read_right_access_service</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

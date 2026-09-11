@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.rnp-op-encrypt">
+<refentry xml:id="function.rnp-op-encrypt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rnp_op_encrypt</refname>
   <refpurpose>Encrypt message</refpurpose>
@@ -67,9 +67,9 @@
          <entry><literal>"compression_alg"</literal></entry>
          <entry>string</entry>
          <entry>Compression algorithm. Both
-	   <literal>"compression_alg"</literal> and <literal>"compression_level"</literal>
-	   must be set in order to enable data compression.
-	 </entry>
+    <literal>"compression_alg"</literal> and <literal>"compression_level"</literal>
+    must be set in order to enable data compression.
+  </entry>
         </row>
         <row>
          <entry><literal>"compression_level"</literal></entry>
@@ -112,16 +112,16 @@
          <entry>string</entry>
          <entry>
           Set symmetric encryption algorithm. Possible values are "IDEA", "TRIPLEDES",
-	  "CAST5", "BLOWFISH", "AES128", "AES192", "AES256", "TWOFISH", "CAMELLIA128",
+   "CAST5", "BLOWFISH", "AES128", "AES192", "AES256", "TWOFISH", "CAMELLIA128",
           "CAMELLIA192", "CAMELLIA256", "SM4".
-	 </entry>
+  </entry>
         </row>
         <row>
          <entry><literal>"aead"</literal></entry>
          <entry>string</entry>
          <entry>
           Set AEAD mode algorithm. Possible values are "None" to disable AEAD, "EAX", "OCB".
-	 </entry>
+  </entry>
         </row>
         <row>
          <entry><literal>"aead_bits"</literal></entry>

@@ -16,9 +16,9 @@
    <methodparam><type>array</type><parameter>close</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>timePeriod</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,33 +27,33 @@
    <varlistentry>
     <term><parameter>high</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real.high;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>low</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real.low;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>close</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real.close;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>timePeriod</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.time.period;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -61,7 +61,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns an array with calculated data or false on failure.</para>
+  <simpara>Returns an array with calculated data or false on failure.</simpara>
  </refsect1>
 
 

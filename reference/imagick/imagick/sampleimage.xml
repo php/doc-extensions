@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.sampleimage">
+<refentry xml:id="imagick.sampleimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::sampleImage</refname>
   <refpurpose>Scales an image with pixel sampling</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>int</type><parameter>columns</parameter></methodparam>
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Scales an image to the desired dimensions with pixel sampling.
    Unlike other scaling methods, this method does not introduce
    any additional color into the scaled image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,15 +27,15 @@
     <varlistentry>
      <term><parameter>columns</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>rows</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

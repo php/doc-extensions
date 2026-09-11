@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.optimizeimagelayers">
+<refentry xml:id="imagick.optimizeimagelayers" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::optimizeImageLayers</refname>
   <refpurpose>Removes repeated portions of images to optimize</refpurpose>
@@ -13,13 +13,13 @@
    <void/>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Compares each image the GIF disposed forms of the previous image
    in the sequence.  From this it attempts to select the smallest
    cropped image to replace each frame, while preserving the results
-   of the animation. 
+   of the animation.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,16 +29,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -46,9 +46,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::optimizeImageLayers</function></title>
-    <para>
+    <simpara>
       Reading, optimizing and writing a GIF image
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

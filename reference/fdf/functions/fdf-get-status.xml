@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fdf-get-status">
+<refentry xml:id="function.fdf-get-status" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fdf_get_status</refname>
   <refpurpose>Get the value of the /STATUS key</refpurpose>

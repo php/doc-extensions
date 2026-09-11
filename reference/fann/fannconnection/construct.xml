@@ -15,9 +15,9 @@
    <methodparam><type>int</type><parameter>to_neuron</parameter></methodparam>
    <methodparam><type>float</type><parameter>weight</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Create new connection and initialize its params. After creating the connection, only weight can be changed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,25 +26,25 @@
    <varlistentry>
     <term><parameter>from_neuron</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The position number of starting neuron.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>to_neuron</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The position number of terminating neuron.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>weight</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The connection weight value.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

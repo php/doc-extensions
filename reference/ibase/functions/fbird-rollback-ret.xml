@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-rollback-ret">
+<refentry xml:id="function.fbird-rollback-ret" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_rollback_ret</refname>
   <refpurpose>&Alias; <function>ibase_rollback_ret</function></refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <simpara>

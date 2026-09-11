@@ -192,8 +192,8 @@ Updated  2 document(s)
     <member><methodname>MongoDB\Driver\Manager::executeBulkWrite</methodname></member>
     <member><classname>MongoDB\Driver\WriteResult</classname></member>
     <member><classname>MongoDB\Driver\WriteConcern</classname></member>
-    <member><classname>MongoDB\Driver\WriteConcernError</classname></member>
-    <member><classname>MongoDB\Driver\WriteError</classname></member>
+    <member><exceptionname>MongoDB\Driver\WriteConcernError</exceptionname></member>
+    <member><exceptionname>MongoDB\Driver\WriteError</exceptionname></member>
    </simplelist>
   </section>
 

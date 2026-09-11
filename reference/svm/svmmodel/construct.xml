@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="svmmodel.construct">
+<refentry xml:id="svmmodel.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SVMModel::__construct</refname>
   <refpurpose>Construct a new SVMModel</refpurpose>
@@ -36,7 +36,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Throws a <classname>SVMException</classname> on error
+   Throws a <exceptionname>SVMException</exceptionname> on error
   </simpara>
  </refsect1>
 

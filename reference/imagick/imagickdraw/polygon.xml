@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.polygon">
+<refentry xml:id="imagickdraw.polygon" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::polygon</refname>
   <refpurpose>Draws a polygon</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>array</type><parameter>coordinates</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a polygon using the current stroke, stroke width, and fill color or
    texture, using the specified array of coordinates.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>coordinates</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        multidimensional array like array( array( 'x' => 3, 'y' => 4 ), array( 'x' => 2, 'y' => 6 ) );
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -62,8 +62,8 @@ function polygon($strokeColor, $fillColor, $backgroundColor) {
 
     $points = [
         ['x' => 40 * 5, 'y' => 10 * 5],
-        ['x' => 20 * 5, 'y' => 20 * 5], 
-        ['x' => 70 * 5, 'y' => 50 * 5], 
+        ['x' => 20 * 5, 'y' => 20 * 5],
+        ['x' => 70 * 5, 'y' => 50 * 5],
         ['x' => 60 * 5, 'y' => 15 * 5],
     ];
 

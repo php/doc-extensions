@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimageclipmask">
+<refentry xml:id="imagick.setimageclipmask" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageClipMask</refname>
   <refpurpose>Sets image clip mask</refpurpose>
@@ -17,10 +17,10 @@
    <methodparam><type>Imagick</type><parameter>clip_mask</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Sets image clip mask from another Imagick object.
    &imagick.method.available.0x636;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,9 +30,9 @@
     <varlistentry>
      <term><parameter>clip_mask</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The Imagick object containing the clip mask
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -41,16 +41,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -93,7 +93,7 @@ function setImageClipMask($imagePath) {
 
     header("Content-Type: image/png");
     echo $imagick->getImagesBlob();
-    
+
 }
 
 ?>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setGroupNGroups</methodname>
    <methodparam><type>bool</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     If true, Solr includes the number of groups that have matched the query in the results.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

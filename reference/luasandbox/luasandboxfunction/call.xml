@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="luasandboxfunction.call">
+<refentry xml:id="luasandboxfunction.call" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>LuaSandboxFunction::call</refname>
   <refpurpose>Call a Lua function</refpurpose>
@@ -19,7 +19,7 @@
    Errors considered to be the fault of the PHP code will result in the
    function returning &false; and <constant>E_WARNING</constant>
    being raised, for example, a <type>resource</type> type being used as an
-   argument. Lua errors will result in a <classname>LuaSandboxRuntimeError</classname>
+   argument. Lua errors will result in a <exceptionname>LuaSandboxRuntimeError</exceptionname>
    exception being thrown.
   </simpara>
   <simpara>

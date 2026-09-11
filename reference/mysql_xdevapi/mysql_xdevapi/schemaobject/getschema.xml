@@ -13,9 +13,9 @@
    <modifier>abstract</modifier> <type>mysql_xdevapi\Schema</type><methodname>mysql_xdevapi\SchemaObject::getSchema</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Used by other objects to retrieve a schema object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current Schema object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-prepare">
+<refentry xml:id="function.fbird-prepare" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_prepare</refname>
   <refpurpose>&Alias; <function>ibase_prepare</function></refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <simpara>

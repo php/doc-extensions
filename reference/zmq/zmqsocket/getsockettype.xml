@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>ZMQSocket::getSocketType</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the socket type.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an integer representing the socket type. The integer can be compared against
    <constant>ZMQ::SOCKET_<replaceable>*</replaceable></constant> constants.
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -13,16 +13,16 @@
    <type>bool</type><methodname>win32_set_service_pause_resume_state</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>state</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    If <parameter>state</parameter> parameter is provided, the pause/resume capability
 is changed.
-  </para>
+  </simpara>
 
   <caution>
-   <para>
+   <simpara>
     This function work only in "cli" SAPI and in the Windows service running context. On other SAPI
     this function is disabled.
-   </para>
+   </simpara>
   </caution>
  </refsect1><!-- }}} -->
 
@@ -32,9 +32,9 @@ is changed.
    <varlistentry>
     <term><parameter>state</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &true; for enable the service pause/resume capability. &false; for disable the service pause/resume capability.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -42,23 +42,23 @@ is changed.
 
  <refsect1 role="returnvalues"><!-- {{{ -->
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return the current or old pause/resume capability state.
-  </para>
+  </simpara>
  </refsect1><!-- }}} -->
 
  <refsect1 role="errors"><!-- {{{ -->
   &reftitle.errors;
-  <para>
+  <simpara>
    Prior to version 1.0.0, if the SAPI is not <literal>"cli"</literal>, this function emits an
    <constant>E_ERROR</constant> level error.
-  </para>
+  </simpara>
 
-   <para>
+   <simpara>
     As of version 1.0.0, will throw a
-    <classname>Win32ServiceException</classname> if SAPI is not
+    <exceptionname>Win32ServiceException</exceptionname> if SAPI is not
     <literal>"cli"</literal>
-   </para>
+   </simpara>
  </refsect1><!-- }}} -->
 
 
@@ -77,14 +77,14 @@ is changed.
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>ValueError</classname> on invalid data in parameters,
+        Throws a <exceptionname>ValueError</exceptionname> on invalid data in parameters,
         previously &false; was returned.
        </entry>
       </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>Win32ServiceException</classname> on error,
+        Throws a <exceptionname>Win32ServiceException</exceptionname> on error,
         previously a
         <link xmlns="http://docbook.org/ns/docbook" linkend="win32service.constants.errors">Win32 Error Code</link>
         was returned.

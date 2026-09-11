@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.textureimage">
+<refentry xml:id="imagick.textureimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::textureImage</refname>
   <refpurpose>Repeatedly tiles the texture image</refpurpose>
@@ -13,9 +13,9 @@
    <type>Imagick</type><methodname>Imagick::textureImage</methodname>
    <methodparam><type>Imagick</type><parameter>texture_wand</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Repeatedly tiles the texture image across and down the image canvas.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>texture_wand</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Imagick object to use as texture image
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,16 +36,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a new Imagick object that has the repeated texture applied.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

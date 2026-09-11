@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mcrypt-module-open">
+<refentry xml:id="function.mcrypt-module-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_module_open</refname>
   <refpurpose>Opens the module of the algorithm and the mode to be used</refpurpose>

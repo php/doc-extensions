@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagematte">
+<refentry xml:id="imagick.getimagematte" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageMatte</refname>
   <refpurpose>Return if the image has a matte channel</refpurpose>
@@ -17,10 +17,10 @@
    <void/>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Returns &true; if the image has a matte channel otherwise false.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,9 +30,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

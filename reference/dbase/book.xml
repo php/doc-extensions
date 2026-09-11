@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
- 
+
 <book xml:id="book.dbase" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="pecl" ?>
  <title>dBase</title>
- 
+
  <!-- {{{ preface -->
  <preface xml:id="intro.dbase">
   &reftitle.intro;
   <note>
-   <para>
+   <simpara>
     &pecl.moved-ver;5.3.0.
-   </para>
+   </simpara>
   </note>
-  <para>
+  <simpara>
    These functions allow you to access records stored in dBase-format
    (dbf) databases.
-  </para>
+  </simpara>
   <warning>
-   <para>
+   <simpara>
     We recommend against using dBase files as your production
-    database. Use <link xlink:href="&url.sqlite;">SQLite</link> or choose any real SQL server instead; <link 
+    database. Use <link xlink:href="&url.sqlite;">SQLite</link> or choose any real SQL server instead; <link
     xlink:href="&url.mysql;">MySQL</link> or <link xlink:href="&url.pgsql;">Postgres</link>
     are common choices with PHP. dBase support is here to allow you to
     import and export data to and from your web database, because the
     file format is commonly understood by Windows spreadsheets and
     organizers.
-   </para>
+   </simpara>
   </warning>
   <caution>
-   <para>
+   <simpara>
     As of dbase 7.0.0 the databases are automatically locked via
     <function>flock</function>. There has been no support for locking earlier,
     so two concurrent web server processes modifying the same dBase file would
     have very likely ruined your database. This can happen even with dbase
     7.0.0+ on systems which implement the locks at the process level with
     multithreaded SAPIs.
-   </para>
+   </simpara>
   </caution>
-  <para>
-   dBase files are simple sequential files of fixed length records. 
+  <simpara>
+   dBase files are simple sequential files of fixed length records.
    Records are appended to the end of the file and deleted records are
    kept until you call <function>dbase_pack</function>.
-  </para>
+  </simpara>
   <para>
    Only dbf file levels 3 (dBASE III+) - 5 (dBASE V) are supported.
    The types of dBase fields available are:
@@ -103,7 +103,7 @@
        <entry><literal>L</literal></entry>
        <entry>Boolean</entry>
        <entry>
-        <literal>T</literal> or <literal>Y</literal> for &true;, 
+        <literal>T</literal> or <literal>Y</literal> for &true;,
         <literal>F</literal> or <literal>N</literal> for &false;,
         <literal>?</literal> for uninitialized.
        </entry>
@@ -118,21 +118,21 @@
    </table>
   </para>
   <note>
-   <para>
+   <simpara>
     As of dbase 7.0.0 nullable fields are supported for
     <constant>DBASE_TYPE_FOXPRO</constant> databases. If a field is nullable,
     passing &null; will set the respective flag, and on later retrieval the field
     value will be &null;.
-   </para>
+   </simpara>
   </note>
   <note>
-   <para>
+   <simpara>
     There is no support for indexes or memo fields.
-   </para>
+   </simpara>
   </note>
  </preface>
  <!-- }}} -->
- 
+
  &reference.dbase.setup;
  &reference.dbase.constants;
  &reference.dbase.reference;

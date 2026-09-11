@@ -14,10 +14,10 @@
    <methodparam><type>int</type><parameter>key</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets a ZMQ context option. The type of the <parameter>value</parameter> depends on the <parameter>key</parameter>.
    See <link linkend="zmq.constants">ZMQ Constant Types</link> for more information.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <constant>ZMQ::CTXOPT_<replaceable>*</replaceable></constant> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value of the parameter.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current object. Throws ZMQContextException on error.
-  </para>
+  </simpara>
  </refsect1>
 
 

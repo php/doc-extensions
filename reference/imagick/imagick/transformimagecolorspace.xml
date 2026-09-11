@@ -15,9 +15,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::transformImageColorspace</methodname>
    <methodparam><type>int</type><parameter>colorspace</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Transforms an image to a new colorspace.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>colorspace</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        The colorspace the image should be transformed to, one of the <link linkend="imagick.constants.colorspace">COLORSPACE constants</link> e.g. Imagick::COLORSPACE_CMYK.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,18 +36,18 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
   &reftitle.examples;
   <example xml:id="classname.methodname.example.basic">
    <title><methodname>Imagick::transformImageColorspace</methodname> example</title>
-   <para>
+   <simpara>
    Transforms an image to a new colorspace, and then extracts a single channel so that the individual channel values can be viewed.
-   </para>
+   </simpara>
 
    <programlisting role="php">
 <![CDATA[
@@ -55,7 +55,7 @@
 function transformImageColorspace($imagePath, $colorSpace, $channel) {
     $imagick = new \Imagick(realpath($imagePath));
     $imagick->transformimagecolorspace($colorSpace);
-    //channel should be one of the channel constants e.g. \Imagick::CHANNEL_BLUE 
+    //channel should be one of the channel constants e.g. \Imagick::CHANNEL_BLUE
     $imagick->separateImageChannel($channel);
     header("Content-Type: image/jpg");
     echo $imagick->getImageBlob();

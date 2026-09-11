@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.paintopaqueimage">
+<refentry xml:id="imagick.paintopaqueimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::paintOpaqueImage</refname>
   <refpurpose>Change any pixel that matches color</refpurpose>
@@ -19,9 +19,9 @@
    <methodparam><type>float</type><parameter>fuzz</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Changes any pixel that matches color with the color defined by fill.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,38 +31,38 @@
     <varlistentry>
      <term><parameter>target</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Change this target color to the fill color within the image. An
        ImagickPixel object or a string representing the target color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fill</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An ImagickPixel object or a string representing the fill color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The fuzz member of image defines how much tolerance is acceptable to
        consider two colors as the same.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -71,16 +71,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

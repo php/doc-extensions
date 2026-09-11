@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setclippath">
+<refentry xml:id="imagickdraw.setclippath" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setClipPath</refname>
   <refpurpose>Associates a named clipping path with the image</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>string</type><parameter>clip_mask</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Associates a named clipping path with the image.  Only the areas drawn on
    by the clipping path will be modified as long as it remains in effect.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>clip_mask</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        the clipping path name
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

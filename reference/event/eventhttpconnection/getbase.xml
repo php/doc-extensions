@@ -13,9 +13,9 @@
    <methodname>EventHttpConnection::getBase</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns event base associated with the connection.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,11 +23,11 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    On success returns
    <classname>EventBase</classname>
    object associated with the connection. Otherwise &false;.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file

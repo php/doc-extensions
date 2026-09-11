@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.svn-mkdir">
+<refentry xml:id="function.svn-mkdir" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>svn_mkdir</refname>
   <refpurpose>Creates a directory in a working copy or repository</refpurpose>

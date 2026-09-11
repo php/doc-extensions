@@ -35,7 +35,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.std;
-   <member>Throws <classname>MongoDB\Driver\Exception\LogicException</classname> if this method is called after the cursor has advanced beyond its first position.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\LogicException</exceptionname> if this method is called after the cursor has advanced beyond its first position.</member>
   </simplelist>
  </refsect1>
 

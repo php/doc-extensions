@@ -14,9 +14,9 @@
    <methodparam><type>UI\Point</type><parameter>point</parameter></methodparam>
    <methodparam><type>UI\Size</type><parameter>size</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Scroll this Area
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The point to scroll to
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The size of the scroll pane
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

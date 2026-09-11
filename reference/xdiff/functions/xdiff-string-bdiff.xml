@@ -6,7 +6,7 @@
   <refname>xdiff_string_bdiff</refname>
   <refpurpose>Make binary diff of two strings</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -14,11 +14,11 @@
    <methodparam><type>string</type><parameter>old_data</parameter></methodparam>
    <methodparam><type>string</type><parameter>new_data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes a binary diff of two strings and returns the result.
    This function works with both text and binary data. Resulting patch
    can be later applied using <function>xdiff_string_bpatch</function>/<function>xdiff_file_bpatch</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,17 +28,17 @@
     <varlistentry>
      <term><parameter>old_data</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        First string with binary data. It acts as "old" data.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_data</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Second string with binary data. It acts as "new" data.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -47,10 +47,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns string with binary diff containing differences between "old" and "new"
    data or &false; if an internal error occurred.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

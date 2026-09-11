@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.floodfillpaintimage">
+<refentry xml:id="imagick.floodfillpaintimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::floodFillPaintImage</refname>
   <refpurpose>Changes the color value of any pixel that matches target</refpurpose>
@@ -19,12 +19,12 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Changes the color value of any pixel that matches target and is an
-   immediate neighbor. This method is a replacement for deprecated 
+   immediate neighbor. This method is a replacement for deprecated
    <function>Imagick::paintFloodFillImage</function>.
    &imagick.method.available.0x638;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,57 +34,57 @@
     <varlistentry>
      <term><parameter>fill</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel object or a string containing the fill color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.fuzz;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>target</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel object or a string containing the target color to paint
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        X start position of the floodfill
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Y start position of the floodfill
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>invert</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If &true; paints any pixel that does not match the target color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -93,9 +93,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -129,7 +129,7 @@ $y = 1;
 /* Get the color we are painting */
 $target = $combined->getImagePixelColor($x, $y);
 
-/* Paints pixel in position 1,1 black and all neighboring 
+/* Paints pixel in position 1,1 black and all neighboring
    pixels that match the target color */
 $combined->floodfillPaintImage("black", 1, $target, $x, $y, false);
 

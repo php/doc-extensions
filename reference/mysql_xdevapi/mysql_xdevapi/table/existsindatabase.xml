@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>mysql_xdevapi\Table::existsInDatabase</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Verifies if this table exists in the database.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if table exists in the database, else &false; if it does not.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

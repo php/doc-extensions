@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>wkhtmltox\PDF\Converter::getVersion</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
   Determines the version of Converter as reported by libwkhtmltox
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a version string
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

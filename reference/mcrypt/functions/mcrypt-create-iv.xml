@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.mcrypt-create-iv">
+<refentry xml:id="function.mcrypt-create-iv" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mcrypt_create_iv</refname>
   <refpurpose>Creates an initialization vector (IV) from a random source</refpurpose>

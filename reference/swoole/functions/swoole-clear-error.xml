@@ -13,9 +13,9 @@
    <type>void</type><methodname>swoole_clear_error</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Clear errors in the socket or on the last error code.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

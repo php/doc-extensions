@@ -6,9 +6,9 @@
 
  <section xml:id="yaconf.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    Yaconf requires PHP 7.0 and above.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="yaconf.installation">
@@ -17,16 +17,16 @@
    Yaconf can be installed in one of three ways: via PECL, via PIE,
    or by building it from source.
   </simpara>
-  <para>
+  <simpara>
    &pecl.moved;
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    &pecl.info;
    <link xlink:href="&url.pecl.package;yaconf">&url.pecl.package;yaconf</link>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    &pecl.windows.download.avail;
-  </para>
+  </simpara>
   <example>
    <title>Installing Yaconf with PECL</title>
    <programlisting role="shell">
@@ -71,9 +71,9 @@ make && make install
 
  <section xml:id="yaconf.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </section>
 
 </chapter>

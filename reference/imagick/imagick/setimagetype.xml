@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagetype">
+<refentry xml:id="imagick.setimagetype" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageType</refname>
   <refpurpose>Sets the image type</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageType</methodname>
    <methodparam><type>int</type><parameter>image_type</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image type.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>image_type</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

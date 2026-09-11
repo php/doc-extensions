@@ -14,10 +14,10 @@
    <methodparam><type>int</type><parameter>height</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>legacy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
   Creates a fixed size thumbnail by first scaling the image up or down and cropping a specified
   area from the center.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>width</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The width of the thumbnail
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>height</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The Height of the thumbnail
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -57,16 +57,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="changelog">
   &reftitle.changelog;

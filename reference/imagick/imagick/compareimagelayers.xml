@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.compareimagelayers">
+<refentry xml:id="imagick.compareimagelayers" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::compareImageLayers</refname>
   <refpurpose>Returns the maximum bounding region between images</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>int</type><parameter>method</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Compares each image with the next in a sequence and returns the
    maximum bounding region of any pixel differences it discovers.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>method</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.layermethod">layer method constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,16 +38,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -55,9 +55,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::compareImageLayers</function></title>
-    <para>
+    <simpara>
       Comparing image layers
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

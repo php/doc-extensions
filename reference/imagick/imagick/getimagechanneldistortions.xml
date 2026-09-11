@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagechanneldistortions">
+<refentry xml:id="imagick.getimagechanneldistortions" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageChannelDistortions</refname>
   <refpurpose>Gets channel distortions</refpurpose>
@@ -15,10 +15,10 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Compares one or more image channels of an image to a reconstructed image and returns the specified distortion metrics
    &imagick.method.available.0x644;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,25 +28,25 @@
     <varlistentry>
      <term><parameter>reference</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Imagick object containing the reference image
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>metric</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Refer to this list of <link linkend="imagick.constants.metric">metric type constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -55,16 +55,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>float</type> describing the channel distortion.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

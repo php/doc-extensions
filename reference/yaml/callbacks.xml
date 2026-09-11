@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ --> 
+<!-- $Revision$ -->
 
 <chapter xml:id="yaml.callbacks" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Callbacks</title>
 
  <section xml:id="yaml.callbacks.parse">
   <title>Parse callbacks</title>
-  <para>
+  <simpara>
    Parse <type>callable</type>s are invoked by
    <function>yaml_parse</function>, <function>yaml_parse_file</function> or
    <function>yaml_parse_url</function> functions when a registered YAML tag is
    encountered. The callback is passed the tagged entity's value, the tag, and
    flags indicating the scalar entity style. The callback must return the data
    that the YAML parser should emit for this entity.
-  </para>
+  </simpara>
   <example>
    <title>Parse callback example</title>
    <programlisting role="php">
@@ -65,7 +65,7 @@ array(1) {
 
  <section xml:id="yaml.callbacks.emit">
   <title>Emit callbacks</title>
-  <para>
+  <simpara>
    Emit callbacks are invoked when an instance of a registered class is
    emitted by <function>yaml_emit</function> or
    <function>yaml_emit_file</function>. The callback is passed the object to
@@ -75,7 +75,7 @@ array(1) {
    be a string to be used as the YAML tag in the output. The value associated
    with the &quot;<literal>data</literal>&quot; key will be encoded as YAML
    and emitted in place of the intercepted object.
-  </para>
+  </simpara>
   <example>
    <title>Emit callback example</title>
    <programlisting role="php">

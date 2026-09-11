@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.settextdecoration">
+<refentry xml:id="imagickdraw.settextdecoration" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setTextDecoration</refname>
   <refpurpose>Specifies a decoration</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>int</type><parameter>decoration</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Specifies a decoration to be applied when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
     <varlistentry>
      <term><parameter>decoration</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.decoration">DECORATION</link> constant
        (<literal>imagick::DECORATION_*</literal>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

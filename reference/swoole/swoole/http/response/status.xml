@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>ReturnType</type><methodname>Swoole\Http\Response::status</methodname>
    <methodparam><type>string</type><parameter>http_code</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Set the status code of the HTTP response.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>http_code</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

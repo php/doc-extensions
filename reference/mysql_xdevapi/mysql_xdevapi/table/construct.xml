@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\Table::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Construct a table object.
-  </para>
+  </simpara>
 
  </refsect1>
 

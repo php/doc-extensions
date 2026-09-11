@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\Controls\Box::delete</methodname>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall delete the control at the given index from this Box
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>index</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The index of the control to delete
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Indication of success
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

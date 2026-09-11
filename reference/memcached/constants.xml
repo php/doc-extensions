@@ -17,7 +17,7 @@
      <link linkend="ini.memcached.compression-threshold">memcached.compression_threshold</link>
      ini setting.
     </simpara>
-    <para>Type: <type>bool</type>, default: &true;.</para>
+    <simpara>Type: <type>bool</type>, default: &true;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -30,7 +30,7 @@
      <constant>Memcached::COMPRESSION_ZLIB</constant> and
      <constant>Memcached::COMPRESSION_ZSTD</constant>.
     </simpara>
-    <para>Type: <type>int</type>, default: <constant>Memcached::COMPRESSION_FASTLZ</constant>.</para>
+    <simpara>Type: <type>int</type>, default: <constant>Memcached::COMPRESSION_FASTLZ</constant>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -73,7 +73,7 @@
      <member><constant>Memcached::COMPRESSION_ZSTD</constant>: minimum level is <literal>-22</literal> and maximum level is <literal>22</literal>.</member>
      <member><constant>Memcached::COMPRESSION_ZLIB</constant>: minimum level is <literal>0</literal> and maximum level is <literal>9</literal>.</member>
     </simplelist>
-    <para>Type: <type>int</type>, default: <literal>3</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>3</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -88,18 +88,18 @@
      <constant>Memcached::SERIALIZER_JSON_ARRAY</constant> and
      <constant>Memcached::SERIALIZER_MSGPACK</constant>.
     </simpara>
-    <para>
+    <simpara>
      Type: <type>int</type>, default: <constant>Memcached::SERIALIZER_IGBINARY</constant> if available,
      then <constant>Memcached::SERIALIZER_MSGPACK</constant> if available,
      then <constant>Memcached::SERIALIZER_PHP</constant>.
-    </para>
+    </simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.serializer-php">
    <term><constant>Memcached::SERIALIZER_PHP</constant></term>
    <listitem>
-    <para>The default PHP serializer.</para>
+    <simpara>The default PHP serializer.</simpara>
    </listitem>
   </varlistentry>
 
@@ -122,7 +122,7 @@
   <varlistentry xml:id="memcached.constants.serializer-json">
    <term><constant>Memcached::SERIALIZER_JSON</constant></term>
    <listitem>
-    <para>The JSON serializer. This serializer deserializes JSON to an object.</para>
+    <simpara>The JSON serializer. This serializer deserializes JSON to an object.</simpara>
    </listitem>
   </varlistentry>
 
@@ -160,7 +160,7 @@
      maximum available key size. The prefix is applied only to the item keys,
      not to the server keys.
     </simpara>
-    <para>Type: <type>string</type>, default: <literal>""</literal>.</para>
+    <simpara>Type: <type>string</type>, default: <literal>""</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -173,70 +173,70 @@
      Each hash algorithm has its advantages and its disadvantages. Go with the
      default if you don't know or don't care.
     </simpara>
-    <para>Type: <type>int</type>, default: <constant>Memcached::HASH_DEFAULT</constant></para>
+    <simpara>Type: <type>int</type>, default: <constant>Memcached::HASH_DEFAULT</constant></simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-default">
    <term><constant>Memcached::HASH_DEFAULT</constant></term>
    <listitem>
-    <para>The default (Jenkins one-at-a-time) item key hashing algorithm.</para>
+    <simpara>The default (Jenkins one-at-a-time) item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-md5">
    <term><constant>Memcached::HASH_MD5</constant></term>
    <listitem>
-    <para>MD5 item key hashing algorithm.</para>
+    <simpara>MD5 item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-crc">
    <term><constant>Memcached::HASH_CRC</constant></term>
    <listitem>
-    <para>CRC item key hashing algorithm.</para>
+    <simpara>CRC item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-fnv1-64">
    <term><constant>Memcached::HASH_FNV1_64</constant></term>
    <listitem>
-    <para>FNV1_64 item key hashing algorithm.</para>
+    <simpara>FNV1_64 item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-fnv1a-64">
    <term><constant>Memcached::HASH_FNV1A_64</constant></term>
    <listitem>
-    <para>FNV1_64A item key hashing algorithm.</para>
+    <simpara>FNV1_64A item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-fnv1-32">
    <term><constant>Memcached::HASH_FNV1_32</constant></term>
    <listitem>
-    <para>FNV1_32 item key hashing algorithm.</para>
+    <simpara>FNV1_32 item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-fnv1a-32">
    <term><constant>Memcached::HASH_FNV1A_32</constant></term>
    <listitem>
-    <para>FNV1_32A item key hashing algorithm.</para>
+    <simpara>FNV1_32A item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-hsieh">
    <term><constant>Memcached::HASH_HSIEH</constant></term>
    <listitem>
-    <para>Hsieh item key hashing algorithm.</para>
+    <simpara>Hsieh item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.hash-murmur">
    <term><constant>Memcached::HASH_MURMUR</constant></term>
    <listitem>
-    <para>Murmur item key hashing algorithm.</para>
+    <simpara>Murmur item key hashing algorithm.</simpara>
    </listitem>
   </varlistentry>
 
@@ -249,21 +249,21 @@
      hashing delivers better distribution and allows servers to be added to
      the cluster with minimal cache losses.
     </simpara>
-    <para>Type: <type>int</type>, default: <constant>Memcached::DISTRIBUTION_MODULA</constant>.</para>
+    <simpara>Type: <type>int</type>, default: <constant>Memcached::DISTRIBUTION_MODULA</constant>.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.distribution-modula">
    <term><constant>Memcached::DISTRIBUTION_MODULA</constant></term>
    <listitem>
-    <para>Modulo-based key distribution algorithm.</para>
+    <simpara>Modulo-based key distribution algorithm.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.distribution-consistent">
    <term><constant>Memcached::DISTRIBUTION_CONSISTENT</constant></term>
    <listitem>
-    <para>Consistent hashing key distribution algorithm (based on libketama).</para>
+    <simpara>Consistent hashing key distribution algorithm (based on libketama).</simpara>
    </listitem>
   </varlistentry>
 
@@ -279,21 +279,21 @@
   <varlistentry xml:id="memcached.constants.opt-libketama-compatible">
    <term><constant>Memcached::OPT_LIBKETAMA_COMPATIBLE</constant></term>
    <listitem>
-    <para>
+    <simpara>
      Enables or disables compatibility with libketama-like behavior. When
      enabled, the item key hashing algorithm is set to MD5 and distribution is
      set to be weighted consistent hashing distribution. This is useful
      because other libketama-based clients (Python, Ruby, etc.) with the same
      server configuration will be able to access the keys transparently.
-    </para>
+    </simpara>
     <note>
-     <para>
+     <simpara>
       It is highly recommended to enable this option if you want to use
       consistent hashing, and it may be enabled by default in future
       releases.
-     </para>
+     </simpara>
     </note>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -303,7 +303,7 @@
     <simpara>
      Specifies the hashing algorithm for host mapping.
     </simpara>
-    <para>Type: <type>int</type>.</para>
+    <simpara>Type: <type>int</type>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -313,7 +313,7 @@
     <simpara>
      Enables TCP keep alive.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -327,7 +327,7 @@
      Quitting the connection or closing down the connection will also cause
      the buffered data to be pushed to the remote connection.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -338,7 +338,7 @@
      Enable the use of the binary protocol. Please note that you cannot
      toggle this option on an open connection.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -349,7 +349,7 @@
      Enables or disables asynchronous I/O. This is the fastest transport
      available for storage functions.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -363,7 +363,7 @@
      (there would be no reply).
      Retrieval commands such as <methodname>Memcached::get</methodname> are unaffected by this setting.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -374,7 +374,7 @@
      Enables or disables the no-delay feature for connecting sockets (may
      be faster in some environments).
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -382,10 +382,10 @@
    <term><constant>Memcached::OPT_SOCKET_SEND_SIZE</constant></term>
    <listitem>
     <simpara>The maximum socket send buffer in bytes.</simpara>
-    <para>
+    <simpara>
      Type: <type>int</type>, default: varies by platform/kernel
      configuration.
-    </para>
+    </simpara>
    </listitem>
   </varlistentry>
 
@@ -393,10 +393,10 @@
    <term><constant>Memcached::OPT_SOCKET_RECV_SIZE</constant></term>
    <listitem>
     <simpara>The maximum socket receive buffer in bytes.</simpara>
-    <para>
+    <simpara>
      Type: <type>int</type>, default: varies by platform/kernel
      configuration.
-    </para>
+    </simpara>
    </listitem>
   </varlistentry>
 
@@ -407,7 +407,7 @@
      In non-blocking mode this set the value of the timeout during socket
      connection, in milliseconds.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>1000</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>1000</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -418,7 +418,7 @@
      The amount of time, in seconds, to wait until retrying a failed
      connection attempt.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>2</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>2</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -429,7 +429,7 @@
      The amount of time, in seconds, to wait until retrying dead servers.
      <literal>0</literal> means no retry.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>0</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>0</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -441,7 +441,7 @@
      use non-blocking I/O this will allow you to still have timeouts on the
      sending of data.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>0</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>0</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -453,7 +453,7 @@
      use non-blocking I/O this will allow you to still have timeouts on the
      reading of data.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>0</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>0</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -461,7 +461,7 @@
    <term><constant>Memcached::OPT_POLL_TIMEOUT</constant></term>
    <listitem>
     <simpara>Timeout for connection polling, in milliseconds.</simpara>
-    <para>Type: <type>int</type>, default: <literal>1000</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>1000</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -469,7 +469,7 @@
    <term><constant>Memcached::OPT_CACHE_LOOKUPS</constant></term>
    <listitem>
     <simpara>Enables or disables caching of DNS lookups.</simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -480,7 +480,7 @@
      Specifies the failure limit for server connection attempts.
      The server will be removed after this many continuous connection failures.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>5</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>5</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -491,25 +491,25 @@
      Specifies the timeout limit for server connection attempts.
      The server will be removed after this many continuous connection timeouts.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>0</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>0</literal>.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.opt-auto-eject-hosts">
    <term><constant>Memcached::OPT_AUTO_EJECT_HOSTS</constant></term>
    <listitem>
-    <para>
+    <simpara>
      Removes disabled servers from the list. Use together with
      <constant>Memcached::OPT_SERVER_FAILURE_LIMIT</constant> and
      <constant>Memcached::OPT_SERVER_TIMEOUT_LIMIT</constant>.
-    </para>
+    </simpara>
     <note>
-     <para>
+     <simpara>
       This option is replaced by
       <constant>Memcached::OPT_REMOVE_FAILED_SERVERS</constant>.
-     </para>
+     </simpara>
     </note>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -519,7 +519,7 @@
     <simpara>
      Enables verification of keys by memcached.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -529,7 +529,7 @@
     <simpara>
      Uses UDP instead of TCP.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -539,7 +539,7 @@
     <simpara>
      Stores this many replicas of each item on different servers.
     </simpara>
-    <para>Type: <type>int</type>, default: <literal>0</literal>.</para>
+    <simpara>Type: <type>int</type>, default: <literal>0</literal>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -549,7 +549,7 @@
     <simpara>
      Randomizes replica read server.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -561,7 +561,7 @@
      <constant>Memcached::OPT_SERVER_FAILURE_LIMIT</constant> and
      <constant>Memcached::OPT_SERVER_TIMEOUT_LIMIT</constant>.
     </simpara>
-    <para>Type: <type>bool</type>, default: &false;.</para>
+    <simpara>Type: <type>bool</type>, default: &false;.</simpara>
    </listitem>
   </varlistentry>
 
@@ -569,7 +569,7 @@
    <term><constant>Memcached::HAVE_IGBINARY</constant></term>
    <listitem>
     <simpara>Indicates whether igbinary serializer support is available.</simpara>
-    <para>Type: <type>bool</type>.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -577,7 +577,7 @@
    <term><constant>Memcached::HAVE_JSON</constant></term>
    <listitem>
     <simpara>Indicates whether JSON serializer support is available.</simpara>
-    <para>Type: <type>bool</type>.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
    </listitem>
   </varlistentry>
 
@@ -585,8 +585,8 @@
    <term><constant>Memcached::HAVE_MSGPACK</constant></term>
    <listitem>
     <simpara>Indicates whether MessagePack serializer support is available.</simpara>
-    <para>Type: <type>bool</type>.</para>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
@@ -594,8 +594,8 @@
    <term><constant>Memcached::HAVE_ZSTD</constant></term>
    <listitem>
     <simpara>Indicates whether ZSTD compression support is available.</simpara>
-    <para>Type: <type>bool</type>.</para>
-    <para>Available as of Memcached 3.3.0.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
+    <simpara>Available as of Memcached 3.3.0.</simpara>
    </listitem>
   </varlistentry>
 
@@ -606,189 +606,189 @@
      Indicates whether data encryption using
      <methodname>Memcached::setEncodingKey</methodname> is supported.
     </simpara>
-    <para>Type: <type>bool</type>.</para>
-    <para>Available as of Memcached 3.1.0.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
+    <simpara>Available as of Memcached 3.1.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.have-session">
    <term><constant>Memcached::HAVE_SESSION</constant></term>
    <listitem>
-    <para>Type: <type>bool</type>.</para>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.have-sasl">
    <term><constant>Memcached::HAVE_SASL</constant></term>
    <listitem>
-    <para>Type: <type>bool</type>.</para>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Type: <type>bool</type>.</simpara>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.get-extended">
    <term><constant>Memcached::GET_EXTENDED</constant></term>
    <listitem>
-    <para>
+    <simpara>
      A flag for <methodname>Memcached::get</methodname>, <methodname>Memcached::getMulti</methodname> and
      <methodname>Memcached::getMultiByKey</methodname> to ensure that the CAS token values
      are returned as well.
-    </para>
-    <para>Available as of Memcached 3.0.0.</para>
+    </simpara>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.get-preserve-order">
    <term><constant>Memcached::GET_PRESERVE_ORDER</constant></term>
    <listitem>
-    <para>
+    <simpara>
      A flag for <methodname>Memcached::getMulti</methodname> and
      <methodname>Memcached::getMultiByKey</methodname> to ensure that the keys are
      returned in the same order as they were requested in. Non-existing keys
      get a default value of &null;.
-    </para>
+    </simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-success">
    <term><constant>Memcached::RES_SUCCESS</constant></term>
    <listitem>
-    <para>The operation was successful.</para>
+    <simpara>The operation was successful.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-failure">
    <term><constant>Memcached::RES_FAILURE</constant></term>
    <listitem>
-    <para>The operation failed in some fashion.</para>
+    <simpara>The operation failed in some fashion.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-host-lookup-failure">
    <term><constant>Memcached::RES_HOST_LOOKUP_FAILURE</constant></term>
    <listitem>
-    <para>DNS lookup failed.</para>
+    <simpara>DNS lookup failed.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-unknown-read-failure">
    <term><constant>Memcached::RES_UNKNOWN_READ_FAILURE</constant></term>
    <listitem>
-    <para>Failed to read network data.</para>
+    <simpara>Failed to read network data.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-protocol-error">
    <term><constant>Memcached::RES_PROTOCOL_ERROR</constant></term>
    <listitem>
-    <para>Bad command in memcached protocol.</para>
+    <simpara>Bad command in memcached protocol.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-client-error">
    <term><constant>Memcached::RES_CLIENT_ERROR</constant></term>
    <listitem>
-    <para>Error on the client side.</para>
+    <simpara>Error on the client side.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-server-error">
    <term><constant>Memcached::RES_SERVER_ERROR</constant></term>
    <listitem>
-    <para>Error on the server side.</para>
+    <simpara>Error on the server side.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-write-failure">
    <term><constant>Memcached::RES_WRITE_FAILURE</constant></term>
    <listitem>
-    <para>Failed to write network data.</para>
+    <simpara>Failed to write network data.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-data-exists">
    <term><constant>Memcached::RES_DATA_EXISTS</constant></term>
    <listitem>
-    <para>Failed to do compare-and-swap: item you are trying to store has been
-     modified since you last fetched it.</para>
+    <simpara>Failed to do compare-and-swap: item you are trying to store has been
+     modified since you last fetched it.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-notstored">
    <term><constant>Memcached::RES_NOTSTORED</constant></term>
    <listitem>
-    <para>
+    <simpara>
      Item was not stored: but not because of an error. This normally
      means that either the condition for an "add" or a "replace" command
      wasn't met, or that the item is in a delete queue.
-    </para>
+    </simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-notfound">
    <term><constant>Memcached::RES_NOTFOUND</constant></term>
    <listitem>
-    <para>
+    <simpara>
      Item with this key was not found (with "get" operation or "cas"
      operations).
-    </para>
+    </simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-partial-read">
    <term><constant>Memcached::RES_PARTIAL_READ</constant></term>
    <listitem>
-    <para>Partial network data read error.</para>
+    <simpara>Partial network data read error.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-some-errors">
    <term><constant>Memcached::RES_SOME_ERRORS</constant></term>
    <listitem>
-    <para>Some errors occurred during multi-get.</para>
+    <simpara>Some errors occurred during multi-get.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-no-servers">
    <term><constant>Memcached::RES_NO_SERVERS</constant></term>
    <listitem>
-    <para>Server list is empty.</para>
+    <simpara>Server list is empty.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-end">
    <term><constant>Memcached::RES_END</constant></term>
    <listitem>
-    <para>End of result set.</para>
+    <simpara>End of result set.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-errno">
    <term><constant>Memcached::RES_ERRNO</constant></term>
    <listitem>
-    <para>System error.</para>
+    <simpara>System error.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-buffered">
    <term><constant>Memcached::RES_BUFFERED</constant></term>
    <listitem>
-    <para>The operation was buffered.</para>
+    <simpara>The operation was buffered.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-timeout">
    <term><constant>Memcached::RES_TIMEOUT</constant></term>
    <listitem>
-    <para>The operation timed out.</para>
+    <simpara>The operation timed out.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-bad-key-provided">
    <term><constant>Memcached::RES_BAD_KEY_PROVIDED</constant></term>
    <listitem>
-    <para>Bad key.</para>
+    <simpara>Bad key.</simpara>
    </listitem>
   </varlistentry>
 
@@ -865,63 +865,63 @@
   <varlistentry xml:id="memcached.constants.res-connection-socket-create-failure">
    <term><constant>Memcached::RES_CONNECTION_SOCKET_CREATE_FAILURE</constant></term>
    <listitem>
-    <para>Failed to create network socket.</para>
+    <simpara>Failed to create network socket.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-payload-failure">
    <term><constant>Memcached::RES_PAYLOAD_FAILURE</constant></term>
    <listitem>
-    <para>Payload failure: could not compress/decompress or serialize/unserialize the value.</para>
+    <simpara>Payload failure: could not compress/decompress or serialize/unserialize the value.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-auth-problem">
    <term><constant>Memcached::RES_AUTH_PROBLEM</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-auth-failure">
    <term><constant>Memcached::RES_AUTH_FAILURE</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-auth-continue">
    <term><constant>Memcached::RES_AUTH_CONTINUE</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-e2big">
    <term><constant>Memcached::RES_E2BIG</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-key-too-big">
    <term><constant>Memcached::RES_KEY_TOO_BIG</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-server-temporarily-disabled">
    <term><constant>Memcached::RES_SERVER_TEMPORARILY_DISABLED</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 
   <varlistentry xml:id="memcached.constants.res-server-memory-allocation-failure">
    <term><constant>Memcached::RES_SERVER_MEMORY_ALLOCATION_FAILURE</constant></term>
    <listitem>
-    <para>Available as of Memcached 3.0.0.</para>
+    <simpara>Available as of Memcached 3.0.0.</simpara>
    </listitem>
   </varlistentry>
 

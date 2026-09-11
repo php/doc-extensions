@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>resource</type><parameter>data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Test a set of training data and calculates the MSE for the training data.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This function updates the MSE and the bit fail values.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -42,9 +42,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The updated MSE, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

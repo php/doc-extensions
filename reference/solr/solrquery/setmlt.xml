@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setMlt</methodname>
    <methodparam><type>bool</type><parameter>flag</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Enables or disables moreLikeThis
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>flag</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &true; enables it and &false; turns it off.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

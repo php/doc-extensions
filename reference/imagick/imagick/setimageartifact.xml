@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimageartifact">
+<refentry xml:id="imagick.setimageartifact" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageArtifact</refname>
   <refpurpose>Set image artifact</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>string</type><parameter>artifact</parameter></methodparam>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Associates an artifact with the image. The difference between image properties and 
+  <simpara>
+   Associates an artifact with the image. The difference between image properties and
    image artifacts is that properties are public and artifacts are private.
    &imagick.method.available.0x657;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>artifact</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the artifact
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value of the artifact
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,16 +46,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -74,7 +74,7 @@ function setImageArtifact() {
     $src2->setImageVirtualPixelMethod(\Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
     $src2->setImageArtifact('compose:args', "1,0,-0.5,0.5");
     $src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);
-    
+
     $src1->setImageFormat('png');
     header("Content-Type: image/png");
     echo $src1->getImagesBlob();

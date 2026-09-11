@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.previewimages">
+<refentry xml:id="imagick.previewimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::previewImages</refname>
   <refpurpose>Quickly pin-point appropriate parameters for image processing</refpurpose>
@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::previewImages</methodname>
    <methodparam><type>int</type><parameter>preview</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Tiles 9 thumbnails of the specified image with an image processing
    operation applied at varying strengths.  This is helpful to quickly
    pin-point an appropriate parameter for an image processing operation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>preview</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Preview type. See <link linkend="imagick.constants.preview">Preview type constants</link>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,16 +37,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

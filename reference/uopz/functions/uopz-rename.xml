@@ -24,13 +24,13 @@
    <methodparam><type>string</type><parameter>function</parameter></methodparam>
    <methodparam><type>string</type><parameter>rename</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Renames <parameter>function</parameter> to <parameter>rename</parameter>
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
    If both functions exist, this effectively swaps their names
-   </para>
+   </simpara>
   </note>
  </refsect1>
 
@@ -40,25 +40,25 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class containing the function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of an existing function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>rename</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new name for the function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -66,9 +66,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setfontfamily">
+<refentry xml:id="imagickdraw.setfontfamily" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setFontFamily</refname>
   <refpurpose>Sets the font family to use when annotating with text</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>string</type><parameter>font_family</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the font family to use when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>font_family</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        the font family
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -69,7 +69,7 @@ function setFontFamily($fillColor, $strokeColor, $backgroundColor) {
     $draw->setFontFamily("AvantGarde");
     $draw->annotation(50, 100, "Lorem Ipsum!");
 
-    $draw->setFontFamily("NewCenturySchlbk");    
+    $draw->setFontFamily("NewCenturySchlbk");
     $draw->annotation(50, 150, "Lorem Ipsum!");
 
     $draw->setFontFamily("Palatino");

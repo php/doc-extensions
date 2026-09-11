@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>mysql_xdevapi\ColumnResult::getSchemaName</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
   Fetch the schema name where the column is stored.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

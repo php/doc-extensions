@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.readimageblob">
+<refentry xml:id="imagick.readimageblob" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::readImageBlob</refname>
   <refpurpose>Reads image from a binary string</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>string</type><parameter>image</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Reads image from a binary string
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,8 +25,8 @@
     <varlistentry>
      <term><parameter>image</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,16 +35,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

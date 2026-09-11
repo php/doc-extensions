@@ -14,11 +14,11 @@
    <methodname>EventUtil::sslRandPoll</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Generates entropy by means of OpenSSL's
    <literal>RAND_poll()</literal>
    (see the system manual).
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -26,9 +26,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file

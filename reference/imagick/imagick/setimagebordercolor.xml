@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagebordercolor">
+<refentry xml:id="imagick.setimagebordercolor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageBorderColor</refname>
   <refpurpose>Sets the image border color</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageBorderColor</methodname>
    <methodparam><type>mixed</type><parameter>border</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image border color.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>border</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The border color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,16 +35,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

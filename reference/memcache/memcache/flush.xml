@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.flush">
+<refentry xml:id="memcache.flush" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::flush</refname>
   <refname>memcache_flush</refname>

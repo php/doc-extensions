@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>bool</type><methodname>mysql_xdevapi\Collection::dropIndex</methodname>
    <methodparam><type>string</type><parameter>index_name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Drop a collection index.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This operation does not yield an error if the index does not exist, but
    &false; is returned in that case.
- </para>
+ </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>index_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of collection index to drop.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &true; if the DROP INDEX operation succeeded, otherwise &false;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -63,7 +63,7 @@ $create = $schema->createCollection("people");
 $collection = $schema->getCollection("people");
 
 $collection->createIndex(
-  'myindex', 
+  'myindex',
   '{"fields": [{"field": "$.name", "type": "TEXT(25)", "required": true}], "unique": false}'
 );
 

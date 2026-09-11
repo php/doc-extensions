@@ -14,9 +14,9 @@
    <methodparam><type>SolrInputDocument</type><parameter>sourceDoc</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>overwrite</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Merges one input document into another.
-  </para> 
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>sourceDoc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The source document.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>overwrite</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If this is &true; it will replace matching fields in the destination document.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success; In the future, this will be modified to return the number of fields in the new document.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

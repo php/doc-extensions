@@ -11,38 +11,38 @@
 <!-- {{{ Swoole\Coroutine\Lock intro -->
   <section xml:id="swoole-coroutine-lock.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Swoole 6.0.1 introduced a coroutine lock that supports inter-process and inter-thread sharing.
     This lock is designed with non-blocking behavior and enables efficient coroutine synchronization
     in multi-process and multi-thread environments.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     When compiled with the <literal>--enable-iouring</literal> option and the Linux kernel supports
     the <literal>io_uring futex</literal> feature, Swoole's coroutine lock implements synchronization
     using <literal>io_uring futex</literal>. In this case, coroutines wait for lock wakeups using
     an efficient queuing mechanism, significantly improving performance.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     Without <literal>io_uring futex</literal>, the coroutine lock falls back to an exponential backoff
     sleep mechanism, where the wait time increases by 2^n milliseconds (n being the number of failures)
     after each failed attempt to acquire the lock. While this approach avoids busy waiting, it introduces
     additional CPU scheduling overhead and latency.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     The coroutine lock is reentrant, allowing the currently holding coroutine to safely perform
     multiple lock operations.
-   </para>
+   </simpara>
    <warning>
-    <para>
+    <simpara>
      Do not create locks in callback functions like <literal>onReceive</literal>, as this will cause
      continuous memory growth and lead to memory leaks.
-    </para>
+    </simpara>
    </warning>
    <warning>
-    <para>
+    <simpara>
      Locking and unlocking must be performed in the same coroutine, otherwise it will break
      static conditions.
-    </para>
+    </simpara>
    </warning>
   </section>
 <!-- }}} -->

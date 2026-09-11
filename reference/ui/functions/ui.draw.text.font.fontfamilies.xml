@@ -13,9 +13,9 @@
    <type>array</type><methodname>UI\Draw\Text\Font\fontFamilies</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns an array of valid font families for the current system
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an &array; of valid font families for the current system.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

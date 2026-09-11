@@ -13,9 +13,9 @@
    <type class="union"><type>array</type><type>false</type></type><methodname>wincache_scache_info</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves information about session cache content and its usage.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,10 +24,10 @@
     <varlistentry>
      <term><parameter>summaryonly</parameter></term>
      <listitem>
-      <para>
-       Controls whether the returned array will contain information about individual cache entries 
+      <simpara>
+       Controls whether the returned array will contain information about individual cache entries
        along with the session cache summary.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
  </refsect1>
   <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array of meta data about session cache &return.falseforfailure;
-  </para>
+  </simpara>
     <para>
    The array returned by this function contains the following elements:
    <itemizedlist spacing="compact">
@@ -53,7 +53,7 @@
     </listitem>
     <listitem>
      <simpara>
-      <literal>is_local_cache</literal> - true is the cache metadata is for a local cache instance, 
+      <literal>is_local_cache</literal> - true is the cache metadata is for a local cache instance,
        false if the metadata is for the global cache
      </simpara>
     </listitem>

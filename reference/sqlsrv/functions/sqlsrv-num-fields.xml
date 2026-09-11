@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.sqlsrv-num-fields">
+<refentry xml:id="function.sqlsrv-num-fields" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>sqlsrv_num_fields</refname>
   <refpurpose>Retrieves the number of fields (columns) on a statement</refpurpose>

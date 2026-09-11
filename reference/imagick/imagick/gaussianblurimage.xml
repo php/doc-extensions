@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.gaussianblurimage">
+<refentry xml:id="imagick.gaussianblurimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::gaussianBlurImage</refname>
   <refpurpose>Blurs an image</refpurpose>
@@ -14,12 +14,12 @@
    <methodparam><type>float</type><parameter>sigma</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Blurs an image.  We convolve the image with a Gaussian operator of the
    given radius and standard deviation (sigma). For reasonable results, the
    radius should be larger than sigma.  Use a radius of 0 and selects a
    suitable radius for you.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,28 +29,28 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The radius of the Gaussian, in pixels, not counting the center pixel.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sigma</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The standard deviation of the Gaussian, in pixels.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of  <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -59,16 +59,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

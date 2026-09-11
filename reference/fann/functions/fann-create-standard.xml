@@ -16,17 +16,17 @@
    <methodparam><type>int</type><parameter>num_neurons2</parameter></methodparam>
    <methodparam rep="repeat"><type>int</type><parameter>num_neuronsN</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a standard fully connected backpropagation neural network.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    There will be a bias neuron in each layer (except the output layer),
    and this bias neuron will be connected to all neurons in the next layer.
    When running the network, the bias nodes always emits 1.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    To destroy a neural network use the <function>fann_destroy</function> function.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -35,33 +35,33 @@
    <varlistentry>
     <term><parameter>num_layers</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The total number of layers including the input and the output layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neurons1</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in the first layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neurons2</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in the second layer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>num_neuronsN</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of neurons in other layers.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -69,9 +69,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a neural network resource on success, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

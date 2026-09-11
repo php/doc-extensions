@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableSelect</type><methodname>mysql_xdevapi\TableSelect::lockShared</methodname>
    <methodparam choice="opt"><type>int</type><parameter>lock_waiting_option</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Execute a read operation with SHARED LOCK. Only one lock can be active at a time.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,14 +25,14 @@
    <varlistentry>
     <term><parameter>lock_waiting_option</parameter></term>
     <listitem>
-     <para>
-      The optional waiting option that defaults to <constant>MYSQLX_LOCK_DEFAULT</constant>. 
+     <simpara>
+      The optional waiting option that defaults to <constant>MYSQLX_LOCK_DEFAULT</constant>.
       Valid values are:
-     </para>
+     </simpara>
      <itemizedlist>
-      <listitem><para><constant>MYSQLX_LOCK_DEFAULT</constant></para></listitem>
-      <listitem><para><constant>MYSQLX_LOCK_NOWAIT</constant></para></listitem>
-      <listitem><para><constant>MYSQLX_LOCK_SKIP_LOCKED</constant></para></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_DEFAULT</constant></simpara></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_NOWAIT</constant></simpara></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_SKIP_LOCKED</constant></simpara></listitem>
      </itemizedlist>
     </listitem>
    </varlistentry>
@@ -41,9 +41,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A TableSelect object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

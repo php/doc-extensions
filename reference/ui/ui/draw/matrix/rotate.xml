@@ -14,9 +14,9 @@
    <methodparam><type>UI\Point</type><parameter>point</parameter></methodparam>
    <methodparam><type>float</type><parameter>amount</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall rotate this Matrix
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>amount</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

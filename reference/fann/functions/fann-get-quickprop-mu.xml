@@ -13,13 +13,13 @@
    <type>float</type><methodname>fann_get_quickprop_mu</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The mu factor is used to increase and decrease the step-size during quickprop training. The mu factor should always be above 1,
    since it would otherwise decrease the step-size when it was suppose to increase it.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default mu factor is 1.75.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The mu factor, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

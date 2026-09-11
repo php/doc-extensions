@@ -11,10 +11,10 @@
 <!-- {{{ SolrUtils intro -->
   <section xml:id="solrutils.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Contains utility methods for retrieving the current extension version and preparing query phrases.
-   </para>
-   <para>Also contains method for escaping query strings and parsing XML responses.</para>
+   </simpara>
+   <simpara>Also contains method for escaping query strings and parsing XML responses.</simpara>
   </section>
 <!-- }}} -->
 
@@ -33,7 +33,7 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrutils')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
    </classsynopsis>

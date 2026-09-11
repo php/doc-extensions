@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>VarnishAdmin::clearPanic</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the varnish command status.   
-  </para>
+  <simpara>
+   Returns the varnish command status.
+  </simpara>
  </refsect1>
 
 

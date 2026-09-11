@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.drawimage">
+<refentry xml:id="imagick.drawimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::drawImage</refname>
   <refpurpose>Renders the ImagickDraw object on the current image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::drawImage</methodname>
    <methodparam><type>ImagickDraw</type><parameter>draw</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Renders the ImagickDraw object on the current image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>draw</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The drawing operations to render on the image.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

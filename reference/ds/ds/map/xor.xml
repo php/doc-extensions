@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>Ds\Map</type><methodname>Ds\Map::xor</methodname>
    <methodparam><type>Ds\Map</type><parameter>map</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new map containing keys of the current instance as well as another <parameter>map</parameter>,
     but not of both.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A ⊖ B = {x : x ∈ (A \ B) ∪ (B \ A)}</code>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>map</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The other map.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,10 +38,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-    <para>
+    <simpara>
         A new map containing keys in the current instance as well as another <parameter>map</parameter>,
         but not in both.
-    </para>
+    </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

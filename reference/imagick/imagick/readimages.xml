@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::readImages</methodname>
    <methodparam><type>array</type><parameter>filenames</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Reads image from an array of filenames. All the images are held in a single Imagick object.
-  </para>
+  </simpara>
 
 
  </refsect1>
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>filenames</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

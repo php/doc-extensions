@@ -14,10 +14,10 @@
    <methodparam choice="opt"><type class="union"><type>callable</type><type>null</type></type><parameter>callback</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type class="union"><type>string</type><type>null</type></type><parameter>connection_str</parameter><initializer>&null;</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Creates a Memcached instance representing the connection to the memcache
    servers.
-  </para>
+  </simpara>
   &warn.undocumented.func;
  </refsect1>
 
@@ -28,13 +28,13 @@
     <varlistentry>
      <term><parameter>persistent_id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        By default the Memcached instances are destroyed at the end of the
        request. To create an instance that persists between requests, use
        <parameter>persistent_id</parameter> to specify a unique ID for the
        instance. All instances created with the same
        <parameter>persistent_id</parameter> will share the same connection.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -56,10 +56,10 @@
     <varlistentry>
      <term><parameter>connection_str</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        This parameter is used to pass additional connection options to
        the memcache servers, such as a server weight in a cluster.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>

@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>Ds\Set</type><methodname>Ds\Set::xor</methodname>
    <methodparam><type>Ds\Set</type><parameter>set</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new set containing values in the current instance as well as another <parameter>set</parameter>,
     but not in both.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A ⊖ B = {x : x ∈ (A \ B) ∪ (B \ A)}</code>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>set</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The other set.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,10 +38,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-    <para>
+    <simpara>
         A new set containing values in the current instance as well as another <parameter>set</parameter>,
         but not in both.
-    </para>
+    </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

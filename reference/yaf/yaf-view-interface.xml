@@ -11,12 +11,12 @@
 <!-- {{{ Yaf_View_Interface intro -->
   <section xml:id="yaf-view-interface.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Yaf provides a ability for developers to use custom view engine instead
-    of built-in engine which is <classname>Yaf_View_Simple</classname>. There 
+    of built-in engine which is <classname>Yaf_View_Simple</classname>. There
     is a example to explain how to do this, please see
     <methodname>Yaf_Dispatcher::setView</methodname>.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -34,7 +34,7 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-view-interface')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
    </classsynopsis>

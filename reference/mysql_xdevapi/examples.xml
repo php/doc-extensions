@@ -3,11 +3,11 @@
 
 <chapter xml:id="mysql-xdevapi.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
- <para>
+ <simpara>
   The central entry point to the X DevAPI is the <function>mysql_xdevapi\getSession</function>
   function, which receives a URI to a MySQL 8.0 Server and returns a
   <classname>mysql_xdevapi\Session</classname> object.
- </para>
+ </simpara>
  <example>
   <title>Connecting to a MySQL Server</title>
   <programlisting role="php">
@@ -18,17 +18,17 @@ try {
 } catch(Exception $e) {
     die("Connection could not be established: " . $e->getMessage());
 }
- 
+
 // ... use $session
 ?>
 ]]>
   </programlisting>
  </example>
- <para>
+ <simpara>
   The session provides full access to the API. For a new MySQL Server installation,
-  the first step is to create a database schema with a collection 
+  the first step is to create a database schema with a collection
   to store data:
- </para>
+ </simpara>
  <example>
   <title>Creating a Schema and Collection on the MySQL Server</title>
   <programlisting role="php">
@@ -40,14 +40,14 @@ $collection = $schema->createCollection("example");
 ]]>
   </programlisting>
  </example>
- <para>
+ <simpara>
   When storing data, typically <function>json_encode</function> is used to encode
   the data into JSON, which can then be stored inside a collection.
- </para>
- <para>
-  The following example stores data into the collection we created earlier, 
+ </simpara>
+ <simpara>
+  The following example stores data into the collection we created earlier,
   and then retrieve parts of it again.
- </para>
+ </simpara>
  <example>
   <title>Storing and Retrieving Data</title>
   <programlisting role="php">
@@ -89,18 +89,18 @@ array(4) {
 ]]>
   </screen>
  </example>
- <para>
+ <simpara>
   The example demonstrates that the MySQL Server adds an extra field named
   <code>_id</code>, which serves as primary key to the document.
- </para>
- <para>
+ </simpara>
+ <simpara>
   The example also demonstrates that retrieved data is sorted alphabetically.
   That specific order comes from the efficient binary storage inside the MySQL server, but
   it should not be relied upon. Refer to the MySQL JSON datatype documentation for details.
- </para>
- <para>
+ </simpara>
+ <simpara>
   Optionally use PHP's iterators to fetch multiple documents:
- </para>
+ </simpara>
  <example>
   <title>Fetching and Iterating Multiple Documents</title>
   <programlisting role="php">

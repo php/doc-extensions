@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Radio::getSelected</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall retrieve the index of the currently selected option in this Radio
-  </para>
+  </simpara>
 
  </refsect1>
 

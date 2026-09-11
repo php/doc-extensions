@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.clear">
+<refentry xml:id="imagickpixel.clear" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::clear</refname>
   <refpurpose>Clears resources associated with this object</refpurpose>
@@ -13,17 +13,17 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Clears the ImagickPixel object, leaving it in a fresh state. This also
    unsets any color associated with the object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>ImagickDraw::setTextInterwordSpacing</methodname>
    <methodparam><type>float</type><parameter>spacing</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the text interword spacing.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>spacing</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

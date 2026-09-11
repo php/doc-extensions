@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\MultilineEntry::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>type</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Multiline Entry of the given type
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>type</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       MultilineEntry::Wrap or MultilineEntry::NoWrap
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

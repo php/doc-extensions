@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>mysql_xdevapi\Session::getSchemas</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Get schema objects for all schemas available to the session.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   An array containing objects that represent all of the schemas 
+  <simpara>
+   An array containing objects that represent all of the schemas
    available to the session.
-  </para>
+  </simpara>
  </refsect1>
 
 

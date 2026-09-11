@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>handle</parameter></methodparam>
    <methodparam><type>int</type><parameter>style</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     set cell align
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>handle</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       xlsx file handle
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>style</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       <classname>Vtiful\Kernel\Format</classname> constant
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     Resource
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

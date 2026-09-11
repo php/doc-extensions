@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setvectorgraphics">
+<refentry xml:id="imagickdraw.setvectorgraphics" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setVectorGraphics</refname>
   <refpurpose>Sets the vector graphics</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>string</type><parameter>xml</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the vector graphics associated with the specified ImagickDraw
    object. Use this method with <methodname>ImagickDraw::getVectorGraphics</methodname> as a method
    to persist the vector graphics state.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>xml</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        xml containing the vector graphics
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -62,12 +62,12 @@ function setVectorGraphics() {
 
     //Get the drawing as a string
     $SVG = $draw->getVectorGraphics();
-    
+
     //$svg is a string, and could be saved anywhere a string can be saved
 
     //Use the saved drawing to generate a new draw object
     $draw2 = new \ImagickDraw();
-    //Apparently the SVG text is missing the root element. 
+    //Apparently the SVG text is missing the root element.
     $draw2->setVectorGraphics("<root>".$SVG."</root>");
 
     $imagick = new \Imagick();

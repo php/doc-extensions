@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrQuery::getHighlight</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a boolean indicating whether to enable highlighted snippets to be generated in the query response.
-  </para>
+  </simpara>
 
-  
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns a boolean on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

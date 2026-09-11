@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\FieldMetadata intro -->
   <section xml:id="mysql-xdevapi-fieldmetadata.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -85,13 +85,13 @@
      <varname linkend="mysql-xdevapi-fieldmetadata.props.content-type">content_type</varname>
     </fieldsynopsis>
 
-    
+
    </classsynopsis>
 <!-- }}} -->
 
   </section>
 
-  
+
 <!-- {{{ mysql_xdevapi\FieldMetadata properties -->
   <section xml:id="mysql-xdevapi-fieldmetadata.props">
    &reftitle.properties;
@@ -99,79 +99,79 @@
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.type">
      <term><varname>type</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.type-name">
      <term><varname>type_name</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.name">
      <term><varname>name</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.original-name">
      <term><varname>original_name</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.table">
      <term><varname>table</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.original-table">
      <term><varname>original_table</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.schema">
      <term><varname>schema</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.catalog">
      <term><varname>catalog</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.collation">
      <term><varname>collation</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.fractional-digits">
      <term><varname>fractional_digits</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.length">
      <term><varname>length</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.flags">
      <term><varname>flags</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="mysql-xdevapi-fieldmetadata.props.content-type">
      <term><varname>content_type</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

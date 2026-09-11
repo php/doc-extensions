@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Path::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>UI\Draw\Path::Winding</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new path in the given mode
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>mode</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Path::Winding or Path::Alternate
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

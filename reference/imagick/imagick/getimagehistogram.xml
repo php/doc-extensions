@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagehistogram">
+<refentry xml:id="imagick.getimagehistogram" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageHistogram</refname>
   <refpurpose>Gets the image histogram</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>array</type><methodname>Imagick::getImageHistogram</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the image histogram as an array of ImagickPixel objects.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the image histogram as an array of ImagickPixel objects.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -63,10 +63,10 @@ function getColorStatistics($histogramElements, $colorChannel) {
     }
 
     ksort($colorStatistics);
-    
+
     return $colorStatistics;
 }
-    
+
 
 
 function getImageHistogram($imagePath) {
@@ -126,7 +126,7 @@ function getImageHistogram($imagePath) {
     }
 
     $histogram->drawImage($draw);
-    
+
     header( "Content-Type: image/png" );
     echo $histogram;
 }

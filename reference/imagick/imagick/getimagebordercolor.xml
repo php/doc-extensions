@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagebordercolor">
+<refentry xml:id="imagick.getimagebordercolor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageBorderColor</refname>
   <refpurpose>Returns the image border color</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>ImagickPixel</type><methodname>Imagick::getImageBorderColor</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the image border color.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

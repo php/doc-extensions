@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\TableUpdate::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Initiated by using the update() method.
-  </para>
+  </simpara>
 
  </refsect1>
 

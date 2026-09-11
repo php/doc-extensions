@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>Parle\Parser::trace</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve the current parser operation description. This can be especially useful for studying the parser and to optimize the grammar.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns a &string; with the trace information. 
-  </para>
+  <simpara>
+   Returns a &string; with the trace information.
+  </simpara>
  </refsect1>
 
 

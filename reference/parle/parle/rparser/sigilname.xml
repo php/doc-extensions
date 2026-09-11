@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>Parle\RParser::sigilName</methodname>
    <methodparam><type>int</type><parameter>idx</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve a partial rule name or token name corresponding to the sigil index.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>idx</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Match index, zero based.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns a &string; with the matched part. 
-  </para>
+  <simpara>
+   Returns a &string; with the matched part.
+  </simpara>
  </refsect1>
 
 

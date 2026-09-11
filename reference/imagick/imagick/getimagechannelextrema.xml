@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagechannelextrema">
+<refentry xml:id="imagick.getimagechannelextrema" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageChannelExtrema</refname>
   <refpurpose>Gets the extrema for one or more image channels</refpurpose>
@@ -16,10 +16,10 @@
    <modifier>public</modifier> <type>array</type><methodname>Imagick::getImageChannelExtrema</methodname>
    <methodparam><type>int</type><parameter>channel</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the extrema for one or more image channels.  Return value is an
    associative array with the keys "minima" and "maxima".
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,12 +29,12 @@
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of  <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -43,16 +43,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

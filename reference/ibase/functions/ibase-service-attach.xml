@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-service-attach">
+<refentry xml:id="function.ibase-service-attach" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_service_attach</refname>
   <refpurpose>Connect to the service manager</refpurpose>

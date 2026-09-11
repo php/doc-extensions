@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.transparentpaintimage">
+<refentry xml:id="imagick.transparentpaintimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::transparentPaintImage</refname>
   <refpurpose>Paints pixels transparent</refpurpose>
@@ -16,10 +16,10 @@
    <methodparam><type>bool</type><parameter>invert</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Paints pixels matching the target color transparent.
    &imagick.method.available.0x638;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,33 +29,33 @@
     <varlistentry>
      <term><parameter>target</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The target color to paint
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>alpha</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.alpha;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.fuzz;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>invert</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If &true; paints any pixel that does not match the target color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -64,9 +64,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

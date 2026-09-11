@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>bit_fail_limit</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set the bit fail limit used during training.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>bit_fail_limit</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The bit fail limit.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

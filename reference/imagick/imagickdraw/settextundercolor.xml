@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.settextundercolor">
+<refentry xml:id="imagickdraw.settextundercolor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setTextUnderColor</refname>
   <refpurpose>Specifies the color of a background rectangle</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type class="union"><type>ImagickPixel</type><type>string</type></type><parameter>under_color</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Specifies the color of a background rectangle to place under text annotations.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>under_color</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        the under color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

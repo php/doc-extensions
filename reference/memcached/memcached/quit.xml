@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::quit</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::quit</function> closes any open connections to the
    memcache servers.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.simdjson-key-value">
+<refentry xml:id="function.simdjson-key-value" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>simdjson_key_value</refname>
   <refpurpose>Decodes the value of a JSON string located at the requested JSON pointer.</refpurpose>
@@ -87,12 +87,12 @@
   <simpara>
    If <parameter>json</parameter> or <parameter>key</parameter> is invalid,
    or <parameter>key</parameter> could not be found within <parameter>json</parameter>,
-   a <classname>SimdJsonException</classname> is thrown as of PECL simdjson 2.1.0,
-   while previously, a <classname>RuntimeException</classname> was thrown.
+   a <exceptionname>SimdJsonException</exceptionname> is thrown as of PECL simdjson 2.1.0,
+   while previously, a <exceptionname>RuntimeException</exceptionname> was thrown.
   </simpara>
   <simpara>
    If <parameter>depth</parameter> is outside the allowed range,
-   a <classname>SimdJsonValueError</classname> is thrown as of PECL simdjson 3.0.0,
+   a <exceptionname>SimdJsonValueError</exceptionname> is thrown as of PECL simdjson 3.0.0,
    while previously, an error of level <constant>E_WARNING</constant> was raised.
   </simpara>
  </refsect1>

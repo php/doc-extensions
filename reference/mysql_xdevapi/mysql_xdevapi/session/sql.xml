@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>mysql_xdevapi\SqlStatement</type><methodname>mysql_xdevapi\Session::sql</methodname>
    <methodparam><type>string</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Create a native SQL statement. Placeholders are supported using the native "?" syntax.
    Use the <literal>execute</literal> method to execute the SQL statement.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>query</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       SQL statement to execute.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An SqlStatement object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

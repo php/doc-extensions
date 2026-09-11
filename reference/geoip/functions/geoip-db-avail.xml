@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.geoip-db-avail">
+<refentry xml:id="function.geoip-db-avail" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>geoip_db_avail</refname>
   <refpurpose>Determine if GeoIP Database is available</refpurpose>

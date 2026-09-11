@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\CollectionFind::having</methodname>
    <methodparam><type>string</type><parameter>sort_expr</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function can be used after the 'field' operation in order to make a selection on the documents to extract.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>sort_expr</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       This must be a valid SQL expression, the use of aggreate functions is allowed
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-  CollectionFind object that can be used for further processing 
-  </para>
+  <simpara>
+  CollectionFind object that can be used for further processing
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

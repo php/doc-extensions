@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>Ds\PriorityQueue::__construct</methodname>
    <void/>
   </constructorsynopsis>
-  <para>
+  <simpara>
     Creates a new instance.
-  </para>
+  </simpara>
  </refsect1>
 <!--
  <refsect1 role="parameters">

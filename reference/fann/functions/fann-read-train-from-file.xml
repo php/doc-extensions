@@ -13,9 +13,9 @@
    <type>resource</type><methodname>fann_read_train_from_file</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Reads a file that stores training data.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>filename</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The input file in the following format:
-     </para>
+     </simpara>
      <programlisting role="txt">
 <![CDATA[
 num_train_data num_input num_output
@@ -66,7 +66,7 @@ if ($train_data) {
 ?>
 ]]>
     </programlisting>
-    <para>Contents of xor.data</para>
+    <simpara>Contents of xor.data</simpara>
     <programlisting role="txt">
 <![CDATA[
 4 2 1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.tintimage">
+<refentry xml:id="imagick.tintimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::tintImage</refname>
   <refpurpose>Applies a color vector to each pixel in the image</refpurpose>
@@ -14,11 +14,11 @@
    <methodparam><type>mixed</type><parameter>opacity</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>legacy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Applies a color vector to each pixel in the image. The length of the vector
    is 0 for black and white and at its maximum for the midtones. The vector
    weighing function is f(x)=(1-(4.0*((x-0.5)*(x-0.5)))).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,15 +28,15 @@
     <varlistentry>
      <term><parameter>tint</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>opacity</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,16 +45,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

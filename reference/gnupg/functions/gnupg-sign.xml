@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-sign">
+<refentry xml:id="function.gnupg-sign" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_sign</refname>
   <refpurpose>Signs a given text</refpurpose>

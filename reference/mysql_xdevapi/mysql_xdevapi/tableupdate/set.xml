@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>table_field</parameter></methodparam>
    <methodparam><type>string</type><parameter>expression_or_literal</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Updates the column value on records in a table.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>table_field</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The column name to be updated.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>expression_or_literal</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value to be set on the specified column.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    TableUpdate object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

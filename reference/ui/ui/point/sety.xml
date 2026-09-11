@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Point::setY</methodname>
    <methodparam><type>float</type><parameter>point</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set the Y co-ordinate
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new Y co-ordinate
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

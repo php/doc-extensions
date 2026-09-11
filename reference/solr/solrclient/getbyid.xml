@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQueryResponse</type><methodname>SolrClient::getById</methodname>
    <methodparam><type>string</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Get Document By Id. Utilizes Solr Realtime Get (RTG).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>id</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Document ID
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrQueryResponse</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

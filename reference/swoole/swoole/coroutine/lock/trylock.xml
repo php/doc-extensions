@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>bool</type><methodname>Swoole\Coroutine\Lock::trylock</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    When calling the lock operation, if the lock is already held by another coroutine,
    the function will immediately return false without suspending the current coroutine
    or yielding CPU control. This non-blocking design allows the caller to flexibly
    handle contention situations, such as retrying, giving up, or executing other logic.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

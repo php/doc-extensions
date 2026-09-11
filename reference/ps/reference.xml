@@ -7,12 +7,12 @@
  <partintro>
   <section xml:id="ps.contact">
    <title>Contact Information</title>
-   <para>
+   <simpara>
     If you have comments, bugfixes, enhancements for either this extension or
     pslib then please drop me a mail
     <link xlink:href="mailto:steinm@php.net">steinm@php.net</link>. Any help is very
      welcome.
-   </para>
+   </simpara>
   </section>
 
  </partintro>

@@ -11,10 +11,10 @@
  <!-- {{{ Resources -->
  <section xml:id="dio.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
    One resource type is defined by this extension:
    a file descriptor returned by <function>dio_open</function>.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 

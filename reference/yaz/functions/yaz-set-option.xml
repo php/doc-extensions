@@ -18,9 +18,9 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam><type>array</type><parameter>options</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets one or more options on the given connection.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -29,25 +29,25 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>name</parameter> or <parameter>options</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        May be either a string or an array.
-      </para>
-      <para>
+      </simpara>
+      <simpara>
        If given as a string, this will be the name of the option to set. You'll
        need to give it's <parameter>value</parameter>.
-      </para>
-      <para>
-       If given as an array, this will be an associative array (option name 
+      </simpara>
+      <simpara>
+       If given as an array, this will be an associative array (option name
        => option value).
-      </para>
+      </simpara>
       <table>
        <title>PHP/YAZ Connection Options</title>
        <tgroup cols="2">
@@ -76,7 +76,7 @@
           <entry>schema</entry>
           <entry>
            schema for retrieval. By default, no schema is used. Setting this
-           option is equivalent to using function 
+           option is equivalent to using function
            <function>yaz_schema</function>
           </entry>
          </row>
@@ -84,14 +84,14 @@
           <entry>preferredRecordSyntax</entry>
           <entry>
            record syntax for retrieval. By default, no syntax is used. Setting
-           this option is equivalent to using function 
+           this option is equivalent to using function
            <function>yaz_syntax</function>
           </entry>
          </row>
          <row>
           <entry>start</entry>
           <entry>
-           offset for first record to be retrieved via 
+           offset for first record to be retrieved via
            <function>yaz_search</function> or <function>yaz_present</function>.
            First record is numbered has a start value of 0. Second record has
            start value 1.
@@ -121,10 +121,10 @@
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The new value of the option. Use this only if the previous argument is
        a string.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -132,9 +132,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

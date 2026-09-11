@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setcompression">
+<refentry xml:id="imagick.setcompression" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setCompression</refname>
   <refpurpose>Sets the object's default compression type</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setCompression</methodname>
    <methodparam><type>int</type><parameter>compression</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the object's default compression type
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>compression</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The compression type. See the <link linkend="imagick.constants">Imagick::COMPRESSION_*</link> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

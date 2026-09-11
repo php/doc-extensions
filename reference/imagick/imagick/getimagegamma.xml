@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagegamma">
+<refentry xml:id="imagick.getimagegamma" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageGamma</refname>
   <refpurpose>Gets the image gamma</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>float</type><methodname>Imagick::getImageGamma</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the image gamma.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the image gamma on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

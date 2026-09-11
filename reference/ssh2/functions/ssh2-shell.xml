@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-shell">
+<refentry xml:id="function.ssh2-shell" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ssh2_shell</refname>
   <refpurpose>Request an interactive shell</refpurpose>

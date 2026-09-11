@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrCollapseFunction::getSize</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Gets the initial size of the collapse data structures when collapsing on a numeric field only
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,11 +25,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>

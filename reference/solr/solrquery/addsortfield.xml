@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>field</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>order</parameter><initializer>SolrQuery::ORDER_DESC</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Used to control how the results should be sorted.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>field</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>order</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The sort direction. This should be either SolrQuery::ORDER_ASC or SolrQuery::ORDER_DESC.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,11 +46,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object.
-  </para>
+  </simpara>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

@@ -12,16 +12,16 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\CollectionFind::lockShared</methodname>
    <methodparam choice="opt"><type>int</type><parameter>lock_waiting_option</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Allows to share the documents between multiple transactions which are locking in shared mode.
-  </para>
-  <para>
-   Other sessions can read the rows, but cannot modify them until your transaction commits. 
-  </para>
-  <para>
+  </simpara>
+  <simpara>
+   Other sessions can read the rows, but cannot modify them until your transaction commits.
+  </simpara>
+  <simpara>
    If any of these rows were changed by another transaction that hasn't been committed,
    the query will wait until that transaction has ended to be able to use the latest values.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,13 +30,13 @@
    <varlistentry>
     <term><parameter>lock_waiting_option</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Optional waiting option. By default it is <constant>MYSQLX_LOCK_DEFAULT</constant>. Valid values are these constants:
-     </para>
+     </simpara>
      <itemizedlist>
-      <listitem><para><constant>MYSQLX_LOCK_DEFAULT</constant></para></listitem>
-      <listitem><para><constant>MYSQLX_LOCK_NOWAIT</constant></para></listitem>
-      <listitem><para><constant>MYSQLX_LOCK_SKIP_LOCKED</constant></para></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_DEFAULT</constant></simpara></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_NOWAIT</constant></simpara></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_SKIP_LOCKED</constant></simpara></listitem>
      </itemizedlist>
     </listitem>
    </varlistentry>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionFind object that can be used for further processing
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

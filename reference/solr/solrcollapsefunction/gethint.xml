@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>SolrCollapseFunction::getHint</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns collapse hint
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

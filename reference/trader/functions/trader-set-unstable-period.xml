@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>functionId</parameter></methodparam>
    <methodparam><type>int</type><parameter>timePeriod</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Influences unstable period factor for functions, which are sensible to it. More information about unstable periods can be found on the <link xlink:href="&url.trader.unstable-period;">TA-Lib</link> API documentation page. 
-  </para>
+  <simpara>
+   Influences unstable period factor for functions, which are sensible to it. More information about unstable periods can be found on the <link xlink:href="&url.trader.unstable-period;">TA-Lib</link> API documentation page.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>functionId</parameter></term>
     <listitem>
-     <para>
-      Function ID the factor should be set for. <link xmlns="http://docbook.org/ns/docbook" linkend="trader.constants">TRADER_FUNC_UNST_*</link> constant series can be used to affect the corresponding function. 
-     </para>
+     <simpara>
+      Function ID the factor should be set for. <link xmlns="http://docbook.org/ns/docbook" linkend="trader.constants">TRADER_FUNC_UNST_*</link> constant series can be used to affect the corresponding function.
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>timePeriod</parameter></term>
     <listitem>
-     <para>
-     Unstable period value. 
-     </para>
+     <simpara>
+     Unstable period value.
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,7 +43,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>&return.void;</para>
+  <simpara>&return.void;</simpara>
  </refsect1>
 
 

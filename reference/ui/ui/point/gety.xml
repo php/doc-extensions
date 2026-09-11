@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>float</type><methodname>UI\Point::getY</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves the Y co-ordinate
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current Y co-ordinate
-  </para>
+  </simpara>
  </refsect1>
 
 

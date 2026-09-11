@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>ImagickPixel::getIndex</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the colormap index of the pixel wand.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

@@ -13,9 +13,9 @@
    <type>int</type><methodname>trader_get_unstable_period</methodname>
    <methodparam><type>int</type><parameter>functionId</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Get unstable period factor for a particular function.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>functionId</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Function ID the factor to be read for. <link xmlns="http://docbook.org/ns/docbook" linkend="trader.constants">TRADER_FUNC_UNST_*</link> series of constants should be used.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,7 +34,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns the unstable period factor for the corresponding function.</para>
+  <simpara>Returns the unstable period factor for the corresponding function.</simpara>
  </refsect1>
 
 

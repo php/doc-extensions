@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Ds\Set</type><methodname>Ds\Map::keys</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns a set containing all the keys of the map, in the same order.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     A <classname>Ds\Set</classname> containing all the keys of the map.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

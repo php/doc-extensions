@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrCollapseFunction</type><methodname>SolrCollapseFunction::setMax</methodname>
    <methodparam><type>string</type><parameter>max</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Selects the group heads by the max value of a numeric field or function query.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>max</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrCollapseFunction</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

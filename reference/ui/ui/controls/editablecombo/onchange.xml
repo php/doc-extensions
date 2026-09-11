@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\EditableCombo::onChange</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the value of this Editable Combobox changes
-  </para>
+  </simpara>
 
  </refsect1>
 

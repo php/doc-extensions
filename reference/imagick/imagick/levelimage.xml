@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.levelimage">
+<refentry xml:id="imagick.levelimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::levelImage</refname>
   <refpurpose>Adjusts the levels of an image</refpurpose>
@@ -15,7 +15,7 @@
    <methodparam><type>float</type><parameter>whitePoint</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adjusts the levels of an image by scaling the colors falling
    between specified white and black points to the full
    available quantum range. The parameters provided represent
@@ -25,7 +25,7 @@
    correction to apply to the image.  White point specifies the
    lightest color in the image. Colors brighter than the white
    point are set to the maximum quantum value.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -35,36 +35,36 @@
     <varlistentry>
      <term><parameter>blackPoint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The image black point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>gamma</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The gamma value
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>whitePoint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The image white point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of  <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -73,16 +73,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

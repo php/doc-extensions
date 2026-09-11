@@ -11,9 +11,9 @@
 <!-- {{{ UI\Draw\Text\Font\Descriptor intro -->
   <section xml:id="ui-draw-text-font-descriptor.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Describes a font
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -31,7 +31,7 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-draw-text-font-descriptor')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
 

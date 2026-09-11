@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>void</type><methodname>Ds\Set::add</methodname>
    <methodparam rep="repeat"><type>mixed</type><parameter>values</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Adds all given values to the set that haven't already been added.
-  </para>
+  </simpara>
   <note>
-    <para>
+    <simpara>
         Values of type <type>object</type> are supported.
 
         If an object implements <classname>Ds\Hashable</classname>,
@@ -25,12 +25,12 @@
 
         If an object does not implement <classname>Ds\Hashable</classname>,
         objects must be references to the same instance to be considered equal.
-    </para>
+    </simpara>
   </note>
   <caution>
-    <para>
+    <simpara>
         All comparisons are strict (type and value).
-    </para>
+    </simpara>
   </caution>
  </refsect1>
 
@@ -40,9 +40,9 @@
    <varlistentry>
     <term><parameter>values</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         Values to add to the set.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -50,9 +50,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

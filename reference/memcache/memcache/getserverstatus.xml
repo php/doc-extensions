@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.getserverstatus">
+<refentry xml:id="memcache.getserverstatus" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::getServerStatus</refname>
   <refname>memcache_get_server_status</refname>

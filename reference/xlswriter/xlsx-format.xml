@@ -11,9 +11,9 @@
 <!-- {{{ Class intro -->
   <section xml:id="vtiful-kernel-format.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Create a cell format object
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -146,112 +146,112 @@
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-left">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_LEFT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-center">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_CENTER</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-right">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_RIGHT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-fill">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_FILL</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-justify">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_JUSTIFY</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-center-across">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_CENTER_ACROSS</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-distributed">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_DISTRIBUTED</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-vertical-top">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_VERTICAL_TOP</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-vertical-bottom">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_VERTICAL_BOTTOM</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-vertical-center">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_VERTICAL_CENTER</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-vertical-justify">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_VERTICAL_JUSTIFY</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.format-align-vertical-distributed">
      <term><constant>Vtiful\Kernel\Format::FORMAT_ALIGN_VERTICAL_DISTRIBUTED</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.underline-single">
      <term><constant>Vtiful\Kernel\Format::UNDERLINE_SINGLE</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.underline-double">
      <term><constant>Vtiful\Kernel\Format::UNDERLINE_DOUBLE</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.underline-single-accounting">
      <term><constant>Vtiful\Kernel\Format::UNDERLINE_SINGLE_ACCOUNTING</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="vtiful-kernel-format.constants.underline-double-accounting">
      <term><constant>Vtiful\Kernel\Format::UNDERLINE_DOUBLE_ACCOUNTING</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

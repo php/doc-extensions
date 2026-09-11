@@ -8,21 +8,21 @@
 
  <preface xml:id="intro.memcached">
   &reftitle.intro;
-  <para>
+  <simpara>
    <link xlink:href="&url.memcache;">memcached</link> is a high-performance,
    distributed memory object caching system, generic in nature, but intended
    for use in speeding up dynamic web applications by alleviating database
    load.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This extension uses the libmemcached library to provide an API for communicating
    with memcached servers. It also provides a <link xlink:href="&url.php.manual.ref.session;">session</link> handler
    (<literal>memcached</literal>).
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Information about libmemcached can be found at <link
    xlink:href="&url.libmemcached;">&url.libmemcached;</link>.
-  </para>
+  </simpara>
  </preface>
 
  &reference.memcached.setup;

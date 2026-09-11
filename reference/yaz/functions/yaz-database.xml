@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam><type>string</type><parameter>databases</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   This function allows you to change databases within a session by 
+  <simpara>
+   This function allows you to change databases within a session by
    specifying one or more databases to be used in search, retrieval, etc.
-   - overriding databases specified in call to 
+   - overriding databases specified in call to
    <function>yaz_connect</function>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -28,18 +28,18 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>databases</parameter></term>
      <listitem>
-      <para>
-       A string containing one or more databases. Multiple databases are 
+      <simpara>
+       A string containing one or more databases. Multiple databases are
        separated by a plus sign <literal>+</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -47,9 +47,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

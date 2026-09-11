@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.blurimage">
+<refentry xml:id="imagick.blurimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::blurImage</refname>
   <refpurpose>Adds blur filter to image</refpurpose>
@@ -14,10 +14,10 @@
    <methodparam><type>float</type><parameter>sigma</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds blur filter to image. Optional third parameter to blur a specific
    channel.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,26 +27,26 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Blur radius
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sigma</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Standard deviation
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The <link linkend="imagick.constants.channel">Channeltype</link>
        constant. When not supplied, all channels are blurred.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -55,16 +55,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -72,9 +72,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::blurImage</function>:</title>
-    <para>
+    <simpara>
      Blur an image, then display to the browser.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

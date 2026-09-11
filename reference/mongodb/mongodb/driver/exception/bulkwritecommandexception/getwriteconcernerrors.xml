@@ -25,7 +25,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   An array of any <classname>MongoDB\Driver\WriteConcernError</classname>s
+   An array of any <exceptionname>MongoDB\Driver\WriteConcernError</exceptionname>s
    that occurred while executing the bulk write. This list may have multiple
    items if more than one server command was required to execute the bulk
    write.
@@ -90,7 +90,7 @@ array(1) {
   <simplelist>
    <member><function>MongoDB\Driver\Manager::executeBulkWriteCommand</function></member>
    <member><classname>MongoDB\Driver\WriteConcern</classname></member>
-   <member><classname>MongoDB\Driver\WriteConcernError</classname></member>
+   <member><exceptionname>MongoDB\Driver\WriteConcernError</exceptionname></member>
   </simplelist>
  </refsect1>
 

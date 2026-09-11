@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-num-rows">
+<refentry xml:id="function.mysql-num-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_num_rows</refname>
   <refpurpose>Get number of rows in result</refpurpose>

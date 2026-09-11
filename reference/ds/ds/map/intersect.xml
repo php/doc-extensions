@@ -13,21 +13,21 @@
    <modifier>public</modifier> <type>Ds\Map</type><methodname>Ds\Map::intersect</methodname>
    <methodparam><type>Ds\Map</type><parameter>map</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new map containing the pairs of the current instance whose keys
     are also present in the given <parameter>map</parameter>.
 
     In other words, returns a copy of the current instance with all keys removed that
     are not also in the other <parameter>map</parameter>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A ∩ B = {x : x ∈ A ∧ x ∈ B}</code>
-  </para>
+  </simpara>
 
   <note>
-    <para>
+    <simpara>
         Values from the current instance will be kept.
-    </para>
+    </simpara>
   </note>
  </refsect1>
 
@@ -37,9 +37,9 @@
    <varlistentry>
     <term><parameter>map</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The other map, containing the keys to intersect with.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-    <para>
+    <simpara>
     The key intersection of the current instance and another <parameter>map</parameter>.
-    </para>
+    </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

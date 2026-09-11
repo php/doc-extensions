@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
    <methodparam><type>int</type><parameter>len</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Output text at the current position. Do not print more than <parameter>len</parameter> characters.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,26 +26,26 @@
     <varlistentry>
      <term><parameter>psdoc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Resource identifier of the postscript file
        as returned by <function>ps_new</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>text</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The text to be output.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>len</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The maximum number of characters to print.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -54,9 +54,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

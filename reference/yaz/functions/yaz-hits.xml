@@ -12,10 +12,10 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter role="reference">searchresult</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>yaz_hits</function> returns the number of hits for the last
-   search. 
-  </para>
+   search.
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,17 +24,17 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>searchresult</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Result array for detailed search result information.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -42,11 +42,11 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the number of hits for the last search or 0 if no search was 
+  <simpara>
+   Returns the number of hits for the last search or 0 if no search was
    performed.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The search result array (if supplied) holds information that
    is returned by a Z39.50 server in the SearchResult-1
    format part of a search response.
@@ -55,7 +55,7 @@
    In particular, it is possible to obtain hit counts for the individual
    search terms in a query. Information for first
    subquery is in $array[0], second subquery in $array[1], and so forth.
-  </para>
+  </simpara>
   <table>
    <title>searchresult members</title>
    <tgroup cols="2">
@@ -90,17 +90,17 @@
      </row>
     </tbody>
    </tgroup>
-  </table>     
+  </table>
   <note>
-   <para>
+   <simpara>
     The SearchResult facility requires PECL YAZ 1.0.5
     or later and YAZ 2.1.9 or later.
-   </para>
+   </simpara>
   </note>
   <note>
-   <para>
+   <simpara>
     Very few Z39.50 implementations support the SearchResult facility.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 </refentry>

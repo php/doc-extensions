@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.expect-expectl">
+<refentry xml:id="function.expect-expectl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>expect_expectl</refname>
   <refpurpose>Waits until the output from a process matches one

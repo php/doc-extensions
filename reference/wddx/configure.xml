@@ -5,22 +5,22 @@
 
  <section xml:id="wddx.installation.php74">
   <title>PHP 7.4</title>
-  <para>
+  <simpara>
    &pecl.moved-ver;7.4.0
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    &pecl.info;
    <link xlink:href="&url.pecl.package;wddx">&url.pecl.package;wddx</link>.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="wddx.installation.phplt74">
   <title>PHP &lt; 7.4</title>
-  <para>
+  <simpara>
    After installing the required expat library, compile PHP with
    <option role="configure">--enable-wddx</option>, and use
    <option role="configure">--with-libexpat-dir</option> for expat.
-  </para>
+  </simpara>
   &windows.builtin;
  </section>
 </section>

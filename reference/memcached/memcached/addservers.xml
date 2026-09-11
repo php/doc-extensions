@@ -12,19 +12,19 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::addServers</methodname>
    <methodparam><type>array</type><parameter>servers</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::addServers</function> adds
    <parameter>servers</parameter> to the server pool. Each entry in
    <parameter>servers</parameter> is supposed to be an array containing hostname,
    port, and, optionally, weight of the server. No connection is established
    to the servers at this time.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The same server may appear multiple times in the server pool, because no
    duplication checks are made. This is not advisable; instead, use the
    <parameter>weight</parameter> option to increase the selection weighting of
    this server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,9 +34,9 @@
     <varlistentry>
      <term><parameter>array</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Array of the servers to add to the pool.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

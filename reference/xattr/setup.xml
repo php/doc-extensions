@@ -7,17 +7,17 @@
  <!-- {{{ Requirements -->
  <section xml:id="xattr.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    To use xattr, you will need libattr installed. It is available
    at <link xlink:href="&url.xattr;">&url.xattr;</link>.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     These functions only work on filesystems that support extended
     attributes, and have them enabled at mount time. Some common
     filesystems that support extended attributes are <literal>ext2</literal>, <literal>ext3</literal>,
     <literal>reiserfs</literal>, <literal>jfs</literal>, and <literal>xfs</literal>.
-   </para>
+   </simpara>
   </note>
  </section>
  <!-- }}} -->

@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam><type>UI\Control</type><parameter>control</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Append a new page to this Tab
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name for the new page
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>control</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The control for the new page
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Shall return the index of the appended control, may be 0
-  </para>
+  </simpara>
  </refsect1>
 
 

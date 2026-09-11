@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Pen::restore</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall restore a previously saved Pen
-  </para>
+  </simpara>
 
  </refsect1>
 

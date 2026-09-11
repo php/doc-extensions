@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>mysql_xdevapi\RowResult::fetchOne</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Fetch one result from the result set.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,10 +28,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   The result, as an associative array 
+  <simpara>
+   The result, as an associative array
    or &null; if no results are present.
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

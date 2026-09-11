@@ -56,7 +56,7 @@
   <simplelist>
    <member>
     Throws
-    <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname> if
+    <exceptionname>MongoDB\Driver\Exception\UnexpectedValueException</exceptionname> if
     the PHP value cannot be converted to BSON. Possible reasons include, but are
     not limited to, encountering an unexpected
     <interfacename>MongoDB\BSON\Type</interfacename> instance or

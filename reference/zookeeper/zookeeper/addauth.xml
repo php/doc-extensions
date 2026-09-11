@@ -16,11 +16,11 @@
    <methodparam><type>string</type><parameter>cert</parameter></methodparam>
    <methodparam choice="opt"><type>callable</type><parameter>completion_cb</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The application calls this function to specify its credentials for purposes of authentication. The server will use the security provider specified by the scheme parameter to authenticate the client connection. If the authentication request has failed:
     - the server connection is dropped.
     - the watcher is called with the ZOO_AUTH_FAILED_STATE value as the state parameter.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,27 +29,27 @@
    <varlistentry>
     <term><parameter>scheme</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The id of authentication scheme. Natively supported: "digest" password-based authentication
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>cert</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Application credentials. The actual value depends on the scheme.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>completion_cb</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The routine to invoke when the request completes. One of the following result codes may be passed into the completion callback:
       - ZOK operation completed successfully
       - ZAUTHFAILED authentication failed
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -57,19 +57,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or operation fails.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -78,9 +78,9 @@
   &reftitle.examples;
   <example xml:id="zookeeper.addauth.example.basic">
    <title><methodname>Zookeeper::addAuth</methodname> example</title>
-   <para>
+   <simpara>
      Add auth before requesting node value.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -114,7 +114,7 @@ nodevalue
    <member><methodname>Zookeeper::setAcl</methodname></member>
    <member><methodname>Zookeeper::getAcl</methodname></member>
    <member><link linkend="zookeeper.constants.states">ZooKeeper States</link></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

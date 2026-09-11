@@ -15,13 +15,13 @@
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>expiration</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::setByKey</function> is functionally equivalent to
    <methodname>Memcached::set</methodname>, except that the free-form
    <parameter>server_key</parameter> can be used to map the
    <parameter>key</parameter> to a specific server. This is useful if you need
    to keep a bunch of related keys on a certain server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,33 +31,33 @@
     <varlistentry>
      <term><parameter>server_key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.server_key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.value;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>expiration</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.expiration;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -66,10 +66,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

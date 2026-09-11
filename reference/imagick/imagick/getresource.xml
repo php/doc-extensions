@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getresource">
+<refentry xml:id="imagick.getresource" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getResource</refname>
   <refpurpose>Returns the specified resource's memory usage</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>int</type><methodname>Imagick::getResource</methodname>
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the specified resource's memory usage in megabytes.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       Refer to the list of <link linkend="imagick.constants.resourcetypes">resourcetype constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,16 +35,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the specified resource's memory usage in megabytes.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

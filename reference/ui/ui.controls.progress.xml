@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Progress intro -->
   <section xml:id="ui-controls-progress.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Progress control is a familiar Progress bar: It represents progress as a percentage, with a possible range of 0 to 100 (inclusive).
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,17 +29,17 @@
      <ooclass>
       <classname>UI\Controls\Progress</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>UI\Control</classname>
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-progress')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-control')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
 

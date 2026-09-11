@@ -14,17 +14,17 @@
    <methodparam><type>resource</type><parameter>psdoc</parameter></methodparam>
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Hyphenates the passed word. <function>ps_hyphenate</function> evaluates the
    value hyphenminchars (set by <function>ps_set_value</function>) and
    the parameter hyphendict (set by <function>ps_set_parameter</function>).
    hyphendict must be set before calling this function.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This function requires the locale category <constant>LC_CTYPE</constant> to be set properly.
    This is done when the extension is initialized by using the environment
    variables. On Unix systems read the man page of locale for more information.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,10 +34,10 @@
     <varlistentry>
      <term><parameter>psdoc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Resource identifier of the postscript file
        as returned by <function>ps_new</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -57,10 +57,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An array of integers indicating the position of possible breaks in
    the text &return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

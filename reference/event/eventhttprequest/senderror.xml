@@ -22,9 +22,9 @@
     <initializer>&null;</initializer>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Send an HTML error message to the client.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -34,9 +34,9 @@
      <parameter>error</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The HTTP error code.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -54,9 +54,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

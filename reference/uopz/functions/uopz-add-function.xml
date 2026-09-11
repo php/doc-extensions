@@ -23,9 +23,9 @@
    <methodparam choice="opt"><type>int</type><parameter role="reference">flags</parameter><initializer>ZEND_ACC_PUBLIC</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter role="reference">all</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds a non-existent function or method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,42 +34,42 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the function or method.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>handler</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The <classname>Closure</classname> that defines the new function or method.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Flags to set for the new function or method.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>all</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Whether all classes that descend from <parameter>class</parameter> will
       also be affected.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -77,17 +77,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   <function>uopz_add_function</function> throws a <classname>RuntimeException</classname>
+  <simpara>
+   <function>uopz_add_function</function> throws a <exceptionname>RuntimeException</exceptionname>
    if the function or method to add already exists.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

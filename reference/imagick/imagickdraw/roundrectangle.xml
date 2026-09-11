@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.roundrectangle">
+<refentry xml:id="imagickdraw.roundrectangle" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::roundRectangle</refname>
   <refpurpose>Draws a rounded rectangle</refpurpose>
@@ -18,10 +18,10 @@
    <methodparam><type>float</type><parameter>rounding_y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a rounded rectangle given two coordinates, x &amp; y corner radiuses
    and using the current stroke, stroke width, and fill settings.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,49 +31,49 @@
     <varlistentry>
      <term><parameter>top_left_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the top left corner
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>top_left_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the top left corner
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bottom_right_x</parameter></term>
      <listitem>
-      <para>
-        x coordinate of the bottom right 
-      </para>
+      <simpara>
+        x coordinate of the bottom right
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bottom_right_y</parameter></term>
      <listitem>
-      <para>
-       y coordinate of the bottom right 
-      </para>
+      <simpara>
+       y coordinate of the bottom right
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>rounding_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x rounding
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>rounding_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y rounding
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -82,9 +82,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

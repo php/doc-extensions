@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getclippath">
+<refentry xml:id="imagickdraw.getclippath" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getClipPath</refname>
   <refpurpose>Obtains the current clipping path ID</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Obtains the current clipping path ID.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a string containing the clip path ID or false if no clip path exists.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

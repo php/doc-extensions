@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Path::end</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall finalize this Path
-  </para>
+  </simpara>
 
  </refsect1>
 

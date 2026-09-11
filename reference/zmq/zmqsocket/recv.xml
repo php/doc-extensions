@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>string</type><methodname>ZMQSocket::recv</methodname>
    <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Receive a message from a socket. By default receiving will block until a message is available unless
    <constant>ZMQ::MODE_DONTWAIT</constant> flag is used. <constant>ZMQ::SOCKOPT_RCVMORE</constant>
-   socket option can be used for receiving multi-part messages. See <function>ZMQSocket::setSockOpt</function> 
+   socket option can be used for receiving multi-part messages. See <function>ZMQSocket::setSockOpt</function>
    for more information.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,10 +28,10 @@
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       Pass mode flags to receive multipart messages or non-blocking operation. 
+      <simpara>
+       Pass mode flags to receive multipart messages or non-blocking operation.
        See <constant>ZMQ::MODE_<replaceable>*</replaceable></constant> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -40,17 +40,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the message. If <constant>ZMQ::MODE_DONTWAIT</constant> 
+  <simpara>
+   Returns the message. If <constant>ZMQ::MODE_DONTWAIT</constant>
    is used and the operation would block &false; shall be returned.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>ZMQSocketException</classname> on error. 
-  </para>
+  <simpara>
+   Throws <exceptionname>ZMQSocketException</exceptionname> on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -58,9 +58,9 @@
   <para>
    <example>
     <title>A send/recv example</title>
-    <para>
+    <simpara>
      Non-blocking send / receive
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -106,7 +106,7 @@ Sending message
  - Unable to execute operation, retrying (4)
 Got response: This is a message
 ]]>
-    </screen>    
+    </screen>
    </example>
   </para>
  </refsect1>

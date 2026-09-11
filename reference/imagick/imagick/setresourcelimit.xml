@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setresourcelimit">
+<refentry xml:id="imagick.setresourcelimit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setResourceLimit</refname>
   <refpurpose>Sets the limit for a particular resource</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
    <methodparam><type>int</type><parameter>limit</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method is used to modify the resource limits of the underlying ImageMagick
    library.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,20 +26,20 @@
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
-       Refer to the list of <link 
+      <simpara>
+       Refer to the list of <link
        linkend="imagick.constants.resourcetypes">resourcetype constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>limit</parameter></term>
      <listitem>
-      <para>
-       One of the <link 
+      <simpara>
+       One of the <link
        linkend="imagick.constants.resourcetypes">resourcetype constants</link>.
        The unit depends on the type of the resource being limited.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -48,9 +48,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

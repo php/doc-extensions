@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>int</type><parameter>training_algorithm</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the training algorithm.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    More info available in <function>fann_get_training_algorithm</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,9 +34,9 @@
    <varlistentry>
     <term><parameter>training_algorithm</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       <link linkend="constants.fann-train">Training algorithm</link> constant
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

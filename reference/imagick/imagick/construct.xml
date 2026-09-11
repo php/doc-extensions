@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.construct">
+<refentry xml:id="imagick.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::__construct</refname>
   <refpurpose>The Imagick constructor</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <methodname>Imagick::__construct</methodname>
    <methodparam choice="opt"><type>mixed</type><parameter>files</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Creates an Imagick instance for a specified image or set of images.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -23,20 +23,20 @@
    <varlistentry>
     <term><parameter>files</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The path to an image to load or an array of paths. Paths can include
       wildcards for file names, or can be URLs.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
-  </variablelist>                                        
+  </variablelist>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

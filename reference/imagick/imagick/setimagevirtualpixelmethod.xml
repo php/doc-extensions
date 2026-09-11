@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagevirtualpixelmethod">
+<refentry xml:id="imagick.setimagevirtualpixelmethod" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageVirtualPixelMethod</refname>
   <refpurpose>Sets the image virtual pixel method</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageVirtualPixelMethod</methodname>
    <methodparam><type>int</type><parameter>method</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image virtual pixel method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>method</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

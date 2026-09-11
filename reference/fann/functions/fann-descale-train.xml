@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>resource</type><parameter>train_data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Descale input and output data based on previously calculated parameters.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

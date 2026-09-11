@@ -13,10 +13,10 @@
    <methodparam><type>float</type><parameter>fuzz</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
-   Remove edges that are the background color from the image. 
+  <simpara>
+   Remove edges that are the background color from the image.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,13 +26,13 @@
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        By default target must match a particular pixel color exactly.
        However, in many cases two colors may differ by a small amount.
        The fuzz member of image defines how much tolerance is acceptable
        to consider two colors as the same. This parameter represents the variation
        on the quantum range.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -41,16 +41,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
   <refsect1 role="examples">
@@ -58,9 +58,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::trimImage</function>:</title>
-    <para>
+    <simpara>
      Trim an image, then display to the browser.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

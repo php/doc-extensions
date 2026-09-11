@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.linearstretchimage">
+<refentry xml:id="imagick.linearstretchimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::linearStretchImage</refname>
   <refpurpose>Stretches with saturation the image intensity</refpurpose>
@@ -14,9 +14,9 @@
    <methodparam><type>float</type><parameter>whitePoint</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Stretches with saturation the image intensity.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
     <varlistentry>
      <term><parameter>blackPoint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The image black point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>whitePoint</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The image white point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

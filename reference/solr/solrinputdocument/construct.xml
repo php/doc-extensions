@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>SolrInputDocument::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Constructor.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    None.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

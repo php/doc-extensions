@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\Draw\Matrix::isInvertible</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall detect if this Matrix may be inverted
-  </para>
+  </simpara>
 
  </refsect1>
 

@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>cascade_candidate_change_fraction</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the cascade candidate change fraction.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>cascade_candidate_change_fraction</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The cascade candidate change fraction.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

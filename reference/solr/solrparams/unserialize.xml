@@ -13,9 +13,9 @@
    <modifier>final</modifier> <modifier>public</modifier> <type>void</type><methodname>SolrParams::unserialize</methodname>
    <methodparam><type>string</type><parameter>serialized</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Used for custom serialization
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>serialized</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The serialized representation of the object
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   None
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="oauth.setrequestengine">
+<refentry xml:id="oauth.setrequestengine" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>OAuth::setRequestEngine</refname>
   <refpurpose>The setRequestEngine purpose</refpurpose>
@@ -46,7 +46,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Emits an <classname>OAuthException</classname> exception if an invalid
+   Emits an <exceptionname>OAuthException</exceptionname> exception if an invalid
    request engine is chosen.
   </simpara>
  </refsect1>
@@ -72,7 +72,7 @@ $consumer->setRequestEngine(OAUTH_REQENGINE_STREAMS);
   <simplelist>
    <member><link xlink:href="&url.php.manual.book.curl;">Curl</link></member>
    <member><link xlink:href="&url.php.manual.book.stream;">PHP streams</link></member>
-   <member><classname>OAuthException</classname></member>
+   <member><exceptionname>OAuthException</exceptionname></member>
   </simplelist>
  </refsect1>
 </refentry>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Schema Object</type><methodname>mysql_xdevapi\Collection::getSchema</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve the schema object that contains the collection.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The schema object on success, or &null; if the object cannot be retrieved
    for the given collection.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

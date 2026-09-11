@@ -6,7 +6,7 @@
   <refname>xdiff_file_merge3</refname>
   <refpurpose>Merge 3 files into one</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -16,11 +16,11 @@
    <methodparam><type>string</type><parameter>new_file2</parameter></methodparam>
    <methodparam><type>string</type><parameter>dest</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Merges three files into one and stores the result in a file <parameter>dest</parameter>. 
+  <simpara>
+   Merges three files into one and stores the result in a file <parameter>dest</parameter>.
    The <parameter>old_file</parameter> is an original version while <parameter>new_file1</parameter>
-   and <parameter>new_file2</parameter> are modified versions of an original.   
-  </para>
+   and <parameter>new_file2</parameter> are modified versions of an original.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,34 +30,34 @@
     <varlistentry>
      <term><parameter>old_file</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the first file. It acts as "old" file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_file1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the second file. It acts as modified version of <parameter>old_file</parameter>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_file2</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the third file. It acts as modified version of <parameter>old_file</parameter>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>dest</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path of the resulting file, containing merged changed from both <parameter>new_file1</parameter> and
        <parameter>new_file2</parameter>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -66,10 +66,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if merge was successful, string with rejected chunks if
    it was not or &false; if an internal error happened.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -77,9 +77,9 @@
   <para>
    <example>
     <title><function>xdiff_file_merge3</function> example</title>
-    <para>
+    <simpara>
      The following code merges three files into one.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagick.getimagehistogram">
+<refentry xml:id="gmagick.getimagehistogram" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Gmagick::getimagehistogram</refname>
   <refpurpose>Gets the image histogram</refpurpose>
@@ -14,7 +14,7 @@
   </methodsynopsis>
   <simpara>
    Returns the image histogram as an array of <classname>GmagickPixel</classname> objects.
-   Throw an <classname>GmagickException</classname> on error.
+   Throw an <exceptionname>GmagickException</exceptionname> on error.
   </simpara>
 
 

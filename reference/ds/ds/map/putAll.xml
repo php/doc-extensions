@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>void</type><methodname>Ds\Map::putAll</methodname>
    <methodparam><type>mixed</type><parameter>pairs</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Associates all key-value <parameter>pairs</parameter> of a <classname>traversable</classname> object or &array;.
-  </para>
+  </simpara>
 
   <note>
-    <para>
+    <simpara>
         Keys of type <type>object</type> are supported.
 
         If an object implements <classname>Ds\Hashable</classname>,
@@ -26,7 +26,7 @@
 
         If an object does not implement <classname>Ds\Hashable</classname>,
         objects must be references to the same instance to be considered equal.
-    </para>
+    </simpara>
   </note>
 
  </refsect1>
@@ -37,9 +37,9 @@
    <varlistentry>
     <term><parameter>pairs</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         <classname>traversable</classname> object or &array;.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

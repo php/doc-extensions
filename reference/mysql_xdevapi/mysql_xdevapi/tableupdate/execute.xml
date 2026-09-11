@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableUpdate</type><methodname>mysql_xdevapi\TableUpdate::execute</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Executes the update statement.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A TableUpdate object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

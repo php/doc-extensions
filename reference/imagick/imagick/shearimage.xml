@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.shearimage">
+<refentry xml:id="imagick.shearimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::shearImage</refname>
   <refpurpose>Creating a parallelogram</refpurpose>
@@ -14,7 +14,7 @@
    <methodparam><type>float</type><parameter>x_shear</parameter></methodparam>
    <methodparam><type>float</type><parameter>y_shear</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Slides one edge of an image along the X or Y axis, creating a parallelogram.
    An X direction shear slides an edge along the X axis, while a Y direction
    shear slides an edge along the Y axis.  The amount of the shear is controlled
@@ -22,7 +22,7 @@
    the Y axis, and similarly, for Y direction shears y_shear is measured
    relative to the X axis.  Empty triangles left over from shearing the image
    are filled with the background color.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,25 +32,25 @@
     <varlistentry>
      <term><parameter>background</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The background color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x_shear</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The number of degrees to shear on the x axis
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y_shear</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The number of degrees to shear on the y axis
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -59,9 +59,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

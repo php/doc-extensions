@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathlinetohorizontalrelative">
+<refentry xml:id="imagickdraw.pathlinetohorizontalrelative" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathLineToHorizontalRelative</refname>
   <refpurpose>Draws a horizontal line</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>float</type><parameter>x</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a horizontal line path from the current point to the target point
    using relative coordinates.  The target point then becomes the new
    current point.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

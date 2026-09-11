@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>SolrQuery::__construct</methodname>
    <methodparam choice="opt"><type>string</type><parameter>q</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Constructor.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>q</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Optional search query
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,15 +37,15 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    None
-  </para>
+  </simpara>
  </refsect1>
 <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Emits <classname>SolrIllegalArgumentException</classname> in case of an invalid parameter was passed.
-  </para>
+  <simpara>
+   Emits <exceptionname>SolrIllegalArgumentException</exceptionname> in case of an invalid parameter was passed.
+  </simpara>
  </refsect1>
  <refsect1 role="changelog">
   &reftitle.changelog;
@@ -63,7 +63,7 @@
        <entry>PECL solr 2.0.0</entry>
        <entry>
         If <parameter>q</parameter> was invalid, then a
-        <classname>SolrIllegalArgumentException</classname> is now thrown. Previously an error was emitted.
+        <exceptionname>SolrIllegalArgumentException</exceptionname> is now thrown. Previously an error was emitted.
        </entry>
       </row>
      </tbody>

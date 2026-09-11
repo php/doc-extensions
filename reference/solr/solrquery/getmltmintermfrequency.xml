@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getMltMinTermFrequency</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the frequency below which terms will be ignored in the source document
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

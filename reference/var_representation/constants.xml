@@ -11,7 +11,7 @@
     </term>
     <listitem>
      <simpara>
-      <function>var_representation</function> flag indicating that newlines 
+      <function>var_representation</function> flag indicating that newlines
       should not be used for whitespace in variable representations.
      </simpara>
     </listitem>

@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>color</parameter></methodparam>
    <methodparam><type class="union"><type>int</type><type>float</type></type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the quantum value of a color element of the ImagickPixel.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>color</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Which color element to set e.g. \Imagick::COLOR_GREEN.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
 
@@ -38,20 +38,20 @@
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The quantum value to set the color element to. This should be a float if ImageMagick was compiled with HDRI otherwise an int in the range 0 to Imagick::getQuantum().
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
-   
+
   </variablelist>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

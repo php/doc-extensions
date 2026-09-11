@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Button::onClick</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when this Button is clicked
-  </para>
+  </simpara>
 
  </refsect1>
 

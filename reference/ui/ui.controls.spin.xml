@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Spin intro -->
   <section xml:id="ui-controls-spin.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Spin box is a text box with an up-down control which changes the integer value in the box, within a defined range
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,7 +29,7 @@
      <ooclass>
       <classname>UI\Controls\Spin</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>UI\Control</classname>
@@ -39,10 +39,10 @@
 
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-spin')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-spin')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-control')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
 

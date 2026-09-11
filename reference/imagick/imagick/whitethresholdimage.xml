@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.whitethresholdimage">
+<refentry xml:id="imagick.whitethresholdimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::whiteThresholdImage</refname>
   <refpurpose>Force all pixels above the threshold into white</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::whiteThresholdImage</methodname>
    <methodparam><type>mixed</type><parameter>threshold</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Is like Imagick::ThresholdImage() but force all pixels above the threshold
    into white while leaving all pixels below the threshold unchanged.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,8 +25,8 @@
     <varlistentry>
      <term><parameter>threshold</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

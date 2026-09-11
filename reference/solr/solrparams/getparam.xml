@@ -13,10 +13,10 @@
    <modifier>final</modifier> <modifier>public</modifier> <type>mixed</type><methodname>SolrParams::getParam</methodname>
    <methodparam choice="opt"><type>string</type><parameter>param_name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a parameter with name <parameter>param_name</parameter>.
-  </para>
-  
+  </simpara>
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>param_name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the parameter.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a &string; or an &array; depending on the type of the parameter.
-  </para>
+  </simpara>
  </refsect1>
 
 

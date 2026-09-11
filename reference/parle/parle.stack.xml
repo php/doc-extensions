@@ -11,9 +11,9 @@
 <!-- {{{ Parle\Stack intro -->
   <section xml:id="parle-stack.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
    <classname>Parle\Stack</classname> is a LIFO stack. The elements are inserted and removed only from one end.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -31,7 +31,7 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
     <fieldsynopsis>
      <modifier>public</modifier>
@@ -65,19 +65,19 @@
     <varlistentry xml:id="parle-stack.props.empty">
      <term><varname>empty</varname></term>
      <listitem>
-      <para>Whether the stack is empty, readonly.</para>
+      <simpara>Whether the stack is empty, readonly.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="parle-stack.props.size">
      <term><varname>size</varname></term>
      <listitem>
-      <para>Stack size, readonly.</para>
+      <simpara>Stack size, readonly.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="parle-stack.props.top">
      <term><varname>top</varname></term>
      <listitem>
-      <para>Element on the top of the stack.</para>
+      <simpara>Element on the top of the stack.</simpara>
      </listitem>
     </varlistentry>
    </variablelist>

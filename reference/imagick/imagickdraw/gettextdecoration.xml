@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.gettextdecoration">
+<refentry xml:id="imagickdraw.gettextdecoration" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getTextDecoration</refname>
   <refpurpose>Returns the text decoration</refpurpose>
@@ -13,17 +13,17 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the decoration applied when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <link linkend="imagick.constants.decoration">DECORATION</link> constant
    (<literal>imagick::DECORATION_*</literal>), and 0 if no decoration is set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

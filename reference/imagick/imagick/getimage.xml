@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimage">
+<refentry xml:id="imagick.getimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImage</refname>
   <refpurpose>Returns a new Imagick object</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::getImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a new Imagick object with the current image sequence.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a new Imagick object with the current image sequence.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

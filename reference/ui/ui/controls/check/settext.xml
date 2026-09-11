@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Check::setText</methodname>
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the text (label) for this Check
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>text</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new text (label)
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

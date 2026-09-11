@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>UI\Draw\Color</type><methodname>UI\Draw\Brush::getColor</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall return a UI\Draw\Color for this brush
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current color of the brush
-  </para>
+  </simpara>
  </refsect1>
 
 

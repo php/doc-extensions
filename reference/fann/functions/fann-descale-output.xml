@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>array</type><parameter>output_vector</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Scale data in output vector after get it from ann based on previously calculated parameters.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>output_vector</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Output vector that will be descaled
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

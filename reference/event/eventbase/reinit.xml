@@ -13,9 +13,9 @@
    <methodname>EventBase::reInit</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Re-initialize event base. Should be called after a fork.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,9 +23,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file

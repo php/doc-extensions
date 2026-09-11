@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getfont">
+<refentry xml:id="imagickdraw.getfont" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getFont</refname>
   <refpurpose>Returns the font</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
-   Returns a string specifying the font used when annotating with text. 
-  </para>
+  <simpara>
+   Returns a string specifying the font used when annotating with text.
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a string on success and false if no font is set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

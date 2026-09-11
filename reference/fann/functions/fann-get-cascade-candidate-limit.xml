@@ -13,16 +13,16 @@
    <type>float</type><methodname>fann_get_cascade_candidate_limit</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The candidate limit is a limit for how much the candidate neuron may be trained. The limit is a limit
    on the proportion between the MSE and candidate score.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Set this to a lower value to avoid overfitting and to a higher if overfitting is not a problem.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default candidate limit is 1000.0.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The candidate limit, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

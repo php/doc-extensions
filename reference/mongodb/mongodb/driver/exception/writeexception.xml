@@ -13,7 +13,7 @@
     This exception class is <emphasis>DEPRECATED</emphasis> as of extension
     version 1.20.0 and was removed in 2.0. This exception was never directly
     thrown by the extension. Applications should use
-    <classname>MongoDB\Driver\Exception\BulkWriteException</classname> instead.
+    <exceptionname>MongoDB\Driver\Exception\BulkWriteException</exceptionname> instead.
    </simpara>
   </warning>
 
@@ -119,9 +119,9 @@
        <entry>
         <simpara>
          This class now extends
-         <classname>MongoDB\Driver\Exception\ServerException</classname>
+         <exceptionname>MongoDB\Driver\Exception\ServerException</exceptionname>
          instead of
-         <classname>MongoDB\Driver\Exception\RuntimeException</classname>.
+         <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname>.
         </simpara>
        </entry>
       </row>

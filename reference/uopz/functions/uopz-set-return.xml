@@ -22,15 +22,15 @@
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>execute</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the return value of the <parameter>function</parameter> to <parameter>value</parameter>. If <parameter>value</parameter>
    is a Closure and <parameter>execute</parameter> is set, the Closure will be executed in place of the original function.
    It is possible to call the original function from the Closure.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     This function replaces <methodname>uopz_rename</methodname>.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 
@@ -40,33 +40,33 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class containing the function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of an existing function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value the function should return. If a Closure is provided and the execute flag is set, the Closure will be executed in place of the original function.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>execute</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If true, and a Closure was provided as the value, the Closure will be executed in place of the original function.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -74,9 +74,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    True if succeeded, false otherwise.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagecolors">
+<refentry xml:id="imagick.getimagecolors" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageColors</refname>
   <refpurpose>Gets the number of unique colors in the image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageColors</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the number of unique colors in the image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an <type>int</type>, the number of unique colors in the image.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

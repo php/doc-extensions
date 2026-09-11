@@ -16,13 +16,13 @@
    <methodparam choice="opt"><type>int</type><parameter>initial_value</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>expiry</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::incrementByKey</function> increments a numeric item's value
    by the specified <parameter>offset</parameter>. If the item's value is not
    numeric, an error will result.
    <function>Memcached::incrementByKey</function> will set the item to the
    <parameter>initial_value</parameter> parameter if the key doesn't exist.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,41 +32,41 @@
     <varlistentry>
      <term><parameter>server_key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.server_key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The key of the item to increment.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>offset</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The amount by which to increment the item's value.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>initial_value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value to set the item to if it doesn't currently exist.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>expiry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The expiry time to set on the item.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -75,9 +75,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns new item's value on success&return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

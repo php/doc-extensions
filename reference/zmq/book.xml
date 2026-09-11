@@ -13,9 +13,9 @@
    &warn.experimental;
    "ØMQ is a software library that lets you quickly design and implement a fast message-based application." --0MQ Website
   </para>
-  <para>
+  <simpara>
    For more information about 0MQ, see <link xlink:href="&url.zeromq;">&url.zeromq;</link>.
-  </para>
+  </simpara>
  </preface>
 
  &reference.zmq.setup;

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Text\Font::__construct</methodname>
    <methodparam><type>UI\Draw\Text\Font\Descriptor</type><parameter>descriptor</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Font using the given descriptor
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>descriptor</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The descriptor for the Font
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

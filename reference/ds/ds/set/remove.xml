@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Ds\Set::remove</methodname>
    <methodparam rep="repeat"><type>mixed</type><parameter>values</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Removes all given <parameter>values</parameter> from the set, ignoring any that are not in the set.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>values</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The values to remove.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\Controls\MultilineEntry::isReadOnly</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall detect if this Multiline Entry is read only
-  </para>
+  </simpara>
 
  </refsect1>
 

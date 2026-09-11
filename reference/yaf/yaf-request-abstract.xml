@@ -117,67 +117,67 @@
     <varlistentry xml:id="yaf-request-abstract.props.module">
      <term><varname>module</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.controller">
      <term><varname>controller</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.action">
      <term><varname>action</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.method">
      <term><varname>method</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.params">
      <term><varname>params</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.language">
      <term><varname>language</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.exception">
      <term><varname>_exception</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.base-uri">
      <term><varname>_base_uri</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.uri">
      <term><varname>uri</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.dispatched">
      <term><varname>dispatched</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-abstract.props.routed">
      <term><varname>routed</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -193,14 +193,14 @@
     <varlistentry xml:id="yaf-request-abstract.constants.scheme-http">
      <term><constant>Yaf_Request_Abstract::SCHEME_HTTP</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="yaf-request-abstract.constants.scheme-https">
      <term><constant>Yaf_Request_Abstract::SCHEME_HTTPS</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.implodeimage">
+<refentry xml:id="imagick.implodeimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::implodeImage</refname>
   <refpurpose>Creates a new image as a copy</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::implodeImage</methodname>
    <methodparam><type>float</type><parameter>radius</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a new image that is a copy of an existing one with the image pixels
    "imploded" by the specified percentage.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The radius of the implode
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,16 +36,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

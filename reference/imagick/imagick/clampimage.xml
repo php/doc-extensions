@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::clampImage</methodname>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Restricts the color range from 0 to the quantum depth.
-  </para>
+  </simpara>
 
 
  </refsect1>
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>channel</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

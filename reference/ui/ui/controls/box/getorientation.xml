@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Box::getOrientation</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall retrieve the orientation of this Box
-  </para>
+  </simpara>
 
  </refsect1>
 

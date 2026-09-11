@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrDocumentField</type><methodname>SolrDocument::current</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves the current field
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the field
-  </para>
+  </simpara>
  </refsect1>
 
 

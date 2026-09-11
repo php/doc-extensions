@@ -15,9 +15,9 @@
    <methodparam><type>string</type><parameter>fieldValue</parameter></methodparam>
    <methodparam choice="opt"><type>float</type><parameter>fieldBoostValue</parameter><initializer>0.0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    For multi-value fields, if a valid boost value is specified, the specified value will be multiplied by the current boost value for this field.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,25 +28,25 @@
     <varlistentry>
      <term><parameter>fieldName</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fieldValue</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value for the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fieldBoostValue</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The index time boost for the field. Though this cannot be negative, you can still pass values less than 1.0 but they must be greater than zero.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -55,9 +55,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

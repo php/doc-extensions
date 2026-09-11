@@ -22,36 +22,36 @@
     <varlistentry>
      <term><parameter>xml</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        XML response returned by XMLRPC method.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>encoding</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Input encoding supported by iconv.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
   </para>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns either an array, or an integer, or a string, or a boolean according
    to the response returned by the XMLRPC method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
   &reftitle.examples;
-  <para>
+  <simpara>
    See example by <function>xmlrpc_encode_request</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -7,9 +7,9 @@
 <!-- {{{ EventHttp intro -->
   <section xml:id="eventhttp.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents HTTP server.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
   <section xml:id="eventhttp.synopsis">

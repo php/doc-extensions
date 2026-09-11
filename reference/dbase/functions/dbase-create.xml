@@ -13,12 +13,12 @@
    <methodparam><type>array</type><parameter>fields</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>type</parameter><initializer>DBASE_TYPE_DBASE</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>dbase_create</function> creates a dBase database with the given
    definition.
    If the file already exists, it is not truncated.
    <function>dbase_pack</function> can be called to force truncation.
-  </para>
+  </simpara>
   &note.open-basedir.func;
  </refsect1>
  <refsect1 role="parameters">
@@ -28,37 +28,37 @@
     <varlistentry>
      <term><parameter>path</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The path of the database. It can be a relative or absolute path to
        the file where dBase will store your data.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fields</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An array of arrays, each array describing the format of one field of the
        database. Each field consists of a name, a character indicating the field
        type, and optionally, a length, a precision and a nullable flag.
        The supported field types are listed in the <link
        linkend="intro.dbase">introduction section</link>.
-      </para>
+      </simpara>
       <note>
-       <para>
+       <simpara>
         The fieldnames are limited in length and must not exceed 10 chars.
-       </para>
+       </simpara>
       </note>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The type of database to be created. Either
        <constant>DBASE_TYPE_DBASE</constant> or
        <constant>DBASE_TYPE_FOXPRO</constant>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -66,10 +66,10 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a database resource if the database is successfully created,
    or &false; if an error occurred.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

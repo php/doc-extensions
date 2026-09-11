@@ -4,12 +4,12 @@
 <section xml:id="swoole.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
- <para>
+ <simpara>
   Use <option role="configure">--with-swoole[=DIR]</option> when compiling PHP.
- </para>
- 
- <para>
+ </simpara>
+
+ <simpara>
   &pecl.info;
   <link xlink:href="&url.pecl.package;swoole">&url.pecl.package;swoole</link>
- </para>
+ </simpara>
 </section>

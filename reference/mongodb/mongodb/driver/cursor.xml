@@ -276,7 +276,7 @@ while (true) {
    <simplelist>
     <member>
      Throws
-     <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if
+     <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if
      a class in the type map cannot be instantiated or does not implement
      <interfacename>MongoDB\BSON\Unserializable</interfacename>.
     </member>

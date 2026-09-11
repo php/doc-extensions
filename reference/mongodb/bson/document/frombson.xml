@@ -40,7 +40,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname> if <parameter>bson</parameter> is an invalid BSON string or contains more than a single document.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\UnexpectedValueException</exceptionname> if <parameter>bson</parameter> is an invalid BSON string or contains more than a single document.</member>
   </simplelist>
  </refsect1>
 

@@ -18,10 +18,10 @@
  <!-- {{{ Resources -->
  <section xml:id="xmlrpc.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
    This extension defines a XML-RPC server resource returned by
    <function>xmlrpc_server_create</function>.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.rnp-op-sign-cleartext">
+<refentry xml:id="function.rnp-op-sign-cleartext" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rnp_op_sign_cleartext</refname>
   <refpurpose>Perform signing operation on a textual data, return cleartext signed message</refpurpose>

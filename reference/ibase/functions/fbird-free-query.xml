@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-free-query">
+<refentry xml:id="function.fbird-free-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_free_query</refname>
   <refpurpose>&Alias; <function>ibase_free_query</function></refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <simpara>

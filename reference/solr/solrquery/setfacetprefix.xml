@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>prefix</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>field_override</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Specifies a string prefix with which to limits the terms on which to facet.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>prefix</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The prefix string
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>field_override</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

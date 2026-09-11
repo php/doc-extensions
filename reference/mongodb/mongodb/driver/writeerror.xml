@@ -12,7 +12,7 @@
   <section xml:id="mongodb-driver-writeerror.intro">
    &reftitle.intro;
    <simpara>
-    The <classname>MongoDB\Driver\WriteError</classname> class encapsulates
+    The <exceptionname>MongoDB\Driver\WriteError</exceptionname> class encapsulates
     information about a write error and may be returned as an array element from
     <methodname>MongoDB\Driver\WriteResult::getWriteErrors</methodname>.
    </simpara>

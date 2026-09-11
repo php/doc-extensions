@@ -13,16 +13,16 @@
    <type>int</type><methodname>fann_get_cascade_candidate_stagnation_epochs</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The number of cascade candidate stagnation epochs determines the number of epochs training is allowed to continue
    without changing the MSE by a fraction of <function>fann_get_cascade_candidate_change_fraction</function>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    See more info about this parameter in <function>fann_get_cascade_candidate_change_fraction</function>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default number of cascade candidate stagnation epochs is 12.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The number of cascade candidate stagnation epochs, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -16,12 +16,12 @@
     <parameter>buf</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Send another data chunk as part of an ongoing chunked reply. After calling
    this method
    <parameter>buf</parameter>
    will be empty.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -31,18 +31,18 @@
      <parameter>buf</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The data chunk to send as part of the reply.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

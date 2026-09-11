@@ -13,11 +13,11 @@
    <methodparam><type>int</type><parameter>option</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method sets the value of a Memcached <parameter>option</parameter>.
    Some options correspond to the ones defined by libmemcached, and some are
    specific to the extension.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,18 +27,18 @@
     <varlistentry>
      <term><parameter>option</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <constant>Memcached::OPT_<replaceable>*</replaceable></constant> constant.
        See <link linkend="memcached.constants">Memcached Constants</link> for more information.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value to be set.
-      </para>
+      </simpara>
       <note>
        <para>
         The options listed below require values specified via constants.
@@ -74,9 +74,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

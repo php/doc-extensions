@@ -15,9 +15,9 @@
    <methodparam choice="opt"><type>string</type><parameter>identifier</parameter><initializer>"V8Js::executeString()"</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer><constant>V8Js::FLAG_NONE</constant></initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Compiles and executes the string passed with <parameter>script</parameter> as Javascript code.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>script</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The code string to be executed.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>identifier</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Identifier string for the executed code. Used for debugging.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -48,15 +48,15 @@
       <constant>V8Js::FLAG_NONE</constant>.
       <itemizedlist>
         <listitem>
-         <para>
+         <simpara>
           <constant>V8Js::FLAG_NONE</constant>: no flags
-         </para>
+         </simpara>
         </listitem>
         <listitem>
-         <para>
+         <simpara>
           <constant>V8Js::FLAG_FORCE_ARRAY</constant>: forces all Javascript
           objects passed to PHP to be associative arrays
-         </para>
+         </simpara>
         </listitem>
       </itemizedlist>
      </para>
@@ -67,9 +67,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the last variable instantiated in the Javascript code converted to matching PHP variable type.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

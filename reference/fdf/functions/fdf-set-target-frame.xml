@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fdf-set-target-frame">
+<refentry xml:id="function.fdf-set-target-frame" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fdf_set_target_frame</refname>
   <refpurpose>Set target frame for form display</refpurpose>

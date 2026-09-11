@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>UI\Window::open</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall show an open file dialog
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the name of the file selected for opening
-  </para>
+  </simpara>
  </refsect1>
 
 

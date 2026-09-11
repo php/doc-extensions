@@ -11,9 +11,9 @@
    <type>int</type><methodname>trader_errno</methodname>
    <void/>
   </methodsynopsis>
-  <para>
-   Get error code of the last operation. 
-  </para>
+  <simpara>
+   Get error code of the last operation.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -23,7 +23,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns the error code identified by one of the <link xmlns="http://docbook.org/ns/docbook" linkend="trader.constants">TRADER_ERR_*</link> constants.</para>
+  <simpara>Returns the error code identified by one of the <link xmlns="http://docbook.org/ns/docbook" linkend="trader.constants">TRADER_ERR_*</link> constants.</simpara>
  </refsect1>
 
 </refentry>

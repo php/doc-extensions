@@ -34,7 +34,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if <parameter>id</parameter> is not a 24-character hexadecimal string.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if <parameter>id</parameter> is not a 24-character hexadecimal string.</member>
   </simplelist>
  </refsect1>
 

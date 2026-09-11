@@ -15,12 +15,12 @@
    <methodparam><type>float</type><parameter>min_weight</parameter></methodparam>
    <methodparam><type>float</type><parameter>max_weight</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Give each connection a random weight between <parameter>min_weight</parameter> and <parameter>max_weight</parameter>
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    From the beginning the weights are random between -0.1 and 0.1.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -35,17 +35,17 @@
    <varlistentry>
     <term><parameter>min_weight</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Minimum weight value
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>max_weight</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Maximum weight value
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

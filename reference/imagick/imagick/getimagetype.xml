@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagetype">
+<refentry xml:id="imagick.getimagetype" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageType</refname>
   <refpurpose>Gets the potential image type</refpurpose>
@@ -12,16 +12,16 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageType</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the potential image type.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;
   &no.function.parameters;
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
@@ -88,9 +88,9 @@
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -80,7 +80,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\EncryptionException</classname> if an error occurs while encrypting the expression</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\EncryptionException</exceptionname> if an error occurs while encrypting the expression</member>
   </simplelist>
  </refsect1>
 

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>Vtiful\Kernel\Excel::getHandle</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Get the xlsx text resource handle.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Resource
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

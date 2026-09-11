@@ -25,33 +25,33 @@
    <varlistentry>
     <term><parameter>path</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the node. Expressed as a file name with slashes separating ancestors of the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>watcher_cb</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If nonzero, a watch will be set at the server to notify the client if the node changes.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>stat</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If not NULL, will hold the value of stat for the path on return.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>max_size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Max size of the data. If 0 is used, this method will return the whole data.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -59,19 +59,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the data on success, and false on failure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or fail to get value from node.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -80,9 +80,9 @@
   &reftitle.examples;
   <example xml:id="zookeeper.get.example.basic">
    <title><methodname>Zookeeper::get</methodname> example</title>
-   <para>
+   <simpara>
      Get value from node.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -109,9 +109,9 @@ nodevalue
 
   <example xml:id="zookeeper.get.example.stat">
    <title><methodname>Zookeeper::get</methodname> stat example</title>
-   <para>
+   <simpara>
      Get node stat info.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -159,7 +159,7 @@ array(11) {
   &reftitle.seealso;
   <simplelist>
    <member><methodname>Zookeeper::set</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

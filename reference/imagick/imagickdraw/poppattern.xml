@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.poppattern">
+<refentry xml:id="imagickdraw.poppattern" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::popPattern</refname>
   <refpurpose>Terminates a pattern definition</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Terminates a pattern definition.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

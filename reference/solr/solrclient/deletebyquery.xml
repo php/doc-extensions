@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::deleteByQuery</methodname>
    <methodparam><type>string</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Deletes all documents matching the given query.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>query</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The query
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,21 +37,21 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrUpdateResponse</type> on success and throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-   Throws <classname>SolrServerException</classname> if the Solr Server had failed to process the request.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to process the request.
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>

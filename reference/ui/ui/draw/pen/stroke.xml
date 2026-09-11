@@ -27,9 +27,9 @@
    <methodparam><type>int</type><parameter>with</parameter></methodparam>
    <methodparam><type>UI\Draw\Stroke</type><parameter>stroke</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall stroke the given path
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -39,25 +39,25 @@
    <varlistentry>
     <term><parameter>path</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The path to stroke
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>with</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The color or brush to stroke with
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>stroke</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The configuration of the stroke
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

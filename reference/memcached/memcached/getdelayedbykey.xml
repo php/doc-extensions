@@ -15,12 +15,12 @@
    <methodparam choice="opt"><type>bool</type><parameter>with_cas</parameter><initializer>&false;</initializer></methodparam>
    <methodparam choice="opt"><type class="union"><type>callable</type><type>null</type></type><parameter>value_cb</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getDelayedByKey</function> is functionally equivalent to
    <methodname>Memcached::getDelayed</methodname>, except that the free-form
    <parameter>server_key</parameter> can be used to map the
    <parameter>keys</parameter> to a specific server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,33 +30,33 @@
     <varlistentry>
      <term><parameter>server_key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.server_key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>keys</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Array of keys to request.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>with_cas</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Whether to request CAS token values also.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value_cb</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The result callback or &null;.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -65,10 +65,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

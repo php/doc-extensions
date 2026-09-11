@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setfillpatternurl">
+<refentry xml:id="imagickdraw.setfillpatternurl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setFillPatternURL</refname>
   <refpurpose>Sets the URL to use as a fill pattern for filling objects</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>string</type><parameter>fill_url</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the URL to use as a fill pattern for filling objects. Only local URLs
    ("#identifier") are supported at this time. These local URLs are normally
    created by defining a named fill pattern with DrawPushPattern/DrawPopPattern.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>fill_url</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        URL to use to obtain fill pattern.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

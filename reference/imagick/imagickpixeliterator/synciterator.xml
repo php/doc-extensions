@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.synciterator">
+<refentry xml:id="imagickpixeliterator.synciterator" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixelIterator::syncIterator</refname>
   <refpurpose>Syncs the pixel iterator</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Syncs the pixel iterator.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

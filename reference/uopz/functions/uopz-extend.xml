@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
    <methodparam><type>string</type><parameter>parent</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes <parameter>class</parameter> extend <parameter>parent</parameter>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class to extend
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>parent</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class to inherit
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,15 +43,15 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   As of PHP 7.4.0, <function>uopz_extend</function> throws a <classname>RuntimeException</classname>,
+   As of PHP 7.4.0, <function>uopz_extend</function> throws a <exceptionname>RuntimeException</exceptionname>,
    if <link xlink:href="&url.php.manual.book.opcache;">OPcache</link> is enabled,
    and the class entry of either <parameter>class</parameter>
    or <parameter>parent</parameter> (if it is a trait) is immutable.

@@ -11,9 +11,9 @@
 <!-- {{{ SolrDocumentField intro -->
   <section xml:id="solrdocumentfield.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     This represents a field in a Solr document. All its properties are read-only.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -52,7 +52,7 @@
      <varname linkend="solrdocumentfield.props.values">values</varname>
     </fieldsynopsis>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrdocumentfield')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrdocumentfield')/db:refentry/db:refsect1[@role='description']/descendant::db:destructorsynopsis[not(@role='procedural')])" />
@@ -61,7 +61,7 @@
 
   </section>
 
-  
+
 <!-- {{{ SolrDocumentField properties -->
   <section xml:id="solrdocumentfield.props">
    &reftitle.properties;
@@ -69,19 +69,19 @@
     <varlistentry xml:id="solrdocumentfield.props.name">
      <term><varname>name</varname></term>
      <listitem>
-      <para>The name of the field.</para>
+      <simpara>The name of the field.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrdocumentfield.props.boost">
      <term><varname>boost</varname></term>
      <listitem>
-      <para>The boost value for the field</para>
+      <simpara>The boost value for the field</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrdocumentfield.props.values">
      <term><varname>values</varname></term>
      <listitem>
-      <para>An array of values for this field</para>
+      <simpara>An array of values for this field</simpara>
      </listitem>
     </varlistentry>
    </variablelist>

@@ -55,9 +55,9 @@
      <type>int</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Default the timeout for any ZooKeeper session.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
 
@@ -67,9 +67,9 @@
      <type>int</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Enable PHP session locking.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
 

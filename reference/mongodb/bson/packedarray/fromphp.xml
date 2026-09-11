@@ -41,7 +41,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if the given array is not a list (i.e. has sequential numeric keys starting with <literal>0</literal>).</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if the given array is not a list (i.e. has sequential numeric keys starting with <literal>0</literal>).</member>
   </simplelist>
  </refsect1>
 

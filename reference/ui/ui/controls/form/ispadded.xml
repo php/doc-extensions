@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\Controls\Form::isPadded</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall detect if padding is enabled on this Form
-  </para>
+  </simpara>
 
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-blob-get">
+<refentry xml:id="function.ibase-blob-get" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_blob_get</refname>
   <refpurpose>Get len bytes data from open blob</refpurpose>

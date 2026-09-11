@@ -144,8 +144,8 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if the <literal>"causalConsistency"</literal> and <literal>"snapshot"</literal> options are both &true;.</member>
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> if the session could not be created (e.g. libmongoc does not support crypto).</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if the <literal>"causalConsistency"</literal> and <literal>"snapshot"</literal> options are both &true;.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if the session could not be created (e.g. libmongoc does not support crypto).</member>
   </simplelist>
  </refsect1>
 

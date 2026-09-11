@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>int</type><parameter>linebreak</parameter><initializer>YAML_ANY_BREAK</initializer></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Generate a YAML representation of the provided <parameter>data</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,45 +28,45 @@
     <varlistentry>
      <term><parameter>data</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The <parameter>data</parameter> being encoded. Can be any type except
        a <type>resource</type>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>encoding</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Output character encoding chosen from
        <constant>YAML_ANY_ENCODING</constant>,
        <constant>YAML_UTF8_ENCODING</constant>,
        <constant>YAML_UTF16LE_ENCODING</constant>,
        <constant>YAML_UTF16BE_ENCODING</constant>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>linebreak</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Output linebreak style chosen from
        <constant>YAML_ANY_BREAK</constant>,
        <constant>YAML_CR_BREAK</constant>,
        <constant>YAML_LN_BREAK</constant>,
        <constant>YAML_CRLN_BREAK</constant>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>callbacks</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Content handlers for emitting YAML nodes. Associative <type>array</type>
        of classname =&gt; <type>callable</type> mappings. See
        <link linkend="yaml.callbacks.emit">emit callbacks</link> for more
        details.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -75,9 +75,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a YAML encoded <type>string</type> on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

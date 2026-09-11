@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>float</type><methodname>ImagickDraw::getTextInterlineSpacing</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the text interline spacing.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

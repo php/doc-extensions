@@ -15,9 +15,9 @@
    <methodparam><type>int</type><parameter>id</parameter></methodparam>
    <!--<methodparam choice="opt"><type>int</type><parameter>userId</parameter></methodparam>-->
   </methodsynopsis>
-  <para>
+  <simpara>
    Push a pattern for lexeme recognition.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>regex</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Regular expression used for token matching.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>id</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Token id. If the lexer instance is meant to be used standalone, this can be an arbitrary number. If the lexer instance is going to be passed to the parser, it has to be an id returned by <methodname>Parle\Parser::tokenid</methodname>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <!--<varlistentry>
@@ -52,9 +52,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

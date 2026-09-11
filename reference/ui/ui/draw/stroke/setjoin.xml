@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Stroke::setJoin</methodname>
    <methodparam><type>int</type><parameter>join</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the line join setting for this Stroke
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>join</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       UI\Draw\Line\Join::Miter, UI\Draw\Line\Join::Round, or UI\Draw\Line\Join::Bevel
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

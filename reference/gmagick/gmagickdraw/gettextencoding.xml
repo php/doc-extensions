@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagickdraw.gettextencoding">
+<refentry xml:id="gmagickdraw.gettextencoding" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>GmagickDraw::gettextencoding</refname>
   <refpurpose>Returns the code set used for text annotations</refpurpose>

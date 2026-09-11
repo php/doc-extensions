@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Swoole\Buffer::clear</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 

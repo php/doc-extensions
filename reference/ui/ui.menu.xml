@@ -11,9 +11,9 @@
 <!-- {{{ UI\Menu intro -->
   <section xml:id="ui-menu.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Menus must be constructed before the first Window, and can be shown on any Window
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -31,7 +31,7 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
      <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-menu')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
 

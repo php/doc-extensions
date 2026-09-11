@@ -14,27 +14,27 @@
    <methodparam><type>int</type><parameter>sortOrderBy</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>sortDirection</parameter><initializer>SolrDocument::SORT_ASC</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
  <![CDATA[
    The fields are rearranged according to the specified criteria and sort direction
-   
+
    Fields can be sorted by boost values, field names and number of values.
-   
+
    The sortOrderBy parameter must be one of :
-   
+
    * SolrDocument::SORT_FIELD_NAME
    * SolrDocument::SORT_FIELD_BOOST_VALUE
    * SolrDocument::SORT_FIELD_VALUE_COUNT
-   
+
    The sortDirection can be one of :
-   
+
    * SolrDocument::SORT_DEFAULT
    * SolrDocument::SORT_ASC
    * SolrDocument::SORT_DESC
-   
+
    The default way is to sort in ascending order.
 ]]>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -44,17 +44,17 @@
     <varlistentry>
      <term><parameter>sortOrderBy</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The sort criteria.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sortDirection</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The sort direction.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -63,9 +63,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

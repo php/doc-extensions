@@ -14,18 +14,18 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>resource</type><parameter>train_data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Initialize the weights using Widrow + Nguyen’s algorithm.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This function behaves similarly to <function>fann_randomize_weights</function>. It will use the algorithm developed by
    Derrick Nguyen and Bernard Widrow to set the weights in such a way as to speed up training. This technique is not always
    successful, and in some cases can be less efficient than a purely random initialization.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The algorithm requires access to the range of the input data (for example largest and smallest input), and therefore
    accepts a second argument, data, which is the training data that will be used to train the network.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

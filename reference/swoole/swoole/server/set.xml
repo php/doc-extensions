@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>ReturnType</type><methodname>Swoole\Server::set</methodname>
    <methodparam><type>array</type><parameter>settings</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Set the runtime settings of the swoole server. The settings can be accessed by $server->setting when the swoole server has started.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>settings</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

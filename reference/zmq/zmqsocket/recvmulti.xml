@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>array</type><methodname>ZMQSocket::recvMulti</methodname>
    <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Receive an array multipart message from a socket. By default receiving will block until a message is available unless
    <constant>ZMQ::MODE_NOBLOCK</constant> flag is used.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,10 +26,10 @@
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       Pass mode flags to receive multipart messages or non-blocking operation. 
+      <simpara>
+       Pass mode flags to receive multipart messages or non-blocking operation.
        See <constant>ZMQ::MODE_<replaceable>*</replaceable></constant> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,11 +38,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the array of message parts. Throws ZMQSocketException in error. 
-   If <constant>ZMQ::MODE_NOBLOCK</constant> is used and the operation would 
+  <simpara>
+   Returns the array of message parts. Throws ZMQSocketException in error.
+   If <constant>ZMQ::MODE_NOBLOCK</constant> is used and the operation would
    block &boolean; false shall be returned.
-  </para>
+  </simpara>
  </refsect1>
 
 

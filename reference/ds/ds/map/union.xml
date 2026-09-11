@@ -13,18 +13,18 @@
    <modifier>public</modifier> <type>Ds\Map</type><methodname>Ds\Map::union</methodname>
    <methodparam><type>Ds\Map</type><parameter>map</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new map that contains the pairs of the current instance as well as the
     pairs of another <parameter>map</parameter>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A ∪ B = {x: x ∈ A ∨ x ∈ B}</code>
-  </para>
+  </simpara>
 
   <note>
-    <para>
+    <simpara>
         Values of the current instance will be overwritten by those provided where keys are equal.
-    </para>
+    </simpara>
   </note>
 
  </refsect1>
@@ -35,9 +35,9 @@
    <varlistentry>
     <term><parameter>map</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The other map, to combine with the current instance.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-    <para>
+    <simpara>
     A new map containing all the pairs of the current instance as well as another <parameter>map</parameter>.
-    </para>
+    </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -14,10 +14,10 @@
    <methodparam><type>string</type><parameter>fieldName</parameter></methodparam>
    <methodparam><type>float</type><parameter>fieldBoostValue</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the index-time boost value for a field. This replaces the current boost value for this field.
-  </para>
-  
+  </simpara>
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>fieldName</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fieldBoostValue</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The index time boost value.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

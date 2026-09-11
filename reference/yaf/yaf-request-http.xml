@@ -14,14 +14,14 @@
    <para>
     Any request from client is initialized as a
     <classname>Yaf_Request_Http</classname>.
-    you can get the request information like, uri query and 
+    you can get the request information like, uri query and
     post parameters via methods of this class.
     <note>
      <simpara>
       For security, $_GET/$_POST are readonly in Yaf, which means
       if you set a value to these global variables, you can not get it from
       <methodname>Yaf_Request_Http::getQuery</methodname> or
-      <methodname>Yaf_Request_Http::getPost</methodname>. 
+      <methodname>Yaf_Request_Http::getPost</methodname>.
      </simpara>
      <simpara>
       But there do is some usage need such feature, like unit testing. thus
@@ -49,7 +49,7 @@
      <ooclass>
       <classname>Yaf_Request_Http</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>Yaf_Request_Abstract</classname>
@@ -58,7 +58,7 @@
 <!-- }}} -->
     <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-request-http')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
 
@@ -70,7 +70,7 @@
 
   </section>
 
-  
+
 <!-- {{{ Yaf_Request_Http properties -->
   <section xml:id="yaf-request-http.props">
    &reftitle.properties;
@@ -78,67 +78,67 @@
     <varlistentry xml:id="yaf-request-http.props.module">
      <term><varname>module</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.controller">
      <term><varname>controller</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.action">
      <term><varname>action</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.method">
      <term><varname>method</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.params">
      <term><varname>params</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.language">
      <term><varname>language</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.exception">
      <term><varname>_exception</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.base-uri">
      <term><varname>_base_uri</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.uri">
      <term><varname>uri</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.dispatched">
      <term><varname>dispatched</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-request-http.props.routed">
      <term><varname>routed</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

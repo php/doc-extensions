@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::deskewImage</methodname>
    <methodparam><type>float</type><parameter>threshold</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method can be used to remove skew from for example scanned images where the paper
    was not properly placed on the scanning surface. &imagick.method.available.0x645;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>threshold</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Deskew threshold
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -54,7 +54,7 @@
 function deskewImage($threshold) {
     $imagick = new \Imagick(realpath("images/NYTimes-Page1-11-11-1918.jpg"));
     $deskewImagick = clone $imagick;
-    
+
     //This is the only thing required for deskewing.
     $deskewImagick->deskewImage($threshold);
 

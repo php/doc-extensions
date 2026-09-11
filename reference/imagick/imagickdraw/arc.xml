@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.arc">
+<refentry xml:id="imagickdraw.arc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::arc</refname>
   <refpurpose>Draws an arc</refpurpose>
@@ -18,9 +18,9 @@
    <methodparam><type>float</type><parameter>end_angle</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws an arc falling within a specified bounding rectangle on the image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,49 +30,49 @@
     <varlistentry>
      <term><parameter>start_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Starting x ordinate of bounding rectangle
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>start_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting y ordinate of bounding rectangle
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>end_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending x ordinate of bounding rectangle
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>end_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending y ordinate of bounding rectangle
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>start_angle</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting degrees of rotation
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>end_angle</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending degrees of rotation
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -81,9 +81,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -110,7 +110,7 @@ function arc($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX
     $image->newImage(IMAGE_WIDTH, IMAGE_HEIGHT, $backgroundColor);
     $image->setImageFormat("png");
 
-    //Render the draw commands in the ImagickDraw object 
+    //Render the draw commands in the ImagickDraw object
     //into the image.
     $image->drawImage($draw);
 

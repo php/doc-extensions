@@ -14,10 +14,10 @@
    <methodparam><type>bool</type><parameter>stack</parameter></methodparam>
    <methodparam><type>int</type><parameter>offset</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Takes all images from the current image pointer to the end of the image list and smushs
    them to each other top-to-bottom if the stack parameter is true, otherwise left-to-right.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,17 +27,17 @@
    <varlistentry>
     <term><parameter>stack</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>offset</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The new smushed image.
-  </para>
+  </simpara>
  </refsect1>
 
 

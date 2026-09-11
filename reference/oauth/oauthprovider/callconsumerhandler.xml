@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="oauthprovider.callconsumerhandler">
+<refentry xml:id="oauthprovider.callconsumerhandler" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>OAuthProvider::callconsumerHandler</refname>
   <refpurpose>Calls the consumerNonceHandler callback</refpurpose>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>UI\Draw\Matrix</type><methodname>UI\Draw\Matrix::multiply</methodname>
    <methodparam><type>UI\Draw\Matrix</type><parameter>matrix</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall multiply this matrix with the given matrix
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The new Matrix
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Ds\Queue::isEmpty</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns whether the queue is empty.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     Returns &true; if the queue is empty, &false; otherwise.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

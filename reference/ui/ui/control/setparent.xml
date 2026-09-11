@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Control::setParent</methodname>
    <methodparam><type>UI\Control</type><parameter>parent</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall set the parent Control of this Control
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>parent</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The parent Control
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

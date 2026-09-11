@@ -23,18 +23,18 @@
     <varlistentry>
      <term><parameter>psdoc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Resource identifier of the postscript file
        as returned by <function>ps_new</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The <parameter>value</parameter> must be between 0.2 and 1.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

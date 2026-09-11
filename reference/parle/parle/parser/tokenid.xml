@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Parle\Parser::tokenId</methodname>
    <methodparam><type>string</type><parameter>tok</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve the id of the named token.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>tok</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of the token as used in <methodname>Parle\Parser::token</methodname>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns &integer; representing the token id.  
-  </para>
+  <simpara>
+   Returns &integer; representing the token id.
+  </simpara>
  </refsect1>
 
 

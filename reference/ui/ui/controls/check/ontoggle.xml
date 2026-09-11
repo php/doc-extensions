@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Check::onToggle</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the status of this Check is changed
-  </para>
+  </simpara>
 
  </refsect1>
 

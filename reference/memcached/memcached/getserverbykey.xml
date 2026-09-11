@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type class="union"><type>array</type><type>false</type></type><methodname>Memcached::getServerByKey</methodname>
    <methodparam><type>string</type><parameter>server_key</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getServerByKey</function> returns the server that
    would be selected by a particular <parameter>server_key</parameter> in all
    the <function>Memcached::*ByKey</function> operations.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>server_key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.server_key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,11 +37,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing three keys of <literal>host</literal>,
    <literal>port</literal>, and <literal>weight</literal> on success&return.falseforfailure;.
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

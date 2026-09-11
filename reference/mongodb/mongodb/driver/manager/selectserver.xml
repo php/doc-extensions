@@ -58,7 +58,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.std;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> if a server matching the read preference could not be found.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if a server matching the read preference could not be found.</member>
   </simplelist>
  </refsect1>
 

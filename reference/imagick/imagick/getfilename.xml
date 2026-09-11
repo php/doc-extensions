@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getfilename">
+<refentry xml:id="imagick.getfilename" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getFilename</refname>
   <refpurpose>The filename associated with an image sequence</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>string</type><methodname>Imagick::getFilename</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the filename associated with an image sequence.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a string on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

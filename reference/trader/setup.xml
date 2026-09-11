@@ -6,22 +6,22 @@
 
  <section xml:id="trader.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    The trader extension is based on <link xlink:href="&url.trader.lib;">TA-Lib</link>. TA-Lib is fully integrated into the extension, therefore no external libraries are needed.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="trader.installation">
   &reftitle.install;
-   <para>
+   <simpara>
     &pecl.moved;
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     &pecl.info;
     <link xlink:href="&url.pecl.package;trader">&url.pecl.package;trader</link>.
-   </para>
+   </simpara>
  </section>
- 
+
  <!--<section xml:id="trader.configuration">
   &reftitle.runtime;-->
   &reference.trader.ini;

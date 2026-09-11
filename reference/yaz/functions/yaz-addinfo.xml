@@ -11,13 +11,13 @@
    <type>string</type><methodname>yaz_addinfo</methodname>
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns additional error information for the last request on the server.
-  </para>
-  <para>
-   With some servers, this function may return the same string as 
+  </simpara>
+  <simpara>
+   With some servers, this function may return the same string as
    <function>yaz_error</function>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,11 +36,11 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A string containing additional error information or an empty string if the
    last operation was successful or if no additional information was provided
    by the server.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

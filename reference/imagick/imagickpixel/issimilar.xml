@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.issimilar">
+<refentry xml:id="imagickpixel.issimilar" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::isSimilar</refname>
   <refpurpose>Check the distance between this color and another</refpurpose>
@@ -14,13 +14,13 @@
    <methodparam><type>float</type><parameter>fuzz</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Checks the distance between the color described by this ImagickPixel
    object and that of the provided object, by plotting their RGB values
    on the color cube. If the distance between the two points is less than
    the fuzz value given, the colors are similar.
    Deprecated in favour of <link linkend="imagickpixel.ispixelsimilar">ImagickPixel::isPixelSimilar()</link>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,19 +30,19 @@
     <varlistentry>
      <term><parameter>color</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The ImagickPixel object to compare this object against.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The maximum distance within which to consider these colors as similar.
        The theoretical maximum for this value is the square root of three
        (1.732).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -51,9 +51,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -129,7 +129,7 @@
                 <td>%s</td>
                 <td style='text-align: center;'>%s</td>
             </tr>";
-            
+
             $output .= sprintf(
                 $layout,
                 $color1,
@@ -140,7 +140,7 @@
         }
 
         $output .= "</tbody></table>";
-        
+
         return $output;
 
 ?>

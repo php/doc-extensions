@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>mysql_xdevapi\Result::getWarnings</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve warnings from the last Result operation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,11 +25,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An array of Warning objects from the last operation. Each object
    defines an error 'message', error 'level', and error 'code'. An
    empty array is returned if no errors are present.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

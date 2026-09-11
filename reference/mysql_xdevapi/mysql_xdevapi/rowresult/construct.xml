@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\RowResult::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
     Represents the result set obtained from querying the database.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

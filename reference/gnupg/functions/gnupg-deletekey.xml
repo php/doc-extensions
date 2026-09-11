@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-deletekey">
+<refentry xml:id="function.gnupg-deletekey" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_deletekey</refname>
   <refpurpose>Delete a key from the keyring</refpurpose>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.radius-get-tagged-attr-data">
+<refentry xml:id="function.radius-get-tagged-attr-data" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>radius_get_tagged_attr_data</refname>
   <refpurpose>Extracts the data from a tagged attribute</refpurpose>

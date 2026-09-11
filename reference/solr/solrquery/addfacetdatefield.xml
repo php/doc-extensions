@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::addFacetDateField</methodname>
    <methodparam><type>string</type><parameter>dateField</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method allows you to specify a field which should be treated as a facet.
-  </para>
-  <para>It can be used multiple times with different field names to indicate multiple facet fields</para>
+  </simpara>
+  <simpara>It can be used multiple times with different field names to indicate multiple facet fields</simpara>
 
  </refsect1>
 
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>dateField</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the date field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a SolrQuery object.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

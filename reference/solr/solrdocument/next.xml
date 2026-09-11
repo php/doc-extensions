@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrDocument::next</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Moves the internal pointer to the next field.
-  </para>
+  </simpara>
 
- 
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   This method has no return value.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

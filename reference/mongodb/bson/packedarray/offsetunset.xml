@@ -42,7 +42,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simplelist>
-   <member>Always throws a <classname>MongoDB\Driver\Exception\LogicException</classname>.</member>
+   <member>Always throws a <exceptionname>MongoDB\Driver\Exception\LogicException</exceptionname>.</member>
   </simplelist>
  </refsect1>
 

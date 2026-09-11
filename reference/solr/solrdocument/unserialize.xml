@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrDocument::unserialize</methodname>
    <methodparam><type>string</type><parameter>serialized</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Custom serialization of SolrDocument objects
-  </para>
+  </simpara>
 
- 
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
     <varlistentry>
      <term><parameter>serialized</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An XML representation of the document.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    None.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -13,10 +13,10 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\TableSelect::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
-   An object returned by the select() method; use execute() to 
+  <simpara>
+   An object returned by the select() method; use execute() to
    execute the query.
-  </para>
+  </simpara>
 
  </refsect1>
 

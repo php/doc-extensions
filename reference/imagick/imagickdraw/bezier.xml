@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.bezier">
+<refentry xml:id="imagickdraw.bezier" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::bezier</refname>
   <refpurpose>Draws a bezier curve</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>array</type><parameter>coordinates</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a bezier curve through a set of points on the image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
     <varlistentry>
      <term><parameter>coordinates</parameter></term>
      <listitem>
-      <para>
-       Multidimensional array like array( array( 'x' => 1, 'y' => 2 ), 
+      <simpara>
+       Multidimensional array like array( array( 'x' => 1, 'y' => 2 ),
        array( 'x' => 3, 'y' => 4 ) )
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -69,7 +69,7 @@ function bezier($strokeColor, $fillColor, $backgroundColor) {
             ['x' => 30.0 * 5, 'y' => 90.0 * 5],
             ['x' => 25.0 * 5, 'y' => 10.0 * 5],
             ['x' => 50.0 * 5, 'y' => 50.0 * 5],
-        ], 
+        ],
         [
             ['x' => 50.0 * 5, 'y' => 50.0 * 5],
             ['x' => 75.0 * 5, 'y' => 90.0 * 5],
@@ -84,13 +84,13 @@ function bezier($strokeColor, $fillColor, $backgroundColor) {
 
     $disjointPoints = [
         [
-            ['x' => 10 * 5, 'y' => 10 * 5], 
-            ['x' => 30 * 5, 'y' => 90 * 5], 
+            ['x' => 10 * 5, 'y' => 10 * 5],
+            ['x' => 30 * 5, 'y' => 90 * 5],
             ['x' => 25 * 5, 'y' => 10 * 5],
             ['x' => 50 * 5, 'y' => 50 * 5],
         ],
         [
-            ['x' => 50 * 5, 'y' => 50 * 5], 
+            ['x' => 50 * 5, 'y' => 50 * 5],
             ['x' => 80 * 5, 'y' => 50 * 5],
             ['x' => 70 * 5, 'y' => 10 * 5],
             ['x' => 90 * 5, 'y' => 40 * 5],
@@ -107,7 +107,7 @@ function bezier($strokeColor, $fillColor, $backgroundColor) {
     $imagick->newImage(500, 500, $backgroundColor);
     $imagick->setImageFormat("png");
 
-    //Render the draw commands in the ImagickDraw object 
+    //Render the draw commands in the ImagickDraw object
     //into the image.
     $imagick->drawImage($draw);
 

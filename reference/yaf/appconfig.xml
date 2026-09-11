@@ -3,11 +3,11 @@
 
 <chapter xml:id="yaf.appconfig" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title xmlns="http://docbook.org/ns/docbook">Application Configuration</title>
- <para>
+ <simpara>
   You should give an array of config or an ini config file(see
   <classname>Yaf_Config_Ini</classname>) path to
-  <methodname>Yaf_Application::__construct</methodname>. 
- </para>
+  <methodname>Yaf_Application::__construct</methodname>.
+ </simpara>
  <para>
   Yaf will merge the application configurations and user configurations
   automatically. The application configurations have prefix "yaf." or
@@ -186,10 +186,10 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The directory of the application, that is the folder which contains the
        "controllers", "views", "models", "plugins" folders.
-      </para>
+      </simpara>
       <para>
        <note>
         <simpara>
@@ -206,10 +206,10 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The file ext of the PHP script, used in class autoloading(
        <classname>Yaf_Loader</classname>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.view.ext">
@@ -218,9 +218,9 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The file ext of the view template scripts.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.modules">
@@ -229,13 +229,13 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        A comma-separated list of the registered modules, used in the route
-       process, especially while there are more than three segments in the PATH_INFO, 
-      </para>
-      <para>
+       process, especially while there are more than three segments in the PATH_INFO,
+      </simpara>
+      <simpara>
        Yaf need a way to find out whether the first segment is a module name or not.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.library">
@@ -244,14 +244,14 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The local library directory, see <classname>Yaf_Loader</classname> and
        <link linkend="ini.yaf.library">yaf.library</link>.
-       </para>
+       </simpara>
        <note>
         <simpara>
             After Yaf 2.1.6, this config entry can be an array. The library path
-            will try to use the items setted in <link 
+            will try to use the items setted in <link
             linkend="configuration.yaf.library.directory">application.library.directory</link>
         </simpara>
        </note>
@@ -263,11 +263,11 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Alias of <link
         linkend="configuration.yaf.library">application.library</link>. Introduced
        in Yaf 2.1.6
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.library.namespace">
@@ -276,12 +276,12 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        A comma-separated prefix of local library namespace.
-      </para>
-      <para>
+      </simpara>
+      <simpara>
        Introduced in Yaf 2.1.6
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.bootstrap">
@@ -290,9 +290,9 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        A absolute path of the Bootstrap class script.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.baseuri">
@@ -301,16 +301,16 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
-       Used to remove a fixed prefix of request uri in route process. 
+      <simpara>
+       Used to remove a fixed prefix of request uri in route process.
        Take a example, comes a request with request uri
        "/prefix/controller/action". if you set application.baseUri to
        "/prefix", then only "/controller/action" will take as the PATH_INFO in
        route process.
-      </para>
-      <para>
-       In generally, there is no need to set this value. 
-      </para>
+      </simpara>
+      <simpara>
+       In generally, there is no need to set this value.
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.dispatcher.throwexception">
@@ -319,10 +319,10 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
         If it set to On, Yaf will throw an exception while some error occurring.
         See also <methodname>Yaf_Dispatcher::throwException</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.dispatcher.catchexception">
@@ -331,11 +331,11 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>bool</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        If it set to On, Yaf will forward to Error controller/Action while
        there is an unhandled exception. See also
        <methodname>Yaf_Dispatcher::catchException</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.dispatcher.defaulRoute">
@@ -344,11 +344,11 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The default Route, if it is not specificed, Static route will be used
        as default. See:
        <methodname>Yaf_Router::addRoute</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.dispatcher.defaultmodule">
@@ -357,10 +357,10 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The default module name, see also
        <methodname>Yaf_Dispatcher::setDefaultModule</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.dispatcher.defaultcontroller">
@@ -369,10 +369,10 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The default controller name, see also
        <methodname>Yaf_Dispatcher::setDefaultController</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="configuration.yaf.dispatcher.defaultaction">
@@ -381,10 +381,10 @@ $app = new Yaf_Application(Yaconf::get("application"));
       <type>string</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        The default action name, see also
        <methodname>Yaf_Dispatcher::setDefaultAction</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
 

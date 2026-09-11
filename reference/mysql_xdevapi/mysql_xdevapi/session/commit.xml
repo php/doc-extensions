@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Object</type><methodname>mysql_xdevapi\Session::commit</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Commit the transaction.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An SqlStatementResult object.
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

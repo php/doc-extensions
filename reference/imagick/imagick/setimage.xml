@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimage">
+<refentry xml:id="imagick.setimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImage</refname>
   <refpurpose>Replaces image in the object</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImage</methodname>
    <methodparam><type>Imagick</type><parameter>replace</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Replaces the current image sequence with the image from replace object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>replace</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The replace Imagick object
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,16 +35,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -52,9 +52,9 @@
   <para>
    <example>
     <title>A <function>Imagick::setImage</function> example</title>
-    <para>
+    <simpara>
      An example of using Imagick::setImage()
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

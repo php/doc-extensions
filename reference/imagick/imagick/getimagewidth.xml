@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagewidth">
+<refentry xml:id="imagick.getimagewidth" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageWidth</refname>
   <refpurpose>Returns the image width</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageWidth</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the image width.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the image width.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

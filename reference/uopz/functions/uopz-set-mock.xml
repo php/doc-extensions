@@ -14,16 +14,16 @@
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>mock</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    If <parameter>mock</parameter> is a string containing the name of a class then it will be instantiated instead of
    <parameter>class</parameter>. <parameter>mock</parameter> can also be an object.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     Only dynamic access to properties and methods will use the <parameter>mock</parameter> object.
     Static access still uses the original <parameter>class</parameter>.
     See <link linkend="uopz_set_mock.example.static">example</link> below.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 
@@ -33,19 +33,19 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class to be mocked.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>mock</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The mock to use in the form of a string containing the name of the class to use or an object.
       If a string is passed, it has to be the fully qualified class name. It is
       recommended to use the <code>::class</code> magic constant in this case.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -53,9 +53,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -142,9 +142,9 @@ mockA
   </example>
   <example xml:id="uopz_set_mock.example.static">
    <title><function>uopz_set_mock</function> and static members</title>
-   <para>
+   <simpara>
     As of uopz 6.0.0 mocking static members is no longer supported.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -173,9 +173,9 @@ A
 A
 ]]>
    </screen>
-    <para>
+    <simpara>
      Output of the above example in uopz 5:
-    </para>
+    </simpara>
    <screen>
 <![CDATA[
 mockA

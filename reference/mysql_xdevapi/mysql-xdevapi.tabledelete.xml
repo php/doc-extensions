@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\TableDelete intro -->
   <section xml:id="mysql-xdevapi-tabledelete.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A statement for delete operations on Table.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 

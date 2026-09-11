@@ -11,10 +11,10 @@
   <!-- {{{ Swoole\Runtime intro -->
   <section xml:id="swoole-runtime.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Swoole\Runtime provides coroutine support for various PHP functions through hook mechanism,
     allowing synchronous code to work asynchronously in coroutine environment.
-   </para>
+   </simpara>
   </section>
   <!-- }}} -->
 

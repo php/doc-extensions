@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Path::newFigure</methodname>
    <methodparam><type>UI\Point</type><parameter>point</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall map a new figure at the given point
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The point to begin mapping
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

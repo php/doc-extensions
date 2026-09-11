@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>process_name</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>size</parameter><initializer>128</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>process_name</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

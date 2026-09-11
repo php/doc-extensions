@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimageinterpolatemethod">
+<refentry xml:id="imagick.getimageinterpolatemethod" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageInterpolateMethod</refname>
   <refpurpose>Returns the interpolation method</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageInterpolateMethod</methodname>
    <void/>
   </methodsynopsis>
-  <para>
-   Returns the interpolation method for the specified image. The method is one of 
+  <simpara>
+   Returns the interpolation method for the specified image. The method is one of
    the <constant>Imagick::INTERPOLATE_<replaceable>*</replaceable></constant> constants.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,16 +25,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the interpolate method on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

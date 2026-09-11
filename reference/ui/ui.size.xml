@@ -11,9 +11,9 @@
 <!-- {{{ UI\Size intro -->
   <section xml:id="ui-size.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Sizes are used throughout UI to represent the size of a screen, control, or area.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -44,7 +44,7 @@
 
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-size')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-size')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
    </classsynopsis>
@@ -59,17 +59,17 @@
     <varlistentry xml:id="ui-size.props.width">
      <term><varname>width</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Holds the width, can be read/written directly
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ui-size.props.height">
      <term><varname>height</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Holds the height, can be read/written directly
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>

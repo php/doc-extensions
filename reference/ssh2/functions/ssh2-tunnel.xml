@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-tunnel">
+<refentry xml:id="function.ssh2-tunnel" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ssh2_tunnel</refname>
   <refpurpose>Open a tunnel through a remote server</refpurpose>

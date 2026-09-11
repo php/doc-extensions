@@ -184,7 +184,7 @@
      <term><varname>writeErrors</varname></term>
      <listitem>
       <simpara>
-       An array of <classname>MongoDB\Driver\WriteError</classname>s for any
+       An array of <exceptionname>MongoDB\Driver\WriteError</exceptionname>s for any
        write errors that occurred during execution.
       </simpara>
      </listitem>
@@ -193,7 +193,7 @@
      <term><varname>writeConcernError</varname></term>
      <listitem>
       <simpara>
-       The <classname>MongoDB\Driver\WriteConcernError</classname> that
+       The <exceptionname>MongoDB\Driver\WriteConcernError</exceptionname> that
        occurred, or &null; if no write concern error occurred.
       </simpara>
      </listitem>

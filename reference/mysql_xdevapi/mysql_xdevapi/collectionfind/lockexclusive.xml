@@ -12,19 +12,19 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\CollectionFind::lockExclusive</methodname>
    <methodparam choice="opt"><type>int</type><parameter>lock_waiting_option</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Locks the document exclusively.
    As long as the document is locked,
    other transactions can't update the document,
    use <code>SELECT ... LOCK IN SHARE MODE</code>,
    or read the data in certain transaction isolation levels.
    Consistent reads ignore any locks set on the records that exist in the read view.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    To avoid concurrency problems, it makes sense to use this function with the
    <methodname>mysql_xdevapi\Collection::modify</methodname> method. Essentially, this function uses row locks to serialise
    access to rows.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,13 +33,13 @@
    <varlistentry>
     <term><parameter>lock_waiting_option</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Optional waiting option. By default it is <constant>MYSQLX_LOCK_DEFAULT</constant>. Valid values are these constants:
-     </para>
+     </simpara>
      <itemizedlist>
-      <listitem><para><constant>MYSQLX_LOCK_DEFAULT</constant></para></listitem>
-      <listitem><para><constant>MYSQLX_LOCK_NOWAIT</constant></para></listitem>
-      <listitem><para><constant>MYSQLX_LOCK_SKIP_LOCKED</constant></para></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_DEFAULT</constant></simpara></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_NOWAIT</constant></simpara></listitem>
+      <listitem><simpara><constant>MYSQLX_LOCK_SKIP_LOCKED</constant></simpara></listitem>
      </itemizedlist>
     </listitem>
    </varlistentry>
@@ -48,9 +48,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a CollectionFind object that can be used for further processing.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

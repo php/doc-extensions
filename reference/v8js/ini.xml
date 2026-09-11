@@ -44,10 +44,10 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
        Sets limit for disposed contexts before forcing V8 to do garbage
        collection.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.v8js.flags">
@@ -68,10 +68,10 @@ $ php -r 'ini_set("v8js.flags", "--help"); new V8Js;' | less
         </screen>
        </informalexample>
        <note>
-        <para>
+        <simpara>
          For these flags to be effective in runtime the ini_set() call has
          to be done before any V8Js objects are instantiated!
-        </para>
+        </simpara>
        </note>
       </para>
      </listitem>

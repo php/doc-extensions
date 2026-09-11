@@ -13,10 +13,10 @@
    <methodname>Event::del</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Removes an event from the set of monitored events, i.e. makes it
    non-pending.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,9 +24,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

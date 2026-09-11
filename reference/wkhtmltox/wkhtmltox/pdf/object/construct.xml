@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>buffer</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>settings</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
   Creates a new PDF Object from the given buffer and optional configuration settings
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>buffer</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       HTML
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -394,7 +394,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

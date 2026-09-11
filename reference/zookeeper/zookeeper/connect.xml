@@ -17,9 +17,9 @@
    <methodparam choice="opt"><type>int</type><parameter>recv_timeout</parameter><initializer>10000</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    This method creates a new handle and a zookeeper session that corresponds to that handle. Session establishment is asynchronous, meaning that the session should not be considered established until (and unless) an event of state ZOO_CONNECTED_STATE is received.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,25 +28,25 @@
    <varlistentry>
     <term><parameter>host</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Comma separated host:port pairs, each corresponding to a zk server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002"
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>watcher_cb</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The global watcher callback function. When notifications are triggered this function will be invoked.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>recv_timeout</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The timeout for this session, only valid if the connection is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE).
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -54,19 +54,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or could not init instance.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -75,7 +75,7 @@
   &reftitle.seealso;
   <simplelist>
    <member><methodname>Zookeeper::__construct</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

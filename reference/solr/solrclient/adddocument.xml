@@ -15,9 +15,9 @@
    <methodparam choice="opt"><type>bool</type><parameter>overwrite</parameter><initializer>&true;</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>commitWithin</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method adds a document to the index.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,41 +28,41 @@
     <varlistentry>
      <term><parameter>doc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The SolrInputDocument instance.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>overwrite</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Whether to overwrite existing document or not. If &false; there will be duplicates (several documents with the same ID).
-        
-      </para>
+
+      </simpara>
         <warning>
-            <para>
+            <simpara>
               PECL Solr &lt; 2.0 $allowDups was used instead of $overwrite, which does the same functionality with exact opposite bool flag.
-            </para>
-            <para>
+            </simpara>
+            <simpara>
               $allowDups = false is the same as $overwrite = true
-            </para>
+            </simpara>
         </warning>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>commitWithin</parameter></term>
      <listitem>
-      <para>
+      <simpara>
         Number of milliseconds within which to auto commit this document. Available since Solr 1.4 . Default (0) means disabled.
-      </para>
-      <para>
+      </simpara>
+      <simpara>
         When this value specified, it leaves the control of when to do the commit
         to Solr itself, optimizing number of commits to a minimum while still
         fulfilling
         the update latency requirements, and Solr will automatically do a commit
         when the oldest add in the buffer is due.
-       </para>
+       </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -71,19 +71,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrUpdateResponse</type> object or throws an Exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-   Throws <classname>SolrServerException</classname> if the Solr Server had failed to process the request.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to process the request.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -191,7 +191,7 @@ SolrObject Object
 ]]>
     </screen>
    </example>
-   
+
   </para>
  </refsect1>
 

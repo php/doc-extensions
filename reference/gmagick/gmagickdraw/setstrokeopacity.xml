@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagickdraw.setstrokeopacity">
+<refentry xml:id="gmagickdraw.setstrokeopacity" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>GmagickDraw::setstrokeopacity</refname>
   <refpurpose>Specifies the opacity of stroked object outlines</refpurpose>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-param-info">
+<refentry xml:id="function.fbird-param-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_param_info</refname>
   <refpurpose>&Alias; <function>ibase_param_info</function></refpurpose>

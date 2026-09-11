@@ -16,9 +16,9 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function gets the value of an extended attribute of a file.
-  </para>
+  </simpara>
   &xattr.namespace;
  </refsect1>
  <refsect1 role="parameters">
@@ -28,17 +28,17 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The file from which we get the attribute.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the attribute.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -68,10 +68,10 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns a string containing the value or &false; if the attribute doesn't 
-   exist. 
-  </para>
+  <simpara>
+   Returns a string containing the value or &false; if the attribute doesn't
+   exist.
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

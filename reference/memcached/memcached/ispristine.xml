@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::isPristine</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::isPristine</function> checks if the Memcache instance
    was recently created.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if instance is recently created, &false; otherwise.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

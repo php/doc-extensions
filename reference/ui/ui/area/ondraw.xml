@@ -16,9 +16,9 @@
    <methodparam><type>UI\Point</type><parameter>clipPoint</parameter></methodparam>
    <methodparam><type>UI\Size</type><parameter>clipSize</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be invoked when this Area requires redrawing
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,33 +28,33 @@
    <varlistentry>
     <term><parameter>pen</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       A Pen suitable for drawing in this Area
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>areaSize</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The size of the Area
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>clipPoint</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The clip point of the Area
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>clipSize</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The clip size of the Area
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

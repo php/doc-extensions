@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrInputDocument::addChildDocuments</methodname>
    <methodparam><type>array</type><parameter role="reference">docs</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Adds an array of child documents to the current input document.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>docs</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An <type>array</type> of <type>SolrInputDocument</type> objects.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,19 +35,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrIllegalArgumentException</classname> on failure.
-  </para>
-  <para>
-   Throws <classname>SolrException</classname> on internal failure.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrIllegalArgumentException</exceptionname> on failure.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrException</exceptionname> on internal failure.
+  </simpara>
  </refsect1>
 
   <refsect1 role="examples">
@@ -96,7 +96,7 @@ $large->addField('content_type', 'sku');
 $large->addField('size', 'L');
 $large->addField('inventory', 300);
 
-// add child documents 
+// add child documents
 $skus = [$small, $medium, $large];
 $product->addChildDocuments($skus);
 

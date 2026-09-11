@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.rotateimage">
+<refentry xml:id="imagick.rotateimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::rotateImage</refname>
   <refpurpose>Rotates an image</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>mixed</type><parameter>background</parameter></methodparam>
    <methodparam><type>float</type><parameter>degrees</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Rotates an image the specified number of degrees. Empty
    triangles left over from rotating the image are filled
    with the background color.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,18 +27,18 @@
     <varlistentry>
      <term><parameter>background</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The background color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>degrees</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Rotation angle, in degrees. The rotation angle is interpreted as the
        number of degrees to rotate the image clockwise.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrClient::setResponseWriter</methodname>
    <methodparam><type>string</type><parameter>responseWriter</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the response writer used to prepare the response from Solr
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,7 +26,7 @@
     <varlistentry>
      <term><parameter>responseWriter</parameter></term>
      <listitem>
-      <para>One of the following:</para>
+      <simpara>One of the following:</simpara>
       <simplelist>
        <member><literal>json</literal></member>
        <member><literal>phps</literal></member>
@@ -40,11 +40,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   &return.void;
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
@@ -61,16 +61,16 @@ class SolrClass
    public $_properties = array();
 
    public function __get($property_name) {
-      
+
       if (property_exists($this, $property_name)) {
-      
+
           return $this->$property_name;
-      
+
       } else if (isset($_properties[$property_name])) {
-      
+
           return $_properties[$property_name];
       }
-      
+
       return null;
    }
 }

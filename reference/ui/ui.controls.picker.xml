@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Picker intro -->
   <section xml:id="ui-controls-picker.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Picker represents a button which when clicked presents a native Date/Time/DateTime Picker interface to the user.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -72,21 +72,21 @@
     <varlistentry xml:id="ui-controls-picker.constants.date">
      <term><constant>UI\Controls\Picker::Date</constant></term>
      <listitem>
-      <para>A Date Picker</para>
+      <simpara>A Date Picker</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-picker.constants.time">
      <term><constant>UI\Controls\Picker::Time</constant></term>
      <listitem>
-      <para>A Time Picker</para>
+      <simpara>A Time Picker</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-picker.constants.datetime">
      <term><constant>UI\Controls\Picker::DateTime</constant></term>
      <listitem>
-      <para>A Date and Time Picker</para>
+      <simpara>A Date and Time Picker</simpara>
      </listitem>
     </varlistentry>
 

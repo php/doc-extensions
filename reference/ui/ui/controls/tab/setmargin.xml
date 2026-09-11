@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>page</parameter></methodparam>
    <methodparam><type>bool</type><parameter>margin</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall enable or disable margins on the selected page
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>page</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The page to select
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>margin</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Margin switch
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

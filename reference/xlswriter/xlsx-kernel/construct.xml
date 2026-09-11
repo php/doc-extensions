@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>Vtiful\Kernel\Excel::__construct</methodname>
    <methodparam><type>array</type><parameter>config</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
     <classname>Vtiful\Kernel\Excel</classname> constructor, create a class object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>config</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       XLSX file export configuration
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

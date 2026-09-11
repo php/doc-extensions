@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\Schema</type><methodname>mysql_xdevapi\Table::getSchema</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Fetch the schema associated with the table.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A Schema object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

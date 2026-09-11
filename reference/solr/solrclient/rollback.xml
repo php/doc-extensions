@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::rollback</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Rollbacks all add/deletes made to the index since the last commit. It neither calls any event listeners nor creates a new searcher.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,11 +26,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a SolrUpdateResponse on success or throws a SolrClientException on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>

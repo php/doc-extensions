@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>field</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>order</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Allow sorting group documents, using group sort field (group.sort parameter).
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>field</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Field name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>order</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Order ASC/DESC, utilizes SolrQuery::ORDER_* constants
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -61,8 +61,8 @@ $solrQuery = new SolrQuery('*:*');
 $solrQuery
     ->setGroup(true)
     ->addGroupSortField('price', SolrQuery::ORDER_ASC);
-    
-echo $solrQuery; 
+
+echo $solrQuery;
 ?>
 ]]>
    </programlisting>

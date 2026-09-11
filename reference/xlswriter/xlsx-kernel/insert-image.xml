@@ -15,9 +15,9 @@
    <methodparam><type>int</type><parameter>column</parameter></methodparam>
    <methodparam><type>string</type><parameter>localImagePath</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Insert a local image into the cell.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,25 +26,25 @@
    <varlistentry>
     <term><parameter>row</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       cell row
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>column</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       cell column
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>localImagePath</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       local image path
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -52,9 +52,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <classname>Vtiful\Kernel\Excel</classname> instance
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

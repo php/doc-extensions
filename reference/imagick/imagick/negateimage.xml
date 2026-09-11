@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.negateimage">
+<refentry xml:id="imagick.negateimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::negateImage</refname>
   <refpurpose>Negates the colors in the reference image</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>bool</type><parameter>gray</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Negates the colors in the reference image. The Grayscale
    option means that only grayscale values within the image
    are negated.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,20 +27,20 @@
     <varlistentry>
      <term><parameter>gray</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       Whether to only negate grayscale pixels within the image.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -49,16 +49,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

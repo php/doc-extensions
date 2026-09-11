@@ -11,10 +11,10 @@
    <modifier>public</modifier> <type>Ds\Set</type><methodname>Ds\Set::map</methodname>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the result of applying a <parameter>callback</parameter> function to
    each value in the set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -38,11 +38,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a new <classname>Ds\Set</classname> instance where each value
    is the result of applying the <parameter>callback</parameter> to each value
    of the set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

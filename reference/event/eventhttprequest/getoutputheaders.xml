@@ -13,9 +13,9 @@
    <methodname>EventHttpRequest::getOutputHeaders</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns associative array of the output headers.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,7 +23,7 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para></para>
+  <simpara></simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

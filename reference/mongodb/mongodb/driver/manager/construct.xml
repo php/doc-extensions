@@ -891,7 +891,7 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> if the <parameter>uri</parameter> format is invalid</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if the <parameter>uri</parameter> format is invalid</member>
   </simplelist>
  </refsect1>
 

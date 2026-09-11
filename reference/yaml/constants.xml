@@ -4,8 +4,8 @@
 <appendix xml:id="yaml.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
  &extension.constants;
- <para>
- </para>
+ <simpara>
+ </simpara>
 
  <variablelist xml:id="yaml.constants.style">
   <title>Scalar entity styles usable by <function>yaml_parse</function>

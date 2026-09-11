@@ -6,26 +6,26 @@
 
  <section xml:id="xlswriter.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    XLSWriter requires PHP 7.0 and above.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="xlswriter.installation">
   &reftitle.install;
-  <para>
+  <simpara>
    &pecl.info;
    <link xlink:href="&url.pecl.package;xlswriter">&url.pecl.package;xlswriter</link>
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="xlswriter.resources">
   &reftitle.resources;
-  <para>
-   There is one resource used by the procedural version of the XLSWriter 
-   extension: returned by <function>fileName</function> or 
+  <simpara>
+   There is one resource used by the procedural version of the XLSWriter
+   extension: returned by <function>fileName</function> or
    <classname>\Vtiful\Kernel\Format</classname>.
-  </para>
+  </simpara>
  </section>
 
 </chapter>

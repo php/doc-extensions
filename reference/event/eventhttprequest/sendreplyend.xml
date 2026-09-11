@@ -13,9 +13,9 @@
    <methodname>EventHttpRequest::sendReplyEnd</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Complete a chunked reply, freeing the request as appropriate.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,9 +23,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

@@ -12,12 +12,12 @@
    <modifier>public</modifier> <type>mixed</type><methodname>Memcached::getOption</methodname>
    <methodparam><type>int</type><parameter>option</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method returns the value of a Memcached <parameter>option</parameter>. Some options
    correspond to the ones defined by libmemcached, and some are specific to
    the extension. See <link linkend="memcached.constants">Memcached
     Constants</link> for more information.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>option</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <literal>Memcached::OPT_*</literal> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,10 +38,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the value of the requested option, or &false; on
    error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

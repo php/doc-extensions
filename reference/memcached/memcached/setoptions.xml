@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::setOptions</methodname>
    <methodparam><type>array</type><parameter>options</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::setOptions</function> is a variation of the
    <methodname>Memcached::setOption</methodname> that takes an array of
    options to be set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
    <varlistentry>
     <term><parameter>options</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An associative array of options where the key is the option to set and
       the value is the new value for the option.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

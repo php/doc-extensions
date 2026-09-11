@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Swoole\Atomic::get</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Get the current value of the atomic object.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current value of the atomic object.
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -16,9 +16,9 @@
    <methodparam><type>int</type><parameter>to_neuron</parameter></methodparam>
    <methodparam><type>float</type><parameter>weight</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set a connections in the network.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,25 +33,25 @@
    <varlistentry>
     <term><parameter>from_neuron</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The neuron where the connection starts
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>to_neuron</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The neuron where the connection ends
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>weight</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Connection weight
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

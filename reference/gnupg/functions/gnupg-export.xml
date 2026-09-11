@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-export">
+<refentry xml:id="function.gnupg-export" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_export</refname>
   <refpurpose>Exports a key</refpurpose>

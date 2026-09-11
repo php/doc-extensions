@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\Exception intro -->
   <section xml:id="swoole-exception.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,12 +29,12 @@
      <ooclass>
       <classname>Swoole\Exception</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>Exception</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>Throwable</interfacename>
      </oointerface>

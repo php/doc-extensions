@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrDocument::reset</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    This is an alias to SolrDocument::clear()
-  </para>
+  </simpara>
 
- 
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

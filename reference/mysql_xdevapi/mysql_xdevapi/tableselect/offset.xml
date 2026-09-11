@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableSelect</type><methodname>mysql_xdevapi\TableSelect::offset</methodname>
    <methodparam><type>int</type><parameter>position</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Skip given number of rows in result.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>position</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The limit offset.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A TableSelect object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

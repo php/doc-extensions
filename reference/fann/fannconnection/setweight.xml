@@ -13,14 +13,14 @@
    <modifier>public</modifier> <type>void</type><methodname>FANNConnection::setWeight</methodname>
    <methodparam><type>float</type><parameter>weight</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the connection weight.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     This method is different than <function>fann_set_weight</function>. It does not
    update the weight value in the network. The network value is updated only after calling
    <function>fann_set_weight_array</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,9 +30,9 @@
     <varlistentry>
      <term><parameter>weight</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection weight.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>

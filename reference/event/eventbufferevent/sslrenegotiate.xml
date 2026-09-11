@@ -13,17 +13,17 @@
    <methodname>EventBufferEvent::sslRenegotiate</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Tells a bufferevent to begin SSL renegotiation.
-  </para>
+  </simpara>
   <warning>
-   <para>
+   <simpara>
     Calling this function tells the SSL to renegotiate, and the buffer event
     to invoke appropriate callbacks. This is an advanced topic; this should be
     generally avoided unless one really knows what he/she does, especially
     since many SSL versions have had known security issues related to
     renegotiation.
-   </para>
+   </simpara>
   </warning>
  </refsect1>
  <refsect1 role="parameters">
@@ -32,9 +32,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file

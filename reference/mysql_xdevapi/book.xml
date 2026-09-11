@@ -8,21 +8,21 @@
 
  <preface xml:id="intro.mysql-xdevapi">
   &reftitle.intro;
-  <para>
+  <simpara>
    This extension provides access to the MySQL Document Store via the X DevAPI. The X DevAPI
    is a common API provided by multiple MySQL Connectors providing easy access to relational
    tables as well as collections of documents, which are represented in JSON, from a API
    with CRUD-style operations.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The X DevAPI uses the X Protocol, the new generation client-server protocol of the MySQL
    8.0 server.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    For general information about the MySQL Document Store, please refer to the
    <link xlink:href="&url.mysql.docs.document-store;">MySQL Document Store</link>
    chapter in the MySQL manual.
-  </para>
+  </simpara>
  </preface>
 
  &reference.mysql-xdevapi.setup;

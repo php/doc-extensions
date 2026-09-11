@@ -15,10 +15,10 @@
    <methodparam><type>string</type><parameter>username</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Read the rights access for <parameter>username</parameter> on <parameter>servicename</parameter>
    service. Administrative privileges are required for this to succeed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,26 +28,26 @@
     <varlistentry>
      <term><parameter>servicename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The service name to read rights access.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>username</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Read the rights access for <parameter>username</parameter>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>machine</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The optional machine name on which you want to create a service.
        If omitted, it will use the local machine.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,24 +56,24 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return a <classname>Win32Service\RightInfo</classname> object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>service</parameter> parameter is empty.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>username</parameter> parameter is empty.
-  </para>
-  <para>
-   A <classname>Win32ServiceException</classname> is thrown on error.
-  </para>
+  </simpara>
+  <simpara>
+   A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

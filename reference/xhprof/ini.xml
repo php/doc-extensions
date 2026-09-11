@@ -37,11 +37,11 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Directory used by the default implementation of the iXHProfRuns
       interface (namely, the XHProfRuns_Default class) for storing
-      XHProf runs. 
-     </para>
+      XHProf runs.
+     </simpara>
     </listitem>
    </varlistentry>
  </variablelist>

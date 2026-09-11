@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getHighlightSnippets</methodname>
    <methodparam choice="opt"><type>string</type><parameter>field_override</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the maximum number of highlighted snippets to generate per field. Accepts an optional field override
-  </para>
+  </simpara>
 
-  
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
     <varlistentry>
      <term><parameter>field_override</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

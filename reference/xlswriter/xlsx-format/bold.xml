@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>Vtiful\Kernel\Format::bold</methodname>
    <methodparam><type>resource</type><parameter>handle</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     <classname>Vtiful\Kernel\Format</classname> bold format
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>handle</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       xlsx file handle
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     Resource
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

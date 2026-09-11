@@ -10,23 +10,23 @@
 
   <section xml:id="ds-priorityqueue.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A PriorityQueue is very similar to a Queue. Values are pushed into the queue
     with an assigned priority, and the value with the highest priority will
     always be at the front of the queue.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
         Implemented using a max heap.
-   </para>
+   </simpara>
    <note>
-        <para>
+        <simpara>
             "First in, first out" ordering is preserved for values with the same priority.
-        </para>
+        </simpara>
    </note>
    <note>
-        <para>
+        <simpara>
             Iterating over a PriorityQueue is destructive, equivalent to successive pop operations until the queue is empty.
-        </para>
+        </simpara>
    </note>
   </section>
 
@@ -67,7 +67,7 @@
     <varlistentry xml:id="ds-priorityqueue.constants.min-capacity">
      <term><constant>Ds\PriorityQueue::MIN_CAPACITY</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

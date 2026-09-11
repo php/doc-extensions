@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Matrix::invert</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall invert this matrix
-  </para>
+  </simpara>
 
  </refsect1>
 

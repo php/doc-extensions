@@ -22,9 +22,9 @@
    <varlistentry>
     <term><parameter>path</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the node. Expressed as a file name with slashes separating ancestors of the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -32,19 +32,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return acl array on success and false on failure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or fail to get ACL of a node.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -53,9 +53,9 @@
   &reftitle.examples;
   <example xml:id="zookeeper.getacl.example.basic">
    <title><methodname>Zookeeper::getAcl</methodname> example</title>
-   <para>
+   <simpara>
      Get ACL of a node.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -103,7 +103,7 @@ array(1) {
    <member><methodname>Zookeeper::create</methodname></member>
    <member><methodname>Zookeeper::setAcl</methodname></member>
    <member><link linkend="zookeeper.constants.perms">ZooKeeper Permissions</link></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

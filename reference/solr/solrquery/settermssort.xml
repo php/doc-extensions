@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setTermsSort</methodname>
    <methodparam><type>int</type><parameter>sortType</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    If SolrQuery::TERMS_SORT_COUNT, sorts the terms by the term frequency (highest count first). If SolrQuery::TERMS_SORT_INDEX, returns the terms in index order
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>sortType</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        SolrQuery::TERMS_SORT_INDEX or SolrQuery::TERMS_SORT_COUNT
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

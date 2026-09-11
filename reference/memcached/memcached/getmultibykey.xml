@@ -14,12 +14,12 @@
    <methodparam><type>array</type><parameter>keys</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>get_flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getMultiByKey</function> is functionally equivalent to
    <methodname>Memcached::getMulti</methodname>, except that the free-form
    <parameter>server_key</parameter> can be used to map the
    <parameter>keys</parameter> to a specific server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,25 +29,25 @@
     <varlistentry>
      <term><parameter>server_key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.server_key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>keys</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Array of keys to retrieve.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>get_flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The flags for the get operation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,10 +56,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the array of found items&return.falseforfailure;.
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Separator::__construct</methodname>
    <methodparam choice="opt"><type>int</type><parameter>type</parameter><initializer>UI\Controls\Separator::Horizontal</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Separator of the given type
-  </para>
+  </simpara>
 
  </refsect1>
 

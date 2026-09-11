@@ -243,8 +243,8 @@
       <entry><literal>0x00000020</literal></entry>
       <entry>
         The service is notified when the computer's hardware profile has changed.
-        This enables the system to send 
-        <constant>WIN32_SERVICE_CONTROL_HARDWAREPROFILECHANGE</constant> 
+        This enables the system to send
+        <constant>WIN32_SERVICE_CONTROL_HARDWAREPROFILECHANGE</constant>
         notifications to the service.
       </entry>
      </row>
@@ -252,12 +252,12 @@
       <entry><constant>WIN32_SERVICE_ACCEPT_NETBINDCHANGE</constant></entry>
       <entry><literal>0x00000010</literal></entry>
       <entry>
-        The service is a network component that can accept changes in its 
+        The service is a network component that can accept changes in its
         binding without being stopped and restarted.
-        This control code allows the service to receive 
-        <constant>WIN32_SERVICE_CONTROL_NETBINDADD</constant>, 
-        <constant>WIN32_SERVICE_CONTROL_NETBINDREMOVE</constant>, 
-        <constant>WIN32_SERVICE_CONTROL_NETBINDENABLE</constant>, and 
+        This control code allows the service to receive
+        <constant>WIN32_SERVICE_CONTROL_NETBINDADD</constant>,
+        <constant>WIN32_SERVICE_CONTROL_NETBINDREMOVE</constant>,
+        <constant>WIN32_SERVICE_CONTROL_NETBINDENABLE</constant>, and
         <constant>WIN32_SERVICE_CONTROL_NETBINDDISABLE</constant> notifications.
       </entry>
      </row>
@@ -266,7 +266,7 @@
       <entry><literal>0x00000008</literal></entry>
       <entry>
         The service can reread its startup parameters without being stopped and restarted.
-        This control code allows the service to receive 
+        This control code allows the service to receive
         <constant>WIN32_SERVICE_CONTROL_PARAMCHANGE</constant> notifications.
       </entry>
      </row>
@@ -284,8 +284,8 @@
       <entry><literal>0x00000040</literal></entry>
       <entry>
         The service is notified when the computer's power status has changed.
-        This enables the system to send 
-        <constant>WIN32_SERVICE_CONTROL_POWEREVENT</constant> notifications 
+        This enables the system to send
+        <constant>WIN32_SERVICE_CONTROL_POWEREVENT</constant> notifications
         to the service.
       </entry>
      </row>
@@ -304,8 +304,8 @@
       <entry><literal>0x00000080</literal></entry>
       <entry>
         The service is notified when the computer's session status has changed.
-        This enables the system to send 
-        <constant>WIN32_SERVICE_CONTROL_SESSIONCHANGE</constant> notifications 
+        This enables the system to send
+        <constant>WIN32_SERVICE_CONTROL_SESSIONCHANGE</constant> notifications
         to the service.
         Windows 2000:  This value is not supported
       </entry>
@@ -332,9 +332,9 @@
       <entry><literal>0x00000200</literal></entry>
       <entry>
         The service is notified when the system time has changed.
-        This enables the system to send 
+        This enables the system to send
         <constant>WIN32_SERVICE_CONTROL_TIMECHANGE</constant> notifications to the service.
-        Windows Server 2008, Windows Vista, Windows Server 2003, 
+        Windows Server 2008, Windows Vista, Windows Server 2003,
         and Windows XP/2000:  This control code is not supported.
       </entry>
      </row>
@@ -343,9 +343,9 @@
       <entry><literal>0x00000400</literal></entry>
       <entry>
         The service is notified when an event for which the service has registered occurs.
-        This enables the system to send 
+        This enables the system to send
         <constant>WIN32_SERVICE_CONTROL_TRIGGEREVENT</constant> notifications to the service.
-        Windows Server 2008, Windows Vista, Windows Server 2003, 
+        Windows Server 2008, Windows Vista, Windows Server 2003,
         and Windows XP/2000:  This control code is not supported.
       </entry>
      </row>
@@ -437,8 +437,8 @@
       <entry><literal>0x00000002</literal></entry>
       <entry>
        The startup program logs the error in the event log.
-       If the last-known-good configuration is being started, the startup 
-       operation continues. Otherwise, the system is restarted with the 
+       If the last-known-good configuration is being started, the startup
+       operation continues. Otherwise, the system is restarted with the
        last-known-good configuration.
       </entry>
      </row>
@@ -447,8 +447,8 @@
       <entry><literal>0x00000003</literal></entry>
       <entry>
        The startup program logs the error in the event log, if possible.
-       If the last-known-good configuration is being started, the startup 
-       operation fails. Otherwise, the system is restarted with the 
+       If the last-known-good configuration is being started, the startup
+       operation fails. Otherwise, the system is restarted with the
        last-known good configuration.
       </entry>
      </row>
@@ -479,9 +479,9 @@
   </table>
 
   <note>
-   <para>
+   <simpara>
     These constants are no longer in use as of Win32Service 1.0.0.
-   </para>
+   </simpara>
   </note>
   <table xml:id="win32service.constants.errors">
    <title>Win32 Error Codes</title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.sqlsrv-get-config">
+<refentry xml:id="function.sqlsrv-get-config" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>sqlsrv_get_config</refname>
   <refpurpose>Returns the value of the specified configuration setting</refpurpose>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Draw\Path::closeFigure</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall close the current figure
-  </para>
+  </simpara>
 
  </refsect1>
 

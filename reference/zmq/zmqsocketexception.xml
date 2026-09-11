@@ -11,9 +11,9 @@
 <!-- {{{ ZMQSocketException intro -->
   <section xml:id="zmqsocketexception.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -55,25 +55,25 @@
     <varlistentry xml:id="zmqsocketexception.props.message">
      <term><varname>message</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="zmqsocketexception.props.code">
      <term><varname>code</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="zmqsocketexception.props.file">
      <term><varname>file</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="zmqsocketexception.props.line">
      <term><varname>line</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

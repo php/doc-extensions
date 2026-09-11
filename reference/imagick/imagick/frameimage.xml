@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.frameimage">
+<refentry xml:id="imagick.frameimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::frameImage</refname>
   <refpurpose>Adds a simulated three-dimensional border</refpurpose>
@@ -16,13 +16,13 @@
    <methodparam><type>int</type><parameter>inner_bevel</parameter></methodparam>
    <methodparam><type>int</type><parameter>outer_bevel</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds a simulated three-dimensional border around the image.
    The width and height specify the border width of the vertical
    and horizontal sides of the frame.  The inner and outer
    bevels indicate the width of the inner and outer shadows of
    the frame.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,41 +32,41 @@
     <varlistentry>
      <term><parameter>matte_color</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       ImagickPixel object or a string representing the matte color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>width</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The width of the border
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>height</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The height of the border
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>inner_bevel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The inner bevel width
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>outer_bevel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The outer bevel width
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -75,16 +75,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

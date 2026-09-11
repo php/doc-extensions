@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="seaslog.getdatetimeformat">
+<refentry xml:id="seaslog.getdatetimeformat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SeasLog::getDatetimeFormat</refname>
   <refpurpose>Get SeasLog datetime format style</refpurpose>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>float</type><methodname>SolrQuery::getHighlightRegexSlop</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the factor by which the regex fragmenter can deviate from the ideal fragment size to accommodate the regular expression
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>float</type> on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -35,7 +35,7 @@
      <ooclass>
       <classname>Yaf_Route_Supervar</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>Yaf_Route_Interface</interfacename>
      </oointerface>
@@ -47,7 +47,7 @@
      <varname linkend="yaf-route-supervar.props.var-name">_var_name</varname>
     </fieldsynopsis>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-route-supervar')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-route-supervar')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
@@ -56,7 +56,7 @@
 
   </section>
 
-  
+
 <!-- {{{ Yaf_Route_Supervar properties -->
   <section xml:id="yaf-route-supervar.props">
    &reftitle.properties;
@@ -64,7 +64,7 @@
     <varlistentry xml:id="yaf-route-supervar.props.var-name">
      <term><varname>_var_name</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

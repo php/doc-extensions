@@ -25,17 +25,17 @@
     <varlistentry>
      <term><parameter>dfn</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The degrees of freedom in the numerator
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>dfd</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The degrees of freedom in the denominator
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A random deviate
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

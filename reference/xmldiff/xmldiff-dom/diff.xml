@@ -14,9 +14,9 @@
    <methodparam><type>DOMDocument</type><parameter>from</parameter></methodparam>
    <methodparam><type>DOMDocument</type><parameter>to</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Diff two DOMDocument instances and produce the new one containing the diff information.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>from</parameter></term>
     <listitem>
-     <para>
-      Source DOMDocument object.           
-     </para>
+     <simpara>
+      Source DOMDocument object.
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>to</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Target DOMDocument object.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    DOMDocument with the diff information or NULL.
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\Session::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    A Session object, as initiated by getSession().
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

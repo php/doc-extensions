@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Parle\RLexer::dump</methodname>
    <void />
   </methodsynopsis>
-  <para>
-   Dump the current state machine to stdout. 
-  </para>
+  <simpara>
+   Dump the current state machine to stdout.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

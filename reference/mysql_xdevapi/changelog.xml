@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 339141 $ -->
 
-<appendix xmlns="http://docbook.org/ns/docbook" xml:id="changelog.mysql_xdevapi" xmlns:xlink="http://www.w3.org/1999/xlink">
+<appendix xml:id="changelog.mysql_xdevapi" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>&ChangelogListingTitle;</title>
- <para>&ChangelogListingDescription;</para>
+ <simpara>&ChangelogListingDescription;</simpara>
 
  <simplesect>
   <title>General Changelog for the ext/mysql_xdevapi extension</title>
-  <para>
+  <simpara>
    This changelog references the ext/mysql_xdevapi extension.
-  </para>
+  </simpara>
  </simplesect>
- 
+
  <simplesect xml:id="changelog.mysql_xdevapi.global">
   <title>Global ext/mysql_xdevapi changes</title>
   <para>
@@ -27,19 +27,19 @@
       <row>
         <entry>8.0.28</entry>
         <entry>
-         <para>
+         <simpara>
            Removed TLSv1 and TLSv1.1 support. The values "TLSv1", "TLSv1.0",
            and "TLSv1.1" are now considered invalid for the "tls-versions"
            connection attribute.
-         </para>
+         </simpara>
         </entry>
        </row>
        <row>
        <entry>8.0.26</entry>
        <entry>
-        <para>
+        <simpara>
           Deprecated TLSv1 and TLSv1.1 support.
-        </para>
+        </simpara>
        </entry>
       </row>
      </tbody>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>float</type><methodname>SolrInputDocument::getFieldBoost</methodname>
    <methodparam><type>string</type><parameter>fieldName</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves the boost value for a particular field.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>fieldName</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the boost value for the field or &false; if there was an error.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

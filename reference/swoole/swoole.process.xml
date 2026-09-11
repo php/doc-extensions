@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\Process intro -->
   <section xml:id="swoole-process.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -54,7 +54,7 @@
     <varlistentry xml:id="swoole-process.constants.ipc-nowait">
      <term><constant>Swoole\Process::IPC_NOWAIT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

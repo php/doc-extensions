@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.sqlsrv-client-info">
+<refentry xml:id="function.sqlsrv-client-info" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>sqlsrv_client_info</refname>
   <refpurpose>Returns information about the client and specified connection</refpurpose>

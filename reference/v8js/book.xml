@@ -8,9 +8,9 @@
 
  <preface xml:id="intro.v8js">
   &reftitle.intro;
-  <para>
+  <simpara>
    This extension embeds the <link xlink:href="&url.v8engine;">V8 Javascript Engine</link> into PHP.
-  </para>
+  </simpara>
  </preface>
 
  &reference.v8js.setup;

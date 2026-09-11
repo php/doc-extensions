@@ -6,9 +6,9 @@
 
  <section xml:id="v8js.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    PHP and V8 library and headers installed in proper paths.
-  </para>
+  </simpara>
  </section>
 
   &reference.v8js.configure;

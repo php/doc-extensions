@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagetickspersecond">
+<refentry xml:id="imagick.getimagetickspersecond" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageTicksPerSecond</refname>
   <refpurpose>Gets the image ticks-per-second</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageTicksPerSecond</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the image ticks-per-second.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the image ticks-per-second.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

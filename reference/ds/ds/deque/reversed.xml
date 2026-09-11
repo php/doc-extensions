@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Ds\Deque</type><methodname>Ds\Deque::reversed</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns a reversed copy of the deque.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -30,9 +30,9 @@
     A reversed copy of the deque.
 
     <note>
-        <para>
+        <simpara>
             The current instance is not affected.
-        </para>
+        </simpara>
     </note>
   </para>
  </refsect1>

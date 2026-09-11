@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.gettextencoding">
+<refentry xml:id="imagickdraw.gettextencoding" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getTextEncoding</refname>
   <refpurpose>Returns the code set used for text annotations</refpurpose>
@@ -13,17 +13,17 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns a string which specifies the code set used for text annotations.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a string specifying the code set
    or false if text encoding is not set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

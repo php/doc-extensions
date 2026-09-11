@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrResponse::getHttpStatus</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the HTTP status of the response.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the HTTP status of the response.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

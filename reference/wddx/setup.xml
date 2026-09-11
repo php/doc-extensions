@@ -8,10 +8,10 @@
  <section xml:id="wddx.requirements">
   &reftitle.required;
   &libxml.required;
-  <para>
+  <simpara>
    In order to use WDDX, you will need to install the expat library
    (which comes with Apache 1.3.7 or higher).
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 
@@ -22,10 +22,10 @@
  <!-- {{{ Resources -->
  <section xml:id="wddx.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
    This extension defines a WDDX packet identifier returned by
    <function>wddx_packet_start</function>.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getstrokedashoffset">
+<refentry xml:id="imagickdraw.getstrokedashoffset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getStrokeDashOffset</refname>
   <refpurpose>Returns the offset into the dash pattern to start the dash</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the offset into the dash pattern to start the dash.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a float representing the offset and 0 if it's not set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

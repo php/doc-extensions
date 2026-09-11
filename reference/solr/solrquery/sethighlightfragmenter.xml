@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>fragmenter</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>field_override</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Specify a text snippet generator for highlighted text. 
-  </para>
+  <simpara>
+   Specify a text snippet generator for highlighted text.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
     <varlistentry>
      <term><parameter>fragmenter</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The standard fragmenter is gap. Another option is regex, which tries to create fragments that resembles a certain regular expression
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>field_override</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

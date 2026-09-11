@@ -13,9 +13,9 @@
    <type>string</type><methodname>solr_get_version</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    This function returns the current version of the extension as a string.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,16 +27,16 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <!-- See also &return.success; -->
-  <para>
+  <simpara>
    It returns a string on success and &false; on failure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This function throws no errors or exceptions.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

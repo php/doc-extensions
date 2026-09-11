@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.destroy">
+<refentry xml:id="imagickdraw.destroy" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::destroy</refname>
   <refpurpose>Frees all associated resources</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Frees all resources associated with the <classname>ImagickDraw</classname> object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

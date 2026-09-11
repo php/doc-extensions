@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.svn-blame">
+<refentry xml:id="function.svn-blame" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>svn_blame</refname>
   <refpurpose>Get the SVN blame for a file</refpurpose>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Connection</type><methodname>Swoole\Connection\Iterator::current</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Get current connection entry.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current connection entry.
-  </para>
+  </simpara>
  </refsect1>
 
 

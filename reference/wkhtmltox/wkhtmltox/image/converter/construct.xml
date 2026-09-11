@@ -14,9 +14,9 @@
    <methodparam choice="opt"><type>string</type><parameter>buffer</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>settings</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
   Creates an Image converter, optionally taking an input buffer and configuration settings
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>buffer</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       HTML
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -164,7 +164,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

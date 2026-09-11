@@ -13,10 +13,10 @@
    <methodparam><type>array</type><parameter>affine</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Adjusts the current affine transformation matrix with the specified affine
    transformation matrix.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>affine</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Affine matrix parameters
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -101,7 +101,7 @@ function affine($strokeColor, $fillColor, $backgroundColor) {
     $image->newImage(500, 750, $backgroundColor);
     $image->setImageFormat("png");
 
-    //Render the draw commands in the ImagickDraw object 
+    //Render the draw commands in the ImagickDraw object
     //into the image.
     $image->drawImage($draw);
 

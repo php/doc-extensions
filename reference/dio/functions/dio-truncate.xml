@@ -4,7 +4,7 @@
  <refnamediv>
   <refname>dio_truncate</refname>
   <refpurpose>
-   Truncates file descriptor fd to offset bytes 
+   Truncates file descriptor fd to offset bytes
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
@@ -14,16 +14,16 @@
    <methodparam><type>resource</type><parameter>fd</parameter></methodparam>
    <methodparam><type>int</type><parameter>offset</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   <function>dio_truncate</function> truncates a file to at most 
+  <simpara>
+   <function>dio_truncate</function> truncates a file to at most
    <parameter>offset</parameter> bytes in size.
-  </para>
-  <para>
-   If the file previously was larger than this size, the extra data is 
+  </simpara>
+  <simpara>
+   If the file previously was larger than this size, the extra data is
    lost. If the file previously was shorter, it is unspecified whether the
-   file is left unchanged or is extended. In the latter case the extended 
+   file is left unchanged or is extended. In the latter case the extended
    part reads as zero bytes.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -32,17 +32,17 @@
     <varlistentry>
      <term><parameter>fd</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The file descriptor returned by <function>dio_open</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>offset</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The offset in bytes.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -50,9 +50,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="notes">

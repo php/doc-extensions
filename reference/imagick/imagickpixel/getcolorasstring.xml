@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.getcolorasstring">
+<refentry xml:id="imagickpixel.getcolorasstring" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::getColorAsString</refname>
   <refpurpose>Returns the color as a string</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>string</type><methodname>ImagickPixel::getColorAsString</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the color of the ImagickPixel object as a string.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the color of the ImagickPixel object as a string.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -63,9 +63,9 @@ rgb(165,42,42)
   &reftitle.notes;
   <note>
    <title>Alpha not returned</title>
-   <para>
+   <simpara>
       This function does not return the alpha value of the color in the string.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

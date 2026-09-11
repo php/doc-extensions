@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mqseries-open">
+<refentry xml:id="function.mqseries-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mqseries_open</refname>
   <refpurpose>MQSeries MQOPEN</refpurpose>

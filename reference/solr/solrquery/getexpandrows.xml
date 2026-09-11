@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getExpandRows</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns The number of rows to display in each group (expand.rows)
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the number of rows.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

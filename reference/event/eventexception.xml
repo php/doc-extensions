@@ -7,11 +7,11 @@
 <!-- {{{ EventException intro -->
   <section xml:id="eventexception.intro">
    &reftitle.intro;
-   <para>
-    A <classname>EventException</classname> is thrown when the Event extension methods
+   <simpara>
+    A <exceptionname>EventException</exceptionname> is thrown when the Event extension methods
     encounter invalid user input or identify an unrecoverable error. This exception
     serves as a signal for developers to handle exceptional situations gracefully.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
   <section xml:id="eventexception.synopsis">

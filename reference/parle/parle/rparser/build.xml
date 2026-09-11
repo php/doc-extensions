@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Parle\RParser::build</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Any tokens and grammar rules previously added are finalized. The rule set becomes readonly and the parser is ready to start.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

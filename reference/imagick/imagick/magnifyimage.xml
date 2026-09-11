@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.magnifyimage">
+<refentry xml:id="imagick.magnifyimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::magnifyImage</refname>
   <refpurpose>Scales an image proportionally 2x</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::magnifyImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Is a convenience method that scales an image proportionally to twice its original size.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

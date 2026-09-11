@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.roundcorners">
+<refentry xml:id="imagick.roundcorners" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::roundCorners</refname>
   <refpurpose>Rounds image corners</refpurpose>
@@ -16,16 +16,16 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::roundCorners</methodname>
    <methodparam><type>float</type><parameter>x_rounding</parameter></methodparam>
    <methodparam><type>float</type><parameter>y_rounding</parameter></methodparam>
-   <methodparam choice="opt"><type>float</type><parameter>stroke_width</parameter><initializer>10</initializer></methodparam>   
-   <methodparam choice="opt"><type>float</type><parameter>displace</parameter><initializer>5</initializer></methodparam>   
-   <methodparam choice="opt"><type>float</type><parameter>size_correction</parameter><initializer>-6</initializer></methodparam>   
+   <methodparam choice="opt"><type>float</type><parameter>stroke_width</parameter><initializer>10</initializer></methodparam>
+   <methodparam choice="opt"><type>float</type><parameter>displace</parameter><initializer>5</initializer></methodparam>
+   <methodparam choice="opt"><type>float</type><parameter>size_correction</parameter><initializer>-6</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   Rounds image corners. The first two parameters control the amount 
-   of rounding and the three last parameters can be used to fine-tune 
+  <simpara>
+   Rounds image corners. The first two parameters control the amount
+   of rounding and the three last parameters can be used to fine-tune
    the rounding process. &imagick.method.available.0x629;
    &imagick.method.not.available.0x700;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -35,41 +35,41 @@
     <varlistentry>
      <term><parameter>x_rounding</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x rounding
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y_rounding</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y rounding
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>stroke_width</parameter></term>
      <listitem>
-      <para>
+      <simpara>
         stroke width
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>displace</parameter></term>
      <listitem>
-      <para>
+      <simpara>
         image displace
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>size_correction</parameter></term>
      <listitem>
-      <para>
+      <simpara>
         size correction
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
 
@@ -79,9 +79,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -89,9 +89,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::roundCorners</function>:</title>
-    <para>
+    <simpara>
      Rounds the image corners
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

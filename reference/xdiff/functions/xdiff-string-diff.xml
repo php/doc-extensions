@@ -6,7 +6,7 @@
   <refname>xdiff_string_diff</refname>
   <refpurpose>Make unified diff of two strings</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -16,13 +16,13 @@
    <methodparam choice="opt"><type>int</type><parameter>context</parameter><initializer>3</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>minimal</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes an unified diff containing differences between <parameter>old_data</parameter> string and
-   <parameter>new_data</parameter> string and returns it. The resulting diff is human-readable. 
+   <parameter>new_data</parameter> string and returns it. The resulting diff is human-readable.
    An optional <parameter>context</parameter> parameter specifies how many lines of context should be
-   added around each change. Setting <parameter>minimal</parameter> parameter 
-   to true will result in outputting the shortest patch file possible (can take a long time). 
-  </para>
+   added around each change. Setting <parameter>minimal</parameter> parameter
+   to true will result in outputting the shortest patch file possible (can take a long time).
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,35 +32,35 @@
     <varlistentry>
      <term><parameter>old_data</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        First string with data. It acts as "old" data.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_data</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Second string with data. It acts as "new" data.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>context</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Indicates how many lines of context you want to include in the diff
        result.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>minimal</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Set this parameter to &true; if you want to minimalize the size of the
        result (can take a long time).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -69,9 +69,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns string with resulting diff or &false; if an internal error happened.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -79,9 +79,9 @@
   <para>
    <example>
     <title><function>xdiff_string_diff</function> example</title>
-    <para>
+    <simpara>
      The following code makes unified diff of two articles.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -104,10 +104,10 @@ if (is_string($diff)) {
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     This function doesn't work well with binary strings. To make diff of binary
     strings use <function>xdiff_string_bdiff</function>/<function>xdiff_string_rabdiff</function>.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

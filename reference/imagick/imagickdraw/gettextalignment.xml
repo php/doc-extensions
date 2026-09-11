@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.gettextalignment">
+<refentry xml:id="imagickdraw.gettextalignment" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::getTextAlignment</refname>
   <refpurpose>Returns the text alignment</refpurpose>
@@ -13,17 +13,17 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns the alignment applied when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <link linkend="imagick.constants.align">ALIGN</link> constant
    (<literal>imagick::ALIGN_*</literal>), and 0 if no align is set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

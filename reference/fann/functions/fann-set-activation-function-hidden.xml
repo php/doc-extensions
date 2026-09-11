@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>int</type><parameter>activation_function</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the activation function for all of the hidden layers.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>activation_function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The <link linkend="constants.fann-activation-funcs">activation functions</link> constant.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

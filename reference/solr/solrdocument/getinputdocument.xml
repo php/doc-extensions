@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>SolrInputDocument</type><methodname>SolrDocument::getInputDocument</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a SolrInputDocument equivalent of the object. This is useful if one wishes to resubmit/update a document retrieved from a query.
-  </para>
-  
+  </simpara>
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a SolrInputDocument on success and &null; on failure.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

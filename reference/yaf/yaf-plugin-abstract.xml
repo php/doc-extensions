@@ -48,12 +48,12 @@
    /* plugin class should be placed under ./application/plugins/ */
    class TestPlugin extends Yaf_Plugin_Abstract {
         public function routerStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            /* before router 
+            /* before router
                in this hook,  user can do some url rewrite */
             var_dump("routerStartup");
         }
         public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            /* router complete 
+            /* router complete
                in this hook, user can do login check */
             var_dump("routerShutdown");
         }
@@ -84,7 +84,7 @@
            "directory" => dirname(__FILE__) . "/application/",
        ),
    );
- 
+
    $app = new Yaf_Application($config);
    $app->bootstrap()->run();
 ?>
@@ -119,7 +119,7 @@ string(20) "dispatchLoopShutdown"
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-plugin-abstract')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
    </classsynopsis>

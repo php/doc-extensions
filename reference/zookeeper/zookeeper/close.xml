@@ -23,15 +23,15 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   This method emits <classname>ZookeeperException</classname> and its derivatives when closing an uninitialized instance.
+   This method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives when closing an uninitialized instance.
   </simpara>
  </refsect1>
 
@@ -40,7 +40,7 @@
   <simplelist>
    <member><methodname>Zookeeper::__construct</methodname></member>
    <member><methodname>Zookeeper::connect</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

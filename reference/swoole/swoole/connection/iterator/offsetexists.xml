@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Swoole\Connection\Iterator::offsetExists</methodname>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Check if offset exists.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>index</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The offset being checked.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns TRUE if the offset exists, otherwise FALSE.
-  </para>
+  </simpara>
  </refsect1>
 
 

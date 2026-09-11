@@ -15,9 +15,9 @@
    <methodparam><type>string</type><parameter>type</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>size</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,25 +27,25 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Specify the name of the field.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>type</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Specify the field type.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Specify the maximum length of the string field.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -53,9 +53,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

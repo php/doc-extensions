@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>sarprop_step_error_threshold_factor</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the sarprop step error threshold factor.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>sarprop_step_error_threshold_factor</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The sarprop step error threshold factor.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

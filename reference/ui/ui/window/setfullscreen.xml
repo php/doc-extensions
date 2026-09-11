@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Window::setFullScreen</methodname>
    <methodparam><type>bool</type><parameter>full</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall enable or disable the use of the full screen for this Window
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>full</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

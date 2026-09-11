@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setformat">
+<refentry xml:id="imagick.setformat" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setFormat</refname>
   <refpurpose>Sets the format of the Imagick object</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setFormat</methodname>
    <methodparam><type>string</type><parameter>format</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the format of the Imagick object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>format</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

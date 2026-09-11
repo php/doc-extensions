@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.flipimage">
+<refentry xml:id="imagick.flipimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::flipImage</refname>
   <refpurpose>Creates a vertical mirror image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::flipImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a vertical mirror image by reflecting the pixels around the central x-axis.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

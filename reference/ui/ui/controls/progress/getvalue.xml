@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Progress::getValue</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall retrieve the current value of this Progress bar
-  </para>
+  </simpara>
 
  </refsect1>
 

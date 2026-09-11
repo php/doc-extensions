@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<appendix xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="mcrypt.ciphers">
+<appendix xml:id="mcrypt.ciphers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Mcrypt ciphers</title>
  <para>
   Here is a list of ciphers which are currently supported by the mcrypt

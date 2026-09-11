@@ -15,10 +15,10 @@
    <methodparam><type>array</type><parameter>input</parameter></methodparam>
    <methodparam><type>array</type><parameter>desired_output</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Train one iteration with a set of inputs, and a set of desired outputs. This training is always incremental training,
    since only one pattern is presented.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,17 +33,17 @@
    <varlistentry>
     <term><parameter>input</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An array of inputs. This array must be exactly <function>fann_get_num_input</function> long.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>desired_output</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An array of desired outputs. This array must be exactly <function>fann_get_num_output</function> long.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<appendix xmlns="http://docbook.org/ns/docbook" xml:id="imagick.constants">
+<appendix xml:id="imagick.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist xml:id="imagick.constants.colortype">
   <title><constant>COLOR_<replaceable>*</replaceable></constant> constants</title>
-  <para>Colortype constants. These constants are mainly used with 
+  <simpara>Colortype constants. These constants are mainly used with
    <classname>ImagickPixel</classname>.
-  </para>
+  </simpara>
    <varlistentry xml:id="imagick.constants.color-black">
     <term>
      <constant>imagick::COLOR_BLACK</constant>
@@ -122,7 +122,7 @@
 
  <variablelist xml:id="imagick.constants.disposetype">
   <title><constant>DISPOSE_<replaceable>*</replaceable></constant> constants</title>
-  <para>Dispose type constants</para>
+  <simpara>Dispose type constants</simpara>
    <varlistentry xml:id="imagick.constants.dispose-unrecognized">
     <term>
      <constant>imagick::DISPOSE_UNRECOGNIZED</constant>
@@ -780,7 +780,7 @@
 
  <variablelist xml:id="imagick.constants.montagemode">
   <title><constant>MONTAGEMODE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.montagemode-frame">
     <term>
      <constant>imagick::MONTAGEMODE_FRAME</constant>
@@ -815,7 +815,7 @@
 
  <variablelist xml:id="imagick.constants.styles">
   <title><constant>STYLE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.style-normal">
     <term>
      <constant>imagick::STYLE_NORMAL</constant>
@@ -860,7 +860,7 @@
 
  <variablelist xml:id="imagick.constants.filters">
   <title><constant>FILTER_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.filter-undefined">
     <term>
      <constant>imagick::FILTER_UNDEFINED</constant>
@@ -1025,7 +1025,7 @@
 
  <variablelist xml:id="imagick.constants.imagetype">
   <title><constant>IMGTYPE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.imgtype-undefined">
     <term>
      <constant>imagick::IMGTYPE_UNDEFINED</constant>
@@ -1140,7 +1140,7 @@
 
  <variablelist xml:id="imagick.constants.resolution">
   <title><constant>RESOLUTION_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.resolution-undefined">
     <term>
      <constant>imagick::RESOLUTION_UNDEFINED</constant>
@@ -1175,7 +1175,7 @@
 
  <variablelist xml:id="imagick.constants.compressiontype">
   <title><constant>COMPRESSION_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.compression-undefined">
     <term>
      <constant>imagick::COMPRESSION_UNDEFINED</constant>
@@ -1323,7 +1323,7 @@
 
  <variablelist xml:id="imagick.constants.paint">
   <title><constant>PAINT_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.paint-point">
     <term>
      <constant>imagick::PAINT_POINT</constant>
@@ -1378,7 +1378,7 @@
 
  <variablelist xml:id="imagick.constants.gravity">
   <title><constant>GRAVITY_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.gravity-northwest">
     <term>
      <constant>imagick::GRAVITY_NORTHWEST</constant>
@@ -1473,7 +1473,7 @@
 
  <variablelist xml:id="imagick.constants.stretch">
   <title><constant>STRETCH_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.stretch-normal">
     <term>
      <constant>imagick::STRETCH_NORMAL</constant>
@@ -1568,7 +1568,7 @@
 
  <variablelist xml:id="imagick.constants.align">
   <title><constant>ALIGN_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.align-undefined">
     <term>
      <constant>imagick::ALIGN_UNDEFINED</constant>
@@ -1613,7 +1613,7 @@
 
  <variablelist xml:id="imagick.constants.decoration">
   <title><constant>DECORATION_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.decoration-no">
     <term>
      <constant>imagick::DECORATION_NO</constant>
@@ -1658,7 +1658,7 @@
 
  <variablelist xml:id="imagick.constants.noise">
   <title><constant>NOISE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.noise-uniform">
     <term>
      <constant>imagick::NOISE_UNIFORM</constant>
@@ -1734,7 +1734,7 @@
 
  <variablelist xml:id="imagick.constants.channel">
   <title><constant>CHANNEL_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.channel-undefined">
     <term>
      <constant>imagick::CHANNEL_UNDEFINED</constant>
@@ -1889,7 +1889,7 @@
 
  <variablelist xml:id="imagick.constants.metric">
   <title><constant>METRIC_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.metric-undefined">
     <term>
      <constant>imagick::METRIC_UNDEFINED</constant>
@@ -1954,7 +1954,7 @@
 
  <variablelist xml:id="imagick.constants.pixel">
   <title><constant>PIXEL_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.pixel-char">
     <term>
      <constant>imagick::PIXEL_CHAR</constant>
@@ -2030,7 +2030,7 @@
 
  <variablelist xml:id="imagick.constants.evaluate">
   <title><constant>EVALUATE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.evaluate-undefined">
     <term>
      <constant>imagick::EVALUATE_UNDEFINED</constant>
@@ -2319,7 +2319,7 @@
 
  <variablelist xml:id="imagick.constants.colorspace">
   <title><constant>COLORSPACE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.colorspace-undefined">
     <term>
      <constant>imagick::COLORSPACE_UNDEFINED</constant>
@@ -2535,7 +2535,7 @@
 
  <variablelist xml:id="imagick.constants.virtualpixelmethods">
   <title><constant>VIRTUALPIXELMETHOD_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.virtualpixelmethod-undefined">
     <term>
      <constant>imagick::VIRTUALPIXELMETHOD_UNDEFINED</constant>
@@ -2676,7 +2676,7 @@
 
  <variablelist xml:id="imagick.constants.preview">
   <title><constant>PREVIEW_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.preview-undefined">
     <term>
      <constant>imagick::PREVIEW_UNDEFINED</constant>
@@ -2981,7 +2981,7 @@
 
  <variablelist xml:id="imagick.constants.renderingintent">
   <title><constant>RENDERINGINTENT_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.renderingintent-undefined">
     <term>
      <constant>imagick::RENDERINGINTENT_UNDEFINED</constant>
@@ -3036,7 +3036,7 @@
 
  <variablelist xml:id="imagick.constants.interlace">
   <title><constant>INTERLACE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.interlace-undefined">
     <term>
      <constant>imagick::INTERLACE_UNDEFINED</constant>
@@ -3122,7 +3122,7 @@
 
  <variablelist xml:id="imagick.constants.fillrule">
   <title><constant>FILLRULE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.fillrule-undefined">
     <term>
      <constant>imagick::FILLRULE_UNDEFINED</constant>
@@ -3157,7 +3157,7 @@
 
  <variablelist xml:id="imagick.constants.pathunits">
   <title><constant>PATHUNITS_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.pathunits-undefined">
     <term>
      <constant>imagick::PATHUNITS_UNDEFINED</constant>
@@ -3202,7 +3202,7 @@
 
  <variablelist xml:id="imagick.constants.linecap">
   <title><constant>LINECAP_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.linecap-undefined">
     <term>
      <constant>imagick::LINECAP_UNDEFINED</constant>
@@ -3247,7 +3247,7 @@
 
  <variablelist xml:id="imagick.constants.linejoin">
   <title><constant>LINEJOIN_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.linejoin-undefined">
     <term>
      <constant>imagick::LINEJOIN_UNDEFINED</constant>
@@ -3292,7 +3292,7 @@
 
  <variablelist xml:id="imagick.constants.resourcetypes">
   <title><constant>RESOURCETYPE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.resourcetype-undefined">
     <term>
      <constant>imagick::RESOURCETYPE_UNDEFINED</constant>
@@ -3374,7 +3374,7 @@
 
  <variablelist xml:id="imagick.constants.layermethod">
   <title><constant>LAYERMETHOD_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.layermethod-undefined">
     <term>
      <constant>imagick::LAYERMETHOD_UNDEFINED</constant>
@@ -3555,7 +3555,7 @@
 
  <variablelist xml:id="imagick.constants.orientation">
   <title><constant>ORIENTATION_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.orientation-undefined">
     <term>
      <constant>imagick::ORIENTATION_UNDEFINED</constant>
@@ -3659,7 +3659,7 @@
 
  <variablelist xml:id="imagick.constants.distortion">
   <title><constant>DISTORTION_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.distortion-undefined">
     <term>
      <constant>imagick::DISTORTION_UNDEFINED</constant>
@@ -3829,7 +3829,7 @@
 
  <variablelist xml:id="imagick.constants.alphachannel">
   <title><constant>ALPHACHANNEL_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.alphachannel-activate">
     <term>
      <constant>imagick::ALPHACHANNEL_ACTIVATE</constant>
@@ -4021,7 +4021,7 @@
 
  <variablelist xml:id="imagick.constants.sparsecolormethod">
   <title><constant>SPARSECOLORMETHOD_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.sparsecolormethod-undefined">
     <term>
      <constant>imagick::SPARSECOLORMETHOD_UNDEFINED</constant>
@@ -4092,7 +4092,7 @@
 
  <variablelist xml:id="imagick.constants.function">
   <title><constant>FUNCTION_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.function-undefined">
     <term>
      <constant>imagick::FUNCTION_UNDEFINED</constant>
@@ -4130,7 +4130,7 @@
 
  <variablelist xml:id="imagick.constants.interpolate">
   <title><constant>INTERPOLATE_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.interpolate-undefined">
     <term>
      <constant>imagick::INTERPOLATE_UNDEFINED</constant>
@@ -4234,7 +4234,7 @@
 
  <variablelist xml:id="imagick.constants.dithermethod">
   <title><constant>DITHERMETHOD_<replaceable>*</replaceable></constant> constants</title>
-  <para></para>
+  <simpara></simpara>
    <varlistentry xml:id="imagick.constants.dithermethod-undefined">
     <term>
      <constant>imagick::DITHERMETHOD_UNDEFINED</constant>

@@ -15,9 +15,9 @@
    <methodparam><type>int</type><parameter>ext</parameter></methodparam>
    <methodparam><type>int</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed on key events
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,25 +27,25 @@
    <varlistentry>
     <term><parameter>key</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The key pressed
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>ext</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The extended key pressed
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Event modifiers
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -53,9 +53,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrDocument::__clone</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a copy of a SolrDocument object. Not to be called directly.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    None.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

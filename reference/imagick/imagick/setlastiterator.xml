@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setlastiterator">
+<refentry xml:id="imagick.setlastiterator" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setLastIterator</refname>
   <refpurpose>Sets the Imagick iterator to the last image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setLastIterator</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the Imagick iterator to the last image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

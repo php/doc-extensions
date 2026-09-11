@@ -16,9 +16,9 @@
    <methodparam><type class="union"><type>int</type><type>float</type><type>string</type></type><parameter>data</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>format</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Write text in a cell.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,33 +27,33 @@
    <varlistentry>
     <term><parameter>row</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       cell row
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>column</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       cell column
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>data</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       data to be written
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>format</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       String format
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -61,9 +61,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <classname>Vtiful\Kernel\Excel</classname> instance
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

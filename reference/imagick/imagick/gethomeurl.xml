@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.gethomeurl">
+<refentry xml:id="imagick.gethomeurl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getHomeURL</refname>
   <refpurpose>Returns the ImageMagick home URL</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Imagick::getHomeURL</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the ImageMagick home URL.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a link to the imagemagick homepage.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

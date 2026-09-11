@@ -10,11 +10,11 @@
 
   <section xml:id="ds-map.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Map is a sequential collection of key-value pairs, almost identical to an
     &array; used in a similar context. Keys can be any type, but must be unique.
     Values are replaced if added to the map using the same key.
-   </para>
+   </simpara>
   </section>
 
 
@@ -82,7 +82,7 @@
     <varlistentry xml:id="ds-map.constants.min-capacity">
      <term><constant>Ds\Map::MIN_CAPACITY</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-decryptverify">
+<refentry xml:id="function.gnupg-decryptverify" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_decryptverify</refname>
   <refpurpose>Decrypts and verifies a given text</refpurpose>

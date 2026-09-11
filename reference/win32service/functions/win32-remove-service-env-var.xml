@@ -14,10 +14,10 @@
    <methodparam><type>string</type><parameter>servicename</parameter></methodparam>
    <methodparam><type>string</type><parameter>varname</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Remove a custom environment variables <parameter>varname</parameter> on <parameter>servicename</parameter>
    service. This function work only for the local computer. Administrative privileges are required for this to succeed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>servicename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The service name to remove environment variable.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>varname</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The environment variable name.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,24 +46,24 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>service</parameter> parameter is empty.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>varname</parameter> parameter is empty.
-  </para>
-  <para>
-   A <classname>Win32ServiceException</classname> is thrown on error.
-  </para>
+  </simpara>
+  <simpara>
+   A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

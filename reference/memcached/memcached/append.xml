@@ -13,19 +13,19 @@
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::append</function> appends the given
    <parameter>value</parameter> string to the value of an existing item. The
    reason that <parameter>value</parameter> is forced to be a string is
    that appending mixed types is not well-defined.
-  </para>
+  </simpara>
   <note>
-   <para>
+   <simpara>
     If the <constant>Memcached::OPT_COMPRESSION</constant> is enabled, the
     operation will fail and a warning will be issued, because appending
     compressed data to a value that is potentially already compressed is not
     possible.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 
@@ -36,17 +36,17 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The string to append.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -55,18 +55,18 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
    Returns &null; when compression is on.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    Returns &null; and raises an <constant>E_WARNING</constant> when
    compression is enabled.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="gmagickdraw.setstrokewidth">
+<refentry xml:id="gmagickdraw.setstrokewidth" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>GmagickDraw::setstrokewidth</refname>
   <refpurpose>Sets the width of the stroke used to draw object outlines</refpurpose>

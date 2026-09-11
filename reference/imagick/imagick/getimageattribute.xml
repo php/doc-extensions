@@ -17,9 +17,9 @@
    <modifier>public</modifier> <type>string</type><methodname>Imagick::getImageAttribute</methodname>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns a named attribute.
-  </para>
+  </simpara>
 
 
  </refsect1>
@@ -30,9 +30,9 @@
    <varlistentry>
     <term><parameter>key</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The key of the attribute to get.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -40,9 +40,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

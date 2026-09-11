@@ -11,9 +11,9 @@
 <!-- {{{ UI\Area intro -->
   <section xml:id="ui-area.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     An Area represents a canvas which can be used to draw, and respond to mouse and key events.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -117,21 +117,21 @@
     <varlistentry xml:id="ui-area.constants.super">
      <term><constant>UI\Area::Super</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-area.constants.down">
      <term><constant>UI\Area::Down</constant></term>
      <listitem>
-      <para>Shall be set in the modifiers passed to key and mouse events</para>
+      <simpara>Shall be set in the modifiers passed to key and mouse events</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-area.constants.up">
      <term><constant>UI\Area::Up</constant></term>
      <listitem>
-      <para>Shall be set in the modifiers passed to key and mouse events</para>
+      <simpara>Shall be set in the modifiers passed to key and mouse events</simpara>
      </listitem>
     </varlistentry>
 

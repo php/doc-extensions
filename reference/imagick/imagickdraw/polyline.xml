@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.polyline">
+<refentry xml:id="imagickdraw.polyline" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::polyline</refname>
   <refpurpose>Draws a polyline</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>array</type><parameter>coordinates</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a polyline using the current stroke, stroke width, and fill color or
    texture, using the specified array of coordinates.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>coordinates</parameter></term>
      <listitem>
-      <para>
-       array of x and y coordinates: array( array( 'x' => 4, 'y' => 6 ), array( 'x' => 8, 'y' => 10 ) ) 
-      </para>
+      <simpara>
+       array of x and y coordinates: array( array( 'x' => 4, 'y' => 6 ), array( 'x' => 8, 'y' => 10 ) )
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

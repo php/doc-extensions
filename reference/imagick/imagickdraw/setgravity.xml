@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setgravity">
+<refentry xml:id="imagickdraw.setgravity" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setGravity</refname>
   <refpurpose>Sets the text placement gravity</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>int</type><parameter>gravity</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the text placement gravity to use when annotating with text.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
     <varlistentry>
      <term><parameter>gravity</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.gravity">GRAVITY</link> constant
        (<literal>imagick::GRAVITY_*</literal>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

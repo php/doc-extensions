@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathclose">
+<refentry xml:id="imagickdraw.pathclose" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathClose</refname>
   <refpurpose>Adds a path element to the current path</refpurpose>
@@ -13,18 +13,18 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Adds a path element to the current path which closes the current subpath
    by drawing a straight line from the current point to the current subpath's
    most recent starting point (usually, the most recent moveto point).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -114,7 +114,7 @@
      <term><varname>writeConcernErrors</varname></term>
      <listitem>
       <simpara>
-       An array of any <classname>MongoDB\Driver\WriteConcernError</classname>s
+       An array of any <exceptionname>MongoDB\Driver\WriteConcernError</exceptionname>s
        that occurred while executing the bulk write. This list may have
        multiple items if more than one server command was required to execute
        the bulk write.
@@ -125,7 +125,7 @@
      <term><varname>writeErrors</varname></term>
      <listitem>
       <simpara>
-       An array of any <classname>MongoDB\Driver\WriteError</classname>s
+       An array of any <exceptionname>MongoDB\Driver\WriteError</exceptionname>s
        that occurred during the execution of individual write operations. Array
        keys will correspond to the index of the write operation from
        <classname>MongoDB\Driver\BulkWriteCommand</classname>. This map will

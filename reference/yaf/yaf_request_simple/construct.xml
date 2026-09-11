@@ -17,8 +17,8 @@
    <methodparam choice="opt"><type>string</type><parameter>action</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>params</parameter></methodparam>
   </constructorsynopsis>
-  <para>
-  </para>
+  <simpara>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -31,9 +31,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 

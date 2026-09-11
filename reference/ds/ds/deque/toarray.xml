@@ -15,13 +15,13 @@
    <modifier>public</modifier> <type>array</type><methodname>Ds\Deque::toArray</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Converts the deque to an &array;.
-  </para>
+  </simpara>
   <note>
-    <para>
+    <simpara>
         Casting to an &array; is not supported yet.
-    </para>
+    </simpara>
   </note>
 
  </refsect1>
@@ -33,9 +33,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     An &array; containing all the values in the same order as the deque.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

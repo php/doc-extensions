@@ -13,18 +13,18 @@
    <modifier>public</modifier> <modifier>static</modifier> <type class="union"><type>string</type><type>false</type></type><methodname>SolrUtils::escapeQueryChars</methodname>
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Lucene supports escaping special characters that are part of the query syntax.
-  </para>
+  </simpara>
 
-  <para>The current list special characters are:</para>
-  <para>
+  <simpara>The current list special characters are:</simpara>
+  <simpara>
 <![CDATA[
 
    + - && || ! ( ) { } [ ] ^ " ~ * ? : \ /
-   
-]]></para>
-  <para>These characters are part of the query syntax and must be escaped</para>
+
+]]></simpara>
+  <simpara>These characters are part of the query syntax and must be escaped</simpara>
 
  </refsect1>
 
@@ -35,9 +35,9 @@
     <varlistentry>
      <term><parameter>str</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        This is the query string to be escaped.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   Returns the escaped string&return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

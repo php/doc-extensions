@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokedashoffset">
+<refentry xml:id="imagickdraw.setstrokedashoffset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setStrokeDashOffset</refname>
   <refpurpose>Specifies the offset into the dash pattern to start the dash</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>float</type><parameter>dash_offset</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Specifies the offset into the dash pattern to start the dash.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>dash_offset</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        dash offset
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

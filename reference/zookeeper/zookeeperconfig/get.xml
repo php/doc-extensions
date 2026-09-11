@@ -23,17 +23,17 @@
    <varlistentry>
     <term><parameter>watcher_cb</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If nonzero, a watch will be set at the server to notify the client if the node changes.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>stat</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If not NULL, will hold the value of stat for the path on return.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -41,15 +41,15 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the configuration string on success, and false on failure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   This method emits <classname>ZookeeperException</classname> and its derivatives when parameters count or types are wrong or fail to get configuration.
+   This method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives when parameters count or types are wrong or fail to get configuration.
   </simpara>
  </refsect1>
 
@@ -57,9 +57,9 @@
   &reftitle.examples;
   <example xml:id="zookeeperconfig.get.example.basic">
    <title><methodname>ZookeeperConfig::get</methodname> example</title>
-   <para>
+   <simpara>
      Get configuration.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -91,7 +91,7 @@ version=0xca01e881a2
    <member><methodname>ZookeeperConfig::set</methodname></member>
    <member><methodname>ZookeeperConfig::add</methodname></member>
    <member><methodname>ZookeeperConfig::remove</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

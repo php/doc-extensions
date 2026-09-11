@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.sketchimage">
+<refentry xml:id="imagick.sketchimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::sketchImage</refname>
   <refpurpose>Simulates a pencil sketch</refpurpose>
@@ -15,14 +15,14 @@
    <methodparam><type>float</type><parameter>angle</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Simulates a pencil sketch. We convolve the image with a Gaussian operator
    of the given radius and standard deviation (sigma). For reasonable
    results, radius should be larger than sigma.  Use a radius of 0 and
    Imagick::sketchImage() selects a suitable radius for you. Angle gives the
-   angle of the blurring motion. 
+   angle of the blurring motion.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,25 +32,25 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The radius of the Gaussian, in pixels, not counting the center pixel
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sigma</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The standard deviation of the Gaussian, in pixels.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>angle</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Apply the effect along this angle.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -59,9 +59,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

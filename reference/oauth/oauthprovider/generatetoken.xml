@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="oauthprovider.generatetoken">
+<refentry xml:id="oauthprovider.generatetoken" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>OAuthProvider::generateToken</refname>
   <refpurpose>Generate a random token</refpurpose>

@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>float</type><parameter>thickness</parameter><initializer>1</initializer></methodparam>
    <methodparam choice="opt"><type>float</type><parameter>miterLimit</parameter><initializer>10</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Stroke
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,33 +28,33 @@
    <varlistentry>
     <term><parameter>cap</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       UI\Draw\Line\Cap::Flat, UI\Draw\Line\Cap::Round, or UI\Draw\Line\Cap::Square
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>join</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       UI\Draw\Line\Join::Miter, UI\Draw\Line\Join::Round, or UI\Draw\Line\Join::Bevel
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>thickness</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The thickness of the stroke
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>miterLimit</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Miter limit (default is sensible for all supported platforms)
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

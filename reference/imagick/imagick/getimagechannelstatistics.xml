@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagechannelstatistics">
+<refentry xml:id="imagick.getimagechannelstatistics" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageChannelStatistics</refname>
   <refpurpose>Returns statistics for each channel in the image</refpurpose>
@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>array</type><methodname>Imagick::getImageChannelStatistics</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns statistics for each channel in the image.  The statistics include
    the channel depth, its minima and maxima, the mean, and the standard
    deviation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

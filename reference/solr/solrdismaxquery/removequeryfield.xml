@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>SolrDisMaxQuery</type><methodname>SolrDisMaxQuery::removeQueryField</methodname>
    <methodparam><type>string</type><parameter>field</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Removes a Query Field (qf parameter) from the field list added by <methodname>SolrDisMaxQuery::addQueryField</methodname>
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     qf: When building DisjunctionMaxQueries from the user's query it specifies the fields to search in, and boosts for those fields.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>field</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Field Name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrDisMaxQuery</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

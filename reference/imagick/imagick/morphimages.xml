@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.morphimages">
+<refentry xml:id="imagick.morphimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::morphImages</refname>
   <refpurpose>Method morphs a set of images</refpurpose>
@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::morphImages</methodname>
    <methodparam><type>int</type><parameter>number_frames</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Method morphs a set of images.  Both the image pixels and size
    are linearly interpolated to give the appearance of a
    meta-morphosis from one image to the next.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>number_frames</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The number of in-between images to generate.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,10 +37,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   This method returns a new Imagick object on success.
   &imagick.imagickexception.throw;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

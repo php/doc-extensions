@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>VarnishAdmin::__construct</methodname>
    <methodparam choice="opt"><type>array</type><parameter>args</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,7 +24,7 @@
    <varlistentry>
     <term><parameter>args</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        Configuration arguments. The possible keys are:
 <![CDATA[
 VARNISH_CONFIG_IDENT - local varnish instance ident
@@ -34,7 +34,7 @@ VARNISH_CONFIG_SECRET - varnish instance secret
 VARNISH_CONFIG_TIMEOUT - connection read timeout
 VARNISH_CONFIG_COMPAT - varnish major version compatibility
 ]]>
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -42,8 +42,8 @@ VARNISH_CONFIG_COMPAT - varnish major version compatibility
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-  </para>
+  <simpara>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

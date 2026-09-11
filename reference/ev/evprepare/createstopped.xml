@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="evprepare.createstopped">
+<refentry xml:id="evprepare.createstopped" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EvPrepare::createStopped</refname>
   <refpurpose>Creates a stopped instance of EvPrepare watcher</refpurpose>

@@ -13,11 +13,11 @@
    <modifier>abstract</modifier> <modifier>public</modifier> <type>void</type><methodname>Ds\Sequence::rotate</methodname>
    <methodparam><type>int</type><parameter>rotations</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Rotates the sequence by a given number of rotations, which is equivalent
     to successively calling <code>$sequence-&gt;push($sequence-&gt;shift())</code> if the number
     of rotations is positive, or <code>$sequence-&gt;unshift($sequence-&gt;pop())</code> if negative.
-  </para>
+  </simpara>
 
  </refsect1>
 

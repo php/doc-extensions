@@ -8,13 +8,13 @@
  <!-- {{{ preface -->
  <preface xml:id="intro.xmlrpc">
   &reftitle.intro;
-  <para>
+  <simpara>
   These functions can be used to write XML-RPC servers and clients.
   You can find more information about XML-RPC at
   <link xlink:href="&url.xmlrpc;">&url.xmlrpc;</link>, and more
   documentation on this extension and its functions at
   <link xlink:href="&url.xmlrpc-epi;">&url.xmlrpc-epi;</link>.
- </para>
+ </simpara>
  &warn.experimental;
  </preface>
  <!-- }}} -->

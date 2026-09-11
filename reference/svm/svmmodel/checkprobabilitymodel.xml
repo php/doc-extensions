@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="svmmodel.checkprobabilitymodel">
+<refentry xml:id="svmmodel.checkprobabilitymodel" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SVMModel::checkProbabilityModel</refname>
   <refpurpose>Returns true if the model has probability information</refpurpose>

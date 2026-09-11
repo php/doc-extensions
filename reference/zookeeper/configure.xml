@@ -4,21 +4,21 @@
 <section xml:id="zookeeper.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
- <para>
+ <simpara>
   &pecl.moved;
- </para>
- <para>
+ </simpara>
+ <simpara>
   &pecl.info;
   <link xlink:href="&url.pecl.package;zookeeper">&url.pecl.package;zookeeper</link>.
- </para>
+ </simpara>
 
- <para>
-  To enable zookeeper support, configure with 
+ <simpara>
+  To enable zookeeper support, configure with
   <option role="configure">--with-libzookeeper-dir=DIR</option>. DIR is the install prefix of ZooKeeper C Binding, which must contain the <filename>include/zookeeper/zookeeper.h</filename>
- </para>
- <para>
+ </simpara>
+ <simpara>
   &pecl.windows.download;
- </para>
+ </simpara>
 </section>
 
 <!-- Keep this comment at the end of the file

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Group::__construct</methodname>
    <methodparam><type>string</type><parameter>title</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Group with the given title
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>title</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The text for the title label
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

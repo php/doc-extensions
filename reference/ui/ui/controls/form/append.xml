@@ -15,9 +15,9 @@
    <methodparam><type>UI\Control</type><parameter>control</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>stretchy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall append the control to the form, and set the label
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,25 +27,25 @@
    <varlistentry>
     <term><parameter>label</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The text for the label
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>control</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       A control
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>stretchy</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Should be set true to stretch the control
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -53,9 +53,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Shall return the index of the appended control, may be 0
-  </para>
+  </simpara>
  </refsect1>
 
 

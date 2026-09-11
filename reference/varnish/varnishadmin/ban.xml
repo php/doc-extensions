@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>VarnishAdmin::ban</methodname>
    <methodparam><type>string</type><parameter>vcl_regex</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>vcl_regex</parameter></term>
       <listitem>
-       <para>
+       <simpara>
          Varnish VCL expression. It's based on the varnish ban command.
-       </para>
+       </simpara>
       </listitem>
     </varlistentry>
    </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the varnish command status.   
-  </para>
+  <simpara>
+   Returns the varnish command status.
+  </simpara>
  </refsect1>
 
 

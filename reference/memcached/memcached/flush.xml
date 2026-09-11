@@ -12,7 +12,7 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::flush</methodname>
    <methodparam choice="opt"><type>int</type><parameter>delay</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::flush</function> invalidates all existing cache items
    immediately (by default) or after the <parameter>delay</parameter>
    specified. After invalidation none of the items will be returned in
@@ -20,7 +20,7 @@
    key after <function>Memcached::flush</function> has invalidated the items).
    The flush does not actually free all the memory taken up by the existing
    items; that will happen gradually as new items are stored.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,9 +30,9 @@
     <varlistentry>
      <term><parameter>delay</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Number of seconds to wait before invalidating the items.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -41,10 +41,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

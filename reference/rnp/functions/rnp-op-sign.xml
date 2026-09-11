@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.rnp-op-sign">
+<refentry xml:id="function.rnp-op-sign" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rnp_op_sign</refname>
   <refpurpose>Perform signing operation on a binary data, return embedded signature(s)</refpurpose>
@@ -68,9 +68,9 @@
          <entry><literal>"compression_alg"</literal></entry>
          <entry>string</entry>
          <entry>Compression algorithm. Both
-	   <literal>"compression_alg"</literal> and <literal>"compression_level"</literal>
-	   must be set in order to enable data compression.
-	 </entry>
+    <literal>"compression_alg"</literal> and <literal>"compression_level"</literal>
+    must be set in order to enable data compression.
+  </entry>
         </row>
         <row>
          <entry><literal>"compression_level"</literal></entry>

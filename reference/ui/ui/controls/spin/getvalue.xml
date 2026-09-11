@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Spin::getValue</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Get the value in this Spin
-  </para>
+  </simpara>
 
  </refsect1>
 

@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>level</parameter></methodparam>
    <methodparam><type>string</type><parameter>msg</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Output error messages to the log.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,7 +25,7 @@
    <varlistentry>
     <term><parameter>level</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Log Level, constants can be used: <constant>SWOOLE_LOG_DEBUG</constant>,
       <constant>SWOOLE_LOG_TRACE</constant>,
       <constant>SWOOLE_LOG_INFO</constant>,
@@ -33,15 +33,15 @@
       <constant>SWOOLE_LOG_WARNING</constant>,
       <constant>SWOOLE_LOG_ERROR</constant>,
       <constant>SWOOLE_LOG_NONE</constant>
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>msg</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Message content to be written to the log.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -49,9 +49,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

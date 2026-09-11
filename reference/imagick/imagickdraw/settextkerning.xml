@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>ImagickDraw::setTextKerning</methodname>
    <methodparam><type>float</type><parameter>kerning</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the text kerning
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>kerning</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

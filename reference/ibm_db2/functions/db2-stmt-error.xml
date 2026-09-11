@@ -25,13 +25,13 @@
    example, from <function>db2_prepare</function> or
    <function>db2_exec</function>.
   </simpara>
-  <para>
+  <simpara>
    To learn what the SQLSTATE value means, you can issue the following command
    at a DB2 Command Line Processor prompt:
    <userinput>db2 '? <parameter>sqlstate-value</parameter>'</userinput>. You
    can also call <function>db2_stmt_errormsg</function> to retrieve an
    explicit error message and the associated SQLCODE value.
-  </para>
+  </simpara>
 
  </refsect1>
  <refsect1 role="parameters">

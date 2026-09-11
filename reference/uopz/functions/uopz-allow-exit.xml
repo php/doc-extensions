@@ -13,11 +13,11 @@
    <type>void</type><methodname>uopz_allow_exit</methodname>
    <methodparam><type>bool</type><parameter>allow</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    By default uopz disables the exit opcode, so <function>exit</function> calls
    are practically ignored. <function>uopz_allow_exit</function>
    allows to control this behavior.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>allow</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Whether to allow the execution of exit opcodes or not.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -68,9 +68,9 @@ echo 2;
  <refsect1 role="notes">
   &reftitle.notes;
   <caution>
-   <para>
+   <simpara>
     <link xlink:href="&url.php.manual.book.opcache;">OPcache</link> optimizes away dead code after unconditional exit.
-   </para>
+   </simpara>
   </caution>
  </refsect1>
 

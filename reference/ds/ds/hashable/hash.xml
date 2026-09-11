@@ -13,35 +13,35 @@
    <modifier>abstract</modifier> <modifier>public</modifier> <type>mixed</type><methodname>Ds\Hashable::hash</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns a scalar value to be used as the hash value of the objects.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     While the hash value does not define equality, all objects that are equal according to <function>Ds\Hashable::equals</function>
     must have the same hash value. Hash values of equal objects don't have to be unique, for example
     you could just return &true; for all objects and nothing would break - the only
     implication would be that hash tables then turn into linked lists because all
     your objects will be hashed to the same bucket. It's therefore very important
     that you pick a good hash value, such as an ID or email address.
- </para>
+ </simpara>
 
-  <para>
+  <simpara>
     This method allows objects to be used as keys in structures such as
     <classname>Ds\Map</classname> and <classname>Ds\Set</classname>, or any
     other lookup structure that honors this interface.
-  </para>
+  </simpara>
 
   <caution>
-    <para>
+    <simpara>
         Do not pick a value that might change within the object, such as a public
         property. Hash table lookups would fail because the hash has changed.
-    </para>
+    </simpara>
   </caution>
 
   <caution>
-    <para>
+    <simpara>
         All objects that are equal must have the same hash value.
-    </para>
+    </simpara>
   </caution>
 
  </refsect1>
@@ -53,9 +53,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     A scalar value to be used as this object's hash value.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

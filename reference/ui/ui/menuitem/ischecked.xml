@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\MenuItem::isChecked</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall detect if this Menu Item is checked
-  </para>
+  </simpara>
 
  </refsect1>
 

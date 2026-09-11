@@ -14,20 +14,20 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam><type>string</type><parameter>elementset</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function sets the element set name for retrieval.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Call this function before <function>yaz_search</function> or
    <function>yaz_present</function> to specify the element set name for
    records to be retrieved.
-  </para>
+  </simpara>
   <note>
-   <para>
-    If this function appears to have no effect, see the description of the 
-    <literal>piggybacking</literal> option in 
+   <simpara>
+    If this function appears to have no effect, see the description of the
+    <literal>piggybacking</literal> option in
     <function>yaz_connect</function>.
-   </para>
+   </simpara>
   </note>
  </refsect1>
  <refsect1 role="parameters">
@@ -37,18 +37,18 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>elementset</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Most servers support <literal>F</literal> (for full records) and
        <literal>B</literal> (for brief records).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,9 +56,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

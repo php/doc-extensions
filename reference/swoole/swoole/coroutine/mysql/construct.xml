@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>Swoole\Coroutine\MySQL::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -32,7 +32,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>Ds\Map</type><methodname>Ds\Map::diff</methodname>
    <methodparam><type>Ds\Map</type><parameter>map</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns the result of removing all keys from the current instance that are
     present in a given <parameter>map</parameter>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A \ B = {x ∈ A | x ∉ B}</code>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>map</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The map containing the keys to exclude in the resulting map.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,10 +38,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     The result of removing all keys from the current instance that are
     present in a given <parameter>map</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

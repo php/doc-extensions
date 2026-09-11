@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-list-dbs">
+<refentry xml:id="function.mysql-list-dbs" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_list_dbs</refname>
   <refpurpose>List databases available on a MySQL server</refpurpose>

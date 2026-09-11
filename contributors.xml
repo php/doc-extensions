@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?do-not-translate?>
 
-<section xmlns="http://docbook.org/ns/docbook" annotations="chunk:false" xml:id="contributors">
+<section xml:id="contributors" xmlns="http://docbook.org/ns/docbook" annotations="chunk:false">
  <info><title>&Credit.Authors.and.Contributors;</title></info>
 
  &Credit.Introduction;
@@ -9,7 +9,7 @@
  <section>
   <info><title>&Credit.Authors.and.Editors;</title></info>
 
-  <para>
+  <simpara>
    &Credit.Past.Authors.Text;
    Mehdi Achour,            <!-- didou -->
    Bill Abt,                <!-- pdo howto via ibm -->
@@ -68,9 +68,9 @@
    Jim Winstead,            <!-- jimw and also jim(?) -->
    Jeroen van Wolffelaar&listendand;  <!-- jeroen -->
    Andrei Zmievski.         <!-- andrei -->
-  </para>
+  </simpara>
 
-  <para>
+  <simpara>
    &Credit.Past.Editors.Text;
    Stig Bakken,                    <!-- ssb -->
    Peter Cowburn,                  <!-- salathe -->
@@ -78,22 +78,22 @@
    Hartmut Holzgraefe,             <!-- hholzgra -->
    Philip Olson&listendand;        <!-- philip -->
    Egon Schmid.                    <!-- eschmid -->
-  </para>
+  </simpara>
  </section>
 
  <section>
   <info><title>&Credit.Note.Editors.Title;</title></info>
 
-  <para>
+  <simpara>
    &Credit.Note.Editors.Active;
    Daniel Brown,                <!-- danbrown -->
    Nuno Lopes,                  <!-- nlopess -->
    Felipe Pena,                 <!-- felipe -->
    Thiago Pojda&listendand;     <!-- thiago -->
    Maciek Sokolewicz.           <!-- tularis -->
-  </para>
+  </simpara>
 
-  <para>
+  <simpara>
    &Credit.Note.Editors.Inactive;
    Mehdi Achour,           <!-- didou -->
    Daniel Beckham,         <!-- danbeck -->
@@ -133,7 +133,7 @@
    Jim Winstead,           <!-- jimw -->
    Jared Wyles&listendand; <!-- rioter -->
    Jeroen van Wolffelaar.  <!-- jeroen -->
-  </para>
+  </simpara>
  </section>
 
 </section>

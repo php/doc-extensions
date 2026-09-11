@@ -7,10 +7,10 @@
 
    <section xml:id="pdo-ibm.intro">
     &reftitle.intro;
-    <para>
+    <simpara>
      PDO_IBM is a driver that implements the <link xlink:href="&url.php.manual.intro.pdo;">PHP Data
      Objects (PDO)</link> interface to enable access from PHP to IBM databases.
-    </para>
+    </simpara>
    </section>
 
    <!-- Information found in configure.xml -->
@@ -35,9 +35,9 @@
       <varlistentry>
        <term>DSN prefix</term>
        <listitem>
-        <para>
+        <simpara>
         The DSN prefix is <userinput>ibm:</userinput>.
-        </para>
+        </simpara>
        </listitem>
       </varlistentry>
       <varlistentry>
@@ -47,16 +47,16 @@
          The DSN can be any of the following:
          <itemizedlist>
           <listitem>
-           <para>
+           <simpara>
             a) Data source setup using <filename>db2cli.ini</filename>
             or <filename>odbc.ini</filename>
-           </para>
+           </simpara>
           </listitem>
           <listitem>
-           <para>
+           <simpara>
             b) Catalogued database name i.e. database alias in the DB2 client
             catalog
-           </para>
+           </simpara>
           </listitem>
           <listitem>
            <para>
@@ -67,43 +67,43 @@
               <varlistentry>
                <term><parameter>database</parameter></term>
                <listitem>
-                <para>
+                <simpara>
                  The name of the database.
-                </para>
+                </simpara>
                </listitem>
               </varlistentry>
               <varlistentry>
                <term><parameter>hostname</parameter></term>
                <listitem>
-                <para>
+                <simpara>
                  The hostname or IP address of the database server.
-                </para>
+                </simpara>
                </listitem>
               </varlistentry>
               <varlistentry>
                <term><parameter>port</parameter></term>
                <listitem>
-                <para>
+                <simpara>
                  The TCP/IP port on which the database is listening for
                  requests.
-                </para>
+                </simpara>
                </listitem>
               </varlistentry>
               <varlistentry>
                <term><parameter>username</parameter></term>
                <listitem>
-                <para>
+                <simpara>
                  The username with which you are connecting to the
                  database.
-                </para>
+                </simpara>
                </listitem>
               </varlistentry>
               <varlistentry>
                <term><parameter>password</parameter></term>
                <listitem>
-                <para>
+                <simpara>
                  The password with which you are connecting to the database.
-                </para>
+                </simpara>
                </listitem>
               </varlistentry>
              </variablelist>

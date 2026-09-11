@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>ImagickPixel::setcolorcount</methodname>
    <methodparam><type>int</type><parameter>colorCount</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the color count associated with this color.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>colorCount</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

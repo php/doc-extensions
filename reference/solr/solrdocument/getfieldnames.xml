@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>SolrDocument::getFieldNames</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns an array of fields names in the document.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing the names of the fields in this document.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

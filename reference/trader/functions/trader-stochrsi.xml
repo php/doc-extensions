@@ -17,9 +17,9 @@
    <methodparam choice="opt"><type>int</type><parameter>fastD_Period</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>fastD_MAType</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,41 +28,41 @@
    <varlistentry>
     <term><parameter>real</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>timePeriod</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.time.period;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>fastK_Period</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.fastk.period;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>fastD_Period</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.fastd.period;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>fastD_MAType</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.fastd.ma.type;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -70,7 +70,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns an array with calculated data or false on failure.</para>
+  <simpara>Returns an array with calculated data or false on failure.</simpara>
  </refsect1>
 
 

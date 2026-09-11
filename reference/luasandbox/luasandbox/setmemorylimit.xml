@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="luasandbox.setmemorylimit">
+<refentry xml:id="luasandbox.setmemorylimit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>LuaSandbox::setMemoryLimit</refname>
   <refpurpose>Set the memory limit for the Lua environment</refpurpose>
@@ -16,7 +16,7 @@
    Sets the memory limit for the Lua environment.
   </simpara>
   <simpara>
-   If this limit is exceeded, a <classname>LuaSandboxMemoryError</classname>
+   If this limit is exceeded, a <exceptionname>LuaSandboxMemoryError</exceptionname>
    exception is thrown.
   </simpara>
 

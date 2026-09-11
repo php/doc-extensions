@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-delete-user">
+<refentry xml:id="function.ibase-delete-user" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_delete_user</refname>
   <refpurpose>Delete a user from a security database</refpurpose>

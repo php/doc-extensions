@@ -16,7 +16,7 @@
     <parameter>events</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Enable events
    <constant>Event::READ</constant>,
    <constant>Event::WRITE</constant>,
@@ -25,7 +25,7 @@
    <literal>|</literal>
    <constant>Event::WRITE</constant>
    on a buffer event.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -35,7 +35,7 @@
      <parameter>events</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       <constant>Event::READ</constant>,
       <constant>Event::WRITE</constant>,
       or
@@ -43,16 +43,16 @@
       <literal>|</literal>
       <constant>Event::WRITE</constant>
       on a buffer event.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

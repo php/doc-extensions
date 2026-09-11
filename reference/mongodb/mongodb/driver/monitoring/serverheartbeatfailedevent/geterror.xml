@@ -23,7 +23,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns the <classname>Exception</classname> associated with the failed
+   Returns the <exceptionname>Exception</exceptionname> associated with the failed
    heartbeat.
   </simpara>
  </refsect1>

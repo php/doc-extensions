@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="philosophy.parallel">
+<chapter xml:id="philosophy.parallel" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Philosophy</title>
  <simpara>
   This section contains philosophies important to writing parallel code and some details about the internal implementation of parallel.

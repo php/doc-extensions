@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.rnp-dump-packets">
+<refentry xml:id="function.rnp-dump-packets" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>rnp_dump_packets</refname>
   <refpurpose>Dump OpenPGP packets stream information in humand-readable format</refpurpose>

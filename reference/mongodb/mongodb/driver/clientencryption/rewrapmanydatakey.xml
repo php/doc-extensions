@@ -98,8 +98,8 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.std;
-   <member>Throws <classname>MongoDB\Driver\Exception\EncryptionException</classname> if an error occurs while decrypting or re-encrypting a data key.</member>
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> on other errors.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\EncryptionException</exceptionname> if an error occurs while decrypting or re-encrypting a data key.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> on other errors.</member>
   </simplelist>
  </refsect1>
 

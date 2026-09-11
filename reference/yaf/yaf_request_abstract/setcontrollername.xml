@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>controller</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>format_name</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     set controller name to request, this is usually used by custom router to set route result controller name.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,18 +26,18 @@
    <varlistentry>
     <term><parameter>controller</parameter></term>
     <listitem>
-     <para>
-      &string;, controller name, this should be in camel style, like "Index" or "Foo_Bar" 
-     </para>
+     <simpara>
+      &string;, controller name, this should be in camel style, like "Index" or "Foo_Bar"
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>format_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       this is introduced in Yaf 3.2.0, by default Yaf will format the name into camel mode,
       if this is set to &false; , Yaf will set the original name to request.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

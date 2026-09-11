@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Parle\RParser::dump</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Dump the current grammar to stdout.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

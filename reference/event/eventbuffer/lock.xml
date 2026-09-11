@@ -13,7 +13,7 @@
    <methodname>EventBuffer::lock</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Acquires a lock on buffer. Can be used in pair with
    <methodname>EventBuffer::unlock</methodname>
    to make a set of operations atomic, i.e. thread-safe. Note, it is not
@@ -22,7 +22,7 @@
    operations. When locking is enabled(see
    <methodname>EventBuffer::enableLocking</methodname>
    ), individual operations on event buffers are already atomic.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -30,9 +30,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

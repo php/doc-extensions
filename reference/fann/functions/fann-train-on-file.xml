@@ -17,13 +17,13 @@
    <methodparam><type>int</type><parameter>epochs_between_reports</parameter></methodparam>
    <methodparam><type>float</type><parameter>desired_error</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Trains on an entire dataset, which is read from file, for a period of time.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This training uses the training algorithm chosen by <function>fann_set_training_algorithm</function> and
    the parameters set for these training algorithms.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -39,34 +39,34 @@
    <varlistentry>
     <term><parameter>filename</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The file containing train data
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>max_epochs</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The maximum number of epochs the training should continue
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>epochs_between_reports</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The number of epochs between calling a user function. A value of zero means that user function is not called.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>desired_error</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The desired <function>fann_get_MSE</function> or <function>fann_get_bit_fail</function>, depending on the stop function
       chosen by <function>fann_set_train_stop_function</function>
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

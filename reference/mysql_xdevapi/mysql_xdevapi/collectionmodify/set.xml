@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>collection_field</parameter></methodparam>
    <methodparam><type>string</type><parameter>expression_or_literal</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets or updates attributes on documents in a collection.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>collection_field</parameter></term>
     <listitem>
-     <para>
+     <simpara>
      The document path (name) of the item to set.
-    </para>
+    </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>expression_or_literal</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value to set it to.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionModify object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -65,7 +65,7 @@ $collection = $schema->createCollection("people");
 $result = $collection
   ->add(
   '{"name":   "Bernie",
-    "traits": ["Friend", "Brother", "Human"]}') 
+    "traits": ["Friend", "Brother", "Human"]}')
   ->execute();
 
 $collection

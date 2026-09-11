@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Draw\Brush\Gradient::delStop</methodname>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>index</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Total number of stops
-  </para>
+  </simpara>
  </refsect1>
 
 

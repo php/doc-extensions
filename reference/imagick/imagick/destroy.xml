@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.destroy">
+<refentry xml:id="imagick.destroy" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::destroy</refname>
   <refpurpose>Destroys the Imagick object</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::destroy</methodname>
    <void/>
   </methodsynopsis>
-  <para>
-   Destroys the Imagick object and frees all resources associated with it. 
+  <simpara>
+   Destroys the Imagick object and frees all resources associated with it.
    This method is deprecated in favour of <link linkend="imagick.clear">Imagick::clear</link>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

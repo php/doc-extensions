@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.paintfloodfillimage">
+<refentry xml:id="imagick.paintfloodfillimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::paintFloodfillImage</refname>
   <refpurpose>Changes the color value of any pixel that matches target</refpurpose>
@@ -22,11 +22,11 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Changes the color value of any pixel that matches target and is an
    immediate neighbor. As of ImageMagick 6.3.8 this method has been deprecated
    and <function>Imagick::floodfillPaintImage</function> should be used instead.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,51 +36,51 @@
     <varlistentry>
      <term><parameter>fill</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel object or a string containing the fill color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The amount of fuzz. For example, set fuzz to 10 and the color red at
        intensities of 100 and 102 respectively are now interpreted as the
        same color for the purposes of the floodfill.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bordercolor</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ImagickPixel object or a string containing the border color
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        X start position of the floodfill
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Y start position of the floodfill
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -89,9 +89,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

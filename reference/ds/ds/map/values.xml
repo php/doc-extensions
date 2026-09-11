@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Ds\Sequence</type><methodname>Ds\Map::values</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns a sequence containing all the values of the map, in the same order.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     A <classname>Ds\Sequence</classname> containing all the values of the map.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

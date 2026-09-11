@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.newpixeliterator">
+<refentry xml:id="imagickpixeliterator.newpixeliterator" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixelIterator::newPixelIterator</refname>
   <refpurpose>Returns a new pixel iterator</refpurpose>
@@ -13,16 +13,16 @@
    <methodparam><type>Imagick</type><parameter>wand</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Returns a new pixel iterator.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success; Throwing ImagickPixelIteratorException.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

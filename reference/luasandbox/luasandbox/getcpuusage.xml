@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="luasandbox.getcpuusage">
+<refentry xml:id="luasandbox.getcpuusage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>LuaSandbox::getCPUUsage</refname>
   <refpurpose>Fetch the current CPU time usage of the Lua environment</refpurpose>

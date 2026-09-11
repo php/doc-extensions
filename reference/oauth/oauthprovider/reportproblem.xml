@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="oauthprovider.reportproblem">
+<refentry xml:id="oauthprovider.reportproblem" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>OAuthProvider::reportProblem</refname>
   <refpurpose>Report a problem</refpurpose>
@@ -14,7 +14,7 @@
    <methodparam choice="opt"><type>bool</type><parameter>send_headers</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <simpara>
-   Pass in a problem as an <classname>OAuthException</classname>, with possible problems listed
+   Pass in a problem as an <exceptionname>OAuthException</exceptionname>, with possible problems listed
    in the <link linkend="oauth.constants">OAuth constants</link> section.
   </simpara>
 
@@ -29,7 +29,7 @@
     <term><parameter>oauthexception</parameter></term>
     <listitem>
      <simpara>
-      The <classname>OAuthException</classname>.
+      The <exceptionname>OAuthException</exceptionname>.
      </simpara>
     </listitem>
    </varlistentry>

@@ -13,9 +13,9 @@
    <methodname>EventHttpRequest::clearHeaders</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Removes all output headers from the header list of the request.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,9 +23,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

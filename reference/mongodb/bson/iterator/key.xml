@@ -33,7 +33,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\LogicException</classname> if the iterator is not valid.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\LogicException</exceptionname> if the iterator is not valid.</member>
   </simplelist>
  </refsect1>
 

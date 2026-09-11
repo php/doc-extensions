@@ -8,16 +8,16 @@
 
  <preface xml:id="intro.uopz">
   &reftitle.intro;
-  <para>
+  <simpara>
    The uopz - User Operations for Zend -
    extension exposes Zend Engine functionality normally
    used at compilation and execution time in order to
    allow modification of the internal structures that represent PHP code,
    and for user code to interact with the VM.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    uopz supports the following activities:
-  </para>
+  </simpara>
   <simplelist>
    <member>Overloading some opcodes including ZEND_EXIT and ZEND_NEW</member>
    <member>Backup and restore functions and methods</member>
@@ -29,9 +29,9 @@
    <member>Runtime composition and modification of classes</member>
   </simplelist>
   <note>
-   <para>
+   <simpara>
     All of the activities supported are compatible with opcache
-   </para>
+   </simpara>
   </note>
   <caution>
    <simpara>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrQuery::getGroupTruncate</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns the group.truncate value
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

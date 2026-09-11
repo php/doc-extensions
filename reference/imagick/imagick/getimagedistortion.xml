@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagedistortion">
+<refentry xml:id="imagick.getimagedistortion" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageDistortion</refname>
   <refpurpose>Compares an image to a reconstructed image</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>MagickWand</type><parameter>reference</parameter></methodparam>
    <methodparam><type>int</type><parameter>metric</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Compares an image to a reconstructed image and returns the specified distortion
    metric.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
     <varlistentry>
      <term><parameter>reference</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       Imagick object to compare to.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>metric</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       One of the <link linkend="imagick.constants.metric">metric type constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,17 +45,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the distortion metric used on the image (or the best guess
    thereof).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -6,15 +6,15 @@
 
  <section xml:id="memcached.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    This extension requires <link
     xlink:href="&url.libmemcached;">libmemcached</link> client library
    (version 1.0.0 or greater). For SASL authentication support, libmemcached
    must be built with SASL enabled.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Since version 0.2.0, this extension requires PHP version 5.2.0 or higher.
-  </para>
+  </simpara>
  </section>
 
  <!-- {{{ Installation -->

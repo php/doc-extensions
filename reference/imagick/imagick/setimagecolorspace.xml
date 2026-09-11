@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagecolorspace">
+<refentry xml:id="imagick.setimagecolorspace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageColorspace</refname>
   <refpurpose>Sets the image colorspace</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setImageColorspace</methodname>
    <methodparam><type>int</type><parameter>colorspace</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image colorspace. This method should be used when creating new images. To change the colorspace of an existing image, you should use <methodname>Imagick::transformImageColorspace</methodname>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>colorspace</parameter></term>
      <listitem>
-      <para>
+      <simpara>
         One of the <link linkend="imagick.constants.colorspace">COLORSPACE constants</link>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,16 +35,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

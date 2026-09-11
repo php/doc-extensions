@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="imagick.clone">
+<refentry xml:id="imagick.clone" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Imagick::clone</refname>
   <refpurpose>Makes an exact copy of the Imagick object</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::clone</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes an exact copy of the Imagick object.
-  </para>
+  </simpara>
   <warning>
    <simpara>
     This function has been <emphasis>DEPRECATED</emphasis> as of imagick 3.1.0
@@ -31,9 +31,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A copy of the Imagick object is returned.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

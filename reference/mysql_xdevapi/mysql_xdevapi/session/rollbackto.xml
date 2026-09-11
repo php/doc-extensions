@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>mysql_xdevapi\Session::rollbackTo</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Rollback the transaction back to the savepoint.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of the savepoint to rollback to; case-insensitive.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An SqlStatementResult object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -19,11 +19,11 @@
    <methodparam><type>object</type><parameter>instance</parameter></methodparam>
    <methodparam><type>string</type><parameter>property</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the value of a static class property, if <parameter>class</parameter>
    is given, or the value of an instance property, if <parameter>instance</parameter>
    is given.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,25 +32,25 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>instance</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The object instance.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>property</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the property.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -58,10 +58,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the value of the class or instance property, or &null; if the property
    is not defined.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

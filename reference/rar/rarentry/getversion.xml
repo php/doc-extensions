@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="rarentry.getversion">
+<refentry xml:id="rarentry.getversion" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>RarEntry::getVersion</refname>
   <refpurpose>Get minimum version of RAR program required to unpack the entry</refpurpose>

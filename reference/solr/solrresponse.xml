@@ -11,9 +11,9 @@
 <!-- {{{ SolrResponse intro -->
   <section xml:id="solrresponse.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents a response from the Solr server.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -98,7 +98,7 @@
      <varname linkend="solrresponse.props.http-digested-response">http_digested_response</varname>
     </fieldsynopsis>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrresponse')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
    </classsynopsis>
@@ -106,7 +106,7 @@
 
   </section>
 
-  
+
 <!-- {{{ SolrResponse properties -->
   <section xml:id="solrresponse.props">
    &reftitle.properties;
@@ -114,68 +114,68 @@
     <varlistentry xml:id="solrresponse.props.http-status">
      <term><varname>http_status</varname></term>
      <listitem>
-      <para>The http status of the response.</para>
+      <simpara>The http status of the response.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.parser-mode">
      <term><varname>parser_mode</varname></term>
      <listitem>
-      <para>Whether to parse the solr documents as SolrObject or SolrDocument instances.</para>
+      <simpara>Whether to parse the solr documents as SolrObject or SolrDocument instances.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.success">
      <term><varname>success</varname></term>
      <listitem>
-      <para>Was there an error during the request</para>
+      <simpara>Was there an error during the request</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-status-message">
      <term><varname>http_status_message</varname></term>
      <listitem>
-      <para>Detailed message on http status</para>
+      <simpara>Detailed message on http status</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-request-url">
      <term><varname>http_request_url</varname></term>
      <listitem>
-      <para>The request URL</para>
+      <simpara>The request URL</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-raw-request-headers">
      <term><varname>http_raw_request_headers</varname></term>
      <listitem>
-      <para>A string of raw headers sent during the request.</para>
+      <simpara>A string of raw headers sent during the request.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-raw-request">
      <term><varname>http_raw_request</varname></term>
      <listitem>
-      <para>The raw request sent to the server</para>
+      <simpara>The raw request sent to the server</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-raw-response-headers">
      <term><varname>http_raw_response_headers</varname></term>
      <listitem>
-      <para>Response headers from the Solr server.</para>
+      <simpara>Response headers from the Solr server.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-raw-response">
      <term><varname>http_raw_response</varname></term>
      <listitem>
-      <para>The response message from the server.</para>
+      <simpara>The response message from the server.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="solrresponse.props.http-digested-response">
      <term><varname>http_digested_response</varname></term>
      <listitem>
-      <para>The response in PHP serialized format.</para>
+      <simpara>The response in PHP serialized format.</simpara>
      </listitem>
     </varlistentry>
    </variablelist>
   </section>
 <!-- }}} -->
 
-  
+
 <!-- {{{ SolrResponse constants -->
   <section xml:id="solrresponse.constants">
    &reftitle.constants;
@@ -186,14 +186,14 @@
      <varlistentry xml:id="solrresponse.constants.parse-solr-obj">
       <term><constant>SolrResponse::PARSE_SOLR_OBJ</constant></term>
       <listitem>
-       <para>Documents should be parsed as SolrObject instances</para>
+       <simpara>Documents should be parsed as SolrObject instances</simpara>
       </listitem>
      </varlistentry>
 
      <varlistentry xml:id="solrresponse.constants.parse-solr-doc">
       <term><constant>SolrResponse::PARSE_SOLR_DOC</constant></term>
       <listitem>
-       <para>Documents should be parsed as SolrDocument instances.</para>
+       <simpara>Documents should be parsed as SolrDocument instances.</simpara>
       </listitem>
      </varlistentry>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-connect">
+<refentry xml:id="function.fbird-connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_connect</refname>
   <refpurpose>&Alias; <function>ibase_connect</function></refpurpose>

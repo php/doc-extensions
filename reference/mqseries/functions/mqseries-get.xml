@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mqseries-get">
+<refentry xml:id="function.mqseries-get" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mqseries_get</refname>
   <refpurpose>MQSeries MQGET</refpurpose>

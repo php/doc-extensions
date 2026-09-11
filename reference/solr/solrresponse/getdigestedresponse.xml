@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>SolrResponse::getDigestedResponse</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the XML response as serialized PHP data
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the XML response as serialized PHP data
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

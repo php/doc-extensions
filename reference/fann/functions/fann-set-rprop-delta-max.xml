@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>rprop_delta_max</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The maximum step-size is a positive number determining how large the maximum step-size may be.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>rprop_delta_max</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The maximum step-size.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

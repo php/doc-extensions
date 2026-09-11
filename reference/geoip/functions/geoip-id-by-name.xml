@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.geoip-id-by-name">
+<refentry xml:id="function.geoip-id-by-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>geoip_id_by_name</refname>
   <refpurpose>Get the Internet connection type</refpurpose>

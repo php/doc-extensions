@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>bool</type><methodname>Swoole\Coroutine\Lock::lock</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    When executing the lock operation, if the lock is already held by another coroutine,
    the current coroutine will actively yield CPU control and enter a suspended state.
    When the coroutine holding the lock calls unlock(), the waiting coroutine will be
    awakened and try to acquire the lock again.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

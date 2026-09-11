@@ -13,12 +13,12 @@
    <type>bool</type><methodname>fann_reset_MSE</methodname>
    <methodparam><type>string</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Resets the mean square error from the network.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This function also resets the number of bits that fail.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

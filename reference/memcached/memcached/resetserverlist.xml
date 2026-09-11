@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::resetServerList</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::resetserverlist</function> removes all memcache
    servers from the known server list, resetting it back to empty.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

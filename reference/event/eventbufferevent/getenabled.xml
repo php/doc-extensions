@@ -13,9 +13,9 @@
    <methodname>EventBufferEvent::getEnabled</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns bitmask of events currently enabled on the buffer event
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -23,10 +23,10 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns integer representing a bitmask of events currently enabled on the
    buffer event
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

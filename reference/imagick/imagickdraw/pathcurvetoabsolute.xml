@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathcurvetoabsolute">
+<refentry xml:id="imagickdraw.pathcurvetoabsolute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathCurveToAbsolute</refname>
   <refpurpose>Draws a cubic Bezier curve</refpurpose>
@@ -18,13 +18,13 @@
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a cubic Bezier curve from the current point to (x,y) using (x1,y1)
    as the control point at the beginning of the curve and (x2,y2) as the
    control point at the end of the curve using absolute coordinates. At the
    end of the command, the new current point becomes the final (x,y)
    coordinate pair used in the polybezier.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,49 +34,49 @@
     <varlistentry>
      <term><parameter>x1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the first control point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the first control point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x2</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the second control point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y2</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the first control point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the curve end
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the curve end
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -85,9 +85,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

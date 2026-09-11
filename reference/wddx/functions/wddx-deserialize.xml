@@ -5,7 +5,7 @@
   <refname>wddx_deserialize</refname>
   <refpurpose>Unserializes a WDDX packet</refpurpose>
  </refnamediv>
- 
+
  <refsynopsisdiv>
   &warn.removed.function-7-4-0;
  </refsynopsisdiv>
@@ -16,18 +16,18 @@
    <type>mixed</type><methodname>wddx_deserialize</methodname>
    <methodparam><type>string</type><parameter>packet</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Unserializes a WDDX <parameter>packet</parameter>.
-  </para>
+  </simpara>
   <warning>
-   <para>
+   <simpara>
     Do not pass untrusted user input to <function>wddx_deserialize</function>.
     Unserialization can result in code being loaded and executed due to object
     instantiation and autoloading, and a malicious user may be able to exploit
     this. Use a safe, standard data interchange format such as JSON (via
     <function>json_decode</function> and <function>json_encode</function>) if
     you need to pass serialized data to the user.
-   </para>
+   </simpara>
   </warning>
  </refsect1>
 
@@ -38,9 +38,9 @@
     <varlistentry>
      <term><parameter>packet</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        A WDDX packet, as a string or stream.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -49,10 +49,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the deserialized value which can be a string, a number or an
    array. Note that structures are deserialized into associative arrays.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -14,9 +14,9 @@
    <methodparam><type>float</type><parameter>width</parameter></methodparam>
    <methodparam><type>float</type><parameter>height</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Construct a new Size using new width and height
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>width</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new width
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>height</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The new height
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -48,7 +48,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

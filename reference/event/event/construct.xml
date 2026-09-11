@@ -33,9 +33,9 @@
     <initializer>NULL</initializer>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Constructs Event object.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -45,9 +45,9 @@
      <parameter>base</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The event base to associate with.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -55,13 +55,13 @@
      <parameter>fd</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       stream resource, socket resource, or numeric file descriptor. For timer
       events pass
       <constant>-1</constant>.
       For signal events pass the signal number, e.g.
       <constant>SIGHUP</constant>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -69,10 +69,10 @@
      <parameter>what</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Event flags. See
       <link linkend="event.flags">Event flags</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -80,10 +80,10 @@
      <parameter>cb</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The event callback. See
       <link linkend="event.callbacks">Event callbacks</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -91,10 +91,10 @@
      <parameter>arg</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Custom data. If specified, it will be passed to the callback when event
       triggers.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

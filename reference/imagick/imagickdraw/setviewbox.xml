@@ -16,13 +16,13 @@
    <methodparam><type>int</type><parameter>bottom_y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the overall canvas size to be recorded with the drawing vector data.
    Usually this will be specified using the same size as the canvas image.
    When the vector data is saved to SVG or MVG formats, the viewbox is use to
    specify the size of the canvas image that a viewer will render the vector
    data on.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,33 +32,33 @@
     <varlistentry>
      <term><parameter>left_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        left x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>top_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        left y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>right_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        right x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bottom_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        right y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -67,9 +67,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -90,9 +90,9 @@ function setViewBox($strokeColor, $fillColor, $backgroundColor) {
     $draw->setFontSize(72);
 
     /*
-     
+
     Sets the overall canvas size to be recorded with the drawing vector data. Usually this will be specified using the same size as the canvas image. When the vector data is saved to SVG or MVG formats, the viewbox is use to specify the size of the canvas image that a viewer will render the vector data on.
-    
+
      */
 
     $draw->circle(250, 250, 250, 0);

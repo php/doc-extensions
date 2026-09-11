@@ -11,9 +11,9 @@
 <!-- {{{ Vtiful\Kernel\Excel intro -->
   <section xml:id="vtiful-kernel-excel.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Create xlsx files and set cells and output xlsx files
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 

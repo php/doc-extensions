@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
- 
+
 <book xml:id="book.swoole" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="pecl" ?>
  <title>Swoole</title>
  <titleabbrev>Swoole</titleabbrev>
- 
+
  <!-- {{{ preface -->
  <preface xml:id="intro.swoole">
   &reftitle.intro;
-  <para>
+  <simpara>
    Swoole is a parallel network communication engine based on asynchronous event-driven and coroutine,
    written in C++, providing coroutine and high-performance network programming support for PHP.
    It provides various network server and client modules for multiple communication protocols, making it easy to
@@ -18,11 +18,11 @@
 
    To get started, please check the <link
     xlink:href="&url.swoole.docs;">Swoole Docs</link>.
-  </para>
+  </simpara>
   &note.no-windows.extension;
  </preface>
  <!-- }}} -->
- 
+
  &reference.swoole.setup;
  &reference.swoole.constants;
  &reference.swoole.reference;

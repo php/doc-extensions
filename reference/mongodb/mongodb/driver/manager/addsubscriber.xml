@@ -54,7 +54,7 @@
    &mongodb.throws.argumentparsing;
    <member>
     Throws
-    <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if
+    <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if
     <parameter>subscriber</parameter> is a
     <classname>MongoDB\Driver\Monitoring\LogSubscriber</classname>, since
     loggers can only be registered globally.

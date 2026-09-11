@@ -13,13 +13,13 @@
    <type>int</type><methodname>fann_get_cascade_num_candidates</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The number of candidates used during training (calculated by multiplying
    <function>fann_get_cascade_activation_functions_count</function>,
    <function>fann_get_cascade_activation_steepnesses_count</function> and
    <function>fann_get_cascade_num_candidate_groups</function>).
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The actual candidates is defined by the <function>fann_get_cascade_activation_functions</function> and
    <function>fann_get_cascade_activation_steepnesses</function> arrays. These arrays define the activation functions and
    activation steepnesses used for the candidate neurons. If there are 2 activation functions in the activation function array and
@@ -27,10 +27,10 @@
    candidates can be copied into several candidate groups, where the only difference between these groups is the initial weights.
    If the number of groups is set to 2, then the number of candidate neurons will be 2x3x2=12.
    The number of candidate groups is defined by <function>fann_set_cascade_num_candidate_groups</function>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default number of candidates is 6x4x2 = 48
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The number of candidates used during training, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

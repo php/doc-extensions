@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::addFacetQuery</methodname>
    <methodparam><type>string</type><parameter>facetQuery</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds a facet query
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>facetQuery</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The facet query
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -91,7 +91,7 @@ SolrObject Object
    </example>
   </para>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

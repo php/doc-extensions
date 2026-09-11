@@ -15,11 +15,11 @@
    <methodparam choice="opt"><type>string</type><parameter>persistent_id</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>callable</type><parameter>on_new_socket</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   Shortcut for creating new sockets from the context. If the context is not persistent the <parameter>persistent_id</parameter> 
+  <simpara>
+   Shortcut for creating new sockets from the context. If the context is not persistent the <parameter>persistent_id</parameter>
    parameter is ignored and the socket falls back to being non-persistent. The <parameter>on_new_socket</parameter> is called only
    when a new underlying socket structure is created.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,26 +29,26 @@
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        <constant>ZMQ::SOCKET_<replaceable>*</replaceable></constant> constant to specify socket type.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>persistent_id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If <parameter>persistent_id</parameter> is specified the socket will be persisted over multiple requests.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>on_new_socket</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Callback function, which is executed when a new socket structure is created. This function does not get invoked
        if the underlying persistent connection is re-used. The callback takes ZMQSocket and persistent_id as two arguments.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -57,16 +57,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <classname>ZMQSocket</classname> object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>ZMQSocketException</classname> on error.
-  </para>
+  <simpara>
+   Throws <exceptionname>ZMQSocketException</exceptionname> on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -74,9 +74,9 @@
   <para>
    <example>
     <title>A <function>ZMQContext</function> example</title>
-    <para>
+    <simpara>
      Basic usage
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -18,9 +18,9 @@
    <type>array</type><methodname>uopz_get_static</methodname>
    <methodparam><type>string</type><parameter>function</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the static variables from function or method scope.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,17 +29,17 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the function or method.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -47,10 +47,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an associative <type>array</type> of variable names mapped to their
    current values on success, or &null; if the function or method does not exist.
-  </para>
+  </simpara>
   <simpara>
    As of PHP 8.3.0, static initializers are either computed during compile time,
    or if that is not possible, only when the function or method is run the first

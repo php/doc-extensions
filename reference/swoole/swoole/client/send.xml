@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>data</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>flag</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>data</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The data to send which can be string or binary
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>flag</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,12 +44,12 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   If the client sends data successfully, it returns the length of data sent. 
-   Or it returns false and sets $swoole_client->errCode. For sync client, 
-   there is no limit for the data to send. For async client, The limit 
-   for the data to send is socket_buffer_size. 
-  </para>
+  <simpara>
+   If the client sends data successfully, it returns the length of data sent.
+   Or it returns false and sets $swoole_client->errCode. For sync client,
+   there is no limit for the data to send. For async client, The limit
+   for the data to send is socket_buffer_size.
+  </simpara>
  </refsect1>
 
 

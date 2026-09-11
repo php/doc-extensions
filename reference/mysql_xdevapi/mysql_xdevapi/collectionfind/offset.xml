@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\CollectionFind::offset</methodname>
    <methodparam><type>int</type><parameter>position</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Skip (offset) these number of elements that otherwise would be returned
    by the find operation. Use with the limit() method.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Defining an offset larger than the result set size results in an empty set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>position</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Number of elements to skip for the limit() operation.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionFind object that can be used for additional processing.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

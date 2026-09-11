@@ -12,9 +12,9 @@
    <methodparam><type>array</type><parameter>a</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>sample</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the variance of the values in <parameter>a</parameter>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the variance on success; &false; on failure.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

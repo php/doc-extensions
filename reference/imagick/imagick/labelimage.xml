@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.labelimage">
+<refentry xml:id="imagick.labelimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::labelImage</refname>
   <refpurpose>Adds a label to an image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::labelImage</methodname>
    <methodparam><type>string</type><parameter>label</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds a label to an image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>label</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The label to add
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

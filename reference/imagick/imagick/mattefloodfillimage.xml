@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.mattefloodfillimage">
+<refentry xml:id="imagick.mattefloodfillimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::matteFloodfillImage</refname>
   <refpurpose>Changes the transparency value of a color</refpurpose>
@@ -20,13 +20,13 @@
    <methodparam><type>int</type><parameter>x</parameter></methodparam>
    <methodparam><type>int</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Changes the transparency value of any pixel that matches
    target and is an immediate neighbor.  If the method
    <constant>FillToBorderMethod</constant> is specified, the transparency value
    is changed for any neighbor pixel that does not match
    the bordercolor member of image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,43 +36,43 @@
     <varlistentry>
      <term><parameter>alpha</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The level of transparency: 1.0 is fully opaque and 0.0 is fully
        transparent.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fuzz</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The fuzz member of image defines how much tolerance is acceptable to
        consider two colors as the same.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bordercolor</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       An <classname>ImagickPixel</classname> object or string representing the border color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The starting x coordinate of the operation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The starting y coordinate of the operation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -81,16 +81,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

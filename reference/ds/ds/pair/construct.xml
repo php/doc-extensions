@@ -14,9 +14,9 @@
    <methodparam choice="opt"><type>mixed</type><parameter>key</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>value</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
     Creates a new instance using a given <parameter>key</parameter> and <parameter>value</parameter>.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>key</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The key.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The value.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

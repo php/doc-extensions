@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Parle\Parser::nonassoc</methodname>
    <methodparam><type>string</type><parameter>tok</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Declare a terminal, that cannot appear more than once in the row.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>tok</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Token name.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.igbinary-unserialize">
+<refentry xml:id="function.igbinary-unserialize" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>igbinary_unserialize</refname>
   <refpurpose>
@@ -91,7 +91,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Objects may throw <classname>Throwable</classname>s in their unserialization handlers.
+   Objects may throw <exceptionname>Throwable</exceptionname>s in their unserialization handlers.
   </simpara>
  </refsect1>
 

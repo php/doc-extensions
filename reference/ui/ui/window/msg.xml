@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>title</parameter></methodparam>
    <methodparam><type>string</type><parameter>msg</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall show a message box
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>title</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The title of the message box
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>msg</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The message
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

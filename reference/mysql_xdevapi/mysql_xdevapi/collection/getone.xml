@@ -13,13 +13,13 @@
    <modifier>public</modifier> <type>Document</type><methodname>mysql_xdevapi\Collection::getOne</methodname>
    <methodparam><type>string</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Fetches one document from the collection.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This is a shortcut for:
    <code>Collection.find("_id = :id").bind("id", id).execute().fetchOne();</code>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,9 +28,9 @@
    <varlistentry>
     <term><parameter>id</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The document _id in the collection.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The collection object, or &null; if the _id does not match a document.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

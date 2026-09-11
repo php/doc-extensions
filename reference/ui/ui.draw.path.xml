@@ -11,9 +11,9 @@
 <!-- {{{ UI\Draw\Path intro -->
   <section xml:id="ui-draw-path.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Draw Path guides a Draw Pen, telling the Pen where to draw on an Area.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -61,18 +61,18 @@
     <varlistentry xml:id="ui-draw-path.constants.winding">
      <term><constant>UI\Draw\Path::Winding</constant></term>
      <listitem>
-      <para>
+      <simpara>
        This is the default draw path mode
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-draw-path.constants.alternate">
      <term><constant>UI\Draw\Path::Alternate</constant></term>
      <listitem>
-      <para>
+      <simpara>
        This is the alternate draw path mode
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
 

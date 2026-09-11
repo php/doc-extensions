@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.cubrid-insert-id">
+<refentry xml:id="function.cubrid-insert-id" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>cubrid_insert_id</refname>
   <refpurpose>Return the ID generated for the last updated <constant>AUTO_INCREMENT</constant> column</refpurpose>

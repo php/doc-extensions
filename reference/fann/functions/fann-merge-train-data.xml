@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>data1</parameter></methodparam>
    <methodparam><type>resource</type><parameter>data2</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Merges the data from data1 and data2 into a new train data <type>resource</type>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    New merged train data <type>resource</type>, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

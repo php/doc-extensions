@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="rrdupdater.update">
+<refentry xml:id="rrdupdater.update" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>RRDUpdater::update</refname>
   <refpurpose>Update the RRD database file</refpurpose>
@@ -54,7 +54,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   Throws a <classname>Exception</classname> on error.
+   Throws a <exceptionname>Exception</exceptionname> on error.
   </simpara>
  </refsect1>
 

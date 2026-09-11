@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getMltMaxNumQueryTerms</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the maximum number of query terms that will be included in any generated query
-  </para>
-  
+  </simpara>
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

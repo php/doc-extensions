@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>database</parameter></methodparam>
    <methodparam><type>int</type><parameter>number</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets a record from a dBase database as an associative array.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -25,19 +25,19 @@
     <varlistentry>
      <term><parameter>database</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The database resource, returned by <function>dbase_open</function>
        or <function>dbase_create</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>number</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The index of the record between <literal>1</literal> and
        <literal>dbase_numrecords($dbase_identifier)</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,17 +45,17 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An associative array with the record. This will also include a key named
    <literal>deleted</literal> which is set to 1 if the record has been marked
    for deletion (see <function>dbase_delete_record</function>).
    Therefore it is not possible to retrieve the value of a field named
    <literal>deleted</literal> with this function.
-  </para>
+  </simpara>
   &dbase.type-conversion;
-  <para>
+  <simpara>
    On error, <function>dbase_get_record_with_names</function> will return &false;.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setfirstiterator">
+<refentry xml:id="imagick.setfirstiterator" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setFirstIterator</refname>
   <refpurpose>Sets the Imagick iterator to the first image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setFirstIterator</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the Imagick iterator to the first image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

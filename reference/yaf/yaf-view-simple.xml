@@ -11,11 +11,11 @@
 <!-- {{{ Yaf_View_Simple intro -->
   <section xml:id="yaf-view-simple.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
      <classname>Yaf_View_Simple</classname> is the built-in template engine in
      Yaf, it is a simple but fast template engine, and only support PHP script
      template.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -31,7 +31,7 @@
      <ooclass>
       <classname>Yaf_View_Simple</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>Yaf_View_Interface</interfacename>
      </oointerface>
@@ -47,7 +47,7 @@
      <varname linkend="yaf-view-simple.props.tpl-dir">_tpl_dir</varname>
     </fieldsynopsis>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-view-simple')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.yaf-view-simple')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
@@ -56,7 +56,7 @@
 
   </section>
 
-  
+
 <!-- {{{ Yaf_View_Simple properties -->
   <section xml:id="yaf-view-simple.props">
    &reftitle.properties;
@@ -64,13 +64,13 @@
     <varlistentry xml:id="yaf-view-simple.props.tpl-vars">
      <term><varname>_tpl_vars</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="yaf-view-simple.props.tpl-dir">
      <term><varname>_tpl_dir</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

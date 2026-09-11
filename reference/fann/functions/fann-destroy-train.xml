@@ -13,9 +13,9 @@
    <type>bool</type><methodname>fann_destroy_train</methodname>
    <methodparam><type>resource</type><parameter>train_data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Destructs the training data
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

@@ -13,10 +13,10 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\CollectionRemove::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Removes collection documents and is instantiated by the
    <methodname>mysql_xdevapi\Collection::remove</methodname> method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

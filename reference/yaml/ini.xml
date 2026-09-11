@@ -68,9 +68,9 @@
           <type>bool</type>
         </term>
         <listitem>
-          <para>
+          <simpara>
             Off by default, but can be set to on to cause base64 binary encoded entities which have the explicit tag "tag:yaml.org,2002:binary" to be decoded.
-          </para>
+          </simpara>
         </listitem>
       </varlistentry>
       <varlistentry xml:id="ini.yaml.decode-php">
@@ -79,9 +79,9 @@
           <type>bool</type>
         </term>
         <listitem>
-          <para>
+          <simpara>
             Off by default, but can be set to on to cause serialized php objects which have the explicit tag "!php/object" to be unserialized.
-          </para>
+          </simpara>
         </listitem>
       </varlistentry>
       <varlistentry xml:id="ini.yaml.decode-timestamp">
@@ -90,9 +90,9 @@
           <type>int</type>
         </term>
         <listitem>
-          <para>
+          <simpara>
             Controls the decoding of both implicit and explicit "tag:yaml.org,2002:timestamp" scalars in the YAML document stream. The default setting of <literal>0</literal> will not apply any decoding. A setting of <literal>1</literal> will use <function>strtotime</function> to parse the timestamp value as a Unix timestamp. A setting of <literal>2</literal> will use <function>date_create</function> to parse the timestamp value as <type>DateTime</type> object.
-          </para>
+          </simpara>
         </listitem>
       </varlistentry>
       <varlistentry xml:id="ini.yaml.output-canonical">
@@ -101,9 +101,9 @@
           <type>bool</type>
         </term>
         <listitem>
-          <para>
+          <simpara>
             Off by default, but can be set to on to cause canonical form output.
-          </para>
+          </simpara>
         </listitem>
       </varlistentry>
       <varlistentry xml:id="ini.yaml.output-indent">
@@ -112,10 +112,10 @@
           <type>int</type>
         </term>
         <listitem>
-          <para>
+          <simpara>
             Number of spaces to indent sections. Value should be between
             <literal>1</literal> and <literal>10</literal>.
-          </para>
+          </simpara>
         </listitem>
       </varlistentry>
       <varlistentry xml:id="ini.yaml.output-width">
@@ -124,9 +124,9 @@
           <type>int</type>
         </term>
         <listitem>
-          <para>
+          <simpara>
             Set the preferred line width. <literal>-1</literal> means unlimited.
-          </para>
+          </simpara>
         </listitem>
       </varlistentry>
     </variablelist>

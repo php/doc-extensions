@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Slider intro -->
   <section xml:id="ui-controls-slider.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Slider is a control which represents a range, and a current value in the range. The sliding element of the control (sometimes called the "thumb") reflects the value, and can be adjusted within the range.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,7 +29,7 @@
      <ooclass>
       <classname>UI\Controls\Slider</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>UI\Control</classname>
@@ -38,11 +38,11 @@
 <!-- }}} -->
 
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
-    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-slider')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />    
+    <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-slider')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
 
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-slider')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-control')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
 

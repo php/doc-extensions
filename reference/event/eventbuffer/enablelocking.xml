@@ -13,13 +13,13 @@
    <methodname>EventBuffer::enableLocking</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Enable locking on an
    <classname>EventBuffer</classname>
    so that it can safely be used by multiple threads at the same time. When
    locking is enabled, the lock will be held when callbacks are invoked. This
    could result in deadlock if you aren't careful. Plan accordingly!
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -27,9 +27,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

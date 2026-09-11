@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.cubrid-lob2-bind">
+<refentry xml:id="function.cubrid-lob2-bind" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>cubrid_lob2_bind</refname>
   <refpurpose>Bind a lob object or a string as a lob object to a prepared statement as parameters</refpurpose>

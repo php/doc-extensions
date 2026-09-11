@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathcurvetoquadraticbezierabsolute">
+<refentry xml:id="imagickdraw.pathcurvetoquadraticbezierabsolute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathCurveToQuadraticBezierAbsolute</refname>
   <refpurpose>Draws a quadratic Bezier curve</refpurpose>
@@ -16,12 +16,12 @@
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a quadratic Bezier curve from the current point to (x,y) using
    (x1,y1) as the control point using absolute coordinates. At the end of the
    command, the new current point becomes the final (x,y) coordinate pair
    used in the polybezier.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,33 +31,33 @@
     <varlistentry>
      <term><parameter>x1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the control point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y1</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the  control point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>x_end</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        x coordinate of the end point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        y coordinate of the end point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -66,9 +66,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -96,7 +96,7 @@ function pathCurveToQuadraticBezierAbsolute($strokeColor, $fillColor, $backgroun
     // This specifies a quadratic bezier curve with the current position as the start
     // point, the control point is the first two params, and the end point is the last two params.
     $draw->pathCurveToQuadraticBezierAbsolute(
-        150,50, 
+        150,50,
         250,250
     );
 

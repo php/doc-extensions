@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokelinecap">
+<refentry xml:id="imagickdraw.setstrokelinecap" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setStrokeLineCap</refname>
   <refpurpose>Specifies the shape to be used at the end of open subpaths when they are stroked</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>int</type><parameter>linecap</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Specifies the shape to be used at the end of open subpaths when they
    are stroked.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,10 +26,10 @@
     <varlistentry>
      <term><parameter>linecap</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.linecap">LINECAP</link> constant
        (<literal>imagick::LINECAP_*</literal>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

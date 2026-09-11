@@ -10,11 +10,11 @@
 
   <section xml:id="ds-set.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Set is a sequence of unique values. This implementation uses the same hash
     table as <classname>Ds\Map</classname>, where values are used as keys and the
     mapped value is ignored.
-   </para>
+   </simpara>
   </section>
 
 <section xml:id="ds-set.strengths">
@@ -93,7 +93,7 @@
     <varlistentry xml:id="ds-set.constants.min-capacity">
      <term><constant>Ds\Set::MIN_CAPACITY</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

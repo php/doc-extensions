@@ -14,12 +14,12 @@
 <!-- {{{ win32serviceexception intro -->
   <section xml:id="win32serviceexception.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     The exception replaces the old mechanism where the error value needed to be
     compared to constants to detect which error was emitted. The Exception code
     is equal to the value of the error value and the exception message is based
     on the corresponding constant name.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 

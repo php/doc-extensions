@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <type>int</type><methodname>UI\Window::onClosing</methodname>
    <void />
   </methodsynopsis>
-  <para>
-   Should gracefully destroy this Window 
-  </para>
+  <simpara>
+   Should gracefully destroy this Window
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

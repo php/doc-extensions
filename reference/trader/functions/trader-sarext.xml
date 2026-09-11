@@ -22,9 +22,9 @@
    <methodparam choice="opt"><type>float</type><parameter>accelerationShort</parameter></methodparam>
    <methodparam choice="opt"><type>float</type><parameter>accelerationMaxShort</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,81 +33,81 @@
    <varlistentry>
     <term><parameter>high</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real.high;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>low</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       &trader.arg.array.of.real.low;
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>startValue</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        Start value and direction. 0 for Auto, &gt;0 for Long, &lt;0 for Short. Valid range from <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-min">TRADER_REAL_MIN</link> to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>offsetOnReverse</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Percent offset added/removed to initial stop on short/long reversal. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>accelerationInitLong</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Acceleration Factor initial value for the Long direction. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>accelerationLong</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Acceleration Factor for the Long direction. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>accelerationMaxLong</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Acceleration Factor maximum value for the Long direction. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>accelerationInitShort</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Acceleration Factor initial value for the Short direction. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>accelerationShort</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Acceleration Factor for the Short direction. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>accelerationMaxShort</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Acceleration Factor maximum value for the Short direction. Valid range from 0 to <link xmlns="http://docbook.org/ns/docbook" linkend="constant.trader-real-max">TRADER_REAL_MAX</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -115,7 +115,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns an array with calculated data or false on failure.</para>
+  <simpara>Returns an array with calculated data or false on failure.</simpara>
  </refsect1>
 
 

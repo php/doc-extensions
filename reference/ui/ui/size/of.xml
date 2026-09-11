@@ -17,9 +17,9 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>UI\Size</type><methodname>UI\Size::of</methodname>
    <methodparam><type>UI\Point</type><parameter>point</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall return a UI\Size object where width and height are equal to those supplied, either in float or UI\Point form
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -29,17 +29,17 @@
    <varlistentry>
     <term><parameter>size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value for width and height
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The Point to convert
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The resulting Size
-  </para>
+  </simpara>
  </refsect1>
 
 

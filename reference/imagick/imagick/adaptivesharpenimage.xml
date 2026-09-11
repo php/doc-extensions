@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.adaptivesharpenimage">
+<refentry xml:id="imagick.adaptivesharpenimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::adaptiveSharpenImage</refname>
   <refpurpose>Adaptively sharpen the image</refpurpose>
@@ -15,10 +15,10 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Adaptively sharpen the image by sharpening more intensely
    near image edges and less intensely far from edges. &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,25 +28,25 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The radius of the Gaussian, in pixels, not counting the center pixel. Use 0 for auto-select.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>sigma</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The standard deviation of the Gaussian, in pixels.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -55,9 +55,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -65,9 +65,9 @@
   <para>
    <example>
     <title>A <function>Imagick::adaptiveSharpenImage</function> example</title>
-    <para>
+    <simpara>
      Adaptively sharpen the image with radius 2 and sigma 1.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

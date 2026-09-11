@@ -31,17 +31,17 @@
    <varlistentry>
     <term><parameter>position</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The position for the new stop
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>color</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The color for the new stop, may be UI\Draw\Color or RRGGBBAA
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -49,9 +49,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Total number of stops
-  </para>
+  </simpara>
  </refsect1>
 
 

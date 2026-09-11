@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\Collection::find</methodname>
    <methodparam choice="opt"><type>string</type><parameter>search_condition</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Search a database collection for a document or set of documents. The
    found documents are returned as a CollectionFind object is to
    further modify or fetch results from.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,15 +26,15 @@
    <varlistentry>
     <term><parameter>search_condition</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Although optional, normally a condition is defined to limit the results
       to a subset of documents.
-     </para>
-     <para>
-      Multiple elements might build the condition and the syntax supports parameter binding. 
+     </simpara>
+     <simpara>
+      Multiple elements might build the condition and the syntax supports parameter binding.
       The expression used as search condition must be a valid SQL expression.
       If no search condition is provided (field empty) then find('true') is assumed.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -42,10 +42,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionFind object to verify the operation,
    or fetch the found documents.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -73,7 +73,7 @@ $find   = $collection->find('job LIKE :job AND age > :age');
 $result = $find
   ->bind(['job' => 'Teacher', 'age' => 20])
   ->sort('age DESC')
-  ->limit(2)            
+  ->limit(2)
   ->execute();
 
 print_r($result->fetchAll());

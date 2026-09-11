@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableUpdate</type><methodname>mysql_xdevapi\TableUpdate::bind</methodname>
    <methodparam><type>array</type><parameter>placeholder_values</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Binds a value to a specific placeholder.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,10 +25,10 @@
    <varlistentry>
     <term><parameter>placeholder_values</parameter></term>
     <listitem>
-     <para>
+     <simpara>
      The name of the placeholder, and the value to bind, defined
      as a JSON array.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A TableUpdate object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

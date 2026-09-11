@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>SolrCollapseFunction::getNullPolicy</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns null policy used or null
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

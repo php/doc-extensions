@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.minifyimage">
+<refentry xml:id="imagick.minifyimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::minifyImage</refname>
   <refpurpose>Scales an image proportionally to half its size</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::minifyImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Is a convenience method that scales an image proportionally to one-half its original size
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

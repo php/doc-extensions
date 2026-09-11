@@ -17,9 +17,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Imagick::setImageBiasQuantum</methodname>
    <methodparam><type>float</type><parameter>bias</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image bias. Bias should be scaled with <literal>0</literal> (no adjustment) to <literal>1</literal> (quantum value).
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -29,9 +29,9 @@
    <varlistentry>
     <term><parameter>bias</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

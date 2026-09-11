@@ -13,12 +13,12 @@
    <type>float</type><methodname>fann_get_sarprop_temperature</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the sarprop temperature.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default temperature is 0.015.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The sarprop temperature, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="notes">

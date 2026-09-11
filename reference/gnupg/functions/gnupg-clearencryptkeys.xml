@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-clearencryptkeys">
+<refentry xml:id="function.gnupg-clearencryptkeys" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_clearencryptkeys</refname>
   <refpurpose>Removes all keys which were set for encryption before</refpurpose>

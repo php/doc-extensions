@@ -14,11 +14,11 @@
    <methodname>mysql_xdevapi\CrudOperationSortable::sort</methodname>
    <methodparam><type>string</type><parameter>sort_expr</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sort the result set by the field selected in the sort_expr argument. The allowed
    orders are ASC (Ascending) or DESC (Descending). This operation is equivalent to the 'ORDER BY' SQL operation
    and it follows the same set of rules.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -30,10 +30,10 @@
    <varlistentry>
     <term><parameter>sort_expr</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       One or more sorting expressions can be provided. The evaluation is from left to right,
       and each expression is separated by a comma.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -41,9 +41,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CrudOperationSortable object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

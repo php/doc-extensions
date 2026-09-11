@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getpointsize">
+<refentry xml:id="imagick.getpointsize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getPointSize</refname>
   <refpurpose>Gets point size</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>float</type><methodname>Imagick::getPointSize</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the objects point size property.
    &imagick.method.available.0x637;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a &float; containing the point size.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

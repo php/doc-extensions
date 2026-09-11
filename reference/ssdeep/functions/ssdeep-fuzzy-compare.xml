@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssdeep-fuzzy-compare">
+<refentry xml:id="function.ssdeep-fuzzy-compare" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ssdeep_fuzzy_compare</refname>
   <refpurpose>Calculates the match score between two fuzzy hash signatures</refpurpose>

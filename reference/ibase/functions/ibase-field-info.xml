@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-field-info">
+<refentry xml:id="function.ibase-field-info" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_field_info</refname>
   <refpurpose>Get information about a field</refpurpose>

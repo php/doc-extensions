@@ -13,9 +13,9 @@
    <modifier>final</modifier> <modifier>public</modifier> <type>array</type> <methodname>Win32Service\RightInfo::getRights</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Return the user's right list.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,15 +25,15 @@
 
  <refsect1 role="returnvalues"><!-- {{{ -->
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return the user's right list.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The array index is the binary mask of right represented by the <link linkend="win32service.constants.rights">constants rights</link>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The value is a string with the Windows constant name (without <literal>WIN32_</literal> prefix).
-  </para>
+  </simpara>
  </refsect1><!-- }}} -->
 
  <refsect1 role="seealso">

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::autoLevelImage</methodname>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adjusts the levels of a particular image channel by scaling the minimum and maximum values to the full quantum range.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>channel</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Which channel should the auto-levelling should be done on.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

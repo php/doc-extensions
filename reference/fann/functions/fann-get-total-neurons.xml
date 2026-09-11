@@ -13,10 +13,10 @@
    <type>int</type><methodname>fann_get_total_neurons</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Get the total number of neurons in the entire network. This number does also include the bias neurons,
    so a 2-4-2 network has 2+4+2 +2(bias) = 10 neurons.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,9 +33,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Total number of neurons in the entire network, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

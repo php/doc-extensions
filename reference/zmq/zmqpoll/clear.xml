@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>ZMQPoll</type><methodname>ZMQPoll::clear</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Clears all elements from the poll set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current object.
-  </para>
+  </simpara>
  </refsect1>
 
 

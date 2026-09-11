@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="syncsharedmemory.first">
+<refentry xml:id="syncsharedmemory.first" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SyncSharedMemory::first</refname>
   <refpurpose>Check to see if the object is the first instance system-wide of named shared memory</refpurpose>

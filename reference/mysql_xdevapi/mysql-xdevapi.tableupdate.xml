@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\TableUpdate intro -->
   <section xml:id="mysql-xdevapi-tableupdate.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A statement for record update operations on a Table.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 

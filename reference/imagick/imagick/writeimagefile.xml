@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.writeimagefile">
+<refentry xml:id="imagick.writeimagefile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::writeImageFile</refname>
   <refpurpose>Writes an image to a filehandle</refpurpose>
@@ -14,10 +14,10 @@
    <methodparam choice="opt"><type>string</type><parameter>format</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Writes the image sequence to an open filehandle. The handle must be opened with
    for example fopen. &imagick.method.available.0x636;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,19 +27,19 @@
     <varlistentry>
      <term><parameter>filehandle</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Filehandle where to write the image.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>format</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The image format.
        The list of valid format specifiers depends on the compiled feature set of
        ImageMagick, and can be queried at runtime via <methodname>Imagick::queryFormats</methodname>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -48,9 +48,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

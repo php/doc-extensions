@@ -26,9 +26,9 @@
    <methodparam><type>Closure</type><parameter>handler</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>modifiers</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates a function at runtime
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -38,33 +38,33 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class to receive the new function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>handler</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The Closure for the function
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>modifiers</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The modifiers for the function, by default copied or ZEND_ACC_PUBLIC
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -72,9 +72,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

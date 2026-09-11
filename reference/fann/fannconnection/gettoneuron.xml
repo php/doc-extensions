@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>FANNConnection::getToNeuron</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the positions of terminating neuron.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

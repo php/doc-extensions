@@ -14,13 +14,13 @@
    <methodparam><type>mixed</type><parameter>key</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>default</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Removes and returns a value by key, or return an optional default value if the key
     could not be found.
-  </para>
+  </simpara>
 
   <note>
-    <para>
+    <simpara>
         Keys of type <type>object</type> are supported.
 
         If an object implements <classname>Ds\Hashable</classname>,
@@ -28,25 +28,25 @@
 
         If an object does not implement <classname>Ds\Hashable</classname>,
         objects must be references to the same instance to be considered equal.
-    </para>
+    </simpara>
   </note>
 
   <note>
-    <para>
+    <simpara>
         You can also use array syntax to access values by key, eg. <code>$map["key"]</code>.
-    </para>
+    </simpara>
   </note>
 
   <caution>
-    <para>
+    <simpara>
         Be careful when using array syntax. Scalar keys will be coerced to
         integers by the engine. For example, <code>$map["1"]</code> will attempt
         to access <code>int(1)</code>, while <code>$map-&gt;get("1")</code> will
         correctly look up the string key.
-    </para>
-    <para>
+    </simpara>
+    <simpara>
         See <link xlink:href="&url.php.manual.language.types.array;">Arrays</link>.
-    </para>
+    </simpara>
   </caution>
 
  </refsect1>
@@ -57,17 +57,17 @@
    <varlistentry>
     <term><parameter>key</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The key to remove.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>default</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The optional default value, returned if the key could not be found.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -75,18 +75,18 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     The value that was removed, or the <parameter>default</parameter>
     value if provided and the <parameter>key</parameter> could not be found in the map.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   <classname>OutOfBoundsException</classname> if the key could not be found
+  <simpara>
+   <exceptionname>OutOfBoundsException</exceptionname> if the key could not be found
    and a default value was not provided.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

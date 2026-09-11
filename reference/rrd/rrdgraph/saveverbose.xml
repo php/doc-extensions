@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="rrdgraph.saveverbose">
+<refentry xml:id="rrdgraph.saveverbose" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>RRDGraph::saveVerbose</refname>
   <refpurpose>Saves the RRD database query into image and returns the verbose

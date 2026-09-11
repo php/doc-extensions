@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mcrypt-enc-get-modes-name">
+<refentry xml:id="function.mcrypt-enc-get-modes-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_enc_get_modes_name</refname>
   <refpurpose>Returns the name of the opened mode</refpurpose>

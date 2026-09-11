@@ -13,18 +13,18 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setEchoParams</methodname>
    <methodparam><type>string</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Instructs Solr what kinds of Request parameters should be included in the response for debugging purposes, legal values include: 
-  </para>
+  <simpara>
+   Instructs Solr what kinds of Request parameters should be included in the response for debugging purposes, legal values include:
+  </simpara>
 
-<para>
+<simpara>
  <![CDATA[
 - none - don't include any request parameters for debugging
 - explicit - include the parameters explicitly specified by the client in the request
-- all - include all parameters involved in this request, either specified explicitly by the client, or implicit because of the request handler configuration. 
+- all - include all parameters involved in this request, either specified explicitly by the client, or implicit because of the request handler configuration.
 ]]>
- 
-</para>
+
+</simpara>
 
  </refsect1>
 
@@ -35,9 +35,9 @@
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The type of parameters to include
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

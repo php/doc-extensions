@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionFind</type><methodname>mysql_xdevapi\CollectionFind::groupBy</methodname>
    <methodparam><type>string</type><parameter>sort_expr</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function can be used to group the result set by one or more columns.
    It is often used with aggregate functions such as <literal>COUNT</literal>,
    <literal>MAX</literal>, <literal>MIN</literal>, <literal>SUM</literal> etc.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
    <varlistentry>
     <term><parameter>sort_expr</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The column or columns that have to be used for the group operation, this can either be a single string
       or an array of string arguments, one for each column.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionFind object that can be used for further processing.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -6,7 +6,7 @@
   <refname>xdiff_file_bdiff</refname>
   <refpurpose>Make binary diff of two files</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -15,11 +15,11 @@
    <methodparam><type>string</type><parameter>new_file</parameter></methodparam>
    <methodparam><type>string</type><parameter>dest</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Makes a binary diff of two files and stores the result in a patch file.
    This function works with both text and binary files. Resulting patch
    file can be later applied using <function>xdiff_file_bpatch</function>/<function>xdiff_string_bpatch</function>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,26 +29,26 @@
     <varlistentry>
      <term><parameter>old_file</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the first file. This file acts as "old" file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_file</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the second file. This file acts as "new" file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>dest</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path of the resulting patch file. Resulting file contains differences
        between "old" and "new" files. It is in binary format and is human-unreadable.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -57,9 +57,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -67,9 +67,9 @@
   <para>
    <example>
     <title><function>xdiff_file_bdiff</function> example</title>
-    <para>
+    <simpara>
      The following code makes binary diff of two archives.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -87,10 +87,10 @@ xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Both files will be loaded into memory so ensure that your memory_limit is
     set high enough.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

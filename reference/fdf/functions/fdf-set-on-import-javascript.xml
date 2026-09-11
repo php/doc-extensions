@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fdf-set-on-import-javascript">
+<refentry xml:id="function.fdf-set-on-import-javascript" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fdf_set_on_import_javascript</refname>
   <refpurpose>Adds javascript code to be executed when Acrobat opens the FDF</refpurpose>

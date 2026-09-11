@@ -14,9 +14,9 @@
 <!-- {{{ win32serviceexception intro -->
   <section xml:id="win32service-rightinfo.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     The <classname>Win32Service\RightInfo</classname> internal class encapsulates the result of <function>win32_read_right_access_service</function>.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 

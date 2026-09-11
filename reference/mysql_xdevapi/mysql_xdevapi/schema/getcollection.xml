@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\Collection</type><methodname>mysql_xdevapi\Schema::getCollection</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Get a collection from the schema.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -23,9 +23,9 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Collection name to retrieve.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -33,9 +33,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The Collection object for the selected collection.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

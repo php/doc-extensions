@@ -13,9 +13,9 @@
    <type class="union"><type>array</type><type>null</type></type><methodname>xhprof_disable</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Stops the profiler, and returns xhprof data from the run.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    An <type>array</type> of xhprof data, from the run.
    Returns &null; if profiling is not enabled.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

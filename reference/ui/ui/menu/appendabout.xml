@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>UI\MenuItem</type><methodname>UI\Menu::appendAbout</methodname>
    <methodparam choice="opt"><type>string</type><parameter>type</parameter><initializer>UI\MenuItem::class</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall append an About menu item
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>type</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The type for the new item
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A constructed About menu item of the given type
-  </para>
+  </simpara>
  </refsect1>
 
 

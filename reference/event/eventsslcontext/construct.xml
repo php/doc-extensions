@@ -19,11 +19,11 @@
     <parameter>options</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Creates SSL context holding pointer to
    <literal>SSL_CTX</literal>
    (see the system manual).
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -33,11 +33,11 @@
      <parameter>method</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       One of
       <link linkend="eventsslcontext.constants">
        <literal>EventSslContext::*_METHOD</literal> constants</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -45,12 +45,12 @@
      <parameter>options</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Associative array of SSL context options One of
       <link
      linkend="eventsslcontext.constants">
        <literal>EventSslContext::OPT_*</literal> constants</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

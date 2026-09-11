@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\Redis\Server intro -->
   <section xml:id="swoole-redis-server.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -99,49 +99,49 @@
     <varlistentry xml:id="swoole-redis-server.constants.nil">
      <term><constant>Swoole\Redis\Server::NIL</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-redis-server.constants.error">
      <term><constant>Swoole\Redis\Server::ERROR</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-redis-server.constants.status">
      <term><constant>Swoole\Redis\Server::STATUS</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-redis-server.constants.int">
      <term><constant>Swoole\Redis\Server::INT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-redis-server.constants.string">
      <term><constant>Swoole\Redis\Server::STRING</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-redis-server.constants.set">
      <term><constant>Swoole\Redis\Server::SET</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-redis-server.constants.map">
      <term><constant>Swoole\Redis\Server::MAP</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

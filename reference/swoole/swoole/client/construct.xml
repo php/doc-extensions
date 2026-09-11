@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>sock_type</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>is_async</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>sock_type</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The type of socket: SWOOLE_TCP, SWOOLE_UDP, SWOOLE_ASYNC, SWOOLE_SSL, SWOOLE_KEEP.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>is_async</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Synchronous or asynchronous client.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

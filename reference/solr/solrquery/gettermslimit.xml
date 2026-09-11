@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getTermsLimit</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the maximum number of terms Solr should return
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -12,9 +12,9 @@
    <methodname>EventBuffer::__construct</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Constructs EventBuffer object
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

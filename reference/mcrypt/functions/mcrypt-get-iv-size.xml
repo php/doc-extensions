@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mcrypt-get-iv-size">
+<refentry xml:id="function.mcrypt-get-iv-size" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_get_iv_size</refname>
   <refpurpose>Returns the size of the IV belonging to a specific cipher/mode combination</refpurpose>

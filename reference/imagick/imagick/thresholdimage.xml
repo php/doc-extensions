@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.thresholdimage">
+<refentry xml:id="imagick.thresholdimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::thresholdImage</refname>
   <refpurpose>Changes the value of individual pixels based on a threshold</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>float</type><parameter>threshold</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Changes the value of individual pixels based on the intensity of each pixel
    compared to threshold.  The result is a high-contrast, two color image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,15 +26,15 @@
     <varlistentry>
      <term><parameter>threshold</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

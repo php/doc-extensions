@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Ds\Pair</type><methodname>Ds\Map::skip</methodname>
    <methodparam><type>int</type><parameter>position</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns the pair at a given zero-based <parameter>position</parameter>.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>position</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The zero-based positional index to return.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,16 +35,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     Returns the <classname>Ds\Pair</classname> at the given <parameter>position</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
   <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   <classname>OutOfRangeException</classname> if the position is not valid.
-  </para>
+  <simpara>
+   <exceptionname>OutOfRangeException</exceptionname> if the position is not valid.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

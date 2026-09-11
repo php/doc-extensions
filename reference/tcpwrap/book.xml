@@ -9,11 +9,11 @@
  <!-- {{{ preface -->
  <preface xml:id="intro.tcpwrap">
   &reftitle.intro;
-  <para>
+  <simpara>
    The TCP wrappers provides a classical Unix mechanism which has been
    designed to check if the remote client is able to connect from the given IP
    address.
-  </para>
+  </simpara>
  </preface>
  <!-- }}} -->
 

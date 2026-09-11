@@ -14,10 +14,10 @@
    <methodparam><type>SolrDocument</type><parameter>sourceDoc</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>overwrite</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Merges source to the current SolrDocument.
-  </para>
-  
+  </simpara>
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>sourceDoc</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The source document.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>overwrite</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       If this is &true; then fields with the same name in the destination document will be overwritten.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

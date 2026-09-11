@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type class="union"><type>array</type><type>false</type></type><methodname>Memcached::fetch</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::fetch</function> retrieves the next result from the
    last request.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,11 +25,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the next result or &false; otherwise.
    The <methodname>Memcached::getResultCode</methodname> will return
    <constant>Memcached::RES_END</constant> if result set is exhausted.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

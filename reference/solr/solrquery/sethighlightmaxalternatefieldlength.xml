@@ -14,12 +14,12 @@
    <methodparam><type>int</type><parameter>fieldLength</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>field_override</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    If SolrQuery::setHighlightAlternateField() was passed the value &true;, this parameter specifies the maximum number of characters of the field to return
-  </para>
- <para>
-  Any value less than or equal to 0 means unlimited. 
- </para>
+  </simpara>
+ <simpara>
+  Any value less than or equal to 0 means unlimited.
+ </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,17 +29,17 @@
     <varlistentry>
      <term><parameter>fieldLength</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The length of the field
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>field_override</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -48,9 +48,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

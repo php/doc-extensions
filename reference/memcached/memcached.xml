@@ -10,9 +10,9 @@
 <!-- {{{ Memcached intro -->
   <section xml:id="memcached.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents a connection to a set of memcached servers.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -38,7 +38,7 @@
 <!-- }}} -->
 
   </section>
-  
+
  </partintro>
 
  &reference.memcached.entities.memcached;

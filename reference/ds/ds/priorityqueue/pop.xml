@@ -13,14 +13,14 @@
    <modifier>public</modifier> <type>mixed</type><methodname>Ds\PriorityQueue::pop</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Removes and returns the value at the front of the queue, ie. the value
     with the highest priority.
-  </para>
+  </simpara>
   <note>
-     <para>
+     <simpara>
         Values with equal priority fall back to FIFO (first in first out).
-     </para>
+     </simpara>
   </note>
  </refsect1>
 
@@ -31,16 +31,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     The removed value which was at the front of the queue.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   <classname>UnderflowException</classname> if empty.
-  </para>
+  <simpara>
+   <exceptionname>UnderflowException</exceptionname> if empty.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

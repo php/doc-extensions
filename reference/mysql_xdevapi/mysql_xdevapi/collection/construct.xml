@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\Collection::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
    Construct a Collection object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

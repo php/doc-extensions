@@ -13,13 +13,13 @@
    <type>bool</type><methodname>yaz_present</methodname>
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function prepares for retrieval of records after a successful search.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The <function>yaz_range</function> function should be called prior to this
-   function to specify the range of records to be retrieved. 
-  </para>
+   function to specify the range of records to be retrieved.
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -28,9 +28,9 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

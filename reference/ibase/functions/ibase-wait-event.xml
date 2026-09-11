@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-wait-event">
+<refentry xml:id="function.ibase-wait-event" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_wait_event</refname>
   <refpurpose>Wait for an event to be posted by the database</refpurpose>

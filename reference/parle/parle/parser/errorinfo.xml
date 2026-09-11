@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Parle\ErrorInfo</type><methodname>Parle\Parser::errorInfo</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve the error information in case <methodname>Parle\Parser::action</methodname> returned the error action.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an instance of <classname>Parle\ErrorInfo</classname>.
-  </para>
+  </simpara>
  </refsect1>
 
 

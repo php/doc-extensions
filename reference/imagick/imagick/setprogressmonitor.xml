@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setProgressMonitor</methodname>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set a callback that will be called during the processing of the Imagick image.
-  </para>
+  </simpara>
 
- 
+
 
  </refsect1>
 
@@ -27,10 +27,10 @@
    <varlistentry>
     <term><parameter>callback</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The progress function to call. It should return true if image processing should continue, or false if it should be cancelled. The offset parameter indicates the progress and the span parameter indicates the total amount of work needed to be done.
-     </para>
-     
+     </simpara>
+
      <methodsynopsis xmlns="http://docbook.org/ns/docbook">
       <type>bool</type>
       <methodname>
@@ -46,11 +46,11 @@
      </methodsynopsis>
 
      <caution>
-      <para>
+      <simpara>
        The values passed to the callback function are not consistent. In particular the span parameter can increase during image processing. Because of this calculating the percentage complete of an image operation is not trivial.
-      </para>
+      </simpara>
      </caution>
-     
+
     </listitem>
    </varlistentry>
   </variablelist>
@@ -58,9 +58,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -75,7 +75,7 @@
       <![CDATA[
 <?php
         $abortReason = null;
-        
+
         try {
             $imagick = new \Imagick(realpath($this->control->getImagePath()));
             $startTime = time();

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getnumberimages">
+<refentry xml:id="imagick.getnumberimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getNumberImages</refname>
   <refpurpose>Returns the number of images in the object</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getNumberImages</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the number of images associated with Imagick object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the number of images associated with Imagick object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

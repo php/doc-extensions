@@ -13,11 +13,11 @@
    <methodname>EventUtil::__construct</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    <classname>EventUtil</classname>
    is a singleton. Therefore the constructor is abstract, and it is impossible
    to create objects based on this class.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

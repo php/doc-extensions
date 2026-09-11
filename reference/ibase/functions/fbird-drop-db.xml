@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fbird-drop-db">
+<refentry xml:id="function.fbird-drop-db" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fbird_drop_db</refname>
   <refpurpose>&Alias; <function>ibase_drop_db</function></refpurpose>

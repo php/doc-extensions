@@ -13,10 +13,10 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>bool</type><methodname>Swoole\Runtime::setHookFlags</methodname>
    <methodparam><type>int</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the hook flags for coroutine support.
    This dynamically changes the hook flags at runtime.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Bitmask of flags specifying which functions to hook. Same flags as enableCoroutine.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

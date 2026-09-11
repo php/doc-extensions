@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>int</type><parameter>cascade_max_cand_epochs</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the max candidate epochs.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>cascade_max_cand_epochs</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The max candidate epochs.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

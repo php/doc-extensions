@@ -21,11 +21,11 @@
    <methodparam><type>string</type><parameter>property</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the value of an existing static class property, if <parameter>class</parameter>
    is given, or the value of an instance property (regardless whether the instance property already exists), if <parameter>instance</parameter>
    is given.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,33 +34,33 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>instance</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The object instance.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>property</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the property.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value to assign to the property.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -68,9 +68,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

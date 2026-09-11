@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.setcolor">
+<refentry xml:id="imagickpixel.setcolor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::setColor</refname>
   <refpurpose>Sets the color</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>string</type><parameter>color</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Sets the color described by the ImagickPixel object, with a string
    (e.g. "blue", "#0000ff", "rgb(0,0,255)", "cmyk(100,100,100,10)", etc.).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,10 +26,10 @@
     <varlistentry>
      <term><parameter>color</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The color definition to use in order to initialise the
        ImagickPixel object.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     Returns &true; if the specified color was set, &false; otherwise.
-  </para>
+  </simpara>
  </refsect1>
 
 

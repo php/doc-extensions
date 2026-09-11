@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.writeimages">
+<refentry xml:id="imagick.writeimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::writeImages</refname>
   <refpurpose>Writes an image or image sequence</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam><type>bool</type><parameter>adjoin</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Writes an image or image sequence.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,15 +25,15 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>adjoin</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -42,9 +42,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Form intro -->
   <section xml:id="ui-controls-form.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Form is a control which allows the arrangement of other controls into a familiar layout (the form).
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,7 +29,7 @@
      <ooclass>
       <classname>UI\Controls\Form</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>UI\Control</classname>
@@ -42,10 +42,10 @@
      <modifier>protected</modifier>
      <varname linkend="ui-controls-form.props.controls">controls</varname>
     </fieldsynopsis>
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-controls-form')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-control')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
 
@@ -59,9 +59,9 @@
     <varlistentry xml:id="ui-controls-form.props.controls">
      <term><varname>controls</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Contains controls, should not be manipulated directly
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>

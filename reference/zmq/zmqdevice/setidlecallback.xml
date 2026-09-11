@@ -15,13 +15,13 @@
    <methodparam><type>int</type><parameter>timeout</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>user_data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the idle callback function. If idle timeout is defined the idle callback function
    shall be called if the internal poll loop times out without events. If the callback function
    returns false or a value that evaluates to false the device is stopped.
 
    The callback function signature is callback (mixed $user_data).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,30 +30,30 @@
    <varlistentry>
     <term><parameter>cb_func</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Callback function to invoke when the device is idle. Returning false
-      or a value that evaluates to false from this function will cause the 
+      or a value that evaluates to false from this function will cause the
       device to stop.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>timeout</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       How often to invoke the idle callback in milliseconds. The idle callback is invoked
       periodically when there is no activity on the device.
       The timeout value guarantees that there is at least this amount of milliseconds between
       invocations of the callback function.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>user_data</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Additional data to pass to the callback function.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -61,9 +61,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    On success this method returns the current object.
-  </para>
+  </simpara>
  </refsect1>
 
 

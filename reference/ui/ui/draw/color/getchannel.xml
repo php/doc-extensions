@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>float</type><methodname>UI\Draw\Color::getChannel</methodname>
    <methodparam><type>int</type><parameter>channel</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall retrieve the value for a channel
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>channel</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Constant channel identity
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current value of the requested channel
-  </para>
+  </simpara>
  </refsect1>
 
 

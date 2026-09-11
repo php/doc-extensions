@@ -13,9 +13,9 @@
    <type>int</type><methodname>fann_get_network_type</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Get the type of neural network it was created as.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,9 +32,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     <link linkend="constants.fann-nettype">Network type</link> constant, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -7,19 +7,19 @@
  <!-- {{{ Requirements -->
  <section xml:id="win32service.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    The versions of Windows supported are the same as the Visual C++ redistributable package used to build PHP.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 
  <!-- {{{ Installation -->
  <section xml:id="win32service.installation">
   &reftitle.install;
-  <para>
+  <simpara>
    To install this extension, download the prebuild DLL from <link xlink:href="&url.git.hub;win32service/win32service/releases">GitHub Release</link> or use PIE.
    To install with PIE, see the Packagist <link xlink:href="&url.packagist.package;win32service">Win32Service extension details</link>.
-  </para>
+  </simpara>
 
   <para>
    &pecl.moving.to.pie;
@@ -30,7 +30,7 @@
 
  <section xml:id="win32service.security">
   <title xmlns="http://docbook.org/ns/docbook">Security consideration</title>
-  <para>
+  <simpara>
    This extension needs administrator privileges for some actions such as
    <link linkend="function.win32-create-service">create</link>,
    <link linkend="function.win32-delete-service">delete</link>,
@@ -40,22 +40,22 @@
    <link linkend="function.win32-continue-service">continue</link>.
    This requirement can cause an elevation of privileges if the service
    control is available from the web interface or remote control.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The ACL on the service can be set after adding it into SCM to delegate the
    current administration tasks to a non administrator account or service account.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    As of Win32Service 1.1.0, service rights can be managed with PHP. The actual ACLs can be read with
    <function>win32_read_all_rights_access_service</function>, an access or deny right can be added with
    <function>win32_add_right_access_service</function>, or an access right can be removed with
    <function>win32_remove_right_access_service</function>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    It is recommended to update to Win32Service 1.1.0.
    For further instructions to manage rights without the extension (or a version prior to 1.1.0), see the
    <link xlink:href="&url.win32service.kb914392;">Microsoft Knowledge Base</link>.
-  </para>
+  </simpara>
  </section>
 
 </chapter>

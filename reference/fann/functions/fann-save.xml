@@ -14,20 +14,20 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>string</type><parameter>configuration_file</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Saves the entire network to a configuration file.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The configuration file contains all information about the neural network and enables
    <function>fann_create_from_file</function> to create an exact copy of the neural network
    and all of the parameters associated with the neural network.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    These three parameters (<function>fann_set_callback</function>, <function>fann_set_error_log</function>,
    <function>fann_set_user_data</function>) are NOT saved to the file because they cannot safely be ported
    to a different location. Also temporary parameters generated during training like <function>fann_get_MSE</function>
    is not saved.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -42,9 +42,9 @@
    <varlistentry>
     <term><parameter>configuration_file</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The configuration file path.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

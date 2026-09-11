@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-name-result">
+<refentry xml:id="function.ibase-name-result" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_name_result</refname>
   <refpurpose>Assigns a name to a result set</refpurpose>

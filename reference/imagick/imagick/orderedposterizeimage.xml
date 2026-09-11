@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.orderedposterizeimage">
+<refentry xml:id="imagick.orderedposterizeimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::orderedPosterizeImage</refname>
   <refpurpose>Performs an ordered dither</refpurpose>
@@ -18,11 +18,11 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
-    Performs an ordered dither based on a number of pre-defined dithering threshold maps, 
-    but over multiple intensity levels, which can be different for different channels, 
+  <simpara>
+    Performs an ordered dither based on a number of pre-defined dithering threshold maps,
+    but over multiple intensity levels, which can be different for different channels,
     according to the input arguments. &imagick.method.available.0x631;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,20 +32,20 @@
     <varlistentry>
      <term><parameter>threshold_map</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        A string containing the name of the threshold dither map to use
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -54,16 +54,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -78,11 +78,11 @@
 <?php
 function orderedPosterizeImage($imagePath, $orderedPosterizeType) {
     $imagick = new \Imagick(realpath($imagePath));
-    
-  
+
+
     $imagick->orderedPosterizeImage($orderedPosterizeType);
     $imagick->setImageFormat('png');
-    
+
     header("Content-Type: image/png");
     echo $imagick->getImageBlob();
 }

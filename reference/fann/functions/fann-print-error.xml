@@ -13,9 +13,9 @@
    <type>void</type><methodname>fann_print_error</methodname>
    <methodparam><type>resource</type><parameter>errdat</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Prints the error string.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

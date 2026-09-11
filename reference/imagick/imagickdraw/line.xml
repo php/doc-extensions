@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.line">
+<refentry xml:id="imagickdraw.line" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::line</refname>
   <refpurpose>Draws a line</refpurpose>
@@ -16,9 +16,9 @@
    <methodparam><type>float</type><parameter>end_y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a line on the image using the current stroke color, stroke opacity, and stroke width.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,33 +28,33 @@
     <varlistentry>
      <term><parameter>start_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>start_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        starting y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>end_x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>end_y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -63,9 +63,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

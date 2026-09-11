@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.pconnect">
+<refentry xml:id="memcache.pconnect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::pconnect</refname>
   <refname>memcache_pconnect</refname>

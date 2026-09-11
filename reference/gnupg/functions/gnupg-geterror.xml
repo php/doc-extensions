@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-geterror">
+<refentry xml:id="function.gnupg-geterror" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_geterror</refname>
   <refpurpose>Returns the errortext, if a function fails</refpurpose>

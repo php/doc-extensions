@@ -13,9 +13,9 @@
    <modifier>abstract</modifier> <modifier>public</modifier> <type>mysql_xdevapi\CrudOperationBindable</type><methodname>mysql_xdevapi\CrudOperationBindable::bind</methodname>
    <methodparam><type>array</type><parameter>placeholder_values</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Binds a value to a specific placeholder.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>placeholder_values</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the placeholders and the values to bind.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CrudOperationBindable object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

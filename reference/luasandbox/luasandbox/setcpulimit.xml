@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="luasandbox.setcpulimit">
+<refentry xml:id="luasandbox.setcpulimit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>LuaSandbox::setCPULimit</refname>
   <refpurpose>Set the CPU time limit for the Lua environment</refpurpose>
@@ -17,7 +17,7 @@
   </simpara>
   <simpara>
    If the total user and system time used by the environment after the call
-   to this method exceeds this limit, a <classname>LuaSandboxTimeoutError</classname>
+   to this method exceeds this limit, a <exceptionname>LuaSandboxTimeoutError</exceptionname>
    exception is thrown.
   </simpara>
   <simpara>

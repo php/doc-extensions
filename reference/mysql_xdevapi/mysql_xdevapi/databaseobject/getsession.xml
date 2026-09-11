@@ -13,9 +13,9 @@
    <modifier>abstract</modifier> <modifier>public</modifier> <type>mysql_xdevapi\Session</type><methodname>mysql_xdevapi\DatabaseObject::getSession</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Fetch session associated to the database object.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The Session object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

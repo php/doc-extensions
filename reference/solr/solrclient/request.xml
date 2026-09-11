@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::request</methodname>
    <methodparam><type>string</type><parameter>raw_request</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sends a raw XML update request to the server
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>raw_request</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An XML string with the raw request to the server.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,24 +37,24 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrUpdateResponse</type> on success. Throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrIllegalArgumentException</classname> if <parameter>raw_request</parameter> was an empty string
-  </para>
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-   Throws <classname>SolrServerException</classname> if the Solr Server had failed to satisfy the query.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrIllegalArgumentException</exceptionname> if <parameter>raw_request</parameter> was an empty string
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to satisfy the query.
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>

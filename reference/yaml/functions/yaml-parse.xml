@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>int</type><parameter role="reference">ndocs</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Convert all or part of a YAML document stream to a PHP variable.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,38 +28,38 @@
     <varlistentry>
      <term><parameter>input</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The <type>string</type> to parse as a YAML document stream.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>pos</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Document to extract from stream (<literal>-1</literal> for all
        documents, <literal>0</literal> for first document, ...).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>ndocs</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If <parameter>ndocs</parameter> is provided, then it is filled with the
        number of documents found in stream.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>callbacks</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Content handlers for YAML nodes. Associative <type>array</type> of YAML
        tag =&gt; <type>callable</type> mappings. See
        <link linkend="yaml.callbacks.parse">parse callbacks</link> for more
        details.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -68,12 +68,12 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the value encoded in <parameter>input</parameter> in appropriate
    PHP type&return.falseforfailure;. If <parameter>pos</parameter> is <literal>-1</literal> an
    <type>array</type> will be returned with one entry for each document found
    in the stream.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -206,12 +206,12 @@ array(8) {
  <refsect1 role="notes">
   &reftitle.notes;
   <warning>
-   <para>
+   <simpara>
     Processing untrusted user input with <function>yaml_parse</function>
     is dangerous if the use of <function>unserialize</function> is enabled for
     nodes using the <literal>!php/object</literal> tag. This behavior can be
     disabled by using the <literal>yaml.decode_php</literal> ini setting.
-   </para>
+   </simpara>
   </warning>
  </refsect1>
 

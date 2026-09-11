@@ -25,7 +25,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   An array of any <classname>MongoDB\Driver\WriteError</classname>s that
+   An array of any <exceptionname>MongoDB\Driver\WriteError</exceptionname>s that
    occurred during the execution of individual write operations. Array keys
    will correspond to the index of the write operation from
    <classname>MongoDB\Driver\BulkWriteCommand</classname>. This map will
@@ -96,7 +96,7 @@ array(2) {
   &reftitle.seealso;
   <simplelist>
    <member><function>MongoDB\Driver\Manager::executeBulkWriteCommand</function></member>
-   <member><classname>MongoDB\Driver\WriteError</classname></member>
+   <member><exceptionname>MongoDB\Driver\WriteError</exceptionname></member>
   </simplelist>
  </refsect1>
 

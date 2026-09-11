@@ -3,7 +3,7 @@
 
 <reference xml:id="class.v8jsexception" role="class" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
- <title>The <classname>V8JsException</classname> class</title>
+ <title>The <exceptionname>V8JsException</exceptionname> class</title>
  <titleabbrev>V8JsException</titleabbrev>
 
  <partintro>
@@ -11,9 +11,9 @@
 <!-- {{{ V8JsException intro -->
   <section xml:id="v8jsexception.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,7 +29,7 @@
      <ooclass>
       <classname>V8JsException</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>Exception</classname>
@@ -56,10 +56,10 @@
 
     <classsynopsisinfo role="comment">&InheritedProperties;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('exception.synopsis')/descendant::db:fieldsynopsis)" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.v8jsexception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.exception')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[1])" />
 
@@ -68,7 +68,7 @@
 
   </section>
 
-  
+
 <!-- {{{ V8JsException properties -->
   <section xml:id="v8jsexception.props">
    &reftitle.properties;
@@ -76,25 +76,25 @@
     <varlistentry xml:id="v8jsexception.props.jsfilename">
      <term><varname>JsFileName</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="v8jsexception.props.jslinenumber">
      <term><varname>JsLineNumber</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="v8jsexception.props.jssourceline">
      <term><varname>JsSourceLine</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="v8jsexception.props.jstrace">
      <term><varname>JsTrace</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

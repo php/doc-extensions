@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.recode-string">
+<refentry xml:id="function.recode-string" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>recode_string</refname>
   <refpurpose>Recode a string according to a recode request</refpurpose>

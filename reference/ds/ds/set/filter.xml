@@ -16,10 +16,10 @@
    <modifier>public</modifier> <type>Ds\Set</type><methodname>Ds\Set::filter</methodname>
    <methodparam choice="opt"><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new set using a <type>callable</type> to
     determine which values to include.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -36,14 +36,14 @@
                 <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
             </methodsynopsis>
         </para>
-        <para>
+        <simpara>
             Optional <type>callable</type> which returns &true; if the value should be included, &false; otherwise.
-        </para>
-        <para>
+        </simpara>
+        <simpara>
             If a callback is not provided, only values which are &true;
             (see <link xlink:href="&url.php.manual.language.types.boolean.casting;">converting to boolean</link>)
             will be included.
-        </para>
+        </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -51,11 +51,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     A new set containing all the values for which
     either the <parameter>callback</parameter> returned &true;, or all values that
     convert to &true; if a <parameter>callback</parameter> was not provided.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

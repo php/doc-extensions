@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagegeometry">
+<refentry xml:id="imagick.getimagegeometry" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageGeometry</refname>
   <refpurpose>Gets the width and height as an associative array</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>array</type><methodname>Imagick::getImageGeometry</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the width and height as an associative array.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array with the width/height of the image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

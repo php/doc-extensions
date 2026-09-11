@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>Parle\RLexer::build</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Rules, previously added with <methodname>Parle\RLexer::push</methodname> are finalized. This method call has to be done after all the necessary rules was pushed. The rule set becomes read only. The lexing can begin.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   &return.void;   
-  </para>
+  <simpara>
+   &return.void;
+  </simpara>
  </refsect1>
 
 

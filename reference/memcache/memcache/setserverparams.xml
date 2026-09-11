@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.setserverparams">
+<refentry xml:id="memcache.setserverparams" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::setServerParams</refname>
   <refname>memcache_set_server_params</refname>

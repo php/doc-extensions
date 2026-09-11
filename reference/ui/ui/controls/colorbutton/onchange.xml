@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\ColorButton::onChange</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the selected Color is changed
-  </para>
+  </simpara>
 
  </refsect1>
 

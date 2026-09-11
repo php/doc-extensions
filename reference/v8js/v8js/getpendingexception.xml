@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>V8JsException</type><methodname>V8Js::getPendingException</methodname>
    <void />
   </methodsynopsis>
-  <para>
-   Returns any pending uncaught Javascript exception as <classname>V8JsException</classname>
+  <simpara>
+   Returns any pending uncaught Javascript exception as <exceptionname>V8JsException</exceptionname>
    left from earlier <function>V8Js::executeString</function> call(s).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Either <classname>V8JsException</classname> or &null;.
-  </para>
+  <simpara>
+   Either <exceptionname>V8JsException</exceptionname> or &null;.
+  </simpara>
  </refsect1>
 
 </refentry>

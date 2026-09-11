@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.getstats">
+<refentry xml:id="memcache.getstats" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::getStats</refname>
   <refname>memcache_get_stats</refname>

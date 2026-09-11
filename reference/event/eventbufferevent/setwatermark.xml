@@ -24,11 +24,11 @@
     <parameter>highmark</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adjusts the read watermarks, the write
    <emphasis>watermarks</emphasis>,
    or both, of a single buffer event.
-  </para>
+  </simpara>
   <simpara>
    A buffer event watermark is an edge, a value specifying number of bytes to
    be read or written before callback is invoked. By default every read/write
@@ -46,12 +46,12 @@
      <parameter>events</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Bitmask of
       <constant>Event::READ</constant>,
       <constant>Event::WRITE</constant>,
       or both.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -59,9 +59,9 @@
      <parameter>lowmark</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Minimum watermark value.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -69,20 +69,20 @@
      <parameter>highmark</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Maximum watermark value.
       <literal>0</literal>
       means "unlimited".
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file

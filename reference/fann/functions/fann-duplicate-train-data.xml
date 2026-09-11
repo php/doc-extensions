@@ -13,9 +13,9 @@
    <type>resource</type><methodname>fann_duplicate_train_data</methodname>
    <methodparam><type>resource</type><parameter>data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns an exact copy of a fann train data <type>resource</type>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

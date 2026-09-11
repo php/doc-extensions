@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Slider::getValue</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Get the value from this Slider
-  </para>
+  </simpara>
 
  </refsect1>
 

@@ -23,17 +23,17 @@
     <varlistentry>
      <term><parameter>method</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Name of the method to call.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>params</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Method parameters compatible with method signature.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -43,12 +43,12 @@
        Array specifying output options may contain (default values are
        emphasised):
        <itemizedlist>
-        <listitem><para>output_type: php, <emphasis>xml</emphasis></para></listitem>
-        <listitem><para>verbosity: no_white_space, newlines_only, <emphasis>pretty</emphasis></para></listitem>
-        <listitem><para>escaping: cdata, <emphasis>non-ascii, non-print, markup</emphasis>
-          (may be a string with one value or an array with multiple values)</para></listitem>
-        <listitem><para>version: simple, <emphasis>xmlrpc</emphasis>, soap 1.1, auto</para></listitem>
-        <listitem><para>encoding: <emphasis>iso-8859-1</emphasis>, other character set supported by iconv</para></listitem>
+        <listitem><simpara>output_type: php, <emphasis>xml</emphasis></simpara></listitem>
+        <listitem><simpara>verbosity: no_white_space, newlines_only, <emphasis>pretty</emphasis></simpara></listitem>
+        <listitem><simpara>escaping: cdata, <emphasis>non-ascii, non-print, markup</emphasis>
+          (may be a string with one value or an array with multiple values)</simpara></listitem>
+        <listitem><simpara>version: simple, <emphasis>xmlrpc</emphasis>, soap 1.1, auto</simpara></listitem>
+        <listitem><simpara>encoding: <emphasis>iso-8859-1</emphasis>, other character set supported by iconv</simpara></listitem>
        </itemizedlist>
       </para>
      </listitem>
@@ -56,12 +56,12 @@
    </variablelist>
   </para>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a string containing the XML representation of the request.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

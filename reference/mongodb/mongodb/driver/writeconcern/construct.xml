@@ -98,7 +98,7 @@
      </simpara>
      <simpara>
       <literal>wtimeout</literal> causes write operations to return with an
-      error (<classname>WriteConcernError</classname>) after the specified
+      error (<exceptionname>WriteConcernError</exceptionname>) after the specified
       limit, even if the required write concern will eventually succeed. When
       these write operations return, MongoDB does not undo successful data
       modifications performed before the write concern exceeded the
@@ -150,7 +150,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if <parameter>w</parameter> is invalid or <parameter>wtimeout</parameter> is either negative or greater than the bounds of a signed 32-bit integer.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if <parameter>w</parameter> is invalid or <parameter>wtimeout</parameter> is either negative or greater than the bounds of a signed 32-bit integer.</member>
   </simplelist>
  </refsect1>
 

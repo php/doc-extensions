@@ -16,12 +16,12 @@
    <methodparam choice="opt"><type>string</type><parameter>persistent_id</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>callable</type><parameter>on_new_socket</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Constructs a ZMQSocket object. <parameter>persistent_id</parameter> parameter can be used to allocated a persistent
    socket. A persistent socket has to be allocated from a persistent context and it stays connected over multiple requests.
-   The <parameter>persistent_id</parameter> parameter can be used to recall the same socket over multiple requests. The     
+   The <parameter>persistent_id</parameter> parameter can be used to recall the same socket over multiple requests. The
    <parameter>on_new_socket</parameter> is called only when a new underlying socket structure is created.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,51 +31,51 @@
     <varlistentry>
      <term><parameter>context</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ZMQContext object.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The socket type. See <constant>ZMQ::SOCKET_<replaceable>*</replaceable></constant> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>persistent_id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If <parameter>persistent_id</parameter> is specified the socket will be persisted over multiple requests.
        If <parameter>context</parameter> is not persistent the socket falls back to non-persistent mode.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>on_new_socket</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Callback function, which is executed when a new socket structure is created. This function does not get invoked
        if the underlying persistent connection is re-used.
-      </para>
+      </simpara>
       <methodsynopsis>
        <methodname><replaceable>callback</replaceable></methodname>
        <methodparam><type>ZMQSocket</type><parameter>socket</parameter></methodparam>
        <methodparam choice="opt"><type>string</type><parameter>persistent_id</parameter><initializer>&null;</initializer></methodparam>
       </methodsynopsis>
      </listitem>
-    </varlistentry>    
+    </varlistentry>
    </variablelist>
   </para>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>ZMQSocketException</classname> on error.
-  </para>
+  <simpara>
+   Throws <exceptionname>ZMQSocketException</exceptionname> on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -83,15 +83,15 @@
   <para>
    <example>
     <title>A <function>ZMQSocket</function> example</title>
-    <para>
+    <simpara>
      Using callback the bind/connect socket
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
 
 /*
-  The socket is persistent so this function is called only on the 
+  The socket is persistent so this function is called only on the
   first request to the script.
 */
 function on_new_socket_cb(ZMQSocket $socket, $persistent_id = null)
@@ -116,7 +116,7 @@ echo "Received message: {$message}\n";
     </programlisting>
    </example>
   </para>
- </refsect1> 
+ </refsect1>
 
 </refentry>
 

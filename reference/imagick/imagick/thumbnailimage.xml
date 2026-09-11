@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.thumbnailimage">
+<refentry xml:id="imagick.thumbnailimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::thumbnailImage</refname>
   <refpurpose>Changes the size of an image</refpurpose>
@@ -16,15 +16,15 @@
    <methodparam choice="opt"><type>bool</type><parameter>fill</parameter><initializer>&false;</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>legacy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Changes the size of an image to the given dimensions and removes any
    associated profiles. The goal is to produce small, low cost thumbnail
-   images suited for display on the Web. 
+   images suited for display on the Web.
 
    If &true; is given as a third parameter then columns and rows parameters
    are used as maximums for each side. Both sides will be scaled down until
    they match or are smaller than the parameter given for the side.
-  </para>
+  </simpara>
   &imagick.bestfit.note;
  </refsect1>
 
@@ -35,42 +35,42 @@
     <varlistentry>
      <term><parameter>columns</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       Image width
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>rows</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       Image height
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>bestfit</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       Whether to force maximum values
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>fill</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If the image does not fill the box completely then the box is filled with
        image's background color.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>legacy</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Round the smaller dimension down instead to the closest integer.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -79,16 +79,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.queryformats">
+<refentry xml:id="imagick.queryformats" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::queryFormats</refname>
   <refpurpose>Returns formats supported by Imagick</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>array</type><methodname>Imagick::queryFormats</methodname>
    <methodparam choice="opt"><type>string</type><parameter>pattern</parameter><initializer>"*"</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns formats supported by Imagick.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>pattern</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,16 +34,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing the formats supported by Imagick.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

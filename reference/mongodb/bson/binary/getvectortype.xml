@@ -30,7 +30,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simplelist>
-   <member>Throws <classname>MongoDB\Driver\Exception\LogicException</classname> if the subtype is not <constant>MongoDB\BSON\Binary::SUBTYPE_VECTOR</constant>.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\LogicException</exceptionname> if the subtype is not <constant>MongoDB\BSON\Binary::SUBTYPE_VECTOR</constant>.</member>
    &mongodb.throws.argumentparsing;
   </simplelist>
  </refsect1>

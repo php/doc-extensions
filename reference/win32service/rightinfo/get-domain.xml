@@ -13,9 +13,9 @@
    <modifier>final</modifier> <modifier>public</modifier> <type class="union"><type>string</type><type>null</type></type> <methodname>Win32Service\RightInfo::getDomain</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Return the user's domain.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues"><!-- {{{ -->
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Return the domain name or &null; if no domain found (local account or user GUID resolve fail).
-  </para>
+  </simpara>
  </refsect1><!-- }}} -->
 
  <refsect1 role="seealso">

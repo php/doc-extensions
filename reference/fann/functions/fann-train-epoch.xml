@@ -14,19 +14,19 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>resource</type><parameter>data</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Train one epoch with the training data stored in data. One epoch is
    where all of the training data is considered exactly once.
-  </para>
+  </simpara>
   <simpara>
    This function returns the MSE error as it is calculated either before or during the actual training.
    This is not the actual MSE after the training epoch, but since calculating this would require going
    through the entire training set once more, it is more than adequate to use this value during training.
   </simpara>
-  <para>
+  <simpara>
    The training algorithm used by this function is chosen by <function>fann_set_training_algorithm</function>
    function.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -49,9 +49,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The MSE, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

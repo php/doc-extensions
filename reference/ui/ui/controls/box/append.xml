@@ -14,9 +14,9 @@
    <methodparam><type>Control</type><parameter>control</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>stretchy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall append the given control to this Box
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>control</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The control to append
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>stretchy</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Set true to stretch the control
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Shall return the index of the appended control, may be 0
-  </para>
+  </simpara>
  </refsect1>
 
 

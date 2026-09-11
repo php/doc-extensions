@@ -14,10 +14,10 @@
    <methodparam choice="opt"><type>int</type><parameter>io_threads</parameter><initializer>1</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>is_persistent</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   Constructs a new ZMQ context. The context is used to initialize sockets. A persistent context is required 
-   to initialize persistent sockets. 
-  </para>
+  <simpara>
+   Constructs a new ZMQ context. The context is used to initialize sockets. A persistent context is required
+   to initialize persistent sockets.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,18 +27,18 @@
     <varlistentry>
      <term><parameter>io_threads</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Number of io-threads in the context.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>is_persistent</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Whether the context is persistent. Persistent context is stored
        over multiple requests and is a requirement for persistent sockets.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>ZMQContextException</classname> if context initialization fails.
-  </para>
+  <simpara>
+   Throws <exceptionname>ZMQContextException</exceptionname> if context initialization fails.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -57,9 +57,9 @@
   <para>
    <example>
     <title>A <function>ZMQContext</function> example</title>
-    <para>
+    <simpara>
      Construct a new context and allocate request socket from it
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagegravity">
+<refentry xml:id="imagick.getimagegravity" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageGravity</refname>
   <refpurpose>Gets the image gravity</refpurpose>
@@ -13,12 +13,12 @@
    <void />
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Gets the current gravity value of the
    image. Unlike <function>Imagick::getGravity</function>, this method
    returns the gravity defined for the current image sequence.
    &imagick.method.available.0x644;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,10 +28,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the images gravity property. Refer to the list of 
+  <simpara>
+   Returns the images gravity property. Refer to the list of
    <link linkend="imagick.constants.gravity">gravity constants</link>.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

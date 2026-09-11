@@ -6,16 +6,16 @@
 
  <section xml:id="fann.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    PHP &gt;= 5.2.0 and libfann &gt;= 2.1.0
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="fann.installation">
   &reftitle.install;
-  <para>
+  <simpara>
    The FANN PHP extension should work on all Linux systems.
- </para>
+ </simpara>
 
   <simplelist>
    <member>
@@ -33,11 +33,11 @@
 
    <title>FANN Library Installation</title>
 
-   <para>
+   <simpara>
     Before you start installation make sure that <emphasis>libfann</emphasis> is installed
     on your system. It's part of the main repository in the most Linux distributions
     (search for <emphasis>fann</emphasis>). You need a development version.
-   </para>
+   </simpara>
    <para>
     If it is not installed, you need to install it first. Either download it from the
     <link xlink:href="&url.fann.lib;">official site</link> or get it from your distro
@@ -58,10 +58,10 @@ $ sudo apt-get install libfann-dev
 ]]>
     </programlisting>
    </para>
-   <para>
+   <simpara>
     If the library is re-installed manually, then all old library file should be removed
     before re-installing otherwise the old library version could be linked.
-   </para>
+   </simpara>
   </section>
 
   <section xml:id="fann.installation.pecl">
@@ -104,9 +104,9 @@ $ sudo make install
     </programlisting>
    </para>
 
-   <para>
+   <simpara>
     Make the following changes to php.ini:
-   </para>
+   </simpara>
    <itemizedlist>
     <listitem>
      <para>
@@ -158,9 +158,9 @@ extension=fann.so
 
  <section xml:id="fann.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </section>
 
 </chapter>

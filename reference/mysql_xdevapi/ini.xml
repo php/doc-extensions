@@ -68,9 +68,9 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
-       
-      </para>
+      <simpara>
+
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.xmysqlnd.collect-statistics">
@@ -79,9 +79,9 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
-       
-      </para>
+      <simpara>
+
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.xmysqlnd.debug">
@@ -90,9 +90,9 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
-       
-      </para>
+      <simpara>
+
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.xmysqlnd.mempool-default-size">
@@ -101,9 +101,9 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
-       
-      </para>
+      <simpara>
+
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.xmysqlnd.net-read-timeout">
@@ -112,9 +112,9 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
-       
-      </para>
+      <simpara>
+
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.xmysqlnd.trace-alloc">
@@ -123,9 +123,9 @@
       <type>string</type>
      </term>
      <listitem>
-      <para>
-       
-      </para>
+      <simpara>
+
+      </simpara>
      </listitem>
     </varlistentry>
 

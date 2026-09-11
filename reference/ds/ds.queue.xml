@@ -10,11 +10,11 @@
 
   <section xml:id="ds-queue.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Queue is a “first in, first out” or “FIFO” collection that only allows
     access to the value at the front of the queue and iterates in that order,
     destructively.
-   </para>
+   </simpara>
   </section>
 
   <section xml:id="ds-queue.synopsis">
@@ -57,7 +57,7 @@
     <varlistentry xml:id="ds-queue.constants.min-capacity">
      <term><constant>Ds\Queue::MIN_CAPACITY</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

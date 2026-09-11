@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Ds\Pair</type><methodname>Ds\Pair::copy</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns a shallow copy of the pair.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a shallow copy of the pair.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

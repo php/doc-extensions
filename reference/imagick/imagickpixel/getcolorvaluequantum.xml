@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type class="union"><type>int</type><type>float</type></type><methodname>ImagickPixel::getColorValueQuantum</methodname>
    <methodparam><type>int</type><parameter>color</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the quantum value of a color in the ImagickPixel. Return value is a float if ImageMagick was compiled with HDRI, otherwise an integer.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The quantum value of the color element. Float if ImageMagick was compiled with HDRI, otherwise an int.
-  </para>
+  </simpara>
  </refsect1>
 
 

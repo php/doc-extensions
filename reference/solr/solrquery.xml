@@ -11,9 +11,9 @@
 <!-- {{{ SolrQuery intro -->
   <section xml:id="solrquery.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents a collection of name-value pairs sent to the Solr server during a request.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,12 +29,12 @@
      <ooclass>
       <classname>SolrQuery</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>SolrModifiableParams</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>Serializable</interfacename>
      </oointerface>
@@ -80,12 +80,12 @@
 
     <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
 
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrquery')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])"/>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrquery')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])"/>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrquery')/db:refentry/db:refsect1[@role='description']/descendant::db:destructorsynopsis[not(@role='procedural')])"/>
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrmodifiableparams')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[1])"/>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrmodifiableparams')/db:refentry/db:refsect1[@role='description']/descendant::db:destructorsynopsis[1])"/>
@@ -95,7 +95,7 @@
 
   </section>
 
-  
+
 <!-- {{{ SolrQuery constants -->
   <section xml:id="solrquery.constants">
    &reftitle.constants;
@@ -104,42 +104,42 @@
     <varlistentry xml:id="solrquery.constants.order-asc">
      <term><constant>SolrQuery::ORDER_ASC</constant></term>
      <listitem>
-      <para>Used to specify that the sorting should be in acending order</para>
+      <simpara>Used to specify that the sorting should be in acending order</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrquery.constants.order-desc">
      <term><constant>SolrQuery::ORDER_DESC</constant></term>
      <listitem>
-      <para>Used to specify that the sorting should be in descending order</para>
+      <simpara>Used to specify that the sorting should be in descending order</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrquery.constants.facet-sort-index">
      <term><constant>SolrQuery::FACET_SORT_INDEX</constant></term>
      <listitem>
-      <para>Used to specify that the facet should sort by index</para>
+      <simpara>Used to specify that the facet should sort by index</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrquery.constants.facet-sort-count">
      <term><constant>SolrQuery::FACET_SORT_COUNT</constant></term>
      <listitem>
-      <para>Used to specify that the facet should sort by count</para>
+      <simpara>Used to specify that the facet should sort by count</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrquery.constants.terms-sort-index">
      <term><constant>SolrQuery::TERMS_SORT_INDEX</constant></term>
      <listitem>
-      <para>Used in the TermsComponent</para>
+      <simpara>Used in the TermsComponent</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrquery.constants.terms-sort-count">
      <term><constant>SolrQuery::TERMS_SORT_COUNT</constant></term>
      <listitem>
-      <para>Used in the TermsComponent</para>
+      <simpara>Used in the TermsComponent</simpara>
      </listitem>
     </varlistentry>
 

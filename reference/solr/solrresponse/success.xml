@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrResponse::success</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Used to check if the request to the server was successful.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if it was successful and &false; if it was not.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

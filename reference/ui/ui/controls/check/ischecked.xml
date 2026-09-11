@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>UI\Controls\Check::isChecked</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall detect the status of this Check
-  </para>
+  </simpara>
 
  </refsect1>
 

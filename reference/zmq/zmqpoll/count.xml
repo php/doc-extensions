@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>ZMQPoll::count</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Count the items in the poll set.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an &integer; representing the amount of items in the poll set.
-  </para>
+  </simpara>
  </refsect1>
 
 

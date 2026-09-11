@@ -14,19 +14,19 @@
    <methodname>Event::free</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Removes event from the list of events monitored by libevent, and free
    resources allocated for the event.
-  </para>
+  </simpara>
   <warning>
-   <para>
+   <simpara>
     The
     <methodname>Event::free</methodname>
     method currently doesn't destruct the object itself. To destruct the
     object completely call
     <function>unset</function>,
     or assign &null;.
-   </para>
+   </simpara>
   </warning>
  </refsect1>
  <refsect1 role="parameters">
@@ -35,9 +35,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

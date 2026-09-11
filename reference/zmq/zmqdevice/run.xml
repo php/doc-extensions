@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>ZMQDevice::run</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Runs the device.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,11 +25,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Call to this method will block until the device is running. It is not recommended
    that devices are used from interactive scripts. On failure this method will throw
    ZMQDeviceException.
-  </para>
+  </simpara>
  </refsect1>
 
 

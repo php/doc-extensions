@@ -25,33 +25,33 @@
    <varlistentry>
     <term><parameter>path</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the node. Expressed as a file name with slashes separating ancestors of the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The data to be stored in the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>version</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The expected version of the node. The function will fail if the actual version of the node does not match the expected version. If -1 is used the version check will not take place.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>stat</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If not NULL, will hold the value of stat for the path on return.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -59,19 +59,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or fail to save value to node.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -80,9 +80,9 @@
   &reftitle.examples;
   <example xml:id="zookeeper.set.example.basic">
    <title><methodname>Zookeeper::set</methodname> example</title>
-   <para>
+   <simpara>
      Save value to node.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -111,7 +111,7 @@ SUCCESS
   <simplelist>
    <member><methodname>Zookeeper::create</methodname></member>
    <member><methodname>Zookeeper::get</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

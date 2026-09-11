@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\Table intro -->
   <section xml:id="mysql-xdevapi-table.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Provides access to the table through INSERT/SELECT/UPDATE/DELETE statements.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -57,7 +57,7 @@
     <varlistentry xml:id="mysql-xdevapi-table.props.name">
      <term><varname>name</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>

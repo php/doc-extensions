@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>ZMQPoll::remove</methodname>
    <methodparam><type>mixed</type><parameter>item</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Remove item from the poll set. The <parameter>item</parameter> parameter can be ZMQSocket object,
    a stream resource or the id returned from <function>ZMQPoll::add</function> method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>item</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The ZMQSocket object, PHP stream or &string; id of the item.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,10 +37,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns true if the item was removed and false if the object 
+  <simpara>
+   Returns true if the item was removed and false if the object
    with given id does not exist in the poll set.
-  </para>
+  </simpara>
  </refsect1>
 
 

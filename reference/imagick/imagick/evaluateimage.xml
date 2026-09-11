@@ -28,28 +28,28 @@
     <varlistentry>
      <term><parameter>op</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The evaluation operator
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>constant</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The value of the operator
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of  <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -58,26 +58,26 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
   <example>
    <title>Using <function>Imagick::evaluateImage</function></title>
-   <para>
+   <simpara>
     Using evaluateImage to reduce opacity in an image.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php

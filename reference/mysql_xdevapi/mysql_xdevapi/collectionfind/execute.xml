@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>mysql_xdevapi\DocResult</type><methodname>mysql_xdevapi\CollectionFind::execute</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Execute the find operation;
    this functionality allows for method chaining.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,10 +25,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A <classname>mysql_xdevapi\DocResult</classname> object that can be used
    to either fetch results from, or to query the status of the operation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -17,9 +17,9 @@
    <methodparam><type>array</type><parameter>acls</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method will create a node in ZooKeeper. A node can only be created if it does not already exists. The Create Flags affect the creation of nodes. If ZOO_EPHEMERAL flag is set, the node will automatically get removed if the client session goes away. If the ZOO_SEQUENCE flag is set, a unique monotonically increasing sequence number is appended to the path name.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,33 +28,33 @@
    <varlistentry>
     <term><parameter>path</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the node. Expressed as a file name with slashes separating ancestors of the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The data to be stored in the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>acls</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The initial ACL of the node. The ACL must not be null or empty.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>flags</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       this parameter can be set to 0 for normal create or an OR of the Create Flags
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -62,19 +62,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the path of the new node (this might be different than the supplied path because of the ZOO_SEQUENCE flag) on success, and false on failure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or fail to create node.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -83,9 +83,9 @@
   &reftitle.examples;
   <example xml:id="zookeeper.create.example.basic">
    <title><methodname>Zookeeper::create</methodname> example</title>
-   <para>
+   <simpara>
      Create a new node.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -121,7 +121,7 @@ else
    <member><methodname>Zookeeper::delete</methodname></member>
    <member><methodname>Zookeeper::getChildren</methodname></member>
    <member><link linkend="zookeeper.constants.perms">ZooKeeper Permissions</link></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

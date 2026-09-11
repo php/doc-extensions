@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>Vtiful\Kernel\Excel::addSheet</methodname>
    <methodparam><type>string</type><parameter>sheetName</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Create a new worksheet in the xlsx file.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>sheetName</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Worksheet name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <classname>Vtiful\Kernel\Excel</classname> instance
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

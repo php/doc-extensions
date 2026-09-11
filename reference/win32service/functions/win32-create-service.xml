@@ -14,10 +14,10 @@
    <methodparam><type>array</type><parameter>details</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Attempts to add a service into the SCM database. Administrative
    privileges are required for this to succeed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,246 +33,246 @@
         <varlistentry>
          <term><parameter>service</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            The short name of the service.  This is the name that you
            will use to control the service using the <literal>net</literal>
            command.  The service must be unique (no two services can share the
            same name), and, ideally, should avoid having spaces in the name.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>display</parameter></term>
          <listitem>
-          <para>The display name of the service.  This is the name that you
+          <simpara>The display name of the service.  This is the name that you
           will see in the Services Applet.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>description</parameter></term>
          <listitem>
-          <para>The long description of the service.  This is the description
+          <simpara>The long description of the service.  This is the description
           that you will see in the Services Applet.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>user</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            The name of the user account under which you want the service to
            run.  If omitted, the service will run as the LocalSystem account.
            If the username is specified, you must also provide a password.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>password</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            The password that corresponds to the <parameter>user</parameter>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>path</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            The full path to the executable module that will be launched when
            the service is started.  If omitted, the path to the current PHP
            process will be used.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>params</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            Command line parameters to pass to the service when it starts.
            If you want to run a PHP script as the service, then the first
            parameter should be the full path to the PHP script that you intend
            to run. If the script name or path contains spaces, then wrap the
            full path to the PHP script with <literal>"</literal>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>load_order</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            Controls the load_order.  This is not yet fully supported.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>svc_type</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            Sets the service type.  If omitted, the default value is
            <constant>WIN32_SERVICE_WIN32_OWN_PROCESS</constant>.
            Don't change this unless you know what you're doing.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>start_type</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            Specifies how the service should be started.  The default is
            <constant>WIN32_SERVICE_AUTO_START</constant> which means the
            service will be launched when the machine starts up.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>error_control</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            Informs the SCM what it should do when it detects a problem with
            the service.  The default is
            <constant>WIN32_SERVER_ERROR_IGNORE</constant>.  Changing this
            value is not yet fully supported.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>delayed_start</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            If <parameter>delayed_start</parameter> is set to &true;, then this
            will inform the SCM that this service should be started after other
            auto-start services are started plus a short delay.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            Any service can be marked as a delayed auto-start service; however,
            this setting has no effect unless the service's
            <parameter>start_type</parameter> is
            <constant>WIN32_SERVICE_AUTO_START</constant>.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            This setting is only applicable on Windows Vista and Windows Server
            2008 or greater.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>base_priority</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            To reduce the impact on processor utilisation, it may be necessary
            to set a base priority lower than normal.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            The <parameter>base_priority</parameter> can be set to one of the
            constants define in
            <link linkend="win32service.constants.basepriorities">Win32 Base Priority Classes</link>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>dependencies</parameter></term>
          <listitem>
-          <para>
-           To define the dependencies for your service, it may be necessary to set 
+          <simpara>
+           To define the dependencies for your service, it may be necessary to set
            this parameter to the list of the services names in an array.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_delay</parameter></term>
          <listitem>
-          <para>
-           This parameter defines the delay between the fail and the execution 
+          <simpara>
+           This parameter defines the delay between the fail and the execution
            of recovery action. The value is in milliseconds.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            The default value is 60000.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_action_1</parameter></term>
          <listitem>
-          <para>
-           The action will be executed on first failure. The default value is 
+          <simpara>
+           The action will be executed on first failure. The default value is
            <constant>WIN32_SC_ACTION_NONE</constant>.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            The <parameter>recovery_action_1</parameter> can be set to one of the
            constants defined in
            <link linkend="win32service.constants.recovery-action">Win32 Recovery action</link>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_action_2</parameter></term>
          <listitem>
-          <para>
-           The action will be executed on second failure. The default value is 
+          <simpara>
+           The action will be executed on second failure. The default value is
            <constant>WIN32_SC_ACTION_NONE</constant>.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            The <parameter>recovery_action_2</parameter> can be set to one of the
            constants defined in
            <link linkend="win32service.constants.recovery-action">Win32 Recovery action</link>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_action_3</parameter></term>
          <listitem>
-          <para>
-           The action will be executed on next failures. The default value is 
+          <simpara>
+           The action will be executed on next failures. The default value is
            <constant>WIN32_SC_ACTION_NONE</constant>.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            The <parameter>recovery_action_3</parameter> can be set to one of the
            constants defined in
            <link linkend="win32service.constants.recovery-action">Win32 Recovery action</link>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_reset_period</parameter></term>
          <listitem>
-          <para>
+          <simpara>
            The failure count will be reset after the delay defined in the parameter. The delay is expirement in seconds.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            The default value is <literal>86400</literal>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_enabled</parameter></term>
          <listitem>
-          <para>
-           Set this parameter at &true; to enable the recovery settings, &false; 
-           to disable. 
-          </para>
-          <para>
+          <simpara>
+           Set this parameter at &true; to enable the recovery settings, &false;
+           to disable.
+          </simpara>
+          <simpara>
            The default value is &false;
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_reboot_msg</parameter></term>
          <listitem>
-          <para>
-           Set this parameter to define the message saved into the Windows Event 
-           Log before the reboot. Used only if one action is set to 
+          <simpara>
+           Set this parameter to define the message saved into the Windows Event
+           Log before the reboot. Used only if one action is set to
            <constant>WIN32_SC_ACTION_REBOOT</constant>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
          <term><parameter>recovery_command</parameter></term>
          <listitem>
-          <para>
-           Set this parameter to define the command executed when one action is defined on  
+          <simpara>
+           Set this parameter to define the command executed when one action is defined on
            <constant>WIN32_SC_ACTION_RUN_COMMAND</constant>.
-          </para>
+          </simpara>
          </listitem>
         </varlistentry>
        </variablelist>
@@ -282,10 +282,10 @@
     <varlistentry>
      <term><parameter>machine</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The optional machine name on which you want to create a service.
        If omitted, it will use the local machine.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -294,65 +294,65 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Prior to version 1.0.0, &win32service.noerror.false.error;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>service</parameter> parameter is empty.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>path</parameter> parameter is missing or empty.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>svc_type</parameter> parameter is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>start_type</parameter> parameter is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>error_control</parameter> parameter is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>base_priority</parameter> parameter  is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
-   value of <parameter>recovery_delay</parameter> parameter is not between 
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
+   value of <parameter>recovery_delay</parameter> parameter is not between
    0 and PHP_INT_MAX.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>recovery_action_1</parameter> parameter is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>recovery_action_2</parameter> parameter is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>recovery_action_3</parameter> parameter is wrong.
-  </para>
-  <para>
-   A <classname>ValueError</classname> is thrown if the
-   value of <parameter>recovery_reset_period</parameter> parameter is not 
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
+   value of <parameter>recovery_reset_period</parameter> parameter is not
    between 0 and PHP_INT_MAX.
-  </para>
-  <para>
-   A <classname>Win32ServiceException</classname> is thrown on error.
-  </para>
+  </simpara>
+  <simpara>
+   A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -370,15 +370,15 @@
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>ValueError</classname> on invalid data in parameters,
+        Throws a <exceptionname>ValueError</exceptionname> on invalid data in parameters,
         previously &false; was returned.
        </entry>
       </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>Win32ServiceException</classname> on error,
-        previously a 
+        Throws a <exceptionname>Win32ServiceException</exceptionname> on error,
+        previously a
         <link xmlns="http://docbook.org/ns/docbook" linkend="win32service.constants.errors">Win32 Error Code</link>
         was returned.
        </entry>
@@ -410,9 +410,9 @@
   <para>
    <example>
     <title>A <function>win32_create_service</function> example</title>
-    <para>
+    <simpara>
      Create a service with the short name 'dummyphp'.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -431,9 +431,9 @@ debug_zval_dump($x);
   <para>
    <example>
     <title>A <function>win32_create_service</function> example with dependencies</title>
-    <para>
+    <simpara>
      Create a service with the short name 'dummyphp' and dependencies.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -442,7 +442,7 @@ $x = win32_create_service(array(
     'display'      => 'sample dummy PHP service',                           // short description
     'description'  => 'This is a dummy Windows service created using PHP.', // long description
     'params'       => '"' . __FILE__ . '"  run',                            // path to the script and parameters
-    'dependencies' => array("Netman"),                                      // The list of the dependencies 
+    'dependencies' => array("Netman"),                                      // The list of the dependencies
 ));
 debug_zval_dump($x);
 ?>
@@ -453,9 +453,9 @@ debug_zval_dump($x);
   <para>
    <example>
     <title>A <function>win32_create_service</function> example with recovery</title>
-    <para>
+    <simpara>
      Create a service with the short name 'dummyphp' and recovery settings.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

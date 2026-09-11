@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-fetch-assoc">
+<refentry xml:id="function.ibase-fetch-assoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_fetch_assoc</refname>
   <refpurpose>Fetch a result row from a query as an associative array</refpurpose>

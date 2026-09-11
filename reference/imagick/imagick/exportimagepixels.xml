@@ -18,11 +18,11 @@
    <methodparam><type>string</type><parameter>map</parameter></methodparam>
    <methodparam><type>int</type><parameter>STORAGE</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Exports image pixels into an array. The map defines the ordering of the exported 
+  <simpara>
+   Exports image pixels into an array. The map defines the ordering of the exported
    pixels. The size of the returned array is <literal>width * height * strlen(map)</literal>.
    &imagick.method.available.0x647;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,50 +32,50 @@
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        X-coordinate of the exported area
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Y-coordinate of the exported area
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>width</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Width of the exported aread
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>height</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Height of the exported area
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>map</parameter></term>
      <listitem>
-      <para>
-       Ordering of the exported pixels. For example <literal>"RGB"</literal>. 
-       Valid characters for the map are R, G, B, A, O, C, Y, M, K, I and P.    
-      </para>
+      <simpara>
+       Ordering of the exported pixels. For example <literal>"RGB"</literal>.
+       Valid characters for the map are R, G, B, A, O, C, Y, M, K, I and P.
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>STORAGE</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Refer to this list of <link linkend="imagick.constants.pixel">pixel type constants</link>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -84,26 +84,26 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing the pixels values.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
     <title>Using <function>Imagick::exportImagePixels</function></title>
-    <para>
+    <simpara>
      Export image pixels into an array
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pushdefs">
+<refentry xml:id="imagickdraw.pushdefs" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pushDefs</refname>
   <refpurpose>Indicates that following commands create named elements for early processing</refpurpose>
@@ -13,18 +13,18 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Indicates that commands up to a terminating <methodname>ImagickDraw::popDefs</methodname>
    command create named elements (e.g. clip-paths, textures, etc.) which
    may safely be processed earlier for the sake of efficiency.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

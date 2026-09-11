@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Entry::onChange</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the text in this Entry changes
-  </para>
+  </simpara>
 
  </refsect1>
 

@@ -13,9 +13,9 @@
    <type>mysql_xdevapi\Session</type><methodname>mysql_xdevapi\getSession</methodname>
    <methodparam><type>string</type><parameter>uri</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Connects to the MySQL server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,83 +24,83 @@
    <varlistentry>
     <term><parameter>uri</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The URI to the MySQL server, such as <literal>mysqlx://user:password@host</literal>.
-     </para>
-     <para>
+     </simpara>
+     <simpara>
       URI format:
-     </para>
-     <para>
+     </simpara>
+     <simpara>
       <code>scheme://[user[:[password]]@]target[:port][?attribute1=value1&amp;attribute2=value2...</code>
-     </para>
+     </simpara>
      <itemizedlist>
       <listitem>
-        <para><literal>scheme</literal>: required, the connection protocol</para>
-        <para>In mysql_xdevapi it is always 'mysqlx' (for X Protocol)</para>
+        <simpara><literal>scheme</literal>: required, the connection protocol</simpara>
+        <simpara>In mysql_xdevapi it is always 'mysqlx' (for X Protocol)</simpara>
       </listitem>
       <listitem>
-        <para><literal>user</literal>: optional, the MySQL user account for authentication</para>
+        <simpara><literal>user</literal>: optional, the MySQL user account for authentication</simpara>
       </listitem>
       <listitem>
-        <para><literal>password</literal>: optional, the MySQL user's password for authentication</para>
+        <simpara><literal>password</literal>: optional, the MySQL user's password for authentication</simpara>
       </listitem>
       <listitem>
-        <para><literal>target</literal>: required, the server instance the connection refers to:</para>
-        <para>* TCP connection (host name, IPv4 address, or IPv6 address)</para>
-        <para>* Unix socket path (local file path)</para>
-        <para>* Windows named-pipe (local file path)</para>
+        <simpara><literal>target</literal>: required, the server instance the connection refers to:</simpara>
+        <simpara>* TCP connection (host name, IPv4 address, or IPv6 address)</simpara>
+        <simpara>* Unix socket path (local file path)</simpara>
+        <simpara>* Windows named-pipe (local file path)</simpara>
       </listitem>
       <listitem>
-        <para><literal>port</literal>: optional, network port of MySQL server.</para>
-        <para>by default port for X Protocol is 33060</para>
+        <simpara><literal>port</literal>: optional, network port of MySQL server.</simpara>
+        <simpara>by default port for X Protocol is 33060</simpara>
       </listitem>
       <listitem>
-        <para>
-          <literal>?attribute=value</literal>: this element is optional and specifies a data dictionary 
+        <simpara>
+          <literal>?attribute=value</literal>: this element is optional and specifies a data dictionary
           that contains different options, including:
-        </para>
+        </simpara>
         <itemizedlist>
           <listitem>
-          <para>
+          <simpara>
             The <literal>auth</literal> (authentication mechanism) attribute as it relates to encrypted connections.
             For additional information, see <link xlink:href="&url.mysql.docs.connect.encryption;">Command
             Options for Encrypted Connections</link>.
             The following 'auth' values are supported: <literal>plain</literal>,
             <literal>mysql41</literal>, <literal>external</literal>, and <literal>sha256_mem</literal>.
-          </para>
+          </simpara>
           </listitem>
           <listitem>
-          <para>
+          <simpara>
            The <literal>connect-timeout</literal> attribute affects the connection
            and not subsequent operations. It is set per connection whether on
            a single or multiple hosts.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
            Pass in a positive integer to define the connection timeout in seconds,
            or pass in 0 (zero) to disable the timeout (infinite). Not defining
            connect-timeout uses the default value of 10.
-          </para>
-          <para>
+          </simpara>
+          <simpara>
             Related, the MYSQLX_CONNECTION_TIMEOUT (timeout in seconds) and MYSQLX_TEST_CONNECTION_TIMEOUT (used while running tests)
             environment variables can be set and used instead of connect-timeout in the URI. The
             connect-timeout URI option has precedence over these environment variables.
-          </para>
+          </simpara>
           </listitem>
           <listitem>
-            <para>
-              The optional <literal>compression</literal> attribute accepts these values: 
-              <literal>preferred</literal> (client negotiates with server to find a supported algorithm; connection is uncompressed if a mutually supported algorithm is not found), 
+            <simpara>
+              The optional <literal>compression</literal> attribute accepts these values:
+              <literal>preferred</literal> (client negotiates with server to find a supported algorithm; connection is uncompressed if a mutually supported algorithm is not found),
               <literal>required</literal> (like "preferred", but connection is terminated if a mutually supported algorithm is not found), or
               <literal>disabled</literal> (connection is uncompressed). Defaults to <literal>preferred</literal>.
-            </para>
-            <para>
+            </simpara>
+            <simpara>
               This option was added in version 8.0.20.
-            </para>
+            </simpara>
           </listitem>
           <listitem>
-            <para>
-              The optional <literal>compression-algorithms</literal> attribute defines 
-              the desired compression algorithms (and their preferred usage order): 
+            <simpara>
+              The optional <literal>compression-algorithms</literal> attribute defines
+              the desired compression algorithms (and their preferred usage order):
               <literal>zstd_stream</literal> (alias: zstd),
               <literal>lz4_message</literal> (alias: lz4), or
               <literal>deflate_stream</literal> (aliases: deflate or zlib).
@@ -108,10 +108,10 @@
               For example, passing in compression-algorithms=[lz4,zstd_stream] uses lz4 if it's available, otherwise
               zstd_stream is used. If both are unavailable then behavior depends on the compression value
               e.g., if compression=required then it'll fail with an error.
-            </para>
-            <para>
+            </simpara>
+            <simpara>
               This option was added in version 8.0.22.
-            </para>
+            </simpara>
           </listitem>
         </itemizedlist>
        </listitem>
@@ -137,10 +137,10 @@ mysqlx://foo:bar@localhost:33160/?connect-timeout=10&amp;compression=required&am
   </programlisting>
 </example>
 
-   <para>
+   <simpara>
     For related information, see MySQL Shell's
     <link xlink:href="&url.mysql.docs.connect.shell.uri;">Connecting using a URI String</link>.
-   </para>
+   </simpara>
 
     </listitem>
    </varlistentry>
@@ -149,16 +149,16 @@ mysqlx://foo:bar@localhost:33160/?connect-timeout=10&amp;compression=required&am
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A <classname>Session</classname> object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   A connection failure throws an <classname>Exception</classname>.
-  </para>
+  <simpara>
+   A connection failure throws an <exceptionname>Exception</exceptionname>.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

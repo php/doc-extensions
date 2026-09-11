@@ -14,10 +14,10 @@
    <methodparam><type>array</type><parameter>real0</parameter></methodparam>
    <methodparam><type>array</type><parameter>real1</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Calculates the vector subtraction of <parameter>real1</parameter> from
    <parameter>real0</parameter> and returns the resulting vector.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>real0</parameter></term>
     <listitem>
-     <para>
-      &trader.arg.array.of.real;      
-     </para>
+     <simpara>
+      &trader.arg.array.of.real;
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>real1</parameter></term>
     <listitem>
-     <para>
-      &trader.arg.array.of.real;      
-     </para>
+     <simpara>
+      &trader.arg.array.of.real;
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,7 +44,7 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>Returns an array with calculated data or false on failure.</para>
+  <simpara>Returns an array with calculated data or false on failure.</simpara>
  </refsect1>
 
 

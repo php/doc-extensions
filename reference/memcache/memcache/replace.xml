@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.replace">
+<refentry xml:id="memcache.replace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::replace</refname>
   <refname>memcache_replace</refname>

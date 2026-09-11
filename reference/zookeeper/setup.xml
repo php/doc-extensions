@@ -7,10 +7,10 @@
  <!-- {{{ Requirements -->
  <section xml:id="zookeeper.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    This extension requires <link xlink:href="&url.zookeeper;">ZooKeeper</link> C Binding (version 3.4.1 or greater).
    For more information, see <link xlink:href="&url.zookeeper.doc.cbinding;">ZooKeeper Programmer's Guide</link>.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 

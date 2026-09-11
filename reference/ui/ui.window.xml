@@ -11,9 +11,9 @@
 <!-- {{{ UI\Window intro -->
   <section xml:id="ui-window.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Represents a UI Window
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -29,7 +29,7 @@
      <ooclass>
       <classname>UI\Window</classname>
      </ooclass>
-     
+
      <ooclass>
       <modifier>extends</modifier>
       <classname>UI\Control</classname>
@@ -44,10 +44,10 @@
 
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-window')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-window')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-control')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
 
@@ -63,9 +63,9 @@
     <varlistentry xml:id="ui-window.props.controls">
      <term><varname>controls</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Contains controls, should not be manipulated directly
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>

@@ -3,12 +3,12 @@
 
 <chapter xml:id="memcached.sessions" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Sessions support</title>
- <para>Memcached provides a custom session handler that can be used to store
+ <simpara>Memcached provides a custom session handler that can be used to store
   user sessions in memcache. A completely separate memcached instance is used
   for that internally, so you can use a different server pool if necessary. The
   session keys are stored under the prefix
   <literal>memc.sess.key.</literal>, so be aware of this if you use the
-  same server pool for sessions and generic caching.</para>
+  same server pool for sessions and generic caching.</simpara>
  <para>
   <variablelist>
 
@@ -18,9 +18,9 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Set to <literal>memcached</literal> to enable sessions support.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
 
@@ -30,11 +30,11 @@
      <type>string</type>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Defines a comma separated of <literal>hostname:port</literal> entries to
       use for session server pool, for example
       <literal>"sess1:11211, sess2:11211"</literal>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
 

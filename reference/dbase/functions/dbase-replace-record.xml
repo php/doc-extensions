@@ -13,9 +13,9 @@
    <methodparam><type>array</type><parameter>data</parameter></methodparam>
    <methodparam><type>int</type><parameter>number</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Replaces the given record in the database with the given data.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,35 +24,35 @@
     <varlistentry>
      <term><parameter>database</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The database resource, returned by <function>dbase_open</function>
        or <function>dbase_create</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>data</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An indexed array of data. The number of items must be equal to the
        number of fields in the database, otherwise
        <function>dbase_replace_record</function> will fail.
-      </para>
+      </simpara>
       <note>
-       <para>
+       <simpara>
         If you're using <function>dbase_get_record</function> return value for this
         parameter, remember to reset the key named <literal>deleted</literal>.
-       </para>
+       </simpara>
       </note>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>number</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An integer which spans from 1 to the number of records in the database
        (as returned by <function>dbase_numrecords</function>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -60,9 +60,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -103,13 +103,13 @@ $db = dbase_open('/tmp/test.dbf', 2);
 if ($db) {
   // gets the old row
   $row = dbase_get_record_with_names($db, 1);
-  
+
   // remove the 'deleted' entry
   unset($row['deleted']);
-  
+
   // Update the date field with the current timestamp
   $row['date'] = date('Ymd');
-  
+
   // convert the row to an indexed array
   $row = array_values($row);
 
@@ -128,14 +128,14 @@ if ($db) {
  <refsect1 role="notes"><!-- {{{ -->
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Boolean fields result in an <type>int</type> element value
     (<literal>0</literal> or <literal>1</literal>) when retrieved via
     <function>dbase_get_record</function> or
     <function>dbase_get_record_with_names</function>. If they are written back,
     this results in the value becoming <literal>0</literal>, so care has to be
     taken to properly adjust the values.
-   </para>
+   </simpara>
   </note>
  </refsect1><!-- }}} -->
 

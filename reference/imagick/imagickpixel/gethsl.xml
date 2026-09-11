@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.gethsl">
+<refentry xml:id="imagickpixel.gethsl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixel::getHSL</refname>
   <refpurpose>Returns the normalized HSL color of the ImagickPixel object</refpurpose>
@@ -12,11 +12,11 @@
    <modifier>public</modifier> <type>array</type><methodname>ImagickPixel::getHSL</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the normalized HSL color described by the ImagickPixel object,
    with each of the three values as floating point numbers between 0.0
    and 1.0.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,10 +26,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the HSL value in an array with the keys "hue",
    "saturation", and "luminosity". Throws ImagickPixelException on failure.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -68,9 +68,9 @@ Array
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Available with ImageMagick library version 6.2.9 and higher.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

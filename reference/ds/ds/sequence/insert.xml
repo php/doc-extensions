@@ -26,9 +26,9 @@
    <varlistentry>
     <term><parameter>index</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The index at which to insert. <code>0 &lt;= index &lt;= count</code>
-     </para>
+     </simpara>
      <note>
         <simpara>
             You can insert at the index equal to the number of values.

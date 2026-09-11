@@ -14,9 +14,9 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>float</type><parameter>cascade_weight_multiplier</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the weight multiplier.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,9 +31,9 @@
    <varlistentry>
     <term><parameter>cascade_weight_multiplier</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The weight multiplier.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

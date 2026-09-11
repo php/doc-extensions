@@ -23,17 +23,17 @@
    <varlistentry>
     <term><parameter>path</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the node. Expressed as a file name with slashes separating ancestors of the node.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>watcher_cb</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       if nonzero, a watch will be set at the server to notify the client if the node changes. The watch will be set even if the node does not
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -41,19 +41,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the value of stat for the path if the given node exists, otherwise false.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    This method emits PHP error/warning when parameters count or types are wrong or fail to check the existence of a node.
-  </para>
+  </simpara>
   <caution>
     <simpara>
-      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and its derivatives.
+      Since version 0.3.0, this method emits <exceptionname>ZookeeperException</exceptionname> and its derivatives.
     </simpara>
   </caution>
  </refsect1>
@@ -62,9 +62,9 @@
   &reftitle.examples;
   <example xml:id="zookeeper.exists.example.basic">
    <title><methodname>Zookeeper::exists</methodname> example</title>
-   <para>
+   <simpara>
      Check the existence of a node.
-   </para>
+   </simpara>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -91,7 +91,7 @@ EXISTS
   &reftitle.seealso;
   <simplelist>
    <member><methodname>Zookeeper::get</methodname></member>
-   <member><classname>ZookeeperException</classname></member>
+   <member><exceptionname>ZookeeperException</exceptionname></member>
   </simplelist>
  </refsect1>
 

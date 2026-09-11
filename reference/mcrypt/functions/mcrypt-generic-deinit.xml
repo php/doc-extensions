@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mcrypt-generic-deinit">
+<refentry xml:id="function.mcrypt-generic-deinit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_generic_deinit</refname>
   <refpurpose>This function deinitializes an encryption module</refpurpose>

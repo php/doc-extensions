@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ibm-db2.configuration">
+<section xml:id="ibm-db2.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
  &extension.runtime;
  <table>
@@ -507,13 +507,13 @@
     <type>string</type>
    </term>
    <listitem>
-    <para>
+    <simpara>
      On Linux and UNIX operating systems, this option defines the name of the
      instance to use for cataloged database connections.
      By default, this option is &null;.
      If this option is set, its value overrides the
      <varname>DB2INSTANCE</varname> environment variable setting.
-    </para>
+    </simpara>
     <simpara>
      This option is ignored on Windows operating systems.
     </simpara>

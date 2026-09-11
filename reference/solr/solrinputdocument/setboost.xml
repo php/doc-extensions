@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrInputDocument::setBoost</methodname>
    <methodparam><type>float</type><parameter>documentBoostValue</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the boost value for this document.
-  </para>
-  
+  </simpara>
+
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>documentBoostValue</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The index-time boost value for this document.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<appendix xmlns="http://docbook.org/ns/docbook" xml:id="mqseries.constants">
+<appendix xml:id="mqseries.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  <simpara>
   For each WebSphere MQ Constant there is a mqseries counterpart.

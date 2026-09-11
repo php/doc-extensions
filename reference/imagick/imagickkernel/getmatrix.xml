@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>array</type><methodname>ImagickKernel::getMatrix</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Get the 2d matrix of values used in this kernel. The elements are either
    float for elements that are used or 'false' if the element should be skipped.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,9 +27,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A matrix (2d array) of the values that represent the kernel.
-  </para>
+  </simpara>
  </refsect1>
 
 

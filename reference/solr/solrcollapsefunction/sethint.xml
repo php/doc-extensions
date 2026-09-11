@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrCollapseFunction</type><methodname>SolrCollapseFunction::setHint</methodname>
    <methodparam><type>string</type><parameter>hint</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Sets collapse hint
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>hint</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Currently there is only one hint available "top_fc", which stands for top level FieldCache
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrCollapseFunction</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -61,7 +61,7 @@
    </screen>
   </example>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

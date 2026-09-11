@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.coalesceimages">
+<refentry xml:id="imagick.coalesceimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::coalesceImages</refname>
   <refpurpose>Composites a set of images</refpurpose>
@@ -12,14 +12,14 @@
    <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::coalesceImages</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Composites a set of images while respecting any page offsets
    and disposal methods.  GIF, MIFF, and MNG animation sequences
    typically start with an image background and each subsequent
    image varies in size and offset.  Returns a new Imagick object
    where each image in the sequence is the same size as the first
    and composited with the next image in the sequence.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,16 +29,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a new Imagick object on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

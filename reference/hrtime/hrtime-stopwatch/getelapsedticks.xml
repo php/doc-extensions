@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="hrtime-stopwatch.getelapsedticks">
+<refentry xml:id="hrtime-stopwatch.getelapsedticks" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>HRTime\StopWatch::getElapsedTicks</refname>
   <refpurpose>Get elapsed ticks for all intervals</refpurpose>

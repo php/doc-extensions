@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>mysql_xdevapi\Result</type><methodname>mysql_xdevapi\CollectionModify::execute</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    The execute method is required to send the CRUD operation request
    to the MySQL server.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -27,10 +27,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A Result object that can be used to verify the status of the operation,
    such as the number of affected rows.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

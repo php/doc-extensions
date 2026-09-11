@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="quickhashinthash.loadfromstring">
+<refentry xml:id="quickhashinthash.loadfromstring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>QuickHashIntHash::loadFromString</refname>
   <refpurpose>This factory method creates a hash from a string</refpurpose>

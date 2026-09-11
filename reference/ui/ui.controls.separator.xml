@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Separator intro -->
   <section xml:id="ui-controls-separator.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Separator represents a control separator, it has no other function.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -67,14 +67,14 @@
     <varlistentry xml:id="ui-controls-separator.constants.horizontal">
      <term><constant>UI\Controls\Separator::Horizontal</constant></term>
      <listitem>
-      <para>A Horizontal Separator</para>
+      <simpara>A Horizontal Separator</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-separator.constants.vertical">
      <term><constant>UI\Controls\Separator::Vertical</constant></term>
      <listitem>
-      <para>A Vertical Separator</para>
+      <simpara>A Vertical Separator</simpara>
      </listitem>
     </varlistentry>
 

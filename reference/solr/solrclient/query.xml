@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQueryResponse</type><methodname>SolrClient::query</methodname>
    <methodparam><type>SolrParams</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sends a query to the server.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>query</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        A <type>SolrParams</type> object. It is recommended to use <type>SolrQuery</type> for advanced queries.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,19 +37,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrQueryResponse</type> object on success and throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-    Throws <classname>SolrServerException</classname> if the Solr Server had failed to satisfy the query.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+    Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to satisfy the query.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

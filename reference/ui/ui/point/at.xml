@@ -17,9 +17,9 @@
    <modifier>public</modifier> <modifier>static</modifier> <type>UI\Point</type><methodname>UI\Point::at</methodname>
    <methodparam><type>UI\Size</type><parameter>size</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall return a UI\Point object where x and y are equal to those supplied, either in float or UI\Size form
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -29,17 +29,17 @@
    <varlistentry>
     <term><parameter>point</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value for x and y
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>size</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The Size to convert
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The resulting Point
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Controls\Button::__construct</methodname>
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Shall construct a new Button
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>text</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The text (label) for this Button
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

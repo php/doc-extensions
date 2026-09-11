@@ -13,21 +13,21 @@
    <type>float</type><methodname>fann_get_cascade_output_change_fraction</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The cascade output change fraction is a number between 0 and 1 determining how large a fraction of the <function>fann_get_MSE</function>
    value should change within <function>fann_get_cascade_output_stagnation_epochs</function> during training of the output connections,
    in order for the training not to stagnate. If the training stagnates, the training of the output connections
    will be ended and new candidates will be prepared.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    It means that if the MSE does not change by a fraction of <function>fann_get_cascade_output_change_fraction</function> during
    a period of <function>fann_get_cascade_output_stagnation_epochs</function>, the training of the output connections is
    stopped because the training has stagnated.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    If the cascade output change fraction is low, the output connections will be trained more and if the fraction is high,
    they will be trained less.
-  </para>
+  </simpara>
   <simpara>
    The default cascade output change fraction is 0.01, which is equivalent to a 1% change in MSE.
   </simpara>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The cascade output change fraction, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.enhanceimage">
+<refentry xml:id="imagick.enhanceimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::enhanceImage</refname>
   <refpurpose>Improves the quality of a noisy image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::enhanceImage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Applies a digital filter that improves the quality of a noisy image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,16 +24,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -23,24 +23,24 @@
      </simpara>
     </note>
   </para>
-  <para>
+  <simpara>
     if this method return &true;, then the route process will be end. otherwise,
     <classname>Yaf_Router</classname> will call next route in the route stack
     to route request.
-  </para>
+  </simpara>
 
-  <para>
+  <simpara>
     This method would set the route result to the parameter request, by
     calling <methodname>Yaf_Request_Abstract::setControllerName</methodname>,
     <methodname>Yaf_Request_Abstract::setActionName</methodname> and
     <methodname>Yaf_Request_Abstract::setModuleName</methodname>.
-   </para>
+   </simpara>
 
-   <para>
+   <simpara>
     This method should also call
     <methodname>Yaf_Request_Abstract::setRouted</methodname> to make the
     request routed at last.
-   </para>
+   </simpara>
 
  </refsect1>
 
@@ -50,9 +50,9 @@
    <varlistentry>
     <term><parameter>request</parameter></term>
     <listitem>
-     <para>
+     <simpara>
        A <classname>Yaf_Request_Abstract</classname> instance.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -60,9 +60,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>string</type><methodname>SolrQuery::getQuery</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
 Returns the main search query
-  </para>
+  </simpara>
 
-  
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@ Returns the main search query
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns a string on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

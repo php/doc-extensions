@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setbackgroundcolor">
+<refentry xml:id="imagick.setbackgroundcolor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setBackgroundColor</refname>
   <refpurpose>Sets the object's default background color</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::setBackgroundColor</methodname>
    <methodparam><type>mixed</type><parameter>background</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the object's default background color.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,8 +24,8 @@
     <varlistentry>
      <term><parameter>background</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

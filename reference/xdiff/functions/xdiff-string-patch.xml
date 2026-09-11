@@ -6,7 +6,7 @@
   <refname>xdiff_string_patch</refname>
   <refpurpose>Patch a string with an unified diff</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -16,14 +16,14 @@
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter role="reference">error</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Patches a <parameter>str</parameter> string with an unified patch in <parameter>patch</parameter> parameter 
-   and returns the result. <parameter>patch</parameter> has to be an unified diff created by 
-   <function>xdiff_file_diff</function>/<function>xdiff_string_diff</function> function. 
+  <simpara>
+   Patches a <parameter>str</parameter> string with an unified patch in <parameter>patch</parameter> parameter
+   and returns the result. <parameter>patch</parameter> has to be an unified diff created by
+   <function>xdiff_file_diff</function>/<function>xdiff_string_diff</function> function.
    An optional <parameter>flags</parameter> parameter specifies mode of operation. Any
-   rejected parts of the patch will be stored inside <parameter>error</parameter> variable if 
+   rejected parts of the patch will be stored inside <parameter>error</parameter> variable if
    it is provided.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,40 +33,40 @@
     <varlistentry>
      <term><parameter>str</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The original string.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>patch</parameter></term>
      <listitem>
-      <para>
-       The unified patch string. It has to be created using <function>xdiff_string_diff</function>, 
+      <simpara>
+       The unified patch string. It has to be created using <function>xdiff_string_diff</function>,
        <function>xdiff_file_diff</function> functions or compatible tools.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        <parameter>flags</parameter> can be either
        <constant>XDIFF_PATCH_NORMAL</constant> (default mode, normal patch)
        or <constant>XDIFF_PATCH_REVERSE</constant> (reversed patch).
-      </para>
-      <para>
+      </simpara>
+      <simpara>
        Starting from version 1.5.0, you can also use binary OR to enable
        <constant>XDIFF_PATCH_IGNORESPACE</constant> flag.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>error</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If provided then rejected parts are stored inside this variable.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -75,9 +75,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the patched string, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -85,9 +85,9 @@
   <para>
    <example>
     <title><function>xdiff_string_patch</function> example</title>
-    <para>
+    <simpara>
      The following code applies changes to some article.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

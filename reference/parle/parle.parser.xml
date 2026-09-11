@@ -11,9 +11,9 @@
 <!-- {{{ Parle\Parser intro -->
   <section xml:id="parle-parser.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Parser class. Rules can be defined on the fly. Once finalized, a <classname>Parle\Lexer</classname> instance is required to deliver the token stream.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -110,56 +110,56 @@
     <varlistentry xml:id="parle-parser.constants.action-error">
      <term><constant>Parle\Parser::ACTION_ERROR</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.action-shift">
      <term><constant>Parle\Parser::ACTION_SHIFT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.action-reduce">
      <term><constant>Parle\Parser::ACTION_REDUCE</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.action-goto">
      <term><constant>Parle\Parser::ACTION_GOTO</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.action-accept">
      <term><constant>Parle\Parser::ACTION_ACCEPT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.error-syntax">
      <term><constant>Parle\Parser::ERROR_SYNTAX</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.error-non-associative">
      <term><constant>Parle\Parser::ERROR_NON_ASSOCIATIVE</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="parle-parser.constants.error-unknown-token">
      <term><constant>Parle\Parser::ERROR_UNKNOWN_TOKEN</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
@@ -174,13 +174,13 @@
     <varlistentry xml:id="parle-parser.props.action">
      <term><varname>action</varname></term>
      <listitem>
-      <para>Current parser action that matches one of the action class constants, readonly.</para>
+      <simpara>Current parser action that matches one of the action class constants, readonly.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="parle-parser.props.reduceId">
      <term><varname>reduceId</varname></term>
      <listitem>
-      <para>Grammar rule id just processed in the reduce action. The value corresponds either to a token or to a production id. Readonly.</para>
+      <simpara>Grammar rule id just processed in the reduce action. The value corresponds either to a token or to a production id. Readonly.</simpara>
      </listitem>
     </varlistentry>
    </variablelist>

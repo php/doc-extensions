@@ -44,10 +44,10 @@
       <type>int</type>
      </term>
      <listitem>
-      <para>
+      <simpara>
       All the values in the returned arrays will be rounded to this precision.
       However the calculations inside TA-Lib happen with unrounded values.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ini.trader.real-round-mode">
@@ -56,10 +56,10 @@
        <type>string</type>
       </term>
       <listitem>
-       <para>
+       <simpara>
         Controls the trader real rounding policy. Valid values are <literal>HALF_UP</literal>,
         <literal>HALF_DOWN</literal>, <literal>HALF_EVEN</literal> and <literal>HALF_ODD</literal>. The behaviour is identical to the <link xlink:href="&url.php.manual.function.round;">round()</link> function used with the mode argument.
-       </para>
+       </simpara>
       </listitem>
      </varlistentry>
   </variablelist>

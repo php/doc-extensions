@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokelinejoin">
+<refentry xml:id="imagickdraw.setstrokelinejoin" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::setStrokeLineJoin</refname>
   <refpurpose>Specifies the shape to be used at the corners of paths when they are stroked</refpurpose>
@@ -13,10 +13,10 @@
    <methodparam><type>int</type><parameter>linejoin</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
-   Specifies the shape to be used at the corners of paths (or other vector 
+  <simpara>
+   Specifies the shape to be used at the corners of paths (or other vector
    shapes) when they are stroked.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,10 +26,10 @@
     <varlistentry>
      <term><parameter>linejoin</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.linejoin">LINEJOIN</link> constant
        (<literal>imagick::LINEJOIN_*</literal>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

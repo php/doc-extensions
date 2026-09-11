@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Ds\Map</type><methodname>Ds\Map::reversed</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns a reversed copy of the map.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -30,9 +30,9 @@
     A reversed copy of the map.
 
     <note>
-        <para>
+        <simpara>
             The current instance is not affected.
-        </para>
+        </simpara>
     </note>
   </para>
  </refsect1>

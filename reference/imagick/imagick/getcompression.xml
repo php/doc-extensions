@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getcompression">
+<refentry xml:id="imagick.getcompression" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getCompression</refname>
   <refpurpose>Gets the object compression type</refpurpose>
@@ -13,9 +13,9 @@
    <void/>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Gets the object compression type.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the compression constant
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

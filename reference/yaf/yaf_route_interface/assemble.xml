@@ -14,14 +14,14 @@
    <methodparam><type>array</type><parameter>info</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    this method returns a url according to the argument info, and append
    query strings to the url according to the argument query.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    a route should implement this method according to its own route rules, and
    do a reverse progress.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -30,18 +30,18 @@
    <varlistentry>
     <term><parameter>info</parameter></term>
     <listitem>
-     <para>
-     
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
 
    <varlistentry>
     <term><parameter>query</parameter></term>
     <listitem>
-     <para>
+     <simpara>
 
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -49,9 +49,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
 

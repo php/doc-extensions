@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>SolrQuery::getHighlightUsePhraseHighlighter</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns whether or not to use SpanScorer to highlight phrase terms only when they appear within the query phrase in the document.
-  </para>  
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns a boolean on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

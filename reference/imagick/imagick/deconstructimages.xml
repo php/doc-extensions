@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.deconstructimages">
+<refentry xml:id="imagick.deconstructimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::deconstructImages</refname>
   <refpurpose>Returns certain pixel differences between images</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>Imagick</type><methodname>Imagick::deconstructImages</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Compares each image with the next in a sequence and returns the maximum
    bounding region of any pixel differences it discovers.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,16 +25,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a new Imagick object on success.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

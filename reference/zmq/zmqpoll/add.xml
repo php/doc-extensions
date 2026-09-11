@@ -14,10 +14,10 @@
    <methodparam><type>mixed</type><parameter>entry</parameter></methodparam>
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds a new item to the poll set and returns the internal id of the added item. The item can be removed
    from the poll set using the returned string id.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,18 +27,18 @@
     <varlistentry>
      <term><parameter>entry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ZMQSocket object or a PHP stream resource
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
-       Defines what activity the socket is polled for. 
+      <simpara>
+       Defines what activity the socket is polled for.
        See <constant>ZMQ::POLL_IN</constant> and <constant>ZMQ::POLL_OUT</constant> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -47,10 +47,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns a string id of the added item which can be later used to remove the item. 
+  <simpara>
+   Returns a string id of the added item which can be later used to remove the item.
    Throws ZMQPollException on error.
-  </para>
+  </simpara>
  </refsect1>
 
 

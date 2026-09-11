@@ -20,11 +20,11 @@
     <parameter>howmuch</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Read data from the file specified by
    <parameter>fd</parameter>
    onto the end of the buffer.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -34,9 +34,9 @@
      <parameter>fd</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Socket resource, stream, or numeric file descriptor.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -53,9 +53,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the number of bytes read, or &false; on failure.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

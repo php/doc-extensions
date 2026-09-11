@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>exec_file</parameter></methodparam>
    <methodparam><type>string</type><parameter>args</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     The process will be replaced to be the system command process, but the pipe to the parent process will be kept.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,17 +26,17 @@
    <varlistentry>
     <term><parameter>exec_file</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>args</parameter></term>
     <listitem>
-     <para>
-      
-     </para>
+     <simpara>
+
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -44,9 +44,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

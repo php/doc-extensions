@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>SolrQuery::getGroupQueries</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Returns all the group.query parameter values
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>array</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

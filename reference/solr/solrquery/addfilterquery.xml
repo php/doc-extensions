@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::addFilterQuery</methodname>
    <methodparam><type>string</type><parameter>fq</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Specifies a filter query
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>fq</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The filter query
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object.
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

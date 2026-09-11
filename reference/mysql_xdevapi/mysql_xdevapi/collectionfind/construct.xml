@@ -13,9 +13,9 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\CollectionFind::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 

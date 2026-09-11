@@ -2,12 +2,12 @@
 <!-- $Revision$ -->
 <section xml:id="ref.pdo-informix.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
- <para>
+ <simpara>
   To build the PDO_INFORMIX extension, the Informix Client SDK 2.81 UC1 or
   higher must be installed on the same system as PHP. The Informix Client
   SDK is available from the <link xlink:href="&url.informix.csdk;">IBM Informix
   Support Site</link>.
- </para>
+ </simpara>
  <para>
   PDO_INFORMIX is a &link.pecl; extension, so follow the instructions in
   <xref linkend='install.pecl' /> to install the PDO_INFORMIX extension.

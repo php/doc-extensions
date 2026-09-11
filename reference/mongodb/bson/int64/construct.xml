@@ -64,7 +64,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if string <parameter>value</parameter> cannot be parsed as a 64-bit integer.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if string <parameter>value</parameter> cannot be parsed as a 64-bit integer.</member>
   </simplelist>
  </refsect1>
 

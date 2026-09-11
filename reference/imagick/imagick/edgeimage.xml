@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.edgeimage">
+<refentry xml:id="imagick.edgeimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::edgeImage</refname>
   <refpurpose>Enhance edges within the image</refpurpose>
@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::edgeImage</methodname>
    <methodparam><type>float</type><parameter>radius</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Enhance edges within the image with a convolution filter of the given
    radius. Use radius 0 and it will be auto-selected.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
     <varlistentry>
      <term><parameter>radius</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       The radius of the operation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,16 +36,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

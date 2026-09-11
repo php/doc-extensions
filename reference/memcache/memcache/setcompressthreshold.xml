@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="memcache.setcompressthreshold">
+<refentry xml:id="memcache.setcompressthreshold" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::setCompressThreshold</refname>
   <refname>memcache_set_compress_threshold</refname>

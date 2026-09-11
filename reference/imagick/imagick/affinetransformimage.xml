@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.affinetransformimage">
+<refentry xml:id="imagick.affinetransformimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::affineTransformImage</refname>
   <refpurpose>Transforms an image</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>Imagick::affineTransformImage</methodname>
    <methodparam><type>ImagickDraw</type><parameter>matrix</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Transforms an image as dictated by the affine matrix.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
     <varlistentry>
      <term><parameter>matrix</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The affine matrix
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -57,8 +57,8 @@ function affineTransformImage($imagePath) {
     $angle = deg2rad(40);
 
     $affineRotate = array(
-        "sx" => cos($angle), "sy" => cos($angle), 
-        "rx" => sin($angle), "ry" => -sin($angle), 
+        "sx" => cos($angle), "sy" => cos($angle),
+        "rx" => sin($angle), "ry" => -sin($angle),
         "tx" => 0, "ty" => 0,
     );
 

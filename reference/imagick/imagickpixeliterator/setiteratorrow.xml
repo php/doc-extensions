@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.setiteratorrow">
+<refentry xml:id="imagickpixeliterator.setiteratorrow" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixelIterator::setIteratorRow</refname>
   <refpurpose>Set the pixel iterator row</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>int</type><parameter>row</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Set the pixel iterator row.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,8 +25,8 @@
     <varlistentry>
      <term><parameter>row</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -54,14 +54,14 @@ function setIteratorRow($imagePath) {
     $imagick = new \Imagick(realpath($imagePath));
     $imageIterator = $imagick->getPixelRegionIterator(200, 100, 200, 200);
 
-    for ($x = 0; $x < 20; $x++) {        
+    for ($x = 0; $x < 20; $x++) {
         $imageIterator->setIteratorRow($x * 5);
         $pixels = $imageIterator->getCurrentIteratorRow();
         /* Loop through the pixels in the row (columns) */
         foreach ($pixels as $pixel) {
             /** @var $pixel \ImagickPixel */
             /* Paint every second pixel black*/
-            $pixel->setColor("rgba(0, 0, 0, 0)"); 
+            $pixel->setColor("rgba(0, 0, 0, 0)");
         }
 
         /* Sync the iterator, this is important to do on each iteration */

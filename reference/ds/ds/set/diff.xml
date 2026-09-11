@@ -13,12 +13,12 @@
    <modifier>public</modifier> <type>Ds\Set</type><methodname>Ds\Set::diff</methodname>
    <methodparam><type>Ds\Set</type><parameter>set</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Creates a new set using values that aren't in another set.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     <code>A \ B = {x ∈ A | x ∉ B}</code>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
    <varlistentry>
     <term><parameter>set</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         Set containing the values to exclude.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     A new set containing all values that were not in the other <parameter>set</parameter>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

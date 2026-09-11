@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-errmsg">
+<refentry xml:id="function.ibase-errmsg" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_errmsg</refname>
   <refpurpose>Return error messages</refpurpose>

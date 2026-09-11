@@ -14,10 +14,10 @@
    <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
-   Attempts to start the named service. Requires administrative privileges or 
+  <simpara>
+   Attempts to start the named service. Requires administrative privileges or
    an account with appropriate rights set in the service's ACL.
-  </para>
+  </simpara>
 
  </refsect1>
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>servicename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The short name of the service.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>machine</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Optional machine name.  If omitted, the local machine is used.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,23 +46,23 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     Prior to version 1.0.0, &win32service.noerror.false.error;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors"><!-- {{{ -->
   &reftitle.errors;
-  <para>
-   A <classname>ValueError</classname> is thrown if the
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
    value of <parameter>servicename</parameter> parameter is empty.
-  </para>
-   <para>
-    A <classname>Win32ServiceException</classname> is thrown on error.
-   </para>
+  </simpara>
+   <simpara>
+    A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
+   </simpara>
  </refsect1><!-- }}} -->
 
  <refsect1 role="changelog"><!-- {{{ -->
@@ -80,15 +80,15 @@
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>ValueError</classname> on invalid data in parameters,
+        Throws a <exceptionname>ValueError</exceptionname> on invalid data in parameters,
         previously &false; was returned.
        </entry>
       </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>Win32ServiceException</classname> on error,
-        previously a 
+        Throws a <exceptionname>Win32ServiceException</exceptionname> on error,
+        previously a
         <link xmlns="http://docbook.org/ns/docbook" linkend="win32service.constants.errors">Win32 Error Code</link>
         was returned.
        </entry>
@@ -110,7 +110,7 @@
    </informaltable>
   </para>
  </refsect1><!-- }}} -->
- 
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>

@@ -15,9 +15,9 @@
    <methodparam choice="opt"><type>bool</type><parameter>waitSearcher</parameter><initializer>&true;</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>expungeDeletes</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This method finalizes all add/deletes made to the index.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,30 +28,30 @@
     <varlistentry>
      <term><parameter>softCommit</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        This will refresh the 'view' of the index in a more performant manner, but without "on-disk" guarantees. (Solr4.0+)
-      </para>
-      <para>
-          A soft commit is much faster since it only makes index changes visible and does not fsync index files or write a new index descriptor. 
-          If the JVM crashes or there is a loss of power, changes that occurred after the last hard commit will be lost. 
-          Search collections that have near-real-time requirements (that want index changes to be quickly visible to searches) will want to soft commit often but hard commit less frequently. 
-      </para>
+      </simpara>
+      <simpara>
+          A soft commit is much faster since it only makes index changes visible and does not fsync index files or write a new index descriptor.
+          If the JVM crashes or there is a loss of power, changes that occurred after the last hard commit will be lost.
+          Search collections that have near-real-time requirements (that want index changes to be quickly visible to searches) will want to soft commit often but hard commit less frequently.
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>waitSearcher</parameter></term>
      <listitem>
-      <para>
-       block until a new searcher is opened and registered as the main query searcher, making the changes visible. 
-      </para>
+      <simpara>
+       block until a new searcher is opened and registered as the main query searcher, making the changes visible.
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>expungeDeletes</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Merge segments with deletes away. (Solr1.4+)
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -60,21 +60,21 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <classname>SolrUpdateResponse</classname> object on success or throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-   Throws <classname>SolrServerException</classname> if the Solr Server had failed to process the request.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to process the request.
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="changelog">
   &reftitle.changelog;
   <para>
@@ -99,11 +99,11 @@
         API Changed: SolrClient::commit ([ int $maxSegments = 0 [, bool $softCommit = false [, bool $waitSearcher = true[, bool $expungeDeletes = false ]]] )
        </entry>
       </row>
-      
+
       <row>
        <entry>PECL solr 0.9.2</entry>
        <entry>
-        Signature: SolrClient::commit ([ int $maxSegments = 1 [, bool $waitFlush = true [, bool $waitSearcher = true ]]] ). 
+        Signature: SolrClient::commit ([ int $maxSegments = 1 [, bool $waitFlush = true [, bool $waitSearcher = true ]]] ).
         $waitFlush: Block until index changes are flushed to disk.
        </entry>
       </row>
@@ -115,9 +115,9 @@
  <refsect1 role="notes">
   &reftitle.notes;
   <warning>
-   <para>
-        PECL Solr &gt;= 2.0 only supports Solr Server &gt;= 4.0 
-   </para>
+   <simpara>
+        PECL Solr &gt;= 2.0 only supports Solr Server &gt;= 4.0
+   </simpara>
   </warning>
  </refsect1>
  <refsect1 role="seealso">

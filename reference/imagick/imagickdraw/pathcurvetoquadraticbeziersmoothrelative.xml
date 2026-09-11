@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pathcurvetoquadraticbeziersmoothrelative">
+<refentry xml:id="imagickdraw.pathcurvetoquadraticbeziersmoothrelative" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pathCurveToQuadraticBezierSmoothRelative</refname>
   <refpurpose>Draws a quadratic Bezier curve</refpurpose>
@@ -14,23 +14,23 @@
    <methodparam><type>float</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Draws a quadratic Bezier curve (using relative coordinates) from the
    current point to (x, y). The control point is assumed to be the reflection
    of the control point on the previous command relative to the current point.
    (If there is no previous command or if the previous command was not a
-   DrawPathCurveToQuadraticBezierAbsolute, 
-   DrawPathCurveToQuadraticBezierRelative, 
-   DrawPathCurveToQuadraticBezierSmoothAbsolut or 
+   DrawPathCurveToQuadraticBezierAbsolute,
+   DrawPathCurveToQuadraticBezierRelative,
+   DrawPathCurveToQuadraticBezierSmoothAbsolut or
    DrawPathCurveToQuadraticBezierSmoothRelative, assume the control point is
    coincident with the current point). At the end of the command, the new
    current point becomes the final (x, y) coordinate pair used in the
    polybezier.
-  </para>
-  
-  <para>
+  </simpara>
+
+  <simpara>
    This function cannot be used to continue a cubic Bezier curve smoothly. It can only continue from a quadratic curve smoothly.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -40,17 +40,17 @@
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending x coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        ending y coordinate
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -59,9 +59,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -89,7 +89,7 @@ $draw->pathMoveToAbsolute(50,250);
 // This specifies a quadratic bezier curve with the current position as the start
 // point, the control point is the first two params, and the end point is the last two params.
 $draw->pathCurveToQuadraticBezierAbsolute(
-    150,50, 
+    150,50,
     250,250
 );
 

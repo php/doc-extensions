@@ -14,9 +14,9 @@
    <methodparam><type>Imagick</type><parameter>complement</parameter></methodparam>
    <methodparam><type>bool</type><parameter>magnitude</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Implements the inverse discrete Fourier transform (DFT) of the image either as a magnitude / phase or real / imaginary image pair.
-  </para>
+  </simpara>
 
   &warn.undocumented.func;
 
@@ -28,17 +28,17 @@
    <varlistentry>
     <term><parameter>complement</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The second image to combine with this one to form either the magnitude / phase or real / imaginary image pair.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>magnitude</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If true, combine as magnitude / phase pair otherwise a real / imaginary image pair.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -46,9 +46,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fdf-next-field-name">
+<refentry xml:id="function.fdf-next-field-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fdf_next_field_name</refname>
   <refpurpose>Get the next field name</refpurpose>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrQuery</type><methodname>SolrQuery::setMltMaxWordLength</methodname>
    <methodparam><type>int</type><parameter>maxWordLength</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Sets the maximum word length above which words will be ignored. 
-  </para>
+  <simpara>
+   Sets the maximum word length above which words will be ignored.
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>maxWordLength</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The maximum word length above which words will be ignored
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,9 +37,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current SolrQuery object, if the return value is used.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

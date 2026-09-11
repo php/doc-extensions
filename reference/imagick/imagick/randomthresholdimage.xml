@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.randomthresholdimage">
+<refentry xml:id="imagick.randomthresholdimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::randomThresholdImage</refname>
   <refpurpose>Creates a high-contrast, two-color image</refpurpose>
@@ -15,11 +15,11 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Changes the value of individual pixels based on the
    intensity of each pixel compared to threshold. The
    result is a high-contrast, two color image. &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,28 +29,28 @@
     <varlistentry>
      <term><parameter>low</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The low point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>high</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The high point
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of  <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -59,9 +59,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 

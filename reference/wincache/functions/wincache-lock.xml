@@ -14,15 +14,15 @@
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>isglobal</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   Obtains an exclusive lock on a given key. The execution of the current script will be blocked until the 
-   lock can be obtained. Once the lock is obtained, the other scripts that try to request the lock by using the same 
+  <simpara>
+   Obtains an exclusive lock on a given key. The execution of the current script will be blocked until the
+   lock can be obtained. Once the lock is obtained, the other scripts that try to request the lock by using the same
    key will be blocked, until the current script releases the lock by using <function>wincache_unlock</function>.
-  </para>
+  </simpara>
   <warning>
    <simpara>
-    Using of the <function>wincache_lock</function> and <function>wincache_unlock</function> can cause deadlocks when 
-    executing PHP scripts in a multi-process environment like FastCGI. Do not use these functions unless you are 
+    Using of the <function>wincache_lock</function> and <function>wincache_unlock</function> can cause deadlocks when
+    executing PHP scripts in a multi-process environment like FastCGI. Do not use these functions unless you are
     absolutely sure you need to use them. For the majority of the operations on the user cache it is not necessary to
     use these functions.
    </simpara>
@@ -35,18 +35,18 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Name of the key in the cache to get the lock on.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>isglobal</parameter></term>
      <listitem>
-      <para>
-       Controls whether the scope of the lock is system-wide or local. Local locks are scoped to the application pool 
+      <simpara>
+       Controls whether the scope of the lock is system-wide or local. Local locks are scoped to the application pool
        in IIS FastCGI case or to all php processes that have the same parent process identifier.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -54,9 +54,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

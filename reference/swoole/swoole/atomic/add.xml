@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Swoole\Atomic::add</methodname>
    <methodparam choice="opt"><type>int</type><parameter>add_value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Add a number to the value to the atomic object.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>add_value</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The value which will be added to the current value.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The new value of the atomic object.
-  </para>
+  </simpara>
  </refsect1>
 
 

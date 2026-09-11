@@ -13,13 +13,13 @@
    <type>int</type><methodname>fann_get_cascade_max_out_epochs</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    The maximum out epochs determines the maximum number of epochs the output connections may be
    trained after adding a new candidate neuron.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The default max out epochs is 150.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The maximum out epochs, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\MultilineEntry intro -->
   <section xml:id="ui-controls-multilineentry.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Multiline Entry is a text entry control able to hold multiple lines of text, with or without wrapping.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -70,14 +70,14 @@
     <varlistentry xml:id="ui-controls-multilineentry.constants.wrap">
      <term><constant>UI\Controls\MultilineEntry::Wrap</constant></term>
      <listitem>
-      <para>Allow lines to wrap</para>
+      <simpara>Allow lines to wrap</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-multilineentry.constants.nowrap">
      <term><constant>UI\Controls\MultilineEntry::NoWrap</constant></term>
      <listitem>
-      <para>Do not allow lines to wrap</para>
+      <simpara>Do not allow lines to wrap</simpara>
      </listitem>
     </varlistentry>
 

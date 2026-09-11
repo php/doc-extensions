@@ -6,21 +6,21 @@
 
  <section xml:id="wkhtmltox.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
   libwkhtmltox source and binary releases are distributed at <link xlink:href="&url.wkhtmltopdf;">wkhtmltopdf.org</link>.
-  </para>
+  </simpara>
   <caution>
-   <para>
+   <simpara>
    Windows users need to take the additional step of adding <filename>wkhtmltox.dll</filename> to their <envar>PATH</envar>.
-   </para>
+   </simpara>
   </caution>
  </section>
 
  <section xml:id="wkhtmltox.installation">
   &reftitle.install;
-  <para>
+  <simpara>
    The source code of this extension, and binaries for Windows are hosted by <link xlink:href="&url.git.hub;krakjoe/wkhtmltox">github</link>,
-  </para>
+  </simpara>
   <para>
    Fetching the source code and building the extension:
    <screen>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.compareimages">
+<refentry xml:id="imagick.compareimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::compareImages</refname>
   <refpurpose>Compares an image to a reconstructed image</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>Imagick</type><parameter>compare</parameter></methodparam>
    <methodparam><type>int</type><parameter>metric</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns an array containing a reconstructed image and the difference between images.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,18 +25,18 @@
     <varlistentry>
      <term><parameter>compare</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An image to compare to.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>metric</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide a valid metric type constant. Refer to this
        list of  <link linkend="imagick.constants.metric">metric constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,16 +45,16 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an array containing a reconstructed image and the difference between images.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -62,9 +62,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::compareImages</function>:</title>
-    <para>
+    <simpara>
      Compare images and display the reconstructed image
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>mysql_xdevapi\Session::dropSchema</methodname>
    <methodparam><type>string</type><parameter>schema_name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Drop a schema (database).
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>schema_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of the schema to drop.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,14 +34,14 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &true; if the schema is dropped, or &false; if it does not exist
-   or can't be dropped. 
-  </para>
-  <para>
-   An <constant>E_WARNING</constant> level error is generated if the 
+   or can't be dropped.
+  </simpara>
+  <simpara>
+   An <constant>E_WARNING</constant> level error is generated if the
    schema does not exist.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

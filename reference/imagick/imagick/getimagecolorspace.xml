@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagecolorspace">
+<refentry xml:id="imagick.getimagecolorspace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageColorspace</refname>
   <refpurpose>Gets the image colorspace</refpurpose>
@@ -12,9 +12,9 @@
    <modifier>public</modifier> <type>int</type><methodname>Imagick::getImageColorspace</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    Gets the image colorspace.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns an integer which can be compared against <link linkend="imagick.constants.colorspace">COLORSPACE constants</link>.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

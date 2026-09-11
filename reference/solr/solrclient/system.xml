@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrClient::system</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve Solr Server information
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,19 +26,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrGenericResponse</type> object on success.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Emits <classname>SolrClientException</classname> if the client failed, or there was a connection issue.
-  </para>
-  <para>
-    Emits <classname>SolrServerException</classname> if the Solr Server failed to satisfy the query.
-  </para>
+  <simpara>
+   Emits <exceptionname>SolrClientException</exceptionname> if the client failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+    Emits <exceptionname>SolrServerException</exceptionname> if the Solr Server failed to satisfy the query.
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::deleteById</methodname>
    <methodparam><type>string</type><parameter>id</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Deletes the document with the specified ID. Where ID is the value of the uniqueKey field declared in the schema
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The value of the uniqueKey field declared in the schema
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,19 +37,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrUpdateResponse</type> on success and throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-   Throws <classname>SolrServerException</classname> if the Solr Server had failed to process the request.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to process the request.
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

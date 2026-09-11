@@ -5,7 +5,7 @@
   <refname>wddx_add_vars</refname>
   <refpurpose>Add variables to a WDDX packet with the specified ID</refpurpose>
  </refnamediv>
- 
+
  <refsynopsisdiv>
   &warn.removed.function-7-4-0;
  </refsynopsisdiv>
@@ -18,9 +18,9 @@
    <methodparam><type>mixed</type><parameter>var_name</parameter></methodparam>
    <methodparam rep="repeat"><type>mixed</type><parameter>var_names</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Serializes the passed variables and add the result to the given packet.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,25 +31,25 @@
     <varlistentry>
      <term><parameter>packet_id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        A WDDX packet, returned by <function>wddx_packet_start</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>var_name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Can be either a string naming a variable or an array containing
        strings naming the variables or another array, etc.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>var_names</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -58,9 +58,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

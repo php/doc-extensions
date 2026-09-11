@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getTermsSort</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    SolrQuery::TERMS_SORT_INDEX indicates that the terms are returned by index order. SolrQuery::TERMS_SORT_COUNT implies that the terms are sorted by term frequency (highest count first)
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

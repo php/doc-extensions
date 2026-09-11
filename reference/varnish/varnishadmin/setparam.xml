@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam><type class="union"><type>string</type><type>int</type></type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
 
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,17 +26,17 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
       <listitem>
-       <para>
+       <simpara>
          Varnish configuration param name.
-       </para>
+       </simpara>
       </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
       <listitem>
-       <para>
+       <simpara>
          Varnish configuration param value.
-       </para>
+       </simpara>
       </listitem>
     </varlistentry>
    </variablelist>
@@ -45,9 +45,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the varnish command status.
-  </para>
+  </simpara>
  </refsect1>
 
 

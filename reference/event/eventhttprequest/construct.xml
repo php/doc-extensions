@@ -21,9 +21,9 @@
     <initializer>&null;</initializer>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Constructs EventHttpRequest object.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -33,9 +33,9 @@
      <parameter>callback</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Gets invoked on requesting path. Should match the following prototype:
-     </para>
+     </simpara>
      <methodsynopsis>
       <type>void</type>
       <methodname>callback</methodname>
@@ -59,9 +59,9 @@
      <parameter>data</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       User custom data passed to the callback.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

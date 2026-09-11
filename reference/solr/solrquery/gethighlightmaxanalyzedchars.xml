@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getHighlightMaxAnalyzedChars</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the maximum number of characters into a document to look for suitable snippets
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,11 +26,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

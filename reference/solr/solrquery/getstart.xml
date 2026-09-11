@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>int</type><methodname>SolrQuery::getStart</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the offset in the complete result set for the queries where the set of returned documents should begin.
-  </para>
+  </simpara>
 
-  
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
 Returns an integer on success and &null; if not set.
-  </para>
+  </simpara>
  </refsect1>
 
 

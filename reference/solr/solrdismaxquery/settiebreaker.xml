@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ --> 
+<!-- $Revision$ -->
 
 <refentry xml:id="solrdismaxquery.settiebreaker" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrDisMaxQuery</type><methodname>SolrDisMaxQuery::setTieBreaker</methodname>
    <methodparam><type>string</type><parameter>tieBreaker</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Sets Tie Breaker parameter (tie parameter)
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>tieBreaker</parameter></term>
     <listitem>
-     <para>
+     <simpara>
         The <emphasis>tie</emphasis> parameter specifies a float value (which should be something much less than 1) to use as tiebreaker in DisMax queries.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrDisMaxQuery</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -13,9 +13,9 @@
    <type>void</type><methodname>fann_reset_errno</methodname>
    <methodparam><type>resource</type><parameter>errdat</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Resets the last error number.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

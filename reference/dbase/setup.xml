@@ -11,11 +11,11 @@
  <!-- {{{ Resources -->
  <section xml:id="dbase.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
    As of dbase 7.0.0, the resource type <literal>dbase</literal> is defined,
    which is returned by <function>dbase_open</function> and
    <function>dbase_create</function>.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>Swoole\Channel::stats</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     Get the numbers of queued elements and total size of the memory used by the queue.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The stats of the Swoole channel.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

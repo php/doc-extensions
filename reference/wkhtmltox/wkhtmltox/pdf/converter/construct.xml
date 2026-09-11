@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>wkhtmltox\PDF\Converter::__construct</methodname>
    <methodparam choice="opt"><type>array</type><parameter>settings</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
   Creates a PDF converter, using optional configuration settings
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -218,7 +218,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+
   </para>
  </refsect1>
  -->

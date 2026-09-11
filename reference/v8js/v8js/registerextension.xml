@@ -16,10 +16,10 @@
    <methodparam choice="opt"><type>array</type><parameter>dependencies</parameter><initializer>array()</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>auto_enable</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Registers passed Javascript <parameter>script</parameter> as extension to
    be used in <classname>V8Js</classname> contexts.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,17 +28,17 @@
    <varlistentry>
     <term><parameter>extension_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of the extension to be registered.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>script</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The Javascript code to be registered.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -48,10 +48,10 @@
       Array of extension names the extension to be registered depends on. Any such extension is
       enabled automatically when this extension is loaded.
       <note>
-       <para>
+       <simpara>
         All extensions, including the dependencies, must be registered before any <classname>V8Js</classname>
         are created which use them.
-       </para>
+       </simpara>
       </note>
      </para>
     </listitem>
@@ -59,9 +59,9 @@
    <varlistentry>
     <term><parameter>auto_enable</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       If set to &true;, the extension will be enabled automatically in all <classname>V8Js</classname> contexts.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -69,9 +69,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns &true; if extension was registered successfully, &false; otherwise.
-  </para>
+  </simpara>
  </refsect1>
 
 

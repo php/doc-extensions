@@ -16,12 +16,12 @@
     <parameter>method</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Tells libevent to avoid specific event method(backend). See
    <link
   xlink:href="http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.html#_creating_an_event_base">Creating
   an event base</link>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -31,20 +31,20 @@
      <parameter>method</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The backend method to avoid. See
       <link
      linkend="eventconfig.constants">EventConfig constants</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

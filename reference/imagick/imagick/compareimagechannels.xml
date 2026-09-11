@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.compareimagechannels">
+<refentry xml:id="imagick.compareimagechannels" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::compareImageChannels</refname>
   <refpurpose>Returns the difference in one or more images</refpurpose>
@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>channelType</parameter></methodparam>
    <methodparam><type>int</type><parameter>metricType</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Compares one or more images and returns the difference image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,28 +26,28 @@
     <varlistentry>
      <term><parameter>image</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Imagick object containing the image to compare.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channelType</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Provide any channel constant that is valid for your channel mode. To
        apply to more than one channel, combine channeltype constants using
        bitwise operators. Refer to this
        list of <link linkend="imagick.constants.channel">channel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>metricType</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        One of the <link linkend="imagick.constants.metric">metric type constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,17 +56,17 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Array consisting of <literal>new_wand</literal> and
    <literal>distortion</literal>.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

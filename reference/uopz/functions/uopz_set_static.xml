@@ -20,9 +20,9 @@
    <methodparam><type>string</type><parameter>function</parameter></methodparam>
    <methodparam><type>array</type><parameter>static</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the static variables in function or method scope.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,26 +31,26 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the class.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the function or method.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>static</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The associative <type>array</type> of variable names mapped to their
       values.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -58,9 +58,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
     &return.void;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

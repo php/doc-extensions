@@ -13,13 +13,13 @@
    <type>float</type><methodname>fann_get_MSE</methodname>
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Reads the mean square error from the network.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Reads the mean square error from the network. This value is calculated during training or testing and can therefore
    sometimes be a bit off if the weights have been changed since the last calculation of the value.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -36,9 +36,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The mean square error, or &false; on error.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

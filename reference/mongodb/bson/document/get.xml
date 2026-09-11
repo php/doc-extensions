@@ -48,7 +48,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\RuntimeException</classname> if the key is not present in the document.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\RuntimeException</exceptionname> if the key is not present in the document.</member>
   </simplelist>
  </refsect1>
 

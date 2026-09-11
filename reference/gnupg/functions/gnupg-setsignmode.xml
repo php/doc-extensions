@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gnupg-setsignmode">
+<refentry xml:id="function.gnupg-setsignmode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gnupg_setsignmode</refname>
   <refpurpose>Sets the mode for signing</refpurpose>

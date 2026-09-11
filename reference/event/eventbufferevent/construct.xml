@@ -51,13 +51,13 @@
     <initializer>&null;</initializer>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Create a buffer event on a socket, stream or a file descriptor. Passing
    &null; to
    <parameter>socket</parameter>
    means that the socket should be created later, e.g. by means of
    <methodname>EventBufferEvent::connect</methodname>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -67,9 +67,9 @@
      <parameter>base</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Event base that should be associated with the new buffer event.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -77,11 +77,11 @@
      <parameter>socket</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       May be created as a stream(not necessarily by means of
       <literal>sockets</literal>
       extension)
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -89,13 +89,13 @@
      <parameter>options</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       One of
       <link linkend="eventbufferevent.constants">EventBufferEvent::OPT_*
      constants</link>,
       or
       <literal>0</literal>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -103,11 +103,11 @@
      <parameter>readcb</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Read event callback. See
       <link linkend="eventbufferevent.about.callbacks">About buffer event
      callbacks</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -115,11 +115,11 @@
      <parameter>writecb</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Write event callback. See
       <link linkend="eventbufferevent.about.callbacks">About buffer event
      callbacks</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -127,11 +127,11 @@
      <parameter>eventcb</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       Status-change event callback. See
       <link linkend="eventbufferevent.about.callbacks">About buffer event
      callbacks</link>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
@@ -139,9 +139,9 @@
      <parameter>arg</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       A variable that will be passed to all the callbacks.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

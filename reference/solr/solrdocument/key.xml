@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>SolrDocument::key</methodname>
    <void />
   </methodsynopsis>
-  <para>
-   Retrieves the current key. 
-  </para>
+  <simpara>
+   Retrieves the current key.
+  </simpara>
 
   </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current key.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

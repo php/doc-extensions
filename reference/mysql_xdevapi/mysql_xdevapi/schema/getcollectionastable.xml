@@ -10,11 +10,11 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>mysql_xdevapi\Table</type><methodname>mysql_xdevapi\Schema::getCollectionAsTable</methodname>
-   <methodparam><type>string</type><parameter>name</parameter></methodparam>   
+   <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Get a collection, but as a Table object instead of a Collection object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -23,19 +23,19 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of the collection to instantiate a Table object from.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A <classname>mysql_xdevapi\Table</classname> object for the collection.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

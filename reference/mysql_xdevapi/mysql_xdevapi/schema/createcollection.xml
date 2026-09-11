@@ -13,9 +13,9 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>validate</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Create a collection within the schema.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,17 +24,17 @@
    <varlistentry>
     <term><parameter>name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Collection name.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>validate</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Validation definition, as a JSON object.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -42,9 +42,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The Collection object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

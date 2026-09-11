@@ -11,19 +11,19 @@
 <!-- {{{ Yaf_Bootstrap_Abstract intro -->
   <section xml:id="yaf-bootstrap-abstract.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
      Bootstrap is a mechanism used to do some initial config before a
      Application run.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
      User may define their own Bootstrap class by inheriting
      <classname>Yaf_Bootstrap_Abstract</classname>
-   </para>
-   <para>
+   </simpara>
+   <simpara>
      Any method declared in Bootstrap class with leading "_init", will be
-     called by <methodname>Yaf_Application::bootstrap</methodname> one by one 
-     according to their defined order. 
-   </para>
+     called by <methodname>Yaf_Application::bootstrap</methodname> one by one
+     according to their defined order.
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -49,7 +49,7 @@
            "directory" => dirname(__FILE__) . "/application/",
        ),
    );
- 
+
    $app = new Yaf_Application($config);
    $app->bootstrap();
 ?>
@@ -80,7 +80,7 @@ string(22) "Bootstrap::_initPlugin"
      </ooclass>
     </classsynopsisinfo>
     <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
    </classsynopsis>
 <!-- }}} -->

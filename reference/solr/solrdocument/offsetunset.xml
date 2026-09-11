@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>void</type><methodname>SolrDocument::offsetUnset</methodname>
    <methodparam><type>string</type><parameter>fieldName</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Removes a field from the document.
-  </para>
+  </simpara>
 
- 
+
 
  </refsect1>
 
@@ -28,9 +28,9 @@
     <varlistentry>
      <term><parameter>fieldName</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The name of the field.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -39,9 +39,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    No return value.
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -34,7 +34,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\InvalidArgumentException</classname> if <parameter>value</parameter> is not a valid decimal string.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\InvalidArgumentException</exceptionname> if <parameter>value</parameter> is not a valid decimal string.</member>
   </simplelist>
  </refsect1>
 

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>int</type><methodname>UI\Controls\Tab::pages</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall return the number of pages in this Tab
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The number of pages in this Tab
-  </para>
+  </simpara>
  </refsect1>
 
 

@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>field</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>order</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
     Orders the documents within the expanded groups (expand.sort parameter).
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,20 +26,20 @@
    <varlistentry>
     <term><parameter>field</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       field name
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>order</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Order ASC/DESC, utilizes SolrQuery::ORDER_* constants.
-     </para>
-     <para>
+     </simpara>
+     <simpara>
          Default: <type>SolrQuery::ORDER_DESC</type>
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -47,9 +47,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    <type>SolrQuery</type>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -13,11 +13,11 @@
    <modifier>public</modifier> <type>int</type><methodname>mysql_xdevapi\ColumnResult::isNumberSigned</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieves a table's column information and is instantiated by the
    <methodname>mysql_xdevapi\RowResult::getColumns</methodname> method.
-  </para>
-  
+  </simpara>
+
   &warn.undocumented.func;
  </refsect1>
 

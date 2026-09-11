@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\Schema</type><methodname>mysql_xdevapi\Session::getSchema</methodname>
    <methodparam><type>string</type><parameter>schema_name</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    A new Schema object for the provided schema name.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>schema_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Name of the schema (database) to fetch a Schema object for.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
   A Schema object.
-  </para>
+  </simpara>
  </refsect1>
 
 <refsect1 role="examples">

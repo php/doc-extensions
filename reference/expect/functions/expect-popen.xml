@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.expect-popen">
+<refentry xml:id="function.expect-popen" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>expect_popen</refname>
   <refpurpose>Execute command via Bourne shell, and open the PTY stream to

@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Spin::onChange</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the value in this Spin changes
-  </para>
+  </simpara>
 
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.pingimageblob">
+<refentry xml:id="imagick.pingimageblob" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::pingImageBlob</refname>
   <refpurpose>Quickly fetch attributes</refpurpose>
@@ -13,11 +13,11 @@
    <methodparam><type>string</type><parameter>image</parameter></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    This method can be used to query image width, height, size, and
-   format without reading the whole image to memory. 
+   format without reading the whole image to memory.
    &imagick.method.available.0x629;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>image</parameter></term>
      <listitem>
-      <para>
+      <simpara>
       A string containing the image.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -38,9 +38,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -48,9 +48,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::pingImageBlob</function></title>
-    <para>
+    <simpara>
       Pinging an image from a string
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

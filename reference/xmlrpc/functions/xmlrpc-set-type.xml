@@ -12,9 +12,9 @@
    <methodparam><type>string</type><parameter role="reference">value</parameter></methodparam>
    <methodparam><type>string</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets xmlrpc type, base64 or datetime, for a PHP string value.
-  </para>
+  </simpara>
   &warn.experimental.func;
  </refsect1>
 
@@ -25,17 +25,17 @@
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Value to set the type
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>type</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        'base64' or 'datetime'
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,17 +44,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
    If successful, <parameter>value</parameter> is converted to an object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    Issues E_WARNING with type unsupported by XMLRPC.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -62,8 +62,8 @@
   <para>
    <example>
     <title>A <function>xmlrpc_set_type</function> example</title>
-    <para>
-    </para>
+    <simpara>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

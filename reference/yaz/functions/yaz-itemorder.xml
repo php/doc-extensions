@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>id</parameter></methodparam>
    <methodparam><type>array</type><parameter>args</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    This function prepares for an Extended Services request using the
    Profile for the Use of Z39.50 Item Order Extended Service to
    Transport ILL (Profile/1). See <link xlink:href="&url.yaz.ill;">this</link>
    and the <link xlink:href="&url.yaz.specs;">specification</link>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -28,23 +28,23 @@
     <varlistentry>
      <term><parameter>id</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connection resource returned by <function>yaz_connect</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>args</parameter></term>
      <listitem>
-      <para>
-       Must be an associative array with information about the Item Order 
-       request to be sent. The key of the hash is the name of the 
+      <simpara>
+       Must be an associative array with information about the Item Order
+       request to be sent. The key of the hash is the name of the
        corresponding ASN.1 tag path. For example, the ISBN below the Item-ID
-       has the key item-id,ISBN. 
-      </para>
-      <para>
+       has the key item-id,ISBN.
+      </simpara>
+      <simpara>
        The ILL-Request parameters are:
-      </para>
+      </simpara>
       <literallayout>
 protocol-version-num
 transaction-id,initial-requester-id,person-or-institution-symbol,person
@@ -128,10 +128,10 @@ forward-flag
 requester-note
 forward-note
       </literallayout>
-      <para>
+      <simpara>
        There are also a few parameters that are part of the Extended
        Services Request package and the ItemOrder package:
-      </para>
+      </simpara>
       <literallayout>
 package-name
 user-id
@@ -147,9 +147,9 @@ itemorder-item
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

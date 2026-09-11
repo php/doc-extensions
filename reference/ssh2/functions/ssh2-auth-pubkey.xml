@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-auth-pubkey">
+<refentry xml:id="function.ssh2-auth-pubkey" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ssh2_auth_pubkey</refname>
   <refpurpose>Authenticate using a public key in a variable</refpurpose>

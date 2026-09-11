@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>int</type><parameter role="reference">ndocs</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>callbacks</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Convert all or part of a YAML document stream read from a file to a PHP variable.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,38 +28,38 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Path to the file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>pos</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Document to extract from stream (<literal>-1</literal> for all
        documents, <literal>0</literal> for first document, ...).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>ndocs</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        If <parameter>ndocs</parameter> is provided, then it is filled with the
        number of documents found in stream.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>callbacks</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Content handlers for YAML nodes. Associative <type>array</type> of YAML
        tag =&gt; <type>callable</type> mappings. See
        <link linkend="yaml.callbacks.parse">parse callbacks</link> for more
        details.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -84,12 +84,12 @@
  <refsect1 role="notes">
   &reftitle.notes;
   <warning>
-   <para>
+   <simpara>
     Processing untrusted user input with <function>yaml_parse_file</function>
     is dangerous if the use of <function>unserialize</function> is enabled for
     nodes using the <literal>!php/object</literal> tag. This behavior can be
     disabled by using the <literal>yaml.decode_php</literal> ini setting.
-   </para>
+   </simpara>
   </warning>
  </refsect1>
 

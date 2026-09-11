@@ -11,9 +11,9 @@
 <!-- {{{ mysql_xdevapi\SqlStatement intro -->
   <section xml:id="mysql-xdevapi-sqlstatement.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -67,7 +67,7 @@
     <varlistentry xml:id="mysql-xdevapi-sqlstatement.props.statement">
      <term><varname>statement</varname></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -83,14 +83,14 @@
     <varlistentry xml:id="mysql-xdevapi-sqlstatement.constants.execute-async">
      <term><constant>mysql_xdevapi\SqlStatement::EXECUTE_ASYNC</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="mysql-xdevapi-sqlstatement.constants.buffered">
      <term><constant>mysql_xdevapi\SqlStatement::BUFFERED</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

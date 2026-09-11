@@ -15,10 +15,10 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   This functions checks if the filesystem holding the given file supports 
+  <simpara>
+   This functions checks if the filesystem holding the given file supports
    extended attributes. Read access to the file is required.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -27,9 +27,9 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The path of the tested file.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -55,20 +55,20 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    This function returns &true; if filesystem supports extended attributes,
    &false; if it doesn't and &null; if it can't be determined (for example
    wrong path or lack of permissions to file).
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
     <title><function>xattr_supported</function> example</title>
-    <para>
+    <simpara>
      The following code checks if we can use extended attributes.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

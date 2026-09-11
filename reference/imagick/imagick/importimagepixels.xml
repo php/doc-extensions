@@ -19,12 +19,12 @@
    <methodparam><type>int</type><parameter>storage</parameter></methodparam>
    <methodparam><type>array</type><parameter>pixels</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Imports pixels from an array into an image. The <parameter>map</parameter> is usually
    'RGB'. This method imposes the following constraints for the parameters: amount of pixels
    in the array must match <parameter>width</parameter> x <parameter>height</parameter> x length of the map.
    &imagick.method.available.0x645;
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -35,60 +35,60 @@
     <varlistentry>
      <term><parameter>x</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The image x position
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The image y position
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>width</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The image width
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>height</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The image height
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>map</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Map of pixel ordering as a string. This can be for example <literal>RGB</literal>.
-       The value can be any combination or order of R = red, G = green, B = blue, A = alpha (0 is transparent), 
+       The value can be any combination or order of R = red, G = green, B = blue, A = alpha (0 is transparent),
        O = opacity (0 is opaque), C = cyan, Y = yellow, M = magenta, K = black, I = intensity (for grayscale), P = pad.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>storage</parameter></term>
      <listitem>
-      <para>
-       The pixel storage method. 
+      <simpara>
+       The pixel storage method.
        Refer to this list of <link linkend="imagick.constants.pixel">pixel constants</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>pixels</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The array of pixels
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -97,16 +97,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -121,9 +121,9 @@
 /* Generate array of pixels. 2000 pixels per color stripe */
 $count = 2000 * 3;
 
-$pixels = 
+$pixels =
    array_merge(array_pad(array(), $count, 0),
-               array_pad(array(), $count, 255), 
+               array_pad(array(), $count, 255),
                array_pad(array(), $count, 0),
                array_pad(array(), $count, 255),
                array_pad(array(), $count, 0));

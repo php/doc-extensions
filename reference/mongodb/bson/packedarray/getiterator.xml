@@ -32,7 +32,7 @@
   &reftitle.errors;
   <simplelist>
    &mongodb.throws.argumentparsing;
-   <member>Throws <classname>MongoDB\Driver\Exception\UnexpectedValueException</classname> if the BSON iterator could not be initialized.</member>
+   <member>Throws <exceptionname>MongoDB\Driver\Exception\UnexpectedValueException</exceptionname> if the BSON iterator could not be initialized.</member>
   </simplelist>
  </refsect1>
 

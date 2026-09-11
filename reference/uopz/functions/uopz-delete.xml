@@ -22,9 +22,9 @@
    <methodparam><type>string</type><parameter>class</parameter></methodparam>
    <methodparam><type>string</type><parameter>function</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Deletes a function or method
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -33,15 +33,15 @@
    <varlistentry>
     <term><parameter>class</parameter></term>
     <listitem>
-     <para>
-     </para>
+     <simpara>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>function</parameter></term>
     <listitem>
-     <para>
-     </para>
+     <simpara>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -49,9 +49,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.pop">
+<refentry xml:id="imagickdraw.pop" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickDraw::pop</refname>
   <refpurpose>Destroys the current ImagickDraw in the stack, and returns to the previously pushed ImagickDraw</refpurpose>
@@ -13,19 +13,19 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Destroys the current ImagickDraw in the stack, and returns to the
    previously pushed ImagickDraw. Multiple ImagickDraws may exist. It is an
    error to attempt to pop more ImagickDraws than have been pushed, and it is
    proper form to pop all ImagickDraws which have been pushed.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

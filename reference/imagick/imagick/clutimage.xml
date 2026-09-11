@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.clutimage">
+<refentry xml:id="imagick.clutimage" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::clutImage</refname>
   <refpurpose>Replaces colors in the image</refpurpose>
@@ -14,10 +14,10 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Replaces colors in the image from a color lookup table. Optional second
    parameter to replace colors in a specific channel. &imagick.method.available.0x636;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,18 +27,18 @@
     <varlistentry>
      <term><parameter>lookup_table</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Imagick object containing the color lookup table
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The <link linkend="imagick.constants.channel">Channeltype</link>
        constant. When not supplied, default channels are replaced.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -47,9 +47,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -57,9 +57,9 @@
   <para>
    <example>
     <title>Using <function>Imagick::clutImage</function>:</title>
-    <para>
+    <simpara>
      Replace colors in the image from a color lookup table.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

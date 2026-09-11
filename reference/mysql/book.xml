@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- State: deprecated -->
-<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="book.mysql">
+<book xml:id="book.mysql" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="pecl"?>
  <title>Original MySQL API</title>
  <titleabbrev>MySQL (Original)</titleabbrev>

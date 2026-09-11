@@ -11,9 +11,9 @@
 <!-- {{{ Swoole\Table intro -->
   <section xml:id="swoole-table.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
 
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -74,21 +74,21 @@
     <varlistentry xml:id="swoole-table.constants.type-int">
      <term><constant>Swoole\Table::TYPE_INT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-table.constants.type-string">
      <term><constant>Swoole\Table::TYPE_STRING</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="swoole-table.constants.type-float">
      <term><constant>Swoole\Table::TYPE_FLOAT</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 

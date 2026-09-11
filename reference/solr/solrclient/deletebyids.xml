@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::deleteByIds</methodname>
    <methodparam><type>array</type><parameter>ids</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Deletes a collection of documents with the specified set of ids.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>ids</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        An array of IDs representing the uniqueKey field declared in the schema for each document to be deleted. This must be an actual php variable.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,19 +37,19 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a <type>SolrUpdateResponse</type> on success and throws an exception on failure.
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>SolrClientException</classname> if the client had failed, or there was a connection issue.
-  </para>
-  <para>
-   Throws <classname>SolrServerException</classname> if the Solr Server had failed to process the request.
-  </para>
+  <simpara>
+   Throws <exceptionname>SolrClientException</exceptionname> if the client had failed, or there was a connection issue.
+  </simpara>
+  <simpara>
+   Throws <exceptionname>SolrServerException</exceptionname> if the Solr Server had failed to process the request.
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

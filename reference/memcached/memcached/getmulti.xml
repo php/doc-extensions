@@ -19,23 +19,23 @@
    item, it retrieves multiple items the keys of which are specified in the
    <parameter>keys</parameter> array.
    <note>
-    <para>
+    <simpara>
      Before v3.0 a second argument <parameter role="reference">cas_tokens</parameter> was in use.
      It was filled with the CAS token values for the found items.
      The <parameter role="reference">cas_tokens</parameter> parameter was removed in v3.0 of the extension.
      It was replaced with a new flag <constant>Memcached::GET_EXTENDED</constant>
      that needs is to be used as the value for <parameter>get_flags</parameter>.
-    </para>
+    </simpara>
    </note>
   </para>
-  <para>
+  <simpara>
    The <parameter>get_flags</parameter> parameter can be used to specify
    additional options for <function>Memcached::getMulti</function>.
    <constant>Memcached::GET_PRESERVE_ORDER</constant> ensures that the
    keys are returned in the same order as they were requested in.
    <constant>Memcached::GET_EXTENDED</constant> ensures that the
    CAS tokens will be fetched too.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -45,17 +45,17 @@
     <varlistentry>
      <term><parameter>keys</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Array of keys to retrieve.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>get_flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The flags for the get operation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -64,10 +64,10 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the array of found items&return.falseforfailure;.
    &memcached.result.getresultcode;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -212,7 +212,7 @@ bar bar-data
 baz baz-data
 lol lol-data
 kek kek-data
-zoo 
+zoo
 ]]>
     </screen>
    </example>
@@ -258,7 +258,7 @@ bar bar-data
 baz baz-data
 lol lol-data
 kek kek-data
-zoo 
+zoo
 ]]>
     </screen>
    </example>

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>mysql_xdevapi\TableDelete</type><methodname>mysql_xdevapi\TableDelete::orderby</methodname>
    <methodparam><type>string</type><parameter>orderby_expr</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set the order options for a result set.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>orderby_expr</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The sort definition.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -35,9 +35,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A TableDelete object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

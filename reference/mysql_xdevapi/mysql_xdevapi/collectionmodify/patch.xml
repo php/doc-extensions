@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>mysql_xdevapi\CollectionModify</type><methodname>mysql_xdevapi\CollectionModify::patch</methodname>
    <methodparam><type>string</type><parameter>document</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Takes a patch object and applies it on one or more documents, and
    can update multiple document properties.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -24,9 +24,9 @@
    <varlistentry>
     <term><parameter>document</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       A document with the properties to apply to the matching documents.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -34,9 +34,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    A CollectionModify object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

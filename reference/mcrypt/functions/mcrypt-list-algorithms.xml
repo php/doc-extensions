@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mcrypt-list-algorithms">
+<refentry xml:id="function.mcrypt-list-algorithms" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_list_algorithms</refname>
   <refpurpose>Gets an array of all supported ciphers</refpurpose>

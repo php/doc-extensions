@@ -13,7 +13,7 @@
     This exception class is <emphasis>DEPRECATED</emphasis> as of extension
     version 1.5.0 and was removed in 2.0. This exception was never thrown
     by the extension. Applications should use
-    <classname>MongoDB\Driver\Exception\ConnectionException</classname> instead.
+    <exceptionname>MongoDB\Driver\Exception\ConnectionException</exceptionname> instead.
    </simpara>
   </warning>
 

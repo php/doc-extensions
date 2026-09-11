@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.ssdeep-fuzzy-hash-filename">
+<refentry xml:id="function.ssdeep-fuzzy-hash-filename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ssdeep_fuzzy_hash_filename</refname>
   <refpurpose>Create a fuzzy hash from a file</refpurpose>

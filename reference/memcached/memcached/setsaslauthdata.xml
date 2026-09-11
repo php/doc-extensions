@@ -13,16 +13,16 @@
    <methodparam><type>string</type><parameter>username</parameter></methodparam>
    <methodparam><type>string</type><parameter>password</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::setSaslAuthData</function> sets the username and
    password that should be used for SASL authentication with the memcache
    servers.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    <emphasis>This method is only available when the memcached extension is
     built with SASL support.</emphasis> Please refer to
    <link linkend="memcached.setup">Memcached setup</link> for how to do this.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,17 +32,17 @@
     <varlistentry>
      <term><parameter>username</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The username to use for authentication.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>password</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The password to use for authentication.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -51,9 +51,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

@@ -11,9 +11,9 @@
 <!-- {{{ SolrClient intro -->
   <section xml:id="solrclient.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Used to send requests to a Solr server. Currently, cloning and serialization of SolrClient instances is not supported.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -105,7 +105,7 @@
      <varname linkend="solrclient.constants.default-system-servlet">SolrClient::DEFAULT_SYSTEM_SERVLET</varname>
      <initializer>admin/system</initializer>
     </fieldsynopsis>
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrclient')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrclient')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
@@ -123,84 +123,84 @@
     <varlistentry xml:id="solrclient.constants.search-servlet-type">
      <term><constant>SolrClient::SEARCH_SERVLET_TYPE</constant></term>
      <listitem>
-      <para>Used when updating the search servlet.</para>
+      <simpara>Used when updating the search servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.update-servlet-type">
      <term><constant>SolrClient::UPDATE_SERVLET_TYPE</constant></term>
      <listitem>
-      <para>Used when updating the update servlet.</para>
+      <simpara>Used when updating the update servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.threads-servlet-type">
      <term><constant>SolrClient::THREADS_SERVLET_TYPE</constant></term>
      <listitem>
-      <para>Used when updating the threads servlet.</para>
+      <simpara>Used when updating the threads servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.ping-servlet-type">
      <term><constant>SolrClient::PING_SERVLET_TYPE</constant></term>
      <listitem>
-      <para>Used when updating the ping servlet.</para>
+      <simpara>Used when updating the ping servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.terms-servlet-type">
      <term><constant>SolrClient::TERMS_SERVLET_TYPE</constant></term>
      <listitem>
-      <para>Used when updating the terms servlet.</para>
+      <simpara>Used when updating the terms servlet.</simpara>
      </listitem>
     </varlistentry>
-    
+
     <varlistentry xml:id="solrclient.constants.system-servlet-type">
      <term><constant>SolrClient::SYSTEM_SERVLET_TYPE</constant></term>
      <listitem>
-      <para>Used when retrieving system information from the system servlet.</para>
+      <simpara>Used when retrieving system information from the system servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.default-search-servlet">
      <term><constant>SolrClient::DEFAULT_SEARCH_SERVLET</constant></term>
      <listitem>
-      <para>This is the initial value for the search servlet.</para>
+      <simpara>This is the initial value for the search servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.default-update-servlet">
      <term><constant>SolrClient::DEFAULT_UPDATE_SERVLET</constant></term>
      <listitem>
-      <para>This is the initial value for the update servlet.</para>
+      <simpara>This is the initial value for the update servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.default-threads-servlet">
      <term><constant>SolrClient::DEFAULT_THREADS_SERVLET</constant></term>
      <listitem>
-      <para>This is the initial value for the threads servlet.</para>
+      <simpara>This is the initial value for the threads servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.default-ping-servlet">
      <term><constant>SolrClient::DEFAULT_PING_SERVLET</constant></term>
      <listitem>
-      <para>This is the initial value for the ping servlet.</para>
+      <simpara>This is the initial value for the ping servlet.</simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="solrclient.constants.default-terms-servlet">
      <term><constant>SolrClient::DEFAULT_TERMS_SERVLET</constant></term>
      <listitem>
-      <para>This is the initial value for the terms servlet used for the TermsComponent</para>
+      <simpara>This is the initial value for the terms servlet used for the TermsComponent</simpara>
      </listitem>
     </varlistentry>
-    
+
     <varlistentry xml:id="solrclient.constants.default-system-servlet">
      <term><constant>SolrClient::DEFAULT_SYSTEM_SERVLET</constant></term>
      <listitem>
-      <para>This is the initial value for the system servlet used to obtain Solr Server information</para>
+      <simpara>This is the initial value for the system servlet used to obtain Solr Server information</simpara>
      </listitem>
     </varlistentry>
 

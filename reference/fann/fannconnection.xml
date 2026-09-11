@@ -11,10 +11,10 @@
 <!-- {{{ FANNConnection intro -->
   <section xml:id="fannconnection.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     <classname>FANNConnection</classname> is used for the neural network connection.
     The objects of this class are used in <function>fann_get_connection_array</function> and <function>fann_set_weight_array</function>.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -63,19 +63,19 @@
     <varlistentry xml:id="fannconnection.props.from-neuron">
      <term><varname>from_neuron</varname></term>
      <listitem>
-      <para>The neuron where the connection starts.</para>
+      <simpara>The neuron where the connection starts.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="fannconnection.props.to-neuron">
      <term><varname>to_neuron</varname></term>
      <listitem>
-      <para>The neuron where the connection ends.</para>
+      <simpara>The neuron where the connection ends.</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="fannconnection.props.weight">
      <term><varname>weight</varname></term>
      <listitem>
-      <para>The weight of the connection.</para>
+      <simpara>The weight of the connection.</simpara>
      </listitem>
     </varlistentry>
    </variablelist>

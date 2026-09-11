@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>array</type><parameter>extensions</parameter><initializer>array()</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>report_uncaught_exceptions</parameter><initializer>&true;</initializer></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Constructs a new <classname>V8Js</classname> object.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,31 +28,31 @@
    <varlistentry>
     <term><parameter>object_name</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The name of the object passed to Javascript.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>variables</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Map of PHP variables that will be available in Javascript. Must be an associative <type>array</type>
       in format <literal>array("name-for-js" =&gt; "name-of-php-variable")</literal>. Defaults to empty array.
-     </para> 
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>extensions</parameter></term>
     <listitem>
      <para>
-      List of extensions registered using <function>V8Js::registerExtension</function> which should be available 
+      List of extensions registered using <function>V8Js::registerExtension</function> which should be available
       in the Javascript context of the created <classname>V8Js</classname> object.
       <note>
-       <para>
+       <simpara>
         Extensions registered to be enabled automatically do not need to be listed in this array.
         Also if an extension has dependencies, those dependencies can be omitted as well. Defaults to empty array.
-       </para>
+       </simpara>
       </note>
      </para>
     </listitem>
@@ -60,10 +60,10 @@
    <varlistentry>
     <term><parameter>report_uncaught_exceptions</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Controls whether uncaught Javascript exceptions are reported immediately or not. Defaults to &true;. If set to &false;
       the uncaught exception can be accessed using <function>V8Js::getPendingException</function>.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

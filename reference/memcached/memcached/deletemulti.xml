@@ -13,9 +13,9 @@
    <methodparam><type>array</type><parameter>keys</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>time</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Delete the array of <parameter>keys</parameter> from the server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
     <varlistentry>
      <term><parameter>keys</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The keys to be deleted.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>time</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The amount of time the server will wait to delete the items.
-      </para>
+      </simpara>
       &memcached.note.delete-time;
      </listitem>
     </varlistentry>

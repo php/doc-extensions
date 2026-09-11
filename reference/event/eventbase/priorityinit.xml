@@ -16,9 +16,9 @@
     <parameter>n_priorities</parameter>
    </methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets number of priorities per event base.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -28,18 +28,18 @@
      <parameter>n_priorities</parameter>
     </term>
     <listitem>
-     <para>
+     <simpara>
       The number of priorities per event base.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

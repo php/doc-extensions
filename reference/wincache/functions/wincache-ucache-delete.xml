@@ -13,9 +13,9 @@
    <type>bool</type><methodname>wincache_ucache_delete</methodname>
    <methodparam><type>mixed</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Deletes the elements in the user cache pointed by <parameter>key</parameter>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,11 +24,11 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
-       The <parameter>key</parameter> that was used to store the variable in the cache. 
-       <parameter>key</parameter> is case sensitive. <parameter>key</parameter> can be an 
+      <simpara>
+       The <parameter>key</parameter> that was used to store the variable in the cache.
+       <parameter>key</parameter> is case sensitive. <parameter>key</parameter> can be an
        array of keys.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -36,14 +36,14 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
-  <para>
-   If <parameter>key</parameter> is an array then the function returns &false; 
-   if every element of the array fails to get deleted from the user cache, otherwise returns an 
+  </simpara>
+  <simpara>
+   If <parameter>key</parameter> is an array then the function returns &false;
+   if every element of the array fails to get deleted from the user cache, otherwise returns an
    array which consists of all the keys that are deleted.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
@@ -65,7 +65,7 @@ var_dump(wincache_ucache_exists('foo'));
 bool(true)
 bool(false)
 ]]>
-    </screen>    
+    </screen>
    </example>
   </para>
   <para>
@@ -84,12 +84,12 @@ var_dump(wincache_ucache_delete($array2));
     &example.outputs;
     <screen>
 <![CDATA[
-array(4) { [0]=> string(5) "green" 
+array(4) { [0]=> string(5) "green"
            [1]=> string(4) "blue"
-           [2]=> string(6) "yellow" 
-           [3]=> string(4) "cyan" } 
+           [2]=> string(6) "yellow"
+           [3]=> string(4) "cyan" }
 ]]>
-    </screen>    
+    </screen>
    </example>
   </para>
   <para>
@@ -108,12 +108,12 @@ var_dump(wincache_ucache_delete($array2));
     &example.outputs;
     <screen>
 <![CDATA[
-array(2) { [0]=> string(6) "yellow" 
+array(2) { [0]=> string(6) "yellow"
            [1]=> string(4) "cyan" }
 ]]>
-    </screen>    
+    </screen>
    </example>
-  </para>  
+  </para>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;

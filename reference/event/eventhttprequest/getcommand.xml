@@ -13,14 +13,14 @@
    <methodname>EventHttpRequest::getCommand</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the request command, one of
    <link
   linkend="eventhttprequest.constants">
     <literal>EventHttpRequest::CMD_*</literal>
    </link>
    constants.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -28,14 +28,14 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the request command, one of
    <link
   linkend="eventhttprequest.constants">
     <literal>EventHttpRequest::CMD_*</literal>
    </link>
    constants.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file

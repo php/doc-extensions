@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>Connection</type><methodname>Swoole\Connection\Iterator::next</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
     The iterator to the next connection.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 

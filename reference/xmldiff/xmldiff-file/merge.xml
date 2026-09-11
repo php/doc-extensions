@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>src</parameter></methodparam>
    <methodparam><type>string</type><parameter>diff</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Create new XML document based on diffs and source document.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
    <varlistentry>
     <term><parameter>src</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Path to the source XML document.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>diff</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Path to the XML document with the diff information.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>
@@ -43,9 +43,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   String with the new XML document or NULL. 
-  </para>
+  <simpara>
+   String with the new XML document or NULL.
+  </simpara>
  </refsect1>
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setresolution">
+<refentry xml:id="imagick.setresolution" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setResolution</refname>
   <refpurpose>Sets the image resolution</refpurpose>
@@ -13,9 +13,9 @@
    <methodparam><type>float</type><parameter>x_resolution</parameter></methodparam>
    <methodparam><type>float</type><parameter>y_resolution</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the image resolution.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,17 +25,17 @@
     <varlistentry>
      <term><parameter>x_resolution</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The horizontal resolution.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>y_resolution</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The vertical resolution.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,17 +44,17 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
- 
+
  <refsect1 role="notes">
   &reftitle.notes;
-  <para>
+  <simpara>
    <methodname>Imagick::setResolution</methodname> must be called before
    loading or creating an image.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">
@@ -64,8 +64,8 @@
    <member><methodname>Imagick::getImageResolution</methodname></member>
   </simplelist>
  </refsect1>
- 
- 
+
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

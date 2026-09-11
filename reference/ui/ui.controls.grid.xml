@@ -11,9 +11,9 @@
 <!-- {{{ UI\Controls\Grid intro -->
   <section xml:id="ui-controls-grid.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     A Grid is a control which is allows the arrangement of children into a grid
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -103,56 +103,56 @@
     <varlistentry xml:id="ui-controls-grid.constants.fill">
      <term><constant>UI\Controls\Grid::Fill</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.start">
      <term><constant>UI\Controls\Grid::Start</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.center">
      <term><constant>UI\Controls\Grid::Center</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.end">
      <term><constant>UI\Controls\Grid::End</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.leading">
      <term><constant>UI\Controls\Grid::Leading</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.top">
      <term><constant>UI\Controls\Grid::Top</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.trailing">
      <term><constant>UI\Controls\Grid::Trailing</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
     <varlistentry xml:id="ui-controls-grid.constants.bottom">
      <term><constant>UI\Controls\Grid::Bottom</constant></term>
      <listitem>
-      <para></para>
+      <simpara></simpara>
      </listitem>
     </varlistentry>
 
@@ -167,9 +167,9 @@
     <varlistentry xml:id="ui-controls-grid.props.controls">
      <term><varname>controls</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Contains controls, should not be manipulated directly
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>

@@ -14,10 +14,10 @@
    <methodparam><type>string</type><parameter>dsn</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>force</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
-  <para>
-   Connect the socket to a remote endpoint. The endpoint is defined in format <literal>transport://address</literal> where 
+  <simpara>
+   Connect the socket to a remote endpoint. The endpoint is defined in format <literal>transport://address</literal> where
    transport is one of the following: inproc, ipc, tcp, pgm or epgm.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -27,17 +27,17 @@
     <varlistentry>
      <term><parameter>dsn</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The connect dsn, for example <literal>transport://address</literal>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>force</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Tries to connect even if the socket has already been connected to given endpoint.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,16 +46,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the current object.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-   Throws <classname>ZMQSocketException</classname> on error.
-  </para>
+  <simpara>
+   Throws <exceptionname>ZMQSocketException</exceptionname> on error.
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
@@ -63,9 +63,9 @@
   <para>
    <example>
     <title>A <function>ZMQContext</function> example</title>
-    <para>
+    <simpara>
      Construct a new context and allocate request socket from it
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

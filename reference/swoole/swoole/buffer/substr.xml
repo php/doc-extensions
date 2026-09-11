@@ -15,10 +15,10 @@
    <methodparam choice="opt"><type>int</type><parameter>length</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>remove</parameter></methodparam>
   </methodsynopsis>
-  <para>
-    If $remove is set to be true and $offset is set to be 0, the data will be removed from the buffer. 
+  <simpara>
+    If $remove is set to be true and $offset is set to be 0, the data will be removed from the buffer.
     The memory for storing the data will be released when the buffer object is deconstructed.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -28,25 +28,25 @@
    <varlistentry>
     <term><parameter>offset</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The offset.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>length</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The length.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>remove</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Whether to remove the data from the memory buffer.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

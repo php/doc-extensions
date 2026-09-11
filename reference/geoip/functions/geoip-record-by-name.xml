@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.geoip-record-by-name">
+<refentry xml:id="function.geoip-record-by-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>geoip_record_by_name</refname>
   <refpurpose>Returns the detailed City information found in the GeoIP Database</refpurpose>

@@ -66,10 +66,10 @@ Yaf_Dispatcher Object
 
                 )
 
-            [_current:protected] => 
+            [_current:protected] =>
         )
 
-    [_view:protected] => 
+    [_view:protected] =>
     [_request:protected] => Yaf_Request_Http Object
         (
             [method] => Cli
@@ -80,7 +80,7 @@ Yaf_Dispatcher Object
         )
 
     [_auto_render:protected] => 1
-    [_return_response:protected] => 
+    [_return_response:protected] =>
     [_instantly_flush:protected] => 1
     [_default_module:protected] => Index
     [_default_controller:protected] => Index

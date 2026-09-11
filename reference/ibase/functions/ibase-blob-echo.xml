@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-blob-echo">
+<refentry xml:id="function.ibase-blob-echo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ibase_blob_echo</refname>
   <refpurpose>Output blob contents to browser</refpurpose>

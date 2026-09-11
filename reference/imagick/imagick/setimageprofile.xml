@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimageprofile">
+<refentry xml:id="imagick.setimageprofile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::setImageProfile</refname>
   <refpurpose>Adds a named profile to the Imagick object</refpurpose>
@@ -13,12 +13,12 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam><type>string</type><parameter>profile</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Adds a named profile to the Imagick object.  If a profile
    with the same name already exists, it is replaced. This
    method differs from the Imagick::ProfileImage() method in
    that it does not apply any CMS color profiles.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,15 +28,15 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>profile</parameter></term>
      <listitem>
-      <para>
-      </para>
+      <simpara>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -45,16 +45,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

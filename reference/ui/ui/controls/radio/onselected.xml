@@ -13,9 +13,9 @@
    <modifier>protected</modifier> <methodname>UI\Controls\Radio::onSelected</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall be executed when the option selected in this Radio changes
-  </para>
+  </simpara>
 
  </refsect1>
 

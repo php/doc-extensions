@@ -14,17 +14,17 @@
    <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Attempts to delete a service from the SCM database.  Administrative
    privileges are required for this to succeed.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    This function really just marks the service for deletion.  If other
    processes (such as the Services Applet) are open, then the deletion will be
    deferred until those applications are closed.  If a service is marked for
    deletion, further attempts to delete it will fail, and attempts to create a
    new service with that name will also fail.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -35,17 +35,17 @@
     <varlistentry>
      <term><parameter>servicename</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The short name of the service.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>machine</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The optional machine name.  If omitted, the local machine will be used.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -54,24 +54,24 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
-  <para>
+  </simpara>
+  <simpara>
     Prior to version 1.0.0, &win32service.noerror.false.error;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
-    A <classname>ValueError</classname> is thrown if the
+  <simpara>
+    A <exceptionname>ValueError</exceptionname> is thrown if the
     value of <parameter>servicename</parameter> parameter is empty.
-  </para>
+  </simpara>
 
-   <para>
-    A <classname>Win32ServiceException</classname> is thrown on error.
-   </para>
+   <simpara>
+    A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
+   </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -89,15 +89,15 @@
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>ValueError</classname> on invalid data in parameters,
+        Throws a <exceptionname>ValueError</exceptionname> on invalid data in parameters,
         previously &false; was returned.
        </entry>
       </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
-        Throws a <classname>Win32ServiceException</classname> on error,
-        previously a 
+        Throws a <exceptionname>Win32ServiceException</exceptionname> on error,
+        previously a
         <link xmlns="http://docbook.org/ns/docbook" linkend="win32service.constants.errors">Win32 Error Code</link>
         was returned.
        </entry>
@@ -119,9 +119,9 @@
   <para>
    <example>
     <title>A <function>win32_delete_service</function> example</title>
-    <para>
+    <simpara>
      Deletes the dummyphp service.
-    </para>
+    </simpara>
     <programlisting role="php">
 <![CDATA[
 <?php

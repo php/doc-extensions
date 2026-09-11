@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagecompressionquality">
+<refentry xml:id="imagick.getimagecompressionquality" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::getImageCompressionQuality</refname>
   <refpurpose>Gets the current image's compression quality</refpurpose>
@@ -13,9 +13,9 @@
    <void/>
   </methodsynopsis>
 
-  <para>
+  <simpara>
    Gets the current image's compression quality
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns integer describing the images compression quality
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

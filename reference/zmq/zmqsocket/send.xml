@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>message</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Send a message using the socket. The operation can block unless <constant>ZMQ::MODE_NOBLOCK</constant> is used.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,18 +26,18 @@
     <varlistentry>
      <term><parameter>message</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The message to send.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       Pass mode flags to receive multipart messages or non-blocking operation. 
+      <simpara>
+       Pass mode flags to receive multipart messages or non-blocking operation.
        See <constant>ZMQ::MODE_<replaceable>*</replaceable></constant> constants.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -46,11 +46,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   Returns the current object. Throws ZMQSocketException on error. 
-   If <constant>ZMQ::MODE_NOBLOCK</constant> is used and the operation would 
+  <simpara>
+   Returns the current object. Throws ZMQSocketException on error.
+   If <constant>ZMQ::MODE_NOBLOCK</constant> is used and the operation would
    block &boolean; false shall be returned.
-  </para>
+  </simpara>
  </refsect1>
 </refentry>
 

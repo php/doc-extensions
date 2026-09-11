@@ -15,11 +15,11 @@
    <methodparam><type>array</type><parameter>arguments</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Given the arguments array containing numeric values this method interpolates
    the colors found at those coordinates across the whole image using <parameter>sparse_method</parameter>.
    &imagick.method.available.0x645;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,26 +29,26 @@
     <varlistentry>
      <term><parameter>SPARSE_METHOD</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Refer to this list of <link linkend="imagick.constants.sparsecolormethod">sparse method constants</link>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>arguments</parameter></term>
      <listitem>
-      <para>
-       An array containing the coordinates. 
+      <simpara>
+       An array containing the coordinates.
        The array is in format <literal>array(1,1, 2,45)</literal>
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>channel</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &imagick.parameter.channel;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -57,16 +57,16 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    &imagick.imagick.throws;
-  </para>
+  </simpara>
  </refsect1>
 
 

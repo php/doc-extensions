@@ -11,9 +11,9 @@
 <!-- {{{ UI\Executor intro -->
   <section xml:id="ui-executor.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     This facility schedules repetitive execution of a callback, useful for animations and other such activities.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -35,7 +35,7 @@
 
     <classsynopsisinfo role="comment">Constructor</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-executor')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])" />
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.ui-executor')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />
    </classsynopsis>

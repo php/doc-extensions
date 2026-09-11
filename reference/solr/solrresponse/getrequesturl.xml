@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>string</type><methodname>SolrResponse::getRequestUrl</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Returns the full URL the request was sent to.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the full URL the request was sent to
-  </para>
+  </simpara>
  </refsect1>
 
 </refentry>

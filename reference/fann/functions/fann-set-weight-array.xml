@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>array</type><parameter>connections</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Set connections in the network.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Only the weights can be changed, connections and weights are ignored if they do not already exist in the network.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,9 +34,9 @@
    <varlistentry>
     <term><parameter>connections</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       An array of <classname>FANNConnection</classname> objects
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

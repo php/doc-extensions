@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>bool</type><methodname>ZMQSocket::isPersistent</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Check whether the socket is persistent.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns a &boolean; based on whether the socket is persistent or not.
-  </para>
+  </simpara>
  </refsect1>
 
 

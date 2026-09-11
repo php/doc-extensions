@@ -4,12 +4,12 @@
 <section xml:id="parle.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
- <para>
+ <simpara>
   &pecl.info;
   <link xlink:href="&url.pecl.package;parle">&url.pecl.package;parle</link>
- </para>
+ </simpara>
 
- 
+
 </section>
 
 

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type class="union"><type>mysql_xdevapi\Schema</type><type>null</type></type><methodname>mysql_xdevapi\Session::getDefaultSchema</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Retrieve the default schema that's typically set in the connection URI.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,11 +25,11 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The default schema defined by the connection, or &null; if one was not set.
-  </para>
+  </simpara>
  </refsect1>
- 
+
 <refsect1 role="examples">
   &reftitle.examples;
   <example>

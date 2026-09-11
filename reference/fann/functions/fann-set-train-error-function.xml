@@ -14,12 +14,12 @@
    <methodparam><type>resource</type><parameter>ann</parameter></methodparam>
    <methodparam><type>int</type><parameter>error_function</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Sets the error function used during training.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    The error functions are described further in <link linkend="constants.fann-errorfunc">error functions</link> constants.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,9 +34,9 @@
    <varlistentry>
     <term><parameter>error_function</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       The <link linkend="constants.fann-errorfunc">error function</link> constant
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

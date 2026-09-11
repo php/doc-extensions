@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>XMLDiff\Base::__construct</methodname>
    <methodparam><type>string</type><parameter>nsname</parameter></methodparam>
   </constructorsynopsis>
-  <para>
+  <simpara>
    Base constructor for all the worker classes in the xmldiff extension.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -25,9 +25,9 @@
    <varlistentry>
     <term><parameter>nsname</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       Custom namespace name for the diff document. The default namespace is http://www.locus.cz/diffmark and that's enough to avoid namespace conflicts. Use this parameter if you want to change it for some reason.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

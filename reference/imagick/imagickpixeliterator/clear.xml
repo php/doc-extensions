@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixeliterator.clear">
+<refentry xml:id="imagickpixeliterator.clear" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ImagickPixelIterator::clear</refname>
   <refpurpose>Clear resources associated with a PixelIterator</refpurpose>
@@ -13,16 +13,16 @@
    <void/>
   </methodsynopsis>
   &warn.undocumented.func;
-  <para>
+  <simpara>
    Clear resources associated with a PixelIterator.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &imagick.return.success;
-  </para>
+  </simpara>
  </refsect1>
 
 
@@ -41,13 +41,13 @@ function clear($imagePath) {
     $imageIterator = $imagick->getPixelRegionIterator(100, 100, 250, 200);
 
     /* Loop through pixel rows */
-    foreach ($imageIterator as $pixels) { 
+    foreach ($imageIterator as $pixels) {
         /** @var $pixel \ImagickPixel */
         /* Loop through the pixels in the row (columns) */
-        foreach ($pixels as $column => $pixel) { 
+        foreach ($pixels as $column => $pixel) {
             if ($column % 2) {
                 /* Paint every second pixel black*/
-                $pixel->setColor("rgba(0, 0, 0, 0)"); 
+                $pixel->setColor("rgba(0, 0, 0, 0)");
             }
         }
         /* Sync the iterator, this is important to do on each iteration */

@@ -15,9 +15,9 @@
    <methodparam><type>float</type><parameter>new_min</parameter></methodparam>
    <methodparam><type>float</type><parameter>new_max</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Scales the inputs in the training data to the specified range.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -32,17 +32,17 @@
    <varlistentry>
     <term><parameter>new_min</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       New minimum after scaling inputs in training data.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
    <varlistentry>
     <term><parameter>new_max</parameter></term>
     <listitem>
-     <para>
+     <simpara>
       New maximum after scaling inputs in training data.
-     </para>
+     </simpara>
     </listitem>
    </varlistentry>
   </variablelist>

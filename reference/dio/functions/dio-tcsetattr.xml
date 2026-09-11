@@ -14,10 +14,10 @@
    <methodparam><type>resource</type><parameter>fd</parameter></methodparam>
    <methodparam><type>array</type><parameter>options</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>dio_tcsetattr</function> sets the terminal attributes and baud
    rate of the open <parameter>fd</parameter>.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -26,37 +26,37 @@
     <varlistentry>
      <term><parameter>fd</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The file descriptor returned by <function>dio_open</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>options</parameter></term>
      <listitem>
       <para>
-       The currently available options are: 
+       The currently available options are:
        <itemizedlist>
         <listitem>
-         <para>
+         <simpara>
           'baud' - baud rate of the port - can be 38400,19200,9600,4800,2400,1800,
           1200,600,300,200,150,134,110,75 or 50, default value is 9600.
-         </para>
+         </simpara>
         </listitem>
         <listitem>
-         <para>
+         <simpara>
           'bits' - data bits - can be 8,7,6 or 5. Default value is 8.
-         </para>
+         </simpara>
         </listitem>
         <listitem>
-         <para>
+         <simpara>
           'stop' - stop bits - can be 1 or 2. Default value is 1.
-         </para>
+         </simpara>
         </listitem>
         <listitem>
-         <para>
+         <simpara>
           'parity' - can be 0,1 or 2. Default value is 0.
-         </para>
+         </simpara>
         </listitem>
        </itemizedlist>
       </para>
@@ -67,9 +67,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.void;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
@@ -88,14 +88,14 @@ dio_tcsetattr($fd, array(
     'bits' => 8,
     'stop'  => 1,
     'parity' => 0
-)); 
+));
 
 while (true) {
     $data = dio_read($fd, 256);
     if ($data !== null && $data !== '') {
         echo $data;
     }
-} 
+}
 
 ?>
 ]]>

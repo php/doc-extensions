@@ -13,10 +13,10 @@
    <modifier>private</modifier> <methodname>mysql_xdevapi\DocResult::__construct</methodname>
    <void />
   </constructorsynopsis>
-  <para>
-   Fetch document results and warnings, 
+  <simpara>
+   Fetch document results and warnings,
    and is instantiated by CollectionFind.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

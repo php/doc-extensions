@@ -11,9 +11,9 @@
 <!-- {{{ SolrObject intro -->
   <section xml:id="solrobject.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     This is an object whose properties can also by accessed using the array syntax. All its properties are read-only.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
 
@@ -30,13 +30,13 @@
       <modifier>final</modifier>
       <classname>SolrObject</classname>
      </ooclass>
-     
+
      <oointerface>
       <interfacename>ArrayAccess</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->
-    
+
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrobject')/db:refentry/db:refsect1[@role='description']/descendant::db:constructorsynopsis[not(@role='procedural')])"/>
     <xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.solrobject')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[not(@role='procedural')])" />

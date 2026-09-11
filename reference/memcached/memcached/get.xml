@@ -14,7 +14,7 @@
    <methodparam choice="opt"><type class="union"><type>callable</type><type>null</type></type><parameter>cache_cb</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>get_flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::get</function> returns the item that was previously
    stored under the <parameter>key</parameter>. If the item is found and
    the <parameter>get_flags</parameter> is given <constant>Memcached::GET_EXTENDED</constant>,
@@ -22,9 +22,9 @@
    <methodname>Memcached::cas</methodname> for how to use CAS tokens.
    <link linkend="memcached.callbacks">Read-through caching callback</link> may be
    specified via <parameter>cache_cb</parameter> parameter.
-  </para>
-  <para>
-  </para>
+  </simpara>
+  <simpara>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -34,26 +34,26 @@
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The key of the item to retrieve.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>cache_cb</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Read-through caching callback or &null;.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>get_flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Flags to control the returned result. When <constant>Memcached::GET_EXTENDED</constant>
        is given, the function will also return the CAS token.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -62,13 +62,13 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Returns the value stored in the cache or &false; otherwise.
    If the <parameter>get_flags</parameter> is set to <constant>Memcached::GET_EXTENDED</constant>,
    an array containing the value and the CAS token is returned instead of only the value.
    The <methodname>Memcached::getResultCode</methodname> will return
    <constant>Memcached::RES_NOTFOUND</constant> if the key does not exist.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

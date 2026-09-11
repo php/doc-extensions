@@ -12,10 +12,10 @@
    <modifier>public</modifier> <type>string</type><methodname>Memcached::getResultMessage</methodname>
    <void/>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::getResultMessage</function> returns a string that
    describes the result code of the last executed Memcached method.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -25,9 +25,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Message describing the result of the last Memcached operation.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

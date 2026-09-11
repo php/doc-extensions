@@ -14,12 +14,12 @@
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>Memcached::prependByKey</function> is functionally equivalent to
    <methodname>Memcached::prepend</methodname>, except that the free-form
    <parameter>server_key</parameter> can be used to map the
    <parameter>key</parameter> to a specific server.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -29,25 +29,25 @@
     <varlistentry>
      <term><parameter>server_key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        &memcached.parameter.server_key;
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>key</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The key of the item to prepend the data to.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>value</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        The string to prepend.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -56,18 +56,18 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
    Returns &null; when compression is on.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="errors">
   &reftitle.errors;
-  <para>
+  <simpara>
    Returns &null; and raises an <constant>E_WARNING</constant> when
    compression is enabled.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="seealso">

@@ -13,9 +13,9 @@
    <modifier>public</modifier> <methodname>UI\Menu::appendSeparator</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Shall append a separator
-  </para>
+  </simpara>
 
  </refsect1>
 

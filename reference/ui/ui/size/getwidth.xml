@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>float</type><methodname>UI\Size::getWidth</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
   Retrieves the Width
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    The current Width
-  </para>
+  </simpara>
  </refsect1>
 
 

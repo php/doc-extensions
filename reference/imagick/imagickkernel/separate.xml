@@ -13,9 +13,9 @@
    <modifier>public</modifier> <type>array</type><methodname>ImagickKernel::separate</methodname>
    <void />
   </methodsynopsis>
-  <para>
+  <simpara>
    Separates a linked set of kernels and returns an array of ImagickKernels.
-  </para>
+  </simpara>
 
  </refsect1>
 
@@ -26,9 +26,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
-   
-  </para>
+  <simpara>
+
+  </simpara>
  </refsect1>
 
 
@@ -44,7 +44,7 @@
 <?php
 
 
-    
+
     function renderKernelTable($matrix) {
 
         $output = "<table class='infoTable'>";
@@ -62,9 +62,9 @@
             }
             $output .= "</tr>";
         }
-    
+
         $output .= "</table>";
-    
+
         return $output;
     }
 
@@ -83,9 +83,9 @@
     );
 
     $kernel->addKernel($diamondKernel);
-    
+
     $kernelList = $kernel->separate();
-    
+
     $output = '';
     $count = 0;
     foreach ($kernelList as $kernel) {
