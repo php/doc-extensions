@@ -65,6 +65,7 @@ URLs rather than linkends. Any links to other manual books should live here.
 <entity name="url.php.manual.install.windows.building">&url.php.manual;install.windows.building.php</entity>
 <entity name="url.php.manual.install.windows.manual">&url.php.manual;install.windows.manual.php</entity>
 <entity name="url.php.manual.intro.pdo">&url.php.manual;book.pdo.php#intro.pdo</entity>
+<entity name="url.php.manual.language.error-handling.throwable">&url.php.manual;language.error-handling.throwable.php</entity>
 <entity name="url.php.manual.language.exceptions">&url.php.manual;language.exceptions.php</entity>
 <entity name="url.php.manual.language.oop5.autoload">&url.php.manual;language.oop5.autoload.php</entity>
 <entity name="url.php.manual.language.oop5.cloning">&url.php.manual;language.oop5.cloning.php</entity>

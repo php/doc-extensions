@@ -11,7 +11,11 @@
   <section xml:id="stompexception.intro">
    &reftitle.intro;
    <simpara>
-Represents an error raised by the stomp extension. See <link xlink:href="&url.php.manual.language.exceptions;">Exceptions</link> for more information about Exceptions in PHP.
+    Represents an error raised by the stomp extension. See <link xlink:href="&url.php.manual.language.exceptions;">Exceptions</link>
+    for more information about Exceptions in PHP.
+   </simpara>
+   <simpara>
+    See also <link xlink:href="&url.php.manual.language.error-handling.throwable;">Throwable errors</link>.
    </simpara>
   </section>
 <!-- }}} -->
