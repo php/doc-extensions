@@ -20,6 +20,8 @@ final readonly class Console
     {
         if (getenv('GITHUB_ACTIONS') !== false) {
             $this->stderr('::error::' . str_replace("\n", ' ', $message) . PHP_EOL);
+            
+            return;
         }
 
         $this->stderr('Error: ' . $message . PHP_EOL);
