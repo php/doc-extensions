@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DocExtensions\SyncLanguage\Generation;
 
-use LogicException;
+use DocExtensions\SyncLanguage\SyncException;
 
 /**
  * The generated files are filled-in copies of templates/*.tpl
@@ -29,11 +29,11 @@ final class PageTemplate
         $unused = array_diff(array_keys($values), $placeholders);
 
         if ($missing !== []) {
-            throw new LogicException(sprintf('template %s: no value for %s', $name, implode(', ', $missing)));
+            throw new SyncException(sprintf('template %s: no value for %s', $name, implode(', ', $missing)));
         }
 
         if ($unused !== []) {
-            throw new LogicException(sprintf('template %s: no placeholder for %s', $name, implode(', ', $unused)));
+            throw new SyncException(sprintf('template %s: no placeholder for %s', $name, implode(', ', $unused)));
         }
 
         $replacements = [];
@@ -50,7 +50,7 @@ final class PageTemplate
             $file = self::DIR . '/' . $name . '.tpl';
             $content = @file_get_contents($file);
             if ($content === false) {
-                throw new LogicException('template file missing: ' . $file);
+                throw new SyncException('template file missing: ' . $file);
             }
 
             self::$loaded[$name] = $content;
