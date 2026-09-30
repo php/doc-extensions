@@ -38,6 +38,7 @@ tags used in reference/ and other files to mark section titles.
 <entity name="InheritedMethods">Inherited methods</entity>
 
 <entity name="InheritedProperties">Inherited properties</entity>
+<entity name="LanguageReference">Core Language Reference</entity>
 
 <entity name="Methods">Methods</entity>
 

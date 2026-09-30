@@ -17,6 +17,24 @@
  <title>&ThirdPartyManual;</title>
  &bookinfo;
 
+ <book xml:id="langref" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>&LanguageReference;</title>
+  <preface xml:id="langref.intro">
+   <title>About this book</title>
+   <simpara>
+    The extension documentation refers to types, interfaces, classes,
+    exceptions and constants that are defined by PHP itself or by its bundled
+    extensions. This book holds short summaries of those pages so that such
+    references resolve inside this manual; every summary links to the full
+    documentation in the <link xlink:href="&url.php.docs;">PHP manual</link>.
+   </simpara>
+  </preface>
+  &language.types;
+  &language.predefined.interfaces;
+  &language.predefined.exceptions;
+  &language.predefined.constants;
+ </book>
+
  <!--
   Each third-party extension lives in its own directory under reference/
   and is included here as a book entity, one per extension.
