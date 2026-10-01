@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>array</type><methodname>win32_read_all_rights_access_service</methodname>
    <methodparam><type>string</type><parameter>servicename</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&quot;&quot;</initializer></methodparam>
   </methodsynopsis>
   <simpara>
    Read all rights access on <parameter>servicename</parameter>
@@ -56,7 +56,7 @@
   &reftitle.errors;
   <simpara>
    A <exceptionname>ValueError</exceptionname> is thrown if the
-   value of <parameter>service</parameter> parameter is empty.
+   value of <parameter>service</parameter> parameter is empty or shorter than 2 characters.
   </simpara>
   <simpara>
    A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.

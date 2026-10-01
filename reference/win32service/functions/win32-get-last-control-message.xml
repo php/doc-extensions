@@ -20,8 +20,10 @@
 
   <caution>
    <simpara>
-    Since version 0.2.0, this function work only in "cli" SAPI. On other SAPI
-    this function is disabled.
+    Since version 1.1.0, this function works only when PHP runs in a Windows service context
+    (see the <literal>Run in Windows Service context</literal> line in the <function>phpinfo</function> output),
+    or when the <literal>"embed"</literal> SAPI is used. Running a CLI script from a console is not enough.
+    In other cases this function is disabled and throws a <exceptionname>Win32ServiceException</exceptionname>.
    </simpara>
   </caution>
 
@@ -67,7 +69,12 @@
    <simpara>
     As of version 1.0.0, will throw a
     <exceptionname>Win32ServiceException</exceptionname> if SAPI is not
-    <literal>"cli"</literal>
+    <literal>"cli"</literal>. As of version 1.0.1, the <literal>"embed"</literal> SAPI is also accepted.
+   </simpara>
+   <simpara>
+    As of version 1.1.0, will throw a
+    <exceptionname>Win32ServiceException</exceptionname> if PHP does not run in a Windows service context,
+    unless the SAPI is <literal>"embed"</literal>.
    </simpara>
  </refsect1>
 
@@ -83,6 +90,19 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>PECL win32service 1.1.0</entry>
+       <entry>
+        The function is disabled unless PHP runs in a Windows service context,
+        instead of only depending on the <literal>"cli"</literal> SAPI.
+       </entry>
+      </row>
+      <row>
+       <entry>PECL win32service 1.0.1</entry>
+       <entry>
+        The <literal>"embed"</literal> SAPI is also accepted.
+       </entry>
+      </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>

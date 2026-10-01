@@ -11,18 +11,20 @@
   &reftitle.description;
   <methodsynopsis role="procedural">
    <type>bool</type><methodname>win32_set_service_exit_mode</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>gracefulMode</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>gracefulExit</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
   <simpara>
-   If <parameter>gracefulMode</parameter> parameter is provided, the exit mode
+   If <parameter>gracefulExit</parameter> parameter is provided, the exit mode
 is changed. When the exit mode is not graceful, the exit code used can be set
 with the <function>win32_set_service_exit_code</function> function.
   </simpara>
 
   <caution>
    <simpara>
-    This function work only in "cli" SAPI. On other SAPI
-    this function is disabled.
+    Since version 1.1.0, this function works only when PHP runs in a Windows service context
+    (see the <literal>Run in Windows Service context</literal> line in the <function>phpinfo</function> output),
+    or when the <literal>"embed"</literal> SAPI is used. Running a CLI script from a console is not enough.
+    In other cases this function is disabled and throws a <exceptionname>Win32ServiceException</exceptionname>.
    </simpara>
   </caution>
  </refsect1><!-- }}} -->
@@ -31,7 +33,7 @@ with the <function>win32_set_service_exit_code</function> function.
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>gracefulMode</parameter></term>
+    <term><parameter>gracefulExit</parameter></term>
     <listitem>
      <simpara>
       &true; for exit graceful. &false; for exit with error.
@@ -58,7 +60,12 @@ with the <function>win32_set_service_exit_code</function> function.
    <simpara>
     As of version 1.0.0, will throw a
     <exceptionname>Win32ServiceException</exceptionname> if SAPI is not
-    <literal>"cli"</literal>
+    <literal>"cli"</literal>. As of version 1.0.1, the <literal>"embed"</literal> SAPI is also accepted.
+   </simpara>
+   <simpara>
+    As of version 1.1.0, will throw a
+    <exceptionname>Win32ServiceException</exceptionname> if PHP does not run in a Windows service context,
+    unless the SAPI is <literal>"embed"</literal>.
    </simpara>
  </refsect1><!-- }}} -->
 
@@ -75,6 +82,19 @@ with the <function>win32_set_service_exit_code</function> function.
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>PECL win32service 1.1.0</entry>
+       <entry>
+        The function is disabled unless PHP runs in a Windows service context,
+        instead of only depending on the <literal>"cli"</literal> SAPI.
+       </entry>
+      </row>
+      <row>
+       <entry>PECL win32service 1.0.1</entry>
+       <entry>
+        The <literal>"embed"</literal> SAPI is also accepted.
+       </entry>
+      </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>

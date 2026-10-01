@@ -28,6 +28,18 @@
  </section>
  <!-- }}} -->
 
+ <!-- {{{ Configuration -->
+ <section xml:id="win32service.configuration">
+  &reftitle.runtime;
+  <simpara>
+   This extension has no &php.ini; directive. As of Win32Service 1.1.0, some functions are disabled
+   if PHP does not run in a Windows service context (or with the <literal>"embed"</literal> SAPI).
+   The state is displayed by <function>phpinfo</function> in the <literal>Run in Windows Service context</literal> line
+   of the <literal>win32service</literal> section.
+  </simpara>
+ </section>
+ <!-- }}} -->
+
  <section xml:id="win32service.security">
   <title xmlns="http://docbook.org/ns/docbook">Security consideration</title>
   <simpara>
