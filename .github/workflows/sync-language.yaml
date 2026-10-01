@@ -70,7 +70,7 @@ jobs:
           } > "$RUNNER_TEMP/pr-body.md"
 
       - name: "Open or update the pull request"
-        uses: "peter-evans/create-pull-request@v7"
+        uses: "peter-evans/create-pull-request@v8"
         with:
           path: "extensions"
           add-paths: |
