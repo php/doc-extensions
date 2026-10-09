@@ -285,12 +285,12 @@
       </row>
       <row>
        <entry><constant>CUBRID_SCH_SUPERCLASS</constant></entry>
-       <entry>Get the name and type of table which table inherites attributes
+       <entry>Get the name and type of table which table inherits attributes
         from.</entry>
       </row>
       <row>
        <entry><constant>CUBRID_SCH_SUBCLASS</constant></entry>
-       <entry>Get the name and type of table which inherites attributes from
+       <entry>Get the name and type of table which inherits attributes from
         this table.</entry>
       </row>
       <row>
