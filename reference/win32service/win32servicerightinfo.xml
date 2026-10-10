@@ -30,6 +30,7 @@
 <!-- {{{ Exception synopsis -->
     <classsynopsisinfo>
      <modifier>final</modifier>
+     <modifier>readonly</modifier>
      <ooclass>
       <classname>Win32Service\RightInfo</classname>
      </ooclass>

@@ -14,7 +14,7 @@
    <methodparam><type>string</type><parameter>servicename</parameter></methodparam>
    <methodparam><type>string</type><parameter>username</parameter></methodparam>
    <methodparam><type>int</type><parameter>right</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&quot;&quot;</initializer></methodparam>
   </methodsynopsis>
   <simpara>
    Add the rights access for <parameter>username</parameter> on <parameter>servicename</parameter>
@@ -67,7 +67,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Return a <classname>Win32Service\RightInfo</classname> object.
+   &return.void;
   </simpara>
  </refsect1>
 
@@ -75,11 +75,16 @@
   &reftitle.errors;
   <simpara>
    A <exceptionname>ValueError</exceptionname> is thrown if the
-   value of <parameter>service</parameter> parameter is empty.
+   value of <parameter>service</parameter> parameter is empty or shorter than 2 characters.
   </simpara>
   <simpara>
    A <exceptionname>ValueError</exceptionname> is thrown if the
-   value of <parameter>username</parameter> parameter is empty.
+   value of <parameter>username</parameter> parameter is empty or shorter than 2 characters.
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
+   value of <parameter>right</parameter> parameter is not a positive combination of the
+   <link linkend="win32service.constants.rights">service rights constants</link>.
   </simpara>
   <simpara>
    A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.

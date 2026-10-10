@@ -9,9 +9,9 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>win32_start_service_ctrl_dispatcher</methodname>
+   <type>bool</type><methodname>win32_start_service_ctrl_dispatcher</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>gracefulMode</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>gracefulExit</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
 
   <simpara>
@@ -36,8 +36,10 @@
 
   <caution>
    <simpara>
-    Since version 0.2.0, this function work only in "cli" SAPI. On other SAPI
-    this function is disabled.
+    Since version 1.1.0, this function works only when PHP runs in a Windows service context
+    (see the <literal>Run in Windows Service context</literal> line in the <function>phpinfo</function> output),
+    or when the <literal>"embed"</literal> SAPI is used. Running a CLI script from a console is not enough.
+    In other cases this function is disabled and throws a <exceptionname>Win32ServiceException</exceptionname>.
    </simpara>
   </caution>
  </refsect1>
@@ -56,7 +58,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>gracefulMode</parameter></term>
+     <term><parameter>gracefulExit</parameter></term>
      <listitem>
       <simpara>
        &true; for exit graceful. &false; for exit with error. See
@@ -71,10 +73,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   &return.void;
-  </simpara>
-  <simpara>
-    Prior to version 1.0.0, &win32service.noerror.false.error;
+   Returns &true; when the control dispatcher has started successfully, or &false; if it did not signal readiness within 30 seconds. A <exceptionname>Win32ServiceException</exceptionname> is thrown on error.
   </simpara>
  </refsect1>
 
@@ -87,7 +86,12 @@
    <simpara>
     As of version 1.0.0, will throw a
     <exceptionname>Win32ServiceException</exceptionname> if SAPI is not
-    <literal>"cli"</literal>
+    <literal>"cli"</literal>. As of version 1.0.1, the <literal>"embed"</literal> SAPI is also accepted.
+   </simpara>
+   <simpara>
+    As of version 1.1.0, will throw a
+    <exceptionname>Win32ServiceException</exceptionname> if PHP does not run in a Windows service context,
+    unless the SAPI is <literal>"embed"</literal>.
    </simpara>
  </refsect1>
 
@@ -103,6 +107,19 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>PECL win32service 1.1.0</entry>
+       <entry>
+        The function is disabled unless PHP runs in a Windows service context,
+        instead of only depending on the <literal>"cli"</literal> SAPI.
+       </entry>
+      </row>
+      <row>
+       <entry>PECL win32service 1.0.1</entry>
+       <entry>
+        The <literal>"embed"</literal> SAPI is also accepted.
+       </entry>
+      </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
@@ -120,15 +137,9 @@
        </entry>
       </row>
       <row>
-       <entry>PECL win32service 1.0.0</entry>
-       <entry>
-        The return type is now <type>void</type>, previously it was <type>mixed</type>.
-       </entry>
-      </row>
-      <row>
        <entry>PECL win32service 0.4.0</entry>
        <entry>
-        The parameter <parameter>gracefulMode</parameter> has been added.
+        The parameter <parameter>gracefulExit</parameter> has been added.
        </entry>
       </row>
       <row>

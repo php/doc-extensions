@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>void</type><methodname>win32_create_service</methodname>
    <methodparam><type>array</type><parameter>details</parameter></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&null;</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>machine</parameter><initializer>&quot;&quot;</initializer></methodparam>
   </methodsynopsis>
   <simpara>
    Attempts to add a service into the SCM database. Administrative
@@ -72,6 +72,7 @@
          <listitem>
           <simpara>
            The password that corresponds to the <parameter>user</parameter>.
+           If omitted, the default value is an empty string.
           </simpara>
          </listitem>
         </varlistentry>
@@ -80,8 +81,7 @@
          <listitem>
           <simpara>
            The full path to the executable module that will be launched when
-           the service is started.  If omitted, the path to the current PHP
-           process will be used.
+           the service is started.  This key is mandatory.
           </simpara>
          </listitem>
         </varlistentry>
@@ -94,6 +94,7 @@
            parameter should be the full path to the PHP script that you intend
            to run. If the script name or path contains spaces, then wrap the
            full path to the PHP script with <literal>"</literal>.
+           If omitted, the default value is an empty string.
           </simpara>
          </listitem>
         </varlistentry>
@@ -113,6 +114,12 @@
            <constant>WIN32_SERVICE_WIN32_OWN_PROCESS</constant>.
            Don't change this unless you know what you're doing.
           </simpara>
+          <simpara>
+           The accepted values are <constant>WIN32_SERVICE_WIN32_OWN_PROCESS</constant>,
+           <constant>WIN32_SERVICE_INTERACTIVE_PROCESS</constant> and
+           <constant>WIN32_SERVICE_WIN32_OWN_PROCESS_INTERACTIVE</constant>.
+           Any other value throws a <exceptionname>ValueError</exceptionname>.
+          </simpara>
          </listitem>
         </varlistentry>
         <varlistentry>
@@ -131,7 +138,7 @@
           <simpara>
            Informs the SCM what it should do when it detects a problem with
            the service.  The default is
-           <constant>WIN32_SERVER_ERROR_IGNORE</constant>.  Changing this
+           <constant>WIN32_SERVICE_ERROR_IGNORE</constant>.  Changing this
            value is not yet fully supported.
           </simpara>
          </listitem>
@@ -167,6 +174,7 @@
            The <parameter>base_priority</parameter> can be set to one of the
            constants define in
            <link linkend="win32service.constants.basepriorities">Win32 Base Priority Classes</link>.
+           If omitted, the default value is <constant>WIN32_NORMAL_PRIORITY_CLASS</constant>.
           </simpara>
          </listitem>
         </varlistentry>
@@ -305,12 +313,16 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <simpara>
-   A <exceptionname>ValueError</exceptionname> is thrown if the
-   value of <parameter>service</parameter> parameter is empty.
+   A <exceptionname>ValueError</exceptionname> is thrown if the value of one
+   of the string keys of <parameter>details</parameter> contains a null byte.
   </simpara>
   <simpara>
    A <exceptionname>ValueError</exceptionname> is thrown if the
-   value of <parameter>path</parameter> parameter is missing or empty.
+   value of <parameter>service</parameter> key is empty or shorter than 2 characters.
+  </simpara>
+  <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if the
+   value of <parameter>path</parameter> key is missing.
   </simpara>
   <simpara>
    A <exceptionname>ValueError</exceptionname> is thrown if the
@@ -486,6 +498,7 @@ debug_zval_dump($x);
   <para>
    <simplelist>
     <member><function>win32_delete_service</function></member>
+    <member><function>win32_exists_service</function></member>
     <member><link linkend="win32service.constants.basepriorities">Win32 Base Priority Classes</link></member>
     <member><link linkend="win32service.constants.recovery-action">Win32 Recovery action</link></member>
     <member><link linkend="win32service.constants.errors">Win32 Error Codes</link></member>

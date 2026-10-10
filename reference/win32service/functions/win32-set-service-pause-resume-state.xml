@@ -11,17 +11,19 @@
   &reftitle.description;
   <methodsynopsis role="procedural">
    <type>bool</type><methodname>win32_set_service_pause_resume_state</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>state</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>enable</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
   <simpara>
-   If <parameter>state</parameter> parameter is provided, the pause/resume capability
+   If <parameter>enable</parameter> parameter is provided, the pause/resume capability
 is changed.
   </simpara>
 
   <caution>
    <simpara>
-    This function work only in "cli" SAPI and in the Windows service running context. On other SAPI
-    this function is disabled.
+    Since version 1.1.0, this function works only when PHP runs in a Windows service context
+    (see the <literal>Run in Windows Service context</literal> line in the <function>phpinfo</function> output),
+    or when the <literal>"embed"</literal> SAPI is used. Running a CLI script from a console is not enough.
+    In other cases this function is disabled and throws a <exceptionname>Win32ServiceException</exceptionname>.
    </simpara>
   </caution>
  </refsect1><!-- }}} -->
@@ -30,10 +32,14 @@ is changed.
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>state</parameter></term>
+    <term><parameter>enable</parameter></term>
     <listitem>
      <simpara>
       &true; for enable the service pause/resume capability. &false; for disable the service pause/resume capability.
+     </simpara>
+     <simpara>
+      The capability can only be changed before <function>win32_start_service_ctrl_dispatcher</function> is called.
+      Once the control dispatcher is running, call this function without argument to read the current state.
      </simpara>
     </listitem>
    </varlistentry>
@@ -50,6 +56,11 @@ is changed.
  <refsect1 role="errors"><!-- {{{ -->
   &reftitle.errors;
   <simpara>
+   A <exceptionname>ValueError</exceptionname> is thrown if <parameter>enable</parameter> is provided
+   while the control dispatcher is already running. Call this function before
+   <function>win32_start_service_ctrl_dispatcher</function>, or without argument to read the state.
+  </simpara>
+  <simpara>
    Prior to version 1.0.0, if the SAPI is not <literal>"cli"</literal>, this function emits an
    <constant>E_ERROR</constant> level error.
   </simpara>
@@ -57,7 +68,12 @@ is changed.
    <simpara>
     As of version 1.0.0, will throw a
     <exceptionname>Win32ServiceException</exceptionname> if SAPI is not
-    <literal>"cli"</literal>
+    <literal>"cli"</literal>. As of version 1.0.1, the <literal>"embed"</literal> SAPI is also accepted.
+   </simpara>
+   <simpara>
+    As of version 1.1.0, will throw a
+    <exceptionname>Win32ServiceException</exceptionname> if PHP does not run in a Windows service context,
+    unless the SAPI is <literal>"embed"</literal>.
    </simpara>
  </refsect1><!-- }}} -->
 
@@ -74,6 +90,19 @@ is changed.
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>PECL win32service 1.1.0</entry>
+       <entry>
+        The function is disabled unless PHP runs in a Windows service context,
+        instead of only depending on the <literal>"cli"</literal> SAPI.
+       </entry>
+      </row>
+      <row>
+       <entry>PECL win32service 1.0.1</entry>
+       <entry>
+        The <literal>"embed"</literal> SAPI is also accepted.
+       </entry>
+      </row>
       <row>
        <entry>PECL win32service 1.0.0</entry>
        <entry>
