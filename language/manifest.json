@@ -1,0 +1,279 @@
+{
+    "types": {
+        "integer": {
+            "summary": "A whole number of platform-dependent size, written in decimal, hexadecimal, octal or binary notation."
+        },
+        "float": {
+            "summary": "A double-precision floating point number, including the special values INF and NAN."
+        },
+        "string": {
+            "summary": "A series of bytes; PHP strings carry no encoding and may hold arbitrary binary data."
+        },
+        "boolean": {
+            "summary": "A truth value, either true or false."
+        },
+        "singleton": {
+            "summary": "The unit types true, false and null, each of which has exactly one possible value."
+        },
+        "array": {
+            "summary": "An ordered map of integer or string keys to values, used for lists, hash tables, stacks and queues alike."
+        },
+        "object": {
+            "summary": "An instance of a class, created with new or by casting another value."
+        },
+        "callable": {
+            "summary": "Anything that can be called: a function name, a closure, an object with __invoke(), or an array of object or class name and method name."
+        },
+        "resource": {
+            "summary": "A handle to an external resource such as a file, a database connection or an image, created and freed by dedicated functions."
+        },
+        "mixed": {
+            "summary": "Any value of any type; equivalent to the union of all other types."
+        },
+        "void": {
+            "summary": "The return type of a function that returns nothing."
+        },
+        "null": {
+            "summary": "The single value null, which a variable holds when it has no value."
+        }
+    },
+    "interfaces": {
+        "traversable": {
+            "source": "language/predefined/traversable.xml",
+            "mode": "verbatim",
+            "summary": "Marks a class whose instances can be iterated with foreach; it is implemented through Iterator or IteratorAggregate, never directly."
+        },
+        "iterator": {
+            "source": "language/predefined/iterator.xml",
+            "mode": "full",
+            "summary": "Lets a class define its own iteration through the current(), key(), next(), rewind() and valid() methods."
+        },
+        "iteratoraggregate": {
+            "source": "language/predefined/iteratoraggregate.xml",
+            "mode": "full",
+            "summary": "Lets a class delegate iteration to another Traversable returned from getIterator()."
+        },
+        "arrayaccess": {
+            "source": "language/predefined/arrayaccess.xml",
+            "mode": "full",
+            "summary": "Lets an object be accessed with array syntax through the offsetExists(), offsetGet(), offsetSet() and offsetUnset() methods."
+        },
+        "countable": {
+            "source": "language/predefined/countable.xml",
+            "mode": "full",
+            "summary": "Lets an object be passed to count(), which then returns the value of its count() method."
+        },
+        "serializable": {
+            "source": "language/predefined/serializable.xml",
+            "mode": "full",
+            "summary": "Legacy interface for custom serialization through the serialize() and unserialize() methods; new code uses __serialize() and __unserialize() instead."
+        },
+        "stringable": {
+            "source": "language/predefined/stringable.xml",
+            "mode": "full",
+            "summary": "Marks a class that defines __toString() and can therefore be converted to a string; implemented implicitly by every such class."
+        },
+        "jsonserializable": {
+            "source": "reference/json/jsonserializable.xml",
+            "mode": "full",
+            "summary": "Lets an object control the data that json_encode() emits for it through the jsonSerialize() method."
+        },
+        "throwable": {
+            "source": "language/predefined/throwable.xml",
+            "mode": "full",
+            "summary": "The base interface of everything that can be thrown, implemented by Exception and Error; user classes implement it only by extending one of those."
+        },
+        "closure": {
+            "source": "language/predefined/closure.xml",
+            "mode": "full",
+            "summary": "The class of every anonymous function and arrow function, also used to wrap callables and rebind their bound object and scope."
+        },
+        "stdclass": {
+            "source": "language/predefined/stdclass.xml",
+            "mode": "verbatim",
+            "summary": "A generic empty class with dynamic properties, returned by casts to object and by functions that decode data into objects."
+        }
+    },
+    "exceptions": {
+        "exception": {
+            "source": "language/predefined/exception.xml",
+            "mode": "full",
+            "summary": "The base class of all user-level exceptions; extensions usually derive their own exception classes from it."
+        },
+        "error": {
+            "source": "language/predefined/error.xml",
+            "mode": "full",
+            "summary": "The base class of all internal PHP errors that are thrown rather than reported, such as TypeError and ValueError."
+        },
+        "typeerror": {
+            "source": "language/predefined/typeerror.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when a value does not match the declared type of a parameter, property or return value, or when a function is called with too few arguments."
+        },
+        "valueerror": {
+            "source": "language/predefined/valueerror.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when an argument has the right type but an invalid value, for example an empty string where a non-empty one is required."
+        },
+        "logicexception": {
+            "source": "reference/spl/logicexception.xml",
+            "mode": "verbatim",
+            "summary": "Represents an error in the program logic that should lead to a fix in the code; the base class of the SPL logic exceptions."
+        },
+        "invalidargumentexception": {
+            "source": "reference/spl/invalidargumentexception.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when an argument is not of the expected type or value."
+        },
+        "outofrangeexception": {
+            "source": "reference/spl/outofrangeexception.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when an illegal index is requested and the error can be detected at compile time; the logic-error counterpart of OutOfBoundsException."
+        },
+        "runtimeexception": {
+            "source": "reference/spl/runtimeexception.xml",
+            "mode": "verbatim",
+            "summary": "Thrown for errors that can only be detected while the program runs; the base class of the SPL runtime exceptions."
+        },
+        "outofboundsexception": {
+            "source": "reference/spl/outofboundsexception.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when a value is not a valid key, where this cannot be detected before the code runs."
+        },
+        "underflowexception": {
+            "source": "reference/spl/underflowexception.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when an invalid operation is performed on an empty container, such as removing an element from an empty list."
+        },
+        "unexpectedvalueexception": {
+            "source": "reference/spl/unexpectedvalueexception.xml",
+            "mode": "verbatim",
+            "summary": "Thrown when a value does not match a set of expected values, typically when a function returns something it should not."
+        }
+    },
+    "constants": {
+        "INI_USER": {
+            "source": "reference/info/constants.xml",
+            "summary": "The ini directive can be set in user scripts and in the Windows registry."
+        },
+        "INI_PERDIR": {
+            "source": "reference/info/constants.xml",
+            "summary": "The ini directive can be set in php.ini, .htaccess, httpd.conf and .user.ini."
+        },
+        "INI_SYSTEM": {
+            "source": "reference/info/constants.xml",
+            "summary": "The ini directive can only be set in php.ini or httpd.conf."
+        },
+        "INI_ALL": {
+            "source": "reference/info/constants.xml",
+            "summary": "The ini directive can be set anywhere."
+        },
+        "E_ERROR": {
+            "source": "reference/errorfunc/constants.xml",
+            "summary": "Fatal run-time error that halts the script."
+        },
+        "E_WARNING": {
+            "source": "reference/errorfunc/constants.xml",
+            "summary": "Run-time warning that does not halt the script."
+        },
+        "E_NOTICE": {
+            "source": "reference/errorfunc/constants.xml",
+            "summary": "Run-time notice about something that might be an error but might also occur during normal execution."
+        },
+        "E_USER_WARNING": {
+            "source": "reference/errorfunc/constants.xml",
+            "summary": "User-generated warning message raised with trigger_error()."
+        },
+        "PHP_VERSION": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "The current PHP version as a string, for example \"8.5.0\"."
+        },
+        "PHP_ZTS": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "Whether PHP was built with thread safety enabled."
+        },
+        "PHP_INT_MAX": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "The largest integer supported on this build of PHP."
+        },
+        "PHP_INT_MIN": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "The smallest integer supported on this build of PHP."
+        },
+        "PHP_INT_SIZE": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "The size of an integer in bytes on this build of PHP."
+        },
+        "NULL": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "The null value."
+        },
+        "STDIN": {
+            "source": "appendices/reserved.constants.core.xml",
+            "summary": "An already opened stream to standard input, available in the CLI SAPI."
+        },
+        "NAN": {
+            "source": "reference/math/constants.xml",
+            "summary": "The floating point value Not-a-Number."
+        },
+        "INF": {
+            "source": "reference/math/constants.xml",
+            "summary": "The floating point value for infinity."
+        },
+        "SEEK_SET": {
+            "source": "reference/filesystem/constants.xml",
+            "summary": "Set the stream position to the given offset from the start of the stream."
+        },
+        "SEEK_CUR": {
+            "source": "reference/filesystem/constants.xml",
+            "summary": "Set the stream position to the current position plus the given offset."
+        },
+        "SEEK_END": {
+            "source": "reference/filesystem/constants.xml",
+            "summary": "Set the stream position to the end of the stream plus the given offset."
+        },
+        "LC_CTYPE": {
+            "source": "reference/strings/constants.xml",
+            "summary": "Locale category for character classification and conversion, such as strtoupper()."
+        },
+        "SIGHUP": {
+            "source": "reference/pcntl/constants.xml",
+            "summary": "Signal sent when the controlling terminal is closed."
+        },
+        "SIGINT": {
+            "source": "reference/pcntl/constants.xml",
+            "summary": "Interrupt signal, typically sent by pressing Ctrl+C."
+        },
+        "SIGALRM": {
+            "source": "reference/pcntl/constants.xml",
+            "summary": "Signal sent when a timer set with alarm() expires."
+        },
+        "SIGTERM": {
+            "source": "reference/pcntl/constants.xml",
+            "summary": "Termination request signal."
+        },
+        "SIGCHLD": {
+            "source": "reference/pcntl/constants.xml",
+            "summary": "Signal sent to a parent process when a child process stops or terminates."
+        },
+        "SIGIO": {
+            "source": "reference/pcntl/constants.xml",
+            "summary": "Signal sent when asynchronous I/O is possible on a descriptor."
+        },
+        "CURLOPT_SSL_VERIFYPEER": {
+            "source": "reference/curl/constants_curl_setopt.xml",
+            "page": "curl.constants",
+            "summary": "Whether cURL verifies the peer's TLS certificate."
+        },
+        "CURLOPT_SSL_VERIFYHOST": {
+            "source": "reference/curl/constants_curl_setopt.xml",
+            "page": "curl.constants",
+            "summary": "How strictly cURL checks that the TLS certificate matches the host name."
+        },
+        "CURLOPT_RESOLVE": {
+            "source": "reference/curl/constants_curl_setopt.xml",
+            "page": "curl.constants",
+            "summary": "An array of host:port:address strings that override DNS resolution for the transfer."
+        }
+    }
+}
