@@ -9,8 +9,8 @@
  <preface xml:id="intro.yac">
   &reftitle.intro;
   <simpara>
-   Yac (Yet Another Cache) is a lock-free, shared memory user data cache,
-   and can be used to replace APC or local memcached.
+   Yac (Yet Another Cache) is a high-performance, lock-free shared memory user
+   data cache, and can be used to replace APCu or local Memcached.
   </simpara>
   <simpara>
    Yac stores data in shared memory, which makes it visible to every PHP
