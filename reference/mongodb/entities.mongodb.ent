@@ -752,6 +752,23 @@ local: {
    </note>
 </entity>
 
+<entity name="mongodb.note.duplicate-keys.tojson">
+  <note>
+   <simpara>
+    If the BSON document contains duplicate keys, all of them are preserved in
+    the JSON output.
+   </simpara>
+  </note>
+</entity>
+
+<entity name="mongodb.note.duplicate-keys.fromjson">
+  <note>
+   <simpara>
+    Duplicate keys in the JSON string are preserved in the order they appear.
+   </simpara>
+  </note>
+</entity>
+
 <entity name="mongodb.note.extended-json">
   <note>
    <simpara>
@@ -816,10 +833,10 @@ local: {
    <warning>
     <simpara>
      BSON documents can technically contain duplicate keys because documents are
-     stored as a list of key-value pairs; however, applications should refrain
-     from generating documents with duplicate keys as server and driver behavior
-     may be undefined. Since PHP objects and arrays cannot have duplicate keys,
-     data could also be lost when decoding a BSON document with duplicate keys.
+     stored as a list of key-value pairs; however, applications should avoid
+     creating documents with duplicate keys. The server and other drivers may
+     handle them differently, and PHP objects and arrays cannot have duplicate
+     keys, so data is lost when decoding a BSON document with duplicate keys.
     </simpara>
    </warning>
 </entity>
