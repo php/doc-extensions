@@ -907,6 +907,26 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
     </thead>
     <tbody>
      <row>
+      <entry>PECL mongodb 2.5.0</entry>
+      <entry>
+       <simpara>
+        If a <literal>SystemOverloadedError</literal> response includes a
+        positive <literal>baseBackoffMS</literal> value, the driver uses this
+        server-supplied base backoff in place of its default base backoff when
+        calculating the delay before a retry.
+       </simpara>
+      </entry>
+     </row>
+     <row>
+      <entry>PECL mongodb 2.3.0</entry>
+      <entry>
+       <simpara>
+        Added the <literal>"maxAdaptiveRetries"</literal> and
+        <literal>"enableOverloadRetargeting"</literal> URI options.
+       </simpara>
+      </entry>
+     </row>
+     <row>
       <entry>PECL mongodb 2.0.0</entry>
       <entry>
        <simpara>

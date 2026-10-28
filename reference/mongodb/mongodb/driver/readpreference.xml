@@ -264,9 +264,24 @@
      </thead>
      <tbody>
       <row>
+       <entry>PECL mongodb 2.4.0</entry>
+       <entry>
+        <simpara>
+         <classname>MongoDB\Driver\ReadPreference</classname> objects can now be cloned.
+        </simpara>
+       </entry>
+      </row>
+      <row>
        <entry>PECL mongodb 2.3.0</entry>
        <entry>
-        Added public <modifier>readonly</modifier> properties.
+        <simpara>
+         Added public <modifier>readonly</modifier> properties.
+        </simpara>
+        <simpara>
+         Deprecated the <literal>"hedge"</literal> option and the
+         <varname>hedge</varname> property, as hedged reads are deprecated in
+         MongoDB 8.0.
+        </simpara>
        </entry>
       </row>
       <row>

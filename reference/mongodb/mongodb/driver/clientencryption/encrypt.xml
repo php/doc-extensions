@@ -63,6 +63,12 @@
     </thead>
     <tbody>
      <row>
+      <entry>PECL mongodb 2.6.0</entry>
+      <entry>
+       Added the <literal>"stringOpts"</literal> option.
+      </entry>
+     </row>
+     <row>
       <entry>PECL mongodb 1.20.0</entry>
       <entry>
        Added the <literal>"trimFactor"</literal> range option. The

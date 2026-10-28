@@ -261,6 +261,14 @@
      </thead>
      <tbody>
       <row>
+       <entry>PECL mongodb 2.4.0</entry>
+       <entry>
+        <simpara>
+         <classname>MongoDB\Driver\ReadConcern</classname> objects can now be cloned.
+        </simpara>
+       </entry>
+      </row>
+      <row>
        <entry>PECL mongodb 2.3.0</entry>
        <entry>
         Added public <modifier>readonly</modifier> properties.
