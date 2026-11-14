@@ -26,23 +26,90 @@
    &pecl.moved;
   </simpara>
   <simpara>
-   &pecl.info;
-   <link xlink:href="&url.pecl.package;imagick">&url.pecl.package;imagick</link>.
+   As of Imagick 3.8.0, the recommended way to install this extension is
+   with &link.pie;, the PHP Installer for Extensions, using the
+   <link xlink:href="&url.packagist.package;imagick/imagick">imagick/imagick</link>
+   package.
+  </simpara>
+  <example>
+   <title>Installing Imagick with PIE</title>
+   <programlisting role="shell">
+<![CDATA[
+pie install imagick/imagick
+]]>
+   </programlisting>
+  </example>
+  <simpara>
+   On non-Windows platforms, PIE builds the extension from source, so the
+   ImageMagick development files have to be installed beforehand.
+   If ImageMagick is installed in a non-standard location, its installation
+   prefix can be passed with the
+   <option role="configure">--with-imagick</option> configure option.
+  </simpara>
+  <example>
+   <title>Installing Imagick with PIE against a custom ImageMagick prefix</title>
+   <programlisting role="shell">
+<![CDATA[
+pie install imagick/imagick --with-imagick=/opt/imagemagick
+]]>
+   </programlisting>
+  </example>
+  <simpara>
+   When a project declares the extension as a requirement in its
+   <filename>composer.json</filename>, running <command>pie install</command>
+   without any argument in the project directory checks the extensions
+   required by the project and offers to install the missing ones.
+  </simpara>
+  <example>
+   <title>Requiring Imagick in a project's <filename>composer.json</filename></title>
+   <programlisting role="json">
+<![CDATA[
+{
+    "require": {
+        "ext-imagick": "*"
+    }
+}
+]]>
+   </programlisting>
+  </example>
+  <simpara>
+   On Windows, PIE downloads a prebuilt package matching the PHP version,
+   thread safety and architecture of the target PHP installation instead
+   of building the extension.
+   The extension DLL (<filename>php_imagick.dll</filename>) is installed into the
+   <link xlink:href="&url.php.manual.ini.extension-dir;">extension_dir</link>,
+   and the bundled ImageMagick DLLs are copied next to
+   <filename>php.exe</filename>.
+  </simpara>
+  <simpara>
+   The same prebuilt Windows packages can also be downloaded manually from the
+   <link xlink:href="&url.git.hub;Imagick/imagick/releases">GitHub releases</link>
+   page.
+   In that case, the extension DLL needs to be put into the
+   <link xlink:href="&url.php.manual.ini.extension-dir;">extension_dir</link>
+   and renamed to <filename>php_imagick.dll</filename>,
+   and the ImageMagick DLLs need to be put somewhere in the <envar>PATH</envar>.
+  </simpara>
+  <simpara>
+   As of Imagick 3.6.0, the prebuilt Windows packages also contain ImageMagick
+   XML configuration files in <filename>config</filename>; when installing with
+   PIE, these are copied to <filename>extras\imagick\config</filename> in the
+   PHP installation directory.
+   To use these instead of the built-in defaults, they need to be put into
+   <literal>%USERPROFILE%/.config/ImageMagick</literal>, or alternatively in
+   the path given by the environment variable <envar>MAGICK_CONFIGURE_PATH</envar>.
+   Refer to the <link xlink:href="&url.imagemagick;script/resources.php">ImageMagick configuration files documentation</link>
+   for further details.
   </simpara>
   <note>
    <simpara>The official name of this extension is <emphasis>imagick</emphasis>.</simpara>
   </note>
-  <simpara>
-    Windows users can download prebuilt DLL from the <link xlink:href="&url.pecl.package;imagick">PECL</link> website.
-    These packages already contain the extension DLL (<filename>php_imagick.dll</filename>)
-    which needs to be put into the <link xlink:href="&url.php.manual.ini.extension-dir;">extension_dir</link>.
-    They also contain the ImageMagick DLLs, which need to be put somewhere in the <envar>PATH</envar>.
-    As of Imagick 3.6.0, they also contain XML configuration files in <filename>config</filename>;
-    to use these instead of the built-in defaults, they need to put into <literal>%USERPROFILE%/.config/ImageMagick</literal>,
-    or alternatively in the path given by the environment variable <envar>MAGICK_CONFIGURE_PATH</envar>.
-    Refer to the <link xlink:href="&url.imagemagick;script/resources.php">ImageMagick configuration files documentation</link>
-    for further details.
-  </simpara>
+  <note>
+   <simpara>
+    Releases prior to Imagick 3.8.0 can be found in the
+    <link xlink:href="&url.pecl.package;imagick">Imagick PECL package</link>.
+   </simpara>
+  </note>
  </section>
  <!-- }}} -->
 
