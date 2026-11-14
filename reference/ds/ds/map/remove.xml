@@ -33,21 +33,18 @@
 
   <note>
     <simpara>
-        You can also use array syntax to access values by key, eg. <code>$map["key"]</code>.
+        You can also use array syntax to remove values by key, eg. <code>unset($map["key"])</code>.
     </simpara>
   </note>
 
-  <caution>
+  <note>
     <simpara>
-        Be careful when using array syntax. Scalar keys will be coerced to
-        integers by the engine. For example, <code>$map["1"]</code> will attempt
-        to access <code>int(1)</code>, while <code>$map-&gt;get("1")</code> will
-        correctly look up the string key.
+        Unlike with <link xlink:href="&url.php.manual.language.types.array;">arrays</link>,
+        numeric string keys are not cast to integers, even when using array
+        syntax. For example, <code>$map["1"]</code> and <code>$map[1]</code>
+        refer to two different keys.
     </simpara>
-    <simpara>
-        See <link xlink:href="&url.php.manual.language.types.array;">Arrays</link>.
-    </simpara>
-  </caution>
+  </note>
 
  </refsect1>
 
