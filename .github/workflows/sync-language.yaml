@@ -27,18 +27,18 @@ jobs:
 
     steps:
       - name: "Checkout php/doc-extensions"
-        uses: "actions/checkout@v7"
+        uses: "actions/checkout@v7.0.1"
         with:
           path: "extensions"
 
       - name: "Checkout php/doc-en"
-        uses: "actions/checkout@v7"
+        uses: "actions/checkout@v7.0.1"
         with:
           path: "en"
           repository: "php/doc-en"
 
       - name: "Setup PHP"
-        uses: "shivammathur/setup-php@v2"
+        uses: "shivammathur/setup-php@2.40.0"
         with:
           php-version: "8.5"
           extensions: "dom, libxml, simplexml"
@@ -70,7 +70,7 @@ jobs:
           } > "$RUNNER_TEMP/pr-body.md"
 
       - name: "Open or update the pull request"
-        uses: "peter-evans/create-pull-request@v8"
+        uses: "peter-evans/create-pull-request@v8.1.3"
         with:
           path: "extensions"
           add-paths: |
