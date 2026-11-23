@@ -6036,4 +6036,37 @@
 
  </group>
 
+ <group scope="both">
+
+  <!-- MongoDB converted from set to book -->
+  <redirect from="set.mongodb" to="book.mongodb"/>
+  <redirect from="mongodb.installation.homebrew" to="mongodb.installation#mongodb.installation.homebrew"/>
+  <redirect from="mongodb.installation.manual" to="mongodb.installation#mongodb.installation.manual"/>
+  <redirect from="mongodb.installation.pecl" to="mongodb.installation#mongodb.installation.pecl"/>
+  <redirect from="mongodb.installation.windows" to="mongodb.installation#mongodb.installation.windows"/>
+  <redirect from="mongodb.persistence.deserialization" to="mongodb.persistence#mongodb.persistence.deserialization"/>
+  <redirect from="mongodb.persistence.serialization" to="mongodb.persistence#mongodb.persistence.serialization"/>
+
+ </group>
+
+ <group scope="shortcut">
+
+  <!-- php.ini directives of the mysql extension -->
+  <redirect from="mysql.allow-local-infile" to="mysql.configuration#ini.mysql.allow-local-infile"/>
+  <redirect from="mysql.allow-persistent" to="mysql.configuration#ini.mysql.allow-persistent"/>
+  <redirect from="mysql.max-persistent" to="mysql.configuration#ini.mysql.max-persistent"/>
+  <redirect from="mysql.max-links" to="mysql.configuration#ini.mysql.max-links"/>
+  <redirect from="mysql.default-port" to="mysql.configuration#ini.mysql.default-port"/>
+  <redirect from="mysql.default-socket" to="mysql.configuration#ini.mysql.default-socket"/>
+  <redirect from="mysql.default-host" to="mysql.configuration#ini.mysql.default-host"/>
+  <redirect from="mysql.default-user" to="mysql.configuration#ini.mysql.default-user"/>
+  <redirect from="mysql.default-password" to="mysql.configuration#ini.mysql.default-password"/>
+  <redirect from="mysql.connect-timeout" to="mysql.configuration#ini.mysql.connect-timeout"/>
+  <redirect from="mysql.trace-mode" to="mysql.configuration#ini.mysql.trace-mode"/>
+
+  <!-- mysql extension DLL -->
+  <redirect from="php-mysql.dll" to="book.mysql"/>
+
+ </group>
+
 </redirects>
