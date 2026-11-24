@@ -203,8 +203,11 @@ final readonly class PageGenerator
             $sourceRelative = $entry['source'];
             $source = $this->docEn->readFile($sourceRelative);
             $what = sprintf('constant %s (%s)', $name, $sourceRelative);
+            $quotedId = preg_quote($cid, '/');
             $varlistentry = XmlText::firstMatch(
-                '/<varlistentry xml:id="' . preg_quote($cid, '/') . '">(.*?)<\/varlistentry>/s',
+                '/<varlistentry(?: xml:id="' . $quotedId . '">'
+                    . '|>(?:(?!<\/?varlistentry\b).)*?<constant xml:id="' . $quotedId . '">)'
+                    . '(.*?)<\/varlistentry>/s',
                 $source,
                 sprintf('xml:id="%s" in %s', $cid, $sourceRelative),
             );
