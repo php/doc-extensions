@@ -70,6 +70,12 @@
     <fieldsynopsis>
      <modifier>const</modifier>
      <type>string</type>
+     <varname linkend="mongodb-driver-clientencryption.constants.algorithm-string">MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</varname>
+     <initializer>String</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>const</modifier>
+     <type>string</type>
      <varname linkend="mongodb-driver-clientencryption.constants.query-type-equality">MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY</varname>
      <initializer>equality</initializer>
     </fieldsynopsis>
@@ -78,6 +84,24 @@
      <type>string</type>
      <varname linkend="mongodb-driver-clientencryption.constants.query-type-range">MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE</varname>
      <initializer>range</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>const</modifier>
+     <type>string</type>
+     <varname linkend="mongodb-driver-clientencryption.constants.query-type-prefix">MongoDB\Driver\ClientEncryption::QUERY_TYPE_PREFIX</varname>
+     <initializer>prefix</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>const</modifier>
+     <type>string</type>
+     <varname linkend="mongodb-driver-clientencryption.constants.query-type-suffix">MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUFFIX</varname>
+     <initializer>suffix</initializer>
+    </fieldsynopsis>
+    <fieldsynopsis>
+     <modifier>const</modifier>
+     <type>string</type>
+     <varname linkend="mongodb-driver-clientencryption.constants.query-type-substring">MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUBSTRING</varname>
+     <initializer>substring</initializer>
     </fieldsynopsis>
 
     <classsynopsisinfo role="comment">&Methods;</classsynopsisinfo>
@@ -142,6 +166,18 @@
      </listitem>
     </varlistentry>
 
+    <varlistentry xml:id="mongodb-driver-clientencryption.constants.algorithm-string">
+     <term><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant></term>
+     <listitem>
+      <simpara>
+       Specifies an algorithm for a string encrypted payload, which can be used
+       with queryable encryption for prefix, suffix, and substring queries. The
+       <literal>"stringOpts"</literal> encryption option configures the
+       supported queries.
+      </simpara>
+     </listitem>
+    </varlistentry>
+
     <varlistentry xml:id="mongodb-driver-clientencryption.constants.query-type-equality">
      <term><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY</constant></term>
      <listitem>
@@ -162,6 +198,36 @@
      </listitem>
     </varlistentry>
 
+    <varlistentry xml:id="mongodb-driver-clientencryption.constants.query-type-prefix">
+     <term><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_PREFIX</constant></term>
+     <listitem>
+      <simpara>
+       Specifies a prefix query type, which is used in conjunction with
+       <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+      </simpara>
+     </listitem>
+    </varlistentry>
+
+    <varlistentry xml:id="mongodb-driver-clientencryption.constants.query-type-suffix">
+     <term><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUFFIX</constant></term>
+     <listitem>
+      <simpara>
+       Specifies a suffix query type, which is used in conjunction with
+       <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+      </simpara>
+     </listitem>
+    </varlistentry>
+
+    <varlistentry xml:id="mongodb-driver-clientencryption.constants.query-type-substring">
+     <term><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUBSTRING</constant></term>
+     <listitem>
+      <simpara>
+       Specifies a substring query type, which is used in conjunction with
+       <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+      </simpara>
+     </listitem>
+    </varlistentry>
+
    </variablelist>
   </section>
   <!-- }}} -->
@@ -177,6 +243,17 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>PECL mongodb 2.6.0</entry>
+       <entry>
+        <simpara>
+         Added <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>,
+         <constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_PREFIX</constant>,
+         <constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUFFIX</constant>,
+         and <constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUBSTRING</constant>.
+        </simpara>
+       </entry>
+      </row>
       <row>
        <entry>PECL mongodb 2.0.0</entry>
        <entry>

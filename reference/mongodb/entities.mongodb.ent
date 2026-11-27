@@ -541,6 +541,7 @@ local: {
             <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant></member>
             <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED</constant></member>
             <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant></member>
            </simplelist>
           </entry>
          </row>
@@ -555,9 +556,10 @@ local: {
            <simpara>
             This option only applies and may only be specified when
             <literal>algorithm</literal> is
-            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant>
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant>,
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant>,
             or
-            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant>.
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
            </simpara>
           </entry>
          </row>
@@ -595,12 +597,17 @@ local: {
            <simplelist>
             <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY</constant></member>
             <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_PREFIX</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUFFIX</constant></member>
+            <member><constant>MongoDB\Driver\ClientEncryption::QUERY_TYPE_SUBSTRING</constant></member>
            </simplelist>
            <simpara>
             This option only applies and may only be specified when
             <literal>algorithm</literal> is
-            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant>
-            or <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant>.
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED</constant>,
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE</constant>,
+            or
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
            </simpara>
           </entry>
          </row>
@@ -662,6 +669,101 @@ local: {
                 <entry>trimFactor</entry>
                 <entry><type>int</type></entry>
                 <entry>Optional. Positive 32-bit integer.</entry>
+               </row>
+              </tbody>
+             </tgroup>
+            </table>
+           </para>
+          </entry>
+         </row>
+         <row>
+          <entry>stringOpts</entry>
+          <entry><type>array</type></entry>
+          <entry>
+           <simpara>
+            Index options for a queryable encryption field supporting "prefix",
+            "suffix", or "substring" queries. This option may only be specified
+            when <literal>algorithm</literal> is
+            <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+            The options below must match the values set in the
+            <literal>encryptedFields</literal> of the target collection. Length
+            options are 32-bit integers.
+           </simpara>
+           <para>
+            <table>
+             <title>String index options</title>
+             <tgroup cols="3">
+              <thead>
+               <row>
+                <entry>Option</entry>
+                <entry>Type</entry>
+                <entry>Description</entry>
+               </row>
+              </thead>
+              <tbody>
+               <row>
+                <entry>caseSensitive</entry>
+                <entry><type>bool</type></entry>
+                <entry>
+                 Whether queries are case sensitive. If &false;, letter case is
+                 ignored, so a query for <literal>"hello"</literal> also
+                 matches <literal>"Hello"</literal>.
+                </entry>
+               </row>
+               <row>
+                <entry>diacriticSensitive</entry>
+                <entry><type>bool</type></entry>
+                <entry>
+                 Whether queries are diacritic sensitive. If &false;, diacritical
+                 marks are ignored, so a query for <literal>"resume"</literal>
+                 also matches <literal>"résumé"</literal>.
+                </entry>
+               </row>
+               <row>
+                <entry>prefix</entry>
+                <entry><type>array</type></entry>
+                <entry>
+                 <simpara>
+                  Options for "prefix" queries. Requires
+                  <literal>algorithm</literal> to be
+                  <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+                 </simpara>
+                 <simplelist>
+                  <member><literal>strMinQueryLength</literal> (<type>int</type>)</member>
+                  <member><literal>strMaxQueryLength</literal> (<type>int</type>)</member>
+                 </simplelist>
+                </entry>
+               </row>
+               <row>
+                <entry>suffix</entry>
+                <entry><type>array</type></entry>
+                <entry>
+                 <simpara>
+                  Options for "suffix" queries. Requires
+                  <literal>algorithm</literal> to be
+                  <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+                 </simpara>
+                 <simplelist>
+                  <member><literal>strMinQueryLength</literal> (<type>int</type>)</member>
+                  <member><literal>strMaxQueryLength</literal> (<type>int</type>)</member>
+                 </simplelist>
+                </entry>
+               </row>
+               <row>
+                <entry>substring</entry>
+                <entry><type>array</type></entry>
+                <entry>
+                 <simpara>
+                  Options for "substring" queries. Requires
+                  <literal>algorithm</literal> to be
+                  <constant>MongoDB\Driver\ClientEncryption::ALGORITHM_STRING</constant>.
+                 </simpara>
+                 <simplelist>
+                  <member><literal>strMaxLength</literal> (<type>int</type>)</member>
+                  <member><literal>strMinQueryLength</literal> (<type>int</type>)</member>
+                  <member><literal>strMaxQueryLength</literal> (<type>int</type>)</member>
+                 </simplelist>
+                </entry>
                </row>
               </tbody>
              </tgroup>
