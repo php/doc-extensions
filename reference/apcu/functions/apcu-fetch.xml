@@ -4,14 +4,14 @@
  <refnamediv>
   <refname>apcu_fetch</refname>
   <refpurpose>
-   Fetch a stored variable from the cache
+   Fetch a stored value from the cache
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
    <type>mixed</type><methodname>apcu_fetch</methodname>
-   <methodparam><type>mixed</type><parameter>key</parameter></methodparam>
+   <methodparam><type class="union"><type>string</type><type>array</type></type><parameter>key</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter role="reference">success</parameter></methodparam>
   </methodsynopsis>
   <simpara>
@@ -26,8 +26,9 @@
     <listitem>
      <simpara>
       The <parameter>key</parameter> used to store the value (with
-      <function>apcu_store</function>). If an array is passed then each
-      element is fetched and returned.
+      <function>apcu_store</function>). If an array of keys is passed then
+      each key is fetched, and the entries which are found in the cache are
+      returned as an array.
      </simpara>
     </listitem>
    </varlistentry>
@@ -35,7 +36,9 @@
     <term><parameter>success</parameter></term>
     <listitem>
      <simpara>
-      Set to &true; in success and &false; in failure.
+      Set to &true; on success and &false; on failure. If
+      <parameter>key</parameter> is an array, it is always set to &true;,
+      even if none of the keys exist in the cache.
      </simpara>
     </listitem>
    </varlistentry>
@@ -44,8 +47,21 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   The stored variable or array of variables on success; &false; on failure
+   If <parameter>key</parameter> is a string, returns the stored value on
+   success, or &false; on failure.
   </simpara>
+  <simpara>
+   If <parameter>key</parameter> is an array, returns an associative array
+   which maps each key found in the cache to its stored value. Keys that do
+   not exist in the cache are omitted from the returned array.
+  </simpara>
+  <note>
+   <simpara>
+    As &false; can also be stored as a value, use the
+    <parameter>success</parameter> parameter to distinguish a stored &false;
+    from a failure.
+   </simpara>
+  </note>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -87,6 +103,37 @@ var_dump(apcu_fetch('foo'));
    <screen>
 <![CDATA[
 string(3) "BAR"
+]]>
+   </screen>
+  </example>
+  <example>
+   <title>Fetching multiple entries with <function>apcu_fetch</function></title>
+   <programlisting role="php">
+<![CDATA[
+<?php
+apcu_store(['progress' => 13, 'rate' => 22]);
+
+$values = apcu_fetch(['progress', 'rate', 'missing'], $success);
+var_dump($values, $success);
+
+// The returned array can be destructured into variables
+['progress' => $progress, 'rate' => $rate] = $values;
+var_dump($progress, $rate);
+?>
+]]>
+   </programlisting>
+   &example.outputs;
+   <screen>
+<![CDATA[
+array(2) {
+  ["progress"]=>
+  int(13)
+  ["rate"]=>
+  int(22)
+}
+bool(true)
+int(13)
+int(22)
 ]]>
    </screen>
   </example>
