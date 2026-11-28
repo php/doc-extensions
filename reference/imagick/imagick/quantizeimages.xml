@@ -3,7 +3,7 @@
 <refentry xml:id="imagick.quantizeimages" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Imagick::quantizeImages</refname>
-  <refpurpose>Analyzes the colors within a sequence of images</refpurpose>
+  <refpurpose>Reduces the number of colors in a sequence of images</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -16,6 +16,16 @@
    <methodparam><type>bool</type><parameter>dither</parameter></methodparam>
    <methodparam><type>bool</type><parameter>measureError</parameter></methodparam>
   </methodsynopsis>
+  <simpara>
+   Reduces the number of unique colors in all the images of the sequence to
+   at most <parameter>numberColors</parameter>. Unlike
+   <methodname>Imagick::quantizeImage</methodname>, which only processes the
+   current image, the colors of all the images are analyzed together to
+   choose a single set of colors which best represents the whole sequence,
+   and the pixels of every image are then mapped to the colors of that
+   set. This is useful, for example, to produce frames sharing a common
+   palette for an animated GIF.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,6 +36,9 @@
      <term><parameter>numberColors</parameter></term>
      <listitem>
       <simpara>
+      The maximum number of colors in the resulting images. If
+      <literal>0</literal>, or a value greater than the maximum colormap size
+      supported by ImageMagick, is given, the maximum colormap size is used.
       </simpara>
      </listitem>
     </varlistentry>
@@ -33,6 +46,9 @@
      <term><parameter>colorspace</parameter></term>
      <listitem>
       <simpara>
+      The colorspace in which the color reduction is performed, one of the
+      <link linkend="imagick.constants.colorspace">COLORSPACE constants</link>,
+      typically <constant>Imagick::COLORSPACE_RGB</constant>.
       </simpara>
      </listitem>
     </varlistentry>
@@ -40,6 +56,14 @@
      <term><parameter>treedepth</parameter></term>
      <listitem>
       <simpara>
+      The depth of the color classification tree. If <literal>0</literal>,
+      an optimal depth is computed from <parameter>numberColors</parameter>,
+      which generally gives the best representation of the images with the
+      least amount of memory and the fastest computational speed. Other values
+      are clamped between <literal>2</literal> and <literal>8</literal>. A
+      different depth may be required for images with a low color dispersion
+      (only a few colors), and a value of <literal>8</literal> expands the
+      color tree completely.
       </simpara>
      </listitem>
     </varlistentry>
@@ -47,13 +71,26 @@
      <term><parameter>dither</parameter></term>
      <listitem>
       <simpara>
+      Whether to distribute the color error between neighboring pixels
+      (dithering), which reduces color banding at the cost of some noise.
       </simpara>
+      <caution>
+       <simpara>
+        When Imagick is compiled against ImageMagick 7, this value is passed
+        to ImageMagick as a dither method rather than as a boolean, which
+        inverts its meaning: &true; disables dithering, while &false;
+        enables Floyd-Steinberg dithering.
+       </simpara>
+      </caution>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>measureError</parameter></term>
      <listitem>
       <simpara>
+      Whether to measure the difference between the original and the
+      quantized images (the total quantization error). This does not change
+      the resulting images.
       </simpara>
      </listitem>
     </varlistentry>
