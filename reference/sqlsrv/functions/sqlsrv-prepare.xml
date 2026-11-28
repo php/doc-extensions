@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>sqlsrv_prepare</methodname>
+   <type class="union"><type>resource</type><type>false</type></type><methodname>sqlsrv_prepare</methodname>
    <methodparam><type>resource</type><parameter>conn</parameter></methodparam>
    <methodparam><type>string</type><parameter>sql</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>params</parameter></methodparam>

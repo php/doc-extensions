@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>sqlsrv_server_info</methodname>
+   <type class="union"><type>array</type><type>false</type></type><methodname>sqlsrv_server_info</methodname>
    <methodparam><type>resource</type><parameter>conn</parameter></methodparam>
   </methodsynopsis>
   <simpara>
@@ -33,7 +33,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Returns an array as described in the following table:
+   Returns an array as described in the following table, or &false; on failure:
   <table>
   <title>Returned Array</title>
    <tgroup cols="2">

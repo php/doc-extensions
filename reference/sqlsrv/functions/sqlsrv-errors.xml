@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <!-- Example: All functions have this -->
-   <type>mixed</type><methodname>sqlsrv_errors</methodname>
+   <type class="union"><type>array</type><type>false</type><type>null</type></type><methodname>sqlsrv_errors</methodname>
    <methodparam choice="opt"><type>int</type><parameter>errorsOrWarnings</parameter></methodparam>
   </methodsynopsis>
   <simpara>
@@ -39,8 +39,9 @@
   <para>
    If errors and/or warnings occurred on the last sqlsrv operation, an array of
    arrays containing error information is returned. If no errors and/or warnings
-   occurred on the last sqlsrv operation, &null; is returned. The following table
-   describes the structure of the returned arrays:
+   occurred on the last sqlsrv operation, &null; is returned. If an invalid
+   <parameter>errorsOrWarnings</parameter> value is given, &false; is returned.
+   The following table describes the structure of the returned arrays:
    <table>
    <title>Array returned by sqlsrv_errors</title>
    <tgroup cols="2">

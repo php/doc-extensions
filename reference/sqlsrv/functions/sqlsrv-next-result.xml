@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>sqlsrv_next_result</methodname>
+   <type class="union"><type>bool</type><type>null</type></type><methodname>sqlsrv_next_result</methodname>
    <!-- Example: Required parameter -->
    <methodparam><type>resource</type><parameter>stmt</parameter></methodparam>
   </methodsynopsis>

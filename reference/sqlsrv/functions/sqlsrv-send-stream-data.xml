@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>sqlsrv_send_stream_data</methodname>
+   <type class="union"><type>bool</type><type>null</type></type><methodname>sqlsrv_send_stream_data</methodname>
    <methodparam><type>resource</type><parameter>stmt</parameter></methodparam>
   </methodsynopsis>
   <simpara>
@@ -35,7 +35,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Returns &true; if there is more data to send and &false; if there is not.
+   Returns &true; if there is more data to send, &null; if all of the data has
+   been sent, and &false; if an error occurred.
   </simpara>
  </refsect1>
 

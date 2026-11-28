@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <!-- Example: All functions have this -->
-   <type>mixed</type><methodname>sqlsrv_fetch</methodname>
+   <type class="union"><type>bool</type><type>null</type></type><methodname>sqlsrv_fetch</methodname>
    <methodparam><type>resource</type><parameter>stmt</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>row</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>offset</parameter></methodparam>
