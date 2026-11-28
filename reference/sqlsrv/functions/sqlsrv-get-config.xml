@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>sqlsrv_get_config</methodname>
+   <type class="union"><type>int</type><type>bool</type></type><methodname>sqlsrv_get_config</methodname>
    <methodparam><type>string</type><parameter>setting</parameter></methodparam>
   </methodsynopsis>
   <simpara>

@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>sqlsrv_fetch_object</methodname>
+   <type class="union"><type>object</type><type>false</type><type>null</type></type><methodname>sqlsrv_fetch_object</methodname>
    <methodparam><type>resource</type><parameter>stmt</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>className</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>ctorParams</parameter></methodparam>
